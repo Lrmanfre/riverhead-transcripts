@@ -1,0 +1,75 @@
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: Georgia, serif; font-size: 18px; line-height: 1.7; color: #1a1a1a; background: #fafaf8; }
+a { color: #1a5c8a; text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+.site-header { background: #1a3a5c; color: white; padding: 1.5rem 2rem; }
+.site-header h1 { font-size: 1.5rem; font-weight: normal; letter-spacing: .02em; }
+.site-header p { font-size: .9rem; opacity: .8; margin-top: .25rem; }
+.site-header a { color: white; }
+
+.container { max-width: 860px; margin: 0 auto; padding: 2rem 1.5rem; }
+
+#search { margin: 2rem 0; }
+.pagefind-ui__search-input { font-family: inherit !important; font-size: 1.1rem !important; }
+.pagefind-ui__result-title a { color: #1a5c8a !important; }
+
+.category-section { margin-bottom: 2.5rem; }
+.category-section h2 { font-size: 1rem; font-weight: bold; text-transform: uppercase;
+  letter-spacing: .08em; color: #555; border-bottom: 2px solid #ddd;
+  padding-bottom: .4rem; margin-bottom: 1rem; }
+.meeting-list { list-style: none; }
+.meeting-list li { display: flex; justify-content: space-between; align-items: baseline;
+  padding: .4rem 0; border-bottom: 1px solid #eee; gap: 1rem; flex-wrap: wrap; }
+.meeting-list .date { font-size: .85rem; color: #666; white-space: nowrap; }
+.badge { display: inline-block; padding: .1rem .4rem; border-radius: 3px;
+  background: #e8f0f8; color: #1a5c8a; font-size: .75rem; margin-left: .3rem; }
+
+.meeting-meta { background: #f0f4f8; border-left: 4px solid #1a5c8a;
+  padding: 1rem 1.5rem; margin-bottom: 1.5rem; font-size: .95rem; }
+.meeting-meta h1 { font-size: 1.4rem; margin-bottom: .5rem; }
+.meeting-meta .meta-row { margin-top: .4rem; color: #444; }
+.doc-links { margin-top: .75rem; }
+.doc-links a { display: inline-block; margin-right: .75rem; font-size: .85rem;
+  padding: .25rem .6rem; border: 1px solid #1a5c8a; border-radius: 3px; }
+.doc-links a:hover { background: #1a5c8a; color: white; }
+
+.video-wrap { margin-bottom: 1.5rem; background: #000; border-radius: 4px; overflow: hidden; }
+.video-wrap video { width: 100%; display: block; max-height: 480px; }
+
+/* Timestamped view — sits directly below video */
+.transcript-timestamped { margin-bottom: 2.5rem; }
+.transcript-timestamped h2,
+.transcript-readable h2 { font-size: 1rem; text-transform: uppercase;
+  letter-spacing: .08em; color: #888; margin-bottom: 1.2rem; }
+
+.toggle-btn { display: inline-block; margin: 0 0 1.5rem; padding: .4rem 1rem;
+  font-size: .85rem; font-family: inherit; background: #f0f4f8;
+  border: 1px solid #aac; border-radius: 3px; cursor: pointer; color: #1a5c8a; }
+.toggle-btn:hover { background: #dce8f4; }
+
+#timestamped-view { display: none; }
+#timestamped-view.open { display: block; }
+
+.segment { display: flex; gap: 1rem; margin-bottom: .5rem; align-items: flex-start; }
+.segment .ts { font-family: monospace; font-size: .78rem; color: #bbb;
+  white-space: nowrap; padding-top: .3rem; flex-shrink: 0; width: 3.5rem; text-align: right; }
+.segment .ts a { color: #bbb; cursor: pointer; }
+.segment .ts a:hover { color: #1a5c8a; }
+.segment.active .text { background: #fff8dc; border-radius: 3px; padding: 0 4px; }
+
+/* Readable transcript — sits below timestamped */
+.transcript-readable { margin-top: 1rem; }
+.transcript-readable p { margin-bottom: 1.1rem; }
+
+.breadcrumb { font-size: .85rem; margin-bottom: 1.5rem; color: #888; }
+.breadcrumb a { color: #1a5c8a; }
+
+.site-footer { margin-top: 4rem; padding: 1.5rem 2rem; border-top: 1px solid #ddd;
+  font-size: .85rem; color: #888; text-align: center; }
+
+@media (max-width: 600px) {
+  body { font-size: 16px; }
+  .segment .ts { display: none; }
+}
