@@ -42,6 +42,7 @@ META_FIELDS = {
     "minutes_pdf_url":  "minutes_pdf_url",
     "location":         "location",
     "status":           "status",
+    "video_url":        "video_url",
 }
 
 # ---------------------------------------------------------------------------

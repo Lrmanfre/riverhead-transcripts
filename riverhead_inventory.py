@@ -57,20 +57,27 @@ def parse_date(date_str):
 
 
 def get_video_url(event):
-    """
-    Return the direct .mp4 CDN URL for an event.
-    Tries the event record first; falls back to GetEventMediaSummary.
-    """
-    url = (event.get("mediaSourcePathMp4") or "").strip()
+    CDN_BASE = "https://cpmedia.azureedge.net/riverheadny/"
+
+    def normalize(url):
+        url = (url or "").strip()
+        if not url:
+            return ""
+        if url.startswith("http"):
+            return url
+        if "RIVERHEADNY/" in url:
+            filename = url.split("RIVERHEADNY/")[-1]
+            return CDN_BASE + filename
+        return ""
+
+    url = normalize(event.get("mediaSourcePathMp4"))
     if url:
         return url
-    # Fallback for older events that don't embed the URL directly
+
     eid = event["id"]
     try:
-        data = fetch_json(
-            "{}/Events({})/GetEventMediaSummary".format(API_BASE, eid)
-        )
-        url = (data.get("mediaSourcePathMp4") or "").strip()
+        data = fetch_json("{}/Events({})/GetEventMediaSummary".format(API_BASE, eid))
+        url = normalize(data.get("mediaSourcePathMp4"))
         if url:
             return url
     except Exception:
