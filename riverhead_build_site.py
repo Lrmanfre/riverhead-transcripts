@@ -455,6 +455,8 @@ def main():
     with open(os.path.join(assets_dir, "style.css"), "w", encoding="utf-8") as f:
         f.write(CSS)
     open(os.path.join(OUTPUT_DIR, ".nojekyll"), "w").close()
+    with open(os.path.join(OUTPUT_DIR, "CNAME"), "w") as f:
+    f.write("riverheadtranscripts.org\n")
 
     print("Building meeting pages ...")
     built = 0
