@@ -27,7 +27,7 @@ from collections import defaultdict
 TRANSCRIPTS_DIR = "transcripts"
 OUTPUT_DIR      = "docs"
 SITE_TITLE      = "Riverhead Town Meeting Transcripts"
-SITE_DESC       = "Searchable public record of Riverhead Town government meetings."
+SITE_DESC       = "Searchable public record of Riverhead Town government meetings. Note: Some transcripts have repeating artifacts/words that will be addressed in a later build."
 PORTAL_BASE     = "https://riverheadny.portal.civicclerk.com"
 PARAGRAPH_PAUSE = 3.0
 
