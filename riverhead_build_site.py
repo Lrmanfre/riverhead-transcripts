@@ -441,14 +441,14 @@ def main():
     if os.path.exists(pagefind_dir):
         import tempfile
         backup = tempfile.mkdtemp()
-        shutil.copytree(pagefind_dir, os.path.join(backup, "_pagefind"))
+        shutil.move(pagefind_dir, os.path.join(backup, "_pagefind"))
 
     if os.path.exists(OUTPUT_DIR):
         shutil.rmtree(OUTPUT_DIR)
     os.makedirs(OUTPUT_DIR)
 
     if backup:
-        shutil.copytree(os.path.join(backup, "_pagefind"), pagefind_dir)
+        shutil.move(os.path.join(backup, "_pagefind"), pagefind_dir)
         shutil.rmtree(backup)
 
     assets_dir = os.path.join(OUTPUT_DIR, "assets")
