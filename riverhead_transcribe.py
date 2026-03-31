@@ -14,11 +14,23 @@ Videos are deleted after transcription to save disk space.
 
 Usage:
     pip3 install mlx-whisper --break-system-packages
+
+    # Process only meetings from the last 14 days (default):
     python3 riverhead_transcribe.py
+
+    # Process meetings from the last N days:
+    python3 riverhead_transcribe.py --days 30
+
+    # Process meetings on or after a specific date:
+    python3 riverhead_transcribe.py --since 2026-01-01
+
+    # Process all meetings (full backfill):
+    python3 riverhead_transcribe.py --all
 
 Requirements: mlx-whisper, Python 3.6+
 """
 
+import argparse
 import csv
 import json
 import os
@@ -26,7 +38,7 @@ import re
 import sys
 import time
 import urllib.request
-from datetime import datetime
+from datetime import datetime, timedelta
 
 # ---------------------------------------------------------------------------
 # Configuration
@@ -142,17 +154,74 @@ def save_transcript(result, txt_path, json_path, meta):
 # Main
 # ---------------------------------------------------------------------------
 
-def load_meetings(csv_path):
-    """Read CSV and return rows that have a video URL."""
+def load_meetings(csv_path, since_date=None):
+    """Read CSV and return rows that have a video URL.
+
+    Args:
+        since_date: datetime.date or None. If set, only rows with
+                    event_date >= since_date are returned.
+    """
     meetings = []
     with open(csv_path, newline="", encoding="utf-8") as f:
         for row in csv.DictReader(f):
-            if row.get("video_url", "").strip():
-                meetings.append(row)
+            if not row.get("video_url", "").strip():
+                continue
+            if since_date is not None:
+                raw = row.get("event_date", "").strip()
+                try:
+                    row_date = datetime.strptime(raw, "%Y-%m-%d").date()
+                except ValueError:
+                    continue   # skip rows with unparseable dates
+                if row_date < since_date:
+                    continue
+            meetings.append(row)
     return meetings
 
 
+def parse_args():
+    parser = argparse.ArgumentParser(
+        description="Transcribe Riverhead town meeting videos.",
+    )
+    group = parser.add_mutually_exclusive_group()
+    group.add_argument(
+        "--days",
+        type=int,
+        default=14,
+        metavar="N",
+        help="Process meetings from the last N days (default: 14).",
+    )
+    group.add_argument(
+        "--since",
+        metavar="YYYY-MM-DD",
+        help="Process meetings on or after this date.",
+    )
+    group.add_argument(
+        "--all",
+        action="store_true",
+        dest="all_meetings",
+        help="Process ALL meetings (full backfill — slow).",
+    )
+    return parser.parse_args()
+
+
 def main():
+    args = parse_args()
+
+    # Determine the date filter
+    if args.all_meetings:
+        since_date = None
+        date_label = "all dates"
+    elif args.since:
+        try:
+            since_date = datetime.strptime(args.since, "%Y-%m-%d").date()
+        except ValueError:
+            print("ERROR: --since must be YYYY-MM-DD, got: {}".format(args.since))
+            sys.exit(1)
+        date_label = "on or after {}".format(since_date)
+    else:
+        since_date = (datetime.now() - timedelta(days=args.days)).date()
+        date_label = "last {} days (since {})".format(args.days, since_date)
+
     # Verify mlx_whisper is importable before doing any work
     try:
         import mlx_whisper  # noqa: F401
@@ -168,16 +237,22 @@ def main():
     os.makedirs(OUTPUT_DIR, exist_ok=True)
     os.makedirs(TEMP_VIDEO_DIR, exist_ok=True)
 
-    meetings = load_meetings(INPUT_CSV)
+    meetings = load_meetings(INPUT_CSV, since_date=since_date)
     total    = len(meetings)
 
     print("=" * 60)
     print("Riverhead Meeting Transcription Pipeline")
     print("Model  : {}".format(MODEL))
-    print("Meetings with video: {}".format(total))
+    print("Filter : {}".format(date_label))
+    print("Meetings with video in range: {}".format(total))
     print("Output : {}".format(OUTPUT_DIR))
     print("=" * 60)
     print()
+
+    if total == 0:
+        print("No meetings found for the specified date range.")
+        print("Try a wider range with --days 30 or --all.")
+        return
 
     done_count    = 0
     skipped_count = 0
