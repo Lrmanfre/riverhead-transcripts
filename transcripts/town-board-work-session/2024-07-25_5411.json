@@ -14,7 +14,7 @@
     "location": "",
     "status": "Published"
   },
-  "transcript": "Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you.",
+  "transcript": "Thank you. [transcription gap]",
   "segments": [
     {
       "start": 0.0,
@@ -23,58 +23,8 @@
     },
     {
       "start": 30.0,
-      "end": 59.98,
-      "text": "Thank you."
-    },
-    {
-      "start": 60.0,
-      "end": 89.98,
-      "text": "Thank you."
-    },
-    {
-      "start": 90.0,
-      "end": 119.98,
-      "text": "Thank you."
-    },
-    {
-      "start": 120.0,
-      "end": 149.98,
-      "text": "Thank you."
-    },
-    {
-      "start": 150.0,
-      "end": 179.98,
-      "text": "Thank you."
-    },
-    {
-      "start": 180.0,
-      "end": 209.98,
-      "text": "Thank you."
-    },
-    {
-      "start": 210.0,
-      "end": 213.86,
-      "text": "Thank you."
-    },
-    {
-      "start": 240.0,
-      "end": 269.98,
-      "text": "Thank you."
-    },
-    {
-      "start": 270.0,
-      "end": 299.98,
-      "text": "Thank you."
-    },
-    {
-      "start": 300.0,
-      "end": 301.0,
-      "text": "Thank you."
-    },
-    {
-      "start": 330.0,
       "end": 359.98,
-      "text": "Thank you."
+      "text": "[transcription gap]"
     }
   ]
 }
