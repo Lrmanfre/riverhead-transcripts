@@ -4,10 +4,13 @@ body { font-family: Georgia, serif; font-size: 18px; line-height: 1.7; color: #1
 a { color: #1a5c8a; text-decoration: none; }
 a:hover { text-decoration: underline; }
 
-.site-header { background: #1a3a5c; color: white; padding: 1.5rem 2rem; }
+.site-header { background: #1a3a5c; color: white; padding: 1.5rem 2rem;
+  display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; gap: .5rem; }
+.site-header .header-left { flex: 1; }
 .site-header h1 { font-size: 1.5rem; font-weight: normal; letter-spacing: .02em; }
 .site-header p { font-size: .9rem; opacity: .8; margin-top: .25rem; }
 .site-header a { color: white; }
+.site-header .build-stamp { font-size: .75rem; opacity: .5; white-space: nowrap; padding-top: .3rem; }
 
 .container { max-width: 860px; margin: 0 auto; padding: 2rem 1.5rem; }
 
@@ -68,6 +71,16 @@ a:hover { text-decoration: underline; }
 
 .site-footer { margin-top: 4rem; padding: 1.5rem 2rem; border-top: 1px solid #ddd;
   font-size: .85rem; color: #888; text-align: center; }
+
+.meeting-list-hidden { display: none; }
+.meeting-list-hidden.open { display: contents; }
+.expand-btn { display: inline-flex; align-items: center; gap: .4rem;
+  margin-top: .5rem; padding: .35rem .8rem; font-family: inherit;
+  font-size: .85rem; color: #1a5c8a; background: #f0f4f8;
+  border: 1px solid #aac; border-radius: 3px; cursor: pointer; }
+.expand-btn:hover { background: #dce8f4; }
+.expand-btn .chevron { font-size: .7rem; transition: transform .2s; display: inline-block; }
+.expand-btn .chevron.up { transform: rotate(180deg); }
 
 @media (max-width: 600px) {
   body { font-size: 16px; }

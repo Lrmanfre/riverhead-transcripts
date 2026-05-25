@@ -30,6 +30,7 @@ SITE_TITLE      = "Riverhead Town Meeting Transcripts"
 SITE_DESC       = "Searchable public record of Riverhead Town government meetings."
 PORTAL_BASE     = "https://riverheadny.portal.civicclerk.com"
 PARAGRAPH_PAUSE = 3.0
+BUILD_TIME      = datetime.now().strftime("%b %-d, %Y at %-I:%M %p")
 
 # ---------------------------------------------------------------------------
 # Helpers
@@ -95,10 +96,13 @@ body { font-family: Georgia, serif; font-size: 18px; line-height: 1.7; color: #1
 a { color: #1a5c8a; text-decoration: none; }
 a:hover { text-decoration: underline; }
 
-.site-header { background: #1a3a5c; color: white; padding: 1.5rem 2rem; }
+.site-header { background: #1a3a5c; color: white; padding: 1.5rem 2rem;
+  display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; gap: .5rem; }
+.site-header .header-left { flex: 1; }
 .site-header h1 { font-size: 1.5rem; font-weight: normal; letter-spacing: .02em; }
 .site-header p { font-size: .9rem; opacity: .8; margin-top: .25rem; }
 .site-header a { color: white; }
+.site-header .build-stamp { font-size: .75rem; opacity: .5; white-space: nowrap; padding-top: .3rem; }
 
 .container { max-width: 860px; margin: 0 auto; padding: 2rem 1.5rem; }
 
@@ -160,6 +164,16 @@ a:hover { text-decoration: underline; }
 .site-footer { margin-top: 4rem; padding: 1.5rem 2rem; border-top: 1px solid #ddd;
   font-size: .85rem; color: #888; text-align: center; }
 
+.meeting-list-hidden { display: none; }
+.meeting-list-hidden.open { display: contents; }
+.expand-btn { display: inline-flex; align-items: center; gap: .4rem;
+  margin-top: .5rem; padding: .35rem .8rem; font-family: inherit;
+  font-size: .85rem; color: #1a5c8a; background: #f0f4f8;
+  border: 1px solid #aac; border-radius: 3px; cursor: pointer; }
+.expand-btn:hover { background: #dce8f4; }
+.expand-btn .chevron { font-size: .7rem; transition: transform .2s; display: inline-block; }
+.expand-btn .chevron.up { transform: rotate(180deg); }
+
 @media (max-width: 600px) {
   body { font-size: 16px; }
   .segment .ts { display: none; }
@@ -186,9 +200,12 @@ def html_head(title, depth=0):
 def html_header(depth=0):
     rel = "../" * depth
     return """<header class="site-header">
-  <a href="{rel}index.html"><h1>{t}</h1></a>
-  <p>{d}</p>
-</header>""".format(rel=rel, t=SITE_TITLE, d=SITE_DESC)
+  <div class="header-left">
+    <a href="{rel}index.html"><h1>{t}</h1></a>
+    <p>{d}</p>
+  </div>
+  <div class="build-stamp">Updated {bt}</div>
+</header>""".format(rel=rel, t=SITE_TITLE, d=SITE_DESC, bt=BUILD_TIME)
 
 def html_footer():
     return """<footer class="site-footer">
@@ -368,8 +385,10 @@ def build_index(all_records, output_path):
     ordered = [c for c in PRIORITY if c in by_category]
     ordered += sorted(c for c in by_category if c not in PRIORITY)
 
+    INITIAL_SHOW = 10
+
     sections = []
-    for cat in ordered:
+    for idx, cat in enumerate(ordered):
         records = by_category[cat]
         items = []
         for r in records:
@@ -386,11 +405,29 @@ def build_index(all_records, output_path):
                 '<li><a href="{}">{}</a>'
                 '<span class="date">{}{}</span></li>'.format(
                     href, title, display, badges))
+
+        visible = "\n".join(items[:INITIAL_SHOW])
+        hidden_count = len(items) - INITIAL_SHOW
+
+        if hidden_count > 0:
+            hidden = "\n".join(items[INITIAL_SHOW:])
+            expand_id = "expand-{}".format(idx)
+            list_html = (
+                '<ul class="meeting-list">{visible}'
+                '<span id="{eid}" class="meeting-list-hidden">{hidden}</span>'
+                '</ul>'
+                '<button class="expand-btn" onclick="toggleCategory(this, \'{eid}\')">'
+                '<span class="chevron">&#9660;</span> Show {n} more'
+                '</button>'.format(
+                    visible=visible, hidden=hidden, eid=expand_id, n=hidden_count))
+        else:
+            list_html = '<ul class="meeting-list">{}</ul>'.format(visible)
+
         sections.append(
             '<section class="category-section">'
             '<h2>{} <small style="font-weight:normal;font-size:.8em;color:#aaa;">({n})</small></h2>'
-            '<ul class="meeting-list">{items}</ul>'
-            '</section>'.format(cat, n=len(records), items="\n".join(items)))
+            '{list_html}'
+            '</section>'.format(cat, n=len(records), list_html=list_html))
 
     html = """{head}
 <body>
@@ -402,6 +439,19 @@ def build_index(all_records, output_path):
       new PagefindUI({{ element: '#search', showSubResults: true,
         showImages: false, excerptLength: 40, resetStyles: false }});
     }});
+  </script>
+  <script>
+    function toggleCategory(btn, id) {{
+      var el = document.getElementById(id);
+      var chevron = btn.querySelector('.chevron');
+      var open = el.classList.toggle('open');
+      chevron.classList.toggle('up', open);
+      var n = btn.getAttribute('data-count') || btn.textContent.match(/\\d+/)[0];
+      if (!btn.getAttribute('data-count')) btn.setAttribute('data-count', n);
+      btn.innerHTML = open
+        ? '<span class="chevron up">&#9660;</span> Show fewer'
+        : '<span class="chevron">&#9660;</span> Show ' + n + ' more';
+    }}
   </script>
   <h2 style="font-size:.9rem;text-transform:uppercase;letter-spacing:.08em;
              color:#aaa;margin:2rem 0 1.5rem;">

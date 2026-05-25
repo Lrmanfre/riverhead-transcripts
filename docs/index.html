@@ -10,8 +10,11 @@
 </head>
 <body>
 <header class="site-header">
-  <a href="index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
-  <p>Searchable public record of Riverhead Town government meetings.</p>
+  <div class="header-left">
+    <a href="index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
+    <p>Searchable public record of Riverhead Town government meetings.</p>
+  </div>
+  <div class="build-stamp">Updated May 25, 2026 at 10:16 AM</div>
 </header>
 <main class="container">
   <div id="search"></div>
@@ -20,6 +23,19 @@
       new PagefindUI({ element: '#search', showSubResults: true,
         showImages: false, excerptLength: 40, resetStyles: false });
     });
+  </script>
+  <script>
+    function toggleCategory(btn, id) {
+      var el = document.getElementById(id);
+      var chevron = btn.querySelector('.chevron');
+      var open = el.classList.toggle('open');
+      chevron.classList.toggle('up', open);
+      var n = btn.getAttribute('data-count') || btn.textContent.match(/\d+/)[0];
+      if (!btn.getAttribute('data-count')) btn.setAttribute('data-count', n);
+      btn.innerHTML = open
+        ? '<span class="chevron up">&#9660;</span> Show fewer'
+        : '<span class="chevron">&#9660;</span> Show ' + n + ' more';
+    }
   </script>
   <h2 style="font-size:.9rem;text-transform:uppercase;letter-spacing:.08em;
              color:#aaa;margin:2rem 0 1.5rem;">
@@ -34,8 +50,7 @@
 <li><a href="meetings/town-board/2025-12-30_6550.html">Special Town Board Meeting</a><span class="date">December 30, 2025<span class="badge">Agenda</span></span></li>
 <li><a href="meetings/town-board/2025-12-16_23.html">Town Board Meeting</a><span class="date">December 16, 2025<span class="badge">Agenda</span></span></li>
 <li><a href="meetings/town-board/2025-12-02_11.html">Town Board Meeting</a><span class="date">December 2, 2025<span class="badge">Agenda</span></span></li>
-<li><a href="meetings/town-board/2025-11-18_22.html">Town Board Meeting</a><span class="date">November 18, 2025<span class="badge">Agenda</span></span></li>
-<li><a href="meetings/town-board/2025-11-06_10.html">Town Board Meeting</a><span class="date">November 6, 2025<span class="badge">Agenda</span></span></li>
+<li><a href="meetings/town-board/2025-11-18_22.html">Town Board Meeting</a><span class="date">November 18, 2025<span class="badge">Agenda</span></span></li><span id="expand-0" class="meeting-list-hidden"><li><a href="meetings/town-board/2025-11-06_10.html">Town Board Meeting</a><span class="date">November 6, 2025<span class="badge">Agenda</span></span></li>
 <li><a href="meetings/town-board/2025-10-21_21.html">Town Board Meeting</a><span class="date">October 21, 2025<span class="badge">Agenda</span></span></li>
 <li><a href="meetings/town-board/2025-10-16_6420.html">Qualified and Eligible Public Hearing</a><span class="date">October 16, 2025<span class="badge">Agenda</span></span></li>
 <li><a href="meetings/town-board/2025-10-07_9.html">Town Board Meeting</a><span class="date">October 7, 2025<span class="badge">Agenda</span></span></li>
@@ -92,7 +107,7 @@
 <li><a href="meetings/town-board/2024-02-06_1545.html">Town Board Meeting</a><span class="date">February 6, 2024<span class="badge">Agenda</span></span></li>
 <li><a href="meetings/town-board/2024-01-17_1378.html">Town Board Meeting</a><span class="date">January 17, 2024<span class="badge">Agenda</span></span></li>
 <li><a href="meetings/town-board/2024-01-03_1264.html">Town Board Meeting</a><span class="date">January 3, 2024<span class="badge">Agenda</span></span></li>
-<li><a href="meetings/town-board/2024-01-01_1223.html">Town Board Meeting</a><span class="date">January 1, 2024<span class="badge">Agenda</span></span></li></ul></section>
+<li><a href="meetings/town-board/2024-01-01_1223.html">Town Board Meeting</a><span class="date">January 1, 2024<span class="badge">Agenda</span></span></li></span></ul><button class="expand-btn" onclick="toggleCategory(this, 'expand-0')"><span class="chevron">&#9660;</span> Show 58 more</button></section>
 <section class="category-section"><h2>Town Board Work Session <small style="font-weight:normal;font-size:.8em;color:#aaa;">(96)</small></h2><ul class="meeting-list"><li><a href="meetings/town-board-work-session/2026-03-19_6471.html">Town Board Work Session</a><span class="date">March 19, 2026<span class="badge">Agenda</span></span></li>
 <li><a href="meetings/town-board-work-session/2026-03-12_6470.html">Town Board Work Session</a><span class="date">March 12, 2026<span class="badge">Agenda</span></span></li>
 <li><a href="meetings/town-board-work-session/2026-03-05_6469.html">Town Board Work Session</a><span class="date">March 5, 2026<span class="badge">Agenda</span></span></li>
@@ -102,8 +117,7 @@
 <li><a href="meetings/town-board-work-session/2026-01-29_6464.html">Town Board Work Session</a><span class="date">January 29, 2026<span class="badge">Agenda</span></span></li>
 <li><a href="meetings/town-board-work-session/2026-01-22_6463.html">Town Board Work Session</a><span class="date">January 22, 2026<span class="badge">Agenda</span></span></li>
 <li><a href="meetings/town-board-work-session/2026-01-15_6462.html">Town Board Work Session</a><span class="date">January 15, 2026<span class="badge">Agenda</span></span></li>
-<li><a href="meetings/town-board-work-session/2026-01-08_6461.html">Town Board Work Session</a><span class="date">January 8, 2026<span class="badge">Agenda</span></span></li>
-<li><a href="meetings/town-board-work-session/2026-01-02_6603.html">Town Board Work Session</a><span class="date">January 2, 2026<span class="badge">Agenda</span></span></li>
+<li><a href="meetings/town-board-work-session/2026-01-08_6461.html">Town Board Work Session</a><span class="date">January 8, 2026<span class="badge">Agenda</span></span></li><span id="expand-1" class="meeting-list-hidden"><li><a href="meetings/town-board-work-session/2026-01-02_6603.html">Town Board Work Session</a><span class="date">January 2, 2026<span class="badge">Agenda</span></span></li>
 <li><a href="meetings/town-board-work-session/2025-12-18_151.html">Town Board Work Session</a><span class="date">December 18, 2025<span class="badge">Agenda</span></span></li>
 <li><a href="meetings/town-board-work-session/2025-12-11_150.html">Town Board Work Session</a><span class="date">December 11, 2025<span class="badge">Agenda</span></span></li>
 <li><a href="meetings/town-board-work-session/2025-12-04_149.html">Town Board Work Session</a><span class="date">December 4, 2025<span class="badge">Agenda</span></span></li>
@@ -188,7 +202,7 @@
 <li><a href="meetings/town-board-work-session/2024-01-29_5124.html">Town Board Work Session Meeting</a><span class="date">January 29, 2024<span class="badge">Agenda</span></span></li>
 <li><a href="meetings/town-board-work-session/2024-01-25_5117.html">Town Board Work Session Meeting</a><span class="date">January 25, 2024<span class="badge">Agenda</span></span></li>
 <li><a href="meetings/town-board-work-session/2024-01-11_5097.html">Town Board Work Session Meeting</a><span class="date">January 11, 2024<span class="badge">Agenda</span></span></li>
-<li><a href="meetings/town-board-work-session/2024-01-04_5085.html">Town Board Work Session Meeting</a><span class="date">January 4, 2024<span class="badge">Agenda</span></span></li></ul></section>
+<li><a href="meetings/town-board-work-session/2024-01-04_5085.html">Town Board Work Session Meeting</a><span class="date">January 4, 2024<span class="badge">Agenda</span></span></li></span></ul><button class="expand-btn" onclick="toggleCategory(this, 'expand-1')"><span class="chevron">&#9660;</span> Show 86 more</button></section>
 <section class="category-section"><h2>Planning Board <small style="font-weight:normal;font-size:.8em;color:#aaa;">(51)</small></h2><ul class="meeting-list"><li><a href="meetings/planning-board/2026-03-19_6527.html">Planning Board Meeting</a><span class="date">March 19, 2026<span class="badge">Agenda</span></span></li>
 <li><a href="meetings/planning-board/2026-03-05_6515.html">Planning Board Meeting</a><span class="date">March 5, 2026<span class="badge">Agenda</span></span></li>
 <li><a href="meetings/planning-board/2026-02-19_6526.html">Planning Board Meeting</a><span class="date">February 19, 2026<span class="badge">Agenda</span></span></li>
@@ -198,8 +212,7 @@
 <li><a href="meetings/planning-board/2025-12-04_41.html">Planning Board Meeting</a><span class="date">December 4, 2025<span class="badge">Agenda</span></span></li>
 <li><a href="meetings/planning-board/2025-11-20_53.html">Planning Board Meeting</a><span class="date">November 20, 2025<span class="badge">Agenda</span></span></li>
 <li><a href="meetings/planning-board/2025-11-06_40.html">Planning Board Meeting</a><span class="date">November 6, 2025<span class="badge">Agenda</span></span></li>
-<li><a href="meetings/planning-board/2025-10-16_52.html">Planning Board Meeting</a><span class="date">October 16, 2025<span class="badge">Agenda</span></span></li>
-<li><a href="meetings/planning-board/2025-10-02_39.html">Planning Board Meeting</a><span class="date">October 2, 2025<span class="badge">Agenda</span></span></li>
+<li><a href="meetings/planning-board/2025-10-16_52.html">Planning Board Meeting</a><span class="date">October 16, 2025<span class="badge">Agenda</span></span></li><span id="expand-2" class="meeting-list-hidden"><li><a href="meetings/planning-board/2025-10-02_39.html">Planning Board Meeting</a><span class="date">October 2, 2025<span class="badge">Agenda</span></span></li>
 <li><a href="meetings/planning-board/2025-09-18_51.html">Planning Board Meeting</a><span class="date">September 18, 2025<span class="badge">Agenda</span></span></li>
 <li><a href="meetings/planning-board/2025-09-04_38.html">Planning Board Meeting</a><span class="date">September 4, 2025<span class="badge">Agenda</span></span></li>
 <li><a href="meetings/planning-board/2025-08-21_989.html">Planning Board Meeting</a><span class="date">August 21, 2025<span class="badge">Agenda</span></span></li>
@@ -239,7 +252,7 @@
 <li><a href="meetings/planning-board/2024-02-15_815.html">Planning Board Meeting</a><span class="date">February 15, 2024<span class="badge">Agenda</span></span></li>
 <li><a href="meetings/planning-board/2024-02-01_801.html">Planning Board Meeting</a><span class="date">February 1, 2024<span class="badge">Agenda</span></span></li>
 <li><a href="meetings/planning-board/2024-01-18_793.html">Planning Board Meeting</a><span class="date">January 18, 2024<span class="badge">Agenda</span></span></li>
-<li><a href="meetings/planning-board/2024-01-04_779.html">Planning Board Meeting</a><span class="date">January 4, 2024<span class="badge">Agenda</span></span></li></ul></section>
+<li><a href="meetings/planning-board/2024-01-04_779.html">Planning Board Meeting</a><span class="date">January 4, 2024<span class="badge">Agenda</span></span></li></span></ul><button class="expand-btn" onclick="toggleCategory(this, 'expand-2')"><span class="chevron">&#9660;</span> Show 41 more</button></section>
 <section class="category-section"><h2>Zoning Board of Appeals <small style="font-weight:normal;font-size:.8em;color:#aaa;">(39)</small></h2><ul class="meeting-list"><li><a href="meetings/zoning-board-of-appeals/2026-02-26_3887.html">Zoning Board of Appeals</a><span class="date">February 26, 2026<span class="badge">Agenda</span></span></li>
 <li><a href="meetings/zoning-board-of-appeals/2026-02-12_3874.html">Zoning Board of Appeals</a><span class="date">February 12, 2026<span class="badge">Agenda</span></span></li>
 <li><a href="meetings/zoning-board-of-appeals/2026-01-22_3886.html">Zoning Board of Appeals</a><span class="date">January 22, 2026<span class="badge">Agenda</span></span></li>
@@ -249,8 +262,7 @@
 <li><a href="meetings/zoning-board-of-appeals/2025-10-23_3883.html">Zoning Board of Appeals</a><span class="date">October 23, 2025<span class="badge">Agenda</span></span></li>
 <li><a href="meetings/zoning-board-of-appeals/2025-10-09_3870.html">Zoning Board of Appeals</a><span class="date">October 9, 2025<span class="badge">Agenda</span></span></li>
 <li><a href="meetings/zoning-board-of-appeals/2025-09-25_3882.html">Zoning Board of Appeals</a><span class="date">September 25, 2025<span class="badge">Agenda</span></span></li>
-<li><a href="meetings/zoning-board-of-appeals/2025-09-11_3869.html">Zoning Board of Appeals</a><span class="date">September 11, 2025<span class="badge">Agenda</span></span></li>
-<li><a href="meetings/zoning-board-of-appeals/2025-08-28_6127.html">Zoning Board of Appeals</a><span class="date">August 28, 2025<span class="badge">Agenda</span></span></li>
+<li><a href="meetings/zoning-board-of-appeals/2025-09-11_3869.html">Zoning Board of Appeals</a><span class="date">September 11, 2025<span class="badge">Agenda</span></span></li><span id="expand-3" class="meeting-list-hidden"><li><a href="meetings/zoning-board-of-appeals/2025-08-28_6127.html">Zoning Board of Appeals</a><span class="date">August 28, 2025<span class="badge">Agenda</span></span></li>
 <li><a href="meetings/zoning-board-of-appeals/2025-07-24_6312.html">Zoning Board Meeting</a><span class="date">July 24, 2025<span class="badge">Agenda</span></span></li>
 <li><a href="meetings/zoning-board-of-appeals/2025-07-10_6299.html">Zoning Board Meeting</a><span class="date">July 10, 2025<span class="badge">Agenda</span></span></li>
 <li><a href="meetings/zoning-board-of-appeals/2025-06-12_6277.html">Zoning Board Meeting</a><span class="date">June 12, 2025<span class="badge">Agenda</span></span></li>
@@ -278,7 +290,7 @@
 <li><a href="meetings/zoning-board-of-appeals/2024-03-14_6208.html">Zoning Board Meeting</a><span class="date">March 14, 2024<span class="badge">Agenda</span></span></li>
 <li><a href="meetings/zoning-board-of-appeals/2024-02-22_6183.html">Zoning Board Meeting</a><span class="date">February 22, 2024<span class="badge">Agenda</span></span></li>
 <li><a href="meetings/zoning-board-of-appeals/2024-02-08_6170.html">Zoning Board Meeting</a><span class="date">February 8, 2024<span class="badge">Agenda</span></span></li>
-<li><a href="meetings/zoning-board-of-appeals/2024-01-25_6162.html">Zoning Board Meeting</a><span class="date">January 25, 2024<span class="badge">Agenda</span></span></li></ul></section>
+<li><a href="meetings/zoning-board-of-appeals/2024-01-25_6162.html">Zoning Board Meeting</a><span class="date">January 25, 2024<span class="badge">Agenda</span></span></li></span></ul><button class="expand-btn" onclick="toggleCategory(this, 'expand-3')"><span class="chevron">&#9660;</span> Show 29 more</button></section>
 <section class="category-section"><h2>Community Development Agency <small style="font-weight:normal;font-size:.8em;color:#aaa;">(1)</small></h2><ul class="meeting-list"><li><a href="meetings/community-development-agency/2025-08-05_197.html">Special Community Development Agency Meeting 8/5/2025</a><span class="date">August 5, 2025<span class="badge">Agenda</span></span></li></ul></section>
 </main>
 <footer class="site-footer">
