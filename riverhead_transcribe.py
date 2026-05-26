@@ -114,6 +114,8 @@ def transcribe(video_path):
         language=LANGUAGE,
         verbose=False,
         word_timestamps=False,
+        condition_on_previous_text=False,   # prevents hallucination repetition loops
+        compression_ratio_threshold=2.0,    # reject segments with abnormal repetition
     )
     return result
 

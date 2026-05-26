@@ -57,10 +57,27 @@ def format_timestamp(seconds):
     except Exception:
         return ""
 
+def sanitize_segment_text(text, min_repeat=8, max_unit=25):
+    """Detect and truncate Whisper hallucination repetition loops.
+
+    Whisper sometimes gets stuck repeating a token hundreds of times
+    (e.g. "headheadheadhead...").  This finds the first occurrence of any
+    3-25 character substring repeated 8+ times consecutively and truncates
+    the text just before it.  Returns None if nothing useful remains.
+    """
+    if not text:
+        return text
+    pattern = re.compile(r'(.{3,' + str(max_unit) + r'})\1{' + str(min_repeat - 1) + r',}')
+    m = pattern.search(text)
+    if m:
+        truncated = text[:m.start()].strip().rstrip(',').strip()
+        return truncated if len(truncated) >= 8 else None
+    return text
+
 def group_into_paragraphs(segments, pause=PARAGRAPH_PAUSE):
     paragraphs, current, prev_end = [], [], 0.0
     for seg in segments:
-        text = (seg.get("text") or "").strip()
+        text = sanitize_segment_text((seg.get("text") or "").strip())
         if not text or text in (".", "..", "..."):
             continue
         start = float(seg.get("start", 0))
@@ -279,7 +296,7 @@ def build_meeting_page(record, output_path, depth=2):
     # Timestamped segments
     segs_html = []
     for seg in segments:
-        text = (seg.get("text") or "").strip()
+        text = sanitize_segment_text((seg.get("text") or "").strip())
         if not text or text in (".", ".."):
             continue
         start  = seg.get("start", 0)
