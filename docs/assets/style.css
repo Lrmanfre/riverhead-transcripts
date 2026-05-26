@@ -82,6 +82,8 @@ a:hover { text-decoration: underline; }
 .expand-btn .chevron { font-size: .7rem; transition: transform .2s; display: inline-block; }
 .expand-btn .chevron.up { transform: rotate(180deg); }
 
+.gap-marker { color: #bbb; font-style: italic; font-size: .9em; }
+
 @media (max-width: 600px) {
   body { font-size: 16px; }
   .segment .ts { display: none; }

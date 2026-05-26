@@ -57,21 +57,26 @@ def format_timestamp(seconds):
     except Exception:
         return ""
 
+GAP_MARKER = "[transcription gap]"
+
 def sanitize_segment_text(text, min_repeat=8, max_unit=25):
     """Detect and truncate Whisper hallucination repetition loops.
 
     Whisper sometimes gets stuck repeating a token hundreds of times
     (e.g. "headheadheadhead...").  This finds the first occurrence of any
     3-25 character substring repeated 8+ times consecutively and truncates
-    the text just before it.  Returns None if nothing useful remains.
+    the text just before it.  Returns GAP_MARKER if nothing useful remains.
     """
     if not text:
+        return text
+    # Also pass through any gap markers already in the JSON from prior cleaning
+    if text == GAP_MARKER:
         return text
     pattern = re.compile(r'(.{3,' + str(max_unit) + r'})\1{' + str(min_repeat - 1) + r',}')
     m = pattern.search(text)
     if m:
         truncated = text[:m.start()].strip().rstrip(',').strip()
-        return truncated if len(truncated) >= 8 else None
+        return truncated if len(truncated) >= 8 else GAP_MARKER
     return text
 
 def group_into_paragraphs(segments, pause=PARAGRAPH_PAUSE):
@@ -191,6 +196,8 @@ a:hover { text-decoration: underline; }
 .expand-btn .chevron { font-size: .7rem; transition: transform .2s; display: inline-block; }
 .expand-btn .chevron.up { transform: rotate(180deg); }
 
+.gap-marker { color: #bbb; font-style: italic; font-size: .9em; }
+
 @media (max-width: 600px) {
   body { font-size: 16px; }
   .segment .ts { display: none; }
@@ -309,11 +316,15 @@ def build_meeting_page(record, output_path, depth=2):
             '<a href="#" onclick="seekTo({s}); return false;" title="Jump to {ts}">'
             '{ts}</a>'.format(s=secs, ts=ts_str)
         ) if video_url else ts_str
+        if text == GAP_MARKER:
+            text_html = '<em class="gap-marker">{}</em>'.format(GAP_MARKER)
+        else:
+            text_html = text
         segs_html.append(
             '<div class="segment">'
             '<span class="ts">{}</span>'
             '<span class="text">{}</span>'
-            '</div>'.format(ts_html, text))
+            '</div>'.format(ts_html, text_html))
 
     # Timestamped section (below video, above readable)
     timestamped_section = """<div class="transcript-timestamped">
@@ -331,9 +342,23 @@ def build_meeting_page(record, output_path, depth=2):
     paragraphs = group_into_paragraphs(segments)
     para_html  = []
     for para in paragraphs:
-        text = " ".join((s.get("text") or "").strip() for s in para if (s.get("text") or "").strip())
-        if text:
-            para_html.append("<p>{}</p>".format(text))
+        parts = []
+        for s in para:
+            t = sanitize_segment_text((s.get("text") or "").strip())
+            if t:
+                parts.append(t)
+        if not parts:
+            continue
+        # If the paragraph is entirely a gap marker, render it as one italic line
+        if all(p == GAP_MARKER for p in parts):
+            para_html.append('<p><em class="gap-marker">{}</em></p>'.format(GAP_MARKER))
+        else:
+            # Inline any gap markers within otherwise good text
+            rendered = " ".join(
+                '<em class="gap-marker">{}</em>'.format(p) if p == GAP_MARKER else p
+                for p in parts
+            )
+            para_html.append("<p>{}</p>".format(rendered))
 
     readable_section = """<div class="transcript-readable">
   <h2>Full Transcript</h2>
