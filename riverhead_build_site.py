@@ -81,10 +81,16 @@ def sanitize_segment_text(text, min_repeat=8, max_unit=25):
 
 def group_into_paragraphs(segments, pause=PARAGRAPH_PAUSE):
     paragraphs, current, prev_end = [], [], 0.0
+    prev_text = None
     for seg in segments:
         text = sanitize_segment_text((seg.get("text") or "").strip())
         if not text or text in (".", "..", "..."):
             continue
+        # Collapse consecutive identical segments (Whisper hallucination loops
+        # and [transcription gap] runs) to a single occurrence.
+        if text.lower() == prev_text:
+            continue
+        prev_text = text.lower()
         start = float(seg.get("start", 0))
         end   = float(seg.get("end", start))
         if current and (start - prev_end) > pause:
@@ -302,10 +308,15 @@ def build_meeting_page(record, output_path, depth=2):
 
     # Timestamped segments
     segs_html = []
+    prev_seg_text = None
     for seg in segments:
         text = sanitize_segment_text((seg.get("text") or "").strip())
         if not text or text in (".", ".."):
             continue
+        # Collapse consecutive identical segments (cross-segment hallucination loops)
+        if text.lower() == prev_seg_text:
+            continue
+        prev_seg_text = text.lower()
         start  = seg.get("start", 0)
         ts_str = format_timestamp(start)
         try:
