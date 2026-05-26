@@ -16,7 +16,7 @@ Usage:
 
 import csv
 import json
-import urllib.request
+import subprocess
 from datetime import datetime
 
 # ---------------------------------------------------------------------------
@@ -41,8 +41,14 @@ CSV_FIELDS = [
 # ---------------------------------------------------------------------------
 
 def fetch_json(url):
-    req = urllib.request.Request(url, headers={"Accept": "application/json"})
-    return json.loads(urllib.request.urlopen(req, timeout=30).read())
+    """Fetch JSON via macOS system curl to avoid LibreSSL TLS compatibility issues."""
+    result = subprocess.run(
+        ["/usr/bin/curl", "-s", "--fail", "-H", "Accept: application/json", url],
+        capture_output=True, text=True, timeout=30,
+    )
+    if result.returncode != 0:
+        raise RuntimeError("curl failed (exit {}): {}".format(result.returncode, result.stderr.strip()))
+    return json.loads(result.stdout)
 
 
 def parse_date(date_str):
@@ -220,13 +226,21 @@ def main():
         else:
             break
 
-    # Write CSV
+    # Write CSV (newest-first, as returned by the API)
     print("\nTotal events collected: {}".format(len(events)))
     print("Writing {}...".format(OUTPUT_CSV))
     with open(OUTPUT_CSV, "w", newline="", encoding="utf-8") as f:
         writer = csv.DictWriter(f, fieldnames=CSV_FIELDS)
         writer.writeheader()
         writer.writerows(events)
+
+    # Write reversed CSV (oldest-first, used by the transcription pipeline)
+    reversed_csv = OUTPUT_CSV.replace(".csv", "_reversed.csv")
+    print("Writing {}...".format(reversed_csv))
+    with open(reversed_csv, "w", newline="", encoding="utf-8") as f:
+        writer = csv.DictWriter(f, fieldnames=CSV_FIELDS)
+        writer.writeheader()
+        writer.writerows(reversed(events))
 
     # Summary stats
     with_video   = sum(1 for e in events if e["has_video"] == "True")
