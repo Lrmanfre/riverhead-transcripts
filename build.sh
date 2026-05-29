@@ -14,7 +14,7 @@ python3 riverhead_build_site.py
 
 echo ""
 echo "==> Building Pagefind search index..."
-pagefind --site docs
+pagefind --site docs --output-subdir _pagefind
 
 echo ""
 echo "==> Done! To preview locally:"
