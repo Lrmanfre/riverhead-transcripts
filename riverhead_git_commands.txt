@@ -1,0 +1,26 @@
+Publish batches of meeting transcriptions
+CLAUDE: Sometimes I use these commands to remind me how i push to my website, but they may not be fully accurate depending on the situation.
+
+To download/transcribe:
+
+caffeinate -i python3 riverhead_transcribe.py
+
+
+
+To push transcriptions to the website:
+
+python3 riverhead_backfill.py && python3 riverhead_build_site.py && pagefind --site docs --output-subdir _pagefind && git add -A && git commit -m "Add new transcripts" && git push
+
+If the push gets rejected, just prepend the pull:
+
+git pull origin main --no-rebase && python3 riverhead_backfill.py && python3 riverhead_build_site.py && pagefind --site docs --output-subdir _pagefind && git add -A && git commit -m "Add new transcripts" && git push
+
+
+
+If I get issues where I have to pull before I can push , do:
+
+git pull origin main --no-rebase && git push
+
+If vim opens again, just type :wq and Enter to accept the merge message.
+
+
