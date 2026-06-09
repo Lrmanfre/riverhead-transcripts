@@ -1,26 +1,64 @@
 Publish batches of meeting transcriptions
-CLAUDE: Sometimes I use these commands to remind me how i push to my website, but they may not be fully accurate depending on the situation.
+CLAUDE / LAWRENCE NOTE: These are the current, accurate commands. The site
+publishes over SSH now, not HTTPS. HTTPS does not work for the nightly job
+because launchd has no terminal to type credentials into.
 
-To download/transcribe:
+===========================================================================
+ONE-TIME SSH SETUP (already done if pushes are working)
+===========================================================================
 
-caffeinate -i python3 riverhead_transcribe.py
+1. Create a dedicated, passphrase-less key and an isolated host alias:
 
+   mkdir -p ~/.ssh && chmod 700 ~/.ssh
+   [ -f ~/.ssh/riverhead_ed25519 ] || ssh-keygen -t ed25519 -C "riverhead-pipeline" -f ~/.ssh/riverhead_ed25519 -N ""
+   grep -q "Host github-riverhead" ~/.ssh/config 2>/dev/null || cat >> ~/.ssh/config <<'EOF'
 
+   Host github-riverhead
+       HostName github.com
+       User git
+       IdentityFile ~/.ssh/riverhead_ed25519
+       IdentitiesOnly yes
+   EOF
+   chmod 600 ~/.ssh/config
+   ssh-keygen -F github.com >/dev/null 2>&1 || ssh-keyscan -t ed25519,rsa github.com >> ~/.ssh/known_hosts 2>/dev/null
+   cat ~/.ssh/riverhead_ed25519.pub
 
-To push transcriptions to the website:
+2. Add that public key at:
+   https://github.com/Lrmanfre/riverhead-transcripts/settings/keys
+   "Add deploy key", title "riverhead-pipeline", CHECK "Allow write access".
 
-python3 riverhead_backfill.py && python3 riverhead_build_site.py && pagefind --site docs --output-subdir _pagefind && git add -A && git commit -m "Add new transcripts" && git push
+3. Point the repo at SSH and confirm:
+   git remote set-url origin git@github-riverhead:Lrmanfre/riverhead-transcripts.git
+   ssh -T git@github-riverhead        (success = "Hi Lrmanfre/riverhead-transcripts!"; exit code 1 is normal)
 
-If the push gets rejected, just prepend the pull:
+===========================================================================
+NORMAL MANUAL PUBLISH (when adding transcripts by hand)
+===========================================================================
 
-git pull origin main --no-rebase && python3 riverhead_backfill.py && python3 riverhead_build_site.py && pagefind --site docs --output-subdir _pagefind && git add -A && git commit -m "Add new transcripts" && git push
+   caffeinate -i python3 riverhead_transcribe.py
+   python3 riverhead_backfill.py && python3 riverhead_build_site.py && pagefind --site docs --output-subdir _pagefind && git add -A && git commit -m "Add new transcripts" && git push origin main
 
+Confirm it landed (the two SHAs must match):
+   git rev-parse HEAD && git rev-parse origin/main
 
+===========================================================================
+IF A PUSH IS REJECTED (origin moved ahead)
+===========================================================================
 
-If I get issues where I have to pull before I can push , do:
+   GIT_EDITOR=true git pull --no-rebase origin main && git push origin main
 
-git pull origin main --no-rebase && git push
+(The nightly run_pipeline.sh already does this automatically and will send a
+macOS notification if the push fails, so a broken publish can no longer look
+like a success.)
 
-If vim opens again, just type :wq and Enter to accept the merge message.
+===========================================================================
+HOUSEKEEPING
+===========================================================================
 
+This repo lives in ~/Documents, which iCloud syncs. iCloud sometimes creates
+duplicate files like "_pagefind 2" or ".git/index 8.lock". They are harmless
+but should be cleared, and ideally the repo should be moved out of any synced
+folder. To clear the current duplicates:
 
+   rm -f ".git/index "[0-9]*.lock
+   rm -rf "docs/_pagefind 2"

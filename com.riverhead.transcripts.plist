@@ -8,8 +8,11 @@
 
     <key>ProgramArguments</key>
     <array>
+        <string>/usr/bin/caffeinate</string>
+        <string>-i</string>
+        <string>-s</string>
         <string>/bin/bash</string>
-        <string>/Users/lawrencemanfredi/Documents/1 Projects/riverhead-transcripts/run_pipeline.sh</string>
+        <string>/Users/lawrencemanfredi/Projects/riverhead-transcripts/run_pipeline.sh</string>
     </array>
 
     <!-- Fire at 1:00 AM every day -->
@@ -21,7 +24,8 @@
         <integer>0</integer>
     </dict>
 
-    <!-- If the Mac was asleep at 1am, run as soon as it wakes -->
+    <!-- Do not run on load or login; only on the schedule above. launchd runs a
+         missed StartCalendarInterval job automatically when the Mac next wakes. -->
     <key>RunAtLoad</key>
     <false/>
 
