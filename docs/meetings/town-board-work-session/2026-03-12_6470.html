@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2026-03-12, category:Town Board Work Session">
@@ -25,6 +25,23 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/6470" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/6470/files/agenda/5949" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The board reviewed a backyard composting and rain barrel program, a battery energy storage application near a residential area, proposed overhauls to building and planning fee schedules, and advanced plans to build a new highway barn in Wading River financed through CHIPS funds.</p>
+      <h3>Key actions</h3>
+      <ul><li>The board discussed moving forward with a backyard composting and rain barrel program through a vendor called Brand Builders, which would cost the town $325 in the first year to host a dedicated website where residents purchase their own equipment.</li><li>Staff plan to re-engage the school district on delivering food scraps to the Young&#x27;s Avenue drop-off facility, with an update expected at next week&#x27;s work session.</li><li>A bond authorization resolution for the Wading River highway barn construction contract is to be placed on next week&#x27;s agenda, with a 10-year bond term recommended by the town attorney.</li><li>The board directed staff to bring the battery energy storage application at 1281 Pulaski Street back to the Conservation Advisory Committee for additional review, particularly regarding the access road within the wetlands jurisdiction area.</li><li>A resolution set is scheduled for the Tuesday meeting covering sewer district budget adjustments, a petty cash policy, a $66,000 legal fee budget transfer, recreation personnel appointments, landmarks commission reappointments, and a water district rate amendment.</li></ul>
+      <h3>Money</h3>
+      <ul><li>Building permit fees are proposed to move to a flat $0.75 per square foot for residential, with renewal fees rising to 50 percent of the original fee and a new $25 records-retention surcharge per permit.</li><li>Board members questioned whether the $25 records-retention surcharge is sufficient to fund document digitization estimated at $1.4 million, and asked staff to develop a sliding-scale surcharge tied to project size.</li><li>Planning division fees, which have not been updated since approximately 2018, are proposed to increase by roughly $200–$250 per item and be moved out of the town code into a board-adopted fee schedule.</li><li>The highway barn project is proposed to be financed using approximately $200,000 per year in CHIPS funds over 10 years, with no projected increase in property taxes.</li><li>A $60,000 legal fee budget transfer was revised upward to $66,000 to cover outstanding 2025 invoices, offset by savings in the retirement line of the general fund.</li></ul>
+      <h3>Discussed</h3>
+      <ul><li>Several board members raised concerns about the proximity of the proposed 5-megawatt battery storage facility at 1281 Pulaski Street to a neighboring residential area, specifically regarding air quality during a potential fire event.</li><li>The applicant&#x27;s safety consultant stated that off-gassing from a Tesla Megapack fire is chemically similar to a standard structure fire and that fire is designed to remain contained within individual enclosures, but board members said that explanation was not fully reassuring.</li><li>Staff proposed eliminating Riverhead&#x27;s three-step site plan review process in favor of a two-step process matching standard Suffolk County practice, which would streamline approvals without removing public hearing requirements.</li><li>The board discussed an amnesty program for open and expired building permits, potentially generating significant one-time revenue while moving toward an electronic permitting system estimated at roughly $89,000 for software.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/559e48ca-2038-40fe-bef5-cfc1f930fca1.mp4" type="video/mp4">
@@ -2589,6 +2606,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

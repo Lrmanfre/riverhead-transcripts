@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2024-06-13, category:Town Board Work Session">
@@ -25,6 +25,21 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/5350" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/5350/files/agenda/5188" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Town Board work session featured a PSEG Long Island presentation on new time-of-day electricity rates and reviewed a draft food truck ordinance, then read through 33 resolutions for the upcoming meeting.</p>
+      <h3>Key actions</h3>
+      <ul><li>The board is set to vote at the June 18 meeting on an MOA that includes recognizing Juneteenth (June 19) as a paid holiday, with Town Hall expected to close that day.</li><li>A $500,000 state grant contract for the Riverfront Adaptive Children&#x27;s Playground was placed on the resolution list for approval.</li><li>The board directed staff to publish and post a public hearing notice for a proposed code amendment to regulate food trucks, restricting them to properties with an existing restaurant, brewery, winery, or similar use, and prohibiting operation within 500 feet of a competing food establishment.</li><li>Bids for residential solid waste collection and disposal were rejected and the town will re-bid with revised specifications, with new bid documents posted by June 27.</li><li>A public hearing was scheduled for July 16 on the Hildreth Real Estate Advisors site plan at 1001 Scott Avenue, Calverton, after the board assumed lead agency and issued a negative declaration under SEQRA.</li><li>Preliminary approval was placed on the resolution list for a commercial warehouse site plan at 901 Berman Boulevard, Calverton.</li><li>The board will hold a public hearing on July 2 on proposed amendments to the Community Preservation Fund Water Quality Improvement and Pollution Prevention Project Plan.</li><li>The board entered executive session to discuss a possible MOA or STIP, a personnel disciplinary matter, and possible litigation.</li></ul>
+      <h3>Discussed</h3>
+      <ul><li>PSEG Long Island representatives explained the new residential time-of-day rate program, which sets peak pricing from 3–7 p.m. weekdays and offers up to a 40% overnight discount; customers who do not save in the first 12 months receive a bill credit, and migration of roughly 31,000 customers began this month.</li><li>The PSEG app&#x27;s rate-comparison tool lets customers see which plan would have saved them the most based on 12 months of smart-meter data and allows enrollment directly in the app.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/94ce6fb2-5857-4ea6-bc1a-8315b3dab515.mp4" type="video/mp4">
@@ -1249,6 +1264,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

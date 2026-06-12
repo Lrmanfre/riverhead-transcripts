@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2026-06-02, category:Town Board">
@@ -25,6 +25,23 @@
     <div class="meta-row">148 min &nbsp;·&nbsp; <a href="https://riverheadny.portal.civicclerk.com/event/6439" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/6439/files/agenda/5974" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Town Board voted 4-1 to proceed with eminent domain to acquire 111 East Main Street (the vacant Long Island Science Center building) for downtown revitalization. The board also held public hearings on an amended site plan for Island Water Park and on expanding the town&#x27;s e-bike code.</p>
+      <h3>Key actions</h3>
+      <ul><li>The board voted 4-1, with the supervisor voting no, to adopt findings authorizing eminent domain proceedings to acquire 111 East Main Street from A Place for Learning, Inc. for a municipal purpose related to downtown revitalization.</li><li>The board approved a site plan modification for a property at 962 Berman Boulevard for River Edge LLC.</li><li>The board authorized an order extending Riverhead Water District facilities for a water main extension serving the Summerwind Farm Subdivision on a parcel in Aquebogue.</li><li>The board authorized execution of an appraisal agreement for the Railroad Avenue parking lot in connection with a transit-oriented development study.</li><li>The board authorized execution of a stipulation with CSEA Local 1000, the town employees union.</li><li>The board adopted local laws amending the town code on fire prevention, zoning supplementary regulations, and waterways and shellfish articles.</li><li>The board scheduled public hearings on proposed fee amendments for the appeals board, coastal erosion hazard areas, and wetlands permits.</li><li>The board approved a special event permit for USGA 2026 U.S. Open general parking and transportation operations.</li><li>Multiple committee reappointments were approved, including members to the Agricultural Advisory Committee and the Open Space Advisory Committee.</li></ul>
+      <h3>Money</h3>
+      <ul><li>The tax receiver reported total tax collections of approximately $120 million as of May 20 and approximately $169.7 million as of May 27, 2026.</li><li>Board members stated that acquisition costs for 111 East Main Street would come from fund balance and be reimbursed upon resale; an appraisal has not yet been completed.</li></ul>
+      <h3>Public hearings &amp; comment</h3>
+      <ul><li>A public hearing was held on an amended site plan for Island Water Park (Scotts Point) seeking to add a zip line, battery-powered bumper boats, a fire suppression well, and to amend covenants to allow drift cars on the go-kart track; the hearing was left open for written comment for 10 days.</li><li>Multiple speakers opposed removing the track covenant, arguing it was a condition of a prior negative environmental declaration and that eliminating it without a full environmental review would be unlawful under state environmental law.</li><li>The water district representative stated the lake currently tests at drinking-water quality levels, and described a proposed enhanced monitoring schedule tied to any approval of drift-car use.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/c9dba7d000.mp4" type="video/mp4">
@@ -2202,6 +2219,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

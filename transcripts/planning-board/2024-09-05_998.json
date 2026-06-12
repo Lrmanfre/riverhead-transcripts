@@ -7941,5 +7941,44 @@
       "end": 5425.26,
       "text": "[transcription gap]"
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T01:47:44+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Riverhead Planning Board held public hearings on three applications, approved several resolutions including facade renovations for the Greenview Inn and a minor subdivision, and adopted a new policy to streamline environmental review coordination.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "The board closed the public hearing for a proposed café (Atrium Cafe) on Main Road near an elementary school after neighbors raised concerns about traffic, parking, children's safety, and buffering.",
+          "The board closed the public hearing for a proposed Qdoba drive-through restaurant at 949 Old Country Road, with discussion focused on drive-through traffic flow, a shared fence with an adjacent property owner, and ADA parking placement.",
+          "The board closed the public hearing for a lot-line modification transferring approximately 2,560 square feet from a manufactured home park to an adjacent single-family parcel at Roanoke Avenue.",
+          "The board approved an administrative site plan for facade renovations at the Greenview Inn at 1433 West Main Street, subject to final ARB approval.",
+          "The board approved an administrative site plan for the Church of the Harvest Food Pantry.",
+          "The board approved a minor subdivision of a roughly 57,150-square-foot parcel into two lots (Vincent-Francini).",
+          "The board classified the Riverhead Mazda dealership proposal at 1423 Old Country Road as a Type 1 SEQRA action and initiated lead-agency coordination with involved agencies.",
+          "The board voted to extinguish a covenant on the oncology center property at 896 Old Country Road so the Zoning Board of Appeals can properly review a parking variance, with the applicant agreeing to return to the planning board if the tenancy or use changes.",
+          "The board adopted an amended resolution establishing a policy allowing planning staff to initiate SEQRA coordination upon application completeness, without waiting for a formal board vote, to reduce processing time."
+        ]
+      },
+      {
+        "heading": "Public hearings & comment",
+        "items": [
+          "Multiple neighbors and parents testified about the proposed café near Aquebogue Elementary School, citing concerns about school-hour traffic congestion, lack of sidewalks, the existing crosswalk leading nowhere, and potential parking overflow onto Edgar Avenue.",
+          "The owner of the neighboring deli confirmed the intersection is already dangerous during school drop-off and pickup and asked the board to carefully consider public safety.",
+          "The café applicant stated proposed hours would be roughly 7 a.m. to 4 p.m., the menu would focus on vegan and vegetarian offerings, and he is open to installing taller arborvitae as a buffer for the adjacent property owner.",
+          "A board member noted that the proposed café site may be subject to the state Alcoholic Beverage Control Law's 200-foot rule given its proximity to a school."
+        ]
+      },
+      {
+        "heading": "Discussed",
+        "items": [
+          "For the Riverhead Mazda site plan, staff noted the existing front and side landscape buffers along Route 58 do not meet the required 35-foot unoccupied landscaped area and the board indicated the applicant should work toward compliance."
+        ]
+      }
+    ]
+  }
 }

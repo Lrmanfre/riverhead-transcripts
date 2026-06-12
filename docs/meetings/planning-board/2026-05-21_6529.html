@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2026-05-21, category:Planning Board">
@@ -25,6 +25,23 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/6529" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/6529/files/agenda/5985" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Planning Board approved site plan and coastal erosion permits for three properties, held discussions on a code amendment streamlining the site plan review process, and received updates on two pending applications—a Fun Churros legalization site plan and a proposed cannabis greenhouse—both of which require additional steps before public hearings.</p>
+      <h3>Key actions</h3>
+      <ul><li>The board approved a residential site plan for Lot 1 of the Henry Silverman minor subdivision on Sound Avenue and Pennies Road, conditioned on the applicant submitting drainage calculations before a building permit is issued.</li><li>The board approved a Chapter 219 coastal erosion hazard permit for 506 Soundshore Road in Jamesport to remove invasive species and replant native vegetation on the bluff, subject to conditions including DEC permit compliance and erosion controls.</li><li>The board approved a Chapter 219 coastal erosion hazard permit for 510 and 516 Soundshore Road for the same purpose, with a condition that tree clearing may not occur between March 1st and November 30th due to northern long-eared bat habitat.</li></ul>
+      <h3>Discussed</h3>
+      <ul><li>Staff presented final proposed tweaks to a code amendment that would replace the current three-step site plan review process with a two-step process, adding clearer criteria for de minimis review handled administratively by staff; the amendment is expected to go before the Town Board with a public hearing within the next month.</li><li>A site plan application to legalize unpermitted structures and make improvements at a West Main Street food business known as Fun Churros was presented for discussion; the applicant must obtain ZBA variances for setback relief and receive a planning board denial letter before proceeding to ZBA.</li><li>Staff provided an update on the Brother Bear cannabis greenhouse proposal, noting the applicant must revise plans to eliminate approximately 2,700 square feet from the building to comply with impervious coverage limits after a slope analysis identified non-buildable area; the board also requested a narrative on proposed water filtration to address PFAS concerns flagged by the DEC before a public hearing can be scheduled.</li><li>Multiple residents spoke during public comment opposing the cannabis greenhouse, raising concerns about odor filtration, noise from industrial HVAC equipment, property values, PFAS water contamination, and whether the operation&#x27;s agricultural tax classification would shift the tax burden onto other residents.</li></ul>
+      <h3>Affects residents</h3>
+      <ul><li>The next Planning Board meeting is scheduled for June 4, 2026 at 6 p.m.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/b854dddb-8a2d-4167-a7dc-f31c708ca3b7.mp4" type="video/mp4">
@@ -1356,6 +1373,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

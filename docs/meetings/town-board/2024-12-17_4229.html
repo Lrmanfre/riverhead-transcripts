@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2024-12-17, category:Town Board">
@@ -25,6 +25,23 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/4229" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/4229/files/agenda/4067" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Riverhead Town Board adopted more than 40 resolutions at its December 17 meeting, including a large package of zoning code amendments tied to the 2024 Comprehensive Plan Update, and tabled a public hearing for Island Water Park while ongoing litigation and settlement talks continue.</p>
+      <h3>Key actions</h3>
+      <ul><li>The board adopted roughly a dozen local laws amending Chapter 301 of the town zoning code to implement changes recommended by the 2024 Comprehensive Plan Update, including new or revised zoning for light industrial, hamlet center, open space/conservation, residential, and planned industrial park districts, and updates to transfer-of-development-rights provisions.</li><li>A SEQRA coordination resolution for the Island Water Park site plan amendment was approved on a 4-1 vote, classifying the application as an unlisted action and initiating coordinated review among involved agencies.</li><li>A resolution scheduling a public hearing for the Island Water Park site plan amendment was tabled 4-1, with the town attorney citing pending litigation and ongoing settlement discussions as the reason.</li><li>The board approved SEQRA lead-agency coordination and scheduled a January 7 public hearing for the Sandy Pond special permit application covering a clubhouse, trade buildings, and a manager&#x27;s residence at 1495 Rowan Oak Avenue.</li><li>Several zoning map amendments were adopted unanimously, changing specific properties to RB-40, open space/conservation, light industrial, and hamlet center zoning use districts.</li><li>Philip Siegel of Siegel and Sittler PLLC was appointed special counsel to the Board of Ethics.</li><li>A town justice was sworn in for a new term on the Riverhead Town Justice Court.</li><li>The board adopted amendments to the terms and conditions of employment for the town attorney and chief deputy town attorney.</li></ul>
+      <h3>Money</h3>
+      <ul><li>Building department reported November revenues of approximately $182,806; the tax receiver reported utility collections of approximately $650,289; the town clerk reported November collections of approximately $9,800.</li><li>Yard waste fees were increased by resolution.</li><li>Sewer rent for out-of-town facilities was established for calendar years 2023 and 2024.</li><li>The board authorized a bid for water meters and accessory equipment and approved an extension of an existing service agreement.</li></ul>
+      <h3>Public hearings &amp; comment</h3>
+      <ul><li>A resident raised questions about the SEQRA timeline and non-conforming use status of trade buildings in the Sandy Pond application; the planning director responded that coordination does not prevent scheduling a public hearing and that the trade buildings were actively used until demolition.</li><li>A resident asked about total spending on the EpCal ice rink; the supervisor said exact figures would be provided but noted the $150,000 annual utility contribution is recoverable from profits and that capital improvements are reinvested in the facility under the agreement with the nonprofit operator.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/ebff2da9-03c0-4d56-911b-d7675f908a81.mp4" type="video/mp4">
@@ -1199,6 +1216,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

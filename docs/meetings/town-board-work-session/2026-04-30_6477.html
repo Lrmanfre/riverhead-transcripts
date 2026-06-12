@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2026-04-30, category:Town Board Work Session">
@@ -25,6 +25,23 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/6477" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/6477/files/agenda/5977" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Riverhead Town Board work session covered a BIDMA downtown marketing presentation, a disputed land preservation opportunity in Jamesport, a large slate of personnel and operational resolutions, several upcoming public hearings, and a bid award for PFAS water treatment before entering executive session.</p>
+      <h3>Key actions</h3>
+      <ul><li>The board reviewed 50-plus draft resolutions covering capital project budget adoptions and adjustments for the highway building, sewer district, and water district infrastructure.</li><li>A bid was awarded for installation of water mains at 203 East Main Street in the Riverhead Water District.</li><li>A bid was awarded for PFAS treatment at Well No. 5-2A under State Revolving Fund Project No. 19591.</li><li>The Community Development Department was authorized to submit applications to the NYS Environmental Facilities Corporation for sewer infrastructure grants.</li><li>Public hearings were scheduled to consider amendments to chapters covering fire prevention hazard mitigation, commercial solar energy systems, electric scooters, and the Business F zoning outlet center overlay.</li><li>A public hearing was scheduled for an amended site plan application for Scott&#x27;s Point, also known as Island Water Park, at 5835 Middle Country Road in Calverton.</li><li>Several special events were approved including a Wonderland Midway Family Carnival at Tanger, a Cardboard Boat Race, Fourth Before the Fourth, a Muddy Princess 5K mud run, and a Riverhead Raceway fireworks application.</li><li>Jonathan Sejecki was appointed to the Farmland Preservation Committee; Megan Stettinger to the Senior Citizen Advisory Council; and Sean Egan, Kyle Conklin, Charles Thomas, and Thomas Pachimski to the East Creek Advisory Committee.</li><li>The board voted to enter executive session to discuss personnel, contractual, and employee status matters.</li></ul>
+      <h3>Money</h3>
+      <ul><li>The Wading River Duck Ponds project was estimated at approximately $3.5 million total.</li><li>Suffolk County indicated it is willing to spend approximately $2 million to acquire a Jamesport parcel being considered for preservation.</li><li>The board noted that town CPF (Community Preservation Fund) collections have never reached $10 million per year, and that CPF law allows up to 10 percent of funds for stewardship.</li></ul>
+      <h3>Discussed</h3>
+      <ul><li>BIDMA&#x27;s new executive director presented a strategic marketing plan setting goals of a 20 percent increase in foot traffic, a 20 percent increase in year-round visitors, and 3.5 times digital growth, with six target audience personas identified.</li><li>The Supervisor&#x27;s office said it is scheduling a meeting with the MTA to discuss increased train service to Riverhead.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/8e9bac30-2d9f-4141-b930-6311af46740f.mp4" type="video/mp4">
@@ -1404,6 +1421,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

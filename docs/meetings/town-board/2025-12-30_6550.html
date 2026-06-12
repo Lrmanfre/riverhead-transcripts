@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2025-12-30, category:Town Board">
@@ -25,6 +25,21 @@
     <div class="meta-row">25 min &nbsp;·&nbsp; <a href="https://riverheadny.portal.civicclerk.com/event/6550" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/6550/files/agenda/5902" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Town Board held a special meeting on December 30, 2025, passing two resolutions: one to fund a replacement dump truck for the Highway Department and one to transfer $75,000 in Community Development Block Grant funds to the Jazz Loft for repairs to the Vale-Levitt building.</p>
+      <h3>Key actions</h3>
+      <ul><li>The board approved a budget adjustment to purchase a new dump truck for the Highway Department, replacing a truck destroyed by fire during a snowstorm on Sound Avenue.</li><li>The board approved a transfer of $75,000 in Suffolk County Community Development Block Grant funds to the Jazz Loft, a nonprofit, to repair and restore the historic Vale-Levitt building; one board member voted no.</li><li>One board member stated the CDBG money originates from county funds and expressed concern that the Jazz Loft had not disclosed a funding gap at its qualifying hearing.</li></ul>
+      <h3>Discussed</h3>
+      <ul><li>The Highway Superintendent noted the recent snowstorm was challenging due to staff illness, equipment issues, and the truck fire, and thanked employees from other town departments who assisted.</li><li>A resident raised concerns about an immigration enforcement incident near the State Police headquarters and asked for a public update on pending litigation involving an entity referred to as CAT; the board said a motion to dismiss is pending.</li><li>A resident suggested the recently demolished downtown site could be reconsidered as open green space rather than a hotel development, citing Greenport as a comparable example.</li><li>Outgoing Supervisor acknowledged ten years in public office and introduced the incoming supervisor, who was present in the audience.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/e5ca846690.mp4" type="video/mp4">
@@ -448,6 +463,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2024-05-15, category:Town Board Work Session">
@@ -25,6 +25,25 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/5302" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/5302/files/agenda/5140" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Riverhead Town Board work session covered code changes, department reports, a new boat rack program, sewer upgrades, and a full slate of routine appointments and resolutions. A special public hearing on the comprehensive plan is set for May 20.</p>
+      <h3>Key actions</h3>
+      <ul><li>A code amendment to Chapter 301 was advanced for publication that would count pervious parking (gravel, permeable pavement) as impervious coverage for zoning purposes, closing a workaround that allowed applicants to avoid impervious-coverage variances.</li><li>The board moved to schedule a public hearing and bond authorization amendment for a biosolids reuse project at the sewer district, projected to save roughly $860,000 per year against an estimated loan payment of about $845,000 per year at zero interest through the Environmental Facilities Corporation.</li><li>A new seasonal boat rack program at South Jamesport Beach was approved at $150 per season for 12 spaces, open to town residents and taxpayers on a first-come, first-served basis.</li><li>The board directed staff to move forward with a $75,000 surveillance camera installation at East Creek Marina, funded from the East Creek fund.</li><li>A resolution was listed to resurface the basketball court at Stotsky Park, with board members also requesting landscaping cleanup around the court beforehand.</li><li>The police department reported receiving a state grant of approximately $1.47 million for technology, expected to cover the body-camera project over five years.</li><li>A code enforcement proposal to use a third-party service to identify unlicensed short-term rentals (Airbnb, VRBO) was discussed as a potential revenue tool.</li><li>The board was notified of a Water Infrastructure Improvement Act grant application due June 15 for the biosolids project.</li></ul>
+      <h3>Money</h3>
+      <ul><li>Code enforcement collected approximately $44,850 in rental permit fees in April, with year-to-date revenue of about $90,400.</li><li>Justice Court reported fire marshal, quality-of-life, and neighborhood-preservation convictions totaling several thousand dollars in April, with illegal-dumping trials carrying minimum fines of $1,500 now being set down.</li><li>Resolutions included multiple budget transfers for the municipal garage tow truck purchase, water district capital projects, and Veterans Memorial Park sanitary system.</li></ul>
+      <h3>Public hearings &amp; comment</h3>
+      <ul><li>A special town board meeting with two public hearings on the comprehensive plan update and draft DGEIS is scheduled for Monday, May 20 at 6 p.m., in person and via Zoom, with written comments also accepted.</li></ul>
+      <h3>Affects residents</h3>
+      <ul><li>Community Day at Stotsky Park is Sunday, May 19, 10 a.m. to 2 p.m., free and family-friendly, with no rain date.</li><li>Bathroom facilities at Veterans Memorial Park are close to becoming operational after health department permits were secured for the sanitary system installation.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/16af78d3-568a-4bdd-896e-45802fb5ee1a.mp4" type="video/mp4">
@@ -1350,6 +1369,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

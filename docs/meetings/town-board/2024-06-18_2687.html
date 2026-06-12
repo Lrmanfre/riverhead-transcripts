@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2024-06-18, category:Town Board">
@@ -25,6 +25,21 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/2687" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/2687/files/agenda/2550" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Riverhead Town Board held its June 18 meeting, passing roughly 30 resolutions covering personnel, contracts, events, and land-use matters, while residents raised concerns about a Calverton warehouse project, unpermitted construction at a local recreational business, and proposed agritourism zoning.</p>
+      <h3>Key actions</h3>
+      <ul><li>The board approved a sewer district capital project budget adjustment.</li><li>The board rejected existing bids for residential solid waste collection and authorized re-bidding.</li><li>The board awarded a bid for a used tow truck.</li><li>A public hearing was scheduled for a special permit application at 4592 Middle Country Road, Calverton, to construct a two-family dwelling.</li><li>The board authorized publishing notice to extend the Calverton industrial moratorium, with a public hearing set for July 2 at 2:05 p.m.; the current moratorium remains in effect through approximately July 12.</li><li>The board assumed lead agency status and issued a negative declaration under environmental review for a site plan application at 1001 Scott Avenue, Calverton, and scheduled a public hearing on that application.</li><li>Preliminary site plan approval was granted for a commercial warehouse project at 901–923 Berman Boulevard, Calverton.</li><li>The board authorized a contract with New York State for a grant of up to $500,000 for a riverfront adaptive children&#x27;s playground.</li><li>A resolution appointing a financial administrator was adopted.</li><li>Fireworks permits were approved for Riverhead Raceway on June 29 and August 10, 2024.</li><li>Resolution 567, related to forming a community preservation fund subcommittee following the Chapter 221 public hearing, was tabled pending recruitment of required community members.</li><li>Town Hall LED lighting conversion was approved.</li><li>Retirements of a fire marshal staff member and a traffic control specialist were accepted with board acknowledgment.</li></ul>
+      <h3>Public hearings &amp; comment</h3>
+      <ul><li>A public hearing on a local law amending Chapter 221 to create a subcommittee focused on water quality and pollution prevention projects under the Peconic Bay Community Preservation Fund was held; no public comment was received.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/d7482c0d-dd79-4982-96b2-9ee3d9507557.mp4" type="video/mp4">
@@ -2054,6 +2069,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

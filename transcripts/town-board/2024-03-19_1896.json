@@ -8496,5 +8496,44 @@
       "end": 4693.2,
       "text": "Bye."
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T02:46:07+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Riverhead Town Board held its March 19 meeting, passing roughly 50 resolutions covering personnel, capital projects, special events, bids, and land matters. Public comment focused heavily on concerns about the Riverhead Charter School's expansion, funding equity, and unpermitted portable classrooms on charter school property.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "The board approved a capital project to establish a Riverfront Adaptive Children's Playground.",
+          "The board approved a capital project to establish a Riverfront Amphitheater.",
+          "The board authorized submission of a letter of intent for an operation and maintenance grant through the New York State Environmental Facilities Corporation.",
+          "The board authorized the town clerk to publish notice of a proposed local law to amend the Pine Barrens Overlay District zoning article.",
+          "The board approved special event permits for the African American Educational and Cultural Festival (August 10 at Grangebel Park), the Polish Festival (August 17–18), a 5K run, a cycling event, and a youth consignment sale.",
+          "The board authorized the town clerk to seek bids for residential solid waste collection and disposal and for website development.",
+          "The board authorized an appraisal of a roughly 3.3-acre parcel for possible purchase of development rights.",
+          "The board approved conveyance of town-owned property at 201 Howell Avenue, subject to permissive referendum, after amending an address error in the resolution."
+        ]
+      },
+      {
+        "heading": "Public hearings & comment",
+        "items": [
+          "A public hearing was held on a preliminary site plan for an 84,250-square-foot commercial warehouse at 901–923 Burman Boulevard in Calverton; the board kept the record open for written comment until March 29, 2024.",
+          "Several residents and teachers spoke against expansion of the Riverhead Charter School, citing funding diverted from the public school district and loss of programs.",
+          "One speaker raised concern that portable classrooms have already been placed on charter school property without a permit and that the required public notice sign had not been posted.",
+          "A member of the public asked about the status of a Canal House litigation settlement and the selection process for a landscape architecture contract related to the town square project; board members declined to answer questions at the podium and directed the speaker to contact the town attorney's office."
+        ]
+      },
+      {
+        "heading": "Affects residents",
+        "items": [
+          "Riverhead Recreation Department spring and summer registration opened March 20 and is available online at riverheadrecreation.net, by phone, or in person at Town Hall.",
+          "The Recreation Department has relocated to the second floor of Town Hall; beach passes are no longer issued at Stotzky Park."
+        ]
+      }
+    ]
+  }
 }

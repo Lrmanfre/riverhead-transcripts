@@ -4441,5 +4441,36 @@
       "end": 3167.32,
       "text": "Thank you."
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T02:26:05+00:00",
+    "agenda_grounded": false,
+    "tldr": "The July 17 work session featured departmental monthly reports from police, code enforcement, town clerk, and justice court, along with community event announcements and a video feature on a historic Main Street home.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "The board went into executive session to discuss one item of possible litigation with town attorneys.",
+          "The board announced formation of an America 250 committee to plan a July 4, 2026 celebration in Riverhead, with a public flyer to be released the following day inviting community participation.",
+          "A new bilingual Spanish-speaking clerk is now working in the town clerk's office weekdays from 11 a.m. to 2:30 p.m.",
+          "A stop work order was issued to a property on Wading River Manor Road related to unpermitted importation of material, the order was subsequently violated, and multiple violations are being issued."
+        ]
+      },
+      {
+        "heading": "Discussed",
+        "items": [
+          "Police reported criminal incidents dropped year-over-year in June from 222 to 150, alarm billing revenue increased significantly with help from an intern, five new public safety dispatchers were hired, and National Night Out is scheduled for August 5 in the town square.",
+          "Code enforcement reported 139 new complaints and 101 summonses issued over May and June, with rental code revenue of approximately $210,250 year-to-date through June.",
+          "Regarding a property on Wading River Manor Road, a preliminary injunction was granted by a Supreme Court judge, the defendant appealed and sought a stay, the stay was opposed successfully, and the property must be vacated by July 31 if the stay is denied.",
+          "Crown facility's intake of municipal solid waste remains suspended following a fire; yard waste and construction debris operations on an unaffected portion of the parcel may continue under DEC permit limits.",
+          "Justice court total fines were approximately $29,000 in May and $45,880 in June; the court attorney noted several town code fine amounts have not been updated in years and proposed raising fines for weight limit violations, site plan offenses, and unpermitted storage of explosives.",
+          "A special joint town board and CDA meeting with two public hearings is scheduled for July 22 at 6 p.m.",
+          "The Peconic River west of a named landmark will be closed to boat traffic on July 18 for fireworks launched from a barge during the Alive on 25 block party."
+        ]
+      }
+    ]
+  }
 }

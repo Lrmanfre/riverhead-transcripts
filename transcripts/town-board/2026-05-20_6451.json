@@ -26096,5 +26096,40 @@
       "end": 14880.14,
       "text": "Thank you."
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T04:31:50+00:00",
+    "agenda_grounded": false,
+    "chunked": true,
+    "tldr": "The board held a major public hearing on eminent domain acquisition of 111 East Main Street (Long Island Science Center property) to advance the downtown town square project, hearing sharp public debate; it also advanced zoning changes at the Manufacturers Outlet Overlay District and adopted a new hazardous-materials fee for battery storage and solar projects, plus a large slate of routine resolutions.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "The board voted unanimously to close the public hearing on eminent domain condemnation of 111 East Main Street (Long Island Science Center / A Place of Learning Inc.), leaving the record open ten days for written comment; no final condemnation vote was taken at this meeting.",
+          "The board voted unanimously to authorize the supervisor to execute a letter of intent with the YMCA of Long Island for redevelopment of the former NY State Armory at 1405 Old Country Road.",
+          "The board adopted a local law amending Chapter 231 (Fire Prevention) to impose a 1% hazardous-materials fee on battery energy storage systems and commercial solar installations, paid before permit issuance and deposited into a dedicated fire marshal equipment and training fund; the fee is non-refundable and not retroactive.",
+          "The board adopted a local law amending Chapter 279 to extend property tax exemptions for volunteer firefighters and ambulance workers.",
+          "The board authorized a notice of public hearing for the hotel project (special permit and site plan) at the town square site; the hearing is limited to special permit and site plan criteria.",
+          "Two special event applications for 'Racetrack Not Street' motorsports events at EPCAL in 2027 were approved unanimously.",
+          "The board authorized a bond for the 2028 Biosolids Project and related sewer district capital project budget adjustments.",
+          "A settlement of a personal injury lawsuit brought by a named individual against the town was approved unanimously.",
+          "Multiple routine personnel appointments, retirements, resignations, and committee reappointments were approved unanimously."
+        ]
+      },
+      {
+        "heading": "Public hearings & comment",
+        "items": [
+          "Community Development Director Dawn Thomas testified the town has invested over $40 million in town square components and that incorporating 111 East Main Street is critical to completing flood mitigation; two time-sensitive state grants totaling approximately $1.884 million expire in June.",
+          "The property owner's plans have shrunk approximately 80% from the original 2020 proposal; the bank previously funding the Science Center has withdrawn, and the owner raised no fundraising funds in the past year according to a board member's account of a prior work session.",
+          "A contractor testified his company filed a mechanics lien of approximately $13,500 for nonpayment and alleged the owner asked him to provide a check to demonstrate payment for a grant program.",
+          "Multiple public commenters opposed eminent domain as premature, citing lack of a stated replacement use, transparency concerns about a master developer relationship, and the risk of large taxpayer liability if compensation is contested; one commenter referenced a Suffolk County case resulting in over $125 million in compensation plus interest.",
+          "Two public commenters supported eminent domain, citing decades of Main Street decline."
+        ]
+      }
+    ]
+  }
 }

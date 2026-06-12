@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2024-11-19, category:Town Board">
@@ -25,6 +25,21 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/4017" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/4017/files/agenda/3855" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Riverhead Town Board held public hearings on updated penalty fines for building and rental permit violations, proposed industrial zoning code amendments tied to the 2024 Comprehensive Plan update, and changes to town justice election scheduling. The board then adopted the 2025 budget and acted on roughly two dozen other resolutions.</p>
+      <h3>Key actions</h3>
+      <ul><li>The board adopted the 2025 annual budget unanimously, though one board member noted objections to certain items and another stated she would not accept a salary increase included for board members.</li><li>A local law amending town code to set town justice elections on a staggered schedule, so both seats never appear on the same ballot, was adopted.</li><li>A resolution authorizing an agreement for a paid parking trial program was voted down, with the board indicating it will revisit the proposal in spring 2025.</li><li>A resolution involving the Meeting House Creek stormwater and wetland restoration project rebid was tabled because pricing was not yet finalized.</li><li>The board awarded a bid for a dump truck for the overhead water district and separately authorized notice of a public hearing to establish sewer rents for town facilities for 2023 and 2024.</li><li>A license agreement addendum with a driving school to use a portion of the runway at the town&#x27;s Enterprise Park was pulled from the floor and adopted; the monthly rent increases from $6,000 to $7,500 and the term extends through the end of next year.</li><li>The board accepted a Suffolk County Jumpstart grant and authorized a second extension of a license agreement with a local exterior fabrication business.</li><li>A GIS technician position was ratified, filling a role board members said has long been absent from town staffing.</li><li>Brian Mills was reappointed to the Board of Assessment Review.</li></ul>
+      <h3>Public hearings &amp; comment</h3>
+      <ul><li>Public hearings were held on raising building-permit-violation fines to a range of $1,000–$3,000, up from a $500 maximum unchanged since 1989; all hearings were kept open for written comment until December 2, 2024.</li><li>Public hearings were held on raising rental-permit-violation fines to $2,000–$3,000 for a first offense, $3,000–$4,000 for a second, and $4,000–$6,000 for a third offense.</li><li>A series of public hearings covering industrial zoning code amendments—eliminating Industrial A and C districts, creating a Calverton Industrial district and expanding Light Industrial zoning, adopting a use table based on federal SIC codes, prohibiting truck terminals and last-mile distribution facilities, reducing maximum allowable development by about 25%, and rezoning several parcels from industrial to residential, open space, or hamlet center—drew multiple public speakers who raised concerns about traffic, native landscaping, dark-sky lighting standards, environmental justice, and the need for independent review of cell tower health data.</li><li>A speaker urged the board not to schedule a public hearing on a water park application until related court proceedings are resolved.</li><li>A newly formed Wading River community group asked the board to hire an independent consultant to evaluate the proposed cell tower application rather than relying solely on materials submitted by the applicant.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/c675d59e-f75b-46b1-a371-5f85ba136577.mp4" type="video/mp4">
@@ -2005,6 +2020,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

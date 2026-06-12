@@ -6766,5 +6766,44 @@
       "end": 3918.0,
       "text": "day so"
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T02:00:44+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Town Board held a work session featuring monthly reports from the Police Department, Justice Court, and Code Enforcement, and previewed a slate of resolutions for the February 21 town board meeting. The previously scheduled Agritourism public hearing was unanimously canceled and will be rescheduled.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "The board unanimously agreed to cancel and reschedule the Agritourism public hearing that had been set for February 21.",
+          "A resolution to rescind an earlier water district extension public hearing and replace it with a corrected one was discussed, due to tax map number errors in the original resolution.",
+          "The board discussed going out to bid for a cloud-based VoIP phone system to replace the current on-premises system, with preliminary indications of cost savings.",
+          "A resolution to support the Suffolk County District Attorney's campaign to change state laws on fentanyl possession thresholds was previewed for a vote on February 21.",
+          "A resolution authorizing up to $8.5 million in matching funds for a federal RAISE 2024 transportation grant application was included in the packet.",
+          "Purchase of a 2024 Kenworth dump truck for the Highway Department at a cost of $278,827.96 was on the resolution list.",
+          "Rental permit fees collected in January totaled $20,575, and Justice Court fines for the month totaled $16,000.",
+          "Monthly reports from Police, Justice Court, and Code Enforcement will now be presented at every third-Thursday work session."
+        ]
+      },
+      {
+        "heading": "Discussed",
+        "items": [
+          "Code Enforcement reported investigating approximately 79 complaints and issuing roughly 38 tickets since January 1, with over 1,500 rental properties requiring annual inspection.",
+          "A county-wide records management system called Niche is expected to go live around April or May, allowing real-time data sharing among Suffolk County law enforcement agencies.",
+          "An online rental permit portal called OpenGov is targeted to launch March 1, allowing residents to apply, pay fees, and schedule inspections online.",
+          "The board discussed adding a Code Enforcement officer on evening shifts to allow faster response when police identify violations during overnight tours.",
+          "Police overtime costs have declined over the past two years and are approaching pre-COVID levels, attributed in part to increased staffing."
+        ]
+      },
+      {
+        "heading": "Affects residents",
+        "items": [
+          "Residents can file code complaints anonymously online."
+        ]
+      }
+    ]
+  }
 }

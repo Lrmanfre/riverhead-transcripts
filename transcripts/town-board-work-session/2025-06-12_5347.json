@@ -3046,5 +3046,35 @@
       "end": 2087.42,
       "text": "Subtitles by the Amara.org community"
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T02:24:30+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Town Board work session covered a proposed no-parking code amendment on Youngs Avenue, closed out dozens of capital projects, and addressed an emergency liquid sludge removal contract, among other routine resolutions.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "The board discussed amending Chapter 289-10 to codify a no-parking restriction on both sides of Youngs Avenue between East Meadow Road and Osborne Avenue, with a public hearing to be scheduled for the next available meeting and possible same-day adoption.",
+          "A resolution was reviewed to declare an emergency and authorize a temporary purchasing agreement for liquid sludge removal and disposal to Suffolk County's Bergen Point facility while a permanent contract is arranged, expected within 30 to 60 days.",
+          "Resolutions were listed to close approximately two dozen capital projects across water, sewer, highway, and parks departments.",
+          "A resolution to rescind a prior sewer improvement bid (resolution 2025-487 for 203-213 East Main Street) was included as an administrative cleanup, with the bid to be re-issued after additional steps are completed.",
+          "A bid for lubricants was rejected due to a single unsatisfactory response, and the town clerk was authorized to rebid.",
+          "A parcel at 48 Willow Street is proposed to be designated open space using $75,000 in Community Preservation Funds.",
+          "The board authorized a fireworks application for Riverhead Raceway on June 28, 2025, and for Baiting Hollow Club on July 19, 2025."
+        ]
+      },
+      {
+        "heading": "Discussed",
+        "items": [
+          "The supervisor announced the town received its first cannabis tax distribution from New York State totaling $65,000 for roughly the first quarter of sales.",
+          "Board members discussed establishing truck weight enforcement operations on roads near industrial properties on Youngs Avenue, where heavy trucks have been observed traveling on weight-restricted roads.",
+          "The board viewed a Riverhead in Action video recapping a farm tour of four local agricultural operations including cannabis, vertical farming, and greenhouse growing."
+        ]
+      }
+    ]
+  }
 }

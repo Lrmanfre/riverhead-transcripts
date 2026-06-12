@@ -12556,5 +12556,44 @@
       "end": 7081.44,
       "text": "[transcription gap]"
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T02:58:19+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Riverhead Town Board held three public hearings, voted on roughly 40 resolutions covering personnel, infrastructure, and special events, and advanced the eminent domain process to acquire a leasehold at 127 East Main Street as part of the Town Square redevelopment project.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "The board closed a public hearing on a National Grid special permit to demolish buildings and add 24 compressed-natural-gas truck parking spaces at 8 Mill Road, keeping the written-comment record open through May 30.",
+          "A previously scheduled public hearing on acquiring 111 East Main Street (the former Sweezy's building, future Long Island Science Center) was canceled because the Science Center secured plans and funding and will proceed directly to a building permit.",
+          "The board closed the eminent domain public hearing on the leasehold at 127 East Main Street held by the tenant known as Crafted, starting a 90-day window for the board to adopt a determination on whether to proceed; town officials stated they are still working to help Crafted relocate on Main Street.",
+          "The board unanimously approved a resolution supporting development of a YMCA recreation facility, described as a first step toward seeking state authority to enter a lease or sale with an outside agency.",
+          "The board approved, on a 4-1 vote, resolutions issuing a response to comments on a conditional negative declaration and granting preliminary site-plan-amendment approval for Island Water Park (Scotts Point) at 5835 Middle Country Road, Calverton.",
+          "The board adopted several local-law amendments to Chapter 231 (Fire Prevention) covering agency reimbursement, flammable and combustible liquids, outdoor fires, and penalties for offenses.",
+          "The board authorized the town clerk to publish notices to bid for a 2025 annual construction contract, sludge-cake and grit-screen-waste removal, corrosion-control chemicals, and a 2025 annual procurement contract.",
+          "The board authorized a public notice to consider amending the zoning code's cannabis retail and on-site consumption location regulations.",
+          "Multiple personnel actions were approved, including appointment of a fire marshal, two maintenance mechanics, a seasonal water-treatment-plant operator, and a new member to the Hispanic Development, Empowerment, and Education Committee, along with acceptance of two retirements and one resignation."
+        ]
+      },
+      {
+        "heading": "Money",
+        "items": [
+          "The Town Clerk's April monthly report totaled approximately $15,378; the Tax Receiver's April utility report totaled approximately $332,294; total tax collections as of mid-May reached approximately $114.8 million.",
+          "A capital project budget was adopted for Water District well capacity improvements, and a capital reserve fund was established for a new ambulance district building."
+        ]
+      },
+      {
+        "heading": "Public hearings & comment",
+        "items": [
+          "The owner of Crafted spoke at the 127 East Main Street eminent domain hearing, expressing concern about being displaced without a confirmed relocation site and asking the board to delay the 90-day clock; town counsel explained the board can pause or withdraw the proceeding at any time before a court judgment is entered.",
+          "Members of the public questioned whether the Town Square master developer has been properly vetted through a qualified-and-eligible hearing; the town attorney responded that such a hearing will be held publicly before any developer agreement is finalized.",
+          "A speaker asked the board to prioritize funding a hamlet study for Jamesport as recommended in the town's comprehensive plan; a board member noted interim documentation work is underway through the Landmarks Preservation Commission."
+        ]
+      }
+    ]
+  }
 }

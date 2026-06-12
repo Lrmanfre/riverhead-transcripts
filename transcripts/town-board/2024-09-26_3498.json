@@ -451,5 +451,22 @@
       "end": 344.38,
       "text": ""
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T02:51:07+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Town Board held a special meeting to formally present the tentative 2025 budget to board members, satisfying a legal requirement. A work session to discuss the budget was scheduled to follow at 10 a.m.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "The town supervisor formally presented the tentative 2025 budget to the full Town Board for the first time, with the document also posted online for public access.",
+          "The board voted to close the special meeting, with a budget work session open to the public set to begin at 10 a.m. the same day."
+        ]
+      }
+    ]
+  }
 }

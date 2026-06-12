@@ -636,5 +636,29 @@
       "end": 569.2,
       "text": "Thank you very much, everyone."
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T02:29:17+00:00",
+    "agenda_grounded": false,
+    "tldr": "The board heard a brief planning update on a new horse barn at Timothy Hill Children's Ranch and made community announcements before moving into executive session on three litigation matters.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "A senior planner presented a draft resolution finding that the 1977 special permit for Timothy Hill Children's Ranch does not require amendment for the ranch to replace a demolished horse barn with a new approximately 6,500-square-foot barn, which would allow Planning Board administrative approval.",
+          "The board entered executive session to discuss litigation involving the New York State Office of Cannabis Management, the Town of Southampton, and a party identified as American Breeders."
+        ]
+      },
+      {
+        "heading": "Affects residents",
+        "items": [
+          "Town offices will be closed Monday, October 13 (Columbus Day) and reopen Tuesday, October 14 at 8 a.m.",
+          "The Recreation Department is hosting a repair cafe and Halloween costume exchange at the George Young Community Center and Town Hall respectively."
+        ]
+      }
+    ]
+  }
 }

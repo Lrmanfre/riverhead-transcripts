@@ -10606,5 +10606,45 @@
       "end": 5336.92,
       "text": "Thank you."
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T04:09:04+00:00",
+    "agenda_grounded": false,
+    "chunked": false,
+    "tldr": "The newly seated Riverhead Town Board held its first meeting of 2024, approving salaries, making numerous personnel appointments, and passing a six-month industrial moratorium for the Calverton area while also amending EPCAL zoning rules.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "The board set salaries for elected officials and employees across all town departments for 2024, approving numerous individual salary adjustments unanimously.",
+          "Town Attorney Eric Howard was reappointed; one board member noted a family relationship but voted yes after consulting the deputy town attorney on applicable ethics rules.",
+          "Edward Deniseski was appointed Planning Board chairperson and John Hogan as vice chair; Ken Zelnicki was appointed as a new Planning Board member, with one board member abstaining due to a distant family relationship.",
+          "Otto Whitmire was appointed Zoning Board of Appeals chairperson and Ralph Gazzillo was reappointed and named vice chair, following the accepted resignation of a long-serving ZBA member.",
+          "A six-month industrial moratorium for the Calverton area (Chapter 303) was adopted as amended, requiring a supermajority; one board member voted no and another voted yes citing the comprehensive plan's near completion.",
+          "The board amended Chapter 301 zoning to prohibit commercial, cargo, and freight airports at EPCAL while expressly permitting fueling, hangaring, and private plane operations ancillary to permitted uses; one member voted no, stating concern that the exception would allow ongoing flight activity residents oppose.",
+          "The board authorized a public notice for a local law amending waterway regulations, with the supervisor indicating it could reopen East Creek to recreational clamming for town residents with a permit.",
+          "A portable nine-unit restroom facility was approved for Veterans Memorial Park as an interim measure pending a permanent structure expected in spring."
+        ]
+      },
+      {
+        "heading": "Money",
+        "items": [
+          "The tax receiver reported total tax collections of approximately $8.1 million as of December 21, 2023.",
+          "The town accepted a grant from FM Global consisting of a digital camera and lighting system donated to the fire marshals.",
+          "The town is processing a $5.5 million EPA grant and separate state funding under the Bipartisan Infrastructure Law to address contaminated water in Manorville; a multi-agency coordination meeting was scheduled for January 11."
+        ]
+      },
+      {
+        "heading": "Public hearings & comment",
+        "items": [
+          "Multiple residents from Wading River and Calverton urged passage of the industrial moratorium and expressed concern that a project referred to as HK Ventures may be exempt from it.",
+          "A resident raised questions about whether a proposed Riverhead Charter School expansion onto approximately 71 acres along Sound Avenue is permitted in an APZ agricultural zoning district, citing code language that allows only private educational institutions as a special permit use.",
+          "A Manorville resident reported that MTBE levels in her well water recently exceeded allowable limits and that acetone has also been detected, calling for faster action on the water remediation effort."
+        ]
+      }
+    ]
+  }
 }

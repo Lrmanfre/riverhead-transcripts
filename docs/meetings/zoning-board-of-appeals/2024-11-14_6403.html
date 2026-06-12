@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2024-11-14, category:Zoning Board of Appeals">
@@ -25,6 +25,21 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/6403" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/6403/files/agenda/5845" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Riverhead Zoning Board of Appeals held three variance hearings on November 14, 2024, approving two applications and adjourning a third pending revised plans.</p>
+      <h3>Key actions</h3>
+      <ul><li>A side-yard setback variance for two sheds on a Calverton property was approved, conditioned on the owner obtaining all outstanding certificates of occupancy including one for an existing in-ground pool.</li><li>Setback variances for front-yard, rear-yard, and side-yard-abutting-road relief were granted to owners of a property on Gregory Way in Riverhead to allow additions including an expanded living room and a garage with unfinished upper-floor space.</li><li>A coastal hazard area variance application for a property at 834 Soundshore Road in Jamesport — seeking to demolish an existing bungalow and build a new two-story house, in-ground pool, and accessory structure — was adjourned to the December 12, 2024 meeting so the applicant can submit a substantially amended site plan.</li></ul>
+      <h3>Public hearings &amp; comment</h3>
+      <ul><li>Board counsel recommended the Soundshore Road applicant amend and correct multiple elements of the application, including fixing a bedroom-count discrepancy, showing bluff setback distances on the survey, addressing excavation and fill-removal plans, resolving the status of a potentially unpermitted wetland on the property, and seeking to formally amend a 2010 ZBA variance that restricted the existing accessory structure from habitable use.</li><li>A board member raised concern about the proposed pool being sited near the bluff line and suggested relocating it landward of the house toward the street side of the property.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/1c49669e-3610-4ddf-911b-128704e027b9.mp4" type="video/mp4">
@@ -1112,6 +1127,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

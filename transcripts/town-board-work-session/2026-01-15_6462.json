@@ -7311,5 +7311,36 @@
       "end": 4672.26,
       "text": ""
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T02:32:53+00:00",
+    "agenda_grounded": false,
+    "tldr": "The board reviewed two battery energy storage applications at EPCAL and Calverton, advanced a Polish Town historical designation effort, and discussed a range of resolutions covering water and sewer projects, recreation fees, and a USGA parking agreement.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "The board moved toward scheduling a February 18 public hearing for a 5-megawatt battery energy storage system proposed at 221 Scott Avenue in EPCAL, pending SEQRA negative declaration approval.",
+          "The board moved toward scheduling a February 18 public hearing for a 1,000-kilowatt-hour battery energy storage system proposed at the Hampton Jitney facility at 253 Edwards Avenue in Calverton.",
+          "The board directed staff to keep the senior resident beach parking permit fee at $10 rather than the proposed increase, amending the 2026 recreation fee schedule resolution accordingly.",
+          "The board authorized submission of a grant application to New York Sea Grant for a flooding study along Creek Road and Sound Road in Wading River, with an expression of interest due January 30.",
+          "A license agreement was advanced authorizing the USGA to use a portion of the EPCAL runway for parking during the U.S. Open in June 2026, with a reported agreement value of $150,000.",
+          "A bid was awarded for electrical rehabilitation of a water district pump station, with staff having completed mechanical and building work in-house to reduce costs.",
+          "The Landmarks Preservation Committee presented plans to form a volunteer subcommittee to survey properties and collect historical documentation in support of nominating Polish Town to the National Register of Historic Places.",
+          "A water main break that occurred the previous day during Main Street encasement work was reported as contained within approximately 45 minutes, with the Health Department and DEC notified and water samples pending results."
+        ]
+      },
+      {
+        "heading": "Discussed",
+        "items": [
+          "One board member stated they are not comfortable approving battery storage facilities for operation until the town's hazmat team is fully trained and equipped, though they did not oppose advancing the applications.",
+          "The fire marshal noted that Manorville Fire Department indicated comfort with the EPCAL battery storage project and that a third-party contractor has been engaged by the applicant for emergency response support.",
+          "National Register designation for Polish Town would make 20 percent state and 20 percent federal tax credits available to qualifying property owners undertaking restoration work, with no restrictions imposed on owners who do not seek the credits."
+        ]
+      }
+    ]
+  }
 }

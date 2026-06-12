@@ -10521,5 +10521,39 @@
       "end": 5080.28,
       "text": "Thank you."
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T02:03:11+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Riverhead Town Board held a Leap Day work session covering committee updates, a warehouse project at EPCAL, labor-management relations, and a slate of resolutions including an ambulance facility planning transfer and cannabis zoning changes.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "The board accepted a fund transfer within the ambulance district budget to begin drawing up plans for a new ambulance facility at the current site.",
+          "The board assumed lead agency status and issued a negative declaration under SEQRA for an 84,000-square-foot warehouse proposed at 901–923 Berman Boulevard in the EPCAL planned industrial park.",
+          "A public hearing on the Berman Boulevard warehouse site plan was scheduled for March 19 at 6:05 p.m.",
+          "The board approved re-bidding the Meeting House Creek stormwater wetland and habitat restoration project after the first round came in over budget and lacked required MWBE provisions.",
+          "A local law amending the town zoning code related to cannabis was adopted.",
+          "Preliminary site plan approval with conditions was granted for a two-story restaurant proposed at 38 McDiarmid Avenue overlooking the river and marina.",
+          "The board accepted the retirement of the Senior Citizens Center manager, Debbie Schwartz.",
+          "A grant application to the U.S. Department of Energy's EECBG program for approximately $76,000 for riverfront lighting improvements was authorized."
+        ]
+      },
+      {
+        "heading": "Affects residents",
+        "items": [
+          "All town tax exemption paperwork must be submitted to the Assessor's Office at Town Hall by 4:30 p.m. on March 1 — this covers all exemptions, not only STAR.",
+          "The anti-litter committee's spring cleanup is scheduled for Sunday, April 28 at 9 a.m., meeting at Town Hall.",
+          "The Riverhead Rotary Garden Festival and an East End Latin Festival were approved as special events, both scheduled around May.",
+          "Tax grievance day before the Board of Assessment Review is Tuesday, March 21.",
+          "Online rental permit applications through OpenGov are expected to go live around April 1, allowing credit card or bank account payments.",
+          "East Creek has been reopened for clamming by Riverhead residents, and the town's clam seeding program was described as successful."
+        ]
+      }
+    ]
+  }
 }

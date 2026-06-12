@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2026-01-22, category:Zoning Board of Appeals">
@@ -25,6 +25,23 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/3886" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/3886/files/agenda/5917" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Zoning Board of Appeals adjourned two pending appeals and held a lengthy public hearing on a request to convert a nonconforming single-family residential property into a concrete and asphalt crushing facility in the Calverton area, ultimately adjourning the matter pending completion of environmental review and additional applicant submissions.</p>
+      <h3>Key actions</h3>
+      <ul><li>Appeal 2025-036 (Osborne Avenue applicant) was adjourned to April 23, 2026 at the applicant&#x27;s request.</li><li>Appeal 2025-028 (Lincoln Street Opportunity Zone Fund LLC) was adjourned to June 11, 2026 to allow the applicant, property owner, and adjacent owner to work toward resolving the issues among themselves.</li><li>Appeal 2025-043, seeking a special exception to change a nonconforming residential use to a solid waste and concrete/asphalt crushing facility, was adjourned to a future date pending completion of the SEQRA environmental review process and applicant submissions due within 30 days.</li><li>The board&#x27;s environmental consultant testified that the Zoning Board is an involved agency under SEQRA and cannot make a determination until the environmental review led by the Planning Board is complete.</li><li>The environmental consultant recommended that the Planning Board rescind its adoption of the final scope, add the Zoning Board as an involved agency, reopen public comment on the draft scope, and issue a new final scope before the process continues.</li><li>The applicant&#x27;s attorney was directed to submit proof of continuous residential occupancy of the subject property within 30 days to support the claim of an existing nonconforming residential use.</li></ul>
+      <h3>Public hearings &amp; comment</h3>
+      <ul><li>Approximately 60 residents attended the hearing on Appeal 2025-043, with several speaking in opposition.</li><li>The president of the Greater Calverton Civic Association submitted a formal written objection arguing the proposed use is an impermissible intensification of a nonconforming use that fails to meet Town Code Section 301-222B standards.</li><li>The adjacent property owner testified he has not observed anyone living in the subject residence for at least three years and described unpermitted site clearing and grading activity by the applicant in prior years.</li><li>Multiple residents raised concerns about noise, dust, diesel emissions, heavy truck traffic, groundwater impacts, and effects on residential property values.</li><li>One speaker noted that asphalt, which is included in the application, contains petroleum products and asked that its environmental impacts be evaluated separately from concrete.</li><li>A speaker noted the applied-for facility could process up to 500 tons of material per day under state DEC permit thresholds, generating significant truck and operational activity.</li></ul>
+      <h3>Discussed</h3>
+      <ul><li>The applicant&#x27;s attorney argued that a rezoning from Industrial A to Light Industrial, which occurred approximately nine years into the site plan process, rendered the previously allowable concrete crushing use nonconforming and created an inequitable situation the special exception provision is meant to address.</li><li>The board questioned whether the single-family home on site is currently occupied and whether the Planning Board ever formally approved the preliminary site plan; a 2022 Planning Board resolution denying the preliminary site plan was read into the record.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/18f4671e-a8e1-4301-ae5b-fcab106b5c86.mp4" type="video/mp4">
@@ -1903,6 +1920,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

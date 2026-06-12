@@ -2701,5 +2701,39 @@
       "end": 1569.46,
       "text": "Thank you."
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T02:30:29+00:00",
+    "agenda_grounded": false,
+    "tldr": "The board's open session focused on planning for America's 250th anniversary celebrations in 2026, including a January kickoff gala, a Fourth of July parade, and fireworks at South Jamesport Beach. The board then moved into executive session to discuss a contractual matter with NYSDOT and a possible sale of real property.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "The board closed open session and moved into executive session to discuss a contractual agreement between the Town of Riverhead and the New York State DOT.",
+          "The board also entered executive session to discuss a possible sale of real property."
+        ]
+      },
+      {
+        "heading": "Discussed",
+        "items": [
+          "A town America 250 committee presented plans for a yearlong series of events leading up to July 4, 2026, starting with a kickoff gala on January 23 at the Seastar Ballroom at the Long Island Aquarium, featuring food, music, a costume contest, and a cash bar.",
+          "A Fourth of July parade with floats from fire departments, local businesses, and historical groups is planned, along with fireworks launched from a barge at South Jamesport Beach.",
+          "The committee is developing a sponsorship package with tiered levels to fund fireworks, décor, and red-white-and-blue banners and flags along main streets and in neighborhoods.",
+          "Residents and organizations can participate by emailing the town; the committee includes the Chamber of Commerce, Lions, BIDMA, East End Arts, Townscape, and local historians.",
+          "The town historian noted plans for a Daughters of the American Revolution display in the Town Hall lobby in January highlighting local patriots.",
+          "A Town Square groundbreaking ceremony is scheduled for December 12 at noon at 127 East Main Street."
+        ]
+      },
+      {
+        "heading": "Affects residents",
+        "items": [
+          "The Riverhead Holiday Extravaganza is set for Saturday, December 6, on the Town Hall campus from 3 p.m. to 8 p.m., including a parade, tree lighting at 5:30 p.m., free hot chocolate, and a community market."
+        ]
+      }
+    ]
+  }
 }

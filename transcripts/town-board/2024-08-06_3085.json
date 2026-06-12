@@ -7256,5 +7256,44 @@
       "end": 4632.88,
       "text": "[transcription gap]"
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T02:52:16+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Riverhead Town Board held four public hearings, passed roughly three dozen resolutions, and addressed a flood watch, storm preparations, and a police rescue during a house fire.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "The board approved a change order for Town Hall renovation work at 4 West 2nd Street.",
+          "A capital project for a Downtown Parkway was established.",
+          "The board accepted the Final Generic Environmental Impact Statement (FGEIS) for the comprehensive plan update, with the document to be posted online for public review afterward.",
+          "A site plan application for a property on Scott Avenue/Calvin Street received preliminary approval with conditions.",
+          "The board authorized a license agreement allowing the police department to conduct DWI enforcement operations at EPCAL through year-end.",
+          "A public hearing was scheduled for a special permit application by Riverhead Charter School for portable trailers at 5117 Sound Avenue.",
+          "The residential solid waste collection and disposal service rebid was ratified, and the bid for police uniforms was awarded.",
+          "Andrew Smith was promoted to Chief Fire Marshal."
+        ]
+      },
+      {
+        "heading": "Money",
+        "items": [
+          "Building Department collections for July totaled $211,440.",
+          "Community benefit funds from NextEra were approved for expenditure toward agricultural, open space, and community purposes.",
+          "Budget transfers were approved for a Veterans Memorial Park parking lot, a code enforcement vehicle, and water and sewer district capital projects."
+        ]
+      },
+      {
+        "heading": "Public hearings & comment",
+        "items": [
+          "A public hearing on a special permit to convert an office building at 431 Griffin Avenue back to a single-family dwelling was closed; written comments accepted through August 16.",
+          "A neighboring property owner's attorney asked the board to require the applicant to record a covenant limiting the property to single-family use.",
+          "Public hearings on zoning code clarifications for one-family dwellings, a noise ordinance amendment allowing overnight parking-lot paving by application, and front-yard parking restriction enforcement changes were all closed with written comment periods through August 16."
+        ]
+      }
+    ]
+  }
 }

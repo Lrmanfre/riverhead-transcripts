@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2025-09-18, category:Planning Board">
@@ -25,6 +25,19 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/51" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/51/files/agenda/5574" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Riverhead Planning Board held three public hearings on minor subdivision applications and approved two resolutions at its September 18, 2025 meeting.</p>
+      <h3>Key actions</h3>
+      <ul><li>The board closed the public hearing for a minor subdivision on Roanoke Avenue (Woodhull at South Shore), where a family-owned property in the RA40 zone is proposed to be split into two lots each exceeding 70,000 square feet for estate planning purposes.</li><li>The board closed the public hearing for the Thomas Anderson Minor Subdivision, which would split a roughly 25-acre parcel on the east side of Roanoke Avenue into two lots, with the larger portion to be sold to Suffolk County for preservation as farmland.</li><li>The board closed the public hearing for the Richard Anderson Minor Subdivision, a related application to split a roughly 67-acre parcel into three lots, with the larger portions similarly intended for county preservation; the town water district has expressed interest in purchasing a four-acre retained parcel.</li><li>The board approved a resolution issuing a negative declaration for the BJ&#x27;s Fueling Station and Wholesale Club expansion (Resolution 2025-094).</li><li>The board granted final site plan approval for a clubhouse structure at Sandy Pond Links LLC (Resolution 2025-095).</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/201ce89a-a991-4511-aafb-be8c1c065921.mp4" type="video/mp4">
@@ -498,6 +511,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

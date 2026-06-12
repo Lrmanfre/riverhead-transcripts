@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2025-09-29, category:Town Board Work Session">
@@ -25,6 +25,23 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/139" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/139/files/agenda/5861" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Riverhead Town Board reviewed the tentative 2026 budget and discussed proposed amendments to the rental code aimed at cracking down on short-term transient rentals under 29 days.</p>
+      <h3>Key actions</h3>
+      <ul><li>The board reviewed a presentation on the tentative 2026 budget, which has been formally presented at an earlier special town board meeting.</li><li>The board discussed proposed amendments to Chapter 263 of the rental code to strengthen enforcement against transient rentals, with members requesting two additional changes before any vote.</li><li>The board went into executive session to discuss contractual, legal, and personnel matters.</li></ul>
+      <h3>Money</h3>
+      <ul><li>Total town operating fund appropriations for 2026 are budgeted at $112.7 million, an increase of $3.2 million over the prior year.</li><li>The general fund tentative budget exceeds the 2025 adopted general fund by $4.3 million and is 4.63% over the tax cap.</li><li>The largest budget driver is police department salaries, a contractual increase of approximately $1.8 million, followed by New York State retirement rate increases of roughly $1.1 million for police and $246,000 for non-police staff.</li><li>A property assessed at $735,000 would see a townwide tax increase of approximately 75 cents per day under the tentative budget.</li><li>Residential waste costs are projected to increase by less than 30 cents per month under an existing five-year contract.</li></ul>
+      <h3>Discussed</h3>
+      <ul><li>Proposed rental code amendments would create legal presumptions of transient rental activity based on evidence such as nightly pricing, online ads lacking permit numbers, rotating vehicle registrations, and inconsistent trash output.</li><li>Rental permit applicants would be required to sign a certification acknowledging the town&#x27;s ban on transient rentals; board members asked staff to add a question disclosing prior violations to the application.</li><li>Appeals of rental permit revocations would shift from the town board to the Zoning Board of Appeals under the proposed amendments.</li><li>Civil penalties for violations would be set at up to $5,000 per day, and listing platforms would face a five-day window to remove flagged illegal listings before fines apply.</li><li>Board members requested staff research whether fines in Justice Court, currently ranging from $2,000 to $6,000 depending on offense number, should be increased, citing comparable fines in neighboring towns.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/126e5c15-c19b-4918-8f50-578df65d9882.mp4" type="video/mp4">
@@ -868,6 +885,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

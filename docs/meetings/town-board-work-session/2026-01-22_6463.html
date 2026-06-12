@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2026-01-22, category:Town Board Work Session">
@@ -25,6 +25,23 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/6463" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/6463/files/agenda/5920" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">A Riverhead Town Board work session covered police crime statistics for November and December 2025, town clerk and justice court year-end reports, a code enforcement annual review, and a revised accessory dwelling unit draft law. The board also moved into executive session on several personnel and contractual matters.</p>
+      <h3>Key actions</h3>
+      <ul><li>The board directed staff to advance the revised accessory dwelling unit code to a resolution for publication and posting at the next town board meeting.</li><li>The board moved into executive session to discuss the employment status of an employee, the status of two police officers, a license agreement with a local business, and a sonographer services contract.</li></ul>
+      <h3>Money</h3>
+      <ul><li>The police chief reported total incidents of approximately 2,653 in November and 2,604 in December, with criminal incidents dropping from 130 in November to 106 in December.</li><li>Justice court imposed roughly $394,000 in fines and surcharges for all of 2025, including about $11,490 in blight surcharges and $8,840 in human services surcharges, though actual collections are expected to be lower.</li><li>Code enforcement generated approximately $407,225 in revenue for 2025, described as nearly double the prior year, and referred nine properties to Supreme Court for persistent violations.</li><li>The town clerk&#x27;s office processed nearly 2,900 public records requests in 2025 and is preparing to launch online payments for items such as dog license renewals and yard sale permits.</li><li>A housing official noted roughly $200,000 has accumulated in an affordable housing fund from subdivision requirements, intended for a first-time homebuyer down payment assistance program.</li></ul>
+      <h3>Discussed</h3>
+      <ul><li>Code enforcement reported 645 complaints and 755 violations and summonses in 2025, with the department chief saying an ideal full staffing level would be about 12 officers compared to the current five.</li><li>Board members discussed raising fines for building permit violations and requested information on fines for unlicensed taxi operations, solid waste, and hazardous waste violations.</li><li>The revised ADU draft adds owner-occupancy verification using voter registration, driver&#x27;s license, and utility records, prohibits short-term rental use, and requires a rental permit within 30 days if an ADU is rented.</li><li>The police chief proposed changing how overdose fatalities are reported in monthly statistics to wait for the medical examiner&#x27;s finding before classifying a death as drug-related, given a typical six-month delay.</li><li>Life rings with weather-resistant housings are planned for installation along the downtown waterfront by spring.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/8b3a63cb-936e-43cb-bd9b-48f8cd15b80f.mp4" type="video/mp4">
@@ -1356,6 +1373,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2025-09-29, category:Town Board">
@@ -25,6 +25,21 @@
     <div class="meta-row">13 min &nbsp;·&nbsp; <a href="https://riverheadny.portal.civicclerk.com/event/6141" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/6141/files/agenda/5582" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Town Board held a special meeting to receive the 2026 tentative budget and passed one resolution scheduling a public hearing on a town-owned property sale. The $112.7 million budget pierces the tax cap by 4.63%, with no new positions and no merit raises.</p>
+      <h3>Key actions</h3>
+      <ul><li>The supervisor presented the 2026 tentative budget of $112,722,754 to the town clerk, noting it exceeds the tax cap by 4.63% due to contractual raises, health insurance increases, and rising state retirement rates.</li><li>The board voted to schedule a public hearing on designating the Jazz Loft Incorporated as a qualified and eligible sponsor to purchase and redevelop town-owned property at 18 Peconic Avenue; one board member voted no, citing concerns about downtown foot traffic.</li></ul>
+      <h3>Affects residents</h3>
+      <ul><li>A home valued at $735,000 would see an increase of approximately 75 cents per day under the proposed budget; residential waste cost is estimated at one penny per day.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/663f0af1bf.mp4" type="video/mp4">
@@ -246,6 +261,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

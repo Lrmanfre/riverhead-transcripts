@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2024-01-25, category:Town Board Work Session">
@@ -25,6 +25,25 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/5117" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/5117/files/agenda/4955" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Riverhead Town Board held a work session covering emergency response protocols for new Route 25 venues, volunteer first responder incentives, the possible demolition of a historic LIPA-owned building, and a senior citizen resource guide update.</p>
+      <h3>Key actions</h3>
+      <ul><li>The board and representatives of Riverhead Ambulance, Wading River Fire Department, and Manorville Fire District agreed in principle to establish an automatic mutual aid dispatch arrangement for Scotts Point and the town ice rink so that whichever agency arrives first handles the call.</li><li>The board said it will direct Riverhead Police Department to simultaneously dispatch both Riverhead Ambulance and Wading River for calls at those two Route 25 locations while longer-term district line questions are studied.</li><li>The board committed to ensuring all first-responder agencies receive building plans before construction begins at EPCAL, not after, correcting a gap that left departments uninformed about the water park and ice rink.</li><li>The board expressed intent to pursue LOSAP enrollment for Riverhead Ambulance, which currently has no such program, and to explore reducing the vesting period from five years to two years for all volunteer agencies in town.</li><li>The board agreed to contact PSEG Long Island requesting a delay of at least nine months to one year before demolishing the historic 1859 Perkins generating station at 1129 West Main Street, to allow time to explore preservation and reuse options.</li><li>The Senior Citizens Advisory Council&#x27;s updated Resource Guide and My Aging Plan (MAP) documents were presented for board approval before printing and distribution; the board indicated it would approve them quickly.</li></ul>
+      <h3>Money</h3>
+      <ul><li>The Perkins generating station property is owned by PSEG Long Island, which has scheduled demolition for early February 2024; the board acknowledged the town has no funds to purchase or restore the building and that the Gardner Foundation, which offers a 50% match, may be a potential funding source.</li><li>Riverhead Ambulance reported that Stony Brook University Hospital now provides an additional ambulance and paramedic fly car from 10 a.m. to 10 p.m. under a new arrangement, increasing the agency&#x27;s daytime capacity.</li></ul>
+      <h3>Discussed</h3>
+      <ul><li>Riverhead Ambulance reported response times of seven and nine minutes on the only two calls to the Route 25 corridor so far, which representatives said meets county standards, though access limitations and a single main entrance into the complex were flagged as ongoing concerns.</li><li>Board members and agency representatives discussed the historical and industrial significance of the Perkins generating station, the only surviving riverside power structure of its kind in Riverhead, and floated possible uses such as environmental education or a science center with PSEG involvement.</li><li>The Senior Citizens Advisory Council noted it has at least four vacant seats, including slots for a veterans representative and a clergy member, and is actively recruiting; meetings are held every two months at Town Hall.</li></ul>
+      <h3>Affects residents</h3>
+      <ul><li>Free COVID-19 test kits, with a limit of two kits per person, are available for pickup Monday through Friday 8:30 a.m. to 4 p.m. at Town Hall and the Riverhead Senior Center on Shade Tree Lane.</li><li>The updated Senior Citizens Resource Guide, which includes emergency contacts, health services, fraud information, and a fillable medication list, will be distributed at the senior center, libraries, and senior communities; a printable medication sheet will also be available at the Town Clerk&#x27;s office.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/90429eaa-d63d-4e3e-b8ce-b8a282b69632.mp4" type="video/mp4">
@@ -2479,6 +2498,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

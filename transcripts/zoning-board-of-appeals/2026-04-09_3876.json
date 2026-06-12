@@ -19646,5 +19646,44 @@
       "end": 12899.58,
       "text": "!"
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T03:27:18+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Riverhead ZBA held a lengthy public hearing on a proposed ambulance center and mobile stroke unit garage at the Staples Plaza shopping center on Old Country Road. The board closed testimony, left the record open for written comments until April 23, and reserved a decision for May 14.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "A one-year extension was granted for appeal 2025-003 (36 Kirby Lane, Jamesport), extending relief to April 10, 2027.",
+          "A one-year extension was granted for appeal 2024-026 (55 Jacobs Place, Aquebogue), extending relief to March 27, 2027.",
+          "A reserved decision for a property at 47 Bayside (appeal 2025-032) was moved to the April 23 meeting.",
+          "An applicant seeking a variance to post a freestanding daycare sign at 189 Trout Brook Lane agreed to instead affix a code-compliant nameplate to her house, making a variance unnecessary; the board directed her to submit a sign sketch to staff and then withdraw the application.",
+          "For appeal 2025-042 (1099 Royal LLC, 1087 Old Country Road), the board closed public testimony, left the written-comment record open through April 23, 2026, and scheduled a reserved decision for May 14, 2026."
+        ]
+      },
+      {
+        "heading": "Public hearings & comment",
+        "items": [
+          "The applicant for the ambulance center asked the board to interpret the shopping center zoning definition to allow the use as-of-right, or alternatively to grant a use variance, for a proposed Stony Brook ambulance garage and mobile stroke unit in the rear of Staples Plaza.",
+          "Applicant witnesses testified that the roughly 14,000-square-foot rear space has been unsuccessfully marketed to retail tenants for about three years due to lack of parking visibility, no loading docks, and excess warehouse depth, and that annual property taxes and maintenance costs are substantial.",
+          "A traffic engineer testified the proposed use would generate approximately 44 daily vehicle trips and 14 parked cars, compared to an estimated 900 daily trips and 35 parked cars for a comparable retail use.",
+          "A Stony Brook physician presented clinical data arguing the mobile stroke unit saves lives by enabling on-scene CT imaging, immediate clot-busting medication, and faster routing to the appropriate stroke center.",
+          "Opposing counsel representing Peconic Bay Medical Center and a nearby property owner argued the applicant failed all four required use-variance factors, that the shopping center district code unambiguously excludes emergency vehicle garages, and that granting the interpretation could affect more than 40 shopping center parcels totaling roughly 163 acres town-wide.",
+          "Physicians affiliated with Peconic Bay testified the hospital is weeks away from opening a thrombectomy-capable suite across the street, raising concern that the MSU would transport patients to Stony Brook rather than the local facility, and that past experience with other Stony Brook MSU locations showed limited patient sharing.",
+          "Multiple community members spoke in opposition, citing traffic safety around the shopping center, narrow access lanes at the rear of the building, pedestrian hazards, and zoning-precedent concerns; a petition with approximately 100 signatures in opposition was submitted."
+        ]
+      },
+      {
+        "heading": "Affects residents",
+        "items": [
+          "Written public comments on the ambulance center application (appeal 2025-042) will be accepted through April 23, 2026; the next ZBA meeting is April 23 and a decision is expected no earlier than May 14, 2026.",
+          "Residents near 189 Trout Brook Lane should be aware that any daycare business sign at that address must be a code-compliant nameplate affixed to the house, not a freestanding front-yard sign."
+        ]
+      }
+    ]
+  }
 }

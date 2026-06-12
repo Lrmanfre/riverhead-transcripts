@@ -906,5 +906,29 @@
       "end": 615.63,
       "text": "so [transcription gap]"
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T01:45:13+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Planning Board took action on three resolutions and briefly discussed two subdivision applications at its October 3 meeting. No public hearings were held.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "The board approved a resolution assuming lead agency status and issuing a negative declaration for Carson Woods, an eight-lot major residential subdivision in Jamesport.",
+          "The board scheduled a public hearing for the Carson Woods major subdivision, to be located at the terminus of two lanes in Jamesport.",
+          "The board scheduled a public hearing for a minor subdivision application for a property on Sound Shore Road, noting the applicant had already obtained required Zoning Board relief."
+        ]
+      },
+      {
+        "heading": "Discussed",
+        "items": [
+          "A five-lot subdivision on Maple and Union Avenue (RH Hamptons, LLC) was discussed informally; the board is awaiting a revised plan addressing Long Island Workforce Housing Act compliance before taking action."
+        ]
+      }
+    ]
+  }
 }

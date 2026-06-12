@@ -2791,5 +2791,28 @@
       "end": 1414.04,
       "text": "THANK YOU."
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T02:28:49+00:00",
+    "agenda_grounded": false,
+    "tldr": "The board reviewed a special permit amendment for a proposed fine dining restaurant at the Jamesport Manor Inn and walked through a slate of administrative resolutions ahead of a formal vote.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "The board discussed a special permit amendment application for 370 Manor Lane, Jamesport, seeking to allow use of the second floor of the Jamesport Manor Inn for restaurant seating; staff recommended scheduling a public hearing at the second September meeting.",
+          "The proposed restaurant, to be called 18 Bay, would operate with no more than approximately 82 seats, no catering or wedding events, and no outdoor amplified music.",
+          "A resolution to adopt a budget for capital improvements at Two Bears Park was reviewed.",
+          "A resolution to use ambulance district billing proceeds for architectural services for a new RVAC building was reviewed; a public fundraising event is planned for October 18.",
+          "Several personnel resolutions were reviewed, including provisional appointment of an account clerk, a salary increase for a maintenance mechanic, promotion of a building inspector to senior building inspector, two resignations, and multiple appointments and reappointments to the Agricultural Advisory Committee.",
+          "Several local law amendments were reviewed, covering fire prevention penalties, vehicle and traffic regulations, noise and property maintenance, and the Community Benefit Zoning use district.",
+          "A resolution authorizing demolition or abatement of an unsafe structure at 39 Pie Lane, Jamesport, was reviewed.",
+          "The board moved into executive session to discuss litigation related to a building matter."
+        ]
+      }
+    ]
+  }
 }

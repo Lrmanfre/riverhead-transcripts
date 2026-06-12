@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2025-03-13, category:Zoning Board of Appeals">
@@ -25,6 +25,19 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/6205" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/6205/files/agenda/5647" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Riverhead Zoning Board of Appeals held a short meeting on March 13, 2025, approving two variance requests and scheduling a reopened appeal.</p>
+      <h3>Key actions</h3>
+      <ul><li>A prior applicant at 55 Jacobs Place in Aquebogue was granted a hearing on March 27, 2025 to reopen and amend appeal number 2024-026.</li><li>Side yard setback variances were approved for MGRG of NY1 LLC to build a two-story single-family home at 16 Doris Avenue, Riverhead.</li><li>Variances for George Elia at 71 Pine Avenue, Aquebogue were approved subject to conditions: front yard setback relief for an enclosed porch and removal of three of four unpermitted sheds, with the remaining shed to be relocated to meet code.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/cf0c2c48-2655-45e8-a8d4-f414010fbfc6.mp4" type="video/mp4">
@@ -454,6 +467,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2026-03-26, category:Zoning Board of Appeals">
@@ -25,6 +25,19 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/3888" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/3888/files/agenda/5955" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Zoning Board of Appeals approved an extension for a prior variance, approved variances for an accessory dwelling addition and shed legalization, adjourned two appeals to April 23, and reserved decision on a non-conforming use application.</p>
+      <h3>Key actions</h3>
+      <ul><li>The board granted a second one-year extension to appeal 2024-001 (Vincent and Thomas Franchini, 196 South Jamesport Avenue), expiring March 14, 2027.</li><li>The board approved variances for appeal 2026-003 (253 Newton Avenue, Riverhead) allowing an addition to an accessory structure and legalizing a shed, subject to the accessory dwelling unit code.</li><li>Appeal 2026-006 (North Shore Sprinkler, 1264 West Main Street) was reserved for a written decision to be issued April 23, 2026, regarding a change from one non-conforming use to another.</li><li>Appeals 2026-002 and 2026-005 were adjourned to April 23, 2026.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/17950020-27e8-4b95-9f2b-fedb23148271.mp4" type="video/mp4">
@@ -449,6 +462,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

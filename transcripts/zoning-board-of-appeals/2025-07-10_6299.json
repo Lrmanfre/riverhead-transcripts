@@ -5976,5 +5976,32 @@
       "end": 3745.4,
       "text": "Aye."
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T03:23:12+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Zoning Board of Appeals met on July 10, 2025, granting two variance applications, denying one, and reserving decision on a bluff-area coastal erosion case until August 28.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "A variance was approved for a proposed 29-by-31-foot detached garage at 24 Michaels Lane, Wading River (appeal 2025-018), subject to receipt of stamped plans showing interior space and a written statement that there will be no exterior staircase and no habitable use of any upper level.",
+          "A variance was approved for a proposed two-story detached garage at 210 Sound Road, Wading River (appeal 2025-022), subject to landmarks preservation committee approval, health department approval if applicable, no habitable use without further approvals, and compliance with the town's soil importation permit requirement if applicable.",
+          "A variance application for a proposed one-story writer's studio with basement and two-car detached garage at 2705 Brown Oak Avenue, Riverhead (appeal 2025-023), located within the coastal erosion hazard area, was reserved for a decision at the August 28 meeting.",
+          "Appeal 2025-020 for 47 High View Drive, Wading River — an existing shed located in the front yard — was denied; the applicant did not appear, and the board voted to require the shed be relocated out of the front yard in compliance with town code.",
+          "The board noted that in an RB-80 zone a detached accessory structure with a certificate of occupancy for the required period may be converted to an accessory apartment under town code, and that a studio structure in an RA-40 zone could similarly be eligible for accessory apartment use over time."
+        ]
+      },
+      {
+        "heading": "Public hearings & comment",
+        "items": [
+          "A neighbor of the 2705 Brown Oak Avenue property asked for clarification that the proposed writer's studio is not an accessory dwelling unit and would not be rented out; the applicant's attorney confirmed that is not the current plan.",
+          "The same neighbor questioned whether the property's seasonal-use classification affects the application; board staff explained the zoning classification is Residence A-40 and whether a home is seasonal or year-round is a property descriptor, not a separate land-use restriction."
+        ]
+      }
+    ]
+  }
 }

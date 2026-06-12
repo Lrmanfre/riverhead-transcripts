@@ -3896,5 +3896,35 @@
       "end": 2346.77,
       "text": "you [transcription gap]"
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T01:44:53+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Planning Board held a public hearing on a minor subdivision in Jamesport and advanced a Qdoba drive-through restaurant conversion on Old Country Road, scheduling both a SEQRA negative declaration and a public hearing for that project.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "The board closed the public hearing for the Manor Lane Minor Subdivision (JETS 139 LLC), which proposes splitting a 5.037-acre parcel at 139 Sound Avenue, Jamesport into two lots of approximately 2.4 and 2.6 acres; a nearby 19.67-acre parcel with development rights sold to Suffolk County is being incorporated into the map.",
+          "The board adopted a resolution classifying the Qdoba drive-through restaurant conversion at 949 Old Country Road as an unlisted SEQRA action and issued a negative declaration.",
+          "The board adopted a resolution scheduling a public hearing on the Qdoba site plan application for September 5, 2024.",
+          "The board adopted a resolution granting a six-month extension of preliminary site plan approval for HK Ventures LLC.",
+          "The board approved the minutes of the July 18 meeting.",
+          "The next meeting is scheduled for Thursday, September 5, 2024 at 6 p.m."
+        ]
+      },
+      {
+        "heading": "Discussed",
+        "items": [
+          "The Qdoba project proposes converting the former Friendly's restaurant at 949 Old Country Road into two tenancies: a Qdoba drive-through with indoor and outdoor seating, and an unspecified sit-down restaurant, with parking lot reconfiguration, facade renovations, new lighting, and landscaping improvements.",
+          "Board members raised questions about drive-through queuing capacity, pedestrian crosswalk safety across the drive-through lane, accessible parking placement, loading and delivery logistics, and the condition of fencing on adjacent property.",
+          "Staff noted the site is within the Riverhead Sewer District and sewer connection is available; health department review is ongoing.",
+          "The project is scheduled for Architectural Review Board review before the September public hearing."
+        ]
+      }
+    ]
+  }
 }

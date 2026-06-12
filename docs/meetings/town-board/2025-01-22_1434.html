@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2025-01-22, category:Town Board">
@@ -25,6 +25,21 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/1434" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/1434/files/agenda/1297" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The board held a public hearing on a site plan amendment for Island Water Park (Scott&#x27;s Point) in Calverton, drawing heavy public comment about unpermitted construction and environmental concerns; the hearing closed with written comments accepted through January 31. The board also approved a slate of administrative resolutions and noted that Crescent Duck Farm faces a major bird flu outbreak and possible permanent closure.</p>
+      <h3>Key actions</h3>
+      <ul><li>The public hearing on the Island Water Park site plan amendment at 5835 Middle Country Road, Calverton, seeking to legalize a paved go-kart track, pickleball courts, and catering/event space was closed; written comments are accepted through January 31 at 4:30 p.m.</li><li>The board classified the Island Water Park application as an &#x27;unlisted&#x27; action under SEQRA, declining to reclassify it as Type 1 or require a full Environmental Impact Statement despite public requests.</li><li>Resolution 96, appointing a site plan reviewer, was adopted unanimously after a civic association requested it be tabled; the board noted environmental review duties are handled by existing staff.</li><li>Resolution 97, appointing a member to the Antibias Task Force, was tabled unanimously to allow two qualified candidates to be appointed simultaneously next month.</li><li>The board authorized filing an application for the New York State Household Hazardous Waste State Assistance Program.</li><li>Two addenda to agreements with LVF Landscape Architects for Streetscape and Playground projects were authorized, both covered by grant funds.</li><li>A Chapter 229 excavation permit was granted for a one-story self-service car wash at 1535 Old Country Road; the board noted a code amendment is being drafted to raise the excavation fee from $2 to $3 per cubic yard.</li><li>Public hearings were scheduled or noticed on amendments to chapters covering dogs and domestic animals, peddling and soliciting, and yard sales.</li><li>A public hearing was called on a capital improvement for Riverhead Water District Extension No. 9 involving properties on Forge Road in Calverton.</li><li>The board authorized an RFQ for engineering services for the Class A Biosolids Upgrade Project in the Riverhead Sewer District.</li></ul>
+      <h3>Public hearings &amp; comment</h3>
+      <ul><li>Multiple speakers urged the board to require a full environmental review for the Island Water Park application, citing unpermitted construction, lack of certificates of occupancy, unresolved DEC compliance, and drainage concerns affecting a sole-source aquifer.</li><li>A previous lawsuit against the Island Water Park applicant was settled for a $50,000 fine, and speakers noted the track, pickleball courts, and event space were all built without permits.</li><li>A representative clarified that the applicant is not seeking additional years of tax abatement beyond the original 10-year IDA agreement, currently in its third year.</li><li>One speaker stated Scott&#x27;s Point has reduced promised full-time jobs by approximately 80% and cut seasonal part-time positions by more than half.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/25703df2-9c95-4049-9796-f5706652e610.mp4" type="video/mp4">
@@ -2662,6 +2677,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

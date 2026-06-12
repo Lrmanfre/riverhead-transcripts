@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2025-03-06, category:Town Board Work Session">
@@ -25,6 +25,23 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/5186" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/5186/files/agenda/5024" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Town Board work session featured presentations from the Riverhead IDA on its 2023 economic impact and from the Town Historian on her annual report, followed by brief updates on community events and Veterans Memorial Park improvements before the board moved into executive session.</p>
+      <h3>Key actions</h3>
+      <ul><li>The board moved into executive session to discuss personnel matters, a contractual agreement with BIDMA, potential Supreme Court litigation for town code violations, the sale or lease of real property, and a possible MOA.</li><li>The Town Historian requested that the board restore a supplies budget line, which the board indicated it was prepared to do, and also requested a wearable alert device so she can summon help while working alone in the lower-level office.</li><li>Permanent restroom facilities were delivered and lowered into place at Veterans Memorial Park, with utility connections expected to be completed imminently pending an LIPA transformer installation.</li></ul>
+      <h3>Discussed</h3>
+      <ul><li>The Riverhead IDA reported that its 21 active projects (out of roughly 16,500 total town parcels) saw assessed value rise from approximately $7 million to approximately $32 million, with tax revenue from those parcels increasing from roughly $720,000 to roughly $2.9 million in 2023.</li><li>IDA representatives stated that jobs on those 21 parcels grew from 29 to approximately 1,402, and that eight projects generated over $3.3 million in sales tax and over $800,000 in occupancy tax in 2023.</li><li>The IDA addressed the claim that it has cost the school district $15 million over ten years, arguing that figure, if accurate, represents less than 1 percent of the $1.54 billion school budget over the same period.</li><li>IDA representatives noted that a new project dashboard and redesigned website are in progress and expected before year-end.</li><li>Town Historian Georgette Case presented her annual report highlighting the historian&#x27;s office relocation, acquisition of historic documents and artifacts including early bank records and oaths of office, and ongoing research into Native American burial protection laws.</li></ul>
+      <h3>Affects residents</h3>
+      <ul><li>The Town Historian&#x27;s office is open Wednesdays from 9 a.m. to 3 p.m. in the lower level of Town Hall at 200 Howell Avenue for residents seeking local history research assistance.</li><li>Free public skating sessions for children are scheduled at the Veterans Memorial Park ice rink during the upcoming spring school break; specific dates are posted on the Recreation Department website.</li><li>An Irish flag-raising ceremony is scheduled for Saturday, March 8 at the George Young Community Center at 10:30 a.m., preceding the East End Society Jamesport Parade on March 15.</li><li>Residents are reminded that daylight saving time begins Sunday, March 9, requiring clocks to be set forward one hour.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/8eab8d6c-2238-406f-92df-47893498d0c2.mp4" type="video/mp4">
@@ -1302,6 +1319,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

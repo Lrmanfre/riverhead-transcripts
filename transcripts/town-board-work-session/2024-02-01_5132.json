@@ -7131,5 +7131,37 @@
       "end": 4037.86,
       "text": "you"
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T01:59:31+00:00",
+    "agenda_grounded": false,
+    "tldr": "The board reviewed 49 draft resolutions covering water district projects, staffing, recreation fees, cannabis zoning, downtown parking, and several new service contracts. The main substantive discussion covered progress on the Town Square, amphitheater, inclusive playground, parking garage, and transit-oriented development projects downtown.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "The board reviewed a draft local law amending the cannabis zoning code to divide the town into five corridors with saturation limits and remove residential buffer restrictions on commercial corridors; a public hearing is scheduled for the evening of February 21.",
+          "Design agreements were finalized with two firms — one for the Town Square adaptive playground and street improvements, one for the amphitheater — with public engagement and kickoff meetings planned for the following week.",
+          "The board reviewed a resolution authorizing acceptance of roughly $1.05 million in grant funds for construction of the Town Square adaptive playground.",
+          "A resolution was reviewed to authorize filing a $25 million federal RAISE grant application to help fund the downtown parking garage and street improvements.",
+          "Public hearings on water district capital improvements for the Maris Farm subdivision and for a lateral water main extension at the former Sears building site (a planned apartment development) were set for February 21 at 6 p.m.",
+          "The board reviewed a license agreement with a private operator to run a paintball facility on approximately 14 wooded acres at Veterans Park, including required safety netting, buffering from the dog park, and engineering oversight.",
+          "Recreation fees for new dwelling units under subdivision and condominium map regulations were proposed to return to $5,000 per unit, up from a reduced rate of $3,000.",
+          "A resolution was reviewed to amend the Tanger Outlets Business F Zoning Use District overlay, following a prior public hearing, for a vote at the next board meeting."
+        ]
+      },
+      {
+        "heading": "Discussed",
+        "items": [
+          "Staff briefed the board on downtown TOD progress, including finalized easement and staging agreements, a negotiated footprint with the master developer, and Suffolk County's agreement to use an existing parking lot rather than requiring a garage on the Griffin Avenue site.",
+          "Board members raised the need to address downtown sanitation infrastructure — including shared compactors or a sanitation district — as part of the overall downtown redevelopment design.",
+          "The board noted that paid parking downtown will need to be introduced once the parking garage is built, and that a payment-in-lieu-of-parking local law is being updated to require certain uses such as hotels to contribute to garage funding.",
+          "A board member noted that Reeves Beach remains under repair after storm damage and asked engineering for a timeline on reopening the boat ramp."
+        ]
+      }
+    ]
+  }
 }

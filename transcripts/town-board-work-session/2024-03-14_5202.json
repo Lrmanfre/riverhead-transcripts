@@ -1816,5 +1816,23 @@
       "end": 1331.77,
       "text": "Really fist [transcription gap]"
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T02:02:42+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Town Board reviewed 48 resolutions at a work session covering personnel, special events, capital projects, property sales, and a pending Pine Barrens zoning code update, then entered executive session on contract, litigation, and property matters.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "The board previewed a local law to amend the Pine Barrens Overlay District zoning code to comply with an updated Pine Barrens comprehensive land-use plan, with a public hearing to be scheduled at the next Town Board meeting.",
+          "A resolution authorizes conveyance of the town-owned surplus property at 201 Howell Avenue (former building and planning department site), subject to permissive referendum, at a price described as above the appraised value.",
+          "Capital projects were established for a Riverfront Adaptive Children's Playground and a Riverfront Amphitheater, and a congressional earmark application was authorized to fund amphitheater construction."
+        ]
+      }
+    ]
+  }
 }

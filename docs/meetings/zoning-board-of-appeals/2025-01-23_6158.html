@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2025-01-23, category:Zoning Board of Appeals">
@@ -25,6 +25,23 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/6158" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/6158/files/agenda/5600" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Riverhead ZBA held hearings on six active appeals on January 23, 2025. Two variances were granted, one use variance was denied, one coastal erosion application was reserved pending a revised plan, one application was adjourned for corrections, and a large commercial development application was continued with additional information requested.</p>
+      <h3>Key actions</h3>
+      <ul><li>Appeal 2024-037 (Fisher Realty Group, 940–946 West Main Street) — request to store repossessed vehicles outdoors was unanimously denied; the board agreed the use is not permitted in the Peconic River Community zoning district.</li><li>Appeal 2025-001 (776 Soundshore Road, Jamesport) — variance unanimously granted for a 16x32 in-ground pool and pool house in the front yard, subject to conditions including seasonal-only pool house use, no habitable space, and submission of impervious surface calculations.</li><li>Appeal 2025-002 (1022 Parkway Street, Riverhead) — variance unanimously granted for enclosure of an existing front porch with a front yard setback of 19.2 ft (50 ft required) and side yard setback of 1.5 ft (25 ft required); applicant must obtain permits or remove an unpermitted gazebo and shed within six months.</li><li>Appeal 2024-035 (1201 Ostrander Avenue, cannabis use variance) — adjourned to February 13, 2025, awaiting a Suffolk County Planning Commission response.</li><li>Appeal 2024-038 (99 Cliff Road East, Wading River) — unanimously adjourned to February 27, 2025, because the application contained errors including a wrong pool type reference, incorrect tax map numbers, and an incorrect environmental assessment form.</li><li>Appeal 2024-031 (834 Soundshore Road, Jamesport, coastal erosion hazard area) — decision reserved to February 13, 2025; the board expressed preference for a relocated pool option (Option 3), and if the applicant submits an amended plan within seven days, the reserved decision will be held pending review.</li><li>Appeal 2024-034 (Fisher Realty Group, 940–946 West Main Street, large commercial development) — continued; the landscape variance was deemed moot after the landscaped area increased to 50.07%, but variances for impervious surface coverage and floor-area ratio remain; the board requested updated plans and a staff report within 7–10 days confirming parking and dimensional calculations.</li></ul>
+      <h3>Public hearings &amp; comment</h3>
+      <ul><li>A neighbor at 774 Soundshore Road raised concerns about runoff and grade change for the Jamesport pool application but was satisfied after learning the pool would be on the east side and the grade would not change.</li><li>A neighbor at 1028 Parkway Street raised concerns about encroachment for the Parkway Street porch enclosure but was satisfied after confirmation that the footprint would not expand.</li><li>A resident of Reeves Park spoke in opposition to the 1201 Ostrander Avenue cannabis use variance, citing proximity to homes and children; the applicant&#x27;s attorney argued the use meets the town code&#x27;s special use exception standard.</li></ul>
+      <h3>Discussed</h3>
+      <ul><li>For the large Fisher Realty commercial project, an unresolved question remains whether a 3,520 sq ft ramp area counts toward floor-area ratio; planning staff informally said it does not, but the board requested formal written clarification.</li><li>The board noted it could not locate a ZBA application or Chapter 219 coastal erosion permit for a comparable property at 862 Soundshore Road, which has a pool 37.5 ft from the coastal erosion hazard line.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/6979a4ca-db8e-4710-9a2b-b3dfbff784f4.mp4" type="video/mp4">
@@ -2148,6 +2165,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

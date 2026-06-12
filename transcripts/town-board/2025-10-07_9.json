@@ -12116,5 +12116,42 @@
       "end": 5972.26,
       "text": "So be on the lookout for more information."
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T03:04:13+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Riverhead Town Board adopted roughly 50 resolutions at its October 7 meeting, including a $6.5 million bond for Justice Court renovations and a Monroe balancing test resolution related to a proposed Suffolk County Water Authority water pipeline. Two e-bike-related local laws were tabled for further review.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "The board adopted a bond resolution appropriating $6,500,000 for Justice Court renovations at the old Town Hall.",
+          "Resolution 860, a Monroe balancing test related to a proposed Suffolk County Water Authority water pipeline through Riverhead, was adopted unanimously.",
+          "Two resolutions related to e-bike regulations (843 and 844) were tabled so they could be reviewed by the Senior Citizens Advisory Committee and the Alternative Transportation Committee; language on handicapped e-bikes at Venture Park also needs clarification.",
+          "The board voted to authorize the town clerk to publish notice of public hearings on November 6 for a local law to override the tax levy cap and for adoption of the 2026 preliminary budget.",
+          "A bid for a highway department dump truck was awarded at a cost of $331,000.",
+          "The board approved special event applications for a Holiday Light Show, Halloween Fest (including alcohol service), and the Riverhead Country Fair Street Festival (including alcohol service).",
+          "A public hearing was held on a proposed five-story mixed-use addition at 301 East Main Street, which would add six apartments and approximately 857 square feet of commercial space with two on-site parking stalls; no action was taken at the hearing."
+        ]
+      },
+      {
+        "heading": "Money",
+        "items": [
+          "The supervisor clarified that a $500,000 home would see an annual town tax increase of approximately $184 under the proposed 2026 budget, not $2,250 as reported in a local newspaper.",
+          "The proposed 2026 general fund budget pierces the state tax levy cap by 4.63 percent, driven largely by contractual salary increases, a $1.1 million rise in New York State retirement costs, and debt service for Justice Court renovations."
+        ]
+      },
+      {
+        "heading": "Public hearings & comment",
+        "items": [
+          "Residents urged the board to require correspondence to indicate whether writers are Riverhead residents, noting that the large volume of letters supporting the proposed River Road motocross application came overwhelmingly from non-residents or addresses unknown.",
+          "A resident complained about highway department conduct and stated she filed a formal complaint that received no response.",
+          "A speaker reported that approximately 4,400 cubic yards of material have been removed from the Patriot property so far, with roughly one-third remaining; Suffolk County Department of Health testing results are pending."
+        ]
+      }
+    ]
+  }
 }

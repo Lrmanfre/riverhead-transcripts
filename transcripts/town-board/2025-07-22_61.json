@@ -13676,5 +13676,43 @@
       "end": 7996.64,
       "text": "Thank you."
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T03:02:13+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Riverhead Town Board held a special meeting with two public hearings related to the proposed 'Town Square' hotel project at 127 East Main Street: one on designating J. Petrucelli Riverhead Town Square LLC as a qualified and eligible sponsor, and one on transferring approximately 2,700 square feet of parking district property to the developer. No decision was made; both hearings remain open for written comment until August 1, 2025.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "The board held but did not close either public hearing, leaving a ten-day written comment period open through August 1, 2025.",
+          "The board announced a separate special meeting on July 24, 2025 at 9:30 a.m. to approve a resolution applying for a grant due by July 31.",
+          "The board indicated a decision on the qualified-and-eligible designation could come as early as the second August board meeting."
+        ]
+      },
+      {
+        "heading": "Public hearings & comment",
+        "items": [
+          "The applicant's team presented a project budget of approximately $32.7 million, to be funded through a construction loan, developer equity, and a $1 million Restore New York grant already awarded.",
+          "The proposed development at 127 East Main Street would include a 76-room branded hotel, 12 rooftop condominium units, three ground-floor retail spaces, and a waterfront restaurant, with underground parking for condo residents.",
+          "The engineer described transferring strips of approximately 14 feet from a property to the west and 10 feet from a property to the east of the current tax lot to accommodate the hotel footprint.",
+          "The architect stated the hotel and plaza are designed to sit at elevation 13 to address flood mitigation, based on Army Corps of Engineers projections.",
+          "Several residents raised concerns about loss of parking, IDA tax abatements written into the draft contract, the short ten-day comment window, and the financial disclosures being tied to existing Petrucelli entities rather than the newly formed LLC.",
+          "A resident and a board member noted that the parcels involved currently generate no property tax revenue because they are town-owned.",
+          "One commenter asked the board to extend the comment period to 30 days given the volume of material presented for the first time at the hearing.",
+          "The applicant's attorney stated that no IDA application has been filed and that any such application would be reviewed by a separate board."
+        ]
+      },
+      {
+        "heading": "Discussed",
+        "items": [
+          "The status of federal RAISE grant funding for the broader Town Square project was raised by a commenter; a board member stated those funds have not been clawed back and are earmarked for streetscapes and a parking garage rather than the hotel.",
+          "Questions were raised about impacts on East End Arts buildings, which would need to be relocated during construction, and on an existing tenant known as Crafted."
+        ]
+      }
+    ]
+  }
 }

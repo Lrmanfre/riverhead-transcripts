@@ -2511,5 +2511,25 @@
       "end": 1846.48,
       "text": ""
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T03:17:24+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Riverhead Zoning Board of Appeals held its September 26 meeting, granting variances in two cases, adjourning one case to October 10 for a permit amendment, and approving meeting minutes.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "Variances for Kelly Development Corp at 32 Pine Avenue, Aquebogue were granted for a side yard setback of 5 feet (25 feet required) and a combined side yard of 19.5 feet (55 feet required), subject to New York State DEC approval, town CAC approval, Suffolk County Health Department approval, and FEMA flood compliance.",
+          "Variances for the property at 55 Jacobs Place, Aquebogue were granted for an addition, front deck, above-ground pool, and existing shed, including relief from front-yard accessory structure restrictions, a 7.4-foot side setback (25 feet required), a 16.4-foot rear setback (60 feet required), and 39% impervious surface coverage (15% permitted maximum).",
+          "Appeal 2024-024 for 159 Sunset Boulevard, Wading River — a proposed 12-by-24-foot accessory storage structure — was adjourned to October 10, 2024, so the applicant can amend the permit application to legalize an existing interior conversion of a separate accessory structure to habitable space.",
+          "Minutes from the September 12, 2024 meeting were approved.",
+          "The next meeting is scheduled for October 10, 2024."
+        ]
+      }
+    ]
+  }
 }

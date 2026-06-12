@@ -6106,5 +6106,42 @@
       "end": 3929.36,
       "text": "Thank you."
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T02:45:32+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Riverhead Town Board held its April 2 meeting, approving a large batch of personnel appointments, capital project closures, special event permits, and professional service agreements. A public hearing on Pine Barrens zoning code amendments was held and left open for written comment through April 12.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "The board approved appointments and ratifications for several new town employees, including recreation specialists, an office assistant, a groundskeeper, a senior water treatment plant operator, an account clerk, and three part-time police officers who recently completed the police academy.",
+          "Multiple sewer and water capital projects were formally closed out, including projects related to Milk Pond, North Point, Ostrander Avenue, EPCAL, Bay Avenue, West Main Street, Restaurant Depot, East Main, the Wading River booster station, and others.",
+          "The board approved a special event permit for the Jamesport Fire Department's annual bazaar, carnival, and fundraiser.",
+          "The board approved a special event permit for the East End Arts Community Mosaic Festival.",
+          "The board authorized a license agreement allowing the Boy Scouts of America to use the EPCAL runway, and a separate license agreement with another organization for the same runway.",
+          "A SEQRA determination was approved for First Street parking garage pre-construction activities.",
+          "The board authorized publishing a notice to bid for a Veterans Memorial Park sanitary system project."
+        ]
+      },
+      {
+        "heading": "Public hearings & comment",
+        "items": [
+          "A public hearing was held on proposed amendments to the town's Pine Barrens Overlay District zoning code (Article 41), required to align with updated Central Pine Barrens Commission land use plan changes; written comments are accepted at the town clerk's office through April 12, 2024 at 4:30 p.m.",
+          "A representative from a housing assistance organization told the board that 80 homes in Riverhead are currently listed for sale or auction in foreclosure and 357 homes have recorded mortgage liens in the foreclosure process, and offered free multilingual foreclosure prevention services.",
+          "A community member urged the board to establish a formal public commission to develop a comprehensive plan for the EPCAL property; the supervisor responded that a broader commission will be formed once litigation involving the site is clearer, noting an ongoing $70,000 sports complex feasibility study is already underway."
+        ]
+      },
+      {
+        "heading": "Discussed",
+        "items": [
+          "The board gave a status update on proposed agritourism zoning legislation, saying discussions with the farming community and advisory committees are ongoing but no final balance has been reached.",
+          "The supervisor noted that PSEG's smart meter program allows residents with digital electric meters to save money by shifting appliance use to off-peak and super off-peak hours, and said the board may invite PSEG to present at a future work session."
+        ]
+      }
+    ]
+  }
 }

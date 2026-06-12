@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2025-05-06, category:Town Board">
@@ -25,6 +25,23 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/2327" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/2327/files/agenda/2190" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Riverhead Town Board held six fire code public hearings and voted unanimously on roughly 40 resolutions covering personnel, special events, parking, grants, and land use matters.</p>
+      <h3>Key actions</h3>
+      <ul><li>The board adopted a budget amendment appropriating HUD HOME funds for a capital project.</li><li>A six-month extension of preliminary site plan approval was granted for a property at 38 McDermott Avenue.</li><li>The board authorized a SEQRA negative declaration and scheduled a public hearing for a proposed Calverton Satellite Earth Station at 317-391 Berman Boulevard, correcting a prior address error.</li><li>The board approved a license agreement with Waddington Realty Corp for use of town parking facilities, retroactively.</li><li>A license agreement was authorized allowing Stein Seafood LLC to operate floating upweller systems in East Creek.</li><li>Special event permits were approved for Duck Pond Day, Riverhead Country Fair, Dreamland Amusements East End Fair, Long Island Antique Power Association shows, and two other events.</li><li>The board authorized soliciting an RFP for the sale of 214 Griffin Avenue.</li><li>A public hearing was scheduled to consider designating a parcel at 48 Willow Street as open space using $75,000 in Community Preservation funds.</li><li>Robert Myrick was appointed to the town&#x27;s Emerging Technology Committee.</li></ul>
+      <h3>Money</h3>
+      <ul><li>Tax collection totals reported as of May 1 stood at approximately $105.9 million.</li><li>The building department reported approximately $87,483 in permits for April.</li><li>A speaker publicly objected to the Waddington Realty parking license fee, calling it inadequate at roughly 31 cents per space per day.</li></ul>
+      <h3>Public hearings &amp; comment</h3>
+      <ul><li>Six fire code public hearings were closed and kept open for written comment through May 16, covering new definitions, alarm reset restrictions, lithium-ion battery fire reimbursement, fire suppression requirements at gas stations, outdoor fire permits, and reclassifying certain violations.</li><li>A resident raised concerns about the pace of approval for the Dreamland Amusements fair, particularly regarding parking and the absence of a finalized license agreement; town officials said review by police, fire marshal, and other departments is ongoing.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/1a1e5ccf-4ce6-42e3-8003-498a2b0845d7.mp4" type="video/mp4">
@@ -1211,6 +1228,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

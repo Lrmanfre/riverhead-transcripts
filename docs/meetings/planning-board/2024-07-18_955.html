@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2024-07-18, category:Planning Board">
@@ -25,6 +25,19 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/955" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/955/files/agenda/818" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Riverhead Planning Board reviewed five active applications at its July 18 meeting, approving negative declarations, scheduling public hearings, and classifying two major projects under environmental review. A proposed townhouse parking workaround was rejected by the board.</p>
+      <h3>Key actions</h3>
+      <ul><li>The board classified the Jets 139 LLC minor subdivision as a Type 2 action under SEQRA and scheduled a public hearing (Resolution 2024-46).</li><li>The board classified a minor subdivision for a property at 86 Second Street in South Jamesport (Mallets property) as an unlisted action and issued a negative declaration, allowing the applicant to proceed to the ZBA for required variances (Resolution 2024-48).</li><li>The board granted administrative approval to amend a previously approved site plan for a facade improvement project at 1125 Old Country Road, satisfying a prior condition requiring an approved grading and drainage plan (Resolution 2024-49).</li><li>The board approved amending the Seacrest Estates major subdivision from 14 lots to 13 lots and authorized acceptance of a fee in lieu of the required affordable housing density bonus lot, with funds dedicated to workforce housing purposes (Resolution 2024-051).</li><li>The board classified a combined site plan and major subdivision application for TJOC State Holdings LLC — a mixed-use development proposed on a 15.8-acre vacant site on Middle Country Road in Calverton — as a Type 1 action under SEQRA, initiating mandatory coordinated review (Resolution 2024-052).</li><li>The board declined to support adding a front-yard parking stall to the 8-unit townhouse project at 46 East Second Street, directing the applicant to find another solution to meet the required 12-stall minimum.</li><li>The Diaz lot line modification at 718 Roanoke Avenue was discussed; the board indicated no objections and directed the applicant to provide an updated contract of sale so a public hearing can be scheduled.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/ef055995-15f7-44c3-98c6-d82a82d3c63a.mp4" type="video/mp4">
@@ -1163,6 +1176,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

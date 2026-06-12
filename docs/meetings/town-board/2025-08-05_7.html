@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2025-08-05, category:Town Board">
@@ -25,6 +25,23 @@
     <div class="meta-row">162 min &nbsp;·&nbsp; <a href="https://riverheadny.portal.civicclerk.com/event/7" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/7/files/agenda/19" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Town Board voted to demolish a long-deteriorated unsafe structure in Wading River, designated J. Petrucelli Riverhead Town Square LLC as qualified and eligible master developer for the town square project, and passed roughly four dozen administrative and land-use resolutions.</p>
+      <h3>Key actions</h3>
+      <ul><li>The board unanimously adopted a resolution directing demolition of a condemned, abandoned structure at 401 7th Street, Wading River, after testimony from the senior town investigator and town engineer described a collapsed roof, fire hazards including a car and gas can in the garage, evidence of squatters, and risk of wind-blown debris to neighboring homes.</li><li>A public hearing on the unsafe structure was formally closed without being left open for written comment before the demolition vote.</li><li>A public hearing was opened and then closed through August 15, 2025 for written comment on proposed amendments to Chapter 301, Community Benefit Zoning Use District, which would expand potential eligible parcels from roughly three to roughly eight and remove the requirement to connect to the Riverhead Sewer District.</li><li>The board designated J. Petrucelli Riverhead Town Square LLC as qualified and eligible sponsor for purchase and development of town-owned property on the south side of Main Street for a project described as including a 76-room hotel, retail, a riverfront restaurant, plaza, playground, and amphitheater.</li><li>A conveyance of approximately 2,785 square feet of Riverhead Public Parking District No. 1 property to the Town of Riverhead related to the town square parcels was approved.</li><li>The board scheduled a public hearing on an unsafe structure at 39 Pye Lane, Jamesport.</li><li>A resolution authorizing a public hearing for a Monroe balancing test regarding the Suffolk County Water Authority&#x27;s proposed North Fork water main extension was adopted; a related public forum is set for August 13 at 6 p.m. and a public hearing for August 19 at 6 p.m.</li><li>The board adopted a local law amending the shopping carts chapter and authorized public hearing notices for proposed code changes covering noise, fire prevention penalties, vehicle and traffic penalties, site plan review, a cannabis retail moratorium, and the business center zoning use district.</li><li>A budget amendment for capital project 72306 covering the Vietnam Veterans Memorial Recreation Path bike trail restoration was adopted, with the town engineer confirming repair work is ready to proceed.</li><li>A representative of Peconic Hockey Foundation&#x27;s skating rink lease raised on the record that audited financial statements required under the agreement are 16 months overdue for 2023 and four months overdue for 2024; the town attorney acknowledged the default and said the matter would be brought to executive session.</li></ul>
+      <h3>Money</h3>
+      <ul><li>The board authorized a funding application to the Dormitory Authority of New York State for capital improvements to the George Young Community Center.</li><li>An agreement was authorized to accept funds from the Suffolk County Office for the Aging to supplement the town&#x27;s expanded in-home services for the elderly program.</li><li>A rebid was awarded for water main installation and appurtenances at 205 Osborne Avenue.</li></ul>
+      <h3>Public hearings &amp; comment</h3>
+      <ul><li>Multiple speakers supported the Petrucelli town square designation; several others questioned the process, contending a financial summary memo was not posted publicly before the vote and that the board signaled its decision before the written comment period closed.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/c18e2fd5a8.mp4" type="video/mp4">
@@ -3121,6 +3138,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2025-03-18, category:Town Board">
@@ -25,6 +25,23 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/1881" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/1881/files/agenda/1744" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Riverhead Town Board passed roughly 35 resolutions at its March 18 meeting, including a bond appropriation, multiple budget transfers, and a SEQRA negative declaration for downtown revitalization projects. Several residents spoke against that negative declaration, arguing the Sweezy Building is structurally sound and that a children&#x27;s science center should be preserved there instead of a hotel-condo development.</p>
+      <h3>Key actions</h3>
+      <ul><li>The board adopted a bond resolution appropriating $2,350,000 (resolution 273).</li><li>The board voted unanimously to assume lead agency status and issue a negative declaration under SEQRA for the downtown revitalization projects (resolution 263), over public objection.</li><li>The board approved a capital improvement order for electric upgrades at a water district plant (resolution 245).</li><li>The board authorized an agreement with a contractor for a Highway Building project (resolution 254).</li><li>The board authorized a license agreement with the Suffolk County Council of Boy Scouts of America to use the runway at a town facility (resolution 255).</li><li>The board ratified the settlement of a legal action against a local property LLC (resolution 262).</li><li>The board ratified a police department application for a New York State Homeland Security Program grant (resolution 261).</li><li>The board approved special event permits for four upcoming events, including an Earth Day celebration, a Rotary charity plant sale, a Making Strides Against Cancer walk, and a consignment event (resolutions 275–278).</li></ul>
+      <h3>Public hearings &amp; comment</h3>
+      <ul><li>The president of the Long Island Science Center told the board that a licensed structural engineer&#x27;s report found the Sweezy Building structurally sound, contradicting descriptions in town documents, and asked the board to delay resolution 263.</li><li>Multiple residents urged the board to reconsider the negative declaration and preserve the Sweezy Building for the Science Center rather than hotel-condo development.</li><li>A speaker online questioned the financial vetting of the town&#x27;s master developer and the total cost of the downtown revitalization project; a town official listed current grant awards totaling several million dollars from state, federal, and county sources but said project cost details were not available on the spot.</li></ul>
+      <h3>Affects residents</h3>
+      <ul><li>Free public ice skating sessions for Riverhead residents are scheduled at Peconic Ice Rink on March 22 (4:30–6 p.m.), March 30 (10:30 a.m.–noon), and April 15 (11:30 a.m.–1:30 p.m.).</li><li>An anti-litter spring cleanup is scheduled for May 3 at Town Hall starting at 9 a.m.; residents can register at townofriverheadny.gov.</li><li>A seniors bowling social (age 55+) is set for March 20, noon–2 p.m., at a local bowling alley.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/e0ae2b38-19c2-443a-9315-dfc65bf8662f.mp4" type="video/mp4">
@@ -1270,6 +1287,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

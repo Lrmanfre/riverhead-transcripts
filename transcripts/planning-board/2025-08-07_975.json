@@ -12946,5 +12946,39 @@
       "end": 8140.52,
       "text": "[transcription gap]"
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T01:53:58+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Riverhead Planning Board held public hearings on four applications and discussed two others, closing three hearings while leaving the Peconic Farms subdivision hearing open for written comment through August 27. A county open-space preservation interest was raised for both the Venecia Square and Peconic Farms properties.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "The public hearing for Venecia Square — a proposed 27,000-square-foot commercial center on 6.34 acres at 6435 NY Route 25A — was closed after public comment; the project previously received a negative declaration under environmental review and Pine Barrens Commission approval.",
+          "The public hearing for the BJ's Wholesale Club expansion at East End Commons (565–605 Old Country Road) was closed; the project involves a 10,530-square-foot building addition and a new 16-position fueling station, and will require a dedicated deceleration and right-turn lane on Old Country Road per Suffolk County DPW.",
+          "The public hearing for the 940–946 West Main Street redevelopment — proposing a three-story 110,000-square-foot self-storage building and a one-story 33,000-square-foot wholesale building — was closed; existing tenants are being relocated and the current structure will be demolished.",
+          "The public hearing for the Peconic Farms four-lot minor subdivision at 1161 Peconic Bay Boulevard, Jamesport, was left open for written public comment until August 27, 2025 at 4:30 p.m., due to extensive neighbor concerns about flooding and wetland proximity.",
+          "The board discussed but did not approve the BOLA car wash site plan at 1575 Old Country Road; the applicant must seek ZBA relief for side-yard and front-yard setback variances and submit additional details before a public hearing can be scheduled.",
+          "The board reviewed a site plan discussion item for a proposed adult-use cannabis dispensary at 720 Main Road, Jamesport, involving facade improvements and an 86-square-foot addition to an existing commercial building; no public hearing was scheduled at this meeting.",
+          "The board adopted Resolution 2025-080, classifying the BOLA car wash application as a Type 2 action under environmental review.",
+          "The board adopted Resolution 2025-081 as amended, correcting dates related to a municipal notice for the cannabis dispensary application; the resolution passed 3–1."
+        ]
+      },
+      {
+        "heading": "Public hearings & comment",
+        "items": [
+          "A representative from Suffolk County Legislator Catherine Stark's office read a letter into the record stating the county has initiated an appraisal process to potentially acquire and preserve the Venecia Square parcels as open space, with an offer letter possible as early as fall 2025.",
+          "The Wading River Civic Association president spoke in support of county preservation of the Venecia Square site, citing traffic and rural-character concerns.",
+          "Multiple residents on Doug's Lane and nearby streets testified about chronic flooding on and around the Peconic Farms parcel, with several citing groundwater rising from below grade rather than surface runoff.",
+          "A county legislator's office representative stated a letter was sent to the Peconic Farms property owner this week expressing county interest in preserving that parcel as open space.",
+          "Oliver Street residents testified about truck noise and light spillover from the existing BJ's Wholesale Club; the board noted the town attorney is drafting a code amendment to strengthen the noise ordinance regarding commercial truck activity adjacent to residential properties.",
+          "The board noted that staff identified a zoning district designation error — the Peconic Farms parcel is in the RB40 district, not RA40 as previously referenced — but confirmed the dimensional requirements and minimum lot size are the same."
+        ]
+      }
+    ]
+  }
 }

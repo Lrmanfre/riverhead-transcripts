@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2025-09-25, category:Zoning Board of Appeals">
@@ -25,6 +25,21 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/3882" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/3882/files/agenda/5580" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Riverhead Zoning Board of Appeals granted a one-year extension for a prior appeal, issued a determination on a mining preexisting-use matter, adjourned a commercial building variance application for planning board input, and approved setback variances for a new single-family home in Reeves Park.</p>
+      <h3>Key actions</h3>
+      <ul><li>A one-year extension was granted for Appeal 2024-023 (230 West Main Street, Riverhead Property LLC), moving the expiration date to September 12, 2026.</li><li>For Appeal 2025-033 (CMA Mine LLC), the board denied the appeal in its entirety, determining that a letter of preexisting nonconforming use applies only to 14.984 acres with mining depth limited to 30 feet, and denied any use below the water table.</li><li>Appeal 2025-030 (Ashok Patel, 305 West Main Street) — seeking variances for impervious surface coverage, open-space landscaping, and a side-yard buffer — was adjourned to October 9, 2025, pending planning board comment on a revised site-plan entrance configuration.</li><li>Appeal 2025-031 (Doreen Stone O&#x27;Hare, 31 Nautical Drive) was granted variances for a front setback of 26.3 feet (50 feet required) and a rear setback of 31.7 feet (60 feet required) to allow demolition and replacement of an existing home with a two-story dwelling.</li><li>The October 9 approval for 31 Nautical Drive is conditioned on the homeowner planting arborvitae or similar evergreens (Green Giants or equivalent) at a minimum six-to-eight-foot height along the rear fence line.</li></ul>
+      <h3>Discussed</h3>
+      <ul><li>Correspondence from a property owner regarding a condition attached to a 2009 approval for 1430 Weeding River Manor Road was circulated to board members for review.</li><li>For the 305 West Main Street application, the architect noted the site&#x27;s existing impervious coverage is 77.8% and the proposal would reduce it to roughly 50.8%; the board noted planning board review of any entrance changes would be needed before a final decision.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/186eabca-72be-43ff-825c-30d86fb74b27.mp4" type="video/mp4">
@@ -826,6 +841,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

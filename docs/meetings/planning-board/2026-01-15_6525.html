@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2026-01-15, category:Planning Board">
@@ -25,6 +25,19 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/6525" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/6525/files/agenda/5912" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Riverhead Planning Board approved four resolutions at its January 15 meeting, covering a site plan, a performance bond release, a medical center application, a pool site improvement, and a minor subdivision extension.</p>
+      <h3>Key actions</h3>
+      <ul><li>The board granted preliminary site plan approval for the application at 305 West Main Street (Resolution 2026-001).</li><li>The board approved a resolution to release a performance bond for NM Golf.</li><li>The board approved the Peconic Bay Medical Center Northwell Health maternity relocation and expansion site plan resolution (Resolution 2026-003).</li><li>The board approved Resolution 2026-004 for Van Bander Pools site improvements as amended, adding a condition requiring the town engineer to confirm the drainage system design is adequate.</li><li>The board approved two 90-day extensions for a minor subdivision at 230 West Main Street (Resolution 2026-005).</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/e12600b5-3952-4be9-9ff4-aaf23deca400.mp4" type="video/mp4">
@@ -363,6 +376,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

@@ -10401,5 +10401,45 @@
       "end": 6224.84,
       "text": "Thank you."
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T04:04:51+00:00",
+    "agenda_grounded": false,
+    "chunked": true,
+    "tldr": "The Town Board work session covered police and code enforcement statistics, a zoning code dispute over pervious pavers, landmarks preservation updates, proposed changes to board meeting rules, and previewed roughly 29 resolutions spanning personnel, capital projects, contracts, and special events.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "The board previewed a resolution to adopt updated Town Board Rules and Procedures, including prohibiting signs and flyers in the meeting room, tightening public comment language standards, reducing Zoom public comment time from 5 to 3 minutes, and lowering the threshold for floor resolutions from a unanimous 5-member vote to 3 affirmative votes with 4 members present.",
+          "A resolution awards engineering services during construction for the Class A biosolids upgrade project to the sole respondent, H2M, as required by EFC funding rules effective 2024.",
+          "The board previewed a resolution assuming lead agency and issuing a conditional negative declaration for the Island Water Park (DBA Scotts Point) site plan application at 5835 Middle Country Road, Calverton.",
+          "A resolution ratifies the fully executed contract agreement with the Riverhead Town Police Benevolent Association.",
+          "Ken Zelnicki is appointed as a member of the Riverhead Farmland Preservation Committee.",
+          "A local law updating fees and permits for yard, attic, garage, and auction sales is set for adoption.",
+          "Fire Marshal fees are to be adjusted annually by CPI index via town board resolution going forward, having been removed from the town code to allow flexible updates.",
+          "A budget adoption resolution covers the EPCAL Emergency Access Road Capital Project, and a separate resolution covers a Water District Capital Project."
+        ]
+      },
+      {
+        "heading": "Money",
+        "items": [
+          "The Town Clerk's office filed a CDA application for a $75,000 grant for document scanning.",
+          "Code Enforcement collected $49,575 in rental fees in January 2025.",
+          "A budget adoption resolution addresses litter and garbage removal costs at a property on Longview Drive."
+        ]
+      },
+      {
+        "heading": "Discussed",
+        "items": [
+          "The Business Advisory Committee flagged that an August 2024 resolution reclassified pervious pavers as impervious surface, creating inconsistencies in dimensional tables across zoning districts; the Planning Director suggested replacing impervious surface coverage limits with a minimum landscaped area requirement, and the matter was referred to Code Revision.",
+          "The Landmarks Preservation Committee reported on four historic districts covering roughly 400 structures, ongoing restoration projects, a 30-day demolition permit notice code being drafted, a Polish Town National Register nomination in progress, and an RFP to be issued for a town-owned Italianate building on Main Street.",
+          "The CCDT update covered the EPCAL habitat map, a Riverhead Water District and SCWA dispute, and a recreation feasibility study, with the next meeting set for April 16 at 10:00 AM."
+        ]
+      }
+    ]
+  }
 }

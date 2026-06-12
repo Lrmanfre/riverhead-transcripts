@@ -11946,5 +11946,44 @@
       "end": 6718.16,
       "text": "You"
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T02:57:26+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Riverhead Town Board approved dozens of personnel and operational resolutions, voted 3-2 to move forward with negotiating a contract of sale of the Vale Levitt Theater at 18 Peconic Avenue to the Jazz Loft, and tabled a special event permit for Island Water Park pending an amended application.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "The board voted 3-2 against tabling a resolution authorizing the town attorney to negotiate a contract of sale of the Vale Levitt Theater at 18 Peconic Avenue to the Jazz Loft, allowing the process to move forward.",
+          "The special event permit application for Island Water Park (Resolution 366) was unanimously tabled after staff disclosed the applicant is rescheduling the event from late April to potentially September and must submit an amended application.",
+          "The board appointed a police officer to the rank of captain after she passed the required civil service examination.",
+          "The board voted 4-1 to approve a professional services agreement with Main Street Agency, after amending the resolution to remove a second company name from the title and body.",
+          "A resolution opposing a state bill that would limit municipal zoning authority was adopted unanimously.",
+          "The board authorized submission of applications for congressional funding for a proposed water district project and for a riverfront amphitheater.",
+          "The board ratified a contract award for the Meeting House Creek Stormwater Wetland and Habitat Restoration project.",
+          "The board accepted the resignation of a fire marshal and ratified several other personnel separations and status changes."
+        ]
+      },
+      {
+        "heading": "Money",
+        "items": [
+          "The tax receiver reported tax collections of approximately $103.4 million for the 2024-25 period.",
+          "The town clerk monthly report for March totaled approximately $12,700 and the tax receiver utility report for March totaled approximately $340,000."
+        ]
+      },
+      {
+        "heading": "Public hearings & comment",
+        "items": [
+          "Residents of Northwoods Road in Calverton came out in force to describe speeding, excessive vehicle traffic, and suspected illegal conversions at multiple properties; staff confirmed active code enforcement cases and a court date of April 22 for one address.",
+          "A speaker with music industry experience and an associate on Zoom expressed interest in the Vale Levitt and said they would prepare a renovation budget and business plan, while two council members argued the sale process should be opened to an RFP and a public hearing.",
+          "A resident raised a long-running complaint about a nighttime low-frequency hum in the Timber Point area, attributed by staff to a blower at a nearby business; staff said observed decibel levels do not violate town code.",
+          "A resident asked the town to investigate reports of large boats being stored and repaired at Island Water Park as a potentially unauthorized use."
+        ]
+      }
+    ]
+  }
 }

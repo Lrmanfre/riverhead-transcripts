@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2026-02-19, category:Planning Board">
@@ -25,6 +25,21 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/6526" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/6526/files/agenda/5933" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Planning Board discussed two applications without taking action on either: a coastal deck replacement at 888 Soundshore Road in Jamesport, and a proposed motocross track and sand mine at 2822 River Road in Calverton. One resolution was approved.</p>
+      <h3>Key actions</h3>
+      <ul><li>Resolution 20-26-014 for Birchwood at Wading River was approved unanimously.</li><li>A public hearing was closed by board vote during the meeting.</li></ul>
+      <h3>Discussed</h3>
+      <ul><li>The board reviewed a Chapter 219 coastal erosion application for 888 Soundshore Road in Jamesport, where the owners seek to demolish a 52-square-foot deck and build a new approximately 438-square-foot deck with a privacy wall; because the entire project falls seaward of the coastal hazard line, a use variance from the Zoning Board of Appeals is required before the planning board can act.</li><li>Staff noted that aerial photos show vegetation was cleared on the property between 2024 and the present, and recommended the area be replanted to its prior condition as part of any approval.</li><li>The board reviewed a draft environmental scope for a proposed outdoor motocross track at 2822 River Road in Calverton, which also involves excavating and exporting an estimated 120,000 cubic yards of sand — a use the town&#x27;s Calverton Industrial zoning district prohibits.</li><li>Staff confirmed the New York State DEC has determined a mine land reclamation permit is required, and that a use variance from the ZBA will also be needed for the mining component.</li><li>The board noted that alternatives to be studied in the environmental impact statement include a version of the project without excavation and exportation, as well as an indoor track option raised by a town board member at a prior public scoping session.</li><li>The next Planning Board meeting is scheduled for March 5 at 6 p.m. in town hall.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/0427bc70-8d5b-4d54-b6eb-ee1ae8bd49a9.mp4" type="video/mp4">
@@ -389,6 +404,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

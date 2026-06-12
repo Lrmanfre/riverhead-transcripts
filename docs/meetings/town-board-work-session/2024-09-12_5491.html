@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2024-09-12, category:Town Board Work Session">
@@ -25,6 +25,19 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/5491" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/5491/files/agenda/5329" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Riverhead Town Board held a work session covering proposed fee increases for road opening permits and shopping cart retrieval, an amendment to the Community Preservation Fund project plan to allow water quality spending, a new Food Unites restaurant week, and a slate of 28 resolutions including equipment purchases, personnel actions, and water district contracts.</p>
+      <h3>Key actions</h3>
+      <ul><li>The board discussed raising the road opening permit fee from $200 to $300, with a public hearing to be noticed; current labor cost per permit was estimated at about $435.</li><li>The shopping cart retrieval fee charged to stores is proposed to increase from $125 to $175 to better cover the town&#x27;s recovery costs.</li><li>Board members directed code enforcement to photograph cart wheels when retrieved to document missing locking devices, potentially allowing a separate violation ticket on top of the retrieval fee.</li><li>The board reviewed an amendment to the Community Preservation Fund project plan to add water quality and pollution prevention as an eligible use of CPF funds, with two projects—Forge Road and River Road—identified as near-ready.</li><li>The Anti-Bias Task Force and Riverhead Chamber of Commerce announced &#x27;Food Unites,&#x27; a restaurant week running September 23–29 highlighting diverse local eateries; details are at RiverheadChamber.com.</li><li>Resolutions approved or advanced include a downtown security camera project budget adjustment, new police vehicle purchases, new ambulance radios for RBAC, an ambulance chassis remount, approval of the Holiday Light Show special event, wellhead manganese treatment at Water District Plant 5, and a Language Line Services agreement for Justice Court.</li><li>Three part-time police officers were appointed to attend the police academy starting the following Saturday.</li><li>A promotion of a police officer to the rank of sergeant was included in the resolution list.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/50d8e268-e140-4430-98c9-4e92191e7bf8.mp4" type="video/mp4">
@@ -1110,6 +1123,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

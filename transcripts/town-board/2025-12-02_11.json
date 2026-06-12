@@ -5611,5 +5611,49 @@
       "end": 2877.26,
       "text": "Stay away from the flu bug."
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T03:07:03+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Riverhead Town Board met on December 2, 2025, adopting roughly two dozen resolutions covering personnel, budgets, grants, hunting permits, and special events, and held three public hearings on a CDBG budget modification, fire prevention code updates, and a new four-way stop sign.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "The board adopted a resolution authorizing removal of fixed assets.",
+          "The board ratified a sewer district budget transfer and amended the no-net-nitrogen fund rate for the Riverhead and Calverton Sewer Districts.",
+          "The board reappointed a temporary office assistant to the tax receiver's office and ratified the appointment of a call-in recreation aide.",
+          "The board accepted the retirement of a long-serving highway department employee and accepted the resignation of an automotive equipment operator.",
+          "The board authorized shotgun deer hunting at Enterprise Park at Calverton from January 4 through January 31, 2026.",
+          "The board authorized an extension of time to remit real property taxes for qualified senior citizens receiving exemptions.",
+          "The board approved special event applications for two Duck Pond Gathering events in May and October 2026.",
+          "The board authorized submission of a grant application for 2026 Community Development Block Grant funding and accepted a donation for the PAL soccer program from a local beverage business."
+        ]
+      },
+      {
+        "heading": "Public hearings & comment",
+        "items": [
+          "A public hearing was held on a proposed CDBG 2024–2025 budget modification that would redirect funds toward the Jazz Loft project; the hearing was closed and written comment accepted through December 12.",
+          "A public hearing was held on an amendment to the town fire prevention chapter to incorporate National Fire Protection Association codes, allowing the fire marshal's office to apply updated standards more quickly; written comment accepted through December 12.",
+          "A public hearing was held on adding stop signs on both sides of Timber Drive at its intersection with Old Stone Road, creating a four-way stop; the change was recommended by the Traffic Safety Committee following input from residents and the school district's transportation division, and written comment is accepted through December 12."
+        ]
+      },
+      {
+        "heading": "Discussed",
+        "items": [
+          "A resident raised an ongoing complaint about alleged misconduct by highway department employees and stated she intends to file a formal FOIL request with the town clerk.",
+          "The board presented a proclamation honoring the First Baptist Church of Riverhead on its 100th anniversary."
+        ]
+      },
+      {
+        "heading": "Affects residents",
+        "items": [
+          "The intersection of Old Stone Road and Timber Drive will become a four-way stop once the approved amendment takes effect."
+        ]
+      }
+    ]
+  }
 }

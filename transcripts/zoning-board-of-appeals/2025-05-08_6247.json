@@ -3521,5 +3521,25 @@
       "end": 1960.48,
       "text": "Thank you."
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T03:23:01+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Riverhead ZBA granted variances for three residential properties and closed the public comment period on a cannabis dispensary application, with a decision reserved for June 12, 2025.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "Appeal 2025-006 (George Elia, 71 Pine Avenue, Aquebogue): The board re-opened and granted rear yard setback and related variances, conditioned on the roofed overhang remaining an unenclosed porch, removal of a small platform along the property line, and all prior conditions from the March 2025 determination remaining in effect.",
+          "Appeal 2025-015 (Deborah Thompson, 6 Gladys Road, Wading River): Variances for a proposed single-family dwelling were granted, including front yard, rear yard, and side yard abutting street setbacks, with a condition that the rear yard vegetative buffer required by the 2022 ZBA determination be maintained.",
+          "Appeal 2025-017 (Lawrence Luce, 752 Soundshore Road, Jamesport): Variances to legalize an existing side-yard deck near a bluff were granted, conditioned on no further encroachment into the coastal erosion hazard area and no foundation added beyond the existing footings.",
+          "The cannabis retail dispensary application for 1086 Old Country Road (Appeal seeking relief from the 1,000-foot school proximity rule) had its written comment period closed; a decision is reserved for the June 12, 2025 ZBA meeting.",
+          "The May 22, 2025 ZBA meeting is canceled due to no pending appeals; the next meeting is June 12, 2025."
+        ]
+      }
+    ]
+  }
 }

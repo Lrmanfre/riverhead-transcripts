@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2024-11-25, category:Town Board Work Session">
@@ -25,6 +25,23 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/5616" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/5616/files/agenda/5454" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Riverhead Town Board work session covered monthly reports from police, code enforcement, town clerk, and justice court, discussed showmobile rental fee increases, heard a public notice about a Calverton development project requiring an environmental impact study, and reviewed 34 resolutions ahead of a Tuesday vote.</p>
+      <h3>Key actions</h3>
+      <ul><li>The board reviewed 34 draft resolutions including approvals for special events, water district capital projects, bid authorizations, and a 2025 meeting schedule.</li><li>A resolution would authorize shotgun deer hunting on town property at Enterprise Park at Calverton from January 5 to January 31, 2025, with the walking and bike trails closed during that period.</li><li>A resolution would assume lead agency status and issue a negative declaration for an Elite Towers cell installation at the Wading River Fire District on North Country Road, finding it exempt from local zoning requirements under the Monroe balancing test.</li><li>The board discussed significantly raising showmobile rental fees from the current $100 per day, noting a six-hour event costs the town approximately $1,300, and directed staff to develop a tiered fee schedule for 2025 that could distinguish between nonprofits and town-sponsored events.</li><li>The town clerk reported a part-time bilingual Spanish-speaking clerk will begin Monday and work daily from 11 a.m. to 2:30 p.m.</li><li>All downtown holiday events—the Lions Parade, tree lighting, bonfire, and Santa—have been consolidated onto a single date, December 7, 2024.</li></ul>
+      <h3>Discussed</h3>
+      <ul><li>Planning staff announced a public scoping hearing for TJOC Calverton, a proposed mixed-use development on a roughly 16-acre site on Middle Country Road in Calverton that would include seven residential lots, about 30,000 square feet of ground-floor commercial space, and 36 one-bedroom apartments; the hearing is December 5 at 6 p.m.</li><li>The CCBT committee discussed an upcycling concept for construction debris at EPCAL and a food scrap diversion program that staff estimated could save up to $15,000 per month in tipping fees.</li></ul>
+      <h3>Money</h3>
+      <ul><li>Code enforcement reported collecting $35,850 in rental permit fees in October and $311,325 year-to-date.</li><li>Justice court reported $40,980 in total collections for October.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/f8d871c5-8322-4844-9f06-0c73180e8b3b.mp4" type="video/mp4">
@@ -865,6 +882,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

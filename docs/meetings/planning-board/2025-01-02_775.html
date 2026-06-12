@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2025-01-02, category:Planning Board">
@@ -25,6 +25,21 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/775" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/775/files/agenda/638" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Riverhead Planning Board held its January 2, 2025 meeting, closing a public hearing on a minor subdivision in Calverton and granting conditional approval to a five-lot subdivision on Union/Maple Avenue.</p>
+      <h3>Public hearings &amp; comment</h3>
+      <ul><li>The board closed the public hearing for the Prisco&#x27;s Calverton Acres application, which seeks to split a 2.06-acre parcel at 3674 Middle Country Road into two lots; the Zoning Board previously granted three variances for lot width and impervious surface coverage.</li></ul>
+      <h3>Key actions</h3>
+      <ul><li>The board approved Resolution 25-001, granting conditional approval of the RH Hamptons LLC five-lot subdivision between Maple and Union Avenues, as amended to include highway department requirements for curbing and sidewalks.</li><li>The board approved the November 7th meeting minutes with a corrected title page.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/758e61a3-3a50-461c-a95c-3579eef50cbb.mp4" type="video/mp4">
@@ -366,6 +381,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

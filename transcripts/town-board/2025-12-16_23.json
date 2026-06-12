@@ -10226,5 +10226,44 @@
       "end": 4741.84,
       "text": "Everybody."
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T03:07:12+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Town Board passed 62 resolutions at its December 16 meeting, covering personnel appointments, contract approvals, budget adjustments, and local law amendments. The meeting also served as a send-off for outgoing Supervisor Tim Hubbard.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "The board approved a new CSEA collective bargaining agreement covering 2026–2029, with the supervisor citing the need to raise base salaries to help retain employees.",
+          "Two detectives were promoted within the police department.",
+          "A deputy highway superintendent was appointed and employment terms were set.",
+          "The board authorized a request for proposals for a construction manager for a new Riverhead Volunteer Ambulance Corporation headquarters, with construction targeted to begin in early spring and finish by late summer.",
+          "A contract with the Jazz Loft for operation of the Vale Levitt Music Hall was signed earlier in the week and announced at the meeting.",
+          "The board adopted local law amendments to zoning articles covering the Business Center and Shopping Center districts, fire prevention provisions, and traffic regulations.",
+          "A license agreement was authorized with Racetrack Knott Street LLC to use the runway at EPCAL, and a special event permit was approved for a 2026 Spring Fling at EPCAL.",
+          "A special Town Board meeting was announced for December 30 at 10 a.m. to act on a previously held public hearing regarding a proposed CDBG fund reallocation, after the required 30-day public comment period closes December 26."
+        ]
+      },
+      {
+        "heading": "Money",
+        "items": [
+          "Budget adjustments were approved for two Water District capital projects, 2025 legal fees, and a police department drone grant.",
+          "The town receiver of taxes reported November 2025 utility revenue of approximately $464,000; the town clerk reported approximately $8,000 and the building department approximately $321,000 for the same period.",
+          "An RFP was authorized for audit services for the Town's Community Preservation Fund.",
+          "A contract amendment was authorized accepting Suffolk County Office for the Aging funds to supplement the town's elderly nutrition program."
+        ]
+      },
+      {
+        "heading": "Public hearings & comment",
+        "items": [
+          "No public hearings were scheduled for this meeting.",
+          "A commenter speaking on behalf of a business called Aquabog raised a question during the Community Development Agency portion of the meeting about whether an application for benefits from the Industrial Development Agency connected to the downtown hotel project had been disclosed to the public; a town official responded that the relevant contract document contemplates a potential IDA application."
+        ]
+      }
+    ]
+  }
 }

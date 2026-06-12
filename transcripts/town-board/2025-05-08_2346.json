@@ -831,5 +831,23 @@
       "end": 433.38,
       "text": ""
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T02:57:48+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Town Board held a brief special session, adopting three resolutions covering an environmental review and public hearing notice for a National Grid facility upgrade and a home rule request supporting retroactive retirement system membership for a named individual.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "The board approved a negative declaration under SEQRA for a National Grid facility upgrade at 8 Mill Road and authorized a public hearing notice for the associated special permit application.",
+          "The board adopted a home rule resolution requesting state legislative support for a bill that would grant retroactive Tier 2 membership in the New York State and local police and fire retirement system to a named town employee.",
+          "The board entered executive session to discuss potential litigation, real property acquisition, a personnel matter, and a professional services contract."
+        ]
+      }
+    ]
+  }
 }

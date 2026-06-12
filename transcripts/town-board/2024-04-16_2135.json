@@ -3681,5 +3681,33 @@
       "end": 2131.0,
       "text": "you"
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T02:45:15+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Riverhead Town Board approved roughly 35 resolutions at its April 16 meeting, covering personnel changes, special events, capital projects, and contracts. No members of the public offered comment.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "The board authorized publication of a public hearing notice for an alleged unsafe structure at 1092 Dolores Avenue, Riverhead.",
+          "The board authorized publication of a public hearing notice for an alleged unsafe structure at 650 Avenue, Riverhead.",
+          "A special permit application for a two-family dwelling at 4592 Middle Country Road, Calverton, was classified as a Type 2 action under SEQRA and a public hearing was scheduled.",
+          "The board approved an extension of the Riverhead Water District for the Maris Farm subdivision.",
+          "A new deputy town clerk was appointed and terms of employment were set.",
+          "The board approved agricultural worker housing permit for Delalio Sod Farms LLC at 422 Edwards Avenue, Calverton.",
+          "Resolution 351 was tabled after a board member noted a form was incorrectly filled out.",
+          "The board approved a budget adoption for a parking lot capital project at Veterans Memorial Park.",
+          "The board approved a grant budget adjustment for the Pave Our Potholes road resurfacing project.",
+          "A roof repair project at the Senior Center was closed out, noted as having come in under budget.",
+          "The board approved special event permits for several 2024 events including Riverhead Townscape's Country Fair, Country Fest, Blues by the River, and Holiday Tree Lighting, as well as Duck Pond Day, a Home Depot outdoor plant sale, the Long Island Antique Power Association show, and a Hallockville Museum Farm event.",
+          "The board authorized a labor stipulation with AFSCME Local 1000 and approved retainer agreements with a law firm.",
+          "The retirement of a senior water treatment plant operator and a town clerk employee were accepted, and the resignation of a heavy equipment operator was ratified."
+        ]
+      }
+    ]
+  }
 }

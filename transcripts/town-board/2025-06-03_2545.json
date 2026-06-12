@@ -10981,5 +10981,44 @@
       "end": 5990.44,
       "text": "Thank you."
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T02:59:19+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Riverhead Town Board held five public hearings and approved roughly three dozen resolutions on June 3, 2025, with significant public debate over the proposed eminent domain acquisition of a leasehold at 129 East Main Street for a boutique hotel and the Vale Levitt venue selection process.",
+    "sections": [
+      {
+        "heading": "Public hearings & comment",
+        "items": [
+          "A public hearing was held on designating 48 Willow Street in Aquebogue as open space and authorizing $75,000 from Community Preservation Funds, with a speaker clarifying the money was originally collected for wetland remediation and this resolution restores it to that purpose; written comment accepted through June 13.",
+          "A public hearing was held on amending the town zoning code's cannabis section to add the Business CR zoning district as a permitted location for dispensaries and on-site consumption businesses, and to codify the state's municipality-notification process; written comment accepted through June 13.",
+          "A public hearing was held on the Calverton Satellite Earth Station special permit and site plan at 317-391 Berman Boulevard, where a resident noted that 20 of the proposed 40 antennas were already installed without approval; town staff confirmed violations result in double the standard site plan fee; written comment accepted through June 13.",
+          "Public hearings were also held on amendments to zoning definitions for 'office' and 'personal services' and on a repeal and replacement of the town's public nuisance article, which expands enforcement procedures and increases fines; both open for written comment through June 13."
+        ]
+      },
+      {
+        "heading": "Key actions",
+        "items": [
+          "The board approved a resolution adopting findings and determination under the Eminent Domain Procedure Law to acquire the leasehold interest in the ground-floor unit at 129 East Main Street, which is currently occupied by a bar, for the town square hotel development project.",
+          "The board approved a Water District capital project budget for an electrical upgrade at Plant No. 7.",
+          "The board authorized acceptance of Suffolk County Office for the Aging funds to implement the 2025 residential repair program for the elderly.",
+          "The board ratified acceptance of donated monument-relocation services from a local monument company that moved the Garfield Langhorne Congressional Medal of Honor statue to the front entrance of the new town hall.",
+          "The board approved a contract with a soccer training organization for the Police Athletic League fall 2025 soccer program.",
+          "The board awarded a rebid contract for sewer improvements at 203-213 East Main Street.",
+          "The board classified a special permit and site plan application for a motocross track at 2822 River Road, Calverton as a Type I action under SEQRA and requested lead agency status.",
+          "Multiple personnel actions were approved, including seasonal hires in recreation and traffic control, a GIS technician salary increase, a junior civil engineer provisional appointment, two custodial worker promotions, and a part-time bilingual clerk appointment."
+        ]
+      },
+      {
+        "heading": "Discussed",
+        "items": [
+          "A resident requested the board issue a formal RFP for the sale and redevelopment of the Vale Levitt property; the supervisor stated the board voted three to two to proceed with a contract with the Jazz Loft and that vote will not be reopened.",
+          "Multiple residents and one online caller questioned the downtown hotel project, including its story count, inclusion of condominiums, IDA tax benefits for developers, and the adequacy of public engagement; board members defended the project as the product of six-plus years of public input and nearly $50 million in state and federal grants with no local taxpayer cost."
+        ]
+      }
+    ]
+  }
 }

@@ -5836,5 +5836,34 @@
       "end": 4193.98,
       "text": ""
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T03:04:02+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Riverhead Town Board held a public hearing to assess whether the Jazz Loft, a Stony Brook-based nonprofit arts organization, is qualified and eligible to acquire and redevelop the historic Vail-Levitt Theater on Main Street. The board closed the hearing but is accepting written public comments through October 24, 2025.",
+    "sections": [
+      {
+        "heading": "Public hearings & comment",
+        "items": [
+          "The hearing focused on the Jazz Loft's proposed acquisition and restoration of the Vail-Levitt Theater, built in 1881 and described as the oldest theater on Long Island.",
+          "The Jazz Loft's representatives stated the organization has a purchase agreement for the property at a price of $150,000 and reported current cash of approximately $256,000 and equity of approximately $850,000.",
+          "Representatives said ticket revenues at the Jazz Loft have exceeded $3 million over the past five years and that community donors and the Rotary Club have pledged additional support.",
+          "A two-phase restoration plan prepared by a historic preservation consultant was presented, with phase one addressing structural and weatherproofing issues including the roof, and phase two covering aesthetic improvements.",
+          "The Jazz Loft outlined a proposed timeline of a soft opening in January 2026 and completion of renovations by July 2026.",
+          "A representative of Stony Brook Southampton described an ongoing successful concert series partnership with the Jazz Loft as evidence of the organization's track record.",
+          "Several community members spoke in support during public comment, including the executive director of the Long Island Aquarium citing tourism benefits.",
+          "The board closed the hearing and announced written comments will be accepted through October 24, 2025."
+        ]
+      },
+      {
+        "heading": "Key actions",
+        "items": [
+          "The board voted to close the public hearing while keeping the record open for written comment until October 24, 2025."
+        ]
+      }
+    ]
+  }
 }

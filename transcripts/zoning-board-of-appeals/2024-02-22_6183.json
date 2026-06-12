@@ -2346,5 +2346,24 @@
       "end": 1579.92,
       "text": "any questions all right"
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T03:14:00+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Zoning Board of Appeals met on February 22, 2024, and granted variances in all four cases heard.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "A variance was granted for an accessory structure in the front yard at 118 Northside Road, Wading River (Appeal 2023-052).",
+          "Variances for a directory sign at 1352 East Main Street were granted, with conditions requiring removal of the existing marquee and all unpermitted tenant signs (Appeal 2023-057).",
+          "A rear-yard setback variance was granted for an in-ground pool installed at 16 feet instead of the required 20 feet at 42 Julia's Way, Wading River (Appeal 2024-002).",
+          "A front-yard setback variance was granted to allow elevation of a residence and addition of a new porch at 54 Beach Road, Laurel (Appeal 2024-005)."
+        ]
+      }
+    ]
+  }
 }

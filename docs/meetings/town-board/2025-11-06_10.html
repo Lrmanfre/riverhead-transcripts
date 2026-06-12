@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2025-11-06, category:Town Board">
@@ -25,6 +25,21 @@
     <div class="meta-row">107 min &nbsp;·&nbsp; <a href="https://riverheadny.portal.civicclerk.com/event/10" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/10/files/agenda/5577" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Riverhead Town Board held a lengthy public hearing on the proposed 2026 budget, which would pierce the tax levy cap for the eighth time in nine years, and a separate hearing on Community Development Block Grant funding requests from local nonprofits. The board also moved through roughly two dozen resolutions, including formally appointing a new police chief.</p>
+      <h3>Key actions</h3>
+      <ul><li>The board voted to appoint a new police chief to the Riverhead Police Department.</li><li>The board closed the public hearing on the 2026 preliminary budget and overriding the state tax levy cap, leaving written comment open until November 16.</li><li>The board closed the annual Community Development Block Grant public hearing, with written comment open until November 14; approximately $250,000 in federal HUD funds administered through Suffolk County is anticipated.</li><li>The board authorized the town clerk to seek bids for construction of a water district well and for general hardware items.</li><li>The board authorized a request for proposals for audit services for the Town of Riverhead Community Preservation Fund.</li><li>The board rejected bids for food and meat products and authorized a re-bid.</li><li>The board awarded a bid related to a landfill water main extension project.</li><li>The board authorized a professional services agreement for the Meeting House Creek stormwater, wetland, and habitat restoration project.</li><li>The board ratified a stipulation with a municipal employees union bargaining unit.</li><li>The board authorized the town clerk to publish notice for public hearings on proposed local law amendments to traffic regulations and to fire prevention enforcement.</li><li>A resignation of a public safety dispatcher and a maintenance mechanic were accepted, and amended employment terms for the town IT staff member were approved.</li></ul>
+      <h3>Public hearings &amp; comment</h3>
+      <ul><li>A resident argued the proposed budget increase of approximately 6.74 percent above the cap is excessive and that the public hearing notice omitted required salary information; the finance administrator clarified that the cap is being pierced only in the general fund and that the majority of increases are contractual, including a roughly $3.1 million, or 10 percent, rise in the police department budget.</li><li>The finance administrator noted the town has a $23–24 million RAISE grant with a roughly $7 million local match obligation, which is a primary reason for preserving fund balance rather than using it to offset the operating budget.</li><li>Three nonprofits—a girls&#x27; triathlon empowerment program, Long Island Head Start, and the Riverhead Community Awareness Program—requested CDBG funding for youth services, playground shading at a local center, and a school-based social worker at Roanoke Avenue Elementary School respectively.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/9fda814422.mp4" type="video/mp4">
@@ -2126,6 +2141,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

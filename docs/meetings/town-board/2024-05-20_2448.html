@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2024-05-20, category:Town Board">
@@ -25,6 +25,21 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/2448" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/2448/files/agenda/2311" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Town Board held a public hearing on the draft comprehensive plan update and voted to adjourn the separate DGEIS public hearing to May 29 at 6 p.m., with written comments accepted through June 10. Dozens of residents spoke, with debate centering on a proposed zoning change that would allow private or charter schools in industrial zones, agritourism resort development north of Sound Avenue, short-term rental regulations, and downtown housing limits.</p>
+      <h3>Key actions</h3>
+      <ul><li>The DGEIS public hearing was adjourned to May 29 at 6 p.m. at the same location.</li><li>The written comment period was extended to June 10, more than ten days after the May 29 hearing.</li><li>The board noted the final DGEIS is expected in early July, with possible plan consideration in late August.</li><li>The draft comprehensive plan, accepted by the board on April 25, includes 13 chapters; Chapter 13 covers future land use and major zoning recommendations.</li></ul>
+      <h3>Public hearings &amp; comment</h3>
+      <ul><li>Multiple speakers — including a school board president, teachers, and neighboring municipality officials — opposed a proposed zoning change that would allow private or charter schools in industrial zones, arguing it would remove taxable land from the tax rolls and financially harm the public school district.</li><li>A Southampton Town official stated that neighboring municipalities should have been notified as interested agencies under state law and requested the hearing remain open until that notification occurs.</li><li>Several civic association representatives opposed a proposed agritourism resort floating zone north of Sound Avenue, citing a 1975 scenic historic corridor designation, traffic concerns, and neighborhood opposition.</li><li>A representative of the Group for the East End argued that the DGEIS&#x27;s TDR-based density reduction for Calverton industrial development is insufficient and requested a warehouse carrying capacity analysis be added.</li><li>The Jamesport Civic Association president requested population projections use Riverhead&#x27;s own historical growth rate rather than countywide figures, and asked that the comment period be extended at least 30 days.</li><li>Speakers raised concerns about lifting the 500-unit downtown apartment cap, reducing minimum residential square footage from 1,200 to 650 square feet, and allowing short-term rentals with a 14-day minimum rather than 28 days.</li><li>Two speakers expressed support for the charter school, citing it as an educational option for children of color, while others questioned why it was not required to site buildings within Riverhead Township.</li><li>A resident asked why the plan defers a decision on the downtown housing cap to a future study given that a housing study has already been completed.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/1d176222-3cde-4c4c-98a6-ecba194cc513.mp4" type="video/mp4">
@@ -2324,6 +2339,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

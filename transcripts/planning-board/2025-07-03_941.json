@@ -7936,5 +7936,34 @@
       "end": 4959.76,
       "text": "Second. Moved by head [transcription gap]"
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T01:51:53+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Riverhead Planning Board approved or advanced several commercial site plan applications on July 3, 2025, including a negative declaration for Venetia Square and preliminary approval for a cannabis dispensary that drew significant public opposition.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "The board issued a negative declaration under SEQRA and scheduled a public hearing for the Venetia Square commercial center proposal on Route 25A in Wading River, a long-running application for roughly 27,000 square feet of retail across multiple buildings.",
+          "A public hearing was scheduled for the BJ's Wholesale Club expansion at East End Commons, which includes a roughly 10,500-square-foot building addition and a 16-pump accessory fueling station.",
+          "Preliminary site plan approval was granted for a cannabis dispensary application (Resolution 2025-64); the vote passed with board members noting the site fully complies with town code and no variances were required.",
+          "The Tanger Outlet 1700 building conversion to a Shake Shack restaurant received preliminary site plan approval, with a condition that lighting in the vicinity be brought up to town code compliance.",
+          "Administrative site plan approval was granted for the Bargain Molding site plan amendment at an address on West Main Street, revising traffic circulation to two-way using only the existing eastern curb cut.",
+          "A public hearing was scheduled for the 940–946 West Main Street redevelopment, a revised plan for two new commercial warehouse buildings that no longer requires zoning variances.",
+          "A site plan application for a new 3,000-square-foot commercial retail building at 305 West Main Street was introduced to the board; the applicant will seek relief from the Zoning Board of Appeals for impervious surface coverage and a landscape buffer requirement before returning for a public hearing."
+        ]
+      },
+      {
+        "heading": "Public hearings & comment",
+        "items": [
+          "Multiple residents spoke against the cannabis dispensary application, citing proximity to a hospital, senior communities, Timothy Hill Ranch, a church, and residential streets, as well as traffic concerns on Ostrander Avenue.",
+          "An attorney for the dispensary applicant noted the site meets all town and state requirements and that Riverhead's local cannabis regulations are more restrictive than state minimums."
+        ]
+      }
+    ]
+  }
 }

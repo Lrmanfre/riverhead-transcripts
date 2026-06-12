@@ -2581,5 +2581,24 @@
       "end": 1394.9,
       "text": ""
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T03:22:16+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Zoning Board of Appeals met on July 24, 2025 and acted on four matters: a permit extension and three variance requests, all of which were granted. The next meeting is August 28, 2025; there is no meeting on August 14.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "A one-year extension was granted for appeal 2024-020 (Frank Stepnoski, 30 Dolphin Way, Riverhead) for a proposed garage and existing shed.",
+          "An amendment to appeal 2023-049 was granted for a Habitat-affiliated property on behalf of a future homeowner, recognizing as-built deviations including 26% impervious coverage and slightly reduced setbacks caused by a foundation poured six inches off.",
+          "Variances for side yard, rear yard, and impervious surface were granted for Leonard and Denise Richardson (20 Oak Drive, Jamesport) for an open-sided pergola over an above-ground therapeutic pool, on condition that all sides remain open.",
+          "Multiple setback and impervious coverage variances were granted for Carol Schick (4 Park Drive, Riverhead) to demolish an existing cottage and construct a two-story dwelling on a preexisting undersized lot in the Reeds Park community."
+        ]
+      }
+    ]
+  }
 }

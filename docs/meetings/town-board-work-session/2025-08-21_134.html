@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2025-08-21, category:Town Board Work Session">
@@ -25,6 +25,25 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/134" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/134/files/agenda/63" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Town Board work session covered an Agricultural Advisory Committee wish list, a motocross track environmental review, monthly reports from the police, justice court, code enforcement, and town clerk, and briefly discussed upcoming local events before adjourning to executive session.</p>
+      <h3>Key actions</h3>
+      <ul><li>The board directed the TDR committee to meet jointly with the Agricultural Advisory Committee and planning staff to advance the transfer of development rights program, with a draft TDR bank account structure expected to be circulated within two weeks.</li><li>The board directed planning staff to prepare a positive declaration (SEQRA) and draft scope for the Duffy MX Motocross track application at 2822 River Road, Calverton, formally initiating an Environmental Impact Statement process.</li><li>The board will explore requiring the motocross applicant to bond or escrow sand-sale revenue until a certificate of occupancy is obtained, to ensure the track is completed rather than the site left as an excavated pit.</li><li>The board discussed referring subdivision and site plan applications adjacent to agricultural land to the Agricultural Advisory Committee for review, and planning staff indicated this could be arranged.</li></ul>
+      <h3>Discussed</h3>
+      <ul><li>The Agricultural Advisory Committee presented a wish list including: restoring annual burn permits for farmers without a fee, keeping bulk fuel storage exempt from town oversight, improving disclosure to homebuyers near farms about right-to-farm laws, resolving a preserved-land easement issue for one farming family, allowing farm stays of one to five units on bona fide commercial farms, and urging the town to follow New York State Agriculture and Markets definitions for controlled-environment agriculture.</li><li>Four involved agencies responded to coordinated SEQRA review for the motocross track: the Pine Barrens Commission flagged a 40-percent open-space requirement; the DEC raised potential mine-land reclamation permit issues and noted nearby tiger salamander habitat; the Health Department had no significant comments; and the Suffolk County Planning Commission cited potential adverse impacts to prime agricultural soils and groundwater.</li><li>A code enforcement lawsuit filed against the owner of a commercial property on Royal Avenue prompted the owner to arrange an on-site inspection with an asphalt contractor to address long-outstanding parking lot maintenance required by their site plan.</li><li>A contempt motion was filed against the owner of an illegally occupied Wading River house after the owner failed to vacate by the court-ordered July 31 deadline; daily fines will be sought.</li></ul>
+      <h3>Money</h3>
+      <ul><li>Justice court dispositions for July totaled approximately $30,250 in fines and surcharges, including amounts related to blight mitigation, human services, parking, fire marshal tickets, and other matters; figures are dispositions, not necessarily collected amounts.</li><li>The town&#x27;s sand removal fee would generate an estimated $400,000–$500,000 to the town from the approximately 120,000 cubic yards proposed to be excavated at the motocross site.</li></ul>
+      <h3>Affects residents</h3>
+      <ul><li>Criminal incidents in Riverhead dropped from 228 in July 2024 to 141 in July 2025 according to police department figures.</li><li>All Riverhead police officers now have body cameras deployed and operational.</li><li>The police chief noted coastal flooding risk in low-lying areas of Jamesport and downtown during high tides related to Hurricane Erin, and directed residents to the town website&#x27;s emergency preparedness page for shelter locations and an interactive storm surge zone map.</li><li>Public urination and open-alcohol violations in the downtown area are trending downward, which police attribute to increased officer presence.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/2b458541-fac4-4261-9e6b-aba67127c7b9.mp4" type="video/mp4">
@@ -2213,6 +2232,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

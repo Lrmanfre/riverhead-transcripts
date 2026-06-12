@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2025-10-16, category:Town Board">
@@ -25,6 +25,21 @@
     <div class="meta-row">69 min &nbsp;·&nbsp; <a href="https://riverheadny.portal.civicclerk.com/event/6420" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/6420/files/agenda/5863" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Riverhead Town Board held a public hearing to assess whether the Jazz Loft, a Stony Brook-based nonprofit arts organization, is qualified and eligible to acquire and redevelop the historic Vail-Levitt Theater on Main Street. The board closed the hearing but is accepting written public comments through October 24, 2025.</p>
+      <h3>Public hearings &amp; comment</h3>
+      <ul><li>The hearing focused on the Jazz Loft&#x27;s proposed acquisition and restoration of the Vail-Levitt Theater, built in 1881 and described as the oldest theater on Long Island.</li><li>The Jazz Loft&#x27;s representatives stated the organization has a purchase agreement for the property at a price of $150,000 and reported current cash of approximately $256,000 and equity of approximately $850,000.</li><li>Representatives said ticket revenues at the Jazz Loft have exceeded $3 million over the past five years and that community donors and the Rotary Club have pledged additional support.</li><li>A two-phase restoration plan prepared by a historic preservation consultant was presented, with phase one addressing structural and weatherproofing issues including the roof, and phase two covering aesthetic improvements.</li><li>The Jazz Loft outlined a proposed timeline of a soft opening in January 2026 and completion of renovations by July 2026.</li><li>A representative of Stony Brook Southampton described an ongoing successful concert series partnership with the Jazz Loft as evidence of the organization&#x27;s track record.</li><li>Several community members spoke in support during public comment, including the executive director of the Long Island Aquarium citing tourism benefits.</li><li>The board closed the hearing and announced written comments will be accepted through October 24, 2025.</li></ul>
+      <h3>Key actions</h3>
+      <ul><li>The board voted to close the public hearing while keeping the record open for written comment until October 24, 2025.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/15dd32db63.mp4" type="video/mp4">
@@ -1017,6 +1032,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

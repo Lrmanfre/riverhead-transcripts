@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2025-06-05, category:Planning Board">
@@ -25,6 +25,23 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/917" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/917/files/agenda/780" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Riverhead Planning Board held three public hearings and approved several resolutions at its June 5 meeting, including actions on a cannabis dispensary site plan, a golf course clubhouse, and various subdivision and site plan matters.</p>
+      <h3>Key actions</h3>
+      <ul><li>The public hearing for Gouda LLC was closed; the application seeks approval for a roughly 1,359-square-foot office building at 365 Harrison Avenue, with previously granted ZBA variances for a reduced side yard setback and buffer.</li><li>The public hearing for Sandy Pond Links LLC was closed; the application proposes a clubhouse, property manager residence, and trade shop buildings at 1521 Roanoke Avenue accessory to an existing golf course.</li><li>The public hearing for a cannabis dispensary at 840 Old Country Road was closed; the site plan involves reconfiguring parking and a curb cut for a change of use to an adult-use retail cannabis dispensary in the Business Center zone.</li><li>The board voted to deem the draft environmental impact statement for a parcel on Middle Country Road (TJOC Real Estate Holdings) inadequate.</li><li>The board issued a positive declaration requiring a supplemental environmental impact statement for the Calvertine Industrial Subdivision.</li><li>Administrative site plan approval was granted for National Grid facility upgrades.</li><li>Extension approvals were granted for the Susan McCarthy minor subdivision and the Manna Lane minor subdivision; two 90-day extensions were also granted for the Malise Property minor subdivision.</li><li>Administrative site plan approval was granted for facade improvements at 1080–1120 Old Country Road, covering painting of both buildings, code-compliant lighting, and added landscaping and trash receptacles.</li></ul>
+      <h3>Public hearings &amp; comment</h3>
+      <ul><li>A resident near the 840 Old Country Road cannabis dispensary application spoke in opposition, citing proximity to senior communities, a children&#x27;s ranch, and a hospital, and raising traffic safety concerns at the Ostrander Avenue corner.</li></ul>
+      <h3>Discussed</h3>
+      <ul><li>A Chapter 219 coastal erosion application for a property at 2705 Roanoke Avenue was introduced; the proposal is for a small studio and detached garage seaward of the Coastal Erosion Hazard Area line, and the applicant must first obtain ZBA relief before returning to the Planning Board.</li><li>The board noted the 840 Old Country Road cannabis site has already received location approval from the town and is on a commercial corridor where the 1,000-foot residential buffer requirement does not apply.</li><li>The next Planning Board meeting is scheduled for July 3, 2025, at 6 p.m., as the board will not meet on June 19.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/54184264-049a-4a27-852f-75d88855d177.mp4" type="video/mp4">
@@ -893,6 +910,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

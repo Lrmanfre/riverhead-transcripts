@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2024-04-04, category:Planning Board">
@@ -25,6 +25,21 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/861" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/861/files/agenda/724" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Planning Board closed two public hearings, advanced a minor subdivision with a new buffer condition, and classified a downtown townhouse project for environmental review.</p>
+      <h3>Key actions</h3>
+      <ul><li>The public hearing for a two-lot subdivision at 821 Northville Turnpike was closed after staff confirmed both lots exceed the minimum 40,000-square-foot upland area required for yield.</li><li>The public hearing for a tasting room conversion at Terravite Winery and Vineyard, 250 Manor Lane, Jamesport, was closed; the proposal would convert an existing single-family residence into additional tasting room space and add parking on the 2.1-acre parcel.</li><li>The board agreed to add a 25-foot non-disturbance buffer along the northern property boundary and along a second boundary for the Marist Farm Minor Subdivision; staff will prepare an approval resolution for the next meeting.</li><li>The board classified the 2nd Street Townhomes project at 46 East 2nd Street as a Type 1 action and voted to seek lead agency status for SEQRA coordination; the proposal is for two four-unit townhouse buildings on a 0.33-acre vacant lot in the DC-4 zone.</li><li>A denial letter for a one-stall parking variance will be sent to the Zoning Board of Appeals for the 2nd Street Townhomes project, which can provide 11 of the 12 required stalls.</li><li>Minutes from the March 7th meeting were approved.</li></ul>
+      <h3>Public hearings &amp; comment</h3>
+      <ul><li>A neighbor on Manor Lane asked the board to consider adding noise stipulations or covenants to the Terravite Winery approval, citing concerns about amplified music and large crowds.</li><li>A resident of Linda Lane raised objections to granting a parking variance for the 2nd Street Townhomes, stating that 2nd Street already lacks adequate parking due to nearby businesses, and urged the board to require all parking to be contained on site.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/24c1edd2-dd6d-44cb-af49-4af884d46e95.mp4" type="video/mp4">
@@ -944,6 +959,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2024-12-05, category:Planning Board">
@@ -25,6 +25,23 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/1075" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/1075/files/agenda/938" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Riverhead Planning Board approved preliminary plat and site plan resolutions, held a public scoping session for the TJOC Real Estate Holdings subdivision and site plan project on Middle Country Road, and settled litigation with HK Ventures LLC.</p>
+      <h3>Key actions</h3>
+      <ul><li>The board approved a preliminary plat resolution for the Carson Woods major subdivision, an eight-lot major residential subdivision, subject to conditions before final plat approval.</li><li>A 25-foot non-disturbance buffer was incorporated along the western edges of certain lots in the Carson Woods subdivision, consistent with an adjacent existing subdivision requirement.</li><li>The board voted to leave an existing temporary cul-de-sac in place rather than remove it, with a fire hydrant to be relocated within the right-of-way.</li><li>The board approved a minor subdivision for a property identified as the Susan McCarthy minor subdivision.</li><li>The board approved a site plan to convert an existing 4,268-square-foot restaurant on Cordova Drive into two separate tenancies.</li><li>The board approved a litigation settlement with HK Ventures LLC after returning from executive session.</li><li>The board closed the TJOC Real Estate Holdings public scoping session after receiving public comments; a final scope will be prepared to guide the environmental impact statement.</li></ul>
+      <h3>Public hearings &amp; comment</h3>
+      <ul><li>The owner of Miloski&#x27;s Poultry Farm requested a 25-foot buffer, fencing with slats, and noise ordinance compliance during construction to protect livestock from the proposed adjacent TJOC development.</li><li>A Timber Park resident asked that the traffic study clarify road ownership and maintenance, include a nearby proposed charter school, and account for multi-person occupancy in apartment units.</li><li>The Calverton Civic Association president asked that environmental justice considerations be noted, that outreach reach nearby Calverton Meadows residents, and that cumulative traffic from other pipeline projects on Middle Country Road be included in the traffic analysis.</li><li>The TJOC applicant&#x27;s principal stated the team would work to address concerns raised by the board, neighbors, and planning staff.</li></ul>
+      <h3>Discussed</h3>
+      <ul><li>Planning staff proposed adding agricultural resource impacts, including bird flu transmission risk, as a topic to be studied in the environmental impact statement for the TJOC project.</li><li>Staff also proposed studying an alternative north-south commercial building orientation and a development scenario complying with groundwater management zone three density limits.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/8d2f228b-e0dd-484f-ab42-1c1590a93ba8.mp4" type="video/mp4">
@@ -587,6 +604,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

@@ -7976,5 +7976,36 @@
       "end": 4452.36,
       "text": ""
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T02:20:00+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Town Board held a work session covering agricultural issues, police and code enforcement reports, and routine department updates. A key discussion centered on allowing a Wading River farming family to farm a preserved open-space parcel, with the board directing staff to find a legal path forward.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "The board directed its attorney to research how to convert an open-space easement on a Wading River property to an agricultural easement so the Kinsella family can farm the full parcel.",
+          "A local resident received a certificate of appreciation from the board for consistent volunteer participation in the town's spring and fall litter cleanups.",
+          "The board agreed in principle to a farm tour of Riverhead farms to be organized through Farm Bureau when weather permits.",
+          "The board noted that a special permit application related to a battery storage project on Pulaski Street was received and circulated.",
+          "The board moved into executive session to discuss legal matters, potential real property sales and leases, a contractual agreement with Environmental Facilities Corp., and personnel appointments."
+        ]
+      },
+      {
+        "heading": "Discussed",
+        "items": [
+          "Farmers and the Agricultural Advisory Committee raised concerns about barn setback requirements, restrictions on indoor growing operations, and the need for town code to reflect how agriculture is evolving toward retail, agritourism, and new crops.",
+          "The police chief reported total incidents and criminal incidents both dropped in February; officers are using trespass affidavits to allow repeat shoplifters to be charged with felony burglary when they re-enter a store.",
+          "Code enforcement reported 55 complaints, 68 summonses, 123 open cases, and $24,225 in fees collected in February, with $73,800 in total rental fee revenue year-to-date.",
+          "The town justice proposed a minor code amendment to add a violation-level offense to the fire marshal code so minor infractions such as blocked egresses do not require a misdemeanor plea.",
+          "The town clerk reported that new agenda management and FOIL software programs are in the training phase and expected to launch soon.",
+          "The board noted that longtime sewer district director Michael Reichel is retiring after 40 years, with the treated effluent now used to irrigate a county golf course cited as a highlight of his tenure."
+        ]
+      }
+    ]
+  }
 }

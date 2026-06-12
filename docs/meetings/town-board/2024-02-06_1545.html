@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2024-02-06, category:Town Board">
@@ -25,6 +25,23 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/1545" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/1545/files/agenda/1408" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Riverhead Town Board held a lengthy February 6 meeting covering towing fee caps, apprenticeship requirement changes, cannabis zoning debate, numerous personnel and contract approvals, and a heated public exchange over a proposed agritourism hotel and campaign contributions.</p>
+      <h3>Key actions</h3>
+      <ul><li>A public hearing was opened on amending towing regulations to require conspicuous signage, mandate tow-company notification to Riverhead PD, and cap towing charges at $375 (municipal rate); the hearing was kept open for written comments through February 16.</li><li>A public hearing was opened on raising the apprenticeship requirement trigger from $250,000 to $750,000 and the square-footage threshold from 1,000 to 250,000 sq ft, with a subcontractor exemption at $100,000 and various exclusions; hearing kept open through February 16.</li><li>The board adopted resolutions appointing a water treatment plant operator trainee, a public safety dispatcher, a financial advisor, and bond counsel, all unanimously.</li><li>The board adopted a resolution authorizing a licensing agreement with Adventure Group LLC d/b/a Cousins Paintball Inc., with porta-potties confirmed as restroom facilities.</li><li>The board awarded a bid for installation of appurtenances in the Seacrest Estates subdivision (Riverhead Water District), adopted unanimously.</li><li>The town attorney confirmed that no generic environmental impact statement is required for proposed TDR sending/receiving area zoning because the receiving area is already designated in the draft code.</li><li>The Canal House litigation was reported as settled; a stipulation of settlement including fines is to be brought before the board at the next meeting for approval.</li><li>Pre-submission meetings on Tuesdays at 9:30 AM will be reopened to the public, with agendas posted the prior Friday and meetings held in the town boardroom.</li></ul>
+      <h3>Money</h3>
+      <ul><li>The Town Clerk&#x27;s January 2024 monthly report totaled $10,475.45.</li><li>Tax Receiver collections for January ranged from approximately $87 million to $92.7 million across three reporting dates.</li><li>Building Department collections for January 2024 totaled $114,459.</li><li>The Water District Superintendent testified that the lowest bid on a well drilling contract came in just under $500,000 while the second bid was just under $900,000, citing the apprenticeship requirement as undermining competitive bidding.</li></ul>
+      <h3>Public hearings &amp; comment</h3>
+      <ul><li>A resident reported being charged $600 for a tow from a shopping plaza after parking for a bus service, and called for board action.</li><li>Multiple cannabis licensees and advocates urged the board to vote on cannabis zoning at the February 21 hearing, raising concerns about a 2,500-foot setback versus the state&#x27;s 1,000-foot standard and a limited number of viable parcels; staff identified 144 eligible parcels with two or three applications pending.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/25ea8408-659b-4acb-aab4-adcfbfcc392b.mp4" type="video/mp4">
@@ -2573,6 +2590,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

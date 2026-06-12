@@ -4351,5 +4351,41 @@
       "end": 3122.42,
       "text": "THANK YOU."
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T01:42:21+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Planning Board held a public hearing on a proposed Chevrolet dealership at 1309 Old Country Road, approved several resolutions including an administrative site plan for Hallockville Museum Farm barn improvements, and rescheduled a public hearing for the Marist Farm subdivision after improper posting.",
+    "sections": [
+      {
+        "heading": "Public hearings & comment",
+        "items": [
+          "A public hearing was held for a site plan application proposing a new approximately 18,000-square-foot automobile dealership at 1309 Old Country Road on a 2.07-acre parcel in the Business Center zoning district, with parking, landscaping, drainage, and new water and sewer connections.",
+          "The applicant stated the revised plan requires fewer variances than the version previously approved by the Zoning Board of Appeals and includes an 8-foot vinyl fence and arborvitae buffer along the eastern boundary near residential properties.",
+          "No members of the public spoke at the hearing, which was then closed by board vote.",
+          "A scheduled public hearing for the Marist Farm subdivision was not held because the required posting was not completed properly; a new hearing date was set by resolution."
+        ]
+      },
+      {
+        "heading": "Key actions",
+        "items": [
+          "The board approved an administrative site plan for interior alterations to the Nogles Barn at Hallockville Museum Farm, including bathrooms, a small food-prep area, interior conditioning, a new sanitary system, a water line, and accessible parking stalls.",
+          "The Hallockville approval was granted with a condition requiring compliance with all applicable town codes not explicitly listed in the resolution, addressing board concerns about event and wedding use on the property.",
+          "The board approved a resolution granting an extension of a minor subdivision approval in the Firmature application, which had a prior approval dating to 2015.",
+          "The board approved a six-month extension of preliminary site plan approval for a project identified as a dry-goods manufacturers outlet center.",
+          "The board approved a resolution transmitting a recommendation to the town board to amend the speed limit along a portion of Roanoke Avenue north of Middlewood Road.",
+          "The next Planning Board meeting was announced for Thursday, March 7, 2024 at 6 p.m."
+        ]
+      },
+      {
+        "heading": "Money",
+        "items": [
+          "Hallockville Museum Farm was assessed a water district key-money fee of $3,075.80 in connection with the new water line for the barn project."
+        ]
+      }
+    ]
+  }
 }

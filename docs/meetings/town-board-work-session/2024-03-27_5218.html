@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2024-03-27, category:Town Board Work Session">
@@ -25,6 +25,21 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/5218" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/5218/files/agenda/5056" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Town Board held a brief work session focused on committee updates and a preview of 48 draft resolutions headed to a vote, covering personnel appointments, 2023 capital project closures, agritourism zoning amendments, and several new agreements and contracts.</p>
+      <h3>Key actions</h3>
+      <ul><li>The board previewed a resolution authorizing a SEQRA determination for pre-construction activities related to a proposed First Street parking garage, described as a necessary step in the grant process.</li><li>Two resolutions were listed to schedule public hearings on proposed amendments to Chapter 301 zoning code related to agritourism supplemental regulations.</li><li>A resolution was listed to authorize an agreement with an engineering firm for the downtown Town Square project, and a separate surveying services authorization for the same project was also included.</li><li>A resolution would authorize the chief of police to execute an agreement with the Riverhead Community Awareness Program (CAP).</li><li>Resolution 9 would reappoint three part-time police officers who completed the part-time police academy on their own time without pay.</li><li>Resolutions 10 through 30 consist entirely of 2023 capital project closures across sewer, water, and general capital funds.</li><li>One personnel resolution (originally listed as number 5, a salary increase for a senior citizen program supervisor) was pulled and will be replaced with an appointment of a call-in senior recreation leader.</li></ul>
+      <h3>Discussed</h3>
+      <ul><li>Committee updates included: a barricade on the EPCAL bike path will be removed, Reeves Beach has reopened with a refurbished gazebo, a farmland preservation appraisal was authorized for a Main Road property in Aquebogue, the Perkins Generating Plant demolition has been postponed and an on-site visit is planned with interested parties considering a learning center use, and eight Community Preservation Fund open space signs are being installed around town.</li><li>A council member reported that a vape scan conducted with police found THC products at one shop, and police were directed to follow up.</li><li>A council member described ongoing discussions about Community Distributed Generation and Community Choice Aggregation solar programs that could benefit homeowners, renters, and small businesses without requiring panel installation.</li><li>The Business Advisory Committee is working with the Building Department to review situations where permit applicants face unexpected additional engineering fees that delay their projects.</li><li>The Receiver of Taxes office is working with IT and a bank to enable online bill payment, including an in-office computer with step-by-step instructions for residents who need assistance.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/82ecef3e-9ab1-42ce-97ac-e786a4344b72.mp4" type="video/mp4">
@@ -459,6 +474,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

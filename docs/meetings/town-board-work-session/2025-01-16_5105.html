@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2025-01-16, category:Town Board Work Session">
@@ -25,6 +25,23 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/5105" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/5105/files/agenda/4943" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Town Board held a work session covering the December police report, formation of a new Hispanic community committee, a proposal to expand the Wesley Ackley Skate Park, and monthly reports from Justice Court, Code Enforcement, and the Town Clerk.</p>
+      <h3>Key actions</h3>
+      <ul><li>The board expressed support for forming a new committee called the Hispanic Development Empowerment and Education Committee, with a resolution to formalize it planned; prospective members introduced include a community business leader, a local nursery owner, a former Guatemalan diplomat, a dentist with an education background, and a local pastor.</li><li>The board directed that a resolution be drafted authorizing the Community Development Agency to seek grants for a new cement skate park to be built on county land acquired through the Project Greenways program adjacent to the current Wesley Ackley Skate Park on Pulaski Street.</li><li>A presenter reported that a 501(c3) nonprofit has been established to support the skate park project and that grassroots fundraising has raised over $23,000 from more than 220 donors toward an estimated $1 million goal.</li><li>The Town Clerk noted the town is advertising to fill a part-time bilingual clerk position and suggested the new Hispanic committee may help identify candidates.</li></ul>
+      <h3>Money</h3>
+      <ul><li>Code Enforcement collected $41,525 in rental permit fees during December.</li><li>Code Enforcement conducted approximately 2,500 rental unit inspections in 2024 and issued approximately 715 summonses for the year.</li><li>The Town Clerk reported 2,723 FOIL requests processed through the clerk&#x27;s office in 2024, not including police department requests, which the board noted represents a significant and growing cost to taxpayers.</li></ul>
+      <h3>Discussed</h3>
+      <ul><li>Captain Woolsey presented the December 2024 police report, noting vehicle thefts rose compared to December 2023, while robberies, burglaries, domestic incidents, and total summonses all decreased year-over-year.</li><li>The skate park proposal envisions a phased cement construction on land adjacent to Stotsky Park, with the existing skate park site potentially repurposed as a spray park or for other low-cost recreation; an ADA-accessible pump track was also discussed as a possible addition.</li><li>Justice Court was closed from December 16 through the first week of January; increased building permit and rental permit fines approved in December will begin appearing in January court data.</li><li>Code Enforcement opened 651 total complaints in 2024 and noted ongoing issues at a neglected commercial parking lot, including missing stop signs, deteriorated pavement, and graffiti, with cases pending in Justice Court.</li><li>The Town Clerk reported processing over 350 marriage licenses, more than 500 notarizations, 63 special permits, and over 50 new or amended local laws in 2024, and said new agenda-management and FOIL software is expected to be operational by June.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/c5ef13fa-0961-4481-a743-bfd833796e60.mp4" type="video/mp4">
@@ -1872,6 +1889,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

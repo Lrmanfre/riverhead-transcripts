@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2025-12-11, category:Town Board Work Session">
@@ -25,6 +25,19 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/150" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/150/files/agenda/5897" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Riverhead Town Board work session covered a proposed golf cottage code amendment, a groundbreaking announcement for the new Town Square, and previewed a lengthy consent agenda of routine resolutions ahead of a future regular meeting.</p>
+      <h3>Key actions</h3>
+      <ul><li>A groundbreaking ceremony for the demolition of 127 East Main Street to make way for the new Riverhead Town Square is scheduled for Friday, December 12 at noon.</li><li>The board reviewed a revised definition of &#x27;golf cottage&#x27; under Chapter 301-3, with the maximum unit size increased from 600 to 1,200 square feet, no limit on length of stay, and a prohibition on using cottages to establish permanent residency.</li><li>Golf cottages would require one transfer of development right per unit, up to a maximum of one per hole; currently only Friars Head Golf Course and Beany Hollow Club are in eligible zoning districts.</li><li>The board directed staff to prepare a resolution scheduling a public hearing on the golf cottage amendment, likely in January.</li><li>The board reviewed proposed code changes to the Business Center and Shopping Center Zoning Use Districts, including expanding permitted uses in shopping centers and bringing the 35-foot unoccupied front yard requirement into supplementary guidelines.</li><li>The board discussed land-banking and parking reduction provisions already in the town code as tools for redeveloping underutilized commercial parking areas along Route 58.</li><li>A large block of consent resolutions was previewed, including a new CSEA contract for 2026–2029, multiple Water District bid extensions, a PFAS treatment bid for a grant-funded project, and agreements related to the proposed East End Arts Pavilion.</li><li>The board moved into executive session to discuss personnel, employment, and several contractual matters.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/70a91106-e54b-48ba-97d0-1d1eeb32ca56.mp4" type="video/mp4">
@@ -605,6 +618,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

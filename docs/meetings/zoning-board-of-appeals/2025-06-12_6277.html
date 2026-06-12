@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2025-06-12, category:Zoning Board of Appeals">
@@ -25,6 +25,19 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/6277" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/6277/files/agenda/5719" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Zoning Board of Appeals met on June 12, 2025, approving two extension requests, denying a cannabis dispensary variance, granting a residential shed variance, adjourning a front-yard shed case, and granting a two-shed variance with conditions.</p>
+      <h3>Key actions</h3>
+      <ul><li>Appeal 2022-039 (HK Ventures, 4285 Middle Country Road, Calverton) was granted a second one-year extension, now expiring June 8, 2026.</li><li>Appeal 2022-049 (Tomcat Realty Holdings, 901-932 Scott Avenue, Calverton) was granted a second one-year extension, now expiring May 11, 2026.</li><li>Appeal 2025-011 (1086 Old Country Road, Riverhead) — a request for variances to operate a cannabis retail dispensary within 1,000 feet of a school — was denied in its entirety, with the board finding the detriment to community health, safety, and welfare outweighed the benefit.</li><li>Appeal 2025-019 (11th Street, Wading River) — setback variances to legalize an existing shed with a 5.3-foot side yard setback and a 4.7-foot rear yard setback — was granted.</li><li>Appeal 2025-020 (47 Highview Drive, Wading River) — to legalize a shed located in a front yard, which is not permitted — was adjourned to the July 10, 2025 meeting after the board indicated it was disinclined to approve a front-yard shed and asked the applicant to consider relocating it.</li><li>Appeal 2025-021 (533 Pecan Bay Boulevard, Aquebogue) — variances to legalize two existing sheds with significant setback deficiencies — was granted with conditions including that the larger shed not be used as habitable or office space, that a special permit be obtained if used for a home occupation, and that a fence be repaired as agreed with neighbors.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/e09a63c3-7792-4e97-b44f-66c9b4cd34f9.mp4" type="video/mp4">
@@ -974,6 +987,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

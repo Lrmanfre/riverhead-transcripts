@@ -2581,5 +2581,24 @@
       "end": 1094.76,
       "text": "Aye."
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T03:26:57+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Zoning Board of Appeals approved an extension for a prior variance, approved variances for an accessory dwelling addition and shed legalization, adjourned two appeals to April 23, and reserved decision on a non-conforming use application.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "The board granted a second one-year extension to appeal 2024-001 (Vincent and Thomas Franchini, 196 South Jamesport Avenue), expiring March 14, 2027.",
+          "The board approved variances for appeal 2026-003 (253 Newton Avenue, Riverhead) allowing an addition to an accessory structure and legalizing a shed, subject to the accessory dwelling unit code.",
+          "Appeal 2026-006 (North Shore Sprinkler, 1264 West Main Street) was reserved for a written decision to be issued April 23, 2026, regarding a change from one non-conforming use to another.",
+          "Appeals 2026-002 and 2026-005 were adjourned to April 23, 2026."
+        ]
+      }
+    ]
+  }
 }

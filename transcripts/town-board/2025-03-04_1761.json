@@ -6641,5 +6641,38 @@
       "end": 3672.82,
       "text": "Thank you."
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T02:57:07+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Riverhead Town Board held eight public hearings on zoning housekeeping, site plan extension rules, sign code changes, and excavation fees, then voted on roughly 30 resolutions including a contested conditional negative declaration for Island Water Park and new rules governing town board meeting conduct.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "The board approved Resolution 234 assuming lead agency status and issuing a conditional negative declaration for the Island Water Park (DBA Scotts Point) site plan at 5835 Middle Country Road, Calverton; one board member voted no, citing concerns raised in public comment about the SEQRA classification.",
+          "The board adopted Resolution 230 amending rules and procedures for town board meetings; public commenters objected specifically to a provision banning signs in the boardroom.",
+          "The board ratified a new agreement with the Riverhead Town Police Benevolent Association (Resolution 238).",
+          "The board appointed Ken Zelnicki to the Riverhead Farmland Preservation Committee and reappointed or added members to the Small Business Advisory Committee.",
+          "The board adopted local law amendments to the town code covering animals, peddling and soliciting, and yard and garage sales.",
+          "The board awarded an engineering services contract for a Class A biosolids upgrade project for the Riverhead Sewer District."
+        ]
+      },
+      {
+        "heading": "Public hearings & comment",
+        "items": [
+          "A proposed code amendment would extend preliminary site plan approval from 18 months to up to two years by allowing a second six-month extension, and would add a $250 fee per extension request.",
+          "A proposed sign code amendment would allow governmental subdivisions such as fire districts, the ambulance corps, and the public library to apply for signs that could be exempted from standard zoning district restrictions with planning department review and a town board resolution.",
+          "A proposed excavation chapter amendment would raise the per-cubic-yard fee for importation and exportation of material from $2 to $3.",
+          "Five other public hearings addressed zoning housekeeping to replace obsolete industrial zoning district references with current Calverton Industrial and Light Industrial designations in the sign code, Pine Barrens Overlay, wireless communication, commercial solar, and B2 codes.",
+          "All public hearings were left open for written comment until March 14 at 4:30 p.m.",
+          "A speaker objected to the Island Water Park conditional negative declaration, arguing the application should have been classified as a Type 1 SEQRA action requiring a supplemental EIS rather than an unlisted action.",
+          "Multiple residents spoke against the ban on signs in the boardroom, arguing it limits participation especially for residents uncomfortable speaking publicly."
+        ]
+      }
+    ]
+  }
 }

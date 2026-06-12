@@ -10371,5 +10371,50 @@
       "end": 5560.22,
       "text": "!"
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T04:02:45+00:00",
+    "agenda_grounded": false,
+    "chunked": true,
+    "tldr": "The Riverhead Town Board work session covered monthly police and court reports, a private RV park proposal at EPCAL, significant revisions to the agritourism overlay code, and several upcoming community events including a job fair, river cleanup, and Shakespeare in the Park.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "The board directed the justice court attorney to begin recording instances where judges do not impose minimum mandatory fines, for future tracking.",
+          "A new full-time code enforcement officer is set to begin work on April 1, with two additional positions — one code officer and one clerical — still open.",
+          "The board confirmed that at least one new code enforcement vehicle is needed and that funding has already been allocated in the budget.",
+          "Public bathrooms on Heidi Bear Way and near Grandville Park are expected to reopen seasonally within approximately one month.",
+          "The board reiterated that short-term rentals, including Airbnb listings, require a minimum 29-day rental period under town code."
+        ]
+      },
+      {
+        "heading": "Money",
+        "items": [
+          "Justice Court collected approximately $5,600 in February 2024, including $3,400 in court collections, a $2,000 default judgment, and $200 in preservation fines.",
+          "The town noted it is reevaluating and increasing fees related to sand removal."
+        ]
+      },
+      {
+        "heading": "Discussed",
+        "items": [
+          "A private developer and attorney presented a concept for a private RV park at EPCAL in Calverton, proposing a lease with the town retaining ownership, up to 100–125 RV slots, amenities including a clubhouse and glamping units, and a reserved percentage of slots for Riverhead residents; board members raised concerns about sand mining for a proposed lake, DEC bird and grassland mitigation requirements, clearing limits, and proximity to runways.",
+          "Proposed revisions to the agritourism overlay code would set yield at 1,500 square feet of floor area per acre of project area with a 100-acre minimum, cap hotel and resort rooms at 150, raise farm building height limits from 25 to 35 feet, require a 500-foot front yard setback along Sound Avenue, and impose a $1,000-per-day penalty for agricultural non-production exceeding nine months; farming community representatives expressed general support but requested one additional Agricultural Advisory Committee review before publication.",
+          "The OpenGov platform implementation remains delayed due to data transfer issues and is still in progress."
+        ]
+      },
+      {
+        "heading": "Affects residents",
+        "items": [
+          "A town job fair is planned for May 23rd, 1–4 p.m. at Town Square, with the Suffolk Theatre as a rain location and a New York Blood Center blood drive bus on site.",
+          "A community river cleanup along the Peconic River is proposed for Saturday, May 18th, in partnership with the Rotary Club, Long Island Aquarium, and local paddleboard and kayak groups.",
+          "Northeast Stage's non-profit production of Othello is proposed for Wednesday, July 24th at Grand Jewel Park, with ASL interpretation and Spanish language programming planned.",
+          "An Anti-Litter Committee townwide cleanup is scheduled for Sunday, April 28th, with materials available for pickup from 9 to 11 a.m. and approximately 20–25 volunteers signed up."
+        ]
+      }
+    ]
+  }
 }

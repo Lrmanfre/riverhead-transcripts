@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2024-12-12, category:Town Board Work Session">
@@ -25,6 +25,23 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/5642" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/5642/files/agenda/5480" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Town Board work session covered 47 resolutions including multiple zoning code amendments tied to the 2024 Comprehensive Plan Update, then moved into executive session on contractual and personnel matters. The Recreation Department also announced free public skating events at the Coram/Connetquot rink for the holiday season.</p>
+      <h3>Key actions</h3>
+      <ul><li>The board reviewed resolutions 18 through 35, which adopt local laws amending Chapter 301 of the town code on zoning and land development across multiple articles and districts, all pursuant to the 2024 Comprehensive Plan Update.</li><li>A public hearing on a special permit application for Sandy Pond Clubhouse was scheduled for January 7 at 2 p.m.</li><li>A public hearing on a site plan amendment for Island Water Park at 5835 Middle Country Road, Calverton (Tax Map 600-135-1-7.34) was scheduled for January 22 at 6 p.m.</li><li>The board reviewed a resolution amending Chapter 293 covering waterways and water-related activities.</li><li>The board moved into executive session to discuss contractual matters involving the Lighthouse Theater, a racetrack on Knot Street, BITMA, and CVE, plus personnel matters.</li></ul>
+      <h3>Money</h3>
+      <ul><li>An anonymous donation of approximately $9,000 in radios was accepted for the Fire Marshal&#x27;s office.</li><li>Resolutions included a Water District budget amendment, a Water District budget transfer, an amendment to the Water District&#x27;s schedule of rates and charges affecting high-consumption users, an increase in yard waste fees, and two additional Water District capital project budget amendments.</li></ul>
+      <h3>Affects residents</h3>
+      <ul><li>Free public skating for all Riverhead residents is scheduled for December 27 from 11:30 a.m. to 1:30 p.m. at the Coram hockey rink, including free skate rentals; residents must register at riverheadrecreation.net.</li><li>Free senior ice skating socials (ages 55 and older) are scheduled for January 28 and February 25 from 1:15 to 3:15 p.m., also with free admission and skate rentals.</li><li>The trail at Veterans Memorial Park will be closed in January for shotgun deer hunting season.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/f7beb991-f5b6-4a0a-93a5-1e5c34886b0f.mp4" type="video/mp4">
@@ -577,6 +594,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

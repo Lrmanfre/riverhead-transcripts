@@ -3996,5 +3996,42 @@
       "end": 2667.06,
       "text": ""
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T01:42:22+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Planning Board closed a public hearing on a residential subdivision near Rolling Woods, approved several site plans and resolutions, and advanced two new applications to public hearing.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "The board voted to close a public hearing on a minor subdivision creating four residential lots near Linda Lane West and Rolling Woods, with the applicant agreeing to a 30-foot buffer along the lot bordering existing neighborhood properties.",
+          "The board approved a resolution for the Lally Ossard minor subdivision.",
+          "The board approved site plan approval for Kershaw Recycling of Riverhead, with the board noting a minor amendment to stormwater language reviewed by the town attorney.",
+          "The board granted administrative approval for Lucero's Restaurant.",
+          "The board assumed lead agency and issued a negative declaration, then scheduled a public hearing, for the Northville Acres two-lot minor subdivision at 821 Northville Turnpike.",
+          "The board granted preliminary site plan approval for an automotive dealership at 1309 OCR.",
+          "The board scheduled a public hearing for a site plan application by Terra Vita Winery to convert an existing vacant single-family residence into additional tasting room and retail wine sales space at 250 Metter Lane."
+        ]
+      },
+      {
+        "heading": "Public hearings & comment",
+        "items": [
+          "Several residents of Rolling Woods and Linda Lane West spoke at the subdivision hearing, requesting tree preservation and buffers to protect neighborhood character and wildlife.",
+          "A resident asked about the distance from South Drive to the nearest proposed lot and whether South Drive would ever be extended; staff confirmed no road or residential development is planned on the agricultural lot.",
+          "Staff clarified that the subdivision reorganizes two existing tax parcels created when development rights were sold to Suffolk County, resulting in four new residential lots and one preserved agricultural lot."
+        ]
+      },
+      {
+        "heading": "Discussed",
+        "items": [
+          "The Northville Acres application was revised from a three-lot to a two-lot subdivision after the Conservation Advisory Council objected to development intensity near wetlands associated with Sawmill Creek.",
+          "The Terra Vita Winery conversion was classified as a Type 2 SEQRA action; staff noted requirements including an RPZ from the water district, Health Department approval, and ADA accessibility."
+        ]
+      }
+    ]
+  }
 }

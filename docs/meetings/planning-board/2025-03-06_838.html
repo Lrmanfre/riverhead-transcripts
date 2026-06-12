@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2025-03-06, category:Planning Board">
@@ -25,6 +25,23 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/838" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/838/files/agenda/701" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Riverhead Planning Board closed two public hearings, advanced several site plan and subdivision applications, and continued discussion on a contested major subdivision proposal for a property in Aquebogue.</p>
+      <h3>Key actions</h3>
+      <ul><li>The board voted to close the public hearing on an application at 1107 Old Country Road concerning a proposed addition to a recently renovated commercial building.</li><li>The board voted to close the public hearing on a two-lot minor subdivision application by Lism Associates LLC, which seeks to split a roughly 111-acre vacant parcel at the northeast corner of Middle Country Road and Fresh Pond Avenue in Calverton into a 14.5-acre RLC-zoned lot and a 96.8-acre agricultural protection zone lot.</li><li>Resolution 2025-017 approving a workforce housing sketch plan for RH Hamptons LLC (a six-lot configuration on a parcel between Maple and Union Avenue) was approved.</li><li>Resolution 2025-018 concerning Atrium Cafe was approved.</li><li>Resolution 2025-019 classified the Cox Place of Worship site plan application as an unlisted action under SEQRA, and Resolution 2025-020 scheduled a public hearing on that application for April 3 at 6 p.m. at Town Hall.</li><li>Resolution 2025-021 granting administrative approval to the Bargain Molding site plan at 1133 Old Country Road passed 4-1, with amendments requiring Suffolk County Department of Health Services wastewater approval and a dark-sky-compliant lighting plan before a building permit is issued.</li></ul>
+      <h3>Public hearings &amp; comment</h3>
+      <ul><li>A civic association representative stated that grants have been secured to potentially acquire the entire Lism Associates parcel and noted that a charter school has a contract to purchase the smaller front lot, which the board acknowledged was not yet before it officially.</li><li>Several neighbors of the Summer Wind Farm subdivision site in Aquebogue spoke in favor of refining Sketch Plan 3A over returning to earlier alternatives, citing open space preservation and traffic concerns.</li></ul>
+      <h3>Discussed</h3>
+      <ul><li>The board reviewed revised Sketch Plan 3A for the Summer Wind Farm major subdivision at 200 Conakry Boulevard, a 19-lot yield plan property; board members raised unresolved concerns about safety of the proposed southern driveway access onto Peconic Bay Boulevard and stormwater drainage, and the town&#x27;s consulting engineer has not yet responded to the applicant&#x27;s updated sight-line analysis.</li><li>The board reviewed a preliminary site plan for a roughly 1,500-square-foot office building proposed by Gouda LLC at 365 Harrison Avenue; the project requires ZBA variances for setbacks and a minor FAR adjustment, and will be referred to the Architectural Review Board on March 26.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/b59838b3-a502-4bd1-95f1-e5540892456e.mp4" type="video/mp4">
@@ -1424,6 +1441,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

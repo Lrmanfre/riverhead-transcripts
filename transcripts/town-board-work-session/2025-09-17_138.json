@@ -4786,5 +4786,33 @@
       "end": 2766.56,
       "text": "Thank you."
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T02:29:00+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Riverhead Town Board work session covered proposed zoning changes to allow golf cottages tied to the TDR program, reviewed August police and code enforcement reports, heard a justice court update, and received the monthly town clerk report.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "The board agreed to direct staff to revise a proposed code amendment allowing golf cottages as accessory uses to golf courses, raising the maximum unit size from 600 to 1,200 square feet and removing the one-bedroom restriction, with a public hearing to be scheduled after the revised language is circulated.",
+          "Each golf cottage would require redemption of one preservation credit under the Transfer of Development Rights program, with the two eligible golf courses currently being those located in the RA80 zoning district.",
+          "The town clerk indicated he will take over management of the invocation calendar following the departure of a staff coordinator.",
+          "Staff are exploring whether the requirement for notarized signatures on building permit applications can be replaced with a photo ID verification process."
+        ]
+      },
+      {
+        "heading": "Discussed",
+        "items": [
+          "The senior planner noted that extending the golf cottage program to courses in other zoning districts, such as the APZ or RB80, would require a Generic Environmental Impact Statement before those districts could become TDR receiving districts.",
+          "The August 2025 police report showed criminal incidents down roughly 25 percent year-over-year, no fatal or non-fatal overdoses, and no downtown violent crime, while domestic incidents and DUI arrests increased.",
+          "The code enforcement report for August noted 88 new complaints opened, 73 rental inspections completed, 91 rental permits issued, and year-to-date rental permit revenue of approximately $236,400.",
+          "The town attorney reported ongoing Supreme Court proceedings the following day seeking civil contempt findings and daily fines against a property owner in violation of prior court orders regarding an illegal group home."
+        ]
+      }
+    ]
+  }
 }

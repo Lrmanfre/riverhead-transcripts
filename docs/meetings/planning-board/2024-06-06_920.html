@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2024-06-06, category:Planning Board">
@@ -25,6 +25,21 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/920" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/920/files/agenda/783" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Riverhead Planning Board held one public hearing, closed it, and approved three resolutions covering a minor subdivision, a retail facade renovation, and a mixed-use site plan amendment. The board also discussed a Home Depot outdoor storage application and a proposal to make downtown streets one-way.</p>
+      <h3>Key actions</h3>
+      <ul><li>The board closed the public hearing for the Vincent Franconini two-lot minor subdivision at 196 South Jamesport Avenue, which proposes splitting a 57,150-square-foot parcel into two lots sharing a driveway off South Jamesport Avenue.</li><li>The board approved a resolution classifying the Susan McCarthy minor subdivision at 934 Soundshore Road, Jamesport as an unlisted action and issuing a negative declaration so the applicant can seek Zoning Board of Appeals relief.</li><li>The board approved a resolution classifying the 836 East Main Street mixed-use site plan amendment as an unlisted action; the amendment adds a half-basement with roughly 2,000 square feet of accessory storage and converts a ground-floor exercise studio to retail.</li><li>The board approved the TJ Maxx facade renovation at 1751–1791 Old Country Road administratively, subject to Architectural Review Board approval of revised colors.</li></ul>
+      <h3>Discussed</h3>
+      <ul><li>Staff presented the Home Depot outdoor storage application at 1550 Old Country Road, flagging unresolved issues including site-wide Dark Skies lighting compliance, cross-access easement with the adjacent Hobby Lobby parcel, fire marshal concerns about storage against the building, and landscaping deficiencies; no resolution was acted on.</li><li>The board agreed to draft a letter to the Town Board recommending the traffic safety committee review a proposal to reconfigure Second and Third Streets near downtown for one-way traffic and additional on-street parking.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/56201043-f813-4a51-8bfe-04785f3a9e12.mp4" type="video/mp4">
@@ -1295,6 +1310,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

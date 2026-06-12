@@ -7986,5 +7986,40 @@
       "end": 4695.7,
       "text": "Thank you, everybody, and have a great weekend."
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T02:10:15+00:00",
+    "agenda_grounded": false,
+    "tldr": "The July 18 work session covered monthly reports from the Police Department, Code Enforcement, Justice Court, and Town Clerk, then introduced a new citizen-staff committee formed to plan future development of the EPCAL property, and concluded with updates from the downtown BID and East End Arts.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "The board entered executive session at the close of the meeting to discuss a personnel matter involving a change in employee status.",
+          "A new volunteer advisory body called the Citizens' Cooperative Development Team (CCDT) was publicly introduced; it is chaired by the Town Supervisor and is tasked with planning and community engagement for the EPCAL property ahead of resolution of pending litigation.",
+          "A public Gmail address—revisionepcal@gmail.com—was announced for residents to submit comments, questions, or suggestions about EPCAL redevelopment.",
+          "The Police Department reported receiving $1.47 million in state funding for body cameras, which is now held in a town account pending vendor meetings and a PBA contract on usage."
+        ]
+      },
+      {
+        "heading": "Money",
+        "items": [
+          "Code Enforcement collected $32,000 in fees and $13,600 in rental fees for June, bringing the year-to-date rental fee total to approximately $151,550.",
+          "The Town Clerk's office collected approximately $10,523 in fees last month, of which roughly $9,199 was the town's local share."
+        ]
+      },
+      {
+        "heading": "Discussed",
+        "items": [
+          "The Police Department noted a transition from the UCR to the NIBRS crime-reporting system, which may affect how criminal incident totals are counted; June was the department's first NIBRS submission to the state with an error rate under 2%.",
+          "A board member asked Justice Court staff to begin tracking and reporting how mandatory surcharge revenues are distributed among designated funds, such as water quality and recreation.",
+          "East End Arts introduced its new executive director and announced a summer fundraising event on August 3rd; the organization also noted ongoing plans tied to the Town Square redevelopment.",
+          "The downtown BID reported that the July 5th Alive on 25 event was successful and announced a laser light show planned for the August 9th edition."
+        ]
+      }
+    ]
+  }
 }

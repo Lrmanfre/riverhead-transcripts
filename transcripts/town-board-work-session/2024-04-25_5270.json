@@ -8541,5 +8541,44 @@
       "end": 4774.44,
       "text": "Thank you."
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T02:04:05+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Town Board work session covered the release of the final draft comprehensive plan and draft Generic Environmental Impact Statement for public review, plus updates on water conservation, a new veteran tree-planting program, ice rink improvements, and various committee reports.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "The board accepted the final draft comprehensive plan and draft Generic Environmental Impact Statement (GEIS) to begin the public review period.",
+          "A joint public hearing on the comprehensive plan and the GEIS is scheduled for May 20th, with written comments accepted for at least 10 days after.",
+          "Both documents will be posted online and the public comment period on the GEIS will run 39 days.",
+          "A veteran cherry blossom tree program for Veterans Memorial Park in Calverton is being proposed, with resolutions planned for the next town board meeting; trees cost $675 each (tree, granite marker, and installation) and are funded entirely by donations.",
+          "Peconic Hockey is seeking building permits for sidewalks, a concrete pad, an expanded Zamboni garage, and outdoor locker rooms at the ice rink, all funded through private donations at no cost to the town."
+        ]
+      },
+      {
+        "heading": "Discussed",
+        "items": [
+          "The Riverhead Water District superintendent presented water conservation tips for irrigation systems and outlined the district's tiered water rate structure, which charges higher rates above 90,000 gallons per quarter for standard residential accounts.",
+          "Board members discussed the three-year waiting period before a homeowner can add an accessory dwelling unit and expressed interest in changing that code.",
+          "Staff noted efforts to update town fines across multiple departments, with fire marshal fee revisions already showing increased revenue.",
+          "Tax Grievance Day is May 21st at Town Hall from 10 a.m. to noon and 6 p.m. to 8 p.m.",
+          "A household hazardous waste STOP collection event is scheduled for Saturday, May 4th at the town highway grounds on Osborne Avenue."
+        ]
+      },
+      {
+        "heading": "Affects residents",
+        "items": [
+          "Residents can purchase a veteran cherry blossom tree for $675 to honor any veteran or active-service member; checks will be payable to the Town of Riverhead once the program is formally established.",
+          "Residents wanting to grieve their property tax assessment must appear at Town Hall on May 21st between 10 a.m. and noon or 6 p.m. and 8 p.m.",
+          "An anti-litter spring cleanup is scheduled for this Sunday at 9 a.m. at Town Hall.",
+          "Beach stickers are available at the new Town Hall, and beach rules including a bathing suit requirement are being highlighted for the season."
+        ]
+      }
+    ]
+  }
 }

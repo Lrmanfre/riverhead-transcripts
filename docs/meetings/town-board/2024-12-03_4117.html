@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2024-12-03, category:Town Board">
@@ -25,6 +25,23 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/4117" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/4117/files/agenda/3955" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The board approved a resolution exempting a proposed 214-foot communications tower at the Wading River Fire District from local zoning requirements, drawing substantial public opposition from nearby homeowners and an attorney representing 26 households. The board also swore in five new Riverhead police officers and passed a series of routine personnel and budget resolutions.</p>
+      <h3>Key actions</h3>
+      <ul><li>Five new police officers were appointed and sworn in; two will attend the police academy beginning December 9.</li><li>The board unanimously approved a resolution finding, under a Monroe balancing test, that a proposed 214-foot communications tower at the Wading River Fire District on North Country Road is exempt from town zoning and land-use regulations, including variances, special permit, and site plan approval.</li><li>The board adopted a resolution classifying development of the Town Square and related projects as a Type 1 action under SEQRA and directed that a lead-agency request be circulated to involved agencies.</li><li>A public hearing was opened on establishing a sewer rent rate for out-of-district connections; the rate for 2024 was stated as $10.046 per thousand gallons with a multiplier of 1.75, and the hearing was left open for written comment through approximately December 13.</li><li>Brian Mills was reappointed to the Board of Assessment Review.</li><li>The board authorized bidding for a sewer design contract for 203–213 East Main Street and for grinding of yard waste at the Southside Young&#x27;s Avenue facility.</li><li>Local laws amending town code chapters on penalties and offenses were adopted.</li></ul>
+      <h3>Public hearings &amp; comment</h3>
+      <ul><li>An attorney representing approximately 26 Wading River homeowners argued the cell tower application lacks probative coverage data, that photo simulations omit views from nearby homes, and that the project should go through the planning board and ZBA rather than a zoning exemption.</li><li>Several Wading River residents near the proposed tower cited concerns about property value loss, falling ice, fire risk, a blinking red obstruction light, and inadequate SEQRA review.</li><li>Supporters, including a board member who is a Wading River volunteer firefighter and a long-time resident, argued the tower is needed to address radio dead zones that endanger first responders and residents.</li><li>A commenter questioned whether the SEQRA environmental assessment form was made available to the public before the negative declaration vote.</li></ul>
+      <h3>Affects residents</h3>
+      <ul><li>Residents near 1503 North Country Road in Wading River will be directly affected by the approved communications tower exemption.</li><li>A box in the town hall lobby is collecting toiletries, clothing, and personal-care items for veterans through the holidays, Monday–Friday 8:30 a.m.–4:30 p.m.</li><li>The downtown holiday parade, Santa arrival by boat, and tree lighting are scheduled for Saturday; a pet-photos-with-Santa event at the town animal shelter is set for December 14, and the Jamesport civic tree lighting is December 5 at 6 p.m.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/86d32087-e1ca-40e3-b96e-56b1b2cc50a7.mp4" type="video/mp4">
@@ -1883,6 +1900,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

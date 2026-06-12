@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2025-12-02, category:Town Board">
@@ -25,6 +25,25 @@
     <div class="meta-row">48 min &nbsp;·&nbsp; <a href="https://riverheadny.portal.civicclerk.com/event/11" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/11/files/agenda/5876" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Riverhead Town Board met on December 2, 2025, adopting roughly two dozen resolutions covering personnel, budgets, grants, hunting permits, and special events, and held three public hearings on a CDBG budget modification, fire prevention code updates, and a new four-way stop sign.</p>
+      <h3>Key actions</h3>
+      <ul><li>The board adopted a resolution authorizing removal of fixed assets.</li><li>The board ratified a sewer district budget transfer and amended the no-net-nitrogen fund rate for the Riverhead and Calverton Sewer Districts.</li><li>The board reappointed a temporary office assistant to the tax receiver&#x27;s office and ratified the appointment of a call-in recreation aide.</li><li>The board accepted the retirement of a long-serving highway department employee and accepted the resignation of an automotive equipment operator.</li><li>The board authorized shotgun deer hunting at Enterprise Park at Calverton from January 4 through January 31, 2026.</li><li>The board authorized an extension of time to remit real property taxes for qualified senior citizens receiving exemptions.</li><li>The board approved special event applications for two Duck Pond Gathering events in May and October 2026.</li><li>The board authorized submission of a grant application for 2026 Community Development Block Grant funding and accepted a donation for the PAL soccer program from a local beverage business.</li></ul>
+      <h3>Public hearings &amp; comment</h3>
+      <ul><li>A public hearing was held on a proposed CDBG 2024–2025 budget modification that would redirect funds toward the Jazz Loft project; the hearing was closed and written comment accepted through December 12.</li><li>A public hearing was held on an amendment to the town fire prevention chapter to incorporate National Fire Protection Association codes, allowing the fire marshal&#x27;s office to apply updated standards more quickly; written comment accepted through December 12.</li><li>A public hearing was held on adding stop signs on both sides of Timber Drive at its intersection with Old Stone Road, creating a four-way stop; the change was recommended by the Traffic Safety Committee following input from residents and the school district&#x27;s transportation division, and written comment is accepted through December 12.</li></ul>
+      <h3>Discussed</h3>
+      <ul><li>A resident raised an ongoing complaint about alleged misconduct by highway department employees and stated she intends to file a formal FOIL request with the town clerk.</li><li>The board presented a proclamation honoring the First Baptist Church of Riverhead on its 100th anniversary.</li></ul>
+      <h3>Affects residents</h3>
+      <ul><li>The intersection of Old Stone Road and Timber Drive will become a four-way stop once the approved amendment takes effect.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/f304594c2a.mp4" type="video/mp4">
@@ -1047,6 +1066,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

@@ -6906,5 +6906,24 @@
       "end": 4175.52,
       "text": "Thank you."
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T03:23:53+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Zoning Board of Appeals granted a variance for a detached garage near the coastal erosion hazard line while denying a second accessory structure (writer's studio) on one property, approved setback variances for a residential addition at 25 Nautical Drive, and adjourned a complex off-site parking variance application for 505 Lincoln Street to October 23 for further review.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "The board granted a variance for a detached garage seaward of the mapped coastal erosion hazard line, finding no reasonable alternative location, but denied relief for a proposed second accessory structure described as a writer's studio along with associated driveway, sanitary, retaining wall, and vegetation disturbance improvements.",
+          "The board approved setback variances for the property at 25 Nautical Drive (Appeal 2025-029), allowing a rear yard setback of 29 feet where 60 feet is required and a front yard setback of 16 feet where 50 feet is required, subject to submission of a final survey.",
+          "The board adjourned Appeal 2025-028 — a request by 505 Lincoln Street Opportunity Zone Fund LLC for off-site parking roughly 370 feet from the subject property, using spaces in Polish Hall's southerly lot — to October 23, 2025, citing legal complexity including questions about whether the application requires a use variance rather than an area variance, the lack of a letter of pre-existing use for Polish Hall, and a disputed post-closing parking agreement involving an adjacent property owner.",
+          "Meeting minutes from August 28, 2025 were approved, and the next scheduled meeting was noted as September 25, 2025."
+        ]
+      }
+    ]
+  }
 }

@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2025-12-04, category:Planning Board">
@@ -25,6 +25,21 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/41" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/41/files/agenda/5890" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Riverhead Planning Board held a short December 4 meeting, closing one public hearing and advancing a minor subdivision discussion.</p>
+      <h3>Public hearings &amp; comment</h3>
+      <ul><li>The board opened and closed a public hearing on a site plan application to build a 3,000-square-foot two-tenant retail commercial building with 12 parking stalls at 305 West Main Street on a roughly 19,780-square-foot parcel in the Peconic River Community zoning district; the applicant had previously received area variance relief from the Zoning Board of Appeals in October 2025.</li></ul>
+      <h3>Discussed</h3>
+      <ul><li>The board reviewed a proposed three-lot minor subdivision of a roughly 25-acre parcel on Holtz Landing Road in Wading River where development rights on the large middle lot were sold to the county in 2009, and staff noted the subdivision would memorialize an existing arrangement; a board member flagged that the existing greenhouses on lot one may require a variance for lot coverage and setback.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/7a4f1913-8f7c-4179-8092-116bee72c56c.mp4" type="video/mp4">
@@ -264,6 +279,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

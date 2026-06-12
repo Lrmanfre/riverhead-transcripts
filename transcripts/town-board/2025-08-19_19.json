@@ -23841,5 +23841,40 @@
       "end": 13730.7,
       "text": "Okay."
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T04:26:42+00:00",
+    "agenda_grounded": false,
+    "chunked": true,
+    "tldr": "The Town Board held eight public hearings—the largest covering a proposed one-year cannabis moratorium and a Suffolk County Water Authority pipeline through Riverhead—and passed roughly fifteen resolutions covering road resurfacing grants, donations, and administrative matters. All public hearings were closed but remain open for written comment until August 29.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "A Master Developer Agreement was signed with a developer for downtown Town Square construction, with nearly $50 million in grants reported secured through the Community Development Agency.",
+          "The board closed a public hearing on a proposed one-year moratorium on new cannabis retail and on-site consumption establishments; written comments accepted through August 29.",
+          "The board closed a public hearing on a Monroe Balancing Test concerning the Suffolk County Water Authority's proposed 8.5-mile, 24-inch water transmission line running from Flanders through Riverhead to Southold; written comments accepted through August 29.",
+          "The board's environmental consultant recommended the town deny governmental immunity to SCWA and require full site plan review, wetlands permits, highway permits, and neighbor notification for the pipeline project.",
+          "A public hearing on a drive-through restaurant queuing requirement (minimum 10-car stacking capacity) was closed, open for written comment.",
+          "Public hearings on 35-foot landscape buffer requirements for Business Center and Shopping Center zones were closed, open for written comment through August 29.",
+          "A public hearing raising the overweight vehicle fine from up to $100 to $500 was closed, open for written comment through August 29.",
+          "A public hearing updating the noise ordinance—replacing 'ten minutes in any hour' for standing motor vehicles with ten consecutive minutes and adding a 300-foot/residential boundary standard—was closed, open for written comment through August 29.",
+          "Resolutions 707–710 established grant budgets for EWR, CHIPS, Pave New York, and PAUPP 2025–2026 road resurfacing programs, all adopted 5-0.",
+          "Resolution 703, ratifying acceptance of a donation reported at over $2.8 million from the Pekanakake Foundation for a town project, was adopted 5-0."
+        ]
+      },
+      {
+        "heading": "Public hearings & comment",
+        "items": [
+          "Supporters of the cannabis moratorium cited public safety, state regulatory failures, and an allegation that a vendor at a local dispensary distributed cannabis gummies to the public in July 2025.",
+          "Opponents of the cannabis moratorium—including licensed dispensary operators, a cannabis trade group, and two attorneys—argued the moratorium could violate state Cannabis Law and sought exemptions for applicants who had already filed notice with the municipality.",
+          "Residents of the Riverhead Reefs subdivision urged the board to call the remaining $843,000–$844,000 performance bond to cover unresolved road and construction deficiencies dating to 2017; board members noted the bond amount may be insufficient and said they would consult with the HOA's attorney.",
+          "A resident raised a discrepancy between capital improvement figures for a town ice rink obtained through a FOIL request and figures accepted at the meeting, and stated she would seek backup documents."
+        ]
+      }
+    ]
+  }
 }

@@ -3696,5 +3696,27 @@
       "end": 2519.28,
       "text": "Thank you."
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T03:17:46+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Riverhead Zoning Board of Appeals met on September 12, 2024, approving variances or extensions for five properties and adjourning minutes from the prior meeting.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "An extension request for Appeal 2021-004 at 40 Manor Lane, Jamesport (minor subdivision) was granted, setting a final expiration date of February 25, 2025, with no further extensions allowed.",
+          "Variances for a proposed two-lot minor subdivision at 934 Soundshore Road, Jamesport (Susan McCarthy) were approved, with conditions including removal of a shed on the vacant parcel, combined minimum side yards of 25 feet with no less than 10 feet per side, and required Planning Board and Suffolk County Health Department approval.",
+          "Variances for a proposed two-lot minor subdivision at 230 West Main Street, Riverhead (Riverhead Property LLC) were approved, allowing each lot a front width of 45.11 feet where 50 feet is required; the board recommended the Planning Board consider a shared driveway and right-turn-only exit for traffic safety.",
+          "A variance to legalize a relocated accessory shed at 189 Ackerley Street, Riverhead (Gabrielle Sharbot Watts) was approved, requiring submission of a final survey confirming the shed's new location.",
+          "Variances for a proposed covered wraparound porch at 53 South Jamesport Avenue, Jamesport (James Goodman) were approved, permitting a side-yard-abutting-street setback of 15.84 feet and impervious surface coverage of approximately 30.61 percent.",
+          "Variances for a proposed detached garage at 61 Arrowhead Avenue, Riverhead (Thomas Daly) were approved, allowing a 6-foot accessory side yard setback and a 7.85-foot setback to the dwelling.",
+          "Minutes from the August 8, 2024 meeting were approved, and the board adjourned to September 26, 2024."
+        ]
+      }
+    ]
+  }
 }

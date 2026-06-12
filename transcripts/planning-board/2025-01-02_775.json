@@ -1686,5 +1686,28 @@
       "end": 799.94,
       "text": "Thank you."
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T01:46:58+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Riverhead Planning Board held its January 2, 2025 meeting, closing a public hearing on a minor subdivision in Calverton and granting conditional approval to a five-lot subdivision on Union/Maple Avenue.",
+    "sections": [
+      {
+        "heading": "Public hearings & comment",
+        "items": [
+          "The board closed the public hearing for the Prisco's Calverton Acres application, which seeks to split a 2.06-acre parcel at 3674 Middle Country Road into two lots; the Zoning Board previously granted three variances for lot width and impervious surface coverage."
+        ]
+      },
+      {
+        "heading": "Key actions",
+        "items": [
+          "The board approved Resolution 25-001, granting conditional approval of the RH Hamptons LLC five-lot subdivision between Maple and Union Avenues, as amended to include highway department requirements for curbing and sidewalks.",
+          "The board approved the November 7th meeting minutes with a corrected title page."
+        ]
+      }
+    ]
+  }
 }

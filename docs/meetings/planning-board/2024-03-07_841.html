@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2024-03-07, category:Planning Board">
@@ -25,6 +25,23 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/841" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/841/files/agenda/704" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Planning Board closed a public hearing on a residential subdivision near Rolling Woods, approved several site plans and resolutions, and advanced two new applications to public hearing.</p>
+      <h3>Key actions</h3>
+      <ul><li>The board voted to close a public hearing on a minor subdivision creating four residential lots near Linda Lane West and Rolling Woods, with the applicant agreeing to a 30-foot buffer along the lot bordering existing neighborhood properties.</li><li>The board approved a resolution for the Lally Ossard minor subdivision.</li><li>The board approved site plan approval for Kershaw Recycling of Riverhead, with the board noting a minor amendment to stormwater language reviewed by the town attorney.</li><li>The board granted administrative approval for Lucero&#x27;s Restaurant.</li><li>The board assumed lead agency and issued a negative declaration, then scheduled a public hearing, for the Northville Acres two-lot minor subdivision at 821 Northville Turnpike.</li><li>The board granted preliminary site plan approval for an automotive dealership at 1309 OCR.</li><li>The board scheduled a public hearing for a site plan application by Terra Vita Winery to convert an existing vacant single-family residence into additional tasting room and retail wine sales space at 250 Metter Lane.</li></ul>
+      <h3>Public hearings &amp; comment</h3>
+      <ul><li>Several residents of Rolling Woods and Linda Lane West spoke at the subdivision hearing, requesting tree preservation and buffers to protect neighborhood character and wildlife.</li><li>A resident asked about the distance from South Drive to the nearest proposed lot and whether South Drive would ever be extended; staff confirmed no road or residential development is planned on the agricultural lot.</li><li>Staff clarified that the subdivision reorganizes two existing tax parcels created when development rights were sold to Suffolk County, resulting in four new residential lots and one preserved agricultural lot.</li></ul>
+      <h3>Discussed</h3>
+      <ul><li>The Northville Acres application was revised from a three-lot to a two-lot subdivision after the Conservation Advisory Council objected to development intensity near wetlands associated with Sawmill Creek.</li><li>The Terra Vita Winery conversion was classified as a Type 2 SEQRA action; staff noted requirements including an RPZ from the water district, Health Department approval, and ADA accessibility.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/a17c683b-9ab4-4bce-9563-0927bfd42764.mp4" type="video/mp4">
@@ -592,6 +609,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

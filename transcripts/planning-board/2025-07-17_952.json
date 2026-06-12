@@ -6621,5 +6621,43 @@
       "end": 3556.58,
       "text": "[transcription gap]"
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T01:51:45+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Riverhead Planning Board held its July 17 meeting, advancing several subdivision and site plan applications to public hearings or preliminary approval, and passing nine resolutions.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "The board granted preliminary site plan approval for Sandy Pond's proposed clubhouse, three trade shop buildings, and a manager's residence (Resolution 71), with conditions including relocation of a drainage easement and submission of draft covenants before final approval.",
+          "The board accepted a revised Draft Environmental Impact Statement for the TJOC Calverton major subdivision/site plan and scheduled a combined public hearing for the first September meeting (Resolutions 72 and 73).",
+          "The board approved an amended fencing layout around the recharge basin for the Seacrest Estates major subdivision (Resolution 74).",
+          "An additional resolution related to Seacrest Estates (formerly Villas at Roanoke) approving an amendment to a 2019 approval was passed (Resolution 75).",
+          "The board classified the 2 Bluffs Drive three-lot minor subdivision as a Type 2 SEQRA action and scheduled a public hearing for August 21 (Resolution 76).",
+          "The board granted administrative site plan approval for Polish Hall parking lot improvements at 214 Marcy Avenue, including drainage, striping, and a consolidated Sweezy Avenue curb cut, with a condition added requiring dark-sky-compliant lighting (Resolution 77).",
+          "The board classified the Peconic Farms LLC four-lot minor subdivision on Peconic Bay Boulevard, Jamesport, as a Type 2 SEQRA action and scheduled a public hearing for August 7 (Resolution 78).",
+          "The board retained a traffic consultant for the Summerwind Farms LLC major subdivision traffic engineering assessment (Resolution 79)."
+        ]
+      },
+      {
+        "heading": "Public hearings & comment",
+        "items": [
+          "A public hearing on 2 Bluffs Drive minor subdivision (three lots from a 3.5-acre vacant parcel served by an existing cul-de-sac) was scheduled for August 21; outstanding questions include the purpose of a proposed right-of-way and the nature of large tanks observed on the property.",
+          "A public hearing on the Peconic Farms LLC four-lot minor subdivision was scheduled for August 7; staff recommended the lots be restricted from further subdivision.",
+          "A combined public hearing on the TJOC DEIS, site plan, and subdivision was scheduled for September 4, with a minimum 30-day public comment period on the draft EIS."
+        ]
+      },
+      {
+        "heading": "Discussed",
+        "items": [
+          "For the 2 Bluffs Drive subdivision, staff noted outstanding items including stormwater details for the common driveway, an erosion and sediment control plan, Health Department comments, a fire marshal request for a possible additional hydrant, and unidentified large tanks visible in aerial photos.",
+          "The Polish Hall parking lot improvement is linked to a separate application at 505 Lincoln Street, which would use a portion of the lot under a shared parking agreement still requiring Zoning Board of Appeals approval."
+        ]
+      }
+    ]
+  }
 }

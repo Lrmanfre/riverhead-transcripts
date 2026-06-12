@@ -1816,5 +1816,23 @@
       "end": 1061.74,
       "text": "usual"
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T01:47:24+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Planning Board met on February 20, 2025, discussed two projects, and passed several resolutions including classifying a fueling station canopy project and recommending a performance bond reduction for a subdivision.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "The board voted to classify the Bowler Market Company canopy and site improvement application at 4129 Middle Country Road as a Type 2 SEQRA action, allowing the Zoning Board of Appeals to proceed on a required front-yard setback variance.",
+          "The board approved a resolution recommending a performance bond reduction for Seacrest Estates (formerly the Hills at Roanoke) subdivision to $400,000, to be forwarded to the Town Board.",
+          "The board also passed resolutions on a Coastal Erosion Hazard Area permit and a letter of recommendation to the Town Board regarding dark-skies lighting standards."
+        ]
+      }
+    ]
+  }
 }

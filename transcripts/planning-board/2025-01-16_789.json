@@ -5526,5 +5526,32 @@
       "end": 3271.22,
       "text": "Thank you."
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T01:48:25+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Riverhead Planning Board approved six resolutions at its January 16 meeting, advancing two final subdivision plats, one minor subdivision, one administrative site plan, one preliminary site plan, and a performance bond reduction for an ongoing subdivision project.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "The board approved a minor subdivision for Prisco's Calverton Acres, a two-lot split in Calverton, conditioned on DOT requirements including a shared curb cut and common driveway easement being satisfied before plan signature.",
+          "The board granted administrative site plan approval to Leo K. Group for 522–526 Pulaski Street in Polish Town, legalizing fire-damage repairs, facade changes, and site alterations, with conditions including an ADA-accessible parking stall, trash enclosure, soil assessment for the stone-blend parking area, dark-sky-compliant lighting documentation, and additional landscaping.",
+          "The board granted preliminary site plan approval for a medical office building proposed by Seven Waves LLC on the last vacant parcel in the Commerce Drive subdivision, dropping a sidewalk requirement given no sidewalks exist elsewhere in that subdivision, but requiring the applicant to show a future cross-access location on plans.",
+          "The board approved the final plat for a four-lot minor industrial subdivision for Calverton Industrial Park LLC, with a condition that no site plan applications will be accepted until easement and covenant language is recorded following map filing.",
+          "The board approved the final plat for Kathy Lane LLC (formerly Northwalk Developers), a 10-lot residential subdivision off Kathy Lane, subject to a performance bond for roadway improvements, park and recreation fees of $5,000 per lot, an excavation permit fee, and recording of covenants before any building permits issue.",
+          "The board voted to recommend a reduction of the Overlook Homes subdivision performance bond from $283,000 to $214,000 based on a consulting engineer's inspection confirming significant roadway construction has been completed."
+        ]
+      },
+      {
+        "heading": "Public hearings & comment",
+        "items": [
+          "A member of the public announced that the Suffolk County Historical Society in Riverhead is developing a Grumman exhibit and is seeking artifacts, photographs, and memorabilia from former employees and their families; interested parties were directed to contact the Historical Society's executive director."
+        ]
+      }
+    ]
+  }
 }

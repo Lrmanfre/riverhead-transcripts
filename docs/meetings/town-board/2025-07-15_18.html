@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2025-07-15, category:Town Board">
@@ -25,6 +25,23 @@
     <div class="meta-row">67 min &nbsp;·&nbsp; <a href="https://riverheadny.portal.civicclerk.com/event/18" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/18/files/agenda/17" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Town Board approved a community benefit zoning public hearing for the long-pending Family Community Life Center affordable housing and community center project, and passed roughly 30 additional resolutions covering personnel, special events, infrastructure contracts, and local law changes.</p>
+      <h3>Key actions</h3>
+      <ul><li>The board scheduled a public hearing on updated community benefit district zoning intended to clear the way for the Family Community Life Center, a mixed-use affordable housing and community center project tied to the First Baptist Church of Riverhead and Georgica Green Ventures.</li><li>The board approved a license agreement with East End Arts, with officials confirming the organization will move back to its original space once work there is completed and that the town will cover moving costs in both directions.</li><li>A public hearing was scheduled regarding an unsafe structure at 40 17th Street, Wading River, under Chapter 217 of town code.</li><li>The board adopted a local law amending the town code on traffic violations bureau liability for failure to stop for school buses.</li><li>The board authorized a professional services agreement with H2M Architects and Engineers for a Class A biosolids upgrade project.</li><li>The board approved live music at Wading River Beach following a successful pilot event at South Jamesport Beach attended by over 200 residents.</li><li>A resolution for the Riverhead Police Department National Night Out barbecue at Town Square on August 5 was approved from the floor.</li><li>The board authorized a funding application to New York State for a Riverfront Amphitheater consolidated funding application.</li></ul>
+      <h3>Money</h3>
+      <ul><li>Suffolk County has secured a $1 million New York State Empire State Development grant for the Family Community Life Center project, described as the only such award granted on Long Island.</li><li>The tax receiver reported total collections of approximately $183.6 million as of July 3.</li></ul>
+      <h3>Discussed</h3>
+      <ul><li>A town attorney and code enforcement task force, together with the DEC and Suffolk County Department of Health, is monitoring both the Crown and Patriot Recycling sites on Young&#x27;s Avenue following a fire and concerns about soil, air, and water contamination.</li><li>Patriot Recycling received a cease-and-desist letter requiring it to halt operations unless actual agricultural production commences, and the town is working with the DEC on potential remediation of material on site.</li><li>Several residents urged the board to keep the upcoming Town Square public hearing open to weighing costs to East End Arts Council and the Suffolk County Historical Society against benefits of the proposed hotel development.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/e6b1b4b43e.mp4" type="video/mp4">
@@ -1233,6 +1250,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

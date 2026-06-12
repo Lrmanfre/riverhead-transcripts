@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2025-02-20, category:Planning Board">
@@ -25,6 +25,19 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/825" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/825/files/agenda/688" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Planning Board met on February 20, 2025, discussed two projects, and passed several resolutions including classifying a fueling station canopy project and recommending a performance bond reduction for a subdivision.</p>
+      <h3>Key actions</h3>
+      <ul><li>The board voted to classify the Bowler Market Company canopy and site improvement application at 4129 Middle Country Road as a Type 2 SEQRA action, allowing the Zoning Board of Appeals to proceed on a required front-yard setback variance.</li><li>The board approved a resolution recommending a performance bond reduction for Seacrest Estates (formerly the Hills at Roanoke) subdivision to $400,000, to be forwarded to the Town Board.</li><li>The board also passed resolutions on a Coastal Erosion Hazard Area permit and a letter of recommendation to the Town Board regarding dark-skies lighting standards.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/a6f46371-ffd2-48e3-a318-08656deb96f6.mp4" type="video/mp4">
@@ -410,6 +423,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

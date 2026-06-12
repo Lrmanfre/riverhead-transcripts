@@ -10061,5 +10061,43 @@
       "end": 4738.94,
       "text": "seconded vote please all in favor aye opposed nay meeting is closed"
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T04:21:42+00:00",
+    "agenda_grounded": false,
+    "chunked": false,
+    "tldr": "The Riverhead Town Board met on April 1, 2025, approving a large batch of personnel, finance, and zoning resolutions while honoring first responders who saved a cardiac arrest victim in Calverton in March.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "The board honored seven first responders and a bystander—including police officers, Wading River Fire Department personnel, and a civilian—with proclamations for reviving a cardiac arrest victim on the Calverton bike path on March 11.",
+          "The board approved a staging license agreement with 203 East Main LLC to use town-owned parking lots in connection with the Town Square construction project, with discussion about potentially redirecting construction worker parking away from busier downtown lots.",
+          "The board voted 3-2 to grant a special permit allowing Riverhead Charter School to use two student trailers and one administrative trailer at 5117 Sound Avenue, with conditions including screening, a decommissioning bond, and a prohibition on future expansion.",
+          "The board adopted several local laws amending Town Code Chapter 301 on zoning, covering signs, commercial solar energy systems, wireless communication towers, and battery energy storage systems, all pursuant to the 2024 Comprehensive Plan update.",
+          "The board authorized a public hearing on acquiring the leasehold interest at 127 East Main Street (the Long Island Science Center space) and scheduled a work session with the Science Center's board for the following Thursday.",
+          "The board approved a license agreement with the Riverhead IDA for office space at $400 per month for five years including utilities, drawing public criticism over the rate.",
+          "The board authorized two appraisal reports through Goodman Marks Associates and extended agreements with Urban Design Associates and LVF Landscape Architects in connection with ongoing downtown projects.",
+          "Seasonal recreation staff salaries were set and numerous personnel appointments were approved across the recreation, police, and wastewater departments."
+        ]
+      },
+      {
+        "heading": "Public hearings & comment",
+        "items": [
+          "A public commenter raised procedural objections to the town's conditional negative declaration for an amended Island Water Park site plan, arguing it should have been classified as a Type 1 action under SEQRA; town planning staff defended the classification.",
+          "A downtown business owner whose lease at 127 East Main Street is being acquired spoke during public comment to express concern about a lack of communication from the town throughout the process.",
+          "Multiple commenters urged the board to preserve the Long Island Science Center's presence in the town square, citing strong community support expressed online."
+        ]
+      },
+      {
+        "heading": "Affects residents",
+        "items": [
+          "Free ice skating is available at the town ice rink on April 15 from 11:30 a.m. to 1:30 p.m. for school-age children; registration with the recreation department is required."
+        ]
+      }
+    ]
+  }
 }

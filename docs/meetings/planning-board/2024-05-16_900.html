@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2024-05-16, category:Planning Board">
@@ -25,6 +25,21 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/900" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/900/files/agenda/763" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Planning Board approved two bluff retaining wall replacements on Lewin Drive, a facade improvement for a retail building on Old Country Road, and took a SEQRA action on a townhouse project. The board also discussed a vegetation buffer violation at the Sandy Pond mini golf site.</p>
+      <h3>Key actions</h3>
+      <ul><li>The board approved a Chapter 219 application for a property on Lewin Drive to replace a wooden retaining wall with a steel I-beam and wood-lagging wall along a bluff.</li><li>The board approved a similar Chapter 219 application for the Lewin Hills Property Owners Association parcel directly west, involving the same construction method and tying into the adjacent retaining wall.</li><li>The board approved an administrative site plan for facade improvements at 1125 Old Country Road, including new stucco exterior, window replacements, parking lot repaving, landscaping, and formalization of cross-access easements; approval was conditioned on a grading and drainage plan prior to any regrading.</li><li>The board assumed lead agency status and issued a negative declaration under SEQRA for a townhouse project on 2nd Street.</li></ul>
+      <h3>Discussed</h3>
+      <ul><li>Planning staff reported that the project sponsor for Sandy Pond mini golf cleared vegetation in a required 20-foot non-disturbance buffer without following the agreed review process; a substantial replacement landscaping plan was submitted and staff intends to bring a formal approval resolution to the first June meeting.</li><li>Staff said future site plan applications involving existing vegetation will be pressed for detailed tree inventories within non-disturbance buffers to establish a baseline record.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/3258dd60-a01a-4903-a269-bbfeddb323a1.mp4" type="video/mp4">
@@ -691,6 +706,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

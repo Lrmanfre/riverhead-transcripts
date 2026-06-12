@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2026-01-21, category:Town Board">
@@ -25,6 +25,21 @@
     <div class="meta-row">162 min &nbsp;·&nbsp; <a href="https://riverheadny.portal.civicclerk.com/event/6447" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/6447/files/agenda/5900" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The board held two public hearings on proposed code changes that would allow golf cottages as an accessory use on standard golf courses and link them to the Transfer of Development Rights program; both hearings drew substantial public opposition focused on unit size, attached structures, and lack of specificity, and were left open for written comment until February 2. The board also voted on roughly 40 resolutions covering fees, contracts, appointments, and infrastructure projects.</p>
+      <h3>Public hearings &amp; comment</h3>
+      <ul><li>Two public hearings were opened on proposed code amendments that would define golf cottages as an accessory use on standard 18-hole golf courses of at least 125 acres and link each cottage to one Transfer of Development Rights credit.</li><li>The proposed definition allows cottages up to 1,200 square feet and permits attached structures with shared walls; multiple speakers urged the board to revert to the 600-square-foot size recommended in the 2024 Comprehensive Plan and to require freestanding units only.</li><li>Several residents and civic representatives argued that permitting attached units of up to 1,200 square feet each could effectively allow construction of a hotel or motel rather than a cottage-scale lodging use.</li><li>Speakers asked the board to clarify whether a Transfer of Development Right would be required for each cottage, to set a maximum 30-day occupancy limit, and to restrict ownership and operation to the golf course owner.</li><li>A senior planner clarified that any specific proposal would still require site plan review and environmental assessment before the planning board, and that only four parcels in town currently meet the 125-acre threshold.</li><li>Both public hearings were closed to oral testimony and left open for written comment until February 2.</li></ul>
+      <h3>Key actions</h3>
+      <ul><li>The board amended the 2026 recreation fee schedule to reduce several senior resident fees from $15 to $10, then adopted the schedule as amended.</li><li>The board approved a resolution authorizing the town clerk to post notice for a public hearing on a proposed local law that would expand the property tax exemption for volunteer firefighters and volunteer ambulance workers.</li><li>Negative declarations under the state environmental review law were issued for two proposed battery energy storage systems—one on Edwards Avenue in Calverton associated with Hampton Jitney and one on Scott Avenue—and public hearing notices for both were authorized.</li><li>The board authorized the town clerk to post a bid notice for a bulkhead renovation at Meeting House Creek Road.</li><li>A resolution authorizing a grant application to New York Sea Grant for a study addressing flooding on Creek Road and Sound Road in Wading River was adopted.</li><li>The board approved the retirement of a highway department administrative employee, authorized a short-term consulting agreement with the same employee to assist with payroll during the transition, and authorized an agreement with the relevant union local to permit the arrangement.</li><li>An electrical inspector appointment and a part-time code enforcement officer ratification were approved.</li><li>A license agreement with the United States Golf Association for vehicle parking, generating $150,000, was authorized.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/034e24b569.mp4" type="video/mp4">
@@ -3123,6 +3138,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

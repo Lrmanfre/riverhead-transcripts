@@ -3036,5 +3036,32 @@
       "end": 1557.52,
       "text": "Thank you."
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T03:13:54+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Zoning Board of Appeals met on February 8, 2024, reopening three prior appeals and adjourning two new applications, with the Church of the Harvest variance request generating significant discussion about unresolved easement and survey issues.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "Appeal 2023-057 (Bapa Realty, 1352 East Main Street, Riverhead) was reopened and scheduled for a February 22nd hearing due to a change in the nature of relief sought.",
+          "Appeal 2023-052 (Megan Carrick, 118 Northside Road, Wading River) was reopened and set for a February 22nd hearing.",
+          "Appeal 2021-018 (Patrick McWard, 1501 Peconic Bay Boulevard, Laurel) was reopened and set for a February 22nd hearing.",
+          "Appeal 2024-002 (Amy Whitcup, 42 Julia's Way, Wading River) — a variance request for a proposed in-ground pool with a reduced rear yard setback — was adjourned to February 22nd due to failure to meet mailing requirements.",
+          "Appeal 2024-004 (Church of the Harvest, 572 Ringer Avenue, Riverhead) — requesting variances for a side yard setback of 4.2 feet where 20 feet is required, and pervious surface coverage of 55.4% where 15.5% is the maximum — was adjourned to March 14th."
+        ]
+      },
+      {
+        "heading": "Discussed",
+        "items": [
+          "The board raised unresolved questions about the Church of the Harvest application, including the absence of a documented easement or license agreement for the church's use of adjacent Riverhead Sewer District property for access and parking, and discrepancies between the submitted survey and prior surveys on file with the town.",
+          "The board recommended the applicant obtain legal counsel, review a draft determination to be provided by the board, and work with town counsel to formalize any easement or ingress-egress arrangement before the March 14th hearing."
+        ]
+      }
+    ]
+  }
 }

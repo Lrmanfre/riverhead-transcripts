@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2025-03-20, category:Town Board Work Session">
@@ -25,6 +25,21 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/5209" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/5209/files/agenda/5047" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Town Board held a work session covering agricultural issues, police and code enforcement reports, and routine department updates. A key discussion centered on allowing a Wading River farming family to farm a preserved open-space parcel, with the board directing staff to find a legal path forward.</p>
+      <h3>Key actions</h3>
+      <ul><li>The board directed its attorney to research how to convert an open-space easement on a Wading River property to an agricultural easement so the Kinsella family can farm the full parcel.</li><li>A local resident received a certificate of appreciation from the board for consistent volunteer participation in the town&#x27;s spring and fall litter cleanups.</li><li>The board agreed in principle to a farm tour of Riverhead farms to be organized through Farm Bureau when weather permits.</li><li>The board noted that a special permit application related to a battery storage project on Pulaski Street was received and circulated.</li><li>The board moved into executive session to discuss legal matters, potential real property sales and leases, a contractual agreement with Environmental Facilities Corp., and personnel appointments.</li></ul>
+      <h3>Discussed</h3>
+      <ul><li>Farmers and the Agricultural Advisory Committee raised concerns about barn setback requirements, restrictions on indoor growing operations, and the need for town code to reflect how agriculture is evolving toward retail, agritourism, and new crops.</li><li>The police chief reported total incidents and criminal incidents both dropped in February; officers are using trespass affidavits to allow repeat shoplifters to be charged with felony burglary when they re-enter a store.</li><li>Code enforcement reported 55 complaints, 68 summonses, 123 open cases, and $24,225 in fees collected in February, with $73,800 in total rental fee revenue year-to-date.</li><li>The town justice proposed a minor code amendment to add a violation-level offense to the fire marshal code so minor infractions such as blocked egresses do not require a misdemeanor plea.</li><li>The town clerk reported that new agenda management and FOIL software programs are in the training phase and expected to launch soon.</li><li>The board noted that longtime sewer district director Michael Reichel is retiring after 40 years, with the treated effluent now used to irrigate a county golf course cited as a highlight of his tenure.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/d909f2e6-9c1f-495c-9467-ddf53f89cf62.mp4" type="video/mp4">
@@ -1499,6 +1514,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2024-05-07, category:Town Board">
@@ -25,6 +25,21 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/2343" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/2343/files/agenda/2206" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Town Board held public hearings on a $2 million state Restore NY grant for a downtown hotel project and two unsafe-structure cases, then passed roughly 60 resolutions covering staffing, finances, contracts, and event permits.</p>
+      <h3>Public hearings &amp; comment</h3>
+      <ul><li>The board held a public hearing on applying to the NY Empire State Development Restore NY Community Initiative program for a $2 million grant to support a hotel construction and demolition project within the Town Square development; the town would serve as the grant conduit and contribute no funding, with written comments accepted through June 10.</li><li>A public hearing on a special permit for a two-family dwelling at 4592 Middle Country Road, Calverton was not opened after staff confirmed required mailings were not completed; it will be rescheduled for the next regular meeting.</li><li>A public hearing on a structure at 650 Elton Street was adjourned to the next meeting after the owner disconnected utilities and applied for a demolition permit.</li><li>A public hearing on a structure at 1092 Dolores Avenue was cancelled after the property owner removed the structure at their own expense.</li><li>A representative from the Federation of Organizations spoke during public comment to offer free Narcan training to local businesses and organizations under a state grant.</li></ul>
+      <h3>Key actions</h3>
+      <ul><li>The board approved fund balance transfers for bond anticipation note payment, a printer-plotter purchase, and town hall improvements.</li><li>The board provisionally appointed a code compliance coordinator, a senior accountant, and a Justice Court clerk (Spanish-speaking), while voting down a separate accountant appointment after the candidate withdrew.</li><li>Two members were appointed to the Anti-Bias Task Force and three members were reappointed to the Veterans Advisory Committee.</li><li>A member was appointed to the Architectural Review Board.</li><li>The board ratified the appointment of a municipal garage manager and authorized a stipend, and ratified a separate stipend for an interim garage manager.</li><li>The board authorized a SEQRA classification and lead agency coordination for the Meeting House Creek Wetlands Restoration project.</li><li>The board set fees for accelerated building department and fire prevention services.</li><li>Beach hours were set and seasonal beach and recreation department employees were appointed for 2024.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/3c0d811c-2dda-4fb8-9564-320511ad6f23.mp4" type="video/mp4">
@@ -1109,6 +1124,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

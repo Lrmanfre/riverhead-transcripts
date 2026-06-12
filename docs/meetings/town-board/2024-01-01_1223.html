@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2024-01-01, category:Town Board">
@@ -25,6 +25,21 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/1223" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/1223/files/agenda/1086" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">Riverhead held its inauguration ceremony on January 1, 2024, swearing in a new supervisor, two town councilwomen, a town justice, a town clerk, and other officials. The incoming supervisor outlined priorities including EPCAL redevelopment, downtown revitalization, a new ambulance corps headquarters, a renovated town court, and improved school and police services.</p>
+      <h3>Key actions</h3>
+      <ul><li>Tim Hubbard was sworn in as Town Supervisor, becoming the 64th supervisor of Riverhead.</li><li>Denise Merrifield was sworn in as Town Councilwoman.</li><li>Joanne Waski was sworn in as Town Councilwoman.</li><li>Lori Hulse was sworn in as Town Justice.</li><li>James Wooten was sworn in as Town Clerk.</li><li>Donna Brown was sworn in as Town Assessor, and the receiver of taxes was also noted as having been sworn in separately.</li></ul>
+      <h3>Discussed</h3>
+      <ul><li>The new supervisor announced plans to form a commission to explore redevelopment of EPCAL following cancellation of a prior sale, emphasizing smart and green growth.</li><li>The supervisor stated the town&#x27;s master plan is nearing completion and will guide development for the next 10 to 20 years.</li><li>Plans were described to build a new headquarters for the town ambulance corps, whose current facility has been outgrown.</li><li>The old town hall is to be retrofitted into a new town court complex to replace substandard current conditions.</li><li>The supervisor committed to reinstating quarterly civic roundtable meetings, holding biweekly department head meetings, and conducting more detailed work sessions.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/4fbfbd2d-2d3b-4ee2-91d6-49e72e03e983.mp4" type="video/mp4">
@@ -552,6 +567,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

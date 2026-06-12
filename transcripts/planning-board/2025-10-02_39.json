@@ -1841,5 +1841,23 @@
       "end": 1307.48,
       "text": ""
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T01:52:50+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Riverhead Planning Board approved three resolutions at its October 2 meeting: a minor subdivision, final site plan for a large industrial complex, and administrative approval for Walmart parking lot modifications.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "The board granted final site plan approval for HK Ventures at 4285 Middle Country Road, a project involving approximately 413,000 square feet of industrial buildings across eight structures, with Health Department sign-off required before building permits can be issued.",
+          "The board granted administrative approval for Walmart (1880 Old Country Road) to relocate its online pickup area from the west to the east side of the building, restripe the parking lot, add lighting, and convert the former tire center space for storage and order dispensing.",
+          "The board approved a minor subdivision resolution identified as Woodhull at Soundshore."
+        ]
+      }
+    ]
+  }
 }

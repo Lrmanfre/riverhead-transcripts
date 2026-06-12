@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2024-04-18, category:Town Board Work Session">
@@ -25,6 +25,19 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/5258" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/5258/files/agenda/5096" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Riverhead Town Board held a work session covering six open items: dumpster corral problems in the downtown parking district, a police monthly report, a proposed paddle pub on the Peconic River, Justice Court and code enforcement monthly reports, and a possible driving academy at EPCAL. No final votes were taken; most items were referred for further discussion or legal review.</p>
+      <h3>Discussed</h3>
+      <ul><li>The Riverhead Parking District presented photos and concerns about an unsecured shared dumpster corral on parking district property in downtown Riverhead, where illegal dumping of tires, construction debris, and household garbage has become a recurring problem.</li><li>The board and parking district representatives discussed short-term fixes including replacing locks with non-duplicable keys or a key-fob access system, installing security cameras, and posting signs listing the illegal dumping fine.</li><li>A board member noted the town spent approximately $16,000 on new fencing for the corral about two and a half years ago, and that new locks installed at that time were subsequently cut off by users.</li><li>The parking district reported a current fund surplus of approximately $233,000 and said that figure could reach roughly $275,000 by year-end, which could potentially fund improvements if legally permissible.</li><li>A follow-up meeting was scheduled for the following Thursday to include the parking district, the town sanitation director, and code enforcement to work toward a solution.</li><li>The Police Chief presented the March monthly report, noting calls, domestics, motor vehicle accidents, and summonses were down while arrests and criminal incidents were slightly up, largely due to increases in petty offenses and harassment complaints.</li><li>The Chief also reported that new computer-aided dispatch and records management systems are expected to go live around May 6–8, which will link the department to the county hub and improve information sharing with neighboring agencies.</li><li>A representative of a paddle-pub boat operation described a proposed BYOB pedal-powered boat excursion departing from the Riverhead municipal dock, carrying up to a full passenger load on 90–100 minute trips, with guests encouraged to provision from local downtown businesses.</li><li>Justice Court reported 13 parking convictions and seven town-code convictions in March, collecting a total of approximately $10,675 including mandatory surcharges that had previously not been consistently applied.</li><li>Code enforcement reported 56 summonses issued in March across categories including no certificate of occupancy, rental permit violations, unregistered vehicles, and commercial litter, with rental fee collections of approximately $20,575 in March and $53,550 year-to-date through March.</li><li>Skip Barber Racing School representatives presented a proposal to lease a portion of the EPCAL runway on a temporary, non-permanent basis to operate a one-day teen and adult driver safety academy, with the board expressing interest and directing staff to engage legal counsel on a lease agreement.</li><li>Board members noted the driving academy&#x27;s potential alignment with an ongoing sports-complex feasibility study at EPCAL and discussed possible long-term uses including a managed race series.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/ad62f937-2fb0-4c7c-95e9-76ddbc2e2dba.mp4" type="video/mp4">
@@ -2169,6 +2182,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

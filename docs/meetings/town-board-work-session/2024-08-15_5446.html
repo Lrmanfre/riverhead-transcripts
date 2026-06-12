@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2024-08-15, category:Town Board Work Session">
@@ -25,6 +25,23 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/5446" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/5446/files/agenda/5284" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The board canceled the August 20 agritourism public hearing due to high public opposition and scheduled a public forum for September 18 at 6 p.m. to allow open dialogue. The board also reviewed proposed new rental property regulations targeting overcrowding, illegal bedrooms, and parking conditions.</p>
+      <h3>Key actions</h3>
+      <ul><li>The public hearing on proposed agritourism zoning changes, originally set for August 20, was canceled and replaced with a public forum on Wednesday, September 18 at 6 p.m. in the town board room.</li><li>A special board meeting was announced for Wednesday, August 21 at 6 p.m. to consider adopting the comprehensive plan update and issuing a findings statement.</li><li>A proposed amendment to Chapter 263 of the town code would prohibit habitable bedrooms in basements of two-family and multi-family rentals, ban third-story attic bedrooms, require driveway documentation with rental permit applications, prohibit parking on lawns, limit commercial vehicles to two per property, and require a rental permit before advertising a unit for rent.</li><li>The board reviewed a simple code change to add Cromer Avenue at County Road 58 to the list of locations where right turns are prohibited, at the request of Suffolk County.</li><li>The board reviewed 28 proposed resolutions covering personnel appointments, equipment purchases, a local law on bed-and-breakfast facilities, front-yard parking restrictions, and other administrative matters.</li><li>Blues by the River, previously scheduled for September, was noted as canceled.</li></ul>
+      <h3>Money</h3>
+      <ul><li>Code enforcement collected approximately $36,425 in rental permit fees in July, bringing the January–July total to approximately $188,825.</li><li>Justice Court mandatory surcharges for blight mitigation totaled approximately $1,125 out of roughly $12,000 in total fines and surcharges reported for the period reviewed.</li></ul>
+      <h3>Discussed</h3>
+      <ul><li>Board members discussed increasing rental property violation fines, noting the current first-offense maximum of $500 to $1,500 may not be a sufficient deterrent for landlords renting overcrowded units.</li><li>Code enforcement reported 55 new complaint investigations, 85 summonses issued, and inspections of approximately 131 residential structures and 75 apartment units in July.</li><li>The town clerk reported 244 FOIL requests received in July and said a meeting with Brookhaven staff was scheduled to address issues with the board&#x27;s minute-management software.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/b37e71bf-9e5a-45d2-a60f-9181793f17db.mp4" type="video/mp4">
@@ -947,6 +964,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

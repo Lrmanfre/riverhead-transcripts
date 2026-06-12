@@ -4826,5 +4826,32 @@
       "end": 2906.26,
       "text": ""
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T03:23:47+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Riverhead Zoning Board of Appeals granted a one-year extension for a prior appeal, issued a determination on a mining preexisting-use matter, adjourned a commercial building variance application for planning board input, and approved setback variances for a new single-family home in Reeves Park.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "A one-year extension was granted for Appeal 2024-023 (230 West Main Street, Riverhead Property LLC), moving the expiration date to September 12, 2026.",
+          "For Appeal 2025-033 (CMA Mine LLC), the board denied the appeal in its entirety, determining that a letter of preexisting nonconforming use applies only to 14.984 acres with mining depth limited to 30 feet, and denied any use below the water table.",
+          "Appeal 2025-030 (Ashok Patel, 305 West Main Street) — seeking variances for impervious surface coverage, open-space landscaping, and a side-yard buffer — was adjourned to October 9, 2025, pending planning board comment on a revised site-plan entrance configuration.",
+          "Appeal 2025-031 (Doreen Stone O'Hare, 31 Nautical Drive) was granted variances for a front setback of 26.3 feet (50 feet required) and a rear setback of 31.7 feet (60 feet required) to allow demolition and replacement of an existing home with a two-story dwelling.",
+          "The October 9 approval for 31 Nautical Drive is conditioned on the homeowner planting arborvitae or similar evergreens (Green Giants or equivalent) at a minimum six-to-eight-foot height along the rear fence line."
+        ]
+      },
+      {
+        "heading": "Discussed",
+        "items": [
+          "Correspondence from a property owner regarding a condition attached to a 2009 approval for 1430 Weeding River Manor Road was circulated to board members for review.",
+          "For the 305 West Main Street application, the architect noted the site's existing impervious coverage is 77.8% and the proposal would reduce it to roughly 50.8%; the board noted planning board review of any entrance changes would be needed before a final decision."
+        ]
+      }
+    ]
+  }
 }

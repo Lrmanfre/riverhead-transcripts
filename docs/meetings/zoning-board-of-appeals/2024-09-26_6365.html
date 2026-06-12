@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2024-09-26, category:Zoning Board of Appeals">
@@ -25,6 +25,19 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/6365" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/6365/files/agenda/5807" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Riverhead Zoning Board of Appeals held its September 26 meeting, granting variances in two cases, adjourning one case to October 10 for a permit amendment, and approving meeting minutes.</p>
+      <h3>Key actions</h3>
+      <ul><li>Variances for Kelly Development Corp at 32 Pine Avenue, Aquebogue were granted for a side yard setback of 5 feet (25 feet required) and a combined side yard of 19.5 feet (55 feet required), subject to New York State DEC approval, town CAC approval, Suffolk County Health Department approval, and FEMA flood compliance.</li><li>Variances for the property at 55 Jacobs Place, Aquebogue were granted for an addition, front deck, above-ground pool, and existing shed, including relief from front-yard accessory structure restrictions, a 7.4-foot side setback (25 feet required), a 16.4-foot rear setback (60 feet required), and 39% impervious surface coverage (15% permitted maximum).</li><li>Appeal 2024-024 for 159 Sunset Boulevard, Wading River — a proposed 12-by-24-foot accessory storage structure — was adjourned to October 10, 2024, so the applicant can amend the permit application to legalize an existing interior conversion of a separate accessory structure to habitable space.</li><li>Minutes from the September 12, 2024 meeting were approved.</li><li>The next meeting is scheduled for October 10, 2024.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/3b0b816a-52c3-4cb5-8eb7-07454271b094.mp4" type="video/mp4">
@@ -453,6 +466,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

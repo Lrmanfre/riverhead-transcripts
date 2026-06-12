@@ -11531,5 +11531,39 @@
       "end": 6257.64,
       "text": "Morning."
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T03:06:14+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Riverhead Town Board held five public hearings on code amendments and a restaurant special permit, then adopted roughly two dozen resolutions covering personnel, contracts, and purchasing. The board also discussed the planned demolition of the Crafted building and construction timeline for the Town Square hotel project.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "The board held a public hearing on a special permit for a restaurant expansion at Jamesport Manor and kept the record open for written comment until September 26, 2025.",
+          "The board approved code amendments prohibiting large dump trucks and similar vehicles from parking or idling on the north side of Young's Avenue from East Meadow Road to Osborne Avenue.",
+          "The board approved a code amendment clarifying that bicycles and electric-assist bikes may not be operated on sidewalks, including along Route 58.",
+          "The board approved code amendments defining rules for electric bikes and electric scooters, including a 30-mph road speed limit, a 15-mph operating cap, helmet requirements, and restricting EPCAL bike trail use to Class 1 electric-assist bicycles.",
+          "The board adopted a budget adjustment for a settlement with the tenant of 127 East Main Street.",
+          "The board approved scheduling a public hearing for the Zenith Building addition site plan application.",
+          "The board accepted the resignation of the town board coordinator.",
+          "Three part-time police officers were appointed and placed on leave of absence to attend the academy.",
+          "Gene Hogan was reappointed to the Board of Assessment Review.",
+          "A highway known as Cedar Cove Court was approved for dedication."
+        ]
+      },
+      {
+        "heading": "Discussed",
+        "items": [
+          "A neighbor raised concerns about outdoor lighting at the Jamesport Manor property being in violation of the town's dark skies law; the supervisor directed the new owners to work with code enforcement.",
+          "A resident flagged a hazardous drop-off on the newly paved bike path at Veterans Park and the supervisor said it would be inspected.",
+          "A resident raised concerns about an alleged motocross track behind a Tractor Supply store; a board member confirmed the matter was referred to code enforcement.",
+          "The supervisor stated the Crafted space at 127 East Main Street is expected to be vacated by September 30, with demolition potentially beginning in late October and construction of the Town Square hotel targeted for spring."
+        ]
+      }
+    ]
+  }
 }

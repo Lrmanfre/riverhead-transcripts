@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2024-02-22, category:Zoning Board of Appeals">
@@ -25,6 +25,19 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/6183" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/6183/files/agenda/5625" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Zoning Board of Appeals met on February 22, 2024, and granted variances in all four cases heard.</p>
+      <h3>Key actions</h3>
+      <ul><li>A variance was granted for an accessory structure in the front yard at 118 Northside Road, Wading River (Appeal 2023-052).</li><li>Variances for a directory sign at 1352 East Main Street were granted, with conditions requiring removal of the existing marquee and all unpermitted tenant signs (Appeal 2023-057).</li><li>A rear-yard setback variance was granted for an in-ground pool installed at 16 feet instead of the required 20 feet at 42 Julia&#x27;s Way, Wading River (Appeal 2024-002).</li><li>A front-yard setback variance was granted to allow elevation of a residence and addition of a new porch at 54 Beach Road, Laurel (Appeal 2024-005).</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/f0a15b11-6fe1-470e-b57c-3f25b804eb52.mp4" type="video/mp4">
@@ -365,6 +378,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

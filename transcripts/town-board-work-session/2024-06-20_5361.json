@@ -4136,5 +4136,47 @@
       "end": 2129.04,
       "text": "Thank you."
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T02:08:49+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Town Board work session covered proposed fee increases for the yard waste facility, monthly reports from police, code enforcement, and justice court, plus two proposed code amendments on night-time commercial paving and bed-and-breakfast zoning. The board then moved into executive session.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "Engineering proposed raising the annual yard waste facility permit fee from $50 to $60 and the daily fee from $15 to $20, effective January 1, 2025, citing no increases in over 20 years and rising operating costs.",
+          "The board discussed a draft code amendment to allow commercial parking lots with 50 or more spaces to be paved after 8 p.m. without a public hearing, requiring instead a written application submitted 10 business days in advance.",
+          "A cleanup amendment to the bed-and-breakfast code was presented to clarify that such facilities are only permitted in zoning districts that specifically allow them, not in every residential and commercial district.",
+          "The board moved into executive session to discuss a possible contractual agreement with Suffolk County."
+        ]
+      },
+      {
+        "heading": "Money",
+        "items": [
+          "The yard waste permit fee increase from $50 to $60 is projected to raise total annual revenue from roughly $35,000 to $42,000.",
+          "Code enforcement collected $20,550 in rental permit fees during May, bringing the January-to-May total to $118,950.",
+          "Police reported a body-camera grant of approximately $1.47 million is expected to be paid upfront by the state rather than as a reimbursement."
+        ]
+      },
+      {
+        "heading": "Discussed",
+        "items": [
+          "Board members raised concerns about political campaign signs placed on National Cemetery grounds and in public rights-of-way, and asked staff to review whether existing sign-code penalty provisions apply.",
+          "The police chief reported that adding officers to downtown sectors has reduced criminal incidents and overtime, and that a memorandum of understanding with a local retreat organization was signed.",
+          "Board members debated whether night paving rules should set a specific end-of-night hour or simply allow crews to work straight through to finish in fewer nights."
+        ]
+      },
+      {
+        "heading": "Affects residents",
+        "items": [
+          "Residents who use the town yard waste facility would pay $60 per year or $20 per visit starting January 2025 if the fee increase is adopted; leaf drop-off during the fall leaf season remains free.",
+          "Large commercial property owners seeking to pave parking lots at night would be able to apply to the town board for approval without a formal public hearing under the proposed code change."
+        ]
+      }
+    ]
+  }
 }

@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2026-06-04, category:Town Board Work Session">
@@ -25,6 +25,21 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/6482" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/6482/files/agenda/5996" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Town Board held a work session to hear a presentation on linear generator technology that could significantly reduce electricity costs at Town Hall and the ice rink, then moved into executive session.</p>
+      <h3>Discussed</h3>
+      <ul><li>A representative from DGEN Energy Partners presented a proposal to install one Mainspring linear generator at Town Hall, projected to cut the combined monthly electric bill for Town Hall and the adjacent bank building from roughly $18,000 to about $4,200, with an estimated six-year payback period on a project cost of approximately $1.31 million.</li><li>The town would be eligible for a roughly $393,000 direct-pay incentive under federal law in lieu of a tax credit because it is a tax-exempt entity.</li><li>A second generator was discussed for Veterans Memorial Park ice rink, where the average monthly electric spend is approximately $24,000; however, natural gas is not currently on site and a rough estimate to bring it in is about $800,000, though propane or other fuels were offered as alternatives.</li><li>Over-production capacity could be credited against other town facilities such as the police headquarters through a net-metering arrangement with the utility.</li><li>The purchasing director raised concerns that an RFP process may be required as due diligence, even if the product qualifies as sole-source under New York procurement law, and noted she had not seen the sole-source letter before the meeting.</li><li>The presenter invited board members to a June 17 site visit in Linden, NJ to view operating units at a cold-storage facility.</li><li>The town engineer noted a need to review existing solar agreements at the town landfill before committing to any offset arrangement.</li><li>The board was informed that installation could take roughly six months from a decision if natural gas is already available, as is the case at Town Hall.</li></ul>
+      <h3>Key actions</h3>
+      <ul><li>The board moved into executive session to discuss litigation between the town and a third party involving the assessor&#x27;s office and a possible sale of real property.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/a84e8666-fedd-47b0-8f3b-cc9a188dda4e.mp4" type="video/mp4">
@@ -899,6 +914,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

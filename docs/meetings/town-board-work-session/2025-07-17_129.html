@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2025-07-17, category:Town Board Work Session">
@@ -25,6 +25,21 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/129" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/129/files/agenda/24" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The July 17 work session featured departmental monthly reports from police, code enforcement, town clerk, and justice court, along with community event announcements and a video feature on a historic Main Street home.</p>
+      <h3>Key actions</h3>
+      <ul><li>The board went into executive session to discuss one item of possible litigation with town attorneys.</li><li>The board announced formation of an America 250 committee to plan a July 4, 2026 celebration in Riverhead, with a public flyer to be released the following day inviting community participation.</li><li>A new bilingual Spanish-speaking clerk is now working in the town clerk&#x27;s office weekdays from 11 a.m. to 2:30 p.m.</li><li>A stop work order was issued to a property on Wading River Manor Road related to unpermitted importation of material, the order was subsequently violated, and multiple violations are being issued.</li></ul>
+      <h3>Discussed</h3>
+      <ul><li>Police reported criminal incidents dropped year-over-year in June from 222 to 150, alarm billing revenue increased significantly with help from an intern, five new public safety dispatchers were hired, and National Night Out is scheduled for August 5 in the town square.</li><li>Code enforcement reported 139 new complaints and 101 summonses issued over May and June, with rental code revenue of approximately $210,250 year-to-date through June.</li><li>Regarding a property on Wading River Manor Road, a preliminary injunction was granted by a Supreme Court judge, the defendant appealed and sought a stay, the stay was opposed successfully, and the property must be vacated by July 31 if the stay is denied.</li><li>Crown facility&#x27;s intake of municipal solid waste remains suspended following a fire; yard waste and construction debris operations on an unaffected portion of the parcel may continue under DEC permit limits.</li><li>Justice court total fines were approximately $29,000 in May and $45,880 in June; the court attorney noted several town code fine amounts have not been updated in years and proposed raising fines for weight limit violations, site plan offenses, and unpermitted storage of explosives.</li><li>A special joint town board and CDA meeting with two public hearings is scheduled for July 22 at 6 p.m.</li><li>The Peconic River west of a named landmark will be closed to boat traffic on July 18 for fireworks launched from a barge during the Alive on 25 block party.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/cad3e600-a223-474d-a147-0f659dca3458.mp4" type="video/mp4">
@@ -928,6 +943,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

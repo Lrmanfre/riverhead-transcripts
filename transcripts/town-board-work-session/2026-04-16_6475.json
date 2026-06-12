@@ -8941,5 +8941,34 @@
       "end": 5316.02,
       "text": ""
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T02:38:11+00:00",
+    "agenda_grounded": false,
+    "tldr": "The board reviewed proposed regulations for e-bikes and e-scooters, discussed amendments to covenants at Island Water Park (Scott's Point), and took up a new waterfowl blind registration code, among roughly 50 resolutions covering personnel, capital projects, and grants.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "The board discussed codifying county-level e-bike and e-scooter rules into town code so officers can issue town summonses, impound devices, and fine operators or parents of minors; no vote was taken but further drafting was directed.",
+          "Island Water Park (Scott's Point) presented a site plan amendment seeking approval for a zip line, battery-powered bumper boats, drift-car and pit-bike events on the go-kart track, and permanent storage of inflatable structures; discussion was deferred pending DEC input, though after the session a planner reported the DEC had issued final reclamation for the site.",
+          "A proposed update to the waterfowl blind code was discussed; the board directed staff to revisit the permit fee (suggested range moved above the draft figure of $15 toward something closer to $100) and add a deposit or cost-recovery mechanism before scheduling a public hearing.",
+          "The board reviewed roughly 51 resolutions including awarding a bid for the Meeting House Creek Road bulkhead renovation, associated capital budget transfers, multiple sewer district change orders, and appointments to advisory committees.",
+          "A resolution was listed to set a public hearing on condemnation of a parcel at 111 East Main Street for general municipal purposes.",
+          "Special permit approvals for two battery energy storage systems—one on Edwards Avenue in Calverton and one on Scott Avenue at EPCAL—were on the resolution list; the Scott Avenue applicant's request to waive landscaping requirements due to the site's lack of visibility was discussed favorably.",
+          "A pump-out boat grant application for up to approximately $14,000 in 2026 reimbursements was listed, with board members noting concern about retaining the sole pump-out operator and the need to revisit compensation."
+        ]
+      },
+      {
+        "heading": "Affects residents",
+        "items": [
+          "Under the proposed e-bike and e-scooter rules, riders under 16 would be prohibited from operating these devices, helmets would be required regardless of age, and riding on roads posted above 30 mph would be prohibited; parents could receive summonses for violations by younger children.",
+          "The Little League opening day is April 25 at 10:30 a.m. at Stotsky Park, and the town's spring cleanup runs the same day with free supplies available at town hall from 9 to 11 a.m."
+        ]
+      }
+    ]
+  }
 }

@@ -2816,5 +2816,24 @@
       "end": 1316.62,
       "text": ""
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T03:21:03+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Zoning Board of Appeals approved two variance applications, withdrew a third, and voted to reopen a previously decided appeal for reconsideration at its May meeting.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "Variances for a two-lot minor subdivision at 40 Manor Lane, Jamesport (40 Manor Lane LLC) were granted, with conditions including no further dimensional relief and extinguishing of the prior nonconforming commercial kennel use on Lot 2.",
+          "Variances for proposed additions to a cottage at 36 Kirby Lane, Jamesport (Barbara Capone) were granted, subject to Suffolk County Department of Health approval of a new sanitary system.",
+          "An appeal for 1165 East Main Street (Enrique Zambrano) was withdrawn by the applicant and not heard.",
+          "The board voted to reopen appeal 2025-006 for 71 Pine Avenue, Aquebogue, for reconsideration of a rear yard setback; it will be heard at the May 8, 2025 meeting."
+        ]
+      }
+    ]
+  }
 }

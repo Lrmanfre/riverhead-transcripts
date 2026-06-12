@@ -17,6 +17,7 @@ Usage:
 """
 
 import json, os, glob, re, shutil
+import html as htmlmod
 from datetime import datetime
 from collections import defaultdict
 
@@ -148,6 +149,8 @@ a:hover { text-decoration: underline; }
 .meeting-list .date { font-size: .85rem; color: #666; white-space: nowrap; }
 .badge { display: inline-block; padding: .1rem .4rem; border-radius: 3px;
   background: #e8f0f8; color: #1a5c8a; font-size: .75rem; margin-left: .3rem; }
+a.badge-link { cursor: pointer; }
+a.badge-link:hover { background: #1a5c8a; color: #fff; text-decoration: none; }
 
 .meeting-meta { background: #f0f4f8; border-left: 4px solid #1a5c8a;
   padding: 1rem 1.5rem; margin-bottom: 1.5rem; font-size: .95rem; }
@@ -203,6 +206,29 @@ a:hover { text-decoration: underline; }
 .expand-btn .chevron.up { transform: rotate(180deg); }
 
 .gap-marker { color: #bbb; font-style: italic; font-size: .9em; }
+
+/* AI summary — sits at the top of the page, above the video */
+.transcript-summary { background: #f7f9fc; border: 1px solid #d6e2ef;
+  border-left: 4px solid #1a5c8a; border-radius: 4px;
+  padding: 1.1rem 1.5rem 1.3rem; margin-bottom: 1.75rem; }
+.transcript-summary .summary-head { display: flex; align-items: center;
+  justify-content: space-between; gap: 1rem; margin-bottom: .6rem; }
+.transcript-summary h2 { font-size: 1rem; text-transform: uppercase;
+  letter-spacing: .08em; color: #1a5c8a; }
+.transcript-summary .ai-tag { font-size: .6rem; text-transform: uppercase;
+  letter-spacing: .06em; background: #1a5c8a; color: #fff;
+  padding: .12rem .4rem; border-radius: 3px; margin-left: .4rem; vertical-align: middle; }
+.transcript-summary .summary-toggle { font-size: .78rem; font-family: inherit;
+  background: none; border: none; color: #1a5c8a; cursor: pointer; padding: 0; }
+.transcript-summary .summary-toggle:hover { text-decoration: underline; }
+.transcript-summary .tldr { font-size: 1.05rem; margin-bottom: 1rem; }
+.transcript-summary h3 { font-size: .8rem; text-transform: uppercase;
+  letter-spacing: .05em; color: #555; margin: 1rem 0 .4rem; }
+.transcript-summary ul { margin: 0 0 .3rem 1.2rem; }
+.transcript-summary li { margin-bottom: .35rem; }
+.transcript-summary .summary-disclaimer { font-size: .75rem; color: #888;
+  font-style: italic; margin-top: 1rem; border-top: 1px solid #e3e3e3; padding-top: .6rem; }
+#summary-body.collapsed { display: none; }
 
 @media (max-width: 600px) {
   body { font-size: 16px; }
@@ -263,14 +289,65 @@ function toggleTimestamps(btn) {
 }
 </script>"""
 
+SUMMARY_JS = """
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
+}
+</script>"""
+
 # ---------------------------------------------------------------------------
 # Meeting page
 # ---------------------------------------------------------------------------
+
+def render_summary(summary):
+    """Render the stored AI summary dict into an HTML block, or '' if none/unusable.
+
+    Expected shape:
+      {"status":"ok","tldr":"...","sections":[{"heading":"...","items":["...",...]}, ...]}
+    Any other status (too_short, error, missing) renders nothing.
+    Model-generated text is HTML-escaped.
+    """
+    if not isinstance(summary, dict) or summary.get("status") != "ok":
+        return ""
+    tldr = (summary.get("tldr") or "").strip()
+    sections = summary.get("sections") or []
+    parts = []
+    if tldr:
+        parts.append('<p class="tldr">{}</p>'.format(htmlmod.escape(tldr)))
+    for sec in sections:
+        if not isinstance(sec, dict):
+            continue
+        heading = (sec.get("heading") or "").strip()
+        items = [str(i).strip() for i in (sec.get("items") or []) if str(i).strip()]
+        if not heading or not items:
+            continue
+        lis = "".join("<li>{}</li>".format(htmlmod.escape(i)) for i in items)
+        parts.append("<h3>{}</h3>\n      <ul>{}</ul>".format(htmlmod.escape(heading), lis))
+    if not parts:
+        return ""
+    body = "\n      ".join(parts)
+    return """<section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      {body}
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>""".format(body=body)
+
 
 def build_meeting_page(record, output_path, depth=2):
     meta      = record.get("meta", {})
     segments  = record.get("segments", [])
     rel       = "../" * depth
+    summary_html = render_summary(record.get("summary"))
 
     event_id    = str(meta.get("event_id", ""))
     event_date  = meta.get("event_date", "")
@@ -388,6 +465,7 @@ def build_meeting_page(record, output_path, depth=2):
     {mr}
     {dl}
   </div>
+  {summary}
   {video}
   {timestamped}
   {readable}
@@ -399,7 +477,8 @@ def build_meeting_page(record, output_path, depth=2):
         head       = html_head(page_title, depth=depth),
         header     = html_header(depth=depth),
         footer     = html_footer(),
-        js         = VIDEO_JS if video_url else "",
+        js         = (VIDEO_JS if video_url else "") + (SUMMARY_JS if summary_html else ""),
+        summary    = summary_html,
         rel        = rel,
         date       = event_date,
         cat        = category,
@@ -452,8 +531,14 @@ def build_index(all_records, output_path):
             eid     = str(meta.get("event_id",""))
             href    = "meetings/{}/{}_{}.html".format(slugify(cat), date, eid)
             badges  = ""
-            if meta.get("agenda_pdf_url"):  badges += '<span class="badge">Agenda</span>'
-            if meta.get("minutes_pdf_url"): badges += '<span class="badge">Minutes</span>'
+            agenda_url  = meta.get("agenda_pdf_url")
+            minutes_url = meta.get("minutes_pdf_url")
+            if agenda_url:
+                badges += ('<a class="badge badge-link" href="{}" target="_blank" '
+                           'rel="noopener" title="Open agenda PDF">Agenda</a>').format(agenda_url)
+            if minutes_url:
+                badges += ('<a class="badge badge-link" href="{}" target="_blank" '
+                           'rel="noopener" title="Open minutes PDF">Minutes</a>').format(minutes_url)
             items.append(
                 '<li><a href="{}">{}</a>'
                 '<span class="date">{}{}</span></li>'.format(

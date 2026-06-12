@@ -4191,5 +4191,36 @@
       "end": 2269.94,
       "text": ""
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T02:41:29+00:00",
+    "agenda_grounded": false,
+    "tldr": "Riverhead held its inauguration ceremony on January 1, 2024, swearing in a new supervisor, two town councilwomen, a town justice, a town clerk, and other officials. The incoming supervisor outlined priorities including EPCAL redevelopment, downtown revitalization, a new ambulance corps headquarters, a renovated town court, and improved school and police services.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "Tim Hubbard was sworn in as Town Supervisor, becoming the 64th supervisor of Riverhead.",
+          "Denise Merrifield was sworn in as Town Councilwoman.",
+          "Joanne Waski was sworn in as Town Councilwoman.",
+          "Lori Hulse was sworn in as Town Justice.",
+          "James Wooten was sworn in as Town Clerk.",
+          "Donna Brown was sworn in as Town Assessor, and the receiver of taxes was also noted as having been sworn in separately."
+        ]
+      },
+      {
+        "heading": "Discussed",
+        "items": [
+          "The new supervisor announced plans to form a commission to explore redevelopment of EPCAL following cancellation of a prior sale, emphasizing smart and green growth.",
+          "The supervisor stated the town's master plan is nearing completion and will guide development for the next 10 to 20 years.",
+          "Plans were described to build a new headquarters for the town ambulance corps, whose current facility has been outgrown.",
+          "The old town hall is to be retrofitted into a new town court complex to replace substandard current conditions.",
+          "The supervisor committed to reinstating quarterly civic roundtable meetings, holding biweekly department head meetings, and conducting more detailed work sessions."
+        ]
+      }
+    ]
+  }
 }

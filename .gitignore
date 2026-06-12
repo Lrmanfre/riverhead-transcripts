@@ -3,3 +3,8 @@ tmp_videos/
 *.pyc
 __pycache__/
 .DS_Store
+
+# AI summaries: API key file and cached agenda PDFs (never commit these)
+riverhead.env
+agenda_cache/
+*.json.tmp

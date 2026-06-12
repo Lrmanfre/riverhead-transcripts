@@ -16301,5 +16301,44 @@
       "end": 9386.5,
       "text": ""
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T02:50:25+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Town Board adopted the 2024 Comprehensive Plan update with agritourism resort language fully removed, approved dozens of routine resolutions, and announced plans for a public task force on farmland preservation.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "The board voted unanimously to adopt the 2024 Comprehensive Plan update, with all language referencing agritourism resorts on Sound Avenue removed prior to the vote.",
+          "A public hearing on a proposed advisory committee for the Community Preservation Fund water quality improvement program was held and kept open for written comment through September 14, 2024.",
+          "A previously scheduled public hearing on waterways regulations was cancelled and will be reposted with corrected information for the next meeting.",
+          "The board authorized execution of a grant contract with the state Office of Parks, Recreation, and Historic Preservation for up to $500,000 for an adaptive children's playground at the Riverfront.",
+          "The board authorized coordination with the Town of Brookhaven to pursue grant funding for dredging, bulkhead repair, and landscaping at the Wading River duck ponds.",
+          "The board authorized 2024 bow hunting for deer on town-owned properties at EPCAL, 1751 Sound Avenue, and Middle Road.",
+          "A resolution to formally establish the supervisor's EPCAL advisory committee by vote was withdrawn after insufficient board support; the supervisor stated the ad hoc committee will continue.",
+          "The September 18th public forum previously scheduled to discuss agritourism zoning was cancelled with no replacement date announced, though the supervisor indicated a community task force on farmland preservation will be formed."
+        ]
+      },
+      {
+        "heading": "Public hearings & comment",
+        "items": [
+          "Numerous residents spoke in support of removing agritourism resort provisions from the Comprehensive Plan and several asked the board to delay the plan's adoption to allow further public review.",
+          "Speakers raised unresolved concerns about specific nonconforming-use provisions and proposed accessory dwelling unit size rules in the Comprehensive Plan.",
+          "A marine biologist urged the board to adopt stronger bluff setbacks along Long Island Sound to protect coastal resilience.",
+          "A housing counseling agency director thanked the board for expanding accessory dwelling unit guidelines, citing the change as a tool for homeownership affordability."
+        ]
+      },
+      {
+        "heading": "Discussed",
+        "items": [
+          "Board members described the town's financial pressures, including roughly 6,300 acres of unprotected farmland still at risk, a 2015 bond not paid off until 2030, and a pending lawsuit over a large Southampton housing development whose students could enter the Riverhead school district.",
+          "A resident suggested revenue alternatives including a per-gallon surcharge on oil offloaded at local depots and impact fees on new development."
+        ]
+      }
+    ]
+  }
 }

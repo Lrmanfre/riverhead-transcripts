@@ -4506,5 +4506,35 @@
       "end": 2925.74,
       "text": "Thank you."
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T02:54:30+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Riverhead Town Board held a public hearing on a grant-funded water main extension to address PFAS contamination on Forge Road in Calverton, and voted on roughly three dozen resolutions covering personnel, contracts, and district improvements.",
+    "sections": [
+      {
+        "heading": "Public hearings & comment",
+        "items": [
+          "The board held a public hearing on a proposed water main extension (Extension 97) on Forge Road in Calverton, which would install approximately 2,800 feet of water main and five fire hydrants to serve three mobile home parks and other homes affected by PFAS contamination, at a construction cost of about $1.85 million funded largely by a grant; written comments are accepted through February 14.",
+          "A neighbor spoke against a proposed settlement with the owner of a short-term rental property, arguing the penalty was too low given years of noise, traffic, and code violations; town counsel explained the figure reflected court guidance and comparisons to prior similar settlements.",
+          "A resident called in via Zoom to urge the board to retain five-minute public comment time and Zoom access; the board indicated it plans to reduce comment time to three minutes and limit Zoom participation to public hearings only, not comments on resolutions."
+        ]
+      },
+      {
+        "heading": "Key actions",
+        "items": [
+          "The board ratified a legal settlement with the operator of a short-term rental property (Canal House LLC / Victor Ville by the Sea).",
+          "The board established the Town of Riverhead Hispanic Development, Empowerment, and Education Committee and appointed its initial members.",
+          "A resolution was adopted authorizing a public hearing on proposed electrical upgrades at Riverhead Water District Plant No. 7.",
+          "The board accepted the retirements of a construction equipment operator and a principal account clerk, and ratified the resignation of an accountant.",
+          "Resolutions were adopted authorizing excavation permits, interpreter agreements for Justice Court, continued website maintenance contracts, and a Home Depot plant sales application.",
+          "A resolution was adopted authorizing submission of a letter of intent for a New York State Environmental Facilities Corporation operation and maintenance grant.",
+          "The board accepted a donated temporary use of a freezer trailer for the senior center."
+        ]
+      }
+    ]
+  }
 }

@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2025-02-06, category:Planning Board">
@@ -25,6 +25,23 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/811" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/811/files/agenda/674" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Planning Board advanced several applications at its February 6 meeting, approving four resolutions including a coastal erosion permit, a SEQRA classification and public hearing date for a medical office, a traffic consultant retention for a long-running retail project, and a 19-lot subdivision yield map. A proposed place of worship and churchyard on Route 25A was discussed but requires additional environmental review before a public hearing can be scheduled.</p>
+      <h3>Key actions</h3>
+      <ul><li>The board approved a coastal erosion hazard permit application for a beach access stairway at 118 Northside Road, Wading River, with revegetation and construction detail conditions noted.</li><li>The board classified a 2,290 sq ft medical office application at 1125 Old Country Road as a Type 2 SEQRA action and scheduled a public hearing for the first Planning Board meeting in March.</li><li>The board voted to retain a traffic consultant for the Eastside Square multi-building retail project near the town line, with costs paid by the applicant.</li><li>The board approved a 19-lot as-of-right subdivision yield map for the Summerwind Farms Major Subdivision, a roughly 30-acre split-zoned parcel at 200 Peconic Bay Boulevard.</li><li>SEQRA coordination was initiated for a subdivision application by Lives of Associates LLC, starting a 30-day agency coordination period.</li></ul>
+      <h3>Public hearings &amp; comment</h3>
+      <ul><li>No public comments were recorded on any matter before the board.</li><li>The Cox Place of Worship and churchyard application on Route 25A was discussed only; a full Environmental Assessment Form addressing groundwater impacts is required before a public hearing can be set.</li></ul>
+      <h3>Discussed</h3>
+      <ul><li>The Cox Place of Worship proposal would convert a single-family dwelling and add a 3,600-plot private churchyard; the site relies on a private well, with the nearest public water main approximately 3,500 feet away at an estimated extension cost of $350–$400 per linear foot.</li><li>The board flagged a potential impervious surface coverage issue for the Cox application, as combined calculations may exceed the RB zone&#x27;s 15% maximum, and requested clarification from the applicant&#x27;s engineer.</li><li>For Eastside Square, the state DOT has conceptually agreed to a proposed traffic signal but is requiring left-turn lanes and retention of the existing bike lane; the board needs a conceptual sketch of all DOT-required improvements before making a significance determination.</li><li>The Summerwind Farms sketch plans were reviewed; one layout raised concerns about sight distance, elimination of a wooded buffer, and five lots with direct access onto Peconic Bay Boulevard.</li><li>The board discussed recommending to the Town Board that a volunteer committee be formed to help report dark sky and lighting violations, easing the burden on code enforcement, which currently has an officer available for nighttime inspections.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/6b79d099-8e90-4afa-8965-d37719bd0d8a.mp4" type="video/mp4">
@@ -2492,6 +2509,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

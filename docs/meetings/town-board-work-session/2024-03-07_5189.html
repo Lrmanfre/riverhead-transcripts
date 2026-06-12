@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2024-03-07, category:Town Board Work Session">
@@ -25,6 +25,21 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/5189" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/5189/files/agenda/5027" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Town Board work session covered three main topics: a spring litter cleanup planned for April 28, updates on the Art in a Park program including new sculptures and electrical upgrades to Grangeville Park, and a proposed town marketing campaign to highlight positive local news, businesses, and employees. The session closed with a move into executive session on personnel and contractual matters.</p>
+      <h3>Key actions</h3>
+      <ul><li>The board committed to having Building and Grounds move litter cleanup supplies to an accessible location before the April 28 Earth Day cleanup and to designate drop-off points so highway staff can collect filled bags on Monday.</li><li>The board directed that code enforcement issue fines without prior warnings for repeat litter and illegal dumping violations, following recent increases to those fines.</li><li>The board confirmed that businesses and residents who spot shopping carts on public property should report them to highway, and that stores lacking required Wi-Fi wheel locks are subject to fines.</li><li>Electrical service in Grangeville Park is being upgraded from 100-amp to 200-amp with two new service drops; lockable master panels will control all outlets, ending unauthorized phone charging.</li><li>A DRI-funded lighted art installation is planned for the wooden walking bridge in Grangeville Park, targeting completion by the fall Oktoberfest event.</li><li>A large lighted stainless-steel sea turtle sculpture, approximately 14 feet tall, is ready to be installed in Grangeville Park.</li><li>A crescent-moon sculpture incorporating solar panels, being made in partnership with East End Arts, is also planned for the park.</li><li>Stony Brook University&#x27;s engineering department agreed to take on the design of a large overhead kinetic marine-life sculpture as a student project, targeted for 2025.</li><li>The board discussed a town-wide marketing campaign to produce short video clips, departmental spotlights, business recognition features, and a &#x27;Did You Know?&#x27; trivia series for Channel 22 and the town website.</li><li>Channel 22 improvements were presented, including scrolling news tickers, standardized meeting graphics with time and date stamps, a speaker countdown timer, and a new mobile camera for on-location video.</li><li>The board moved into executive session to discuss changes in status for three employees and two contractual matters.</li></ul>
+      <h3>Affects residents</h3>
+      <ul><li>Volunteers for the April 28 Earth Day litter cleanup can meet at Riverhead Town Hall at 9 a.m.; supplies, vests, and bags will be provided.</li><li>Residents who witness illegal dumping or unsecured shopping carts are asked to report the address to code enforcement or the highway department.</li><li>Channel 22 programming will add informational flyers, town news tickers, and video segments viewable live and archived on the town website.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/2cf11f28-5b6d-42a0-8c22-59a0f8aabee8.mp4" type="video/mp4">
@@ -1887,6 +1902,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

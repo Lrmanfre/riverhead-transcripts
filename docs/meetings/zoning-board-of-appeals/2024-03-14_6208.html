@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2024-03-14, category:Zoning Board of Appeals">
@@ -25,6 +25,21 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/6208" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/6208/files/agenda/5650" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Zoning Board of Appeals approved area variances for a proposed two-lot subdivision at 196 South Jamesport Avenue, subject to multiple conditions including a vegetative buffer, stormwater management, demolition of an existing canopy, and recorded covenants and easements. A second application involving deck renovation and new construction on a separate parcel was also heard but no vote was reported.</p>
+      <h3>Key actions</h3>
+      <ul><li>The board approved appeal number 2024-001, granting area variances for a two-lot subdivision at 196 South Jamesport Avenue (Tax Map 600-91-2-2.2) in the RB40 zoning district, where both proposed lots fall below the 40,000-square-foot minimum lot size requirement.</li><li>Approval was conditioned on the applicant demolishing and removing an existing metal frame canopy on Lot 1 before any building permit may be issued for Lot 2.</li><li>All future improvements on both lots must meet required dimensional regulations for front, side, rear yard, and lot coverage, and the applicants must waive future ZBA relief from those requirements via a recorded covenant.</li><li>A permanent shared driveway easement for both lots must be recorded with the Suffolk County Clerk and approved by the Planning Board and Town Attorney before any building permits are issued.</li><li>The applicant must maintain a 20-foot vegetative buffer along the easterly property line of Lot 2 and a 10-foot vegetative buffer along the northerly property line, with the vegetative plan subject to Planning Board approval.</li><li>The applicant must manage all stormwater runoff on-site for both lots and install any drainage system required by the Planning Board.</li><li>A second application involving demolition of an accessory cottage, construction of a new two-story primary residence, renovation of an existing deck, and sanitary system upgrades on a separate parcel was heard; no vote on that matter was reported in the transcript.</li></ul>
+      <h3>Public hearings &amp; comment</h3>
+      <ul><li>An attorney representing adjacent property owners at 200 South Jamesport Avenue requested a vegetative buffer and that the shared driveway remain in its shown location, which the board incorporated into the approval conditions.</li><li>A nearby property owner raised concerns that the application incorrectly indicated no county-regulated stormwater drainage within 500 feet of the site; the applicant agreed to amend the application and to contain all stormwater on-site.</li><li>The engineer for the applicant confirmed awareness of a mapped DEC freshwater wetland on the property and stated that DEC review, Suffolk County Health Department approval, and Riverhead Conservation Advisory Council review will be required before construction.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/dbf0e9ab-ea0b-4d6d-8439-4ce813c59015.mp4" type="video/mp4">
@@ -582,6 +597,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

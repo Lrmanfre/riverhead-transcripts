@@ -386,5 +386,22 @@
       "end": 271.04,
       "text": "We'll be right back."
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T03:00:49+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Town Board unanimously approved a resolution authorizing a state Consolidated Funding Application under the Pro Housing Program to pursue pass-through grant funding for infrastructure at a proposed mixed-use development at 426 West Main Street.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "The board passed Resolution 2025-643, authorizing a CFA 2025 Pro Housing Program funding application to New York State.",
+          "If awarded, the grant would pass through the town to a developer for infrastructure costs—including sewer, water, electrical, and traffic work—at a planned market-rate apartment building with retail and restaurant space at 426 West Main Street."
+        ]
+      }
+    ]
+  }
 }

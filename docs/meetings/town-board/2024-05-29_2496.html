@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2024-05-29, category:Town Board">
@@ -25,6 +25,23 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/2496" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/2496/files/agenda/2359" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Town Board held a special public hearing on the Draft Generic Environmental Impact Statement (DGEIS) for the comprehensive plan update. The board also formally closed the earlier public hearing on the draft comprehensive plan itself, while keeping written comments open through June 10.</p>
+      <h3>Key actions</h3>
+      <ul><li>The board voted to officially close the public hearing on the draft comprehensive plan, with written comments accepted through close of business June 10, 2024.</li><li>The board opened and then closed a separate public hearing on the Draft Generic Environmental Impact Statement (DGEIS), also with a written comment deadline of June 10, 2024.</li><li>The board supervisor stated that all board members support removing language from the comprehensive plan that would allow a charter school to be sited on industrial land.</li><li>The planning consultant described the next steps: after June 10, a Final Generic Environmental Impact Statement will be prepared, expected late July through September, followed by a findings statement and then potential adoption of the comprehensive plan.</li><li>Board members indicated they will hold a work session to discuss proposed revisions to the draft comprehensive plan; minor changes will not require reopening the public hearing, but significant new additions would.</li></ul>
+      <h3>Public hearings &amp; comment</h3>
+      <ul><li>Multiple residents raised concerns that the DGEIS concludes no significant adverse environmental impacts are anticipated, while the plan contains recommendations they believe would affect traffic, infrastructure, scenic character, and density.</li><li>Residents questioned population projections in the DGEIS, arguing the figures may undercount future growth given the volume of pending housing proposals, approved apartment units, and assisted living facilities already in the pipeline.</li><li>Speakers objected to designating the CRC and PRC zoning districts as Transfer of Development Rights receiving areas, citing lack of adequate infrastructure and the PRC&#x27;s proximity to the Peconic River.</li><li>Residents raised concerns about recommendations to allow vertical farming on all agricultural land, including areas north of Sound Avenue, and the supervisor and multiple board members stated they do not support vertical farming in that corridor.</li><li>A resident requested that the DGEIS include a land-use acreage inventory table showing current and proposed acreage by land-use category.</li><li>Speakers called for clearer definitions of agritourism, including explicit limits to prevent catering halls or wedding venues from being established on farmland under the agritourism designation.</li><li>Residents asked the board to consider hosting public information sessions to help residents understand the complex DGEIS and comprehensive plan documents before final adoption.</li></ul>
+      <h3>Discussed</h3>
+      <ul><li>Board members noted that the existing accessory apartment code caps units at 650 square feet, while the draft comprehensive plan would allow up to 40 percent of the principal residence, potentially enabling much larger accessory units in any of the ten permitted zoning districts.</li><li>The board acknowledged that short-term rental provisions and proposals to lift the downtown apartment unit cap do not yet have full board support and will be addressed during upcoming work sessions.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/0d48e7b0-2af0-4db8-8a25-6c603059e8bd.mp4" type="video/mp4">
@@ -2002,6 +2019,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

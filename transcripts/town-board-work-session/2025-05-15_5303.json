@@ -10961,5 +10961,44 @@
       "end": 6754.02,
       "text": "thank you"
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T02:25:17+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Riverhead Town Board work session covered a National Police Week video feature on the police department, a monthly police report, an Open Space Committee presentation on preserved properties, a contentious preliminary site plan review for Island Water Park, and several code and personnel matters.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "The board reviewed a preliminary site plan approval for Island Water Park (Scott's Point, 5835 Middle Country Road, Calverton) but raised concerns that the go-kart track and lake use remain in violation of a DEC mining reclamation permit; staff agreed to contact the DEC for a written update before final approval.",
+          "A proposed code revision to Chapter 105 on school bus camera violations would remove those civil cases from Justice Court and assign them to an Administrative Law Judge, consistent with what other East End towns have done; the item is expected to go to public hearing.",
+          "A proposed code revision to cannabis retail regulations would add the Business CR zoning district as a permitted location, codify the notice-to-municipality application process, and impose a 90-day expiration on positive town responses; the board directed staff to publish and post for a June public hearing.",
+          "Town beaches were set to operate with lifeguards from 11 a.m. to 6 p.m., and beach parking lots from 6 a.m. to 10 p.m. for the season.",
+          "The board accepted the retirements of two long-serving maintenance employees and approved several other personnel actions including appointment of a fire marshal and a new wastewater treatment plant operator.",
+          "The board authorized the supervisor to execute an agreement with an architect for Ambulance District building renovations and approved a related capital reserve fund balance transfer.",
+          "Several local law amendments to Chapter 231 (Fire Prevention) covering definitions, interference with fire officials, reimbursement of expenses, flammable liquids, outdoor fires, and penalty provisions were placed on the agenda for adoption.",
+          "The board went into executive session to discuss potential litigation, acquisition of real property, and related legal matters."
+        ]
+      },
+      {
+        "heading": "Money",
+        "items": [
+          "The Open Space Committee noted that Community Preservation Fund debt payments are currently limiting new land purchases, with the town focused on stewardship of existing preserved properties rather than acquisitions.",
+          "Code enforcement collected approximately $52,000 in rental permit fees during April, bringing the year-to-date total to about $147,000.",
+          "A 37-acre wooded and wetland parcel adjacent to the town-owned ADJN property near the Sawmill Creek watershed was identified as a potential future preservation target and noted to be currently for sale."
+        ]
+      },
+      {
+        "heading": "Discussed",
+        "items": [
+          "The Open Space Committee presented a slideshow summarizing preserved properties including Sound Avenue Preserve, Weeping Willow, Sharper's Hill, Hubbard Duck Farm, Mill Pond Preserve, North Fork Preserve, and others, and outlined stewardship goals including trails, signage, and a planned Eagle Scout kiosk project.",
+          "Police Chief Frost reported 2,838 total calls in the most recent month with 132 criminal incidents, representing about 4 percent of total call volume, down from 150 the prior month; two non-fatal overdoses were treated with Narcan.",
+          "The town clerk reported high volume in vital records requests driven by residents needing documents for the federal enhanced driver's license requirement, and said new resolution-management software is targeted for launch at the first June meeting."
+        ]
+      }
+    ]
+  }
 }

@@ -6351,5 +6351,43 @@
       "end": 4553.38,
       "text": "[transcription gap]"
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T01:46:15+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Planning Board held public hearings on two lot divisions, a new Mazda dealership, and an eight-lot subdivision called Carson Woods; it also acted on five resolutions covering subdivision extensions, site plan approvals, and scheduling future hearings.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "The board closed a public hearing on a two-lot minor subdivision on Soundshore Road and Bayberry Lane, where a zoning variance had already been granted.",
+          "The board closed a public hearing on a site plan for Riverhead Mazda proposing a roughly 22,000-square-foot dealership with parking and landscaping at 1423 Old Country Road.",
+          "The board closed a public hearing on Carson Woods Major Subdivision, an eight-lot cluster subdivision on about 20 acres accessible via Fox Lane, preserving roughly 64 percent of the parcel as open space.",
+          "The board voted to schedule a public scoping hearing on the TJOC real estate mixed-use development environmental impact statement for the December 5, 2024 meeting.",
+          "The board approved a final extension resolution for Holly Estates minor subdivision, a two-new-lot subdivision that has been before the board since 2009, finding all conditions satisfied.",
+          "The board granted administrative site plan approval for CAV 896 LLC to convert about 3,200 square feet at an oncology center, with a recorded covenant restricting future use changes without new site plan review.",
+          "The board voted to schedule a public hearing on the 230 West Main Street minor subdivision, which received lot-width variances from the Zoning Board of Appeals in September 2024."
+        ]
+      },
+      {
+        "heading": "Public hearings & comment",
+        "items": [
+          "Residents on Fox Lane raised concerns about traffic, loss of the cul-de-sac, noise, and privacy, and the planner noted the road extension was planned as far back as 1990.",
+          "An adjacent orchard owner asked for a western buffer between the Carson Woods lots and his active farming operation, citing pesticide spray; board members indicated a 25-foot buffer would be considered.",
+          "A Fox Lane resident raised concerns about a fire hydrant proposed near a mature oak tree, and the planner offered to discuss relocating it with the applicant and water district.",
+          "The Chapter 219 coastal erosion application for a property on Soundshore Road was discussed as a staff item; the applicant must obtain Zoning Board of Appeals relief and may need a wetland determination before returning to the Planning Board."
+        ]
+      },
+      {
+        "heading": "Discussed",
+        "items": [
+          "For the TJOC EIS scoping, the board noted it wants to see an alternative building orientation studied and intends to remove any presumptive language from the draft scope before adopting a final scope.",
+          "The planner clarified that the 230 West Main Street parcels fall within a public parking district, removing any requirement for on-site parking for future redevelopment."
+        ]
+      }
+    ]
+  }
 }

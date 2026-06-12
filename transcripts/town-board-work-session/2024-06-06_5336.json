@@ -8196,5 +8196,34 @@
       "end": 4558.58,
       "text": "Thank you."
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T02:09:25+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Town Board work session covered a proclamation for a downtown volunteer, a warehouse site plan update in Calverton, a proposed agritourism zoning code, a minor barbershop pole sign fix, and a debate over extending the Calverton Industrial Moratorium for another three months.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "The board presented a proclamation to a volunteer who served as president of the Riverhead Business Improvement District for roughly ten years, credited with organizing downtown events and supporting businesses during the COVID-19 pandemic.",
+          "Staff recommended the board issue a negative declaration under state environmental review law and schedule a public hearing in July for a proposed 70,445-square-foot warehouse at 1001 Scott Avenue in Calverton.",
+          "The board discussed moving forward with a new agritourism zoning code that would require any development in a designated Sound Avenue corridor area to preserve 70 percent of land for active farming, cap lodging at 150 units, and impose a $1,000-per-day penalty if a developer fails to maintain agricultural production.",
+          "A code amendment was presented that would legalize and permit traditional barbershop pole signs, which are currently prohibited under town sign regulations.",
+          "The board discussed extending the Calverton Industrial Moratorium, set to expire around July 12, for an additional three months to allow the comprehensive plan and related zoning code changes to be completed before new industrial applications are reviewed."
+        ]
+      },
+      {
+        "heading": "Discussed",
+        "items": [
+          "Board members debated whether to narrow the moratorium extension to apply only to warehouses and logistics uses rather than all industrial activity, with some members expressing concern about halting unrelated projects.",
+          "Staff warned that allowing the moratorium to lapse before new zoning is adopted could result in a wave of applications filed under current rules, potentially complicating or triggering litigation once updated code takes effect.",
+          "A board member asked staff to provide a list of all pending applications currently captured by the moratorium so the board could consider targeted exemptions.",
+          "The agritourism code discussion included a board member suggesting lowering the minimum parcel size below 100 acres and potentially extending a similar framework to the Route 25 corridor in Jamesport."
+        ]
+      }
+    ]
+  }
 }

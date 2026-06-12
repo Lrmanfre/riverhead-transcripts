@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2026-03-03, category:Town Board">
@@ -25,6 +25,25 @@
     <div class="meta-row">60 min &nbsp;·&nbsp; <a href="https://riverheadny.portal.civicclerk.com/event/6436" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/6436/files/agenda/5921" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Town Board approved roughly two dozen resolutions covering personnel, special events, water and fire-code amendments, and a federal funding application. A public hearing on a new no-parking rule on Northern Parkway drew resident concerns about a nearby medical office, and public comment centered on ICE enforcement activity near schools and the town hockey rink&#x27;s certificate of occupancy.</p>
+      <h3>Key actions</h3>
+      <ul><li>The board adopted a resolution authorizing staff to apply for federal congressionally directed spending for Riverhead Water District extensions 96 and 97 and police department equipment, amending the grant amount to approximately $4,092,000.</li><li>The board approved three special-event permits for Jamesport Farm Brewery events (a food truck rodeo, a car show, and a Fresh Hop Festival) and separate permits for an East End Arts community mosaic event and a Rise Life Services car show.</li><li>The board authorized public notices to consider amendments to town code chapters governing use-tenancy fire marshal review and fire safety change-of-tenancy review.</li><li>A water district capital project budget was adopted and a highway department budget transfer for additional road salt was approved.</li><li>Four people were appointed or reappointed to the Town Agricultural Advisory Committee.</li><li>Two staff reclassifications, a new Recreation Department account clerk, and a new building plans examiner were approved.</li></ul>
+      <h3>Public hearings &amp; comment</h3>
+      <ul><li>A public hearing was held on a proposed amendment to prohibit parking on the north side of Northern Parkway from Roanoke Avenue eastward for 500 feet, weekdays 8 a.m. to 6 p.m.; the hearing was closed with a 10-day written-comment period ending March 13.</li><li>Residents on Northern Parkway testified that the parking restriction would not solve underlying problems and raised concerns about fire-lane clearance, ADA accessibility, and certificate-of-occupancy compliance at an adjacent medical office.</li><li>Several residents and an advocacy organization representative asked the board to consider a public-safety resolution related to federal immigration enforcement activity near schools and in residential neighborhoods.</li><li>A caller raised concerns about the town hockey rink&#x27;s outstanding final certificate of occupancy and an unresolved Freedom of Information Act request about rink repairs; the supervisor noted an outside engineering review had been completed and the rink is operating.</li></ul>
+      <h3>Discussed</h3>
+      <ul><li>The supervisor addressed the hockey rink dome incident, stating it occurred during a power outage rather than the blizzard, an outside engineer cleared the facility, and the fire marshal was involved.</li><li>A board member disclosed purchase of a 108-acre equestrian farm in Jamesport with development rights already sold to a farmland preservation program; a caller suggested the board seek a formal conflict-of-interest opinion regarding future agritourism or transfer-of-development-rights matters.</li><li>The supervisor warned residents about phishing scams impersonating town departments and noted the building department does not accept electronic payment.</li></ul>
+      <h3>Affects residents</h3>
+      <ul><li>Residents on and near Northern Parkway should monitor the proposed no-parking rule and may submit written comments through March 13.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/3750867da9.mp4" type="video/mp4">
@@ -1427,6 +1446,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

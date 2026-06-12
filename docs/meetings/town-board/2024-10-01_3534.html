@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2024-10-01, category:Town Board">
@@ -25,6 +25,21 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/3534" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/3534/files/agenda/3397" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Riverhead Town Board held promotions, community recognition, two public hearings, and voted on roughly three dozen resolutions at its October 1, 2024 meeting.</p>
+      <h3>Key actions</h3>
+      <ul><li>The board promoted police Lieutenant Danielle Wilsey to captain, making her the first female captain in Riverhead Police Department history.</li><li>The board promoted a sergeant named Dino Isgro to the rank of police lieutenant.</li><li>The board classified the Elite Towers Wading River Fire District cell tower proposal at 1503 North Country Road as a Type 1 action under SEQRA and requested lead agency status.</li><li>The board authorized a public hearing to conduct the Monroe Balancing Test for the proposed Elite Towers cell tower at the Wading River Fire District, with the hearing scheduled for November 7.</li><li>A resolution authorizing an appraisal of town property by a named firm was tabled by unanimous vote.</li><li>The board approved a license agreement with the Butterfly Effect Project for use of the Riverhead Senior Center.</li><li>The board amended and approved preliminary site plan approval for an application identified as Hildreth Real Estate Advisors at 1001 Scott Avenue.</li><li>The board authorized the town clerk to post notice for a public hearing on a proposed local law amending the town code regarding removal and return of abandoned shopping carts.</li><li>The board amended the terms and conditions of employment for Police Chief Frost.</li><li>The board reclassified an assistant town engineer position to town engineer.</li></ul>
+      <h3>Public hearings &amp; comment</h3>
+      <ul><li>A public hearing on the 2025 Community Development Block Grant funding application sought input on up to $250,000 in federal HUD funds for public services, home improvement, and public facilities; written comment accepted through October 14.</li><li>Representatives from Riverhead Community Awareness Program and the Butterfly Effect Project testified in support of CDBG funding for youth counseling and programming at local schools.</li><li>A public hearing was held on a proposed amendment to the Community Preservation Fund project plan to allow CPF funds to help finance water main extensions to areas with contaminated private wells; the water district superintendent said the immediate project on Forge Road would require roughly $193,000 in CPF money against approximately $1.2 million in grant funding.</li><li>Two speakers urged the board to tighten the amendment&#x27;s language to explicitly cap water quality spending at the statutory 20 percent of annual CPF revenues, and raised concerns about preserving funds for farmland and a future transfer-of-development-rights bank; the deputy town attorney stated the 20 percent statutory cap in Town Law already applies and cannot be superseded.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/8626459f-7ac2-41a1-915a-d8018a3a6bc6.mp4" type="video/mp4">
@@ -1961,6 +1976,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

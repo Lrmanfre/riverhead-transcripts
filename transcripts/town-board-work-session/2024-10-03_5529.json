@@ -9116,5 +9116,43 @@
       "end": 5349.46,
       "text": "Thank you."
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T02:16:28+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Town Board reviewed sweeping industrial zoning code amendments tied to the comprehensive plan update, discussed increasing building-permit and rental-permit penalties, and heard a proposal for a paid-parking pilot at the Griffin Avenue lot on October 13.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "The board reviewed a proposal to merge Industrial A and Industrial C zones into a new Calverton Industrial (CI) district, rezone remaining industrial areas outside CI to Light Industrial, and eliminate Industrial A, B, and C from the code.",
+          "A new industrial district table of use regulations based on Standard Industrial Classification (SIC) codes was presented to replace the existing limited use lists and give the zoning officer a standardized reference for interpreting similar uses.",
+          "Last-mile fulfillment centers, trucking terminals, and transfer stations would be prohibited in both the CI and Light Industrial zones under the proposed amendments.",
+          "Several mismatched parcels—including residential lots on one boulevard zoned industrial and a county-owned reforestation parcel—are proposed for rezoning to more appropriate designations such as residential or open space.",
+          "The TDR code would be updated to allow preservation credits to increase floor area in the CI district in 5,000-square-foot increments up to a maximum floor area ratio of 0.5.",
+          "Building-permit and certificate-of-occupancy violation fines, unchanged since 1989, are proposed to increase to a range of $1,000–$3,000; rental-permit violation fines would rise to $1,000–$2,000 for a first offense, with higher ranges for repeat offenders.",
+          "A one-day paid-parking pilot using a scan-to-park or text-to-park system is planned for the Griffin Avenue lot on October 13 from 8 a.m. to 8 p.m., at rates of $1 per hour or $5 for the full day, with no physical meters installed."
+        ]
+      },
+      {
+        "heading": "Discussed",
+        "items": [
+          "Board members raised questions about allowing showrooms for large equipment, adding recycling or organic-fertilizer production uses, and whether farm-supply wholesale should be permitted by right rather than by special permit given the town's agricultural character.",
+          "The board discussed whether repeat rental-permit violators who own multiple properties should have subsequent violations treated as second or third offenses regardless of which property is cited, and staff confirmed the offense follows the defendant, not the property.",
+          "Questions were raised about how parking enforcement would identify unpaid or expired sessions by license plate in open lots, with staff noting a handheld scanning approach for the pilot and automated license-plate readers as a future option for larger areas."
+        ]
+      },
+      {
+        "heading": "Affects residents",
+        "items": [
+          "Homeowners on a boulevard whose lots are currently zoned industrial despite being improved with single-family houses would be rezoned to a residential designation, resolving setback and accessory-structure issues.",
+          "Residents and visitors parking in the Griffin Avenue lot on October 13 during the Country Fair will be charged; the adjacent Second Street lot will remain free.",
+          "Multiple public hearings will be required for each code section and map change before any amendments take effect, and materials are currently posted to the town's work session attachments page."
+        ]
+      }
+    ]
+  }
 }

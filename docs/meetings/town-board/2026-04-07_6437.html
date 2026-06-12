@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2026-04-07, category:Town Board">
@@ -25,6 +25,21 @@
     <div class="meta-row">152 min &nbsp;·&nbsp; <a href="https://riverheadny.portal.civicclerk.com/event/6437" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/6437/files/agenda/5945" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The board passed roughly 90 resolutions and voted 4-1 to affirm prior authorization to pursue acquisition—potentially through eminent domain—of the Long Island Science Center building at 111 East Main Street, over strong public objection; Supervisor Halpin cast the dissenting vote.</p>
+      <h3>Key actions</h3>
+      <ul><li>The board voted 4-1 to affirm prior authorization for the town attorney to negotiate and execute agreements to acquire 111 East Main Street (the Long Island Science Center building), with Supervisor Halpin voting no and stating he preferred tabling the matter.</li><li>A public hearing would be required before any eminent domain proceeding can formally advance, according to a board member&#x27;s clarification during public comment.</li><li>The board approved a bond authorization resolution related to the Wading River Highway Garage, subject to a permissive referendum.</li><li>The board approved a resolution calling for a public hearing on a water main extension in the Riverhead Water District at a property in Aquebogue.</li><li>The board adopted local law amendments to town code chapters covering building standards, vehicle and parking regulations, and fire prevention tenancy permits.</li><li>The town authorized a professional services agreement with a former judge to serve as an administrative law judge, filling a gap in adjudicating stop-school-bus violations.</li><li>The board authorized support for Suffolk County&#x27;s application for state Environmental Bond Act funding to preserve land known as Venezia Square in Wading River as open space.</li><li>A resolution was untabled and adopted authorizing the supervisor to execute a non-binding project scope letter to PSE&amp;G for redevelopment of the former Perkins building at 1129 West Main Street.</li><li>The board reappointed five members to the Anti-Bias Task Force and made multiple appointments to the Parking District Advisory Committee and other advisory bodies.</li><li>Scott Vance of the Highway Department was recognized as 2026 Employee of the Year for daily litter collection throughout the town.</li><li>The board ratified a name change for the Inclusion Task Force Advisory Committee to the Town of Riverhead Disability Advisory Committee.</li></ul>
+      <h3>Money</h3>
+      <ul><li>Total tax collection as of March 19, 2026 was reported at $108,934,564.04.</li><li>Several residents criticized a tax bill increase they linked to a legal settlement on a golf course property assessment covering years 2008–2015, with one resident citing a roughly 160 percent increase on their bill.</li><li>A board member noted the nonprofit status of 111 East Main Street results in roughly $1,313 in annual taxes versus an estimated $47,000 if it were a commercial property.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/463bb347aa.mp4" type="video/mp4">
@@ -3035,6 +3050,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

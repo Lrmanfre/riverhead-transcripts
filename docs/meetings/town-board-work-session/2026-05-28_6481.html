@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2026-05-28, category:Town Board Work Session">
@@ -25,6 +25,23 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/6481" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/6481/files/agenda/5992" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Riverhead Town Board work session covered monthly departmental reports, a site plan modification for Riverhead Building Supply, a proposed parking change on Sound Avenue, and a lengthy debate over a proposed early retirement incentive for union employees funded by a $5 million general fund surplus.</p>
+      <h3>Key actions</h3>
+      <ul><li>The board reviewed and is set to vote Tuesday on a site plan modification allowing River Edge LLC (Riverhead Building Supply) at 962 Berman Boulevard, Calverton to replace an approved two-story office building with a smaller single-story warehouse.</li><li>The board discussed a proposed no-parking zone extending approximately 200 feet from the corner of Sound Avenue and Toomey Avenue to improve sight lines, with a resolution expected to follow the same process used for a similar change on Young&#x27;s Avenue last year.</li><li>Several board members requested individual meetings with the financial administrator to study an early retirement incentive proposal before any vote, rather than accepting the concept based on the presentation alone.</li><li>Two new part-time code enforcement officers are set to begin June 8 and will patrol for property maintenance, unpermitted construction, and illegal rentals.</li><li>A medication take-back and Narcan training event is scheduled for Saturday, May 31, 8 a.m. to 2 p.m. at the Highway Department yard; electronics and paint disposal will also be accepted that day.</li><li>The board will publish notices for four public hearings on proposed local law amendments affecting planning fees, appeals board fees, coastal erosion permit fees, and wetlands permit fees.</li></ul>
+      <h3>Money</h3>
+      <ul><li>The Finance Department reported a $5 million general fund surplus from fiscal year 2025, which sparked the early retirement incentive discussion.</li><li>If all eligible PBA and SOA employees took the incentive, estimated first-year budget savings would be approximately $1.3–$1.4 million; the town currently owes roughly $2.5 million in accrued severance to those same employees regardless of any incentive.</li><li>Justice Court collected approximately $26,500 in fines in April; the rental permit program generated approximately $53,000 in revenue and issued 127 permits that month.</li></ul>
+      <h3>Discussed</h3>
+      <ul><li>Board members and the financial administrator debated the appropriate process for presenting the early retirement incentive, with disagreement over whether prior executive session presentations were procedurally proper.</li><li>Board members raised concerns about the long-term impact of the incentive on department operations, particularly in the Water Department, and asked to see a study of the 2019 retirement incentive&#x27;s multi-year fiscal effects.</li><li>A board member argued that the $5 million surplus could alternatively fund digitizing the Building Department (estimated at $1.4 million) and acquiring handheld parking enforcement devices, both of which would generate ongoing revenue.</li><li>The feral cat feeding issue was raised as a gap in the town code, with a suggestion to develop regulations.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/820e57c5-4894-4df6-9fa3-3f5b7015097f.mp4" type="video/mp4">
@@ -1210,6 +1227,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

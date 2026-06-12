@@ -6381,5 +6381,39 @@
       "end": 4258.02,
       "text": "Thank you."
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T03:19:22+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Zoning Board of Appeals denied a use variance for a proposed retail cannabis dispensary, approved a coastal erosion area variance for a Jamesport residential pool, accepted a withdrawal of one appeal, and reserved decision on a disputed pool-house addition in Riverhead.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "Appeal 2024-035 (Elizabeth McGrath, 1201 Ostrander Avenue): the board denied the use variance request for a proposed retail cannabis dispensary, finding the applicant failed to demonstrate unnecessary hardship or meet the required elements for a use variance.",
+          "Appeal 2024-031 (Jason and Jamie Pastrano, 834 Soundshore Road, Jamesport): the board granted relief under the Coastal Erosion Hazard Area regulations for a single-family dwelling and in-ground pool based on amended plans dated January 29, 2025, which relocated improvements landward of the 50-foot CEHA setback and removed the proposed hot tub.",
+          "Appeal 2024-036 (Portia Brown Trent, 650 Elton Street): the application was withdrawn before the public hearing was held.",
+          "Appeal 2023-033 (Kathleen Glass, 120 Louise Court): the board reserved its decision, to be issued at the next meeting on February 27, 2025, after hearing testimony about a revised pool-house and cabana proposal and neighbor objections regarding stormwater runoff and structure size."
+        ]
+      },
+      {
+        "heading": "Public hearings & comment",
+        "items": [
+          "A neighbor to the west of the Glass property testified at length against the pool-house proposal, citing ongoing stormwater runoff and sand accumulation on their driveway and concerns about the size of the enclosed and roofed areas.",
+          "The applicant's representative presented a comparative analysis showing the currently proposed roofed area of 798 square feet and enclosed area of 323 square feet, down significantly from a prior proposal, and submitted an engineering drainage report and topographical survey.",
+          "Correspondence from two neighboring properties objecting to the Glass application was entered into the record before the hearing."
+        ]
+      },
+      {
+        "heading": "Discussed",
+        "items": [
+          "Board members questioned whether stormwater runoff onto the neighbor's property originated from a soil mound on the Glass lots or from an adjacent flag lot entrance, with conflicting accounts from both sides.",
+          "The board noted that stormwater and construction-hours complaints are enforcement matters for code enforcement and the highway department, separate from the variance questions before the ZBA."
+        ]
+      }
+    ]
+  }
 }

@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2024-01-11, category:Town Board Work Session">
@@ -25,6 +25,23 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/5097" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/5097/files/agenda/4935" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Town Board work session covered the comprehensive plan&#x27;s environmental review scoping process, a complex state-mandated change to senior/disability property tax exemption income definitions, proposed agritourism zoning code amendments aimed at preserving Sound Avenue farmland, updated recreation facility rental fees, and police department year-end reports showing lower crime but ongoing dispatcher staffing shortages.</p>
+      <h3>Key actions</h3>
+      <ul><li>The board is expected to adopt a final scope for the comprehensive plan&#x27;s Generic Environmental Impact Statement at the upcoming Tuesday meeting, advancing the SEQRA process.</li><li>The board will need to pass a local law with a public hearing before March 1 to define how senior citizen and disability property tax exemption income is calculated under a new state real property tax law change.</li><li>A public hearing on proposed agritourism zoning amendments (Chapter 301) is being prepared; the code would allow inns and resorts on a minimum 100 acres with 70 percent of the land preserved for active agricultural production.</li><li>Recreation facility rental fees will increase from $30 to $35 per hour for 2024, with new charges of $20 per field for ball field prep and $25 per week for multi-purpose field prep.</li><li>Free 2024 beach stickers for veterans and volunteer fire and ambulance members are being ratified by resolution.</li><li>A public hearing on amendments to the town&#x27;s parking and towing regulations for privately owned, publicly accessed lots is set for February 6 at 2:05 p.m.</li><li>Reeves Beach has been closed following storm erosion that made the gazebo, walkway, and boat ramp unsafe; town engineering is assessing repairs and storm damages are being documented for potential federal assistance.</li></ul>
+      <h3>Money</h3>
+      <ul><li>The assessor warned that raising the senior exemption income ceiling to the state maximum of $58,400 could reduce the town&#x27;s assessed tax base by approximately $4 million, shifting the tax burden to other property owners.</li><li>Recreation facility rentals generated $73,000 in 2024 revenue with a goal of reaching $100,000 by end of 2024; proceeds are reinvested in fields and programs.</li><li>A $750,000 letter of credit performance bond from the Villas at Roanoke Seacrest Estates development was accepted by resolution.</li><li>A $3,000 stipend for a network and systems specialist related to the town&#x27;s VoIP telephone system is being ratified.</li></ul>
+      <h3>Discussed</h3>
+      <ul><li>The assessor explained that the new state income definition for property tax exemptions is highly complex, varies by taxing jurisdiction, and cannot reliably predict individual outcomes; the board must set a definition and income limit before holding a required public hearing.</li><li>Agritourism amendments were revised to prohibit temporary structures and catering events such as weddings, limit agricultural events to six per year, require events to be related to on-site or regional Long Island farming, increase Sound Avenue setbacks from 100 to 250 feet, and cap resorts at 100 guest units per 100 acres.</li><li>Police year-end reports showed overall criminal incidents were lower in 2023 than 2022 despite rising calls for service; dispatcher staffing remains critically short at 10 of a needed 16 positions, and the board discussed whether pay increases could reduce costly overtime.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/6a5b214f-d496-4a7f-ab23-859601be16f3.mp4" type="video/mp4">
@@ -1761,6 +1778,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

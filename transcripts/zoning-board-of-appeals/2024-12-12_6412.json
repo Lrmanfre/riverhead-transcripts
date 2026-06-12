@@ -15056,5 +15056,41 @@
       "end": 8584.0,
       "text": "Thank you."
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T03:18:19+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Riverhead Zoning Board of Appeals heard four matters on December 12, 2024, granting variances for two applications, adjourning two others for further information or revision.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "Appeal 2023-033 (Kathleen Glass, 120 Louise Court) was adjourned to January 9, 2025, after the applicant and a neighbor indicated they are trying to resolve the dispute.",
+          "Appeal 2024-031 (Jason and Jamie Pastrano, 834 Soundshore Road, Jamesport) was adjourned to January 23, 2025; the board directed the applicant to research whether comparable pools exist within the coastal erosion hazard zone on neighboring lots and to file with the Conservation Advisory Council regarding wetlands and septic placement.",
+          "Appeal 2024-032 (Jeff Vega, 189 Park Road) was granted variances for a side yard setback of 6.36 feet and impervious surface coverage of 31.4%, subject to the condition that an evergreen privacy hedge at least eight feet tall be installed on the north property line and shown on revised surveys.",
+          "Appeal 2024-033 (Prisco's Calverton Acres, 3674 Middle Country Road, Calverton) was granted variances for lot width on both proposed lots and for impervious surface coverage to allow a minor subdivision creating two lots from an existing parcel containing a deli and nursery use.",
+          "Appeal 2024-034 (Fisher Realty Group, 940–946 West Main Street) was adjourned to January 23, 2025; the board directed the applicant to consider reducing the size of the proposed buildings to lessen the requested relief for floor area ratio, impervious surface coverage, and landscaped area."
+        ]
+      },
+      {
+        "heading": "Public hearings & comment",
+        "items": [
+          "A neighbor to the south of the Vega property (189 Park Road) appeared and stated he had no objection once he confirmed the addition is on the opposite side of the lot from his boundary.",
+          "A neighbor to the north of the Vega property submitted written correspondence and participated via Zoom, objecting to the height and proximity of the proposed addition and suggesting an eight-foot privacy hedge as mitigation; that condition was incorporated into the approval.",
+          "No members of the public spoke or appeared on the Pastrano, Prisco, or Fisher Realty matters."
+        ]
+      },
+      {
+        "heading": "Discussed",
+        "items": [
+          "For the Pastrano application, the board noted the entire proposed pool remains within the coastal erosion hazard zone and that a wetland has been identified on the property; the applicant's architect explained the pool excavation depth would be only about three feet, shallower than the proposed house excavation.",
+          "For the Fisher Realty application, a board member noted the project is a Type 1 SEQRA action with the Planning Board as lead agency, meaning the Zoning Board cannot issue a determination until environmental review is complete.",
+          "The project architect for Fisher Realty disclosed he serves on the town's Business Advisory Committee, which is recommending the town review disparities between permitted building area and impervious surface requirements across zoning districts; the applicant's counsel stated this does not disqualify him from serving as a witness."
+        ]
+      }
+    ]
+  }
 }

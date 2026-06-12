@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2026-04-23, category:Town Board Work Session">
@@ -25,6 +25,23 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/6476" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/6476/files/agenda/5973" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Riverhead Town Board work session covered monthly reports from code enforcement, justice court, town clerk, and police, with discussion of hiring part-time code officers, shoplifting enforcement changes, and pending police reaccreditation. The board then entered executive session to discuss personnel and litigation matters.</p>
+      <h3>Key actions</h3>
+      <ul><li>The board voted to enter executive session to discuss employee discipline, changes in employee status, a leave of absence, and a litigation update.</li><li>A public hearing on a proposed $10 shellfish license fee is scheduled for May 5.</li><li>The police department was informally told by a reaccreditation review team that it meets all 112 New York State standards, with official approval pending.</li><li>Two part-time code enforcement officer positions have been posted on Indeed and interviews are being scheduled.</li></ul>
+      <h3>Money</h3>
+      <ul><li>Police department alarm billing revenue was down due to ongoing difficulties processing false-alarm billing after a system change; an intern is expected to help catch up next month.</li><li>Taxi cab renewal fees produced significant back-collected revenue after the town clerk&#x27;s office systematically addressed a backlog.</li></ul>
+      <h3>Discussed</h3>
+      <ul><li>Code enforcement reported 139 complaints opened and 139 summonses and violations issued combined for February and March, covering accessory apartments, rental permits, unsafe structures, and parking on lawns.</li><li>A board member raised constituent complaints about garbage, excessive cars, and parking on lawns in the Polish Town neighborhood near Marcy Avenue and Hamilton Parkway.</li><li>The district attorney&#x27;s office introduced a countywide Home Depot trespass affidavit so that a trespass at one store applies to all Suffolk County locations, potentially elevating repeat offenses to felony burglary.</li><li>Police reported a jump in criminal incidents in March partly attributed to a single Route 58 retailer that adopted a new merchandise-tracking system and began reporting more incidents.</li><li>Police noted two suspected non-fatal drug overdoses in March; substances are still pending lab results.</li><li>The police department&#x27;s two officers are entering motorcycle training with loaner bikes from Suffolk County, with certification expected around late May.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/6206098e-a4e3-4437-99b9-3ba0d916c875.mp4" type="video/mp4">
@@ -751,6 +768,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

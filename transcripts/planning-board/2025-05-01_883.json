@@ -7351,5 +7351,40 @@
       "end": 4458.66,
       "text": "Thank you."
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T01:49:15+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Riverhead Planning Board held five discussion items and approved several resolutions, including final site plan approval for the Long Island Cauliflower Association commercial center and an amended site plan for River Point Apartments, while scheduling public hearings for two additional applications.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "The board granted final site plan approval for the Long Island Cauliflower Association commercial center redevelopment at the corner of Route 58 and Mill Road, which includes a Chick-fil-A with drive-thru as the first phase.",
+          "The board approved an amended site plan for River Point Apartments at 821 East Main Street, accepting the as-built condition of entry overhangs without decorative brackets.",
+          "A public hearing was scheduled for June 5th for the Gouda LLC site plan application.",
+          "A public hearing was scheduled for the Sandy Pond Links LLC project at 1521 Roanoke Avenue, which proposes a clubhouse, trade shop buildings, and a manager's residence.",
+          "The board approved a SEQRA classification and farm stand approval for a business referred to as Hen-Pecked Husband, and separately granted farm stand approval for 47 Pelletreux LLC.",
+          "For the Cordova drive-thru conversion (Qdoba), the board determined that a cross-access easement recorded in 2006 already satisfies a prior condition of approval, requiring no new easement filing; the site plan will be updated to reference the existing recorded easement."
+        ]
+      },
+      {
+        "heading": "Public hearings & comment",
+        "items": [
+          "A representative of Long Island Farm Bureau asked the board to meet with all parties involved in the Kinsela property conservation easement matter before making a final determination, arguing the deal's complexity has not been fully presented.",
+          "The board chair responded that the town attorney will be asked to draft a memo to the town board with the board's findings on the conservation easement matter, as no legal mechanism to support the requested change was identified."
+        ]
+      },
+      {
+        "heading": "Discussed",
+        "items": [
+          "One board member stated opposition to the proposed right-in curb cut on Route 58 for the Long Island Cauliflower Association site, citing existing congestion on that corridor.",
+          "For Sandy Pond Links, the board discussed potentially adding a second, separate curb cut on Roanoke Avenue dedicated to the trade shop buildings to reduce traffic conflicts with the golf course."
+        ]
+      }
+    ]
+  }
 }

@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2025-02-13, category:Town Board Work Session">
@@ -25,6 +25,21 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/5152" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/5152/files/agenda/4990" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Town Board work session covered a proposed paid parking pilot program for downtown Riverhead and reviewed a large slate of resolutions scheduled for the next board meeting, including zoning amendments tied to the 2024 Comprehensive Plan update.</p>
+      <h3>Key actions</h3>
+      <ul><li>The board reached general consensus to move forward with signing an agreement with a parking technology vendor to launch a paid parking test in downtown Riverhead, likely in late spring, with details on lot selection, signage, and timing to be finalized after a follow-up meeting with the parking district.</li><li>A public hearing on amending zoning code regulations for Tier 2 battery energy storage systems was scheduled for March 4 at 2 p.m.</li><li>A public hearing on amending zoning code regulations for wireless communications towers and antennas was scheduled for March 4 at 2 p.m.</li><li>A public hearing on amending zoning code sign regulations was scheduled for March 4 at 2 p.m.</li><li>A public hearing on amending Pine Barrens Overlay District clearing and open space standards was scheduled for March 4 at 2 p.m.</li><li>Public hearings on site plan review extensions and a signs code amendment were also scheduled for an upcoming board meeting.</li><li>The board noted a resolution authorizing free beach stickers for veterans and volunteer fire and ambulance department members.</li><li>The board went into executive session to discuss personnel and real property matters.</li></ul>
+      <h3>Discussed</h3>
+      <ul><li>Board members debated whether a single-lot parking test would yield accurate data, with some concern that drivers would simply avoid a paid lot and park elsewhere for free; a parking consultant is expected to advise on scope at the upcoming parking district meeting.</li><li>A resolution amending the board&#x27;s own rules and procedures was pulled from the agenda for further review before a future meeting.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/251225a5-b50a-44f4-a7a2-695afcb3d3d9.mp4" type="video/mp4">
@@ -511,6 +526,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

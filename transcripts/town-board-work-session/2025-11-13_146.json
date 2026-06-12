@@ -646,5 +646,29 @@
       "end": 633.12,
       "text": "[transcription gap]"
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T02:30:01+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Town Board held a brief work session, reading a short list of resolutions before moving into executive session to discuss tax litigation and a personnel matter.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "The board reviewed resolutions covering trust fund expenditures, fixed asset removal, staff appointments and promotions, appraisals of tanks and land, a one-year extension of a federal water-monitoring equipment license at Wading River boat ramp, designation of the Jazz Loft Inc. as a qualified sponsor for redevelopment of the Vale-Levitt Music Hall at 18 Peconic Avenue, and a Lions Club Christmas parade event on December 6 centered around Town Hall.",
+          "The board entered executive session to discuss tax litigation involving Traditional Links and a separate personnel matter."
+        ]
+      },
+      {
+        "heading": "Discussed",
+        "items": [
+          "A fire at Wells Farm in the Aquebogue-Jamesport area caused minor smoke-inhalation injuries and loss of some farm animals; first responders were credited with saving others.",
+          "The Lions Club Christmas parade route will run down Main Street and end at Town Hall, where vendors and a tree lighting are planned for December 6."
+        ]
+      }
+    ]
+  }
 }

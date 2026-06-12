@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2026-01-15, category:Town Board Work Session">
@@ -25,6 +25,21 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/6462" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/6462/files/agenda/5915" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The board reviewed two battery energy storage applications at EPCAL and Calverton, advanced a Polish Town historical designation effort, and discussed a range of resolutions covering water and sewer projects, recreation fees, and a USGA parking agreement.</p>
+      <h3>Key actions</h3>
+      <ul><li>The board moved toward scheduling a February 18 public hearing for a 5-megawatt battery energy storage system proposed at 221 Scott Avenue in EPCAL, pending SEQRA negative declaration approval.</li><li>The board moved toward scheduling a February 18 public hearing for a 1,000-kilowatt-hour battery energy storage system proposed at the Hampton Jitney facility at 253 Edwards Avenue in Calverton.</li><li>The board directed staff to keep the senior resident beach parking permit fee at $10 rather than the proposed increase, amending the 2026 recreation fee schedule resolution accordingly.</li><li>The board authorized submission of a grant application to New York Sea Grant for a flooding study along Creek Road and Sound Road in Wading River, with an expression of interest due January 30.</li><li>A license agreement was advanced authorizing the USGA to use a portion of the EPCAL runway for parking during the U.S. Open in June 2026, with a reported agreement value of $150,000.</li><li>A bid was awarded for electrical rehabilitation of a water district pump station, with staff having completed mechanical and building work in-house to reduce costs.</li><li>The Landmarks Preservation Committee presented plans to form a volunteer subcommittee to survey properties and collect historical documentation in support of nominating Polish Town to the National Register of Historic Places.</li><li>A water main break that occurred the previous day during Main Street encasement work was reported as contained within approximately 45 minutes, with the Health Department and DEC notified and water samples pending results.</li></ul>
+      <h3>Discussed</h3>
+      <ul><li>One board member stated they are not comfortable approving battery storage facilities for operation until the town&#x27;s hazmat team is fully trained and equipped, though they did not oppose advancing the applications.</li><li>The fire marshal noted that Manorville Fire Department indicated comfort with the EPCAL battery storage project and that a third-party contractor has been engaged by the applicant for emergency response support.</li><li>National Register designation for Polish Town would make 20 percent state and 20 percent federal tax credits available to qualifying property owners undertaking restoration work, with no restrictions imposed on owners who do not seek the credits.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/10f9518d-e230-46ab-8860-0d0afbe296c5.mp4" type="video/mp4">
@@ -1393,6 +1408,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

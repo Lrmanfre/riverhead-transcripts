@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2025-04-24, category:Zoning Board of Appeals">
@@ -25,6 +25,23 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/6237" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/6237/files/agenda/5679" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Riverhead Zoning Board of Appeals heard five appeals on April 24, 2025, approving three farm-related variances with conditions and adjourning a cannabis dispensary variance for written comment; a professional office building variance was also approved.</p>
+      <h3>Key actions</h3>
+      <ul><li>Appeal 2025-011 (1086 Old Country Road, cannabis dispensary seeking relief from the 1,000-foot school setback, actual distance 735 feet) was adjourned for written public comment; the board reserved the right to conduct additional site visits.</li><li>Appeal 2025-012 (365 Harrison Avenue, one-story professional office building) was approved with conditions: use limited to professional office only, no medical use, basement for storage only, and a six-foot fence to be installed along the west property line.</li><li>Appeal 2025-013 (Pendleton&#x27;s Harvest Farm, 5558 Sound Avenue, Jamesport, small farm stand in an existing 10-by-14.5-foot structure) was approved with conditions tied to the applicant maintaining ownership or lease of adjacent farmed parcels and prohibiting residential habitation of the structure.</li><li>Appeal 2025-014 (Northwind Real Estate Holdings, 1254 Northville Turnpike, farm stand with a 13.3-foot front yard setback where 60 feet is required) was approved with conditions including compliance with Suffolk County DPW curb-cut requirements, restoration or re-approval of fencing within 90 days, and no certificate of occupancy until county approval is obtained.</li><li>Appeal 2025-016 (47 Pelletreau LLC, 2241 Roanoke Avenue, farm stand in a historic frame barn) was approved with conditions tied to maintaining lease rights to two separately farmed parcels, prohibiting habitation of the barn, and obtaining a road-opening permit for a curb cut.</li></ul>
+      <h3>Public hearings &amp; comment</h3>
+      <ul><li>On the cannabis dispensary appeal, board members raised concerns about a known student foot-traffic path between the adjacent school and the Route 58 shopping corridor and cited documented marijuana-related incidents in local schools.</li><li>The applicant&#x27;s attorney argued the 735-foot distance is functionally separated from the school by a four-lane highway, extensive fencing, and a large shopping complex, and contended New York State may have preempted the town&#x27;s 1,000-foot setback rule.</li><li>The board questioned whether the purchase of the property with knowledge of the 1,000-foot rule constituted a self-created hardship; the attorney acknowledged the applicant knew a variance would be needed.</li><li>An adjacent property owner testified against the Harrison Avenue office building, raising concerns about insufficient parking, grade differences, proximity of proposed construction to his property line, unscreened dumpster placement, and a possible future Suffolk County road-widening easement.</li><li>A neighbor and a friend offered supportive testimony for the Northville Turnpike farm stand, describing the applicant&#x27;s community involvement and the aesthetic quality of the repurposed-wood structure.</li><li>Multiple family members and supporters attended the Roanoke Avenue barn farm stand hearing; the board noted the barn&#x27;s documented history dating to 1922 and ongoing Justice Court violations related to an occupancy inspection are expected to be resolved once the farm stand approval is finalized.</li></ul>
+      <h3>Discussed</h3>
+      <ul><li>For the cannabis appeal, the board debated at length whether New York State cannabis law preempts the town&#x27;s 1,000-foot school setback, with no resolution reached; the question was noted as a live legal issue.</li><li>For the Northville Turnpike farm stand, the board directed the applicant to comply strictly with Suffolk County DPW requirements, including using asphalt for the curb cut as specified in the county&#x27;s April 10, 2025 correspondence.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/c6616021-27c1-4b0f-9dbc-ae6b9736cbd8.mp4" type="video/mp4">
@@ -1876,6 +1893,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

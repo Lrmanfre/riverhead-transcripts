@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2025-01-30, category:Town Board Work Session">
@@ -25,6 +25,23 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/5127" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/5127/files/agenda/4965" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Riverhead Town Board work session covered a $1.4 million state grant for the downtown amphitheater, plans for a new Riverhead Volunteer Ambulance Corps headquarters, proposed updates to town board rules, beach sticker policy for first responders, new fire marshal fees for battery energy storage and solar installations, and a batch of routine resolutions.</p>
+      <h3>Key actions</h3>
+      <ul><li>The board advanced plans to issue an RFP for a new approximately 16,600-square-foot RVAC ambulance headquarters to replace the 1989 building, with financing expected through a combination of transport billing revenue, fundraising, and a town bond.</li><li>The board discussed codifying the annual free beach and 4x4 sticker benefit for active volunteer firefighters and EMTs rather than reauthorizing it each year by resolution.</li><li>The Fire Marshal presented a proposal to add new construction and annual operating permit fees specifically for battery energy storage and solar installations, modeled on Brookhaven&#x27;s approach.</li><li>The board approved approximately 32 resolutions including personnel appointments, retirements, bid awards, grant submissions, and a public hearing on electrical upgrades at Water District Plant No. 7 set for February 13.</li><li>A public hearing on proposed amendments to the town&#x27;s Excavation and Grading fee schedule was scheduled for March 4, 2025 at 2 p.m.</li><li>The board entered executive session to discuss personnel matters, a PBA and SOA contract, sale of real property, and an environmental facilities contractual agreement.</li></ul>
+      <h3>Money</h3>
+      <ul><li>The town&#x27;s Community Development Agency was awarded $1.4 million through New York State Empire State Development&#x27;s Pro Housing Program for the downtown amphitheater project.</li><li>A separate award of approximately $187,000 was received for water infrastructure supporting the Suffolk Theater.</li><li>RVAC reported collecting roughly $100,000 in transport billing revenue in January 2025 alone, with an estimated potential of up to $1 million per year to help fund the new building.</li></ul>
+      <h3>Discussed</h3>
+      <ul><li>The town attorney presented a draft update to the town board&#x27;s rules and procedures, including a proposed three-minute public comment limit, a sign-in sheet system for speakers, a ban on signs inside the board chamber, expanded decorum rules, and a requirement that local laws not be adopted by ratification.</li><li>The board discussed attaching an annual CPI adjustment to fire marshal and other town fees so rates do not go decades without revision.</li><li>The possibility of allowing town employees who live outside Riverhead to purchase beach stickers was raised but set aside due to a legal concern about creating unequal employee benefits; the idea was referred to the beach committee for further review.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/6cce6263-a465-453d-a95f-1c8722d7cb75.mp4" type="video/mp4">
@@ -1660,6 +1677,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

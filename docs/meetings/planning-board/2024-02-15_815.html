@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2024-02-15, category:Planning Board">
@@ -25,6 +25,23 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/815" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/815/files/agenda/678" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Planning Board held a public hearing on a proposed Chevrolet dealership at 1309 Old Country Road, approved several resolutions including an administrative site plan for Hallockville Museum Farm barn improvements, and rescheduled a public hearing for the Marist Farm subdivision after improper posting.</p>
+      <h3>Public hearings &amp; comment</h3>
+      <ul><li>A public hearing was held for a site plan application proposing a new approximately 18,000-square-foot automobile dealership at 1309 Old Country Road on a 2.07-acre parcel in the Business Center zoning district, with parking, landscaping, drainage, and new water and sewer connections.</li><li>The applicant stated the revised plan requires fewer variances than the version previously approved by the Zoning Board of Appeals and includes an 8-foot vinyl fence and arborvitae buffer along the eastern boundary near residential properties.</li><li>No members of the public spoke at the hearing, which was then closed by board vote.</li><li>A scheduled public hearing for the Marist Farm subdivision was not held because the required posting was not completed properly; a new hearing date was set by resolution.</li></ul>
+      <h3>Key actions</h3>
+      <ul><li>The board approved an administrative site plan for interior alterations to the Nogles Barn at Hallockville Museum Farm, including bathrooms, a small food-prep area, interior conditioning, a new sanitary system, a water line, and accessible parking stalls.</li><li>The Hallockville approval was granted with a condition requiring compliance with all applicable town codes not explicitly listed in the resolution, addressing board concerns about event and wedding use on the property.</li><li>The board approved a resolution granting an extension of a minor subdivision approval in the Firmature application, which had a prior approval dating to 2015.</li><li>The board approved a six-month extension of preliminary site plan approval for a project identified as a dry-goods manufacturers outlet center.</li><li>The board approved a resolution transmitting a recommendation to the town board to amend the speed limit along a portion of Roanoke Avenue north of Middlewood Road.</li><li>The next Planning Board meeting was announced for Thursday, March 7, 2024 at 6 p.m.</li></ul>
+      <h3>Money</h3>
+      <ul><li>Hallockville Museum Farm was assessed a water district key-money fee of $3,075.80 in connection with the new water line for the barn project.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/29ef1ded-d992-4025-8c4e-0e47e5d434f6.mp4" type="video/mp4">
@@ -922,6 +939,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

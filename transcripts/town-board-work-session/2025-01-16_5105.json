@@ -9771,5 +9771,42 @@
       "end": 5956.9,
       "text": "that deals with pine barrens it really just"
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T02:17:25+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Town Board held a work session covering the December police report, formation of a new Hispanic community committee, a proposal to expand the Wesley Ackley Skate Park, and monthly reports from Justice Court, Code Enforcement, and the Town Clerk.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "The board expressed support for forming a new committee called the Hispanic Development Empowerment and Education Committee, with a resolution to formalize it planned; prospective members introduced include a community business leader, a local nursery owner, a former Guatemalan diplomat, a dentist with an education background, and a local pastor.",
+          "The board directed that a resolution be drafted authorizing the Community Development Agency to seek grants for a new cement skate park to be built on county land acquired through the Project Greenways program adjacent to the current Wesley Ackley Skate Park on Pulaski Street.",
+          "A presenter reported that a 501(c3) nonprofit has been established to support the skate park project and that grassroots fundraising has raised over $23,000 from more than 220 donors toward an estimated $1 million goal.",
+          "The Town Clerk noted the town is advertising to fill a part-time bilingual clerk position and suggested the new Hispanic committee may help identify candidates."
+        ]
+      },
+      {
+        "heading": "Money",
+        "items": [
+          "Code Enforcement collected $41,525 in rental permit fees during December.",
+          "Code Enforcement conducted approximately 2,500 rental unit inspections in 2024 and issued approximately 715 summonses for the year.",
+          "The Town Clerk reported 2,723 FOIL requests processed through the clerk's office in 2024, not including police department requests, which the board noted represents a significant and growing cost to taxpayers."
+        ]
+      },
+      {
+        "heading": "Discussed",
+        "items": [
+          "Captain Woolsey presented the December 2024 police report, noting vehicle thefts rose compared to December 2023, while robberies, burglaries, domestic incidents, and total summonses all decreased year-over-year.",
+          "The skate park proposal envisions a phased cement construction on land adjacent to Stotsky Park, with the existing skate park site potentially repurposed as a spray park or for other low-cost recreation; an ADA-accessible pump track was also discussed as a possible addition.",
+          "Justice Court was closed from December 16 through the first week of January; increased building permit and rental permit fines approved in December will begin appearing in January court data.",
+          "Code Enforcement opened 651 total complaints in 2024 and noted ongoing issues at a neglected commercial parking lot, including missing stop signs, deteriorated pavement, and graffiti, with cases pending in Justice Court.",
+          "The Town Clerk reported processing over 350 marriage licenses, more than 500 notarizations, 63 special permits, and over 50 new or amended local laws in 2024, and said new agenda-management and FOIL software is expected to be operational by June."
+        ]
+      }
+    ]
+  }
 }

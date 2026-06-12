@@ -7316,5 +7316,41 @@
       "end": 5053.66,
       "text": "you"
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T02:14:10+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Riverhead Town Board work session covered three main topics: a new special permit application for Sandy Pond Golf Club, a site plan amendment for Island Water Park, and a detailed update on the multi-phase Town Square development project.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "The Planning Department will prepare resolutions to initiate environmental quality review coordination and schedule a public hearing for a special permit at Sandy Pond Golf Club covering a proposed 3,100-square-foot clubhouse, a roughly 1,000-square-foot manager's residence, and three 7,200-square-foot trade shops at 1495 Roanoke Avenue.",
+          "The board directed staff to prepare resolutions for environmental quality review coordination on the Island Water Park site plan amendment, which covers an unpermitted go-kart track, a pickleball court, and a proposed conversion of a second-floor storage area to a 250-seat catering space.",
+          "The board agreed to schedule a public hearing on the Island Water Park application, and staff noted a 30-day agency review period would run concurrently.",
+          "Resolution of an outstanding emergency road access obligation was flagged as a priority before the Island Water Park application moves further forward."
+        ]
+      },
+      {
+        "heading": "Money",
+        "items": [
+          "The Town Square upper square is described as currently overfunded; staff plan to ask New York State to redirect approximately $1.6 million in excess funds to cover a roughly $1.8 million shortfall in the lower town square and playground budget.",
+          "Suffolk County downtown revitalization grants are funding at least half of the planned splash pad, with the possibility of full county funding.",
+          "Moving the East End Arts Council buildings is estimated at roughly $2 million, with amphitheater construction estimated between $2 million and $2.8 million; a potential staging agreement with an adjacent developer could contribute approximately $600,000 toward those costs.",
+          "The Main Street streetscape project has approximately $10.75 million in combined federal and state funding; underground utility work costs roughly $7,000 per linear foot."
+        ]
+      },
+      {
+        "heading": "Discussed",
+        "items": [
+          "Staff outlined a projected timeline in which a qualified-and-eligible-sponsor hearing would be held by end of November 2024, site plan and permitting work would conclude by May 2025, the master developer sale would close in June 2025, and construction on the hotel and Town Square would begin in August–September 2025.",
+          "Concerns were raised about potential drainage runoff from the go-kart track into the lake at Island Water Park, and staff indicated the applicant's engineer is pursuing DEC and health department approvals for a drainage design that would include oil separators.",
+          "A board member expressed opposition to narrowing Main Street as part of the complete streets design; staff noted the New York State DOT has already approved the narrowing."
+        ]
+      }
+    ]
+  }
 }

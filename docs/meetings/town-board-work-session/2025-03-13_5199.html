@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2025-03-13, category:Town Board Work Session">
@@ -25,6 +25,23 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/5199" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/5199/files/agenda/5037" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The board held a work session covering a SEQRA negative declaration for downtown revitalization projects, proposed updates to hazardous materials and fire protection code, and a list of roughly 38 resolutions to be voted on at the next regular meeting.</p>
+      <h3>Key actions</h3>
+      <ul><li>A consultant presented a SEQRA analysis for downtown revitalization projects and recommended a negative declaration, meaning no environmental impact statement is required; the board is expected to formally adopt that determination at its next meeting.</li><li>The town&#x27;s fire marshals proposed code changes to expand the definition of hazardous materials to cover lithium-ion batteries, EV vehicles, and radioactive materials, and to restore a fixed fire-suppression requirement for flammable-liquid fueling stations that was dropped from state code in 2015.</li><li>Resolution 15, an agreement with an engineering firm for a project, was pulled from the agenda and may be rescheduled.</li><li>A bond resolution appropriating $2.35 million was listed among the resolutions to be considered at the March 18 meeting.</li><li>The board entered executive session twice — once to discuss possible sale and acquisition of real property and a personnel matter, and again at the end of the session for an additional personnel matter.</li></ul>
+      <h3>Discussed</h3>
+      <ul><li>The downtown revitalization review was structured as a phased project; the board retains lead-agency authority over all phases, including a proposed multi-story parking structure on the north side that is still in early conceptual sizing and has not been designed.</li><li>The HAZMAT team currently operates under mutual-aid agreements with Southampton and Brookhaven towns; officials noted interest in eventually establishing a standalone Riverhead HAZMAT team.</li></ul>
+      <h3>Affects residents</h3>
+      <ul><li>The Park and Recreation Committee announced free public skate nights at the local ice rink on March 20, March 30, and April 15.</li><li>The East End Emerald Society Jamesport Parade is scheduled for Saturday, March 15 at 1 p.m. on the main road in Jamesport.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/c1db2fe4-4cc0-44af-ac6f-da6962f96c9e.mp4" type="video/mp4">
@@ -668,6 +685,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

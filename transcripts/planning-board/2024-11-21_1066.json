@@ -4251,5 +4251,38 @@
       "end": 2052.24,
       "text": "Thank you."
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T01:46:42+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Planning Board held public hearings on two minor subdivisions and approved a coastal erosion hazard permit for a seasonal cottage renovation. Staff also briefed the board on SEQRA coordination for a West Main Street redevelopment and flagged unpermitted clearing on Cromer Avenue.",
+    "sections": [
+      {
+        "heading": "Public hearings & comment",
+        "items": [
+          "A public hearing was opened and closed, with the written comment period kept open through December 2, for the Malice Property minor subdivision at 86 Second Street in Jamesport, which proposes splitting a roughly 1.087-acre parcel into two lots of approximately 21,776 and 25,567 square feet in the RB40 zoning district.",
+          "The Zoning Board of Appeals previously granted lot area, lot width, and impervious surface variances for the Malice Property subdivision; the existing horseshoe driveway will be abandoned and each new lot will have its own standard driveway.",
+          "A public hearing was opened and closed, with the written comment period kept open through December 2, for a minor subdivision at 230 West Main Street that would split a 14,557-square-foot parcel improved with a two-story professional office into two lots of approximately 7,153 and 7,404 square feet in the DC-3 zoning district; the ZBA previously granted a lot-width variance.",
+          "Staff corrected the record for 230 West Main Street, noting the property is within the Riverhead Downtown Parking District and therefore not required to provide on-site parking."
+        ]
+      },
+      {
+        "heading": "Key actions",
+        "items": [
+          "The board approved a Chapter 219 Coastal Erosion Hazard permit for reconstruction and second-story addition of a seasonal cottage at 32 Beach Hill Drive in Calverton, subject to plan revisions including a foundation evaluation and structural analysis.",
+          "Staff notified the board that SEQRA Type I coordination materials for the 940 and 946 West Main Street redevelopment (former Blackman site) were distributed to involved agencies on November 13; no board action was taken, and the next step will be assuming lead agency status and issuing a determination of significance."
+        ]
+      },
+      {
+        "heading": "Discussed",
+        "items": [
+          "Staff reported that unpermitted land clearing occurred on Cromer Avenue without site plan or land clearing permits from the planning board or building department; the matter is under review and has not yet been discussed with counsel.",
+          "The next Planning Board meeting is scheduled for December 5 at 6 p.m."
+        ]
+      }
+    ]
+  }
 }

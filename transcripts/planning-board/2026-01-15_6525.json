@@ -1736,5 +1736,25 @@
       "end": 1550.4,
       "text": "Thank you."
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T01:54:35+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Riverhead Planning Board approved four resolutions at its January 15 meeting, covering a site plan, a performance bond release, a medical center application, a pool site improvement, and a minor subdivision extension.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "The board granted preliminary site plan approval for the application at 305 West Main Street (Resolution 2026-001).",
+          "The board approved a resolution to release a performance bond for NM Golf.",
+          "The board approved the Peconic Bay Medical Center Northwell Health maternity relocation and expansion site plan resolution (Resolution 2026-003).",
+          "The board approved Resolution 2026-004 for Van Bander Pools site improvements as amended, adding a condition requiring the town engineer to confirm the drainage system design is adequate.",
+          "The board approved two 90-day extensions for a minor subdivision at 230 West Main Street (Resolution 2026-005)."
+        ]
+      }
+    ]
+  }
 }

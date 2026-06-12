@@ -9506,5 +9506,38 @@
       "end": 4121.58,
       "text": "Thank you."
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T02:00:43+00:00",
+    "agenda_grounded": false,
+    "tldr": "The board reviewed four topics: enforcement of a lithium-ion battery sales ban extended to online retailers, a new and costly state stormwater permit mandate, progress on the town's comprehensive plan update, and proposals to raise sponsorship and advertising rates for the Recreation Department.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "Town staff plan to send warning letters to major online retailers and publish a public service announcement informing them that shipping non-UL-listed lithium-ion batteries to six Riverhead-area zip codes violates the town's existing Chapter 213 code, effective January 4, 2024.",
+          "The board voted to enter executive session to discuss two employee status changes, and contractual matters involving a sports facilities company, a fabrication firm, and the Riverhead Central School District."
+        ]
+      },
+      {
+        "heading": "Money",
+        "items": [
+          "A new state MS4 stormwater permit, effective January 3, 2024, imposes roughly ten new compliance programs and eight new training requirements with no state funding; staff estimated initial costs at approximately 1.6 million dollars for equipment and personnel alone.",
+          "The town is exploring hiring a stormwater consultant for approximately $30,000 for the first year and is pursuing grants to offset costs.",
+          "The Recreation Department proposed raising ball-field banner and brochure advertising rates, which have not increased in many years, with the goal of offsetting the roughly $4,000–$5,000 per-issue printing cost; current ad revenue is under $2,500 annually."
+        ]
+      },
+      {
+        "heading": "Discussed",
+        "items": [
+          "The comprehensive plan update remains on schedule, with all draft chapters expected to be posted online by February 15 for a 30-day public comment period, followed by board review in April and concurrent SEQRA processing.",
+          "The Business Improvement District presented its 2024 events calendar, reducing Alive on 25 from four dates to two, proposing to move the Halloween Coffin Race onto Main Street, and replacing the single large bonfire with multiple fire pits throughout Town Square.",
+          "Staff and the board discussed sharing stormwater equipment such as vacuum trucks and sweepers with other East End towns through an inter-municipal agreement to reduce costs."
+        ]
+      }
+    ]
+  }
 }

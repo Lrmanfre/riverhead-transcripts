@@ -13061,5 +13061,44 @@
       "end": 8981.94,
       "text": "Bye."
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T02:21:36+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Riverhead Town Board work session covered two proposals to reactivate the Val Levitt Music Hall, a presentation on the Riverhead Science Center's two-phase renovation plan for a downtown building, housing assistance programs, park improvements, and a slate of resolutions.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "The board heard a presentation from the Jazz Loft of Stony Brook, a 501(c)(3) performing-arts nonprofit, as a potential operator of the Val Levitt Music Hall under the urban renewal qualified-and-eligible sponsor process.",
+          "A local developer and musician also presented a competing proposal to restore and operate the Val Levitt, citing his own construction experience with historic Riverhead buildings and connections to entertainment-industry partners.",
+          "Neither presenter received a formal decision; the board indicated a qualified-and-eligible hearing would follow if it chooses to advance either proposal.",
+          "A two-phase renovation plan for a downtown building to house the Riverhead Science Center was presented, with a goal of opening a basic ground-floor science exhibit space by roughly August 2025 and adding a planetarium and rooftop greenhouse in a later phase.",
+          "The board discussed concerns about securing funding for phase two of the Science Center before construction, and directed the architect to file complete structural drawings covering both phases so proof of intent is built into the permit record.",
+          "The board reviewed a proposed partnership with Suffolk County's first-time homebuyer Down Payment Assistance Program, under which the town would provide supplemental funds from its workforce-housing account to qualifying buyers purchasing in Riverhead.",
+          "The board reviewed a state-funded Accessory Dwelling Unit program offering up to $125,000 to property owners to bring existing ADUs up to code, administered in partnership with Long Island Housing Partnership.",
+          "The board was briefed on a budget amendment for Veterans Memorial Park, where two change orders caused cost overruns on a sanitary system project originally designed in 2007; the town engineer said restroom opening is anticipated within days pending utility connection.",
+          "The board discussed park improvements at Two Bears Park, with an estimated project cost of roughly $236,000 using park-and-recreation fees, including a new full basketball court and combined tennis-pickleball courts replacing deteriorated facilities."
+        ]
+      },
+      {
+        "heading": "Money",
+        "items": [
+          "The town has approximately $271,000 in park-and-recreation fees available for the Two Bears Park project, saving roughly $80,000 compared to an outside quote of approximately $385,000 by using the town's annual construction contract.",
+          "The Science Center team said it has roughly $1.8 million in grants in place for phase one and another $1.8 million earmarked for the planetarium phase, with a prior letter of commitment for a larger build-out that the board noted has not been fully funded.",
+          "The Down Payment Assistance Program has $280,500 available from town workforce-housing funds, enough to assist approximately nine households in addition to the county's $30,000 per-buyer grant."
+        ]
+      },
+      {
+        "heading": "Discussed",
+        "items": [
+          "Board members raised concerns that the Science Center's main east-facing wall toward the future town square could remain a blank CMU surface for years if phase-two funding does not materialize, and asked for design and funding guarantees before proceeding.",
+          "The board opposed state legislation that would limit municipal zoning authority over lot sizes and density, and directed staff to send a formal resolution of opposition to the relevant state officials."
+        ]
+      }
+    ]
+  }
 }

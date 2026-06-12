@@ -5211,5 +5211,43 @@
       "end": 2900.96,
       "text": "Thank you."
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T02:13:06+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Town Board held a work session focused mainly on the 2025 preliminary budget, which pierces the tax cap, with significant discussion of elected official and department-head salaries, police costs, and park maintenance needs. The board also received a visit from Riverhead High School NJROTC cadets and heard community announcements.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "The board discussed the 2025 preliminary budget, which pierces the state tax cap, and noted that a special meeting must be held by October 25 or 28 to adopt any amendments before the November 7 public hearing.",
+          "Personnel and salary matters related to department heads and elected officials were referred to executive session rather than discussed publicly.",
+          "The board moved into executive session to address personnel changes, a PBA contract, a possible lease of town property, a possible sale of real property, and two active litigation matters."
+        ]
+      },
+      {
+        "heading": "Money",
+        "items": [
+          "The supervisor noted elected officials' salaries have not been raised since approximately 2009 (supervisor) and 2015 (town board members), and presented comparison data showing Riverhead pays among the lowest of comparable towns.",
+          "Police department costs represent roughly 50 percent of the town budget, driven by staffing, new vehicles, health insurance increases of about 10 percent, and rising pension costs.",
+          "The supervisor said the town is likely to pierce the tax cap again in 2026, citing structural cost pressures shared by most Suffolk County towns.",
+          "A roughly $150,000 parking-lot repaving project at Police Officers Memorial Park (Bayberry Park) and a $70,000 Reeves Beach boat-ramp project remain unfunded; the supervisor suggested future solar community-benefit funds could cover both.",
+          "The Suffolk County Supervisors Association has written to the governor seeking relief from the tax cap formula, and the supervisor is pursuing state legislation to allow park-and-recreation fees to be used for maintenance.",
+          "The supervisor is working with East End towns to seek a more equitable distribution of Community Preservation Fund revenue among the five eastern townships."
+        ]
+      },
+      {
+        "heading": "Discussed",
+        "items": [
+          "Cherry blossom trees purchased by community members have been planted at Veterans Memorial Park at no cost to the town, with monuments to follow and a ribbon-cutting planned for Veterans Day.",
+          "Portable bathrooms at Enterprise Park (EpCal) received Board of Health approval, with a permanent concrete restroom structure expected to arrive soon.",
+          "The NJROTC program at Riverhead High School has grown from about 70 cadets in 2022 to 141 and reported ongoing community service participation.",
+          "A Huddle for Hunger flag-football food drive is scheduled for November 9 at Stotzky Park, and an Anti-Litter Committee fall cleanup is set for November 2 at Town Hall from 9 to 11 a.m."
+        ]
+      }
+    ]
+  }
 }

@@ -11161,5 +11161,40 @@
       "end": 6538.62,
       "text": "Be safe and we'll see you next week."
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T04:08:42+00:00",
+    "agenda_grounded": false,
+    "chunked": true,
+    "tldr": "The Town Board work session focused primarily on an extensive presentation on downtown revitalization and the six-subproject Town Square initiative, reviewed a large consent agenda of 43 resolutions covering personnel, events, code amendments, and capital projects, and advanced two items—J. Petrucelli's developer qualification and a Title VI plan—for Tuesday's regular meeting.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "A resolution to formally designate J. Petrucelli as qualified and eligible developer for the Town Square project will be drafted and placed on Tuesday's agenda after the applicant submitted audited financials and a letter certifying available investment funds in the tens of millions of dollars.",
+          "A draft resolution to adopt the Town's Title VI Civil Rights plan and appoint a council member as Title VI coordinator will also appear on Tuesday's agenda, tied to two federally assisted transit bus grants from 2020 and 2022.",
+          "The Staples/Harbor Freight parking lot was designated a blighted property as of approximately July 25, triggering a $5,000 annual penalty and a required 30-day response period before formal registry listing.",
+          "A proposed amendment to the noise code (Chapter 251) would prohibit commercial refrigerated truck idling that causes noise or emissions to cross into adjacent residential properties without an adequate physical barrier, with standard stockade fencing explicitly excluded.",
+          "The board discussed seeking Supreme Court injunctive relief and civil penalties capped at $15,000 every two weeks for the blighted parking lot.",
+          "Resolution 17 authorizes demolition of a dangerous structure at 40 17th Street, Wading River.",
+          "Resolution 20 authorizes a grant application to the Dormitory Authority of New York State for up to $700,000 for capital improvements to the George Young Community Center, including HVAC, an elevator, parking, and an ADA playground.",
+          "Resolution 33 schedules a public hearing for August 19 to consider amending Chapter 301 (Penalties for Offenses), and Resolutions 37 and 38 schedule hearings the same evening on penalty amendments to traffic and fire prevention codes.",
+          "Resolution 39 schedules a public hearing for September 3 at 2:00 PM regarding an unsafe structure at 39 Pie Lane, Jamesport.",
+          "Resolution 4 authorizes a $120,000 budget adjustment to settle with a tenant at 127 East Main Street."
+        ]
+      },
+      {
+        "heading": "Money",
+        "items": [
+          "Town Square Upper has approximately $4.25 million in committed funding and construction plans ready to bid; Town Square Lower has roughly $1.14 million secured against an estimated $3 million cost.",
+          "The First Street Parking Garage has approximately $17.5 million in funding against an estimated cost of $23–25 million; the Amphitheater has $1.75 million secured against an estimated $5 million cost with additional grant applications pending.",
+          "The town bonded $6 million during COVID to acquire 117 and 121 East Main Street.",
+          "A 2025 Army Corps of Engineers study recommended a flood wall along East Main Street connecting building foundations from the Gallo building to the Elk Hill building."
+        ]
+      }
+    ]
+  }
 }

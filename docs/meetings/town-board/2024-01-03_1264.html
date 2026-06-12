@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2024-01-03, category:Town Board">
@@ -25,6 +25,23 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/1264" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/1264/files/agenda/1127" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The newly seated Riverhead Town Board held its first meeting of 2024, approving salaries, making numerous personnel appointments, and passing a six-month industrial moratorium for the Calverton area while also amending EPCAL zoning rules.</p>
+      <h3>Key actions</h3>
+      <ul><li>The board set salaries for elected officials and employees across all town departments for 2024, approving numerous individual salary adjustments unanimously.</li><li>Town Attorney Eric Howard was reappointed; one board member noted a family relationship but voted yes after consulting the deputy town attorney on applicable ethics rules.</li><li>Edward Deniseski was appointed Planning Board chairperson and John Hogan as vice chair; Ken Zelnicki was appointed as a new Planning Board member, with one board member abstaining due to a distant family relationship.</li><li>Otto Whitmire was appointed Zoning Board of Appeals chairperson and Ralph Gazzillo was reappointed and named vice chair, following the accepted resignation of a long-serving ZBA member.</li><li>A six-month industrial moratorium for the Calverton area (Chapter 303) was adopted as amended, requiring a supermajority; one board member voted no and another voted yes citing the comprehensive plan&#x27;s near completion.</li><li>The board amended Chapter 301 zoning to prohibit commercial, cargo, and freight airports at EPCAL while expressly permitting fueling, hangaring, and private plane operations ancillary to permitted uses; one member voted no, stating concern that the exception would allow ongoing flight activity residents oppose.</li><li>The board authorized a public notice for a local law amending waterway regulations, with the supervisor indicating it could reopen East Creek to recreational clamming for town residents with a permit.</li><li>A portable nine-unit restroom facility was approved for Veterans Memorial Park as an interim measure pending a permanent structure expected in spring.</li></ul>
+      <h3>Money</h3>
+      <ul><li>The tax receiver reported total tax collections of approximately $8.1 million as of December 21, 2023.</li><li>The town accepted a grant from FM Global consisting of a digital camera and lighting system donated to the fire marshals.</li><li>The town is processing a $5.5 million EPA grant and separate state funding under the Bipartisan Infrastructure Law to address contaminated water in Manorville; a multi-agency coordination meeting was scheduled for January 11.</li></ul>
+      <h3>Public hearings &amp; comment</h3>
+      <ul><li>Multiple residents from Wading River and Calverton urged passage of the industrial moratorium and expressed concern that a project referred to as HK Ventures may be exempt from it.</li><li>A resident raised questions about whether a proposed Riverhead Charter School expansion onto approximately 71 acres along Sound Avenue is permitted in an APZ agricultural zoning district, citing code language that allows only private educational institutions as a special permit use.</li><li>A Manorville resident reported that MTBE levels in her well water recently exceeded allowable limits and that acetone has also been detected, calling for faster action on the water remediation effort.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/7039d35f-70c4-470c-ac77-097daf051075.mp4" type="video/mp4">
@@ -1797,6 +1814,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

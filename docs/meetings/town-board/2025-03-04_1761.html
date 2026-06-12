@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2025-03-04, category:Town Board">
@@ -25,6 +25,21 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/1761" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/1761/files/agenda/1624" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Riverhead Town Board held eight public hearings on zoning housekeeping, site plan extension rules, sign code changes, and excavation fees, then voted on roughly 30 resolutions including a contested conditional negative declaration for Island Water Park and new rules governing town board meeting conduct.</p>
+      <h3>Key actions</h3>
+      <ul><li>The board approved Resolution 234 assuming lead agency status and issuing a conditional negative declaration for the Island Water Park (DBA Scotts Point) site plan at 5835 Middle Country Road, Calverton; one board member voted no, citing concerns raised in public comment about the SEQRA classification.</li><li>The board adopted Resolution 230 amending rules and procedures for town board meetings; public commenters objected specifically to a provision banning signs in the boardroom.</li><li>The board ratified a new agreement with the Riverhead Town Police Benevolent Association (Resolution 238).</li><li>The board appointed Ken Zelnicki to the Riverhead Farmland Preservation Committee and reappointed or added members to the Small Business Advisory Committee.</li><li>The board adopted local law amendments to the town code covering animals, peddling and soliciting, and yard and garage sales.</li><li>The board awarded an engineering services contract for a Class A biosolids upgrade project for the Riverhead Sewer District.</li></ul>
+      <h3>Public hearings &amp; comment</h3>
+      <ul><li>A proposed code amendment would extend preliminary site plan approval from 18 months to up to two years by allowing a second six-month extension, and would add a $250 fee per extension request.</li><li>A proposed sign code amendment would allow governmental subdivisions such as fire districts, the ambulance corps, and the public library to apply for signs that could be exempted from standard zoning district restrictions with planning department review and a town board resolution.</li><li>A proposed excavation chapter amendment would raise the per-cubic-yard fee for importation and exportation of material from $2 to $3.</li><li>Five other public hearings addressed zoning housekeeping to replace obsolete industrial zoning district references with current Calverton Industrial and Light Industrial designations in the sign code, Pine Barrens Overlay, wireless communication, commercial solar, and B2 codes.</li><li>All public hearings were left open for written comment until March 14 at 4:30 p.m.</li><li>A speaker objected to the Island Water Park conditional negative declaration, arguing the application should have been classified as a Type 1 SEQRA action requiring a supplemental EIS rather than an unlisted action.</li><li>Multiple residents spoke against the ban on signs in the boardroom, arguing it limits participation especially for residents uncomfortable speaking publicly.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/0ec18c56-852b-49a3-a533-4241696d9190.mp4" type="video/mp4">
@@ -1163,6 +1178,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

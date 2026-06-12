@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2024-12-12, category:Zoning Board of Appeals">
@@ -25,6 +25,23 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/6412" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/6412/files/agenda/5854" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Riverhead Zoning Board of Appeals heard four matters on December 12, 2024, granting variances for two applications, adjourning two others for further information or revision.</p>
+      <h3>Key actions</h3>
+      <ul><li>Appeal 2023-033 (Kathleen Glass, 120 Louise Court) was adjourned to January 9, 2025, after the applicant and a neighbor indicated they are trying to resolve the dispute.</li><li>Appeal 2024-031 (Jason and Jamie Pastrano, 834 Soundshore Road, Jamesport) was adjourned to January 23, 2025; the board directed the applicant to research whether comparable pools exist within the coastal erosion hazard zone on neighboring lots and to file with the Conservation Advisory Council regarding wetlands and septic placement.</li><li>Appeal 2024-032 (Jeff Vega, 189 Park Road) was granted variances for a side yard setback of 6.36 feet and impervious surface coverage of 31.4%, subject to the condition that an evergreen privacy hedge at least eight feet tall be installed on the north property line and shown on revised surveys.</li><li>Appeal 2024-033 (Prisco&#x27;s Calverton Acres, 3674 Middle Country Road, Calverton) was granted variances for lot width on both proposed lots and for impervious surface coverage to allow a minor subdivision creating two lots from an existing parcel containing a deli and nursery use.</li><li>Appeal 2024-034 (Fisher Realty Group, 940–946 West Main Street) was adjourned to January 23, 2025; the board directed the applicant to consider reducing the size of the proposed buildings to lessen the requested relief for floor area ratio, impervious surface coverage, and landscaped area.</li></ul>
+      <h3>Public hearings &amp; comment</h3>
+      <ul><li>A neighbor to the south of the Vega property (189 Park Road) appeared and stated he had no objection once he confirmed the addition is on the opposite side of the lot from his boundary.</li><li>A neighbor to the north of the Vega property submitted written correspondence and participated via Zoom, objecting to the height and proximity of the proposed addition and suggesting an eight-foot privacy hedge as mitigation; that condition was incorporated into the approval.</li><li>No members of the public spoke or appeared on the Pastrano, Prisco, or Fisher Realty matters.</li></ul>
+      <h3>Discussed</h3>
+      <ul><li>For the Pastrano application, the board noted the entire proposed pool remains within the coastal erosion hazard zone and that a wetland has been identified on the property; the applicant&#x27;s architect explained the pool excavation depth would be only about three feet, shallower than the proposed house excavation.</li><li>For the Fisher Realty application, a board member noted the project is a Type 1 SEQRA action with the Planning Board as lead agency, meaning the Zoning Board cannot issue a determination until environmental review is complete.</li><li>The project architect for Fisher Realty disclosed he serves on the town&#x27;s Business Advisory Committee, which is recommending the town review disparities between permitted building area and impervious surface requirements across zoning districts; the applicant&#x27;s counsel stated this does not disqualify him from serving as a witness.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/14aa8c64-7fb9-42aa-89ea-abb0d532f489.mp4" type="video/mp4">
@@ -2367,6 +2384,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

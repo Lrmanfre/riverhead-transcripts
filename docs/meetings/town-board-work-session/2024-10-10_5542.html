@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2024-10-10, category:Town Board Work Session">
@@ -25,6 +25,21 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/5542" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/5542/files/agenda/5380" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The board discussed a 30-day paid parking pilot in one downtown lot and a new Limited English Proficiency policy, then reviewed a slate of resolutions scheduled for the October 16 regular meeting.</p>
+      <h3>Key actions</h3>
+      <ul><li>The board agreed to move forward with a 30-day paid parking pilot in the lot behind Diggers on West Main Street, to begin roughly ten days after a resolution is adopted on October 16.</li><li>The pilot will charge approximately one dollar per hour; businesses may optionally validate parking for customers, meaning the business absorbs the cost.</li><li>A dedicated website and a 24/7 text-help number will be set up before the pilot launches to inform businesses and the public.</li><li>The board reviewed a draft Limited English Proficiency policy that would extend translation services town-wide, including expanding the police department&#x27;s existing language line to all town offices.</li><li>A resolution was flagged to rescind a 2023 ARPA-funded budget adoption for software that was never drawn down, as part of obligating all American Rescue Plan funds before the December 31 deadline.</li><li>A resolution authorizes the supervisor to execute an agreement with a fire rescue equipment vendor to get in queue for a new ambulance chassis and box retrofit, with delivery estimated one and a half to two and a half years out.</li><li>Public hearings on dock regulations and a residential parking code amendment were scheduled for November 7 at 2 p.m.</li></ul>
+      <h3>Discussed</h3>
+      <ul><li>Staff noted the downtown parking garage project has over seventeen million dollars in grant awards toward an estimated twenty-three million dollar cost, but cannot spend any funds until a federal contract is signed, with shovels in the ground estimated roughly two years away.</li><li>A Congressional Medal of Honor belonging to Private First Class Garfield Langhorne will be on display in Town Hall from October 11 through Veterans Day, on loan from his family.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/73bef3e3-0ffa-4875-ba41-15e3106eed41.mp4" type="video/mp4">
@@ -852,6 +867,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

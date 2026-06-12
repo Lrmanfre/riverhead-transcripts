@@ -786,5 +786,28 @@
       "end": 700.46,
       "text": "Thank you."
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T02:45:02+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Town Board held a brief special meeting, passing one resolution to accept the Draft Generic Environmental Impact Statement (DGEIS) for the 2024 Comprehensive Plan update and scheduling a public hearing on it.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "The board unanimously adopted a resolution accepting the DGEIS for the 2024 Comprehensive Plan update, declaring it complete for public review purposes, and scheduling a public hearing."
+        ]
+      },
+      {
+        "heading": "Public hearings & comment",
+        "items": [
+          "A Reeves Park resident asked the board to maintain the current policy restricting beach permits to residents and to preserve the 29-30 day minimum rental rule to curb short-term rental scams and related nuisances.",
+          "An online commenter sought clarification on when the DGEIS and updated Comprehensive Plan documents would be posted publicly; a planning consultant explained the documents would be available online later that afternoon."
+        ]
+      }
+    ]
+  }
 }

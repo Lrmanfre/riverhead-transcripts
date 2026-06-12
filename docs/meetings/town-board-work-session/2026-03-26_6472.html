@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2026-03-26, category:Town Board Work Session">
@@ -25,6 +25,21 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/6472" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/6472/files/agenda/5958" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Riverhead Town Board work session covered three main topics: a state veterans disability tax exemption now mandatory by October 2026, a failing HVAC system at the George Young Community Center requiring replacement, and growing frustration with the Long Island Science Center&#x27;s lack of progress on its Main Street building.</p>
+      <h3>Key actions</h3>
+      <ul><li>The board directed staff to retain an outside HVAC engineer at a cost of approximately $9,200 to evaluate replacement options for the George Young Community Center&#x27;s 1970s-era heating system, with a goal of going to bid by May and completing work before winter.</li><li>Three board members stated they are prepared to vote in favor of condemnation proceedings against the Long Island Science Center&#x27;s Main Street property if representatives do not appear at the next work session to present a credible plan.</li><li>The board agreed to re-invite the Long Island Science Center to the next work session and to place the Live on 25 street festival discussion on the following week&#x27;s agenda as well.</li></ul>
+      <h3>Discussed</h3>
+      <ul><li>A state law signed in December and amended February 13, 2026 makes a full property tax exemption for seriously disabled veterans meeting specific criteria—including a 100% VA disability rating and use of federal pecuniary assistance to adapt housing—mandatory for municipalities effective October 2026, so no local opt-in ordinance is required.</li><li>Board members noted the exemption&#x27;s housing-modification requirement excludes many veterans, including those rated 100% disabled due to PTSD, and expressed support for state-level efforts to simplify the application process.</li><li>The George Young Community Center&#x27;s heat pump system has been running only on backup electric resistance coils, recently caused a pipe freeze, and a contractor estimate for replacement off a county contract came in around $400,000; staff believe a redesigned approach could bring costs closer to $300,000.</li><li>Discussion of the Live on 25 street festival was inconclusive: the BID and chamber indicated they prefer to focus resources on the cardboard boat race this year, while several council members argued the event directly benefits downtown restaurants and shops and should continue, potentially on a Thursday night and on Main Street.</li><li>A board member detailed that the Long Island Science Center building has sat vacant since purchase in 2019, has no current building permits, carries a mechanic&#x27;s lien, and has visible structural and mold concerns adjacent to the town&#x27;s active Town Square construction.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/b92d8471-1c7f-45cd-b80a-828e6b59ef66.mp4" type="video/mp4">
@@ -1182,6 +1197,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

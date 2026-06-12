@@ -7676,5 +7676,42 @@
       "end": 4839.9,
       "text": "."
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T02:19:19+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Town Board work session featured presentations from the Riverhead IDA on its 2023 economic impact and from the Town Historian on her annual report, followed by brief updates on community events and Veterans Memorial Park improvements before the board moved into executive session.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "The board moved into executive session to discuss personnel matters, a contractual agreement with BIDMA, potential Supreme Court litigation for town code violations, the sale or lease of real property, and a possible MOA.",
+          "The Town Historian requested that the board restore a supplies budget line, which the board indicated it was prepared to do, and also requested a wearable alert device so she can summon help while working alone in the lower-level office.",
+          "Permanent restroom facilities were delivered and lowered into place at Veterans Memorial Park, with utility connections expected to be completed imminently pending an LIPA transformer installation."
+        ]
+      },
+      {
+        "heading": "Discussed",
+        "items": [
+          "The Riverhead IDA reported that its 21 active projects (out of roughly 16,500 total town parcels) saw assessed value rise from approximately $7 million to approximately $32 million, with tax revenue from those parcels increasing from roughly $720,000 to roughly $2.9 million in 2023.",
+          "IDA representatives stated that jobs on those 21 parcels grew from 29 to approximately 1,402, and that eight projects generated over $3.3 million in sales tax and over $800,000 in occupancy tax in 2023.",
+          "The IDA addressed the claim that it has cost the school district $15 million over ten years, arguing that figure, if accurate, represents less than 1 percent of the $1.54 billion school budget over the same period.",
+          "IDA representatives noted that a new project dashboard and redesigned website are in progress and expected before year-end.",
+          "Town Historian Georgette Case presented her annual report highlighting the historian's office relocation, acquisition of historic documents and artifacts including early bank records and oaths of office, and ongoing research into Native American burial protection laws."
+        ]
+      },
+      {
+        "heading": "Affects residents",
+        "items": [
+          "The Town Historian's office is open Wednesdays from 9 a.m. to 3 p.m. in the lower level of Town Hall at 200 Howell Avenue for residents seeking local history research assistance.",
+          "Free public skating sessions for children are scheduled at the Veterans Memorial Park ice rink during the upcoming spring school break; specific dates are posted on the Recreation Department website.",
+          "An Irish flag-raising ceremony is scheduled for Saturday, March 8 at the George Young Community Center at 10:30 a.m., preceding the East End Society Jamesport Parade on March 15.",
+          "Residents are reminded that daylight saving time begins Sunday, March 9, requiring clocks to be set forward one hour."
+        ]
+      }
+    ]
+  }
 }

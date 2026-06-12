@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2024-08-29, category:Town Board Work Session">
@@ -25,6 +25,21 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/5470" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/5470/files/agenda/5308" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The board discussed a joint effort with Brookhaven Town to restore the Wading River Duck Ponds through a shared grant application, and reviewed a slate of resolutions covering permits, personnel, events, and grants.</p>
+      <h3>Key actions</h3>
+      <ul><li>The board reviewed a resolution authorizing an inter-municipal agreement with Brookhaven Town for dredging, bulkhead repair, and landscaping at the Wading River Duck Ponds; the resolution will be revised before a vote.</li><li>The board approved a special permit with conditions for 431 Griffin Avenue to convert an office to a single-family dwelling.</li><li>The board approved a special permit with conditions for a property at 4592 Middle Country Road in Calverton to construct a two-family dwelling.</li><li>A resolution was introduced calling a public hearing on a proposed lateral water main extension at 437 and 483 Young&#x27;s Avenue in Calverton.</li><li>The board formally recognized the supervisor&#x27;s advisory citizens cooperative development team focused on EPCAL development.</li><li>A resolution was presented adopting the Town of Riverhead 2024 Comprehensive Plan update under New York Town Law.</li><li>A resolution ratified an amended grant disbursement agreement with NYSESD for the Riverhead Town Square project, covering $720,000 of an $800,000 grant with the remainder pending completion of historic preservation conditions.</li><li>The board authorized the town clerk to publish notice for a public hearing on HUD Community Development Block Grant 2025 funds.</li></ul>
+      <h3>Discussed</h3>
+      <ul><li>Councilman Rothwell and the town engineer described the deteriorating condition of the Wading River Duck Ponds, citing stormwater and oil runoff, algae growth, dilapidated bulkheading, and inadequate drainage infrastructure along North Country Road.</li><li>The proposed restoration approach involves a joint RFP for a consulting firm to conduct a feasibility study, followed by a combined federal grant application with Brookhaven; the project is estimated to cost several million dollars and is expected to take at least a year before work could begin.</li><li>Residents were reminded that a household hazardous waste drop-off event is scheduled for October 26 at the highway yard on Osborne Avenue.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/b1a02d43-487e-4e5a-989c-42a2395db01c.mp4" type="video/mp4">
@@ -511,6 +526,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

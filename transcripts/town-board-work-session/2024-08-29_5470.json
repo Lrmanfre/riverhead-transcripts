@@ -2396,5 +2396,36 @@
       "end": 1811.82,
       "text": "Thank you."
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T02:11:21+00:00",
+    "agenda_grounded": false,
+    "tldr": "The board discussed a joint effort with Brookhaven Town to restore the Wading River Duck Ponds through a shared grant application, and reviewed a slate of resolutions covering permits, personnel, events, and grants.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "The board reviewed a resolution authorizing an inter-municipal agreement with Brookhaven Town for dredging, bulkhead repair, and landscaping at the Wading River Duck Ponds; the resolution will be revised before a vote.",
+          "The board approved a special permit with conditions for 431 Griffin Avenue to convert an office to a single-family dwelling.",
+          "The board approved a special permit with conditions for a property at 4592 Middle Country Road in Calverton to construct a two-family dwelling.",
+          "A resolution was introduced calling a public hearing on a proposed lateral water main extension at 437 and 483 Young's Avenue in Calverton.",
+          "The board formally recognized the supervisor's advisory citizens cooperative development team focused on EPCAL development.",
+          "A resolution was presented adopting the Town of Riverhead 2024 Comprehensive Plan update under New York Town Law.",
+          "A resolution ratified an amended grant disbursement agreement with NYSESD for the Riverhead Town Square project, covering $720,000 of an $800,000 grant with the remainder pending completion of historic preservation conditions.",
+          "The board authorized the town clerk to publish notice for a public hearing on HUD Community Development Block Grant 2025 funds."
+        ]
+      },
+      {
+        "heading": "Discussed",
+        "items": [
+          "Councilman Rothwell and the town engineer described the deteriorating condition of the Wading River Duck Ponds, citing stormwater and oil runoff, algae growth, dilapidated bulkheading, and inadequate drainage infrastructure along North Country Road.",
+          "The proposed restoration approach involves a joint RFP for a consulting firm to conduct a feasibility study, followed by a combined federal grant application with Brookhaven; the project is estimated to cost several million dollars and is expected to take at least a year before work could begin.",
+          "Residents were reminded that a household hazardous waste drop-off event is scheduled for October 26 at the highway yard on Osborne Avenue."
+        ]
+      }
+    ]
+  }
 }

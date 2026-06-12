@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2024-12-19, category:Town Board Work Session">
@@ -25,6 +25,23 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/5654" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/5654/files/agenda/5492" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Riverhead Town Board work session covered a proposed state-funded ADU grant program, monthly police and court reports, 2025 recreation fee changes, and a year-end recap video.</p>
+      <h3>Key actions</h3>
+      <ul><li>The board discussed partnering with Long Island Housing Partnership to apply for a New York State grant of up to $125,000 per homeowner for accessory dwelling units, with the town seeking $2 million total; a formal resolution is expected to follow.</li><li>Staff plan to bring forward legislation to remove the existing three-year waiting period before a homeowner can build an ADU.</li><li>The board discussed offering a temporary amnesty period for unpermitted ADUs so owners can bring them into code compliance without the double building-permit fee.</li><li>Recreation staff proposed a new resident guest beach pass at $25 per household per year, but the board deferred a final decision to gather more community input.</li><li>East Creek Marina electric surcharges are proposed to increase by size category—ranging from $25 more for boats under 30 feet to $425 more for boats over 50 feet—to offset rising electricity costs.</li><li>Recreation staff announced free holiday skating sessions at Peconic Ice Rink on December 27 and select Sunday evenings, available to residents who register at RiverheadRecreation.net.</li><li>The board went into executive session to discuss a change in status of an employee.</li></ul>
+      <h3>Money</h3>
+      <ul><li>East Creek Marina total revenue for 2024 was $282,750 against total expenses of $273,892, with the marina&#x27;s bond debt service of $113,400 ending in 2027.</li><li>Justice Court collected approximately $23,000 in fines and surcharges during November; staff will prepare a full 2024 annual report by late January or mid-February.</li></ul>
+      <h3>Discussed</h3>
+      <ul><li>Board members asked staff to explore whether first responders or veterans could receive preference in the ADU grant program without violating fair housing law.</li><li>The town clerk raised concerns about the staff time and cost required to respond to broad Freedom of Information Law requests and proposed tracking those costs more formally.</li><li>Recreation staff reported 737 hours of field rentals at Veterans Park in 2024 and noted that the kayak and paddleboard storage rack program at South Jamesport Beach generated revenue from 11 of 11 available slips, with plans to expand to 18 slips.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/422b9421-ca77-462c-9c98-4890397c1f4e.mp4" type="video/mp4">
@@ -1633,6 +1650,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

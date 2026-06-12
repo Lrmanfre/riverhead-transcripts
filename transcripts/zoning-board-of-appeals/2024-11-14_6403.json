@@ -5996,5 +5996,30 @@
       "end": 3866.6,
       "text": "[transcription gap]"
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T03:19:17+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Riverhead Zoning Board of Appeals held three variance hearings on November 14, 2024, approving two applications and adjourning a third pending revised plans.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "A side-yard setback variance for two sheds on a Calverton property was approved, conditioned on the owner obtaining all outstanding certificates of occupancy including one for an existing in-ground pool.",
+          "Setback variances for front-yard, rear-yard, and side-yard-abutting-road relief were granted to owners of a property on Gregory Way in Riverhead to allow additions including an expanded living room and a garage with unfinished upper-floor space.",
+          "A coastal hazard area variance application for a property at 834 Soundshore Road in Jamesport — seeking to demolish an existing bungalow and build a new two-story house, in-ground pool, and accessory structure — was adjourned to the December 12, 2024 meeting so the applicant can submit a substantially amended site plan."
+        ]
+      },
+      {
+        "heading": "Public hearings & comment",
+        "items": [
+          "Board counsel recommended the Soundshore Road applicant amend and correct multiple elements of the application, including fixing a bedroom-count discrepancy, showing bluff setback distances on the survey, addressing excavation and fill-removal plans, resolving the status of a potentially unpermitted wetland on the property, and seeking to formally amend a 2010 ZBA variance that restricted the existing accessory structure from habitable use.",
+          "A board member raised concern about the proposed pool being sited near the bluff line and suggested relocating it landward of the house toward the street side of the property."
+        ]
+      }
+    ]
+  }
 }

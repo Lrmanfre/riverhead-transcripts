@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2024-03-21, category:Planning Board">
@@ -25,6 +25,21 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/854" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/854/files/agenda/717" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Planning Board discussed two major development applications and passed four resolutions, including final approval for the Sandy Pond Mini Golf course site plan.</p>
+      <h3>Key actions</h3>
+      <ul><li>The board voted to approve a resolution for a site plan application referred to as Extra Space in Riverhead (Resolution 2024-26).</li><li>The board voted to grant final site plan approval for the Sandy Pond Mini Golf course (Resolution 2024-27), with conditions including recorded covenants restricting hours of operation to 10 p.m. and formalization of a drainage easement.</li><li>The board voted to grant a six-month extension of preliminary site plan approval for the Long Island Color Flower Association Commercial Center (Resolution 2024-028).</li><li>A fourth resolution was passed unanimously but the project name was not clearly identified in the transcript.</li><li>The board voted 3-2 to allow the use of pervious pavers for the West Main Street redevelopment application, enabling the application to proceed to the next stage.</li></ul>
+      <h3>Discussed</h3>
+      <ul><li>A preliminary site plan for redevelopment of a roughly 5.9-acre site on West Main Street proposes a three-story self-storage building and a one-story tenant rental building; the application requires three zoning variances including excess floor area ratio, excess impervious surface coverage, and insufficient landscaped area.</li><li>Staff noted illegal clearing and an unpermitted driveway on the West Main Street site, resulting in a doubled site plan fee, and flagged that an accurate full Environmental Assessment Form must be submitted before the board can classify the action under SEQRA.</li><li>An unnamed site plan application was reviewed for pre-final conditions including DOT approval, stormwater approval, drainage revisions, a sidewalk along Route 25, three loading spaces, right-turn-only egress, cross-access easements, and updated landscaping with native species.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/b8fdb29a-78b2-479c-8d46-cd7ee7b6e6b8.mp4" type="video/mp4">
@@ -1004,6 +1019,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

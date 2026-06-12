@@ -7336,5 +7336,39 @@
       "end": 4720.18,
       "text": "Thank you."
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T03:24:34+00:00",
+    "agenda_grounded": false,
+    "tldr": "The ZBA held three matters on October 23, 2025. Two were adjourned, and a third involving an appeal over a rescinded pre-existing transient-rental use letter was heard at length but continued to the next meeting pending additional documentation.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "Appeal No. 2025-035 (a property on Middle Road, Calverton seeking variances for fence height and impervious surface coverage) was adjourned and referred back to the Planning Board, with a tentative return date of December 11, 2025.",
+          "Appeal No. 2025-028 (505 Lincoln Street and 214 Marcy Avenue, Riverhead) was adjourned to November 13, 2025 at the applicant's attorney's request.",
+          "Appeal No. 2025-032 (47 Bayside Avenue, Jamesport) — an appeal of the chief building inspector's July 2025 rescission of a 2022 letter of pre-existing transient-rental use — was heard but adjourned to November 13, 2025 so the applicant can submit additional documentation including scanned leases, license agreements, and proof that tax returns were filed.",
+          "The board accepted minutes from its September 25 and October 9 meetings."
+        ]
+      },
+      {
+        "heading": "Public hearings & comment",
+        "items": [
+          "The applicant for 47 Bayside Avenue submitted packets including affidavits from former tenants and neighbors, a booking-records spreadsheet, and tax-return summaries dating to 2008 to support the claim that transient rental use predates both the town's 1970 zoning ordinance and the 2013 short-term rental prohibition.",
+          "Board members and counsel raised questions about gaps in the affidavit record, the lack of monetary amounts or copies of leases and canceled checks in the submitted exhibit, and whether the accounting firm's letter confirmed tax returns were filed rather than merely prepared.",
+          "Counsel for the board noted on the record that Riverhead had a zoning code as early as 1959, which may affect the pre-existing-use analysis."
+        ]
+      },
+      {
+        "heading": "Discussed",
+        "items": [
+          "The board and applicant's attorney agreed that no re-mailing or re-posting is required for adjourned matters when the adjourn date is noticed at the hearing.",
+          "The applicant's attorney asserted that the building inspector's 2022 letter of pre-existing use was rescinded improperly and without notice or an opportunity to be heard."
+        ]
+      }
+    ]
+  }
 }

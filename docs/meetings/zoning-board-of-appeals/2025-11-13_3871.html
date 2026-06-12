@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2025-11-13, category:Zoning Board of Appeals">
@@ -25,6 +25,19 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/3871" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/3871/files/agenda/5883" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Riverhead ZBA met on November 13, 2025, adjourning two appeals and deciding four others, including approvals for setback and coverage variances at a pre-existing bungalow community, an unmerger of two undersized lots, a waterfront property shed legalization, and a new single-family home with pool and garage on a steeply sloped lot.</p>
+      <h3>Key actions</h3>
+      <ul><li>Appeal 2025-032 (Bayview at Peconic LLC, 47 Bayside Avenue, Jamesport) was adjourned to December 11, 2025 due to the applicant&#x27;s attorney&#x27;s illness.</li><li>Appeal 2025-028 (505 Lincoln Street Opportunity Zone Fund LLC, 505 Lincoln Street and 214 Marcy Avenue) was adjourned to January 22, 2026.</li><li>Appeal 2025-034 (Roy Sokoloski, 15 Surfway North, Calverton) was approved for multiple setback and impervious-coverage variances to allow a bedroom addition and indoor bathroom at a pre-existing bungalow in a nonconforming cottage community.</li><li>Appeal 2025-036 (Muhammad Faisal, 2041 Osborne Avenue, Riverhead) seeking a 6-foot front-yard fence and 8-foot driveway gate where 4 feet is permitted was adjourned to December 11, 2025; the board asked the applicant&#x27;s attorney to provide police trespass reports and examples of comparable residential properties.</li><li>Appeal 2025-037 (Glenn and Virginia Woodhull, 506 Soundshore Road, Jamesport) was approved to legalize two existing sheds, one in the front yard and one at a 2.6-foot side-yard setback, on a 3.2-acre waterfront property where steep topography precludes rear-yard placement.</li><li>Appeal 2025-038 (RH Hamptons 321 LLC, 314 Maple Avenue and 321 Union Avenue, Riverhead) was approved for an unmerger and associated setback and impervious-coverage variances for two undersized lots of approximately 5,000 square feet each in an RA-40 district.</li><li>Appeal 2025-039 (Suzanne Bax, 7 Warner Court, Calverton) was approved for front-yard pool and detached garage locations and a reduced side-yard pool setback, with the garage accessory space limited to seasonal pool-cabana use including a full bathroom with shower and outdoor shower, no overnight accommodations, no kitchen, and no heating; the building department was directed to determine whether a Coastal Erosion Hazard Area permit under Chapter 219 is required.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/03abcb62-2996-43c1-a6fe-d0709bcb0634.mp4" type="video/mp4">
@@ -1508,6 +1521,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

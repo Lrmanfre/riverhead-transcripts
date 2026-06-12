@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2025-10-02, category:Town Board Work Session">
@@ -25,6 +25,21 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/140" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/140/files/agenda/5864" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The board reviewed a lengthy resolution list covering purchasing, personnel, local law amendments, and development agreements, and heard a planning presentation for the October 25 Halloween Fest in downtown Riverhead. The meeting closed with an executive session on potential litigation with Suffolk County Water Authority.</p>
+      <h3>Key actions</h3>
+      <ul><li>The board reviewed approximately 48 resolutions covering topics including highway equipment purchases, personnel appointments and resignations, local law amendments to parking and bicycle/scooter regulations, a bulletproof vest grant acceptance, and a public hearing notice for 2026 CDBG funds scheduled for November 6 at 2 p.m.</li><li>A resolution was added to amend a prior special permit for a Jamesport restaurant, removing the previously approved 600-square-foot building expansion and catering use, and limiting total seating to 80 seats across both floors with no further expansion of parking or restaurant use permitted.</li><li>The board authorized a letter of intent for redevelopment of a lot adjacent to Town Hall on Griffin Avenue.</li><li>A fire prevention resolution was noted to set agricultural burn permit fees at zero.</li><li>The board moved into executive session to discuss potential litigation with Suffolk County Water Authority.</li></ul>
+      <h3>Discussed</h3>
+      <ul><li>A representative from the Main Street Agency presented plans for the October 25 Halloween Fest, running 4 to 10 p.m. in downtown Riverhead, featuring a parade with a potentially extended route, live performances, local food and brewery vendors in the town square, a pumpkin derby on Haley Barr Way, decorated utility poles with a prize for the best, and possible fireworks over the river at the end of the event.</li><li>The event organizer noted Halloween Fest is no longer run by the BID and is operating under different funding, with a dedicated website and promotion through existing Alive on 25 social media pages.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/b69ddaad-2bd8-43e8-b26c-b5a30a26d437.mp4" type="video/mp4">
@@ -456,6 +471,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

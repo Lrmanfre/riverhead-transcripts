@@ -8326,5 +8326,35 @@
       "end": 4800.1,
       "text": "[transcription gap]"
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T02:23:46+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Town Board work session covered a promotional EMS Week video featuring Riverhead Volunteer Ambulance Corps, proposed zoning amendments along Route 58, a special permit application for a motocross track in Calverton, and a list of routine administrative resolutions. The board then moved into executive session.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "The board discussed amending the shopping center and business center zoning districts along Route 58 to permit additional uses, including retail, personal services, banks, and drive-through restaurants, consistent with the comprehensive plan.",
+          "Movie theaters are proposed to be moved from special permit use to permitted use in the shopping center zoning district after board members noted resident demand and a simpler approval process.",
+          "Five properties along Harrison Avenue, currently zoned shopping center, are recommended to be rezoned to commercial residential campus because of their proximity to single-family residences.",
+          "The board reviewed a special permit application for a motocross track at 2822 River Road, Calverton, on a 15-acre light industrial parcel; the planner will prepare resolutions to initiate SEQRA coordination and retain an independent noise engineer to review the applicant's noise study.",
+          "A new Garfield Langhorne Memorial monument was relocated to the front entrance of Town Hall, with Monument Works donating all labor at no cost.",
+          "The board approved a slate of roughly 40 administrative resolutions covering personnel appointments, seasonal hires, special events, bid awards, a sewer improvements contract, and a fireworks permit for the Rock Golf Club on July 5, 2025.",
+          "The board authorized eminent domain proceedings to acquire a leasehold interest in the easterly ground-floor unit at 127 East Main Street.",
+          "The board closed open session and entered executive session to discuss potential real property sale, possible Supreme Court litigation, and a BIDMA contractual matter."
+        ]
+      },
+      {
+        "heading": "Affects residents",
+        "items": [
+          "A free mosaic art festival is scheduled for Sunday June 1 on Main Street from noon to 5 p.m.",
+          "A household waste drop-off event accepting motor oil, paint, electronics, and medications is scheduled for Saturday at the highway department yard on Osborne Avenue from 8 a.m. to 2 p.m."
+        ]
+      }
+    ]
+  }
 }

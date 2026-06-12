@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2026-03-05, category:Town Board Work Session">
@@ -25,6 +25,21 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/6469" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/6469/files/agenda/5944" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The March 5 work session consisted almost entirely of announcements and a move into executive session. No public business was voted on or decided in open session.</p>
+      <h3>Key actions</h3>
+      <ul><li>The board voted to enter executive session to discuss a personnel disciplinary matter, litigation with Calverton Aviation Technology, an intermunicipal agreement with the Town of Brookhaven, and a contract with the town&#x27;s parking consultant.</li></ul>
+      <h3>Affects residents</h3>
+      <ul><li>A listening tour at the Senior Center is scheduled for March 11 to help residents use the town website for dog licenses and yard sale permits.</li><li>America 250 events include a May 1 Roaring 20s gala at the Suffolk Theater, a June 4 pre-Independence Day event, and July 4 fireworks in Jamesport.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/2664c832-36e6-44f8-b8ed-5ae2ed7a6c38.mp4" type="video/mp4">
@@ -160,6 +175,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

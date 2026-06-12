@@ -3971,5 +3971,40 @@
       "end": 2223.01,
       "text": "TO [transcription gap]"
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T01:43:41+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Planning Board discussed a mixed-use conversion proposal at 505 Lincoln Street that cannot move forward without a Zoning Board of Appeals variance for off-site parking located well beyond the 200-foot code limit. The board also received a comprehensive plan update and approved four subdivision and site plan resolutions.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "The board approved a preliminary plat for Printed Places, a 25-lot major subdivision.",
+          "The board approved a two-lot minor subdivision for Northville Acres involving a 4.22-acre parcel.",
+          "The board approved a minor subdivision for Damaris Farm to create four single-family buildable lots from two existing parcels.",
+          "The board approved a site plan for a winery and vineyard property to convert an existing single-family residence into a tasting room.",
+          "The board will discuss a proposal at its May 2 meeting to convert Second and Third Streets to one-way traffic to reduce congestion and increase on-street parking, with the intent of referring the idea to the Town Board for a traffic and safety study if supported."
+        ]
+      },
+      {
+        "heading": "Public hearings & comment",
+        "items": [
+          "No public hearings were held at this meeting."
+        ]
+      },
+      {
+        "heading": "Discussed",
+        "items": [
+          "Staff presented the 505 Lincoln Street mixed-use site plan, which proposes converting a warehouse into nine second-floor apartments with retail, art studio, and storage on the ground floor; the application requires a ZBA variance because the closest available off-site parking lot is roughly 630–876 feet away, far exceeding the 200-foot code requirement.",
+          "The applicant is pursuing a formal parking agreement with the Polish Hall directly across the street as a preferred long-term solution, but that arrangement is not yet finalized pending a survey, board approval, and lot repairs.",
+          "Staff noted that park and recreation fees of $5,000 per residential unit would apply if the project is ultimately approved.",
+          "A planning department staffer presented a comprehensive plan update, noting that draft chapters and a Draft Generic Environmental Impact Statement are nearly complete, the Town Board is expected to receive those documents soon, and full plan adoption is targeted for August 2024; proposed changes include a new consolidated industrial zoning district with reduced floor-area ratios, new TDR sending areas, an assisted living overlay zone, reduced parking requirements along Route 58, and hamlet design guidelines."
+        ]
+      }
+    ]
+  }
 }

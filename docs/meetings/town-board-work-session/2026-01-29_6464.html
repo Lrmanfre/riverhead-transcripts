@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2026-01-29, category:Town Board Work Session">
@@ -25,6 +25,19 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/6464" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/6464/files/agenda/5924" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Riverhead Town Board work session covered a new farmland preservation interest form, an environmental scoping process for a motocross track application, sewer fee increases, several appointments and reappointments, and two park lighting grant applications, before moving into executive session.</p>
+      <h3>Key actions</h3>
+      <ul><li>The board received a new voluntary landowner interest form for farmland preservation, to be posted on the town website and distributed by the Peconic Land Trust, allowing property owners to indicate interest in selling development rights with no commitment required.</li><li>A public scoping session for the environmental impact statement for the Duffy MX Motocross track application at 2822 River Road, Calverton was scheduled for the February 18 town board meeting, with a final scope to be adopted by March 3.</li><li>The board reviewed proposed increases to Riverhead Sewer District application and inspection fees to better cover actual costs, modeled on comparable fees used by the Village of Patchogue.</li><li>Several board appointments and reappointments were presented, including a new assistant chief fire marshal, a senior accountant, a marriage officer, and multiple members of the Conservation Advisory Council and Architectural Review Board.</li><li>A resolution awarding a bid for construction of Water District well number 2A was included in the packet.</li><li>The board directed that a proposed $630,000 state parks grant application for Stotsky Park lighting, which would require a roughly $70,000 town match, be circulated to the Parks and Recreation Committee for review before proceeding, with a grant deadline of February 9.</li><li>The board agreed to waive the special event application fee for the Andrew McMorris Foundation Top Gun 5K, consistent with past practice, while directing staff to develop a formal fee structure for future special events.</li><li>The board went into executive session to discuss personnel, litigation, and contractual matters including an inter-municipal agreement with the Town of Brookhaven and a license agreement involving Long Island Skydive.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/20805985-9358-449e-b0eb-9e2dc28c650d.mp4" type="video/mp4">
@@ -929,6 +942,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

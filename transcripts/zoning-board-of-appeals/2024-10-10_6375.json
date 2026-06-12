@@ -4881,5 +4881,25 @@
       "end": 3183.52,
       "text": "Thank you."
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T03:17:54+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Zoning Board of Appeals held its October 10, 2024 meeting and decided three appeals: a minor subdivision variance in Jamesport was granted, a variance to legalize an accessory building in Wading River was granted, and a parking variance for a cancer care medical office on Old Country Road in Riverhead was granted with conditions.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "The board granted area variances for a minor two-lot subdivision at 82 Second Street, Jamesport (Appeal 2024-028), allowing lot areas of approximately 21,776 and 25,567 square feet and lot widths of approximately 107 and 82 feet where 40,000 square feet and 150 feet are required, subject to Suffolk County Health Department approval, removal of the existing garage and shed on the proposed new lot, future development conforming to applicable dimensional requirements, and planning board approval.",
+          "The board granted a variance to legalize alterations to a roughly 14-by-22-foot accessory building, formerly a detached garage, at 159 Sunset Boulevard, Wading River (Appeal 2024-024), noting the applicant had already submitted a building permit application for legalization.",
+          "The board granted a parking variance for CAV 896 LLC at 896 Old Country Road, Riverhead (Appeal 2024-016), allowing 77 parking spaces where 118 are required by code, to permit expansion of an existing oncology and cancer treatment facility by approximately 3,169 square feet.",
+          "The parking variance approval was conditioned on the applicant's offer of mitigation requiring that if either the existing oncology use or the proposed expansion space changes to a different medical or other use, the applicant must return to the planning board for site plan approval and seek any additional relief as required.",
+          "The board approved minutes from the September 26, 2024 meeting and noted the next scheduled meeting is October 24, 2024."
+        ]
+      }
+    ]
+  }
 }

@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2024-04-02, category:Town Board">
@@ -25,6 +25,23 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/2008" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/2008/files/agenda/1871" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Riverhead Town Board held its April 2 meeting, approving a large batch of personnel appointments, capital project closures, special event permits, and professional service agreements. A public hearing on Pine Barrens zoning code amendments was held and left open for written comment through April 12.</p>
+      <h3>Key actions</h3>
+      <ul><li>The board approved appointments and ratifications for several new town employees, including recreation specialists, an office assistant, a groundskeeper, a senior water treatment plant operator, an account clerk, and three part-time police officers who recently completed the police academy.</li><li>Multiple sewer and water capital projects were formally closed out, including projects related to Milk Pond, North Point, Ostrander Avenue, EPCAL, Bay Avenue, West Main Street, Restaurant Depot, East Main, the Wading River booster station, and others.</li><li>The board approved a special event permit for the Jamesport Fire Department&#x27;s annual bazaar, carnival, and fundraiser.</li><li>The board approved a special event permit for the East End Arts Community Mosaic Festival.</li><li>The board authorized a license agreement allowing the Boy Scouts of America to use the EPCAL runway, and a separate license agreement with another organization for the same runway.</li><li>A SEQRA determination was approved for First Street parking garage pre-construction activities.</li><li>The board authorized publishing a notice to bid for a Veterans Memorial Park sanitary system project.</li></ul>
+      <h3>Public hearings &amp; comment</h3>
+      <ul><li>A public hearing was held on proposed amendments to the town&#x27;s Pine Barrens Overlay District zoning code (Article 41), required to align with updated Central Pine Barrens Commission land use plan changes; written comments are accepted at the town clerk&#x27;s office through April 12, 2024 at 4:30 p.m.</li><li>A representative from a housing assistance organization told the board that 80 homes in Riverhead are currently listed for sale or auction in foreclosure and 357 homes have recorded mortgage liens in the foreclosure process, and offered free multilingual foreclosure prevention services.</li><li>A community member urged the board to establish a formal public commission to develop a comprehensive plan for the EPCAL property; the supervisor responded that a broader commission will be formed once litigation involving the site is clearer, noting an ongoing $70,000 sports complex feasibility study is already underway.</li></ul>
+      <h3>Discussed</h3>
+      <ul><li>The board gave a status update on proposed agritourism zoning legislation, saying discussions with the farming community and advisory committees are ongoing but no final balance has been reached.</li><li>The supervisor noted that PSEG&#x27;s smart meter program allows residents with digital electric meters to save money by shifting appliance use to off-peak and super off-peak hours, and said the board may invite PSEG to present at a future work session.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/a00a1f8f-9c9b-4f83-a080-dcb0ed3253b4.mp4" type="video/mp4">
@@ -1145,6 +1162,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

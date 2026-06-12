@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2026-01-08, category:Zoning Board of Appeals">
@@ -25,6 +25,23 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/3873" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/3873/files/agenda/5906" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Zoning Board of Appeals heard two use-variance applications and reserved decisions on both for February 12, 2026: one for a proposed storage warehouse in a Commercial Residential Campus zone, and one for a Stony Brook Medicine ambulance and mobile stroke unit facility in a Shopping Center zone.</p>
+      <h3>Key actions</h3>
+      <ul><li>The board adjourned appeal 2025-036 (a property on Osborne Avenue) with all members voting aye.</li><li>The board voted to reserve a decision on appeal 2025-041 (Fadoon Warehouse, 52 Main Road) until February 12, 2026, after hearing testimony on a proposed 3,900-square-foot storage warehouse in the CRC zone, where warehouses are not a listed permitted use.</li><li>The board voted to reserve a decision on appeal 2025-042 (Stony Brook Ambulance Center, 1087 Old Country Road, Suite 1103) until February 12, 2026, pending Suffolk County Planning Commission review; one member abstained.</li><li>Minutes from the November 13 and December 11, 2025 meetings were accepted.</li></ul>
+      <h3>Public hearings &amp; comment</h3>
+      <ul><li>The Fadoon warehouse applicant testified that water yield limitations (156 gallons per day) make most CRC permitted uses financially unfeasible on the roughly half-acre parcel, and that 15 years of marketing produced no viable tenants.</li><li>A neighbor on Tower Lane testified in opposition, saying the proposed three-unit warehouse layout would direct traffic and overflow parking onto a shared easement used by residential households.</li><li>A resident on Tara Lane spoke in opposition, stating she had not received a certified-mail notice and urging the board to reject the warehouse on a lot directly behind her home.</li><li>A representative of the Greater Calverton Civic Association asked the board to weigh traffic impacts and the effect on residents who would face the warehouse from their front windows.</li><li>Riverhead Volunteer Ambulance Corps testified in support of the Stony Brook application, describing the mobile stroke unit as a critical asset given the volume of calls the corps handles and the absence of such a unit on the East End.</li><li>Stony Brook Medicine&#x27;s Director of Emergency Services testified that the facility would house up to eight ambulances and one mobile stroke unit, with no sirens or lights activated within the parking lot, and that Stony Brook is investing approximately $2 million without public funds.</li></ul>
+      <h3>Discussed</h3>
+      <ul><li>Board members questioned the Fadoon warehouse applicant about whether merging the adjacent parcel he owns, lowering the asking price, or pursuing other permitted uses such as an office or residence had been seriously explored.</li><li>Council for the Stony Brook applicant argued the facility may already be permitted outright as a &#x27;business establishment&#x27; within the defined shopping center use, and that a use variance is alternatively warranted because the L-shaped rear space has no road visibility and has been unsuccessfully marketed to more than 80 potential tenants for several years.</li><li>Board members noted that the rear portion of the building was previously used as a distribution warehouse by the former Big Lots tenant, and that the ambulance vehicles are smaller than typical delivery trucks already serving the shopping center.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/88643942-cb7e-4a58-83f4-75c88403c4b0.mp4" type="video/mp4">
@@ -1989,6 +2006,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

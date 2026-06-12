@@ -5391,5 +5391,34 @@
       "end": 3909.96,
       "text": "Merry Christmas."
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T01:56:12+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Planning Board approved facade changes for a Dave's Hot Chicken tenant at 949 Old Country Road, approved exterior renovations for a Sound Avenue grocery and liquor store, approved an amended site plan for the Cauliflower Square (Chick-fil-A) project, and scheduled a February public hearing for the 16-lot Summerwind Farm major subdivision.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "The board approved facade changes for Dave's Hot Chicken at 949 Old Country Road, the second tenant in the building previously approved for Qdoba, with coping and signage modifications required by the Architectural Review Board.",
+          "The board classified and granted administrative approval for exterior renovations at 5087 Sound Avenue, a grocery and liquor store, including new siding, windows, roof replacement, updated lighting, and four additional parking spaces to meet code.",
+          "The board approved an amended site plan for the Cauliflower Square project (Long Island Cauliflower Association site), adding a condition requiring impact protection measures around the reduced-pressure zone valve on County Route 58.",
+          "The board scheduled a public hearing on the preliminary plat for the 16-lot Summerwind Farm major subdivision at 200 Peconic Bay Boulevard, Aquebogue, for the evening meeting on February 5th.",
+          "For the TJOC Real Estate Holdings major subdivision and site plan on Mill Road, the board indicated a majority preference for the applicant's preferred building orientation; staff will prepare three resolutions — a SEQRA findings statement, preliminary subdivision approval, and preliminary site plan approval — for the next meeting."
+        ]
+      },
+      {
+        "heading": "Discussed",
+        "items": [
+          "One board member raised concerns about residential units in the TJOC project sitting close to a heavily trafficked road, arguing that rotating the building layout would benefit future residents, though the majority deferred to the applicant's business judgment.",
+          "For Cauliflower Square, the board discussed internal traffic flow where the County Route 58 service road and Mill Road entrance converge, with staff noting road striping and signage would help direct drivers.",
+          "A board member raised concern that the RPZ water valve near Route 58 at Cauliflower Square could discharge large volumes of water if struck by a vehicle, leading to the added condition requiring physical impact protection around it.",
+          "For Summerwind Farm, staff noted DEC restrictions prohibit tree clearing between March 1 and November 30, a farm right-of-way on the eastern parcel will remain intact after investigation showed other properties hold an interest in it, and residents of Foxchaser Place submitted a co-signed letter that will be included in the hearing record."
+        ]
+      }
+    ]
+  }
 }

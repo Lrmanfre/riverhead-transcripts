@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2025-11-20, category:Planning Board">
@@ -25,6 +25,21 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/53" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/53/files/agenda/5886" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Riverhead Planning Board approved seven resolutions at its November 20 meeting, covering a farm stand, a covenant amendment, a medical office, a canopy plan, a cross-access site plan, a subdivision extension, and acceptance of a final environmental impact statement for a mixed-use development in Calverton.</p>
+      <h3>Key actions</h3>
+      <ul><li>The board approved a farm stand on a vineyard property, classifying it as a Type 2 action under SEQRA; the stand may sell up to 40% non-farm Long Island food and beverage products alongside farm-derived goods.</li><li>The board approved a covenant amendment for Lot 31 of the Reeves Farm subdivision, allowing the use of vinyl cedar-impression siding in place of the natural wood materials required by a 2002 restriction.</li><li>The board granted final site plan approval to 27 Waves LLC for an approximately 8,700-square-foot one-story medical office on Commerce Drive, with a future cross-access easement to the neighboring shopping center shown on the plans.</li><li>The board approved site improvements at 393 Pulaski Street, permitting a physical therapy office to pave its existing gravel parking lot, add drainage, and update lighting.</li><li>The board approved a hip-roof canopy plan for the gas station at 4129 Middle Country Road, satisfying the last condition of an earlier administrative approval.</li><li>The board accepted the Final Environmental Impact Statement for the TKOC Real Estate Holdings project, a proposed mixed-use development on a 15.8-acre parcel on Middle Country Road in Calverton that includes roughly 30,000 square feet of ground-floor commercial space, 36 one-bedroom apartments, seven single-family lots, and a sewage treatment plant; findings by the board are the next step.</li><li>The board granted a 90-day extension for the Malice Property minor subdivision.</li></ul>
+      <h3>Discussed</h3>
+      <ul><li>For the Cauliflower Square project, staff described amendments to the previously approved Chick-fil-A portion of the site, including a reduced building footprint, fewer seats, loss of outdoor seating, a reduced parking count, and a reoriented building; no resolution was presented because staff wants a revised landscaping plan before final approval.</li><li>For TKOC, board members debated whether to require the mixed-use building to be reoriented so apartments face away from Route 25, but the applicant argued the current orientation is preferred for commercial visibility and residential parking separation; no change to the proposed layout was required at this meeting.</li><li>A proposed 3,900-square-foot warehouse at 52 Main Road was presented for discussion; the project requires a use variance from the Zoning Board of Appeals before the Planning Board can act, and staff noted concerns about dumpster placement near an adjacent residence and the need for additional landscaping.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/efae717e-5947-4e58-b929-a7108d5fa3c5.mp4" type="video/mp4">
@@ -1145,6 +1160,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2025-09-03, category:Town Board">
@@ -25,6 +25,23 @@
     <div class="meta-row">156 min &nbsp;·&nbsp; <a href="https://riverheadny.portal.civicclerk.com/event/8" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/8/files/agenda/49" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The board held a lengthy public hearing on a long-neglected unsafe structure at 39 Pye Lane in South Jamesport, ultimately voting to authorize its demolition. A dozen other resolutions were adopted, including one launching a new town website, one amending site-plan violation fines, and one approving the Community Benefit Zoning code amendment.</p>
+      <h3>Key actions</h3>
+      <ul><li>The board authorized the demolition, removal, and abatement of the unsafe structure at 39 Pye Lane, Jamesport (tax map 672), with all members voting yes.</li><li>The board adopted a local law amending Chapter 301 site-plan review penalties, raising the fine floor from zero to $500 and the ceiling from $1,000 to $5,000; the hearing was kept open for written comment until September 14.</li><li>The board adopted a local law amending the Community Benefit Zoning Use District provisions of the town code (Chapter 301, Article 17A).</li><li>The board adopted local law amendments to Chapter 231 (Fire Prevention penalties) and Chapter 251 (Noise and Property Maintenance).</li><li>The board approved hiring a consulting building plans examiner (Brad Hammond) at the stated rate, after amending the resolution to correct the civil-service title from senior building inspector to building plans examiner; one member voted no citing a lower-cost alternative.</li><li>The board voted 4-1 to appoint a local farmer to the Agricultural Advisory Committee; the dissenting member stated on the record that the individual had repeatedly sought personal economic relief from the committee and used inappropriate language toward a board member.</li><li>The board approved publishing a request for proposals for a construction manager for a new Riverhead Volunteer Ambulance Corps headquarters building.</li><li>The board authorized 2025 bow hunting for deer at Enterprise Park in Calverton.</li><li>A capital project budget was adopted for improvements at Two Bears Park (Resolution 749).</li></ul>
+      <h3>Public hearings &amp; comment</h3>
+      <ul><li>The town engineer testified that the structure at 39 Pye Lane is structurally compromised, open to the elements, a fire and wind-debris hazard to neighboring homes, and recommended immediate demolition; the bulkhead on the property was separately noted as severely deteriorated but was not part of the formal unsafe-structure notice.</li><li>The property owner, participating by video from Germany, stated willingness to hire a demolition contractor and sign a contract, but no contract had been signed as of the hearing date.</li><li>Neighbors testified the property has been neglected for many years and urged the board not to grant further delays.</li><li>The site-plan violation fine increase hearing drew no public speakers.</li></ul>
+      <h3>Discussed</h3>
+      <ul><li>A resident asked the board to address speeding and vehicles parking in a road easement on Church Lane in Aquebogue; the police chief committed to assigning officers to the area.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/9692d2dc5e.mp4" type="video/mp4">
@@ -2779,6 +2796,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

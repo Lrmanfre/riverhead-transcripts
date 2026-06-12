@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2026-05-20, category:Town Board">
@@ -25,6 +25,21 @@
     <div class="meta-row">247 min &nbsp;·&nbsp; <a href="https://riverheadny.portal.civicclerk.com/event/6451" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/6451/files/agenda/5966" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The board held a major public hearing on eminent domain acquisition of 111 East Main Street (Long Island Science Center property) to advance the downtown town square project, hearing sharp public debate; it also advanced zoning changes at the Manufacturers Outlet Overlay District and adopted a new hazardous-materials fee for battery storage and solar projects, plus a large slate of routine resolutions.</p>
+      <h3>Key actions</h3>
+      <ul><li>The board voted unanimously to close the public hearing on eminent domain condemnation of 111 East Main Street (Long Island Science Center / A Place of Learning Inc.), leaving the record open ten days for written comment; no final condemnation vote was taken at this meeting.</li><li>The board voted unanimously to authorize the supervisor to execute a letter of intent with the YMCA of Long Island for redevelopment of the former NY State Armory at 1405 Old Country Road.</li><li>The board adopted a local law amending Chapter 231 (Fire Prevention) to impose a 1% hazardous-materials fee on battery energy storage systems and commercial solar installations, paid before permit issuance and deposited into a dedicated fire marshal equipment and training fund; the fee is non-refundable and not retroactive.</li><li>The board adopted a local law amending Chapter 279 to extend property tax exemptions for volunteer firefighters and ambulance workers.</li><li>The board authorized a notice of public hearing for the hotel project (special permit and site plan) at the town square site; the hearing is limited to special permit and site plan criteria.</li><li>Two special event applications for &#x27;Racetrack Not Street&#x27; motorsports events at EPCAL in 2027 were approved unanimously.</li><li>The board authorized a bond for the 2028 Biosolids Project and related sewer district capital project budget adjustments.</li><li>A settlement of a personal injury lawsuit brought by a named individual against the town was approved unanimously.</li><li>Multiple routine personnel appointments, retirements, resignations, and committee reappointments were approved unanimously.</li></ul>
+      <h3>Public hearings &amp; comment</h3>
+      <ul><li>Community Development Director Dawn Thomas testified the town has invested over $40 million in town square components and that incorporating 111 East Main Street is critical to completing flood mitigation; two time-sensitive state grants totaling approximately $1.884 million expire in June.</li><li>The property owner&#x27;s plans have shrunk approximately 80% from the original 2020 proposal; the bank previously funding the Science Center has withdrawn, and the owner raised no fundraising funds in the past year according to a board member&#x27;s account of a prior work session.</li><li>A contractor testified his company filed a mechanics lien of approximately $13,500 for nonpayment and alleged the owner asked him to provide a check to demonstrate payment for a grant program.</li><li>Multiple public commenters opposed eminent domain as premature, citing lack of a stated replacement use, transparency concerns about a master developer relationship, and the risk of large taxpayer liability if compensation is contested; one commenter referenced a Suffolk County case resulting in over $125 million in compensation plus interest.</li><li>Two public commenters supported eminent domain, citing decades of Main Street decline.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/7eee54515d.mp4" type="video/mp4">
@@ -4134,6 +4149,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

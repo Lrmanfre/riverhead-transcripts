@@ -7076,5 +7076,39 @@
       "end": 4336.96,
       "text": "[transcription gap]"
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T02:15:33+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Riverhead Town Board work session covered a new bee-themed recycling receptacle for downtown, a new online rental permit portal, and a CDA recap showing $33.25 million in grants secured in 2024.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "The board agreed to accept a donation from the North Fork Environmental Council to fund a second 'Litter Critter' recycling sculpture, shaped like a bee, to be installed near the community garden at Main Street and Griffin Avenue in spring 2025; a resolution accepting the donation will be prepared.",
+          "Code Enforcement demonstrated a new online rental permit application portal through OpenGov that allows landlords to apply, upload documents, and pay fees electronically, replacing handwritten paper applications.",
+          "The board went into executive session to discuss a possible lease of town-owned property, litigation in a matter involving Romano J. et al. versus Elite Towers et al., and a potential change in employment status for an employee."
+        ]
+      },
+      {
+        "heading": "Money",
+        "items": [
+          "The Community Development Agency reported securing $33,254,000 in grants during 2024, with the largest share being a roughly $24 million RAISE grant for a parking garage and Main Street improvements.",
+          "Other 2024 grants included $97,000 from Suffolk County for a Town Square splash pad, CDBG funds for home improvement programs for low-income seniors, water quality grants, and a riverfront lighting grant.",
+          "CDA outlined 2025 funding targets including a Safe Streets for All planning grant, Pro Housing infrastructure funds, a $75,000 New York State Archives records-management grant, BioSolids funding, and continued water grants."
+        ]
+      },
+      {
+        "heading": "Discussed",
+        "items": [
+          "The board discussed plans to recruit volunteers and community-service participants to collect recyclables from the new downtown bee sculpture, since Parks and Rec does not currently service that area.",
+          "A Riverhead in Action segment highlighted free public skating sessions at the Peconic Hockey ice rink, described as sold out with roughly 70 children attending.",
+          "The supervisor noted that flags should fly at half-staff in observance of the national day of mourning for former President Jimmy Carter, and recognized January 9 as National Law Enforcement Day."
+        ]
+      }
+    ]
+  }
 }

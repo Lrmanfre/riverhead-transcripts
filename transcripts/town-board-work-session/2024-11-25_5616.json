@@ -4126,5 +4126,40 @@
       "end": 2996.42,
       "text": "!"
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T02:13:58+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Riverhead Town Board work session covered monthly reports from police, code enforcement, town clerk, and justice court, discussed showmobile rental fee increases, heard a public notice about a Calverton development project requiring an environmental impact study, and reviewed 34 resolutions ahead of a Tuesday vote.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "The board reviewed 34 draft resolutions including approvals for special events, water district capital projects, bid authorizations, and a 2025 meeting schedule.",
+          "A resolution would authorize shotgun deer hunting on town property at Enterprise Park at Calverton from January 5 to January 31, 2025, with the walking and bike trails closed during that period.",
+          "A resolution would assume lead agency status and issue a negative declaration for an Elite Towers cell installation at the Wading River Fire District on North Country Road, finding it exempt from local zoning requirements under the Monroe balancing test.",
+          "The board discussed significantly raising showmobile rental fees from the current $100 per day, noting a six-hour event costs the town approximately $1,300, and directed staff to develop a tiered fee schedule for 2025 that could distinguish between nonprofits and town-sponsored events.",
+          "The town clerk reported a part-time bilingual Spanish-speaking clerk will begin Monday and work daily from 11 a.m. to 2:30 p.m.",
+          "All downtown holiday events—the Lions Parade, tree lighting, bonfire, and Santa—have been consolidated onto a single date, December 7, 2024."
+        ]
+      },
+      {
+        "heading": "Discussed",
+        "items": [
+          "Planning staff announced a public scoping hearing for TJOC Calverton, a proposed mixed-use development on a roughly 16-acre site on Middle Country Road in Calverton that would include seven residential lots, about 30,000 square feet of ground-floor commercial space, and 36 one-bedroom apartments; the hearing is December 5 at 6 p.m.",
+          "The CCBT committee discussed an upcycling concept for construction debris at EPCAL and a food scrap diversion program that staff estimated could save up to $15,000 per month in tipping fees."
+        ]
+      },
+      {
+        "heading": "Money",
+        "items": [
+          "Code enforcement reported collecting $35,850 in rental permit fees in October and $311,325 year-to-date.",
+          "Justice court reported $40,980 in total collections for October."
+        ]
+      }
+    ]
+  }
 }

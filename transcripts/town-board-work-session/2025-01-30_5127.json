@@ -9081,5 +9081,42 @@
       "end": 5611.08,
       "text": ""
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T02:20:49+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Riverhead Town Board work session covered a $1.4 million state grant for the downtown amphitheater, plans for a new Riverhead Volunteer Ambulance Corps headquarters, proposed updates to town board rules, beach sticker policy for first responders, new fire marshal fees for battery energy storage and solar installations, and a batch of routine resolutions.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "The board advanced plans to issue an RFP for a new approximately 16,600-square-foot RVAC ambulance headquarters to replace the 1989 building, with financing expected through a combination of transport billing revenue, fundraising, and a town bond.",
+          "The board discussed codifying the annual free beach and 4x4 sticker benefit for active volunteer firefighters and EMTs rather than reauthorizing it each year by resolution.",
+          "The Fire Marshal presented a proposal to add new construction and annual operating permit fees specifically for battery energy storage and solar installations, modeled on Brookhaven's approach.",
+          "The board approved approximately 32 resolutions including personnel appointments, retirements, bid awards, grant submissions, and a public hearing on electrical upgrades at Water District Plant No. 7 set for February 13.",
+          "A public hearing on proposed amendments to the town's Excavation and Grading fee schedule was scheduled for March 4, 2025 at 2 p.m.",
+          "The board entered executive session to discuss personnel matters, a PBA and SOA contract, sale of real property, and an environmental facilities contractual agreement."
+        ]
+      },
+      {
+        "heading": "Money",
+        "items": [
+          "The town's Community Development Agency was awarded $1.4 million through New York State Empire State Development's Pro Housing Program for the downtown amphitheater project.",
+          "A separate award of approximately $187,000 was received for water infrastructure supporting the Suffolk Theater.",
+          "RVAC reported collecting roughly $100,000 in transport billing revenue in January 2025 alone, with an estimated potential of up to $1 million per year to help fund the new building."
+        ]
+      },
+      {
+        "heading": "Discussed",
+        "items": [
+          "The town attorney presented a draft update to the town board's rules and procedures, including a proposed three-minute public comment limit, a sign-in sheet system for speakers, a ban on signs inside the board chamber, expanded decorum rules, and a requirement that local laws not be adopted by ratification.",
+          "The board discussed attaching an annual CPI adjustment to fire marshal and other town fees so rates do not go decades without revision.",
+          "The possibility of allowing town employees who live outside Riverhead to purchase beach stickers was raised but set aside due to a legal concern about creating unequal employee benefits; the idea was referred to the beach committee for further review."
+        ]
+      }
+    ]
+  }
 }

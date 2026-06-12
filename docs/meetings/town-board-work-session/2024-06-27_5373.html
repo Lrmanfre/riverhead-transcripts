@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2024-06-27, category:Town Board Work Session">
@@ -25,6 +25,19 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/5373" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/5373/files/agenda/5211" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The board held a lengthy work session covering a $24 million federal downtown grant, detailed line-by-line review of the draft comprehensive plan, and previewed roughly 40 consent resolutions for upcoming action.</p>
+      <h3>Key actions</h3>
+      <ul><li>The town received a $24.12 million federal Department of Transportation grant for downtown revitalization covering a parking garage, flood mitigation, and streetscaping.</li><li>The board reached consensus to review the 500-unit residential cap in the DC-1 zone annually rather than only after build-out.</li><li>The board agreed that condominium and ownership units should not count against the 500-unit cap, and that apartments in existing historic buildings would also be excluded.</li><li>The board decided to retain the 28-day minimum stay requirement for short-term rentals, with one dissenting member.</li><li>The board agreed to eliminate the three-year certificate-of-occupancy waiting period for accessory dwelling unit structures (the requirement for the principal structure may remain).</li><li>The board decided to strike charter schools as a permitted use in industrial zones while allowing assisted living to remain by special permit in any district.</li><li>The board directed that clarifying language be added to the plan and zoning code confirming that floor-area-ratio limits do not apply to renewable energy projects such as solar and battery storage.</li><li>A special permit application for a proposed 15,000-square-foot professional office building at 374 Main Road was advanced toward a planning board public hearing with a recommended negative declaration under state environmental review.</li><li>A bond resolution appropriating $2,260,000 was scheduled for re-adoption due to a prior vote lacking the required number of board members present.</li><li>Public hearing notices were authorized for proposed amendments to the zoning code covering bed-and-breakfast facilities, peddling and soliciting regulations, and noise/nuisance variance procedures.</li><li>The board approved fireworks applications for the Jamesport Fire Department on July 20, the Riverhead BID on July 5, and a local golf club on July 5.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/641a09aa-ad0c-440b-82e2-b86636333f0e.mp4" type="video/mp4">
@@ -3346,6 +3359,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

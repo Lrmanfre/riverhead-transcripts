@@ -13201,5 +13201,48 @@
       "end": 6071.56,
       "text": "you"
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T01:58:35+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Riverhead Town Board held a work session covering emergency response protocols for new Route 25 venues, volunteer first responder incentives, the possible demolition of a historic LIPA-owned building, and a senior citizen resource guide update.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "The board and representatives of Riverhead Ambulance, Wading River Fire Department, and Manorville Fire District agreed in principle to establish an automatic mutual aid dispatch arrangement for Scotts Point and the town ice rink so that whichever agency arrives first handles the call.",
+          "The board said it will direct Riverhead Police Department to simultaneously dispatch both Riverhead Ambulance and Wading River for calls at those two Route 25 locations while longer-term district line questions are studied.",
+          "The board committed to ensuring all first-responder agencies receive building plans before construction begins at EPCAL, not after, correcting a gap that left departments uninformed about the water park and ice rink.",
+          "The board expressed intent to pursue LOSAP enrollment for Riverhead Ambulance, which currently has no such program, and to explore reducing the vesting period from five years to two years for all volunteer agencies in town.",
+          "The board agreed to contact PSEG Long Island requesting a delay of at least nine months to one year before demolishing the historic 1859 Perkins generating station at 1129 West Main Street, to allow time to explore preservation and reuse options.",
+          "The Senior Citizens Advisory Council's updated Resource Guide and My Aging Plan (MAP) documents were presented for board approval before printing and distribution; the board indicated it would approve them quickly."
+        ]
+      },
+      {
+        "heading": "Money",
+        "items": [
+          "The Perkins generating station property is owned by PSEG Long Island, which has scheduled demolition for early February 2024; the board acknowledged the town has no funds to purchase or restore the building and that the Gardner Foundation, which offers a 50% match, may be a potential funding source.",
+          "Riverhead Ambulance reported that Stony Brook University Hospital now provides an additional ambulance and paramedic fly car from 10 a.m. to 10 p.m. under a new arrangement, increasing the agency's daytime capacity."
+        ]
+      },
+      {
+        "heading": "Discussed",
+        "items": [
+          "Riverhead Ambulance reported response times of seven and nine minutes on the only two calls to the Route 25 corridor so far, which representatives said meets county standards, though access limitations and a single main entrance into the complex were flagged as ongoing concerns.",
+          "Board members and agency representatives discussed the historical and industrial significance of the Perkins generating station, the only surviving riverside power structure of its kind in Riverhead, and floated possible uses such as environmental education or a science center with PSEG involvement.",
+          "The Senior Citizens Advisory Council noted it has at least four vacant seats, including slots for a veterans representative and a clergy member, and is actively recruiting; meetings are held every two months at Town Hall."
+        ]
+      },
+      {
+        "heading": "Affects residents",
+        "items": [
+          "Free COVID-19 test kits, with a limit of two kits per person, are available for pickup Monday through Friday 8:30 a.m. to 4 p.m. at Town Hall and the Riverhead Senior Center on Shade Tree Lane.",
+          "The updated Senior Citizens Resource Guide, which includes emergency contacts, health services, fraud information, and a fillable medication list, will be distributed at the senior center, libraries, and senior communities; a printable medication sheet will also be available at the Town Clerk's office."
+        ]
+      }
+    ]
+  }
 }

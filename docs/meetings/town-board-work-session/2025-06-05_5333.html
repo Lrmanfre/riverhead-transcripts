@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2025-06-05, category:Town Board Work Session">
@@ -25,6 +25,23 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/5333" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/5333/files/agenda/5171" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Riverhead Town Board work session covered a downtown BID budget review, detailed planning updates for the Alive on 25 summer block party series (rebranded as the Riverhead Summer Block Party), a Riverhead in Action video featuring the town historian, and ended with a move to executive session on a personnel matter.</p>
+      <h3>Key actions</h3>
+      <ul><li>The board reviewed and expressed approval of a newly formatted downtown BID budget, with a request that future budgets be submitted by December 1 each year.</li><li>Two agenda items were removed: a hearing on a CSEA contract matter and a proposed community benefit zoning use district item, the latter postponed so board members can receive materials at least a week before the next work session.</li><li>The board moved into executive session to discuss a change in terms and conditions for an employee.</li></ul>
+      <h3>Discussed</h3>
+      <ul><li>Main Street Agency presented plans to rebrand the Alive on 25 events as the Riverhead Summer Block Party, with two event dates (July 18 and August 1), an expanded footprint reaching businesses beyond the street closure, approximately 14 live music locations, a downtown crawl/scavenger hunt element, and fireworks launched from a barge on the river at approximately 9 p.m.</li><li>Vendor fees were significantly reduced from prior years to attract more local makers, farmers market vendors, and artisans, with fewer commercial vendors.</li><li>Riverhead Raceway will participate on August 1, and a classic car show is planned for the first night; a monster truck appearance is being discussed for July 18.</li><li>The town historian, who has held the role for 23 years and authored nine books, was featured in a Riverhead in Action video; her office at Town Hall is open Wednesdays from 9 a.m. to 3 p.m.</li></ul>
+      <h3>Affects residents</h3>
+      <ul><li>Volunteers, interns, and community service participants are being sought to help run the summer block party events; interested residents can contact aliveOn25.org.</li><li>The BID budget includes a $45,000 executive director line item that the board indicated should be prorated until a director is hired.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/049827cb-2e06-49a3-aeb6-be65ab6e85f4.mp4" type="video/mp4">
@@ -1038,6 +1055,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

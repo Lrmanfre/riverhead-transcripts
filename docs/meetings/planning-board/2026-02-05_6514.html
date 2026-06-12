@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2026-02-05, category:Planning Board">
@@ -25,6 +25,23 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/6514" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/6514/files/agenda/5925" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Planning Board held a public hearing on the Summerwind Farm 16-lot clustered major subdivision, heard discussion items on several projects, and voted on multiple resolutions including final site plan approval for a BJ&#x27;s fueling station and sketch plan approval for Anderson Acres subdivision.</p>
+      <h3>Public hearings &amp; comment</h3>
+      <ul><li>The board held a public hearing on the Summerwind Farm Major Subdivision, a proposed 16-lot clustered subdivision of a 30.12-acre split-zoned parcel at 200 Peconic Bay Boulevard, which is three lots fewer than the approved as-of-right yield of 19 lots and preserves approximately 13.6 acres of farmland across two agricultural lots.</li><li>Multiple neighboring residents raised concerns about the location of a stormwater recharge basin near a property line, proximity to a tidal wetland, groundwater depth, and maintenance responsibilities once dedicated to the town.</li><li>Residents from Fox Chaser Place and Sunup Trail asked the board to require recorded covenants addressing the right-of-way, agricultural use restrictions on the preserved lots, exterior lighting limits, fencing style, and tree buffers.</li><li>Several speakers objected to the two access points onto Peconic Bay Boulevard, citing limited sight lines and sharp curves, and asked whether the fire marshal and other agencies had reviewed emergency access.</li><li>Residents of Sunup Trail objected to lots 14 and 15 being accessed via their existing cul-de-sac and asked the board to consider an alternative internal connection; staff noted Sunup Trail was originally designed to allow a future extension.</li><li>The board closed the public hearing on Summerwind Farm after taking all in-person and remote public comment.</li></ul>
+      <h3>Key actions</h3>
+      <ul><li>The board approved final site plan Resolution 2026-006 for the East End Commons BJ&#x27;s fueling station and wholesale club expansion, amended to require &#x27;do not enter&#x27; street markings at the southern exit of the fueling station.</li><li>The board approved Resolution 2026-007 adopting SEQRA findings and Resolution 2026-008 setting conditions of approval for the TJ Holdings major subdivision; a separate TJ Holdings resolution passed three to two, with two members citing over-intensification of use.</li><li>The board approved Resolution 2026-010 for the Hampton Jitney BESS site plan and Resolution 2026-011 scheduling a public hearing on that site plan for the first evening meeting in March.</li><li>The board approved Resolution 2026-012 classifying the Town Square Hotel and lot line modification as a Type 2 action under SEQRA and scheduling a public hearing for the second February meeting.</li><li>The board approved Resolution 2026-013 approving a 33-lot cluster sketch plan for Anderson Acres Major Subdivision.</li></ul>
+      <h3>Discussed</h3>
+      <ul><li>Staff presented the Hampton Jitney Battery Energy Storage System (BESS) proposal, a tier-two system of four battery units totaling 1,000 kWh to support existing rooftop solar and future EV bus charging; the town board already issued a negative declaration and scheduled a February 18 public hearing.</li><li>The board discussed designating parking stalls directly in front of the BESS enclosure as a fire zone rather than standard parking, which staff indicated would not create a parking variance given the site&#x27;s surplus stalls.</li><li>Staff outlined a six-parcel lot line modification involving town-owned parcels needed to create unified hotel and town square parcels as the first formal step in the Town Square redevelopment; all costs are to be borne by the master developer.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/194359b5-c460-4bf1-83c8-58560f972832.mp4" type="video/mp4">
@@ -1629,6 +1646,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

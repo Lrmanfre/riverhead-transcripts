@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2024-01-04, category:Planning Board">
@@ -25,6 +25,19 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/779" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/779/files/agenda/642" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Planning Board met briefly on January 4, 2024, adopting several resolutions including accepting the Draft Environmental Impact Statement for the Calverton Industrial Subdivision, while noting a town board moratorium on Calverton industrial development will pause further in-house review once filed with the Secretary of State.</p>
+      <h3>Key actions</h3>
+      <ul><li>The board accepted the Draft EIS for the Calverton Industrial Subdivision and authorized its circulation to involved agencies and public posting, with in-house review to pause once a six-month town moratorium on Calverton industrial development takes effect.</li><li>The board classified the Delalio Sod Farm action under SEQRA, assumed lead agency, and issued a negative declaration.</li><li>The board classified the Theodora Cohen minor subdivision under SEQRA and scheduled a public hearing for the application to subdivide two contiguous improved parcels.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/40097921-1328-4f62-be29-74e6b6c0ea41.mp4" type="video/mp4">
@@ -215,6 +228,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

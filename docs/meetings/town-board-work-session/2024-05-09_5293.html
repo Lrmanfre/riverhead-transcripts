@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2024-05-09, category:Town Board Work Session">
@@ -25,6 +25,21 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/5293" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/5293/files/agenda/5131" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Town Board held a work session to discuss a special permit application from Riverhead Charter School to place three temporary portable trailers at its 5117 Sound Avenue location. The board agreed to schedule a public hearing on the application.</p>
+      <h3>Key actions</h3>
+      <ul><li>The board agreed to schedule a public hearing on the charter school&#x27;s special permit application for three portable trailers at 5117 Sound Avenue.</li><li>The board moved into executive session to discuss possible changes in status for several employees and a possible food concession license agreement.</li></ul>
+      <h3>Discussed</h3>
+      <ul><li>Riverhead Charter School is seeking a special permit to add three temporary portable trailers behind its schoolhouse: two for classrooms and one for administration, to accommodate an increase in enrollment from 106 to 154 students.</li><li>One trailer was already brought to the site without prior approval; the school&#x27;s representative apologized and the applicant noted the fee would be doubled as a result.</li><li>Board members expressed concern about the trailer being placed without permission and about the potential for a six-year &#x27;temporary&#x27; situation becoming permanent.</li><li>The applicant stated the trailers would be leased year-to-year, fully screened from Sound Avenue, and removed when the school relocates, which the superintendent said was the school&#x27;s firm intention.</li><li>The sanitary system was described as sized to handle the increased occupancy, and fire marshal access requirements can be met along the west side of the building.</li><li>Board members suggested the special permit could include an annual renewal requirement and a cap on further expansion at that site.</li><li>The school reported it capped kindergarten enrollment this year and is actively seeking a new permanent location, having lost a contract on an adjacent parcel that was never fully subdivided.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/03c9f4ba-44ea-4956-a877-da2a31c22186.mp4" type="video/mp4">
@@ -1146,6 +1161,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

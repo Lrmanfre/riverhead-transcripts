@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2026-02-12, category:Town Board Work Session">
@@ -25,6 +25,23 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/6466" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/6466/files/agenda/5934" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Town Board work session covered fire safety code amendments, a frozen pipe closure at the George Young Community Center, and reviewed 36 draft resolutions ahead of the next board meeting.</p>
+      <h3>Key actions</h3>
+      <ul><li>Two proposed code amendments were discussed: one updating fire protection system maintenance and inspection documentation requirements under Chapter 231, and one creating a new change-of-tenancy inspection requirement triggered when a commercial space has been vacant 30 days or more.</li><li>The board indicated the fire safety amendments are ready to be published for public notice.</li><li>A resolution to adopt a local law creating a property tax exemption for surviving spouses of police officers killed in the line of duty was queued for potential adoption following a scheduled public hearing.</li><li>A resolution to reject bids and rebid PFAS treatment at a town water district well was reviewed, with the purchasing director citing prevailing wage law thresholds as the reason for rebidding.</li><li>The board agreed to move discussion of a playground agreement with a landscape architecture firm into executive session under contractual matters.</li><li>The board voted to enter executive session to address personnel disciplinary matters, litigation updates, and a contractual matter involving a landscape architecture firm.</li></ul>
+      <h3>Money</h3>
+      <ul><li>A third-party fire protection compliance tracking platform was described as self-funding through fees, with the town collecting a portion and the vendor handling outreach and documentation at no additional staffing cost to the town.</li><li>A resolution authorizes rejection and rebidding of a PFAS water treatment project due to prevailing wage law requirements triggered by the total project cost.</li></ul>
+      <h3>Affects residents</h3>
+      <ul><li>The George Young Community Center is closed this week due to a frozen pipe break; affected programs including youth cheerleading, yoga, a slime time event, Kids Night Out, and February break camp have been canceled or relocated to Town Hall or Pulaski Street Elementary School.</li><li>Town Hall will be closed Monday, February 16, in observance of Presidents Day.</li><li>The Disability Advisory Committee announced its next public meeting is May 5 at 5 p.m., open to all community members.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/111e9389-38a2-40d0-b389-435432f4db46.mp4" type="video/mp4">
@@ -554,6 +571,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

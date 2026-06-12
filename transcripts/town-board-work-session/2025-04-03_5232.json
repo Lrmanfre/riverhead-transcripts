@@ -216,5 +216,11 @@
       "end": 151.0,
       "text": "Thank you."
     }
-  ]
+  ],
+  "summary": {
+    "status": "too_short",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T02:20:00+00:00",
+    "words": 233
+  }
 }

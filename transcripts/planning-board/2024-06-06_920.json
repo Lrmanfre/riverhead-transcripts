@@ -7901,5 +7901,31 @@
       "end": 3622.12,
       "text": "Thank you."
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T01:43:40+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Riverhead Planning Board held one public hearing, closed it, and approved three resolutions covering a minor subdivision, a retail facade renovation, and a mixed-use site plan amendment. The board also discussed a Home Depot outdoor storage application and a proposal to make downtown streets one-way.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "The board closed the public hearing for the Vincent Franconini two-lot minor subdivision at 196 South Jamesport Avenue, which proposes splitting a 57,150-square-foot parcel into two lots sharing a driveway off South Jamesport Avenue.",
+          "The board approved a resolution classifying the Susan McCarthy minor subdivision at 934 Soundshore Road, Jamesport as an unlisted action and issuing a negative declaration so the applicant can seek Zoning Board of Appeals relief.",
+          "The board approved a resolution classifying the 836 East Main Street mixed-use site plan amendment as an unlisted action; the amendment adds a half-basement with roughly 2,000 square feet of accessory storage and converts a ground-floor exercise studio to retail.",
+          "The board approved the TJ Maxx facade renovation at 1751–1791 Old Country Road administratively, subject to Architectural Review Board approval of revised colors."
+        ]
+      },
+      {
+        "heading": "Discussed",
+        "items": [
+          "Staff presented the Home Depot outdoor storage application at 1550 Old Country Road, flagging unresolved issues including site-wide Dark Skies lighting compliance, cross-access easement with the adjacent Hobby Lobby parcel, fire marshal concerns about storage against the building, and landscaping deficiencies; no resolution was acted on.",
+          "The board agreed to draft a letter to the Town Board recommending the traffic safety committee review a proposal to reconfigure Second and Third Streets near downtown for one-way traffic and additional on-street parking."
+        ]
+      }
+    ]
+  }
 }

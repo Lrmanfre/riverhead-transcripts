@@ -10896,5 +10896,44 @@
       "end": 5852.4,
       "text": "Robert Nussbaum, Thank you."
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T02:53:46+00:00",
+    "agenda_grounded": false,
+    "tldr": "The board approved a resolution exempting a proposed 214-foot communications tower at the Wading River Fire District from local zoning requirements, drawing substantial public opposition from nearby homeowners and an attorney representing 26 households. The board also swore in five new Riverhead police officers and passed a series of routine personnel and budget resolutions.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "Five new police officers were appointed and sworn in; two will attend the police academy beginning December 9.",
+          "The board unanimously approved a resolution finding, under a Monroe balancing test, that a proposed 214-foot communications tower at the Wading River Fire District on North Country Road is exempt from town zoning and land-use regulations, including variances, special permit, and site plan approval.",
+          "The board adopted a resolution classifying development of the Town Square and related projects as a Type 1 action under SEQRA and directed that a lead-agency request be circulated to involved agencies.",
+          "A public hearing was opened on establishing a sewer rent rate for out-of-district connections; the rate for 2024 was stated as $10.046 per thousand gallons with a multiplier of 1.75, and the hearing was left open for written comment through approximately December 13.",
+          "Brian Mills was reappointed to the Board of Assessment Review.",
+          "The board authorized bidding for a sewer design contract for 203–213 East Main Street and for grinding of yard waste at the Southside Young's Avenue facility.",
+          "Local laws amending town code chapters on penalties and offenses were adopted."
+        ]
+      },
+      {
+        "heading": "Public hearings & comment",
+        "items": [
+          "An attorney representing approximately 26 Wading River homeowners argued the cell tower application lacks probative coverage data, that photo simulations omit views from nearby homes, and that the project should go through the planning board and ZBA rather than a zoning exemption.",
+          "Several Wading River residents near the proposed tower cited concerns about property value loss, falling ice, fire risk, a blinking red obstruction light, and inadequate SEQRA review.",
+          "Supporters, including a board member who is a Wading River volunteer firefighter and a long-time resident, argued the tower is needed to address radio dead zones that endanger first responders and residents.",
+          "A commenter questioned whether the SEQRA environmental assessment form was made available to the public before the negative declaration vote."
+        ]
+      },
+      {
+        "heading": "Affects residents",
+        "items": [
+          "Residents near 1503 North Country Road in Wading River will be directly affected by the approved communications tower exemption.",
+          "A box in the town hall lobby is collecting toiletries, clothing, and personal-care items for veterans through the holidays, Monday–Friday 8:30 a.m.–4:30 p.m.",
+          "The downtown holiday parade, Santa arrival by boat, and tree lighting are scheduled for Saturday; a pet-photos-with-Santa event at the town animal shelter is set for December 14, and the Jamesport civic tree lighting is December 5 at 6 p.m."
+        ]
+      }
+    ]
+  }
 }

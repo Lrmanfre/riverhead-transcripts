@@ -3046,5 +3046,28 @@
       "end": 1414.32,
       "text": "Thank you, everybody."
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T01:58:13+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Riverhead Planning Board approved several resolutions at its May 7 meeting, including scheduling public hearings for multiple applications and granting site plan approval for one project. The board also accepted a final environmental impact statement for a large Calverton industrial subdivision.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "The board voted to schedule a public hearing for a site plan application by a business identified as North Shore Sprinkler Supply.",
+          "The board voted to schedule a public hearing for a three-lot minor subdivision associated with the Marie L. Andrews Revocable Living Trust, which memorializes a prior development rights sale.",
+          "The board assumed lead agency status and issued a negative declaration under SEQRA for the JPD Calverton site plan, a proposed roughly 75,000-square-foot multi-tenant warehouse at 4195 Middle Country Road on the former Neptune Supply site.",
+          "The board voted to schedule a public hearing for the JPD Calverton site plan application.",
+          "The board granted a 90-day extension for a minor subdivision identified as Woodhull at Soundshore.",
+          "The board granted preliminary and final site plan approval for a Hampton Jitney application involving four battery energy storage units, with conditions including a decommissioning fund and a contribution to a fire marshal hazard mitigation fund.",
+          "The board approved a grading and drainage plan for a single-family residence at Seacrest Estates, lot 12.",
+          "The board accepted the Final Environmental Impact Statement for the Calverton Industrial Subdivision (approximately 131 acres west of Splish Splash) and authorized its distribution to involved agencies; next steps are findings and potential approvals."
+        ]
+      }
+    ]
+  }
 }

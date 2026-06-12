@@ -1041,5 +1041,24 @@
       "end": 953.76,
       "text": "Thank you."
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T01:46:53+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Riverhead Planning Board approved four resolutions at its December 19 meeting, covering a storage facility, a road project, a restaurant, and an environmental scoping action.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "The board granted final site plan approval for Extra Space Storage (resolution 2024-096).",
+          "The board approved a resolution related to a Marsden Road matter (resolution 2024-097).",
+          "The board adopted a final scope for a Draft Environmental Impact Statement for TJOC Real Estate Holding LLC under SEQRA (resolution 2024-098).",
+          "The board granted administrative site plan approval for Cuddy's Restaurant and Pub (resolution 2024-099)."
+        ]
+      }
+    ]
+  }
 }

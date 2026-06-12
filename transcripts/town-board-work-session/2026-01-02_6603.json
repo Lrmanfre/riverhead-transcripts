@@ -2486,5 +2486,28 @@
       "end": 1979.84,
       "text": "[transcription gap]"
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T02:31:42+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Riverhead Town Board held its first work session of 2026, reviewing approximately 48 organizational and operational resolutions slated for the January 6 board meeting, then entered executive session to discuss employee terms and election-law litigation.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "The board reviewed resolutions setting 2026 salaries for elected officials, general town employees, highway, police, sewer, street lighting, water district, and various board members, with no merit raises included in any category.",
+          "Two resolutions (approving agreements for recreation superintendent and a network/systems administrator positions) were flagged for potential removal from the Tuesday agenda because dollar amounts and final agreement text were not yet available for board review.",
+          "A memorandum of understanding with Suffolk County and the Suffolk County Sheriff will allow the police department to access new Flock Safety cameras to be installed on town road rights-of-way.",
+          "Two public hearings on proposed amendments to Town Code Chapter 301 related to golf cottages and transfer development rights were scheduled for January 21 at 6 p.m.",
+          "The board reviewed a new formal 2026 donation policy required by auditors to document, evaluate, and track all gifts received by the town.",
+          "A grant application for bulletproof vests was included, with the grant potentially offsetting up to 50 percent of costs the police department planned to incur regardless.",
+          "Change orders one and two for the sewer district's Class A biosolids upgrade project were reviewed; both were described as carrying no additional cost to the town.",
+          "The board entered executive session to discuss employee terms and conditions and an update on litigation involving even-year election law."
+        ]
+      }
+    ]
+  }
 }

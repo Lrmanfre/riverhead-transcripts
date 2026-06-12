@@ -13406,5 +13406,39 @@
       "end": 7477.92,
       "text": "Happy Thanksgiving."
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T03:10:13+00:00",
+    "agenda_grounded": false,
+    "tldr": "The board held a public hearing on strengthening enforcement of the existing 29-day minimum rental rule, then voted on roughly two dozen resolutions including a 4-1 vote to designate the Jazz Loft as the qualified sponsor for the Vale Levitt Music Hall and a vote to override the state tax levy limit.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "The board voted 4-1 to designate the Jazz Loft as the qualified and eligible sponsor to redevelop the Vale Levitt Music Hall at 18 Peconic Avenue, with one board member voting no citing concerns about incomplete financial and architectural documentation.",
+          "The board voted to override the state tax levy limit, with one member noting the increase is tied largely to the cost of expanding the police force to 100 officers.",
+          "The board approved a resolution authorizing publication of a notice to amend the Community Development Block Grant budget for program years 2024 and 2025, which a board member noted redirects funds toward the Jazz Loft project.",
+          "Two automotive equipment operators, a maintenance mechanic, a town board coordinator, and two traffic control specialists were appointed, and a detective promotion was ratified.",
+          "A bid for removal of household hazardous waste was awarded.",
+          "Two appraisals of the Wellbridge Drug and Alcohol Treatment Center were authorized in connection with tax-grievance litigation.",
+          "An extension of a license agreement with the U.S. Fish and Wildlife Service for water-level logging equipment at Wading River Boat Ramp was approved.",
+          "The board approved a special event application for the Lions Club of Riverhead Christmas Parade and Extravaganza.",
+          "The board signaled support for a letter authorizing the Railroad Museum of Long Island to apply to the William G. Pomeroy Foundation for a historic marker commemorating a 1926 fatal train derailment in Calverton, with staff asked to provide the letter by the following day."
+        ]
+      },
+      {
+        "heading": "Public hearings & comment",
+        "items": [
+          "A public hearing was held on proposed amendments to Chapter 263 governing rental permits, which would create rebuttable presumptions of illegal transient rental based on online listing language, out-of-state license plates, and excess trash, raise first-offense fines to a minimum of $3,000 and maximum of $15,000, raise subsequent-offense fines up to $30,000 per violation per day, add civil enforcement penalties of $5,000 per day, allow immediate permit revocation, and require permit applicants to sign an acknowledgment of the 29-day minimum rule.",
+          "Several residents spoke in favor of stronger enforcement of the 29-day rule, citing noise, parking, and quality-of-life problems from short-term rentals in their neighborhoods.",
+          "Two speakers urged the board to consider reducing the minimum rental period to 14 days, citing tourism revenue, fixed-income homeowners who rent to supplement income, and alignment with some neighboring towns.",
+          "A resident and an out-of-state caller described prolonged difficulties resolving an alleged illegal rental operation in their neighborhood, illustrating the enforcement gaps the amendments aim to close.",
+          "The public hearing was kept open for ten days, closing November 28."
+        ]
+      }
+    ]
+  }
 }

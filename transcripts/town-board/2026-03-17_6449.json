@@ -10446,5 +10446,39 @@
       "end": 5609.2,
       "text": "[transcription gap]"
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T03:14:20+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Riverhead Town Board held its March 17, 2026 meeting, marking the town's 234th birthday, and adopted a broad slate of resolutions covering staffing, contracts, special events, and land-use matters while tabling two items pending corrections.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "The board adopted a local law creating a 'change of tenancy' permit process under the Fire Marshal's office to streamline inspections when a business moves into an existing space without a change of use.",
+          "A local law amending the fire safety code related to tenancy permits was given a public hearing; both fire-code measures were left open ten days for written comment before adoption.",
+          "A third public hearing addressed updated requirements for electronic reporting of fire-protection-system inspection and testing records.",
+          "The board reappointed multiple members to the Landmarks Preservation Commission, including Richard Wines, Kelly Sharga, James McMahon, Stephanie Bell, Joe Petruccelli, Peter Lucas, and one additional member.",
+          "The Polish Town Street Fair and Festival special-event application was approved after the board voted to strike the clause requiring the organizers to reimburse police costs, which town counsel confirmed is not currently enforceable under the town code.",
+          "The Zenith Building addition site-plan preliminary approval at 301 East Main Street and 12 McDermott Avenue was adopted; one board member abstained citing concerns about a fifth-floor element and incomplete knowledge of the scoping process.",
+          "The board authorized retaining special counsel to defend against litigation brought by Suffolk County Water Authority over a town zoning ruling, with board members urging residents to contact the water authority directly.",
+          "Resolution 254 authorizing a project-scope letter for the Perkins Building at 1129 West Main Street was tabled pending funding clarification.",
+          "Resolution 227 setting salaries for call-in and seasonal recreation personnel was tabled after dollar amounts were found to be incorrect; a corrected version, Resolution 228, was adopted the same meeting.",
+          "The board adopted local laws on accessory dwelling units and sewer code amendments, and approved contracts for sewer-district chemicals, generator maintenance, and a prefabricated highway department building.",
+          "Off-agenda resolutions authorizing the Community Development Agency to apply for Congressional Directed Spending for infrastructure projects and police vehicles were adopted after Congressman Lota's office requested submissions by Friday."
+        ]
+      },
+      {
+        "heading": "Money",
+        "items": [
+          "The town clerk reported the building department collected approximately $125,099 in fees in February, and total tax collections reached roughly $108.7 million as of March 11.",
+          "The board amended the Riverhead Water District schedule of rates and charges.",
+          "A budget adjustment was adopted for the Children's Adaptive Playground capital project to align spending lines with grant requirements."
+        ]
+      }
+    ]
+  }
 }

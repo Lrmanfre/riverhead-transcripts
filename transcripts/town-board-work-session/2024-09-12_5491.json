@@ -6211,5 +6211,28 @@
       "end": 3835.36,
       "text": "Thank you."
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T02:11:03+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Riverhead Town Board held a work session covering proposed fee increases for road opening permits and shopping cart retrieval, an amendment to the Community Preservation Fund project plan to allow water quality spending, a new Food Unites restaurant week, and a slate of 28 resolutions including equipment purchases, personnel actions, and water district contracts.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "The board discussed raising the road opening permit fee from $200 to $300, with a public hearing to be noticed; current labor cost per permit was estimated at about $435.",
+          "The shopping cart retrieval fee charged to stores is proposed to increase from $125 to $175 to better cover the town's recovery costs.",
+          "Board members directed code enforcement to photograph cart wheels when retrieved to document missing locking devices, potentially allowing a separate violation ticket on top of the retrieval fee.",
+          "The board reviewed an amendment to the Community Preservation Fund project plan to add water quality and pollution prevention as an eligible use of CPF funds, with two projects—Forge Road and River Road—identified as near-ready.",
+          "The Anti-Bias Task Force and Riverhead Chamber of Commerce announced 'Food Unites,' a restaurant week running September 23–29 highlighting diverse local eateries; details are at RiverheadChamber.com.",
+          "Resolutions approved or advanced include a downtown security camera project budget adjustment, new police vehicle purchases, new ambulance radios for RBAC, an ambulance chassis remount, approval of the Holiday Light Show special event, wellhead manganese treatment at Water District Plant 5, and a Language Line Services agreement for Justice Court.",
+          "Three part-time police officers were appointed to attend the police academy starting the following Saturday.",
+          "A promotion of a police officer to the rank of sergeant was included in the resolution list."
+        ]
+      }
+    ]
+  }
 }

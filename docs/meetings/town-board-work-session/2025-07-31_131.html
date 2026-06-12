@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2025-07-31, category:Town Board Work Session">
@@ -25,6 +25,21 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/131" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/131/files/agenda/51" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Town Board work session focused primarily on an extensive presentation on downtown revitalization and the six-subproject Town Square initiative, reviewed a large consent agenda of 43 resolutions covering personnel, events, code amendments, and capital projects, and advanced two items—J. Petrucelli&#x27;s developer qualification and a Title VI plan—for Tuesday&#x27;s regular meeting.</p>
+      <h3>Key actions</h3>
+      <ul><li>A resolution to formally designate J. Petrucelli as qualified and eligible developer for the Town Square project will be drafted and placed on Tuesday&#x27;s agenda after the applicant submitted audited financials and a letter certifying available investment funds in the tens of millions of dollars.</li><li>A draft resolution to adopt the Town&#x27;s Title VI Civil Rights plan and appoint a council member as Title VI coordinator will also appear on Tuesday&#x27;s agenda, tied to two federally assisted transit bus grants from 2020 and 2022.</li><li>The Staples/Harbor Freight parking lot was designated a blighted property as of approximately July 25, triggering a $5,000 annual penalty and a required 30-day response period before formal registry listing.</li><li>A proposed amendment to the noise code (Chapter 251) would prohibit commercial refrigerated truck idling that causes noise or emissions to cross into adjacent residential properties without an adequate physical barrier, with standard stockade fencing explicitly excluded.</li><li>The board discussed seeking Supreme Court injunctive relief and civil penalties capped at $15,000 every two weeks for the blighted parking lot.</li><li>Resolution 17 authorizes demolition of a dangerous structure at 40 17th Street, Wading River.</li><li>Resolution 20 authorizes a grant application to the Dormitory Authority of New York State for up to $700,000 for capital improvements to the George Young Community Center, including HVAC, an elevator, parking, and an ADA playground.</li><li>Resolution 33 schedules a public hearing for August 19 to consider amending Chapter 301 (Penalties for Offenses), and Resolutions 37 and 38 schedule hearings the same evening on penalty amendments to traffic and fire prevention codes.</li><li>Resolution 39 schedules a public hearing for September 3 at 2:00 PM regarding an unsafe structure at 39 Pie Lane, Jamesport.</li><li>Resolution 4 authorizes a $120,000 budget adjustment to settle with a tenant at 127 East Main Street.</li></ul>
+      <h3>Money</h3>
+      <ul><li>Town Square Upper has approximately $4.25 million in committed funding and construction plans ready to bid; Town Square Lower has roughly $1.14 million secured against an estimated $3 million cost.</li><li>The First Street Parking Garage has approximately $17.5 million in funding against an estimated cost of $23–25 million; the Amphitheater has $1.75 million secured against an estimated $5 million cost with additional grant applications pending.</li><li>The town bonded $6 million during COVID to acquire 117 and 121 East Main Street.</li><li>A 2025 Army Corps of Engineers study recommended a flood wall along East Main Street connecting building foundations from the Gallo building to the Elk Hill building.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/e6c21b30-3980-4c5c-8ca8-2fc231f399dd.mp4" type="video/mp4">
@@ -1944,6 +1959,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

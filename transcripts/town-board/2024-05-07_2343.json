@@ -6431,5 +6431,38 @@
       "end": 3153.6,
       "text": ""
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T02:47:15+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Town Board held public hearings on a $2 million state Restore NY grant for a downtown hotel project and two unsafe-structure cases, then passed roughly 60 resolutions covering staffing, finances, contracts, and event permits.",
+    "sections": [
+      {
+        "heading": "Public hearings & comment",
+        "items": [
+          "The board held a public hearing on applying to the NY Empire State Development Restore NY Community Initiative program for a $2 million grant to support a hotel construction and demolition project within the Town Square development; the town would serve as the grant conduit and contribute no funding, with written comments accepted through June 10.",
+          "A public hearing on a special permit for a two-family dwelling at 4592 Middle Country Road, Calverton was not opened after staff confirmed required mailings were not completed; it will be rescheduled for the next regular meeting.",
+          "A public hearing on a structure at 650 Elton Street was adjourned to the next meeting after the owner disconnected utilities and applied for a demolition permit.",
+          "A public hearing on a structure at 1092 Dolores Avenue was cancelled after the property owner removed the structure at their own expense.",
+          "A representative from the Federation of Organizations spoke during public comment to offer free Narcan training to local businesses and organizations under a state grant."
+        ]
+      },
+      {
+        "heading": "Key actions",
+        "items": [
+          "The board approved fund balance transfers for bond anticipation note payment, a printer-plotter purchase, and town hall improvements.",
+          "The board provisionally appointed a code compliance coordinator, a senior accountant, and a Justice Court clerk (Spanish-speaking), while voting down a separate accountant appointment after the candidate withdrew.",
+          "Two members were appointed to the Anti-Bias Task Force and three members were reappointed to the Veterans Advisory Committee.",
+          "A member was appointed to the Architectural Review Board.",
+          "The board ratified the appointment of a municipal garage manager and authorized a stipend, and ratified a separate stipend for an interim garage manager.",
+          "The board authorized a SEQRA classification and lead agency coordination for the Meeting House Creek Wetlands Restoration project.",
+          "The board set fees for accelerated building department and fire prevention services.",
+          "Beach hours were set and seasonal beach and recreation department employees were appointed for 2024."
+        ]
+      }
+    ]
+  }
 }

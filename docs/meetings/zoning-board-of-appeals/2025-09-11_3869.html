@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2025-09-11, category:Zoning Board of Appeals">
@@ -25,6 +25,19 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/3869" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/3869/files/agenda/3733" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Zoning Board of Appeals granted a variance for a detached garage near the coastal erosion hazard line while denying a second accessory structure (writer&#x27;s studio) on one property, approved setback variances for a residential addition at 25 Nautical Drive, and adjourned a complex off-site parking variance application for 505 Lincoln Street to October 23 for further review.</p>
+      <h3>Key actions</h3>
+      <ul><li>The board granted a variance for a detached garage seaward of the mapped coastal erosion hazard line, finding no reasonable alternative location, but denied relief for a proposed second accessory structure described as a writer&#x27;s studio along with associated driveway, sanitary, retaining wall, and vegetation disturbance improvements.</li><li>The board approved setback variances for the property at 25 Nautical Drive (Appeal 2025-029), allowing a rear yard setback of 29 feet where 60 feet is required and a front yard setback of 16 feet where 50 feet is required, subject to submission of a final survey.</li><li>The board adjourned Appeal 2025-028 — a request by 505 Lincoln Street Opportunity Zone Fund LLC for off-site parking roughly 370 feet from the subject property, using spaces in Polish Hall&#x27;s southerly lot — to October 23, 2025, citing legal complexity including questions about whether the application requires a use variance rather than an area variance, the lack of a letter of pre-existing use for Polish Hall, and a disputed post-closing parking agreement involving an adjacent property owner.</li><li>Meeting minutes from August 28, 2025 were approved, and the next scheduled meeting was noted as September 25, 2025.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/2b3c10a6-50f2-416a-8e7e-49383489dc15.mp4" type="video/mp4">
@@ -1187,6 +1200,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

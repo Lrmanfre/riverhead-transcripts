@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2025-05-15, category:Town Board Work Session">
@@ -25,6 +25,23 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/5303" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/5303/files/agenda/5141" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Riverhead Town Board work session covered a National Police Week video feature on the police department, a monthly police report, an Open Space Committee presentation on preserved properties, a contentious preliminary site plan review for Island Water Park, and several code and personnel matters.</p>
+      <h3>Key actions</h3>
+      <ul><li>The board reviewed a preliminary site plan approval for Island Water Park (Scott&#x27;s Point, 5835 Middle Country Road, Calverton) but raised concerns that the go-kart track and lake use remain in violation of a DEC mining reclamation permit; staff agreed to contact the DEC for a written update before final approval.</li><li>A proposed code revision to Chapter 105 on school bus camera violations would remove those civil cases from Justice Court and assign them to an Administrative Law Judge, consistent with what other East End towns have done; the item is expected to go to public hearing.</li><li>A proposed code revision to cannabis retail regulations would add the Business CR zoning district as a permitted location, codify the notice-to-municipality application process, and impose a 90-day expiration on positive town responses; the board directed staff to publish and post for a June public hearing.</li><li>Town beaches were set to operate with lifeguards from 11 a.m. to 6 p.m., and beach parking lots from 6 a.m. to 10 p.m. for the season.</li><li>The board accepted the retirements of two long-serving maintenance employees and approved several other personnel actions including appointment of a fire marshal and a new wastewater treatment plant operator.</li><li>The board authorized the supervisor to execute an agreement with an architect for Ambulance District building renovations and approved a related capital reserve fund balance transfer.</li><li>Several local law amendments to Chapter 231 (Fire Prevention) covering definitions, interference with fire officials, reimbursement of expenses, flammable liquids, outdoor fires, and penalty provisions were placed on the agenda for adoption.</li><li>The board went into executive session to discuss potential litigation, acquisition of real property, and related legal matters.</li></ul>
+      <h3>Money</h3>
+      <ul><li>The Open Space Committee noted that Community Preservation Fund debt payments are currently limiting new land purchases, with the town focused on stewardship of existing preserved properties rather than acquisitions.</li><li>Code enforcement collected approximately $52,000 in rental permit fees during April, bringing the year-to-date total to about $147,000.</li><li>A 37-acre wooded and wetland parcel adjacent to the town-owned ADJN property near the Sawmill Creek watershed was identified as a potential future preservation target and noted to be currently for sale.</li></ul>
+      <h3>Discussed</h3>
+      <ul><li>The Open Space Committee presented a slideshow summarizing preserved properties including Sound Avenue Preserve, Weeping Willow, Sharper&#x27;s Hill, Hubbard Duck Farm, Mill Pond Preserve, North Fork Preserve, and others, and outlined stewardship goals including trails, signage, and a planned Eagle Scout kiosk project.</li><li>Police Chief Frost reported 2,838 total calls in the most recent month with 132 criminal incidents, representing about 4 percent of total call volume, down from 150 the prior month; two non-fatal overdoses were treated with Narcan.</li><li>The town clerk reported high volume in vital records requests driven by residents needing documents for the federal enhanced driver&#x27;s license requirement, and said new resolution-management software is targeted for launch at the first June meeting.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/e69b5f49-2b33-4ac6-a5ab-0d71453eb8be.mp4" type="video/mp4">
@@ -2005,6 +2022,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

@@ -1106,5 +1106,23 @@
       "end": 1047.91,
       "text": "so moved so [transcription gap]"
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T01:27:33+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Planning Board met briefly on January 4, 2024, adopting several resolutions including accepting the Draft Environmental Impact Statement for the Calverton Industrial Subdivision, while noting a town board moratorium on Calverton industrial development will pause further in-house review once filed with the Secretary of State.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "The board accepted the Draft EIS for the Calverton Industrial Subdivision and authorized its circulation to involved agencies and public posting, with in-house review to pause once a six-month town moratorium on Calverton industrial development takes effect.",
+          "The board classified the Delalio Sod Farm action under SEQRA, assumed lead agency, and issued a negative declaration.",
+          "The board classified the Theodora Cohen minor subdivision under SEQRA and scheduled a public hearing for the application to subdivide two contiguous improved parcels."
+        ]
+      }
+    ]
+  }
 }

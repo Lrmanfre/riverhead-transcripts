@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2024-03-19, category:Town Board">
@@ -25,6 +25,23 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/1896" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/1896/files/agenda/1759" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Riverhead Town Board held its March 19 meeting, passing roughly 50 resolutions covering personnel, capital projects, special events, bids, and land matters. Public comment focused heavily on concerns about the Riverhead Charter School&#x27;s expansion, funding equity, and unpermitted portable classrooms on charter school property.</p>
+      <h3>Key actions</h3>
+      <ul><li>The board approved a capital project to establish a Riverfront Adaptive Children&#x27;s Playground.</li><li>The board approved a capital project to establish a Riverfront Amphitheater.</li><li>The board authorized submission of a letter of intent for an operation and maintenance grant through the New York State Environmental Facilities Corporation.</li><li>The board authorized the town clerk to publish notice of a proposed local law to amend the Pine Barrens Overlay District zoning article.</li><li>The board approved special event permits for the African American Educational and Cultural Festival (August 10 at Grangebel Park), the Polish Festival (August 17–18), a 5K run, a cycling event, and a youth consignment sale.</li><li>The board authorized the town clerk to seek bids for residential solid waste collection and disposal and for website development.</li><li>The board authorized an appraisal of a roughly 3.3-acre parcel for possible purchase of development rights.</li><li>The board approved conveyance of town-owned property at 201 Howell Avenue, subject to permissive referendum, after amending an address error in the resolution.</li></ul>
+      <h3>Public hearings &amp; comment</h3>
+      <ul><li>A public hearing was held on a preliminary site plan for an 84,250-square-foot commercial warehouse at 901–923 Burman Boulevard in Calverton; the board kept the record open for written comment until March 29, 2024.</li><li>Several residents and teachers spoke against expansion of the Riverhead Charter School, citing funding diverted from the public school district and loss of programs.</li><li>One speaker raised concern that portable classrooms have already been placed on charter school property without a permit and that the required public notice sign had not been posted.</li><li>A member of the public asked about the status of a Canal House litigation settlement and the selection process for a landscape architecture contract related to the town square project; board members declined to answer questions at the podium and directed the speaker to contact the town attorney&#x27;s office.</li></ul>
+      <h3>Affects residents</h3>
+      <ul><li>Riverhead Recreation Department spring and summer registration opened March 20 and is available online at riverheadrecreation.net, by phone, or in person at Town Hall.</li><li>The Recreation Department has relocated to the second floor of Town Hall; beach passes are no longer issued at Stotzky Park.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/e20334e0-3ed5-48e1-80ee-d7a06a18cf37.mp4" type="video/mp4">
@@ -1588,6 +1605,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

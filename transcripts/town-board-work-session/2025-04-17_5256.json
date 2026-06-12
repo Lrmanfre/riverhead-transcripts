@@ -9311,5 +9311,43 @@
       "end": 5684.98,
       "text": "."
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T02:22:49+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Riverhead Town Board work session covered a proposed family amusement event near the ice rink, a 60-megawatt battery energy storage facility in Calverton, a Starlink satellite earth station at EPCAL, and code enforcement updates including action on a severely overcrowded rental property.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "The board expressed support for a proposed five-day family amusement event by Dreamland Amusement to be held in front of the town ice rink in late June, pending a formal Chapter 255 special events application and resolution of parking logistics.",
+          "A 60-megawatt battery energy storage facility proposed at 104 Edwards Avenue in Calverton was presented to the board; staff recommended coordinated SEQRA review with multiple agencies and the application will also go before the planning board for site plan review.",
+          "A proposed Starlink satellite earth station at EPCAL (317-319 Berman Avenue) was presented; staff recommended scheduling a public hearing, noting the project largely complies with the town's satellite earth station code.",
+          "The board was informed that a Chapter 251 public nuisance code amendment is being drafted and is expected to come before the board the following week for possible public hearing scheduling.",
+          "The board entered executive session to discuss contractual matters involving police services and RVAC/AXIS, and a personnel appointment."
+        ]
+      },
+      {
+        "heading": "Money",
+        "items": [
+          "Code enforcement collected approximately $21,000 in March, bringing first-quarter rental permit revenue to just under $95,000.",
+          "Justice Court reported total collections of $35,545 for the month, with blight mitigation surcharges imposed totaling $17,255 for the year to date.",
+          "The battery energy storage developer committed $100,000 to the Riverhead Fire District toward purchase of a vehicle and equipment needed to respond to battery storage incidents."
+        ]
+      },
+      {
+        "heading": "Discussed",
+        "items": [
+          "Police Chief reported March arrests at 144, shoplifting cases down from 39 to 25, and noted the department is participating in a state teen driving safety campaign ahead of prom season.",
+          "The police department received its third motorcycle and is in the process of equipping it.",
+          "Board members discussed fire safety concerns about the battery storage facility at length; the developer's fire safety expert described containment technology, individual cabinet design, and a 24-hour battery management monitoring system.",
+          "Code enforcement reported opening 50 new complaint investigations in March, issuing 83 summonses, and that an officer handling nighttime parking enforcement left for another municipality and will need to be replaced.",
+          "A Supreme Court case involving approximately 21 to 27 people living in a single-family home on Wading River Manor Road is ongoing, with DSS subpoenaed to testify; a follow-up hearing was scheduled for the coming Monday."
+        ]
+      }
+    ]
+  }
 }

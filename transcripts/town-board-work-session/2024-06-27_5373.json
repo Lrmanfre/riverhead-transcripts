@@ -18491,5 +18491,32 @@
       "end": 10079.64,
       "text": "Take care."
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T04:05:01+00:00",
+    "agenda_grounded": false,
+    "chunked": true,
+    "tldr": "The board held a lengthy work session covering a $24 million federal downtown grant, detailed line-by-line review of the draft comprehensive plan, and previewed roughly 40 consent resolutions for upcoming action.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "The town received a $24.12 million federal Department of Transportation grant for downtown revitalization covering a parking garage, flood mitigation, and streetscaping.",
+          "The board reached consensus to review the 500-unit residential cap in the DC-1 zone annually rather than only after build-out.",
+          "The board agreed that condominium and ownership units should not count against the 500-unit cap, and that apartments in existing historic buildings would also be excluded.",
+          "The board decided to retain the 28-day minimum stay requirement for short-term rentals, with one dissenting member.",
+          "The board agreed to eliminate the three-year certificate-of-occupancy waiting period for accessory dwelling unit structures (the requirement for the principal structure may remain).",
+          "The board decided to strike charter schools as a permitted use in industrial zones while allowing assisted living to remain by special permit in any district.",
+          "The board directed that clarifying language be added to the plan and zoning code confirming that floor-area-ratio limits do not apply to renewable energy projects such as solar and battery storage.",
+          "A special permit application for a proposed 15,000-square-foot professional office building at 374 Main Road was advanced toward a planning board public hearing with a recommended negative declaration under state environmental review.",
+          "A bond resolution appropriating $2,260,000 was scheduled for re-adoption due to a prior vote lacking the required number of board members present.",
+          "Public hearing notices were authorized for proposed amendments to the zoning code covering bed-and-breakfast facilities, peddling and soliciting regulations, and noise/nuisance variance procedures.",
+          "The board approved fireworks applications for the Jamesport Fire Department on July 20, the Riverhead BID on July 5, and a local golf club on July 5."
+        ]
+      }
+    ]
+  }
 }

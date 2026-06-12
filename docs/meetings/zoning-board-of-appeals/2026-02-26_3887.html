@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2026-02-26, category:Zoning Board of Appeals">
@@ -25,6 +25,21 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/3887" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/3887/files/agenda/5939" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Zoning Board of Appeals heard five appeals on February 26, 2026, adjourning or referring back most items; one demolition-and-rebuild variance was approved.</p>
+      <h3>Key actions</h3>
+      <ul><li>Appeal 2025-032 (Bayview Epiconic LLC, 47 Bayside Avenue, Jamesport) — concerning a rescinded pre-existing-use letter for transient rental — was closed and decision reserved to the April 9 meeting at the applicant&#x27;s attorney&#x27;s request.</li><li>Appeal 2026-002 (178 Main Road, Riverhead) — seeking lot coverage, floor area ratio, and front yard setback variances to legalize a dwelling addition — was adjourned to March 12 after board members raised concerns about commercial vehicles on the property, excess meters, impervious surface calculations, and possible violation of a prior court conditional discharge.</li><li>Appeal 2026-003 (253 Newton Avenue, Riverhead) — side yard setback variance for a garage addition — was referred back to the building department for a new denial letter addressing impervious surface coverage and a non-conforming shed; hearing rescheduled to March 26.</li><li>Appeal 2026-004 (467 Peconic Bay Boulevard, Riverhead) — front yard setback and impervious surface variances for demolition and rebuild of a single-family residence — was approved subject to Suffolk County Health Department, DEC, and, if applicable, Conservation Advisory Council approval, and in accordance with the application sketches.</li><li>Appeal 2026-005 (167 Pier Avenue, Jamesport) — variance to place a detached three-car garage in the front yard — was adjourned to March 12 after the board indicated it would be more receptive if the garage were relocated behind the front building line of the house, potentially eliminating the need for a variance entirely.</li><li>The board noted that Stony Brook Ambulance Center appeal 2025-042, previously set for March 12, must be re-noticed due to changes in the requested relief, and will be pushed to April given the applicant&#x27;s unavailability on March 26.</li></ul>
+      <h3>Affects residents</h3>
+      <ul><li>A board member warned of an active scam in which residents received official-looking notices demanding a roughly $4,000 wire transfer to an out-of-state bank, falsely attributed to the town; residents should verify any payment requests directly with town staff before sending money.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/6949f48f-6d74-4b7b-8c35-689b51703940.mp4" type="video/mp4">
@@ -1659,6 +1674,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

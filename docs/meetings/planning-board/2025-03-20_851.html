@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2025-03-20, category:Planning Board">
@@ -25,6 +25,21 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/851" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/851/files/agenda/714" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Planning Board approved a farm stand, advanced a four-lot minor subdivision using transfer of development rights, assumed lead agency and issued a negative declaration for a West Main Street self-storage redevelopment, and rejected a sketch plan for the Summerwind Farm major subdivision after documents were found to have been misrepresented as prepared by a licensed design professional.</p>
+      <h3>Key actions</h3>
+      <ul><li>Resolution 2025-022 was approved, granting preliminary site plan approval for a property at 1107 Old Country Road.</li><li>Resolution 2025-023 was approved, classifying the action under SEQRA and granting farm stand approval for Freeboard 23 LLC for a seasonal, movable farm stand truck; approval is subject to DOT and Suffolk County Farmland Committee review.</li><li>Resolution 2025-024 was approved, scheduling a public hearing on the Points East LLC minor subdivision application to subdivide a 2.05-acre parcel into four lots using town Transfer of Development Rights.</li><li>Resolution 2025-025 was approved, assuming lead agency status and issuing a negative declaration for the Leesam Associates LLC minor subdivision, which follows the zoning district boundary between the rural corridor and agricultural protection zones.</li><li>Resolution 2025-026 was approved, assuming lead agency status and issuing a negative declaration for the 940–946 West Main Street redevelopment, a proposed self-storage and light-industrial tenant building project; a prior motion to table the resolution over soil contamination concerns was also made and seconded but the main resolution ultimately passed.</li><li>Resolution 2025-027 was approved, rejecting the sketch plan for the Summerwind Farm major subdivision after documents purportedly prepared by a licensed design professional were found not to have been; the board directed all related matters to the town attorney&#x27;s office.</li><li>Minutes of the February 20 and 21 meetings were approved.</li><li>The next Planning Board meeting is scheduled for Thursday, April 3, 2025, at 6 p.m.</li></ul>
+      <h3>Discussed</h3>
+      <ul><li>The Points East LLC subdivision would require purchase of two TDR credits, an amended map showing driveway turnaround, drainage, elevations, and water main extension, and a common driveway easement with engineered grading plans before or at the public hearing.</li><li>Board members raised concerns about potential soil contamination from vehicles stored on the West Main Street site and requested supplemental soil sampling concurrent with the SEQRA process; the applicant noted a prior Phase 2 environmental study came back clean.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/8a1f0771-0945-4ff0-9efb-ad1d4fde2d6d.mp4" type="video/mp4">
@@ -1248,6 +1263,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

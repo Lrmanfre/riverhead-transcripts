@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2025-06-12, category:Town Board Work Session">
@@ -25,6 +25,21 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/5347" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/5347/files/agenda/5185" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Town Board work session covered a proposed no-parking code amendment on Youngs Avenue, closed out dozens of capital projects, and addressed an emergency liquid sludge removal contract, among other routine resolutions.</p>
+      <h3>Key actions</h3>
+      <ul><li>The board discussed amending Chapter 289-10 to codify a no-parking restriction on both sides of Youngs Avenue between East Meadow Road and Osborne Avenue, with a public hearing to be scheduled for the next available meeting and possible same-day adoption.</li><li>A resolution was reviewed to declare an emergency and authorize a temporary purchasing agreement for liquid sludge removal and disposal to Suffolk County&#x27;s Bergen Point facility while a permanent contract is arranged, expected within 30 to 60 days.</li><li>Resolutions were listed to close approximately two dozen capital projects across water, sewer, highway, and parks departments.</li><li>A resolution to rescind a prior sewer improvement bid (resolution 2025-487 for 203-213 East Main Street) was included as an administrative cleanup, with the bid to be re-issued after additional steps are completed.</li><li>A bid for lubricants was rejected due to a single unsatisfactory response, and the town clerk was authorized to rebid.</li><li>A parcel at 48 Willow Street is proposed to be designated open space using $75,000 in Community Preservation Funds.</li><li>The board authorized a fireworks application for Riverhead Raceway on June 28, 2025, and for Baiting Hollow Club on July 19, 2025.</li></ul>
+      <h3>Discussed</h3>
+      <ul><li>The supervisor announced the town received its first cannabis tax distribution from New York State totaling $65,000 for roughly the first quarter of sales.</li><li>Board members discussed establishing truck weight enforcement operations on roads near industrial properties on Youngs Avenue, where heavy trucks have been observed traveling on weight-restricted roads.</li><li>The board viewed a Riverhead in Action video recapping a farm tour of four local agricultural operations including cannabis, vertical farming, and greenhouse growing.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/80573d2c-da2c-4ce8-82b0-a2a24034f839.mp4" type="video/mp4">
@@ -595,6 +610,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

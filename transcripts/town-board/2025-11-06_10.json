@@ -12521,5 +12521,39 @@
       "end": 6436.02,
       "text": "OK."
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T03:09:21+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Riverhead Town Board held a lengthy public hearing on the proposed 2026 budget, which would pierce the tax levy cap for the eighth time in nine years, and a separate hearing on Community Development Block Grant funding requests from local nonprofits. The board also moved through roughly two dozen resolutions, including formally appointing a new police chief.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "The board voted to appoint a new police chief to the Riverhead Police Department.",
+          "The board closed the public hearing on the 2026 preliminary budget and overriding the state tax levy cap, leaving written comment open until November 16.",
+          "The board closed the annual Community Development Block Grant public hearing, with written comment open until November 14; approximately $250,000 in federal HUD funds administered through Suffolk County is anticipated.",
+          "The board authorized the town clerk to seek bids for construction of a water district well and for general hardware items.",
+          "The board authorized a request for proposals for audit services for the Town of Riverhead Community Preservation Fund.",
+          "The board rejected bids for food and meat products and authorized a re-bid.",
+          "The board awarded a bid related to a landfill water main extension project.",
+          "The board authorized a professional services agreement for the Meeting House Creek stormwater, wetland, and habitat restoration project.",
+          "The board ratified a stipulation with a municipal employees union bargaining unit.",
+          "The board authorized the town clerk to publish notice for public hearings on proposed local law amendments to traffic regulations and to fire prevention enforcement.",
+          "A resignation of a public safety dispatcher and a maintenance mechanic were accepted, and amended employment terms for the town IT staff member were approved."
+        ]
+      },
+      {
+        "heading": "Public hearings & comment",
+        "items": [
+          "A resident argued the proposed budget increase of approximately 6.74 percent above the cap is excessive and that the public hearing notice omitted required salary information; the finance administrator clarified that the cap is being pierced only in the general fund and that the majority of increases are contractual, including a roughly $3.1 million, or 10 percent, rise in the police department budget.",
+          "The finance administrator noted the town has a $23–24 million RAISE grant with a roughly $7 million local match obligation, which is a primary reason for preserving fund balance rather than using it to offset the operating budget.",
+          "Three nonprofits—a girls' triathlon empowerment program, Long Island Head Start, and the Riverhead Community Awareness Program—requested CDBG funding for youth services, playground shading at a local center, and a school-based social worker at Roanoke Avenue Elementary School respectively."
+        ]
+      }
+    ]
+  }
 }

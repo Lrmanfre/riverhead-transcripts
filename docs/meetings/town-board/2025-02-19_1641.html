@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2025-02-19, category:Town Board">
@@ -25,6 +25,23 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/1641" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/1641/files/agenda/1504" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Town Board held four public hearings, passed roughly 40 resolutions covering water district projects, personnel changes, fee structure reforms, and a golf course special permit, and heard public comment on proposed meeting rule changes and a memorial display at Reeves Park.</p>
+      <h3>Public hearings &amp; comment</h3>
+      <ul><li>A public hearing was held on a roughly $2.35 million electrical upgrade to Water District Plant 7 on Fresh Pond Road, which includes capacity to accommodate future treatment if PFAS contamination from the former Grumman/EPCAL site reaches the wells; the hearing was closed with written comment accepted until February 28.</li><li>Three additional public hearings were held on removing set fees for yard sales, dog licenses, and peddler permits from town code so they can instead be set and updated by Town Board resolution; all three were closed with written comment accepted until February 28.</li><li>A resident of Reeves Park complained that memorial stones removed by storm damage and later reinstalled in a single cluster in the parking lot resemble a cemetery; the supervisor said the matter would be taken up at the next beach committee meeting.</li><li>A resident calling in via Zoom urged the board not to eliminate remote public participation when it revises its meeting rules, citing health and transportation barriers; the supervisor said changes are being reconsidered and a revised policy is expected at the March 4 meeting.</li></ul>
+      <h3>Key actions</h3>
+      <ul><li>The board approved establishing a new Water District boundary extension and associated capital project for Forge Road in Calverton.</li><li>A special permit for the Sandy Pond Links clubhouse at 1495 Roanoke Avenue was granted with a proposed 10 p.m. closing condition struck from the resolution before adoption.</li><li>The board adopted revised building department fee regulations that shift from cost-of-construction to a per-square-foot calculation and extend commercial permits from one to two years.</li><li>The board accepted the retirements of the wastewater district superintendent, who served about 40 years, and the town building and planning administrator.</li><li>Several personnel resolutions were adopted, including appointment of a fire marshal and promotion of a public safety dispatcher and a Spanish-speaking ordinance inspector.</li><li>Free beach stickers for veterans and volunteer fire and ambulance members were authorized, with a correction removing a reference to a non-existent &#x27;South Jamesport&#x27; fire department.</li><li>The board authorized an agreement with a mobile parking payment vendor and directed that further discussion on implementation follow.</li></ul>
+      <h3>Money</h3>
+      <ul><li>January Town Clerk fees totaled $7,873.75; Building Department fees collected were $103,081.50; tax receiver utility collections were $978,230.68.</li><li>A budget transfer was approved to fund ambulance district radio replacements using funds set aside in the prior year.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/a5794245-c633-4095-a289-a8dbc583d871.mp4" type="video/mp4">
@@ -1382,6 +1399,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

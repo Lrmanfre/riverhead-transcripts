@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2026-02-05, category:Town Board Work Session">
@@ -25,6 +25,21 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/6465" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/6465/files/agenda/5927" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The board discussed a proposed parking restriction on Roanoke Avenue near medical offices to reduce congestion on a residential street, then moved into executive session on several legal and contractual matters.</p>
+      <h3>Key actions</h3>
+      <ul><li>A proposed amendment to Chapter 289-12 would add a parking restriction on a portion of Roanoke Avenue on weekdays to address overflow parking from nearby medical offices; the board agreed to schedule a public hearing.</li><li>The board entered executive session to discuss a potential contractual agreement related to Perkins Power Station and three pending litigation matters involving a former employee, a party named Gigliotta, and Suffolk County.</li></ul>
+      <h3>Affects residents</h3>
+      <ul><li>Residents near Roanoke Avenue are encouraged to attend the upcoming public hearing on the proposed weekday parking restriction.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/40930fa8-3f89-4e9c-9df3-a4c450373490.mp4" type="video/mp4">
@@ -182,6 +197,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

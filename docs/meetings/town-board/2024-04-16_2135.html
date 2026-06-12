@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2024-04-16, category:Town Board">
@@ -25,6 +25,19 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/2135" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/2135/files/agenda/1998" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Riverhead Town Board approved roughly 35 resolutions at its April 16 meeting, covering personnel changes, special events, capital projects, and contracts. No members of the public offered comment.</p>
+      <h3>Key actions</h3>
+      <ul><li>The board authorized publication of a public hearing notice for an alleged unsafe structure at 1092 Dolores Avenue, Riverhead.</li><li>The board authorized publication of a public hearing notice for an alleged unsafe structure at 650 Avenue, Riverhead.</li><li>A special permit application for a two-family dwelling at 4592 Middle Country Road, Calverton, was classified as a Type 2 action under SEQRA and a public hearing was scheduled.</li><li>The board approved an extension of the Riverhead Water District for the Maris Farm subdivision.</li><li>A new deputy town clerk was appointed and terms of employment were set.</li><li>The board approved agricultural worker housing permit for Delalio Sod Farms LLC at 422 Edwards Avenue, Calverton.</li><li>Resolution 351 was tabled after a board member noted a form was incorrectly filled out.</li><li>The board approved a budget adoption for a parking lot capital project at Veterans Memorial Park.</li><li>The board approved a grant budget adjustment for the Pave Our Potholes road resurfacing project.</li><li>A roof repair project at the Senior Center was closed out, noted as having come in under budget.</li><li>The board approved special event permits for several 2024 events including Riverhead Townscape&#x27;s Country Fair, Country Fest, Blues by the River, and Holiday Tree Lighting, as well as Duck Pond Day, a Home Depot outdoor plant sale, the Long Island Antique Power Association show, and a Hallockville Museum Farm event.</li><li>The board authorized a labor stipulation with AFSCME Local 1000 and approved retainer agreements with a law firm.</li><li>The retirement of a senior water treatment plant operator and a town clerk employee were accepted, and the resignation of a heavy equipment operator was ratified.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/d224e1c7-41b0-4838-89d0-1291ef258798.mp4" type="video/mp4">
@@ -624,6 +637,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

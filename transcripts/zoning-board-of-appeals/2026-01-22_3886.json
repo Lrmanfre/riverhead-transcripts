@@ -10826,5 +10826,44 @@
       "end": 8663.68,
       "text": "Thank you."
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T03:26:24+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Zoning Board of Appeals adjourned two pending appeals and held a lengthy public hearing on a request to convert a nonconforming single-family residential property into a concrete and asphalt crushing facility in the Calverton area, ultimately adjourning the matter pending completion of environmental review and additional applicant submissions.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "Appeal 2025-036 (Osborne Avenue applicant) was adjourned to April 23, 2026 at the applicant's request.",
+          "Appeal 2025-028 (Lincoln Street Opportunity Zone Fund LLC) was adjourned to June 11, 2026 to allow the applicant, property owner, and adjacent owner to work toward resolving the issues among themselves.",
+          "Appeal 2025-043, seeking a special exception to change a nonconforming residential use to a solid waste and concrete/asphalt crushing facility, was adjourned to a future date pending completion of the SEQRA environmental review process and applicant submissions due within 30 days.",
+          "The board's environmental consultant testified that the Zoning Board is an involved agency under SEQRA and cannot make a determination until the environmental review led by the Planning Board is complete.",
+          "The environmental consultant recommended that the Planning Board rescind its adoption of the final scope, add the Zoning Board as an involved agency, reopen public comment on the draft scope, and issue a new final scope before the process continues.",
+          "The applicant's attorney was directed to submit proof of continuous residential occupancy of the subject property within 30 days to support the claim of an existing nonconforming residential use."
+        ]
+      },
+      {
+        "heading": "Public hearings & comment",
+        "items": [
+          "Approximately 60 residents attended the hearing on Appeal 2025-043, with several speaking in opposition.",
+          "The president of the Greater Calverton Civic Association submitted a formal written objection arguing the proposed use is an impermissible intensification of a nonconforming use that fails to meet Town Code Section 301-222B standards.",
+          "The adjacent property owner testified he has not observed anyone living in the subject residence for at least three years and described unpermitted site clearing and grading activity by the applicant in prior years.",
+          "Multiple residents raised concerns about noise, dust, diesel emissions, heavy truck traffic, groundwater impacts, and effects on residential property values.",
+          "One speaker noted that asphalt, which is included in the application, contains petroleum products and asked that its environmental impacts be evaluated separately from concrete.",
+          "A speaker noted the applied-for facility could process up to 500 tons of material per day under state DEC permit thresholds, generating significant truck and operational activity."
+        ]
+      },
+      {
+        "heading": "Discussed",
+        "items": [
+          "The applicant's attorney argued that a rezoning from Industrial A to Light Industrial, which occurred approximately nine years into the site plan process, rendered the previously allowable concrete crushing use nonconforming and created an inequitable situation the special exception provision is meant to address.",
+          "The board questioned whether the single-family home on site is currently occupied and whether the Planning Board ever formally approved the preliminary site plan; a 2022 Planning Board resolution denying the preliminary site plan was read into the record."
+        ]
+      }
+    ]
+  }
 }

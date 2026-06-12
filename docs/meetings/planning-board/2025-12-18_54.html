@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2025-12-18, category:Planning Board">
@@ -25,6 +25,21 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/54" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/54/files/agenda/5898" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Planning Board approved facade changes for a Dave&#x27;s Hot Chicken tenant at 949 Old Country Road, approved exterior renovations for a Sound Avenue grocery and liquor store, approved an amended site plan for the Cauliflower Square (Chick-fil-A) project, and scheduled a February public hearing for the 16-lot Summerwind Farm major subdivision.</p>
+      <h3>Key actions</h3>
+      <ul><li>The board approved facade changes for Dave&#x27;s Hot Chicken at 949 Old Country Road, the second tenant in the building previously approved for Qdoba, with coping and signage modifications required by the Architectural Review Board.</li><li>The board classified and granted administrative approval for exterior renovations at 5087 Sound Avenue, a grocery and liquor store, including new siding, windows, roof replacement, updated lighting, and four additional parking spaces to meet code.</li><li>The board approved an amended site plan for the Cauliflower Square project (Long Island Cauliflower Association site), adding a condition requiring impact protection measures around the reduced-pressure zone valve on County Route 58.</li><li>The board scheduled a public hearing on the preliminary plat for the 16-lot Summerwind Farm major subdivision at 200 Peconic Bay Boulevard, Aquebogue, for the evening meeting on February 5th.</li><li>For the TJOC Real Estate Holdings major subdivision and site plan on Mill Road, the board indicated a majority preference for the applicant&#x27;s preferred building orientation; staff will prepare three resolutions — a SEQRA findings statement, preliminary subdivision approval, and preliminary site plan approval — for the next meeting.</li></ul>
+      <h3>Discussed</h3>
+      <ul><li>One board member raised concerns about residential units in the TJOC project sitting close to a heavily trafficked road, arguing that rotating the building layout would benefit future residents, though the majority deferred to the applicant&#x27;s business judgment.</li><li>For Cauliflower Square, the board discussed internal traffic flow where the County Route 58 service road and Mill Road entrance converge, with staff noting road striping and signage would help direct drivers.</li><li>A board member raised concern that the RPZ water valve near Route 58 at Cauliflower Square could discharge large volumes of water if struck by a vehicle, leading to the added condition requiring physical impact protection around it.</li><li>For Summerwind Farm, staff noted DEC restrictions prohibit tree clearing between March 1 and November 30, a farm right-of-way on the eastern parcel will remain intact after investigation showed other properties hold an interest in it, and residents of Foxchaser Place submitted a co-signed letter that will be included in the hearing record.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/b284d0ef-abc5-400e-ae7e-4cfb7fc0a3a4.mp4" type="video/mp4">
@@ -1014,6 +1029,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

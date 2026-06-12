@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2025-05-29, category:Town Board Work Session">
@@ -25,6 +25,21 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/5321" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/5321/files/agenda/5159" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Town Board work session covered a promotional EMS Week video featuring Riverhead Volunteer Ambulance Corps, proposed zoning amendments along Route 58, a special permit application for a motocross track in Calverton, and a list of routine administrative resolutions. The board then moved into executive session.</p>
+      <h3>Key actions</h3>
+      <ul><li>The board discussed amending the shopping center and business center zoning districts along Route 58 to permit additional uses, including retail, personal services, banks, and drive-through restaurants, consistent with the comprehensive plan.</li><li>Movie theaters are proposed to be moved from special permit use to permitted use in the shopping center zoning district after board members noted resident demand and a simpler approval process.</li><li>Five properties along Harrison Avenue, currently zoned shopping center, are recommended to be rezoned to commercial residential campus because of their proximity to single-family residences.</li><li>The board reviewed a special permit application for a motocross track at 2822 River Road, Calverton, on a 15-acre light industrial parcel; the planner will prepare resolutions to initiate SEQRA coordination and retain an independent noise engineer to review the applicant&#x27;s noise study.</li><li>A new Garfield Langhorne Memorial monument was relocated to the front entrance of Town Hall, with Monument Works donating all labor at no cost.</li><li>The board approved a slate of roughly 40 administrative resolutions covering personnel appointments, seasonal hires, special events, bid awards, a sewer improvements contract, and a fireworks permit for the Rock Golf Club on July 5, 2025.</li><li>The board authorized eminent domain proceedings to acquire a leasehold interest in the easterly ground-floor unit at 127 East Main Street.</li><li>The board closed open session and entered executive session to discuss potential real property sale, possible Supreme Court litigation, and a BIDMA contractual matter.</li></ul>
+      <h3>Affects residents</h3>
+      <ul><li>A free mosaic art festival is scheduled for Sunday June 1 on Main Street from noon to 5 p.m.</li><li>A household waste drop-off event accepting motor oil, paint, electronics, and medications is scheduled for Saturday at the highway department yard on Osborne Avenue from 8 a.m. to 2 p.m.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/c4d16210-45ca-4c0a-842e-e33acac39e4a.mp4" type="video/mp4">
@@ -1486,6 +1501,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2025-07-24, category:Zoning Board of Appeals">
@@ -25,6 +25,19 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/6312" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/6312/files/agenda/5754" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Zoning Board of Appeals met on July 24, 2025 and acted on four matters: a permit extension and three variance requests, all of which were granted. The next meeting is August 28, 2025; there is no meeting on August 14.</p>
+      <h3>Key actions</h3>
+      <ul><li>A one-year extension was granted for appeal 2024-020 (Frank Stepnoski, 30 Dolphin Way, Riverhead) for a proposed garage and existing shed.</li><li>An amendment to appeal 2023-049 was granted for a Habitat-affiliated property on behalf of a future homeowner, recognizing as-built deviations including 26% impervious coverage and slightly reduced setbacks caused by a foundation poured six inches off.</li><li>Variances for side yard, rear yard, and impervious surface were granted for Leonard and Denise Richardson (20 Oak Drive, Jamesport) for an open-sided pergola over an above-ground therapeutic pool, on condition that all sides remain open.</li><li>Multiple setback and impervious coverage variances were granted for Carol Schick (4 Park Drive, Riverhead) to demolish an existing cottage and construct a two-story dwelling on a preexisting undersized lot in the Reeds Park community.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/3823be40-a78b-4bab-b8fc-9987127caa8e.mp4" type="video/mp4">
@@ -431,6 +444,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

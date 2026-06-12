@@ -6366,5 +6366,49 @@
       "end": 3913.38,
       "text": "Thank you."
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T02:47:27+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Riverhead Town Board approved roughly 70 resolutions covering personnel, budget transfers, special events, property acquisitions, and infrastructure projects. A public hearing on a water main extension for 205 Osborne Avenue was held and left open for written comment through May 31.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "The board approved a water main extension map and plan for a mixed-use development at 205 Osborne Avenue, replacing approximately 600 feet of cast-iron main with 10-inch pipe and adding two hydrants at a capital cost not to exceed $521,000; written comments accepted through May 31.",
+          "The board authorized acquisition of leasehold or property interests at 111 and 127 East Main Street for general municipal purposes and authorized commencement of environmental (SEQRA) coordinated review.",
+          "The board approved a resolution supporting a cherry blossom tree and granite monument program to honor veterans at Veterans Memorial Park.",
+          "The board accepted a donation of bleachers from Peconic Bay Medical Center Foundation for use at the town ice rink facility.",
+          "The board authorized a license agreement for a concession stand operator at South Jamesport Beach.",
+          "The board approved a consultant services agreement with the outgoing chief accountant following that employee's retirement.",
+          "Numerous seasonal and part-time recreation, wastewater, police, and advisory-board appointments were approved, along with multiple special-event permits for summer and fall BID events."
+        ]
+      },
+      {
+        "heading": "Public hearings & comment",
+        "items": [
+          "The president of the Long Island Science Center expressed concern that the town initiated acquisition proceedings on the building the Science Center occupies without prior notice to the organization, and noted ongoing delays in obtaining building permits for planned renovations.",
+          "A resident requested that the board consider adding more dedicated pickleball courts; the supervisor noted a pending sports-complex study and a planned private indoor facility in a former retail space."
+        ]
+      },
+      {
+        "heading": "Affects residents",
+        "items": [
+          "Beach stickers are required starting January 1 and are available at Town Hall Monday–Friday 8:30–4:30 or online; residents who visit town beaches without a sticker may receive a summons.",
+          "Town Hall will be closed Monday May 27 for Memorial Day and reopen Tuesday May 28 at 8:30 a.m.",
+          "The public hearing on the Comprehensive Plan Update DGEIS has been rescheduled to Wednesday May 29 at 6 p.m. in the town boardroom, with in-person and Zoom participation available.",
+          "Riverhead Volunteer Ambulance Corps is holding a recruitment open house Saturday May 25 from 11 a.m. to 4 p.m. at 1111 Osborne Avenue."
+        ]
+      },
+      {
+        "heading": "Discussed",
+        "items": [
+          "The board discussed a sports-complex feasibility study nearing completion that may recommend expanded pickleball and other recreational facilities at Veterans Memorial Park, potentially through a public-private partnership."
+        ]
+      }
+    ]
+  }
 }

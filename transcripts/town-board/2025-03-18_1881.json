@@ -7046,5 +7046,44 @@
       "end": 3736.98,
       "text": "We'll see you next week."
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T02:56:05+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Riverhead Town Board passed roughly 35 resolutions at its March 18 meeting, including a bond appropriation, multiple budget transfers, and a SEQRA negative declaration for downtown revitalization projects. Several residents spoke against that negative declaration, arguing the Sweezy Building is structurally sound and that a children's science center should be preserved there instead of a hotel-condo development.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "The board adopted a bond resolution appropriating $2,350,000 (resolution 273).",
+          "The board voted unanimously to assume lead agency status and issue a negative declaration under SEQRA for the downtown revitalization projects (resolution 263), over public objection.",
+          "The board approved a capital improvement order for electric upgrades at a water district plant (resolution 245).",
+          "The board authorized an agreement with a contractor for a Highway Building project (resolution 254).",
+          "The board authorized a license agreement with the Suffolk County Council of Boy Scouts of America to use the runway at a town facility (resolution 255).",
+          "The board ratified the settlement of a legal action against a local property LLC (resolution 262).",
+          "The board ratified a police department application for a New York State Homeland Security Program grant (resolution 261).",
+          "The board approved special event permits for four upcoming events, including an Earth Day celebration, a Rotary charity plant sale, a Making Strides Against Cancer walk, and a consignment event (resolutions 275–278)."
+        ]
+      },
+      {
+        "heading": "Public hearings & comment",
+        "items": [
+          "The president of the Long Island Science Center told the board that a licensed structural engineer's report found the Sweezy Building structurally sound, contradicting descriptions in town documents, and asked the board to delay resolution 263.",
+          "Multiple residents urged the board to reconsider the negative declaration and preserve the Sweezy Building for the Science Center rather than hotel-condo development.",
+          "A speaker online questioned the financial vetting of the town's master developer and the total cost of the downtown revitalization project; a town official listed current grant awards totaling several million dollars from state, federal, and county sources but said project cost details were not available on the spot."
+        ]
+      },
+      {
+        "heading": "Affects residents",
+        "items": [
+          "Free public ice skating sessions for Riverhead residents are scheduled at Peconic Ice Rink on March 22 (4:30–6 p.m.), March 30 (10:30 a.m.–noon), and April 15 (11:30 a.m.–1:30 p.m.).",
+          "An anti-litter spring cleanup is scheduled for May 3 at Town Hall starting at 9 a.m.; residents can register at townofriverheadny.gov.",
+          "A seniors bowling social (age 55+) is set for March 20, noon–2 p.m., at a local bowling alley."
+        ]
+      }
+    ]
+  }
 }

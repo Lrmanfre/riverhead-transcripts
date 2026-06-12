@@ -6716,5 +6716,43 @@
       "end": 4059.0,
       "text": "[transcription gap]"
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T03:00:00+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Town Board approved a community benefit zoning public hearing for the long-pending Family Community Life Center affordable housing and community center project, and passed roughly 30 additional resolutions covering personnel, special events, infrastructure contracts, and local law changes.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "The board scheduled a public hearing on updated community benefit district zoning intended to clear the way for the Family Community Life Center, a mixed-use affordable housing and community center project tied to the First Baptist Church of Riverhead and Georgica Green Ventures.",
+          "The board approved a license agreement with East End Arts, with officials confirming the organization will move back to its original space once work there is completed and that the town will cover moving costs in both directions.",
+          "A public hearing was scheduled regarding an unsafe structure at 40 17th Street, Wading River, under Chapter 217 of town code.",
+          "The board adopted a local law amending the town code on traffic violations bureau liability for failure to stop for school buses.",
+          "The board authorized a professional services agreement with H2M Architects and Engineers for a Class A biosolids upgrade project.",
+          "The board approved live music at Wading River Beach following a successful pilot event at South Jamesport Beach attended by over 200 residents.",
+          "A resolution for the Riverhead Police Department National Night Out barbecue at Town Square on August 5 was approved from the floor.",
+          "The board authorized a funding application to New York State for a Riverfront Amphitheater consolidated funding application."
+        ]
+      },
+      {
+        "heading": "Money",
+        "items": [
+          "Suffolk County has secured a $1 million New York State Empire State Development grant for the Family Community Life Center project, described as the only such award granted on Long Island.",
+          "The tax receiver reported total collections of approximately $183.6 million as of July 3."
+        ]
+      },
+      {
+        "heading": "Discussed",
+        "items": [
+          "A town attorney and code enforcement task force, together with the DEC and Suffolk County Department of Health, is monitoring both the Crown and Patriot Recycling sites on Young's Avenue following a fire and concerns about soil, air, and water contamination.",
+          "Patriot Recycling received a cease-and-desist letter requiring it to halt operations unless actual agricultural production commences, and the town is working with the DEC on potential remediation of material on site.",
+          "Several residents urged the board to keep the upcoming Town Square public hearing open to weighing costs to East End Arts Council and the Suffolk County Historical Society against benefits of the proposed hotel development."
+        ]
+      }
+    ]
+  }
 }

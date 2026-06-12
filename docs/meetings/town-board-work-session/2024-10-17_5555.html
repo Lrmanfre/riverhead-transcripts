@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2024-10-17, category:Town Board Work Session">
@@ -25,6 +25,21 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/5555" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/5555/files/agenda/5393" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Riverhead Town Board work session covered monthly reports from police, code enforcement, the town clerk, and justice court, plus a zoning change application and proposed updates to beach sticker rules and fire code.</p>
+      <h3>Key actions</h3>
+      <ul><li>The board indicated it supports a change-of-zone application for 408 Middle Road from Retirement Community (RC) to Residence A40, but members said the applicant should resolve pending Justice Court violations before a public hearing is scheduled.</li><li>Planning staff was asked to look into whether two or three additional nonconforming residential properties on Middle Road should also be rezoned to RA40 for consistency.</li><li>Fire marshals presented proposed revisions to the outdoor fire code that would clarify rules for residential recreational fires, require permits for bonfires on commercial or town property, and add clear definitions; no objections were raised.</li><li>The board indicated support for two recreation fee proposals: a $225 seasonal non-resident boat ramp pass at South Jamesport (daily passes would remain at $35), and raising the hotel/motel beach hang-tag fee from $75 to $100 per unit.</li><li>A proposed resident guest beach pass ($225 per household, one per year, no replacement) was sent back to the Beach Committee and East Creek Committee for further review, with staff directed to consult Southold Town&#x27;s similar program before returning to the board.</li><li>The board entered executive session to discuss a PBA contract matter and a possible lease of town property.</li></ul>
+      <h3>Discussed</h3>
+      <ul><li>Police Chief reported a seasonal drop in incidents for September, noted vehicle break-ins are dispersed across residential areas rather than concentrated, and reported one fatal and one non-fatal fentanyl overdose for the month.</li><li>Code Enforcement reported 87 new complaint investigations in September, 60 summonses and 46 notices of violation issued, $47,775 in rental permit fees collected for the month, and a sweep of 27 shopping center properties that had not installed required wheel-lock systems on carts.</li><li>The Town Clerk noted the departure of the office&#x27;s Spanish-speaking clerk and said the position has been posted; a board member raised the idea of outreach through local Spanish-language churches.</li><li>Justice Court reported approximately $19,790 in total fines for the month, with some counts resulting in consecutive 15-day jail sentences on one case.</li><li>Recreation staff presented parking-lot capacity data showing Winding River and Reeves beaches regularly exceed 100 percent capacity on peak summer weekends, while Iron Pier and South Jamesport Beach rarely exceed 60 percent, informing the proposal to limit any new guest passes to the two larger beaches.</li><li>Board members raised concerns that Airbnb operators could exploit a guest pass program at Winding River Beach, and a justice court representative flagged enforcement difficulties with hang-tag passes versus window stickers.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/cf690ff8-d963-4893-b280-a6c0323659a1.mp4" type="video/mp4">
@@ -1555,6 +1570,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

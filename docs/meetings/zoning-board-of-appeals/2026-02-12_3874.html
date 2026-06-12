@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2026-02-12, category:Zoning Board of Appeals">
@@ -25,6 +25,19 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/3874" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/3874/files/agenda/5930" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Zoning Board of Appeals approved a pool variance for a Jamesport homeowner, withdrew one appeal with prejudice, voted to reopen a Peconic Bay Medical Center hearing, and closed a West Main Street change-of-use hearing for a decision.</p>
+      <h3>Key actions</h3>
+      <ul><li>Appeal 2025-041 (52 Main Road, Riverhead) was withdrawn by the applicant; the board granted the withdrawal with prejudice, barring reapplication for a use variance on that site for two years.</li><li>Appeal 2025-042 (1087 Old Country Road, Riverhead, Peconic Bay Medical Center) was voted to be reopened for a rehearing, scheduled for March 12, 2026, with required re-posting and legal notice.</li><li>Appeal 2025-044 (9 Holly Tree Lane, Jamesport) was granted variances allowing an in-ground pool in the front yard with a 10-foot side-street setback and 33% impervious surface coverage, subject to a planting plan approved by the planning department.</li><li>Appeal 2025-032 (47 Bayside Avenue, Jamesport, Bayview at Peconic LLC) — a challenge to the rescission of a pre-existing transient rental use letter — was adjourned to February 26, 2026, at the applicant&#x27;s request.</li><li>Appeal 2026-001 (1175 West Main Street, Riverhead) seeking a special exception to convert a former spa/restaurant space to a heating and air conditioning showroom, office, and storage was closed and marked for a reserve decision on February 26, 2026.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/2e033ae5-9b06-4ef2-a3fa-b3bfcb116709.mp4" type="video/mp4">
@@ -893,6 +906,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

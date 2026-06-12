@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2024-06-13, category:Zoning Board of Appeals">
@@ -25,6 +25,19 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/6280" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/6280/files/agenda/5722" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Riverhead Zoning Board of Appeals heard four cases on June 13, 2024, granting variances in two, partially denying one, and adjourning one to June 27.</p>
+      <h3>Key actions</h3>
+      <ul><li>Appeal 2023-042 (Pinchas, 3 Taconic Court, Wading River): The board granted the jacuzzi rear setback variance (5.8 feet where 20 feet is required) but denied the carport/storage building variances for side street setback, rear setback, and impervious surface, citing self-created hardship, construction begun without a permit, neighbor objections, impervious surface coverage nearly three times the permitted maximum, and adequate existing storage in the garage, basement, and shed.</li><li>Appeal 2024-013 (Turner, 89 Morningside Avenue, Jamesport): Variances for proposed side yard setback of 9.9 feet (25 feet required), rear yard setback of 10.2 feet (60 feet required), and front yard setback of 34 feet (50 feet required) for additions to a residence were granted; one board member recused due to a longtime personal relationship with the applicant.</li><li>Appeal 2024-014 (2nd Street Townhomes, 46 East 2nd Street, Riverhead): A request for a parking stall variance — 11 stalls provided where 12 are required for an eight-unit, two-bedroom townhouse development in DC-4 zoning — was adjourned to June 27, 2024, after a neighboring property owner testified that parking on East 2nd Street is already severely strained, especially on weekends.</li><li>Appeal 2024-015 (Greenview Motel, 1433 West Main Street, Riverhead): Sign setback and illumination variances in the Riverfront Corridor zoning district were granted, subject to no additional front-yard signage and Architectural Review Board approval.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/d3eba0a1-32d7-4b00-9bcc-c1ecf220e772.mp4" type="video/mp4">
@@ -1148,6 +1161,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

@@ -4456,5 +4456,30 @@
       "end": 2247.92,
       "text": "Thank you."
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T03:14:50+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Zoning Board of Appeals granted two variance applications at its March 28, 2024 meeting: one for a new house on Birch Lane in Wading River and one for a ground-mounted solar array on Peconic Bay Boulevard in Laurel.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "The board granted variances for an application by Dorothy DeFranco for a residence on Birch Lane, Wading River, approving a front yard setback of 30 feet (60 feet required), a combined side yard setback of 49.3 feet (65 feet required), a rear yard setback of 36 feet (75 feet required), and impervious surface coverage of 34.5% (15% maximum allowed), with conditions that privacy bushes be planted around the perimeter and an existing concrete slab shown on the survey be removed.",
+          "The board granted a variance for Frank McVeigh at 1589 Peconic Bay Boulevard, Laurel, to install a ground-mounted solar array in the front yard, where accessory solar structures in the front yard are not permitted, subject to the condition that a vegetative buffer along the westerly side of the property be maintained to shield the adjacent property from view.",
+          "The board approved the minutes of its previous meeting and scheduled its next meeting for April 11, 2024."
+        ]
+      },
+      {
+        "heading": "Public hearings & comment",
+        "items": [
+          "Neighbors on Birch Lane testified about concerns regarding the proposed house's proximity to their property lines and driveway access; both indicated their questions were answered after reviewing the survey.",
+          "No members of the public commented on the Peconic Bay Boulevard solar application."
+        ]
+      }
+    ]
+  }
 }

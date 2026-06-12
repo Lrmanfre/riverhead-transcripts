@@ -6156,5 +6156,42 @@
       "end": 2680.82,
       "text": "Aye."
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T01:44:58+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Planning Board discussed three applications and approved two resolutions, covering a major subdivision in Jamesport, a BP gas station facade update, and a long-running retail development proposal in Wading River. The board also voted to recommend the town board consider a one-way street designation on East 2nd Street.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "The board approved an administrative site plan for a BP gas station facade and pavement maintenance, subject to Architectural Review Board sign-off, with all prior approval conditions remaining in place.",
+          "The board approved a resolution classifying the Carson Woods Major Subdivision as an unlisted action under SEQRA and authorizing staff to circulate a lead agency request to involved agencies.",
+          "The board approved a resolution transmitting a letter to the town board recommending consideration of a one-way designation on a portion of East 2nd Street, with specific block language omitted so the Traffic Safety Committee can evaluate the full corridor."
+        ]
+      },
+      {
+        "heading": "Public hearings & comment",
+        "items": [
+          "There were no public hearings scheduled for this meeting.",
+          "A Wading River Civic Association representative expressed concern that the proposed Venezia Square development and associated traffic signal could worsen congestion on Route 25A.",
+          "A resident of Dogwood Drive raised concerns about pedestrian and bicycle safety near the proposed Venezia Square driveway, citing the adjacent rails-to-trails path and a nearby church."
+        ]
+      },
+      {
+        "heading": "Discussed",
+        "items": [
+          "Staff presented the preliminary plat for Carson Woods, an eight-lot clustered residential subdivision on a 20-acre wooded parcel in Jamesport, noting SEQRA review must address potential northern long-eared bat habitat and proximity to an archaeologically sensitive area.",
+          "The board discussed requiring a split-rail fence along a 50-foot open space buffer on the eastern property line of Carson Woods and requiring deed covenants acknowledging the adjacent agricultural operation.",
+          "The open space parcel of roughly 12.8 acres at Carson Woods must eventually be designated as town-dedicated, conservation organization, or homeowner association property before final approval.",
+          "The Venezia Square retail project on Route 25A in Wading River was reviewed for traffic; a traffic consultant confirmed outstanding comments have been resolved and conditioned any approval on installation of a traffic signal opposite Dogwood Drive, pending New York State DOT permitting.",
+          "Staff noted the Venezia Square application still requires a water district map and plan and a Pine Barrens Commission determination before a SEQRA determination and public hearing can be scheduled.",
+          "The board noted there will be no meeting on July 4th; the next meeting is scheduled for July 18th."
+        ]
+      }
+    ]
+  }
 }

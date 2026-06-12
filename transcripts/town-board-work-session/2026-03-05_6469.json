@@ -496,5 +496,28 @@
       "end": 358.46,
       "text": "All against?"
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T02:34:36+00:00",
+    "agenda_grounded": false,
+    "tldr": "The March 5 work session consisted almost entirely of announcements and a move into executive session. No public business was voted on or decided in open session.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "The board voted to enter executive session to discuss a personnel disciplinary matter, litigation with Calverton Aviation Technology, an intermunicipal agreement with the Town of Brookhaven, and a contract with the town's parking consultant."
+        ]
+      },
+      {
+        "heading": "Affects residents",
+        "items": [
+          "A listening tour at the Senior Center is scheduled for March 11 to help residents use the town website for dog licenses and yard sale permits.",
+          "America 250 events include a May 1 Roaring 20s gala at the Suffolk Theater, a June 4 pre-Independence Day event, and July 4 fireworks in Jamesport."
+        ]
+      }
+    ]
+  }
 }

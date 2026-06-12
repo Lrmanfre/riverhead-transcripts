@@ -2591,5 +2591,32 @@
       "end": 1516.48,
       "text": ""
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T03:07:41+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Town Board held a special meeting on December 30, 2025, passing two resolutions: one to fund a replacement dump truck for the Highway Department and one to transfer $75,000 in Community Development Block Grant funds to the Jazz Loft for repairs to the Vale-Levitt building.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "The board approved a budget adjustment to purchase a new dump truck for the Highway Department, replacing a truck destroyed by fire during a snowstorm on Sound Avenue.",
+          "The board approved a transfer of $75,000 in Suffolk County Community Development Block Grant funds to the Jazz Loft, a nonprofit, to repair and restore the historic Vale-Levitt building; one board member voted no.",
+          "One board member stated the CDBG money originates from county funds and expressed concern that the Jazz Loft had not disclosed a funding gap at its qualifying hearing."
+        ]
+      },
+      {
+        "heading": "Discussed",
+        "items": [
+          "The Highway Superintendent noted the recent snowstorm was challenging due to staff illness, equipment issues, and the truck fire, and thanked employees from other town departments who assisted.",
+          "A resident raised concerns about an immigration enforcement incident near the State Police headquarters and asked for a public update on pending litigation involving an entity referred to as CAT; the board said a motion to dismiss is pending.",
+          "A resident suggested the recently demolished downtown site could be reconsidered as open green space rather than a hotel development, citing Greenport as a comparable example.",
+          "Outgoing Supervisor acknowledged ten years in public office and introduced the incoming supervisor, who was present in the audience."
+        ]
+      }
+    ]
+  }
 }

@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2024-09-04, category:Town Board">
@@ -25,6 +25,23 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/3301" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/3301/files/agenda/3164" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Town Board adopted the 2024 Comprehensive Plan update with agritourism resort language fully removed, approved dozens of routine resolutions, and announced plans for a public task force on farmland preservation.</p>
+      <h3>Key actions</h3>
+      <ul><li>The board voted unanimously to adopt the 2024 Comprehensive Plan update, with all language referencing agritourism resorts on Sound Avenue removed prior to the vote.</li><li>A public hearing on a proposed advisory committee for the Community Preservation Fund water quality improvement program was held and kept open for written comment through September 14, 2024.</li><li>A previously scheduled public hearing on waterways regulations was cancelled and will be reposted with corrected information for the next meeting.</li><li>The board authorized execution of a grant contract with the state Office of Parks, Recreation, and Historic Preservation for up to $500,000 for an adaptive children&#x27;s playground at the Riverfront.</li><li>The board authorized coordination with the Town of Brookhaven to pursue grant funding for dredging, bulkhead repair, and landscaping at the Wading River duck ponds.</li><li>The board authorized 2024 bow hunting for deer on town-owned properties at EPCAL, 1751 Sound Avenue, and Middle Road.</li><li>A resolution to formally establish the supervisor&#x27;s EPCAL advisory committee by vote was withdrawn after insufficient board support; the supervisor stated the ad hoc committee will continue.</li><li>The September 18th public forum previously scheduled to discuss agritourism zoning was cancelled with no replacement date announced, though the supervisor indicated a community task force on farmland preservation will be formed.</li></ul>
+      <h3>Public hearings &amp; comment</h3>
+      <ul><li>Numerous residents spoke in support of removing agritourism resort provisions from the Comprehensive Plan and several asked the board to delay the plan&#x27;s adoption to allow further public review.</li><li>Speakers raised unresolved concerns about specific nonconforming-use provisions and proposed accessory dwelling unit size rules in the Comprehensive Plan.</li><li>A marine biologist urged the board to adopt stronger bluff setbacks along Long Island Sound to protect coastal resilience.</li><li>A housing counseling agency director thanked the board for expanding accessory dwelling unit guidelines, citing the change as a tool for homeownership affordability.</li></ul>
+      <h3>Discussed</h3>
+      <ul><li>Board members described the town&#x27;s financial pressures, including roughly 6,300 acres of unprotected farmland still at risk, a 2015 bond not paid off until 2030, and a pending lawsuit over a large Southampton housing development whose students could enter the Riverhead school district.</li><li>A resident suggested revenue alternatives including a per-gallon surcharge on oil offloaded at local depots and impact fees on new development.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/cd2cc951-5f65-4dc1-981a-802181bc5278.mp4" type="video/mp4">
@@ -2927,6 +2944,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2024-06-06, category:Town Board Work Session">
@@ -25,6 +25,21 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/5336" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/5336/files/agenda/5174" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Town Board work session covered a proclamation for a downtown volunteer, a warehouse site plan update in Calverton, a proposed agritourism zoning code, a minor barbershop pole sign fix, and a debate over extending the Calverton Industrial Moratorium for another three months.</p>
+      <h3>Key actions</h3>
+      <ul><li>The board presented a proclamation to a volunteer who served as president of the Riverhead Business Improvement District for roughly ten years, credited with organizing downtown events and supporting businesses during the COVID-19 pandemic.</li><li>Staff recommended the board issue a negative declaration under state environmental review law and schedule a public hearing in July for a proposed 70,445-square-foot warehouse at 1001 Scott Avenue in Calverton.</li><li>The board discussed moving forward with a new agritourism zoning code that would require any development in a designated Sound Avenue corridor area to preserve 70 percent of land for active farming, cap lodging at 150 units, and impose a $1,000-per-day penalty if a developer fails to maintain agricultural production.</li><li>A code amendment was presented that would legalize and permit traditional barbershop pole signs, which are currently prohibited under town sign regulations.</li><li>The board discussed extending the Calverton Industrial Moratorium, set to expire around July 12, for an additional three months to allow the comprehensive plan and related zoning code changes to be completed before new industrial applications are reviewed.</li></ul>
+      <h3>Discussed</h3>
+      <ul><li>Board members debated whether to narrow the moratorium extension to apply only to warehouses and logistics uses rather than all industrial activity, with some members expressing concern about halting unrelated projects.</li><li>Staff warned that allowing the moratorium to lapse before new zoning is adopted could result in a wave of applications filed under current rules, potentially complicating or triggering litigation once updated code takes effect.</li><li>A board member asked staff to provide a list of all pending applications currently captured by the moratorium so the board could consider targeted exemptions.</li><li>The agritourism code discussion included a board member suggesting lowering the minimum parcel size below 100 acres and potentially extending a similar framework to the Route 25 corridor in Jamesport.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/69502f1e-da3e-40af-ba87-1586afab4035.mp4" type="video/mp4">
@@ -1510,6 +1525,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

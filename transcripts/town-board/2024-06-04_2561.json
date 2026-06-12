@@ -6541,5 +6541,44 @@
       "end": 3134.32,
       "text": "Thank you."
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T02:48:01+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Riverhead Town Board met on June 4, 2024, appointing two new full-time police officers, advancing a major sewer district biosolids project bond, and passing more than 40 resolutions covering staffing, grants, road resurfacing, and special events.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "The board unanimously appointed two probationary officers to full-time positions in the Riverhead Police Department, with one officer sworn in by a town council member who is his parent.",
+          "The board approved a bond authorization amendment for the Riverhead Sewer District biosolids improvement project, now set at $18,650,000, and approved a related public interest order.",
+          "A public hearing on the sewer district biosolids bond was kept open for written comment until June 14 at 4 p.m.",
+          "A proposed resolution (556) related to land use was tabled by a 3-2 vote so board members could review it further; it will be discussed at Thursday's work session.",
+          "The board adopted road resurfacing grant budgets under the CHIPS, Pave NY, and EWR programs for 2024-2025.",
+          "The board approved a SEQRA negative declaration and lead agency designation for the Meetinghouse Creek Wetland Restoration project.",
+          "A public hearing was scheduled on a zoning code amendment regarding alternative pervious parking techniques; the board directed staff to add discretionary language before re-noticing, after a speaker argued the current draft would inadvertently push compliant projects into variance proceedings.",
+          "An emergency bonding resolution (562) to support a grant application for wellhead treatment at Water District Well 5-2A was adopted, with a public hearing set for June 14, 2024."
+        ]
+      },
+      {
+        "heading": "Public hearings & comment",
+        "items": [
+          "A public hearing on increasing and improving the Riverhead Sewer District was held; staff said the biosolids project is projected to save the town $10.5 million over its lifecycle and reduce solid waste disposal by 80%.",
+          "A public hearing on a zoning amendment for alternative pervious parking techniques was held and will be re-noticed after staff revises the draft language.",
+          "A previously scheduled public hearing on special permit provisions for family dwellings was canceled due to incomplete public notice requirements.",
+          "Two members of the public spoke during open comment urging the board to preserve the Long Island Science Center's downtown location rather than proceed with any eminent domain action."
+        ]
+      },
+      {
+        "heading": "Money",
+        "items": [
+          "The sewer district biosolids project bond was amended to $18,650,000, up from an earlier $16 million estimate, with staff attributing roughly 75% of the increase to material and labor cost rises since 2019.",
+          "Staff reported the biosolids project will reduce annual sludge handling costs from $1.2 million to $500,000 and yield net savings of approximately $96,000 per year during the 20-year bond repayment period."
+        ]
+      }
+    ]
+  }
 }

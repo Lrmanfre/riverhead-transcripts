@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2025-04-03, category:Planning Board">
@@ -25,6 +25,21 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/858" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/858/files/agenda/721" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Riverhead Planning Board held a public hearing on a proposed Islamic place of worship and burial ground on Route 25A in Wading River, then approved three resolutions including final site plan approval for Riverhead Mazda.</p>
+      <h3>Public hearings &amp; comment</h3>
+      <ul><li>The board held a public hearing on the Cox Place of Worship site plan, which proposes converting an existing single-family dwelling into a chapel and adding an approximately 3,600-plot burial ground on a 4.98-acre parcel at 5284 Route 25A in Wading River within the RB80 zoning district.</li><li>The applicant&#x27;s attorney stated a negative declaration was issued under environmental review and described planned buffers including roughly 374 trees and evergreens around the burial site.</li><li>The applicant stated the chapel is intended for funeral services only, with a capacity determined by the fire marshal and anticipated at no more than 20 people, served by 14 parking spaces.</li><li>A neighboring resident raised concerns about traffic, the frequency of visitors, and the potential for future expansion; board staff explained site plan review does not involve land-use policy decisions and that any future expansion would require a new site plan approval.</li><li>The public hearing was closed by board vote.</li></ul>
+      <h3>Key actions</h3>
+      <ul><li>The board approved a two-lot minor subdivision for Lizard &amp; Associates (Resolution 2025-028).</li><li>The board granted final site plan approval for Riverhead Mazda (Resolution 2025-029).</li><li>The board approved two 90-day extensions for a minor subdivision approval for Vincent Franchini (Resolution 2025-030).</li><li>The board adopted the amended minutes of the March 6, 2025 meeting, which included a correction to the Summerwind discussion.</li><li>The next meeting is scheduled for Thursday, April 17, 2025 at 3 p.m.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/8c050a95-ed20-43b3-ba36-831664cb3b12.mp4" type="video/mp4">
@@ -567,6 +582,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

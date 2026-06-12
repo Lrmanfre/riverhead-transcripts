@@ -3361,5 +3361,27 @@
       "end": 2109.98,
       "text": "Thank you."
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T01:52:25+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Planning Board closed a public hearing on the TJOC Real Estate Holdings subdivision draft EIS, accepted a supplemental draft EIS for the Calverton Industrial Subdivision (OSTAT), and approved several resolutions including scheduling a public hearing on OSTAT for November 6, 2025.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "The board voted to close the public hearing on the TJOC Real Estate Holdings application, which covers a draft environmental impact statement for a subdivision and site plan.",
+          "The board accepted the supplemental draft environmental impact statement for the Calverton Industrial Subdivision (OSTAT), an approximately 131-acre major industrial subdivision west of Splish Splash.",
+          "The board approved a resolution scheduling a public hearing on the Calverton Industrial Subdivision major subdivision application for the first meeting in November, expected to be November 6, 2025 at 6 p.m.",
+          "The board approved a resolution selecting a preferred sketch plan (Plan 6) for the Summerwind Farms Major Subdivision, a proposed residential subdivision on approximately 30 acres.",
+          "A resolution related to an application at Anza Square to construct a commercial center was approved by a 4-1 vote.",
+          "The board discussed the RH Hampton 321 LLC unmerger request for two lots at 321 Union Avenue and 314 Maple Avenue; staff noted the lots do not meet a required size condition, so the applicant must seek Zoning Board of Appeals relief before the Planning Board can act.",
+          "The board approved August 7, 2025 meeting minutes."
+        ]
+      }
+    ]
+  }
 }

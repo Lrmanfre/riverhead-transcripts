@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2025-01-16, category:Planning Board">
@@ -25,6 +25,21 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/789" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/789/files/agenda/652" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Riverhead Planning Board approved six resolutions at its January 16 meeting, advancing two final subdivision plats, one minor subdivision, one administrative site plan, one preliminary site plan, and a performance bond reduction for an ongoing subdivision project.</p>
+      <h3>Key actions</h3>
+      <ul><li>The board approved a minor subdivision for Prisco&#x27;s Calverton Acres, a two-lot split in Calverton, conditioned on DOT requirements including a shared curb cut and common driveway easement being satisfied before plan signature.</li><li>The board granted administrative site plan approval to Leo K. Group for 522–526 Pulaski Street in Polish Town, legalizing fire-damage repairs, facade changes, and site alterations, with conditions including an ADA-accessible parking stall, trash enclosure, soil assessment for the stone-blend parking area, dark-sky-compliant lighting documentation, and additional landscaping.</li><li>The board granted preliminary site plan approval for a medical office building proposed by Seven Waves LLC on the last vacant parcel in the Commerce Drive subdivision, dropping a sidewalk requirement given no sidewalks exist elsewhere in that subdivision, but requiring the applicant to show a future cross-access location on plans.</li><li>The board approved the final plat for a four-lot minor industrial subdivision for Calverton Industrial Park LLC, with a condition that no site plan applications will be accepted until easement and covenant language is recorded following map filing.</li><li>The board approved the final plat for Kathy Lane LLC (formerly Northwalk Developers), a 10-lot residential subdivision off Kathy Lane, subject to a performance bond for roadway improvements, park and recreation fees of $5,000 per lot, an excavation permit fee, and recording of covenants before any building permits issue.</li><li>The board voted to recommend a reduction of the Overlook Homes subdivision performance bond from $283,000 to $214,000 based on a consulting engineer&#x27;s inspection confirming significant roadway construction has been completed.</li></ul>
+      <h3>Public hearings &amp; comment</h3>
+      <ul><li>A member of the public announced that the Suffolk County Historical Society in Riverhead is developing a Grumman exhibit and is seeking artifacts, photographs, and memorabilia from former employees and their families; interested parties were directed to contact the Historical Society&#x27;s executive director.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/59c26925-5b4a-408b-987a-838e3ac52805.mp4" type="video/mp4">
@@ -949,6 +964,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

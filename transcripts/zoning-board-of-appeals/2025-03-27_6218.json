@@ -3506,5 +3506,26 @@
       "end": 1792.44,
       "text": "Thank you."
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T03:20:08+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Riverhead Zoning Board of Appeals held its March 27, 2025 meeting, granting two extension requests, denying one area variance application, and approving three variance or amendment requests.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "Appeal 2024-001 (Vincent and Thomas Franchini, 196 South Jamesport Avenue): a one-year extension of a previously granted two-lot minor subdivision variance was approved, now expiring March 14, 2026.",
+          "Appeal 2023-038 (AD Enterprises, 426 West Main Street / 116 Sweezy Avenue): a one-year extension of a previously granted variance for a proposed mixed-use building in the Railroad Avenue Urban Renewal Overlay District was approved, now expiring November 9, 2025.",
+          "Appeal 2024-034 (Fisher Realty Group, 940–946 West Main Street): the board denied the area variance application, finding the revised plans did not support the substantial relief requested for lot coverage, impervious surface coverage, or consistency with Peconic River Community Zoning.",
+          "Appeal 2024-026 amendment (Maya Fernquist, 55 Jacobs Place, Aquebogue): an amendment to increase the approved pool and deck size, raising impervious surface coverage from 39% to 41% against a 15% maximum, was granted.",
+          "Appeal 2025-007 (VOLA Operating LI Corp., 4129 Middle Country Road, Calverton): a front yard setback variance of 28.9 feet where 100 feet is required was granted to allow canopies over existing fuel pumps, with the board noting planned curb cuts, sidewalk, and landscaping improvements.",
+          "Appeal 2025-009 (Riverhead Free Library, 330 Court Street): a variance to permit an animated display sign board, which is not otherwise allowed under Town Code Chapter 301-253B, was granted subject to maintaining setbacks established in a prior town board resolution."
+        ]
+      }
+    ]
+  }
 }

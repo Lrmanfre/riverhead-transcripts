@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2024-01-04, category:Town Board Work Session">
@@ -25,6 +25,23 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/5085" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/5085/files/agenda/4923" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Riverhead Town Board work session covered five topics: a new above-ground water storage tank in Wading River, design consultant selections for the Town Square amphitheater and adaptive playground, a parking garage funding and design update, a proposed cannabis zoning code revision, and a proposed towing regulation for private parking lots.</p>
+      <h3>Key actions</h3>
+      <ul><li>The board indicated consensus to move forward with award resolutions and professional services agreements for two selected design consultants: one firm for the riverfront amphitheater and a separate firm for the children&#x27;s adaptive playground.</li><li>The board agreed to move the proposed cannabis zoning amendment forward for publication and a public hearing.</li><li>The board authorized publication and posting of the proposed towing regulation amendment for a public hearing.</li></ul>
+      <h3>Money</h3>
+      <ul><li>The above-ground water storage tank in Wading River will use approximately two million dollars in American Rescue Plan funds for the concrete tank, with remaining costs to be recouped by selling water capacity to developers who require it.</li><li>The tank contract is expected to be awarded in early March following bidding, with specs ready within approximately two weeks.</li><li>The parking garage, estimated at roughly 23 million dollars for approximately 504 stalls, is anticipated to be partially funded by a roughly 9 million dollar combination of proceeds from the Court Street parcel sale and an existing county grant, with a RAISE federal grant application due February 28 seeking to close the remaining gap.</li><li>The adaptive playground has nearly one million dollars in construction funding already secured from state and federal grants plus a private contribution, while the amphitheater currently has only design funding and will rely on philanthropic contributions and sponsorships for construction.</li><li>A benefit-cost analysis required for the RAISE grant application, costing 25 thousand dollars, is covered by a separate existing grant.</li></ul>
+      <h3>Discussed</h3>
+      <ul><li>The water district superintendent explained the Wading River area is the leanest pressure zone in the system and the new half-million-gallon-larger concrete tank will address peak irrigation demand and fire protection for potential industrial development including at EPCAL.</li><li>For the parking garage, consultants projected that parking revenue, including reserved spaces for the adjacent hotel and metered public parking, could cover debt service, with only a small gap anticipated in the first couple of years.</li><li>The proposed cannabis zoning amendment creates commercial corridor zones from Route 25A in Wading River through Route 58 to the Southold line, eliminating residential setback restrictions along those corridors only, yielding roughly 144 technically eligible parcels; a 2,500-foot saturation rule between any two cannabis businesses means the realistic maximum number of locations town-wide is approximately six or fewer.</li><li>The proposed towing amendment would require conspicuous signage in private lots, mandatory filing of tow company contracts with the town clerk and police department, immediate notification to police after each tow, and caps the tow fee at 375 dollars with a maximum 20-dollar-per-day storage fee.</li><li>Board members discussed potentially reducing the 2,500-foot cannabis saturation distance, but staff noted that even under current rules Route 58 corridor could support up to four or five locations and the market itself would likely limit the total number.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/b276c66a-c455-456f-8f50-540010bfe601.mp4" type="video/mp4">
@@ -2368,6 +2385,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

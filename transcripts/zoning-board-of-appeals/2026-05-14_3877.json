@@ -4006,5 +4006,26 @@
       "end": 3023.46,
       "text": "Thank you."
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T03:28:44+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Zoning Board of Appeals denied a request to operate an ambulance center/mobile stroke unit garage in a shopping center zone, and approved setback variances for a residential addition in Riverhead. A deck application near a bluff in Jamesport was adjourned for additional information.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "The board issued its reserved decision on Appeal 2026-042 (1099 Royal LLC, 1087 Old Country Road), denying both the interpretation request and the use variance request to allow ambulance storage, a training office, and emergency dispatch within the shopping center zoning district.",
+          "The board found the applicant did not demonstrate sufficient 'dollars and cents' proof of inability to realize a reasonable return from permitted uses, and that the proposed uses do not serve the public shopping purpose of the district.",
+          "Appeal 2026-008 (190 Park Road, Riverhead) was approved, granting variances for side yard setbacks, combined side yard, rear yard setback, impervious surface coverage, and a shed setback, subject to removal of one of the two existing sheds.",
+          "Appeal 2026-007 (189 Trout Brook Lane, Aquebogue) was adjourned to June 11, 2026, after the applicant did not respond following a prior adjournment for possible redesign or withdrawal; staff was directed to send a formal letter.",
+          "Appeal 2026-011 (888 Soundshore Road, Jamesport) — a proposed rear deck within the coastal erosion hazard area — was adjourned to June 11, 2026, pending the applicant's submission of comparable approval examples; the board also raised concerns about unpermitted vegetation clearing within the 50-foot coastal buffer.",
+          "The next meeting was set for June 11, 2026, as no cases are scheduled for May 28."
+        ]
+      }
+    ]
+  }
 }

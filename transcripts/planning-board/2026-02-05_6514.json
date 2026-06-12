@@ -10301,5 +10301,44 @@
       "end": 5464.9,
       "text": ""
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T01:56:34+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Planning Board held a public hearing on the Summerwind Farm 16-lot clustered major subdivision, heard discussion items on several projects, and voted on multiple resolutions including final site plan approval for a BJ's fueling station and sketch plan approval for Anderson Acres subdivision.",
+    "sections": [
+      {
+        "heading": "Public hearings & comment",
+        "items": [
+          "The board held a public hearing on the Summerwind Farm Major Subdivision, a proposed 16-lot clustered subdivision of a 30.12-acre split-zoned parcel at 200 Peconic Bay Boulevard, which is three lots fewer than the approved as-of-right yield of 19 lots and preserves approximately 13.6 acres of farmland across two agricultural lots.",
+          "Multiple neighboring residents raised concerns about the location of a stormwater recharge basin near a property line, proximity to a tidal wetland, groundwater depth, and maintenance responsibilities once dedicated to the town.",
+          "Residents from Fox Chaser Place and Sunup Trail asked the board to require recorded covenants addressing the right-of-way, agricultural use restrictions on the preserved lots, exterior lighting limits, fencing style, and tree buffers.",
+          "Several speakers objected to the two access points onto Peconic Bay Boulevard, citing limited sight lines and sharp curves, and asked whether the fire marshal and other agencies had reviewed emergency access.",
+          "Residents of Sunup Trail objected to lots 14 and 15 being accessed via their existing cul-de-sac and asked the board to consider an alternative internal connection; staff noted Sunup Trail was originally designed to allow a future extension.",
+          "The board closed the public hearing on Summerwind Farm after taking all in-person and remote public comment."
+        ]
+      },
+      {
+        "heading": "Key actions",
+        "items": [
+          "The board approved final site plan Resolution 2026-006 for the East End Commons BJ's fueling station and wholesale club expansion, amended to require 'do not enter' street markings at the southern exit of the fueling station.",
+          "The board approved Resolution 2026-007 adopting SEQRA findings and Resolution 2026-008 setting conditions of approval for the TJ Holdings major subdivision; a separate TJ Holdings resolution passed three to two, with two members citing over-intensification of use.",
+          "The board approved Resolution 2026-010 for the Hampton Jitney BESS site plan and Resolution 2026-011 scheduling a public hearing on that site plan for the first evening meeting in March.",
+          "The board approved Resolution 2026-012 classifying the Town Square Hotel and lot line modification as a Type 2 action under SEQRA and scheduling a public hearing for the second February meeting.",
+          "The board approved Resolution 2026-013 approving a 33-lot cluster sketch plan for Anderson Acres Major Subdivision."
+        ]
+      },
+      {
+        "heading": "Discussed",
+        "items": [
+          "Staff presented the Hampton Jitney Battery Energy Storage System (BESS) proposal, a tier-two system of four battery units totaling 1,000 kWh to support existing rooftop solar and future EV bus charging; the town board already issued a negative declaration and scheduled a February 18 public hearing.",
+          "The board discussed designating parking stalls directly in front of the BESS enclosure as a fire zone rather than standard parking, which staff indicated would not create a parking variance given the site's surplus stalls.",
+          "Staff outlined a six-parcel lot line modification involving town-owned parcels needed to create unified hotel and town square parcels as the first formal step in the Town Square redevelopment; all costs are to be borne by the master developer."
+        ]
+      }
+    ]
+  }
 }

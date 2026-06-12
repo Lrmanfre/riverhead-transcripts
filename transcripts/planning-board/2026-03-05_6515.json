@@ -2766,5 +2766,30 @@
       "end": 1733.04,
       "text": ""
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T01:55:28+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Planning Board closed the public hearing on the Hampton Jitney battery storage site plan and approved two resolutions covering a hotel lot line modification and a minor subdivision extension.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "The public hearing for the Hampton Jitney battery storage site plan was closed by board vote.",
+          "Resolution 2026-015 for the Town Square Hotel Project lot line modifications was adopted.",
+          "An extension of a minor subdivision approval for a property associated with Susan McCarthy was adopted.",
+          "Meeting minutes from February 5, 2026 were approved."
+        ]
+      },
+      {
+        "heading": "Public hearings & comment",
+        "items": [
+          "Representatives from the applicant and a hazardous materials consultant addressed board questions about battery fire suppression, chemistry differences from a California incident, battery lifespan of roughly 10–15 years, and the absence of any documented water or soil contamination in comparable New York State battery incidents."
+        ]
+      }
+    ]
+  }
 }

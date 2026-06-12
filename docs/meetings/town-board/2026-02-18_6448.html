@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2026-02-18, category:Town Board">
@@ -25,6 +25,25 @@
     <div class="meta-row">211 min &nbsp;·&nbsp; <a href="https://riverheadny.portal.civicclerk.com/event/6448" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/6448/files/agenda/5916" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The board held public hearings on a proposed motocross track in Calverton, two battery energy storage systems, a new accessory dwelling unit law, a sewer code amendment, and a tax exemption for surviving spouses of officers killed in action, while adopting roughly two dozen administrative resolutions unanimously.</p>
+      <h3>Key actions</h3>
+      <ul><li>The board adopted a negative declaration under SEQRA and approved moving forward the 5 MW / 20 MWh battery energy storage system application at 221 Scott Avenue, Calverton (Grand Portage Solar).</li><li>A surviving-spouse property tax exemption of up to 50% of assessed value for spouses of police officers killed in action was advanced after its public hearing closed the same night.</li><li>A proposed local law repealing the existing Accessory Apartment chapter and replacing it with a new Accessory Dwelling Unit chapter was introduced at a public hearing; key changes include raising the unit cap from 300 to 500, limiting units to one bedroom and 40% of the principal dwelling&#x27;s size, requiring owner-occupancy, banning short-term rentals, and shifting administration to the Building Department.</li><li>The board reappointed eight members to the Town Business Advisory Committee, all by 5-0 votes.</li><li>Several administrative resolutions passed 5-0, including a Water District capital budget adjustment, a 2026 Ambulance District budget adjustment, acceptance of donated trailers, removal of fixed assets, and approvals of employee training, leave of absence, and a prior-resolution correction.</li></ul>
+      <h3>Public hearings &amp; comment</h3>
+      <ul><li>A public scoping session was held for the Duffy MX Motocross Track special permit at 2822 River Road, Calverton, which proposes an outdoor below-grade track with approximately 120,000 cubic yards of material to be excavated and exported; written comments are due by March 2.</li><li>Staff identified several additions needed in the draft scope, including adding the ZBA as an involved agency (a use variance is required because sand mining is a prohibited use in the Calverton Industrial zone), a WSRR permit requirement, a traffic impact study for special events, a Phase 1A/1B archaeological survey, and an alternative design without excavation.</li><li>A daycare provider located roughly 1,100–1,500 feet from the proposed motocross site, neighboring organic farmers, and several River Road residents testified about noise, dust, lighting, wildlife, and property-value concerns.</li><li>The Hampton Jitney 500 kW / 1 MWh behind-the-meter battery energy storage system public hearing at 253 Edwards Avenue, Calverton was opened and left open; written comments due March 2.</li><li>A public hearing on amending Chapter 265 (Sewers) to require DR18 pipe only and raise inspection fees significantly from $10 to $250 and $0.75 to $10 per foot was closed, with written comments due March 2.</li><li>Residents spoke in support of a proposed OLA resolution on ICE operations and community safety, with several speakers describing local ICE incidents; a separate commenter asked the board to direct newly retained water district counsel to review the legality of current tap-in fees in light of a prior court ruling.</li></ul>
+      <h3>Money</h3>
+      <ul><li>Total tax collections stood at approximately $107.3 million as of February 11, 2026.</li><li>The town receives $3 per cubic yard for sand removed from the motocross site, and the applicant&#x27;s consultant confirmed the applicant is open to a bonding arrangement holding those proceeds until project completion.</li></ul>
+      <h3>Affects residents</h3>
+      <ul><li>Written comments on the motocross scoping, both BESS hearings, and the ADU law are all due by the close of business on Monday, March 2.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/72179b59e0.mp4" type="video/mp4">
@@ -3735,6 +3754,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

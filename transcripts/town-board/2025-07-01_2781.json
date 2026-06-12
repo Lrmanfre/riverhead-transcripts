@@ -13996,5 +13996,39 @@
       "end": 8365.24,
       "text": "Thank you."
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T03:03:11+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Riverhead Town Board held four public hearings and voted on roughly 30 resolutions, including approving a no-parking law on Young's Avenue near Crown Recycling, scheduling a public hearing on designating a master developer for the Town Square project, accepting a $1.4 million state grant for a riverfront amphitheater, and tabling a resolution involving the Riverhead skate park redevelopment.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "The board adopted a local law prohibiting parking on both sides of Young's Avenue between East Meadow Road and Osborne Avenue, and banning semi-trailer truck parking and idling on the northerly side, in response to hazardous conditions caused by trucks serving a nearby recycling facility.",
+          "The board voted to schedule a public hearing on designating a developer as a qualified and eligible sponsor to purchase and develop town-owned property on the south side of Main Street as part of the Town Square project.",
+          "The board accepted a roughly $1.4 million New York State ESD grant for the Town Square Riverfront Amphitheater.",
+          "The board approved a special permit, preliminary site plan, and final site plan for a satellite earth station at 317–391 Berman Boulevard in Calverton.",
+          "The board adopted a local law amending cannabis zoning regulations, including adding a business corridor designation that would allow retail cannabis uses in a new corridor, over an attorney's suggestion to table pending new state guidance.",
+          "The board tabled a resolution that would have waived the town's partnership position with Suffolk County in favor of a private nonprofit for redevelopment of a county-owned parcel as a skate park, at the request of the nonprofit's representative.",
+          "The board adopted an amendment to demolition permit rules requiring remediation work to begin within 45 days and be completed within six months when permits are issued to resolve code violations.",
+          "The board voted to establish a framework for a town administrative law judge to adjudicate school bus stop-arm camera violations, replacing adjudication in town justice court.",
+          "A public hearing on shopping cart anti-theft regulations was closed and kept open for written comment until July 11.",
+          "The board authorized a request for proposals for the sale of 214 Griffin Avenue.",
+          "The board authorized an ATM license agreement for the lobby of Riverhead Justice Court."
+        ]
+      },
+      {
+        "heading": "Public hearings & comment",
+        "items": [
+          "Multiple residents asked the board to delay the Town Square master developer public hearing beyond mid-July to allow adequate time to review financial documents and the master developer agreement, which was filed with the town clerk the same day.",
+          "A resident representing the Greater Calverton Civic Association and others pressed for details on the Crown Recycling fire investigation and site cleanup; the fire marshal confirmed the arson investigation is complete with an undetermined cause, and that DEC cleanup requirements have been met though further remediation is ongoing.",
+          "Residents raised ongoing concerns about Patriot Recycling on Young's Avenue, including illegal dumping, vermin, and excess material importation; the town confirmed it revoked Patriot's use permit and a stop-work order is in place."
+        ]
+      }
+    ]
+  }
 }

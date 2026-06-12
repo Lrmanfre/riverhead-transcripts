@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2024-10-16, category:Town Board">
@@ -25,6 +25,25 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/3677" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/3677/files/agenda/3540" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Riverhead Town Board held its October 16 meeting, passing most resolutions unanimously, scheduling multiple public hearings, and hearing public comment critical of the proposed 2025 budget and elected officials&#x27; salary increases.</p>
+      <h3>Key actions</h3>
+      <ul><li>The board approved a Water District capital project budget amendment and a separate Water District budget transfer.</li><li>A youth mentoring sports grant was accepted.</li><li>The board authorized a lateral water main extension at 437 and 483 Young&#x27;s Avenue in Calverton.</li><li>A Community Preservation Fund Project Plan amendment was adopted.</li><li>The board authorized the town clerk to publish notice of a public hearing to consider overriding the tax levy limit and to consider adopting the 2025 preliminary budget.</li><li>Public hearings were scheduled on proposed amendments to town code chapters covering penalties for offenses, parking, and town officers and employees.</li><li>A Limited English Proficiency Policy for the Town of Riverhead was adopted.</li><li>Two resolutions were tabled by board vote.</li><li>Three public hearings were held and closed to in-person comment, with written comments accepted through October 25, covering a fire prevention code amendment adding mobile food preparation vehicle rules, an abandoned shopping cart removal fee update, and a road opening permit fee increase from $200 to $300.</li></ul>
+      <h3>Money</h3>
+      <ul><li>The town&#x27;s finance officer confirmed the town is contractually obligated to pay approximately $150,000–$155,000 per year toward electricity costs for the Peconikake skating rink, charged within the town hall utility budget.</li><li>A resident publicly criticized the proposed 2025 budget for an 8% tax levy increase and 8% salary increases for elected officials; the supervisor responded that elected officials&#x27; salaries had not been raised since 2009 and the increase equates to roughly half a percent per year over that period.</li></ul>
+      <h3>Public hearings &amp; comment</h3>
+      <ul><li>A resident urged the board to reconsider the proposed budget, citing the tax levy increase and elected officials&#x27; salary increases as burdensome to residents.</li><li>A caller questioned the accounting treatment of the skating rink electricity charges and asked whether the town receives compensation from vendors at the rink; staff explained the charges are contractually required and publicly documented.</li></ul>
+      <h3>Affects residents</h3>
+      <ul><li>A free Narcan training is scheduled for Saturday at 11 a.m. at First Congregational Church; attendees will leave with a Narcan kit.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/322f546f-de21-461b-8d26-9284e19af659.mp4" type="video/mp4">
@@ -820,6 +839,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

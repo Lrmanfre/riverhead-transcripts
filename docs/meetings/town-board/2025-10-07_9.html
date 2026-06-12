@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2025-10-07, category:Town Board">
@@ -25,6 +25,23 @@
     <div class="meta-row">99 min &nbsp;·&nbsp; <a href="https://riverheadny.portal.civicclerk.com/event/9" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/9/files/agenda/64" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Riverhead Town Board adopted roughly 50 resolutions at its October 7 meeting, including a $6.5 million bond for Justice Court renovations and a Monroe balancing test resolution related to a proposed Suffolk County Water Authority water pipeline. Two e-bike-related local laws were tabled for further review.</p>
+      <h3>Key actions</h3>
+      <ul><li>The board adopted a bond resolution appropriating $6,500,000 for Justice Court renovations at the old Town Hall.</li><li>Resolution 860, a Monroe balancing test related to a proposed Suffolk County Water Authority water pipeline through Riverhead, was adopted unanimously.</li><li>Two resolutions related to e-bike regulations (843 and 844) were tabled so they could be reviewed by the Senior Citizens Advisory Committee and the Alternative Transportation Committee; language on handicapped e-bikes at Venture Park also needs clarification.</li><li>The board voted to authorize the town clerk to publish notice of public hearings on November 6 for a local law to override the tax levy cap and for adoption of the 2026 preliminary budget.</li><li>A bid for a highway department dump truck was awarded at a cost of $331,000.</li><li>The board approved special event applications for a Holiday Light Show, Halloween Fest (including alcohol service), and the Riverhead Country Fair Street Festival (including alcohol service).</li><li>A public hearing was held on a proposed five-story mixed-use addition at 301 East Main Street, which would add six apartments and approximately 857 square feet of commercial space with two on-site parking stalls; no action was taken at the hearing.</li></ul>
+      <h3>Money</h3>
+      <ul><li>The supervisor clarified that a $500,000 home would see an annual town tax increase of approximately $184 under the proposed 2026 budget, not $2,250 as reported in a local newspaper.</li><li>The proposed 2026 general fund budget pierces the state tax levy cap by 4.63 percent, driven largely by contractual salary increases, a $1.1 million rise in New York State retirement costs, and debt service for Justice Court renovations.</li></ul>
+      <h3>Public hearings &amp; comment</h3>
+      <ul><li>Residents urged the board to require correspondence to indicate whether writers are Riverhead residents, noting that the large volume of letters supporting the proposed River Road motocross application came overwhelmingly from non-residents or addresses unknown.</li><li>A resident complained about highway department conduct and stated she filed a formal complaint that received no response.</li><li>A speaker reported that approximately 4,400 cubic yards of material have been removed from the Patriot property so far, with roughly one-third remaining; Suffolk County Department of Health testing results are pending.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/b888e52c60.mp4" type="video/mp4">
@@ -2268,6 +2285,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

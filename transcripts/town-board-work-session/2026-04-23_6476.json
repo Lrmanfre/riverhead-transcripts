@@ -3976,5 +3976,42 @@
       "end": 2411.42,
       "text": "You"
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T02:39:33+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Riverhead Town Board work session covered monthly reports from code enforcement, justice court, town clerk, and police, with discussion of hiring part-time code officers, shoplifting enforcement changes, and pending police reaccreditation. The board then entered executive session to discuss personnel and litigation matters.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "The board voted to enter executive session to discuss employee discipline, changes in employee status, a leave of absence, and a litigation update.",
+          "A public hearing on a proposed $10 shellfish license fee is scheduled for May 5.",
+          "The police department was informally told by a reaccreditation review team that it meets all 112 New York State standards, with official approval pending.",
+          "Two part-time code enforcement officer positions have been posted on Indeed and interviews are being scheduled."
+        ]
+      },
+      {
+        "heading": "Money",
+        "items": [
+          "Police department alarm billing revenue was down due to ongoing difficulties processing false-alarm billing after a system change; an intern is expected to help catch up next month.",
+          "Taxi cab renewal fees produced significant back-collected revenue after the town clerk's office systematically addressed a backlog."
+        ]
+      },
+      {
+        "heading": "Discussed",
+        "items": [
+          "Code enforcement reported 139 complaints opened and 139 summonses and violations issued combined for February and March, covering accessory apartments, rental permits, unsafe structures, and parking on lawns.",
+          "A board member raised constituent complaints about garbage, excessive cars, and parking on lawns in the Polish Town neighborhood near Marcy Avenue and Hamilton Parkway.",
+          "The district attorney's office introduced a countywide Home Depot trespass affidavit so that a trespass at one store applies to all Suffolk County locations, potentially elevating repeat offenses to felony burglary.",
+          "Police reported a jump in criminal incidents in March partly attributed to a single Route 58 retailer that adopted a new merchandise-tracking system and began reporting more incidents.",
+          "Police noted two suspected non-fatal drug overdoses in March; substances are still pending lab results.",
+          "The police department's two officers are entering motorcycle training with loaner bikes from Suffolk County, with certification expected around late May."
+        ]
+      }
+    ]
+  }
 }

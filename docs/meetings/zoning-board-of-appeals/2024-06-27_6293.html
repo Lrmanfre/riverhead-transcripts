@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2024-06-27, category:Zoning Board of Appeals">
@@ -25,6 +25,23 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/6293" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/6293/files/agenda/5735" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Zoning Board of Appeals denied a parking variance for a downtown townhouse project and adjourned a front-yard shed legalization request pending an amended application.</p>
+      <h3>Key actions</h3>
+      <ul><li>The board unanimously denied the parking stall variance for Second Street Townhouses at 46 East Second Street, finding the shortfall self-created and determining that adding vehicles would worsen traffic and parking conditions on the narrow road.</li><li>The board adjourned appeal number 2024-0117, a request to legalize an accessory structure in a front yard at 189 Ackerley Street, and directed the applicant to meet with a building inspector to identify a compliant rear- or side-yard location before submitting an amended application.</li><li>The board accepted the meeting minutes.</li></ul>
+      <h3>Public hearings &amp; comment</h3>
+      <ul><li>For the Second Street Townhouses application, the board considered a Planning Board resolution and a highway superintendent inspection report regarding traffic and parking on East Second and Third Streets, both entered into the record.</li><li>The applicant for the Second Street project presented two alternative site plan options to reach the required 12 parking stalls, but board counsel advised that approving a site plan deviation is outside the ZBA&#x27;s authority and that one option would remove required accessible parking, which is not permissible.</li><li>The applicant for the Ackerley Street shed acknowledged no other homes in the neighborhood have an accessory structure in a front yard; board members noted the front-yard location could set an undesirable precedent and encouraged exploring rear-yard alternatives.</li></ul>
+      <h3>Affects residents</h3>
+      <ul><li>The denial of the Second Street Townhouses parking variance means the project cannot proceed in its current form without resolving the one-space parking shortfall.</li><li>The Ackerley Street shed case remains open; the applicant must submit an amended application before the matter can be decided, with the next meeting scheduled for July 11.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/ae194328-8daf-4ee4-a549-33ee14fe0d77.mp4" type="video/mp4">
@@ -538,6 +555,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

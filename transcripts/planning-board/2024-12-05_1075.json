@@ -2821,5 +2821,43 @@
       "end": 2232.66,
       "text": "Subtitles by the Amara.org community"
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T01:46:39+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Riverhead Planning Board approved preliminary plat and site plan resolutions, held a public scoping session for the TJOC Real Estate Holdings subdivision and site plan project on Middle Country Road, and settled litigation with HK Ventures LLC.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "The board approved a preliminary plat resolution for the Carson Woods major subdivision, an eight-lot major residential subdivision, subject to conditions before final plat approval.",
+          "A 25-foot non-disturbance buffer was incorporated along the western edges of certain lots in the Carson Woods subdivision, consistent with an adjacent existing subdivision requirement.",
+          "The board voted to leave an existing temporary cul-de-sac in place rather than remove it, with a fire hydrant to be relocated within the right-of-way.",
+          "The board approved a minor subdivision for a property identified as the Susan McCarthy minor subdivision.",
+          "The board approved a site plan to convert an existing 4,268-square-foot restaurant on Cordova Drive into two separate tenancies.",
+          "The board approved a litigation settlement with HK Ventures LLC after returning from executive session.",
+          "The board closed the TJOC Real Estate Holdings public scoping session after receiving public comments; a final scope will be prepared to guide the environmental impact statement."
+        ]
+      },
+      {
+        "heading": "Public hearings & comment",
+        "items": [
+          "The owner of Miloski's Poultry Farm requested a 25-foot buffer, fencing with slats, and noise ordinance compliance during construction to protect livestock from the proposed adjacent TJOC development.",
+          "A Timber Park resident asked that the traffic study clarify road ownership and maintenance, include a nearby proposed charter school, and account for multi-person occupancy in apartment units.",
+          "The Calverton Civic Association president asked that environmental justice considerations be noted, that outreach reach nearby Calverton Meadows residents, and that cumulative traffic from other pipeline projects on Middle Country Road be included in the traffic analysis.",
+          "The TJOC applicant's principal stated the team would work to address concerns raised by the board, neighbors, and planning staff."
+        ]
+      },
+      {
+        "heading": "Discussed",
+        "items": [
+          "Planning staff proposed adding agricultural resource impacts, including bird flu transmission risk, as a topic to be studied in the environmental impact statement for the TJOC project.",
+          "Staff also proposed studying an alternative north-south commercial building orientation and a development scenario complying with groundwater management zone three density limits."
+        ]
+      }
+    ]
+  }
 }

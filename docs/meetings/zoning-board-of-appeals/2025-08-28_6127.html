@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2025-08-28, category:Zoning Board of Appeals">
@@ -25,6 +25,21 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/6127" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/6127/files/agenda/5575" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Zoning Board of Appeals granted two variance applications at its August 28 meeting: one for a property at 459 Hamilton Avenue and one for a proposed single-family dwelling at 108 Beach Road in Wading River, the latter over neighbor objections about flooding and neighborhood character.</p>
+      <h3>Key actions</h3>
+      <ul><li>The board approved variance relief for 459 Hamilton Avenue (Agneska Gask, RA-40 zone), covering a front yard setback of 9.5 feet where 50 feet is required, side yard and combined side yard setbacks well below the minimums, impervious surface coverage of 40.2 percent where 15 percent is the maximum, and a rear yard accessory setback of 2.5 feet where 20 feet is required, subject to relocation of an existing shed to at least 5 feet from the rear and side property lines.</li><li>The board approved a front yard setback variance for 108 Beach Road, Wading River (John Sullivan, B-80 zone), reducing the required 60-foot front yard setback to 44 feet for a proposed two-story single-family dwelling on an 8,000-square-foot lot.</li><li>The 108 Beach Road approval was conditioned on all stormwater being maintained on-site via gutters, leaders, dry wells, or other means as required by the building department.</li><li>The board clarified that the small lot ordinance provides relief for side, rear, and lot-area requirements but does not reduce the front yard setback requirement, which is why the front yard variance was needed for 108 Beach Road.</li><li>July 24, 2025 meeting minutes were approved and the next meeting was set for September 11, 2025.</li></ul>
+      <h3>Public hearings &amp; comment</h3>
+      <ul><li>Three neighbors of 108 Beach Road spoke in opposition, raising concerns about recurring flooding on and near Sixth Street, the size of the proposed house relative to the lot, drainage adequacy, traffic on the private right-of-way, and potential impacts on neighborhood character.</li><li>A neighboring property owner questioned whether a second variance for the Sixth Street frontage setback should have been required; staff and board counsel indicated the small lot ordinance covered that setback, consistent with how neighboring lots are treated.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/20f1dd9f-00d0-4742-a9e0-8f9fa5b07870.mp4" type="video/mp4">
@@ -908,6 +923,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

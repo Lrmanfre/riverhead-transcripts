@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2025-09-04, category:Planning Board">
@@ -25,6 +25,19 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/38" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/38/files/agenda/66" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Planning Board closed a public hearing on the TJOC Real Estate Holdings subdivision draft EIS, accepted a supplemental draft EIS for the Calverton Industrial Subdivision (OSTAT), and approved several resolutions including scheduling a public hearing on OSTAT for November 6, 2025.</p>
+      <h3>Key actions</h3>
+      <ul><li>The board voted to close the public hearing on the TJOC Real Estate Holdings application, which covers a draft environmental impact statement for a subdivision and site plan.</li><li>The board accepted the supplemental draft environmental impact statement for the Calverton Industrial Subdivision (OSTAT), an approximately 131-acre major industrial subdivision west of Splish Splash.</li><li>The board approved a resolution scheduling a public hearing on the Calverton Industrial Subdivision major subdivision application for the first meeting in November, expected to be November 6, 2025 at 6 p.m.</li><li>The board approved a resolution selecting a preferred sketch plan (Plan 6) for the Summerwind Farms Major Subdivision, a proposed residential subdivision on approximately 30 acres.</li><li>A resolution related to an application at Anza Square to construct a commercial center was approved by a 4-1 vote.</li><li>The board discussed the RH Hampton 321 LLC unmerger request for two lots at 321 Union Avenue and 314 Maple Avenue; staff noted the lots do not meet a required size condition, so the applicant must seek Zoning Board of Appeals relief before the Planning Board can act.</li><li>The board approved August 7, 2025 meeting minutes.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/9eea658f-9f9d-4a08-aa5f-3bca434bd3d4.mp4" type="video/mp4">
@@ -620,6 +633,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

@@ -9076,5 +9076,32 @@
       "end": 5442.08,
       "text": "Thank you."
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T03:29:38+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Zoning Board of Appeals heard five appeals on February 26, 2026, adjourning or referring back most items; one demolition-and-rebuild variance was approved.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "Appeal 2025-032 (Bayview Epiconic LLC, 47 Bayside Avenue, Jamesport) — concerning a rescinded pre-existing-use letter for transient rental — was closed and decision reserved to the April 9 meeting at the applicant's attorney's request.",
+          "Appeal 2026-002 (178 Main Road, Riverhead) — seeking lot coverage, floor area ratio, and front yard setback variances to legalize a dwelling addition — was adjourned to March 12 after board members raised concerns about commercial vehicles on the property, excess meters, impervious surface calculations, and possible violation of a prior court conditional discharge.",
+          "Appeal 2026-003 (253 Newton Avenue, Riverhead) — side yard setback variance for a garage addition — was referred back to the building department for a new denial letter addressing impervious surface coverage and a non-conforming shed; hearing rescheduled to March 26.",
+          "Appeal 2026-004 (467 Peconic Bay Boulevard, Riverhead) — front yard setback and impervious surface variances for demolition and rebuild of a single-family residence — was approved subject to Suffolk County Health Department, DEC, and, if applicable, Conservation Advisory Council approval, and in accordance with the application sketches.",
+          "Appeal 2026-005 (167 Pier Avenue, Jamesport) — variance to place a detached three-car garage in the front yard — was adjourned to March 12 after the board indicated it would be more receptive if the garage were relocated behind the front building line of the house, potentially eliminating the need for a variance entirely.",
+          "The board noted that Stony Brook Ambulance Center appeal 2025-042, previously set for March 12, must be re-noticed due to changes in the requested relief, and will be pushed to April given the applicant's unavailability on March 26."
+        ]
+      },
+      {
+        "heading": "Affects residents",
+        "items": [
+          "A board member warned of an active scam in which residents received official-looking notices demanding a roughly $4,000 wire transfer to an out-of-state bank, falsely attributed to the town; residents should verify any payment requests directly with town staff before sending money."
+        ]
+      }
+    ]
+  }
 }

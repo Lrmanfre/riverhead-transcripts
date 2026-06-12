@@ -14346,5 +14346,45 @@
       "end": 8021.78,
       "text": "Thank you."
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T04:10:54+00:00",
+    "agenda_grounded": false,
+    "chunked": true,
+    "tldr": "The Riverhead Town Board held a lengthy February 6 meeting covering towing fee caps, apprenticeship requirement changes, cannabis zoning debate, numerous personnel and contract approvals, and a heated public exchange over a proposed agritourism hotel and campaign contributions.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "A public hearing was opened on amending towing regulations to require conspicuous signage, mandate tow-company notification to Riverhead PD, and cap towing charges at $375 (municipal rate); the hearing was kept open for written comments through February 16.",
+          "A public hearing was opened on raising the apprenticeship requirement trigger from $250,000 to $750,000 and the square-footage threshold from 1,000 to 250,000 sq ft, with a subcontractor exemption at $100,000 and various exclusions; hearing kept open through February 16.",
+          "The board adopted resolutions appointing a water treatment plant operator trainee, a public safety dispatcher, a financial advisor, and bond counsel, all unanimously.",
+          "The board adopted a resolution authorizing a licensing agreement with Adventure Group LLC d/b/a Cousins Paintball Inc., with porta-potties confirmed as restroom facilities.",
+          "The board awarded a bid for installation of appurtenances in the Seacrest Estates subdivision (Riverhead Water District), adopted unanimously.",
+          "The town attorney confirmed that no generic environmental impact statement is required for proposed TDR sending/receiving area zoning because the receiving area is already designated in the draft code.",
+          "The Canal House litigation was reported as settled; a stipulation of settlement including fines is to be brought before the board at the next meeting for approval.",
+          "Pre-submission meetings on Tuesdays at 9:30 AM will be reopened to the public, with agendas posted the prior Friday and meetings held in the town boardroom."
+        ]
+      },
+      {
+        "heading": "Money",
+        "items": [
+          "The Town Clerk's January 2024 monthly report totaled $10,475.45.",
+          "Tax Receiver collections for January ranged from approximately $87 million to $92.7 million across three reporting dates.",
+          "Building Department collections for January 2024 totaled $114,459.",
+          "The Water District Superintendent testified that the lowest bid on a well drilling contract came in just under $500,000 while the second bid was just under $900,000, citing the apprenticeship requirement as undermining competitive bidding."
+        ]
+      },
+      {
+        "heading": "Public hearings & comment",
+        "items": [
+          "A resident reported being charged $600 for a tow from a shopping plaza after parking for a bus service, and called for board action.",
+          "Multiple cannabis licensees and advocates urged the board to vote on cannabis zoning at the February 21 hearing, raising concerns about a 2,500-foot setback versus the state's 1,000-foot standard and a limited number of viable parcels; staff identified 144 eligible parcels with two or three applications pending."
+        ]
+      }
+    ]
+  }
 }

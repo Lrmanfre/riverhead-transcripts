@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2024-01-25, category:Zoning Board of Appeals">
@@ -25,6 +25,21 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/6162" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/6162/files/agenda/5604" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Zoning Board of Appeals held its first meeting of 2024, approving a settlement agreement with Gershow Recycling and granting multiple variances for a two-lot unmerger on Park Road.</p>
+      <h3>Key actions</h3>
+      <ul><li>The board unanimously passed Resolution 2024-01, authorizing the chair to execute a settlement agreement and mutual release with Gershow Recycling of Riverhead.</li><li>The board unanimously granted variances for Amanda Furmentier at 86 Park Road (Tax Map 600-16-3-3.1) for a two-lot unmerger, including lot area, lot width, impervious surface coverage, a shed rear setback, and conversion of a seasonal accessory apartment to a principal single-family dwelling on Lot 2, subject to conditions including obtaining a certificate of occupancy, removing highway right-of-way encroachments, and getting highway apron approval.</li></ul>
+      <h3>Discussed</h3>
+      <ul><li>The next meeting is scheduled for February 8, 2024.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/04d6cc79-babb-4a5e-9bf9-e0eb3e9fdbd7.mp4" type="video/mp4">
@@ -271,6 +286,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

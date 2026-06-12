@@ -4146,5 +4146,33 @@
       "end": 2593.08,
       "text": "Thank you."
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T01:47:12+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Riverhead Planning Board held public hearings on two site plan applications, approved several resolutions including a site plan amendment for Kent Animal Shelter, issued a positive declaration requiring an Environmental Impact Statement for a mixed-use Calverton development, and discussed a residential rezoning referral on Middle Road.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "The board closed the public hearing for an 8,775-square-foot medical office building proposed for Riverhead Commerce Park on Commerce Drive and discussed conditions including a potential one-way cross-access easement to the adjacent commercial property and a sidewalk requirement.",
+          "The board closed the public hearing and approved (Resolution 2024-072) the site plan for Project 58, a conversion of a vacant 5,233-square-foot building at 1199 Old Country Road into a 56-seat restaurant.",
+          "The board approved (Resolution 2024-080) an amendment to the Kent Animal Shelter site plan to reflect building renovations, a new on-site fire hydrant, and updated utility locations, subject to Architectural Review Board approval of revised elevations and water district requirements.",
+          "The board assumed lead agency status and issued a positive declaration (Resolution 2024-081) for a proposed Calverton development by TGOC Real Estate Holdings, requiring a formal Environmental Impact Statement; a public scoping session will be held.",
+          "The board approved a negative declaration and scheduled a public hearing for a Riverhead Mazda site plan application (Resolutions 2024-077 and 2024-078).",
+          "The board approved minor subdivision extensions or approvals for Delalio Sod Farm LLC (Resolution 2024-079), Manor Lane Subdivision (Resolution 2024-082), and JETS 139 LLC (Resolution 2024-083)."
+        ]
+      },
+      {
+        "heading": "Discussed",
+        "items": [
+          "Staff presented a change-of-zone referral for a property at 408 Middle Road seeking rezoning from Retirement Community to Residence A-40 to allow one legal accessory apartment; the board indicated general support and staff will draft a recommendation resolution to transmit to the Town Board, which is awaiting resolution of existing justice court violations before acting.",
+          "For the TGOC Calverton project, staff noted concerns about potential impacts to wildlife habitat, archaeological resources, and traffic on Middle Country Road as the basis for the positive declaration; limited clearing on the site for archaeological survey purposes was acknowledged as permissible under a code exemption."
+        ]
+      }
+    ]
+  }
 }

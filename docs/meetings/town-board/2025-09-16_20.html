@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2025-09-16, category:Town Board">
@@ -25,6 +25,21 @@
     <div class="meta-row">104 min &nbsp;·&nbsp; <a href="https://riverheadny.portal.civicclerk.com/event/20" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/20/files/agenda/50" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Riverhead Town Board held five public hearings on code amendments and a restaurant special permit, then adopted roughly two dozen resolutions covering personnel, contracts, and purchasing. The board also discussed the planned demolition of the Crafted building and construction timeline for the Town Square hotel project.</p>
+      <h3>Key actions</h3>
+      <ul><li>The board held a public hearing on a special permit for a restaurant expansion at Jamesport Manor and kept the record open for written comment until September 26, 2025.</li><li>The board approved code amendments prohibiting large dump trucks and similar vehicles from parking or idling on the north side of Young&#x27;s Avenue from East Meadow Road to Osborne Avenue.</li><li>The board approved a code amendment clarifying that bicycles and electric-assist bikes may not be operated on sidewalks, including along Route 58.</li><li>The board approved code amendments defining rules for electric bikes and electric scooters, including a 30-mph road speed limit, a 15-mph operating cap, helmet requirements, and restricting EPCAL bike trail use to Class 1 electric-assist bicycles.</li><li>The board adopted a budget adjustment for a settlement with the tenant of 127 East Main Street.</li><li>The board approved scheduling a public hearing for the Zenith Building addition site plan application.</li><li>The board accepted the resignation of the town board coordinator.</li><li>Three part-time police officers were appointed and placed on leave of absence to attend the academy.</li><li>Gene Hogan was reappointed to the Board of Assessment Review.</li><li>A highway known as Cedar Cove Court was approved for dedication.</li></ul>
+      <h3>Discussed</h3>
+      <ul><li>A neighbor raised concerns about outdoor lighting at the Jamesport Manor property being in violation of the town&#x27;s dark skies law; the supervisor directed the new owners to work with code enforcement.</li><li>A resident flagged a hazardous drop-off on the newly paved bike path at Veterans Park and the supervisor said it would be inspected.</li><li>A resident raised concerns about an alleged motocross track behind a Tractor Supply store; a board member confirmed the matter was referred to code enforcement.</li><li>The supervisor stated the Crafted space at 127 East Main Street is expected to be vacated by September 30, with demolition potentially beginning in late October and construction of the Town Square hotel targeted for spring.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/472c4b83b0.mp4" type="video/mp4">
@@ -1939,6 +1954,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

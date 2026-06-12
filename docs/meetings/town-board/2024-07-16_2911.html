@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2024-07-16, category:Town Board">
@@ -25,6 +25,21 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/2911" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/2911/files/agenda/2774" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Town Board held multiple public hearings—on a proposed medical office in Aquebogue, food truck regulations, a Calverton warehouse, a two-family dwelling in Calverton, a barber pole sign exception, and agritourism zoning amendments—and adopted roughly two dozen resolutions covering budget adjustments, personnel appointments, and project authorizations.</p>
+      <h3>Key actions</h3>
+      <ul><li>A negative declaration (Resolution 2024-646) was issued for a proposed ~15,000 sq ft medical office at 374 Main Road, Aquebogue; the public hearing remains open for written comment until July 26, 2024.</li><li>A public hearing on food truck regulations (Chapter 257 amendment) was closed; proposed rules ban operation between 9 p.m. and 5 a.m., require 500-foot separation from eating establishments, and prohibit use of public rights-of-way or municipal parking without Town Board approval; written comments accepted until July 26.</li><li>A public hearing on a one-story warehouse complex (70,455 sq ft and 75,000 sq ft buildings) at 1001 Scott Avenue, Calverton was closed; written comments accepted until July 26.</li><li>A public hearing on a barber pole sign exception to Chapter 301 was opened and closed; the definition limits barber poles to red, white, and blue helix-striped staff poles that are not illuminated.</li><li>A public hearing on a two-family dwelling special permit at 4592 Middle Country Road, Calverton was closed; written comments accepted until July 26.</li><li>Resolutions 656 and 657 were adopted, authorizing a public notice and definitions amendment to advance agritourism zoning changes to Chapter 301, over objections from several residents and civic representatives.</li><li>Resolution 655 was adopted, classifying a special permit application at 431 Griffin Avenue (office-to-single-family conversion) as a Type II SEQRA action and scheduling a public hearing.</li><li>Resolution 673 extended the Calverton Industrial Moratorium to October 12, 2024.</li><li>Resolution 670 (Pro-Housing Community Pledge) was adopted.</li><li>Several budget and capital project resolutions (648–654) were adopted, covering ARPA, sewer, water district, and bond rescission items.</li><li>Personnel resolutions appointed a maintenance mechanic to the sewer district, an on-call seasonal pump-out boat operator, and seasonal recreation staff.</li></ul>
+      <h3>Money</h3>
+      <ul><li>Tax Receiver collections for June totaled $394,872.97; Building Department collections totaled $147,992.25; Town Clerk collections totaled $10,523.24.</li><li>The applicant for the Aquebogue medical office confirmed the developer would cover the cost of emergency vehicle signal preemption equipment (approximately $5,000) if a traffic signal is approved at Main Road and Union Avenue.</li><li>Independent auditor reports were received for the Riverhead, Jamesport, and Wading River Fire Departments.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/db7b86dc-2d2e-40eb-bf16-3c956d9ec32d.mp4" type="video/mp4">
@@ -4176,6 +4191,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

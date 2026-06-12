@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2025-06-03, category:Town Board">
@@ -25,6 +25,23 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/2545" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/2545/files/agenda/2408" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Riverhead Town Board held five public hearings and approved roughly three dozen resolutions on June 3, 2025, with significant public debate over the proposed eminent domain acquisition of a leasehold at 129 East Main Street for a boutique hotel and the Vale Levitt venue selection process.</p>
+      <h3>Public hearings &amp; comment</h3>
+      <ul><li>A public hearing was held on designating 48 Willow Street in Aquebogue as open space and authorizing $75,000 from Community Preservation Funds, with a speaker clarifying the money was originally collected for wetland remediation and this resolution restores it to that purpose; written comment accepted through June 13.</li><li>A public hearing was held on amending the town zoning code&#x27;s cannabis section to add the Business CR zoning district as a permitted location for dispensaries and on-site consumption businesses, and to codify the state&#x27;s municipality-notification process; written comment accepted through June 13.</li><li>A public hearing was held on the Calverton Satellite Earth Station special permit and site plan at 317-391 Berman Boulevard, where a resident noted that 20 of the proposed 40 antennas were already installed without approval; town staff confirmed violations result in double the standard site plan fee; written comment accepted through June 13.</li><li>Public hearings were also held on amendments to zoning definitions for &#x27;office&#x27; and &#x27;personal services&#x27; and on a repeal and replacement of the town&#x27;s public nuisance article, which expands enforcement procedures and increases fines; both open for written comment through June 13.</li></ul>
+      <h3>Key actions</h3>
+      <ul><li>The board approved a resolution adopting findings and determination under the Eminent Domain Procedure Law to acquire the leasehold interest in the ground-floor unit at 129 East Main Street, which is currently occupied by a bar, for the town square hotel development project.</li><li>The board approved a Water District capital project budget for an electrical upgrade at Plant No. 7.</li><li>The board authorized acceptance of Suffolk County Office for the Aging funds to implement the 2025 residential repair program for the elderly.</li><li>The board ratified acceptance of donated monument-relocation services from a local monument company that moved the Garfield Langhorne Congressional Medal of Honor statue to the front entrance of the new town hall.</li><li>The board approved a contract with a soccer training organization for the Police Athletic League fall 2025 soccer program.</li><li>The board awarded a rebid contract for sewer improvements at 203-213 East Main Street.</li><li>The board classified a special permit and site plan application for a motocross track at 2822 River Road, Calverton as a Type I action under SEQRA and requested lead agency status.</li><li>Multiple personnel actions were approved, including seasonal hires in recreation and traffic control, a GIS technician salary increase, a junior civil engineer provisional appointment, two custodial worker promotions, and a part-time bilingual clerk appointment.</li></ul>
+      <h3>Discussed</h3>
+      <ul><li>A resident requested the board issue a formal RFP for the sale and redevelopment of the Vale Levitt property; the supervisor stated the board voted three to two to proceed with a contract with the Jazz Loft and that vote will not be reopened.</li><li>Multiple residents and one online caller questioned the downtown hotel project, including its story count, inclusion of condominiums, IDA tax benefits for developers, and the adequacy of public engagement; board members defended the project as the product of six-plus years of public input and nearly $50 million in state and federal grants with no local taxpayer cost.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/5a5c9c35-64fc-47cd-aa47-f51ac3179f32.mp4" type="video/mp4">
@@ -1897,6 +1914,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

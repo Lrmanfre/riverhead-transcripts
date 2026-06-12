@@ -7456,5 +7456,44 @@
       "end": 4369.2,
       "text": "you"
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T02:53:37+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Riverhead Town Board adopted more than 40 resolutions at its December 17 meeting, including a large package of zoning code amendments tied to the 2024 Comprehensive Plan Update, and tabled a public hearing for Island Water Park while ongoing litigation and settlement talks continue.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "The board adopted roughly a dozen local laws amending Chapter 301 of the town zoning code to implement changes recommended by the 2024 Comprehensive Plan Update, including new or revised zoning for light industrial, hamlet center, open space/conservation, residential, and planned industrial park districts, and updates to transfer-of-development-rights provisions.",
+          "A SEQRA coordination resolution for the Island Water Park site plan amendment was approved on a 4-1 vote, classifying the application as an unlisted action and initiating coordinated review among involved agencies.",
+          "A resolution scheduling a public hearing for the Island Water Park site plan amendment was tabled 4-1, with the town attorney citing pending litigation and ongoing settlement discussions as the reason.",
+          "The board approved SEQRA lead-agency coordination and scheduled a January 7 public hearing for the Sandy Pond special permit application covering a clubhouse, trade buildings, and a manager's residence at 1495 Rowan Oak Avenue.",
+          "Several zoning map amendments were adopted unanimously, changing specific properties to RB-40, open space/conservation, light industrial, and hamlet center zoning use districts.",
+          "Philip Siegel of Siegel and Sittler PLLC was appointed special counsel to the Board of Ethics.",
+          "A town justice was sworn in for a new term on the Riverhead Town Justice Court.",
+          "The board adopted amendments to the terms and conditions of employment for the town attorney and chief deputy town attorney."
+        ]
+      },
+      {
+        "heading": "Money",
+        "items": [
+          "Building department reported November revenues of approximately $182,806; the tax receiver reported utility collections of approximately $650,289; the town clerk reported November collections of approximately $9,800.",
+          "Yard waste fees were increased by resolution.",
+          "Sewer rent for out-of-town facilities was established for calendar years 2023 and 2024.",
+          "The board authorized a bid for water meters and accessory equipment and approved an extension of an existing service agreement."
+        ]
+      },
+      {
+        "heading": "Public hearings & comment",
+        "items": [
+          "A resident raised questions about the SEQRA timeline and non-conforming use status of trade buildings in the Sandy Pond application; the planning director responded that coordination does not prevent scheduling a public hearing and that the trade buildings were actively used until demolition.",
+          "A resident asked about total spending on the EpCal ice rink; the supervisor said exact figures would be provided but noted the $150,000 annual utility contribution is recoverable from profits and that capital improvements are reinvested in the facility under the agreement with the nonprofit operator."
+        ]
+      }
+    ]
+  }
 }

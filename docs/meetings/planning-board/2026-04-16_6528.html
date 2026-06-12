@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2026-04-16, category:Planning Board">
@@ -25,6 +25,21 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/6528" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/6528/files/agenda/5964" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Planning Board discussed a proposed battery energy storage facility on Pulaski Street, granted sketch plan approval for a minor subdivision on Bluffs Drive, approved a coastal erosion permit for a Beech Hill Drive property, and classified a proposed 140-foot wireless tower at Baiting Hollow as a Type 1 action under environmental review.</p>
+      <h3>Key actions</h3>
+      <ul><li>The board granted sketch plan approval for the 2 Bluffs Drive minor subdivision, with conditions requiring map revisions and additional stormwater and vegetation details before final approval.</li><li>The board approved a Chapter 219 coastal erosion permit for 24 Beech Hill Drive, allowing foundation repair and site restoration work to proceed under a New York State DEC order on consent.</li><li>The board voted to classify the Elite Towers wireless communication tower application at Baiting Hollow as a Type 1 action and directed staff to begin environmental review coordination among involved agencies.</li><li>Staff will issue a zoning denial letter for the Elite Towers application because the R80 zoning district does not permit telecommunications towers, requiring the applicant to seek a use variance from the Zoning Board of Appeals.</li><li>The next Planning Board meeting is scheduled for Thursday, May 7 at 6 p.m.</li></ul>
+      <h3>Discussed</h3>
+      <ul><li>The board reviewed a preliminary site plan for a proposed approximately 5-megawatt battery energy storage system at 1281 Pulaski Street, noting the applicant reconfigured the layout to move all improvements outside wetlands jurisdiction.</li><li>Board members raised concerns about the facility&#x27;s proximity to Stotzky Park, a nearby residential area, and town offices, and questioned whether alternative locations further from those uses had been considered.</li><li>The applicant stated the site was selected because PSEG identified the local feeder as needing locational relief, and described a requirement to sell 60 percent of energy credits to local residents and potentially 40 percent to a local entity such as the town.</li><li>Fire safety discussion covered thermal runaway propagation, a four-to-six-hour burn duration estimate for a full failure, the town&#x27;s pending hazmat team, and the importance of simultaneous alarm notifications to emergency responders.</li><li>For the Elite Towers application, the board requested updated plans showing the clubhouse location, existing vegetation, topography, and photo simulations, and discussed options such as stealth coloring and co-location for additional carriers.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/a00658ed-eb25-43a1-af99-aebcdd6d90e2.mp4" type="video/mp4">
@@ -991,6 +1006,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

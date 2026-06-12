@@ -5166,5 +5166,26 @@
       "end": 2977.2,
       "text": "Thank you."
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T03:21:15+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Zoning Board of Appeals met on June 12, 2025, approving two extension requests, denying a cannabis dispensary variance, granting a residential shed variance, adjourning a front-yard shed case, and granting a two-shed variance with conditions.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "Appeal 2022-039 (HK Ventures, 4285 Middle Country Road, Calverton) was granted a second one-year extension, now expiring June 8, 2026.",
+          "Appeal 2022-049 (Tomcat Realty Holdings, 901-932 Scott Avenue, Calverton) was granted a second one-year extension, now expiring May 11, 2026.",
+          "Appeal 2025-011 (1086 Old Country Road, Riverhead) — a request for variances to operate a cannabis retail dispensary within 1,000 feet of a school — was denied in its entirety, with the board finding the detriment to community health, safety, and welfare outweighed the benefit.",
+          "Appeal 2025-019 (11th Street, Wading River) — setback variances to legalize an existing shed with a 5.3-foot side yard setback and a 4.7-foot rear yard setback — was granted.",
+          "Appeal 2025-020 (47 Highview Drive, Wading River) — to legalize a shed located in a front yard, which is not permitted — was adjourned to the July 10, 2025 meeting after the board indicated it was disinclined to approve a front-yard shed and asked the applicant to consider relocating it.",
+          "Appeal 2025-021 (533 Pecan Bay Boulevard, Aquebogue) — variances to legalize two existing sheds with significant setback deficiencies — was granted with conditions including that the larger shed not be used as habitable or office space, that a special permit be obtained if used for a home occupation, and that a fence be repaired as agreed with neighbors."
+        ]
+      }
+    ]
+  }
 }

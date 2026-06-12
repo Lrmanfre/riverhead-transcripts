@@ -2111,5 +2111,33 @@
       "end": 1639.86,
       "text": "[transcription gap]"
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T01:54:47+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Planning Board discussed two applications without taking action on either: a coastal deck replacement at 888 Soundshore Road in Jamesport, and a proposed motocross track and sand mine at 2822 River Road in Calverton. One resolution was approved.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "Resolution 20-26-014 for Birchwood at Wading River was approved unanimously.",
+          "A public hearing was closed by board vote during the meeting."
+        ]
+      },
+      {
+        "heading": "Discussed",
+        "items": [
+          "The board reviewed a Chapter 219 coastal erosion application for 888 Soundshore Road in Jamesport, where the owners seek to demolish a 52-square-foot deck and build a new approximately 438-square-foot deck with a privacy wall; because the entire project falls seaward of the coastal hazard line, a use variance from the Zoning Board of Appeals is required before the planning board can act.",
+          "Staff noted that aerial photos show vegetation was cleared on the property between 2024 and the present, and recommended the area be replanted to its prior condition as part of any approval.",
+          "The board reviewed a draft environmental scope for a proposed outdoor motocross track at 2822 River Road in Calverton, which also involves excavating and exporting an estimated 120,000 cubic yards of sand — a use the town's Calverton Industrial zoning district prohibits.",
+          "Staff confirmed the New York State DEC has determined a mine land reclamation permit is required, and that a use variance from the ZBA will also be needed for the mining component.",
+          "The board noted that alternatives to be studied in the environmental impact statement include a version of the project without excavation and exportation, as well as an indoor track option raised by a town board member at a prior public scoping session.",
+          "The next Planning Board meeting is scheduled for March 5 at 6 p.m. in town hall."
+        ]
+      }
+    ]
+  }
 }

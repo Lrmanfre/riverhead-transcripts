@@ -936,5 +936,23 @@
       "end": 755.18,
       "text": "you"
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T01:43:05+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Planning Board held a brief meeting with no public hearings, approving two resolutions and discussing a downtown parking and traffic concept.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "The board scheduled a public hearing for June 6 on the Vincent Franchini Minor Subdivision, a proposed two-lot split at 196 South Jamesport Avenue in Jamesport (ZBA relief for lot size was previously granted).",
+          "The board approved a coastal erosion hazard area permit for in-kind replacement of an existing 55-foot wooden retaining wall at 84 Cliff Road, East Quogue River.",
+          "Staff discussed a concept to make Second and Third Streets one-way to add roughly 15 parking stalls downtown, and agreed to research the idea further before any transmittal to the Town Board."
+        ]
+      }
+    ]
+  }
 }

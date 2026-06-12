@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2024-01-18, category:Planning Board">
@@ -25,6 +25,21 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/793" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/793/files/agenda/656" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Planning Board approved an amended lighting plan for a professional office at 740 Main Road, scheduled public hearings for an automobile dealership on Old Country Road and the Marist Farm minor subdivision, and held a detailed discussion on sketch plans for a proposed 35-lot major subdivision on a roughly 70-acre farm site in Laurel.</p>
+      <h3>Key actions</h3>
+      <ul><li>The board approved an amendment to the previously approved lighting plan for the 740 Main Road professional office, allowing substitute fixtures due to supply delays and a minor relocation of one existing fixture.</li><li>The board voted to schedule a public hearing for a site plan application at 1309 Old Country Road for demolition of three commercial buildings and construction of an approximately 18,000-square-foot automobile dealership, now proposed as a Chevy heavy-duty truck dealership instead of the previously discussed Mazda dealership.</li><li>The board voted to schedule a public hearing for the Marist Farm four-lot minor subdivision on approximately 27 acres at the corner of Sound Avenue and Roanoke Avenue, pending a separate water district extension application before the Town Board.</li><li>The board approved the minutes of the December 21, 2023 meeting.</li></ul>
+      <h3>Discussed</h3>
+      <ul><li>Staff presented three sketch plans for the Anderson Acres major subdivision, a roughly 70-acre site in Laurel comprising four parcels straddling the Long Island Rail Road tracks, with a yield map showing approximately 35 lots as of right.</li><li>Sketch Plan 2 was identified as failing to meet the town code requirement of preserving a minimum of 70 percent of the site as open space or agricultural land, and the board directed the applicant to redesign.</li><li>The board indicated that Sketch Plan 3, which shows approximately 61.5 percent open space, needs to be revised upward to reach the 70 percent goal, with residential development clustered closer to Peconic Bay Boulevard to preserve a continuous agricultural vista from Main Road southward.</li><li>Board members noted that a water main exists on Peconic Bay Boulevard but that the applicant must finalize the subdivision layout before pursuing a water district extension.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/4bbbc152-eb73-4c9f-830f-d9d77bbc6469.mp4" type="video/mp4">
@@ -814,6 +829,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

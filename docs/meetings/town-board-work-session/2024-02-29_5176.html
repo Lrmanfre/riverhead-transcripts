@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2024-02-29, category:Town Board Work Session">
@@ -25,6 +25,21 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/5176" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/5176/files/agenda/5014" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Riverhead Town Board held a Leap Day work session covering committee updates, a warehouse project at EPCAL, labor-management relations, and a slate of resolutions including an ambulance facility planning transfer and cannabis zoning changes.</p>
+      <h3>Key actions</h3>
+      <ul><li>The board accepted a fund transfer within the ambulance district budget to begin drawing up plans for a new ambulance facility at the current site.</li><li>The board assumed lead agency status and issued a negative declaration under SEQRA for an 84,000-square-foot warehouse proposed at 901–923 Berman Boulevard in the EPCAL planned industrial park.</li><li>A public hearing on the Berman Boulevard warehouse site plan was scheduled for March 19 at 6:05 p.m.</li><li>The board approved re-bidding the Meeting House Creek stormwater wetland and habitat restoration project after the first round came in over budget and lacked required MWBE provisions.</li><li>A local law amending the town zoning code related to cannabis was adopted.</li><li>Preliminary site plan approval with conditions was granted for a two-story restaurant proposed at 38 McDiarmid Avenue overlooking the river and marina.</li><li>The board accepted the retirement of the Senior Citizens Center manager, Debbie Schwartz.</li><li>A grant application to the U.S. Department of Energy&#x27;s EECBG program for approximately $76,000 for riverfront lighting improvements was authorized.</li></ul>
+      <h3>Affects residents</h3>
+      <ul><li>All town tax exemption paperwork must be submitted to the Assessor&#x27;s Office at Town Hall by 4:30 p.m. on March 1 — this covers all exemptions, not only STAR.</li><li>The anti-litter committee&#x27;s spring cleanup is scheduled for Sunday, April 28 at 9 a.m., meeting at Town Hall.</li><li>The Riverhead Rotary Garden Festival and an East End Latin Festival were approved as special events, both scheduled around May.</li><li>Tax grievance day before the Board of Assessment Review is Tuesday, March 21.</li><li>Online rental permit applications through OpenGov are expected to go live around April 1, allowing credit card or bank account payments.</li><li>East Creek has been reopened for clamming by Riverhead residents, and the town&#x27;s clam seeding program was described as successful.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/ae5f55e2-f02d-44e2-9099-d0d94dc7463a.mp4" type="video/mp4">
@@ -1759,6 +1774,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

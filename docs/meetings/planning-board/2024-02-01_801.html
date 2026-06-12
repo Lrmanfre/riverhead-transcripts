@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2024-02-01, category:Planning Board">
@@ -25,6 +25,19 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/801" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/801/files/agenda/664" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Riverhead Planning Board approved five resolutions at its February 1, 2024 meeting, covering a winery pergola, a bluff stabilization permit, a mini golf course, a subdivision extension, and a settlement agreement.</p>
+      <h3>Key actions</h3>
+      <ul><li>The board approved an administrative site plan for RGNY Tasting Room at 6045 Sound Avenue in Jamesport to construct a 39-by-63-foot wooden pergola with a seasonal translucent polycarbonate roof over an existing concrete patio.</li><li>The board classified the 48 Cliffway coastal erosion project in Calverton as a Type 2 action under SEQRA and approved a Chapter 219 Coastal Erosion Management Permit to construct a new 136-linear-foot steel and timber retaining wall, reinforce existing retaining walls, backfill with 300 cubic yards of clean fill, and install a planted berm.</li><li>The board granted preliminary site plan approval for Sandy Pond Mini Links mini golf course, with conditions including a stormwater pollution prevention plan determination, revised vegetation buffer treatment, drainage easement documentation, and submission of kiosk elevations for ARB review.</li><li>The board approved an extension of approval for an unnamed two-lot minor subdivision at 818 Ronald Avenue in Calverton.</li><li>The board authorized the chairman to execute a settlement agreement and mutual release with a local recycling business.</li><li>The public hearing on a subdivision application identified as the Theodora Cohen minus subdivision was closed.</li><li>The next meeting was scheduled for Thursday, February 15, 2024 at 3 p.m.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/fea921cd-3bb7-4ab8-a833-9c4009c34b0f.mp4" type="video/mp4">
@@ -461,6 +474,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

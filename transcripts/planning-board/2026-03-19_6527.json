@@ -6151,5 +6151,28 @@
       "end": 4225.26,
       "text": "[transcription gap]"
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T01:57:42+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Planning Board granted preliminary approval for the 16-lot Summerwind Farms residential subdivision and discussed a proposed zoning code change to streamline site plan review from three steps to two, plus early-stage sketch plan feedback for a proposed industrial subdivision of the former Suffolk Cement sand mine site.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "The board approved an extension of the minor subdivision approval for a applicant named Vincent Franklin (Resolution 2026-017).",
+          "The board approved preliminary plat for the Summerwind Farms major subdivision, a 16-lot clustered residential development on an approximately 30-acre parcel on Peconic Bay Boulevard, with two agricultural reserve lots (Resolution 2026-018).",
+          "Preliminary approval conditions include a prohibition on commercial cannabis cultivation on the agricultural reserve lots, a restriction that lots may not be further subdivided, and language that no structures or impediments may be placed within the 16-foot wide right-of-way on the eastern property boundary.",
+          "A parks and recreation fee of $5,000 per new residential lot was assessed on 15 of the 16 lots (totaling $75,000), with the existing house on lot 16 exempted.",
+          "Water infrastructure for Summerwind Farms is estimated at $722,000, with a separate key money fee of $5,000 per lot due to the water district.",
+          "A four-foot split rail fence along the right-of-way was not required; instead, the resolution language was amended to prohibit any structure or impediment within that right-of-way.",
+          "The board gave early feedback on a sketch plan for an industrial subdivision of the former Suffolk Cement sand mine site in Calverton, asking the applicant to return with alternative sketch plans.",
+          "Senior planner presented a proposed Town Code amendment to reduce the site plan review process from three steps to two, eliminating the preliminary approval stage; the board will transmit comments to the Town Board."
+        ]
+      }
+    ]
+  }
 }

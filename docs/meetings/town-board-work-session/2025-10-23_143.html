@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2025-10-23, category:Town Board Work Session">
@@ -25,6 +25,19 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/143" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/143/files/agenda/5877" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Town Board work session covered planned renovations to Bayberry Park&#x27;s parking lot, adoption of NFPA codes as a technical reference standard, and a clarification about the downtown redevelopment pre-possession agreement. The board then moved to executive session on a contractual matter.</p>
+      <h3>Key actions</h3>
+      <ul><li>The board discussed a plan to fully mill, regrade, repave, and restripe the parking lot at Bayberry Park (also called Police Officers Memorial Park) in Wading River, with a budget of approximately $325,000.</li><li>Funding for the parking lot project was identified as coming primarily from cannabis tax revenue and secondarily from park and recreation fees, with a board member noting neither source is direct taxpayer money.</li><li>Engineers are exploring adding a paved service road and small accessible parking area at the lower level of the park to address ADA accessibility concerns within the existing budget.</li><li>Work is expected to begin within roughly two weeks, with a goal of completing the project before paving plants close around the end of the year.</li><li>The board discussed formally adopting NFPA codes (with exceptions for NFPA 1 and NFPA 5000) as a supplemental technical reference standard to strengthen enforcement of building and safety requirements, including for battery energy storage systems, emergency radio coverage, and cannabis facilities.</li><li>The town attorney clarified that a pre-possession and lease agreement related to the downtown redevelopment project was not a new or unauthorized action, stating it was explicitly contemplated in the previously public master developer agreement approved after a qualified and eligible hearing.</li><li>The board entered executive session to discuss a contractual matter involving a named individual and town counsel.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/956c6cd8-6459-4608-93b9-6fed8c71af0b.mp4" type="video/mp4">
@@ -641,6 +654,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

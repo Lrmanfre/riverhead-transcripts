@@ -28,6 +28,8 @@ a:hover { text-decoration: underline; }
 .meeting-list .date { font-size: .85rem; color: #666; white-space: nowrap; }
 .badge { display: inline-block; padding: .1rem .4rem; border-radius: 3px;
   background: #e8f0f8; color: #1a5c8a; font-size: .75rem; margin-left: .3rem; }
+a.badge-link { cursor: pointer; }
+a.badge-link:hover { background: #1a5c8a; color: #fff; text-decoration: none; }
 
 .meeting-meta { background: #f0f4f8; border-left: 4px solid #1a5c8a;
   padding: 1rem 1.5rem; margin-bottom: 1.5rem; font-size: .95rem; }
@@ -83,6 +85,29 @@ a:hover { text-decoration: underline; }
 .expand-btn .chevron.up { transform: rotate(180deg); }
 
 .gap-marker { color: #bbb; font-style: italic; font-size: .9em; }
+
+/* AI summary — sits at the top of the page, above the video */
+.transcript-summary { background: #f7f9fc; border: 1px solid #d6e2ef;
+  border-left: 4px solid #1a5c8a; border-radius: 4px;
+  padding: 1.1rem 1.5rem 1.3rem; margin-bottom: 1.75rem; }
+.transcript-summary .summary-head { display: flex; align-items: center;
+  justify-content: space-between; gap: 1rem; margin-bottom: .6rem; }
+.transcript-summary h2 { font-size: 1rem; text-transform: uppercase;
+  letter-spacing: .08em; color: #1a5c8a; }
+.transcript-summary .ai-tag { font-size: .6rem; text-transform: uppercase;
+  letter-spacing: .06em; background: #1a5c8a; color: #fff;
+  padding: .12rem .4rem; border-radius: 3px; margin-left: .4rem; vertical-align: middle; }
+.transcript-summary .summary-toggle { font-size: .78rem; font-family: inherit;
+  background: none; border: none; color: #1a5c8a; cursor: pointer; padding: 0; }
+.transcript-summary .summary-toggle:hover { text-decoration: underline; }
+.transcript-summary .tldr { font-size: 1.05rem; margin-bottom: 1rem; }
+.transcript-summary h3 { font-size: .8rem; text-transform: uppercase;
+  letter-spacing: .05em; color: #555; margin: 1rem 0 .4rem; }
+.transcript-summary ul { margin: 0 0 .3rem 1.2rem; }
+.transcript-summary li { margin-bottom: .35rem; }
+.transcript-summary .summary-disclaimer { font-size: .75rem; color: #888;
+  font-style: italic; margin-top: 1rem; border-top: 1px solid #e3e3e3; padding-top: .6rem; }
+#summary-body.collapsed { display: none; }
 
 @media (max-width: 600px) {
   body { font-size: 16px; }

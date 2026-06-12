@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2025-05-21, category:Town Board">
@@ -25,6 +25,23 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/2460" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/2460/files/agenda/2323" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Riverhead Town Board held three public hearings, voted on roughly 40 resolutions covering personnel, infrastructure, and special events, and advanced the eminent domain process to acquire a leasehold at 127 East Main Street as part of the Town Square redevelopment project.</p>
+      <h3>Key actions</h3>
+      <ul><li>The board closed a public hearing on a National Grid special permit to demolish buildings and add 24 compressed-natural-gas truck parking spaces at 8 Mill Road, keeping the written-comment record open through May 30.</li><li>A previously scheduled public hearing on acquiring 111 East Main Street (the former Sweezy&#x27;s building, future Long Island Science Center) was canceled because the Science Center secured plans and funding and will proceed directly to a building permit.</li><li>The board closed the eminent domain public hearing on the leasehold at 127 East Main Street held by the tenant known as Crafted, starting a 90-day window for the board to adopt a determination on whether to proceed; town officials stated they are still working to help Crafted relocate on Main Street.</li><li>The board unanimously approved a resolution supporting development of a YMCA recreation facility, described as a first step toward seeking state authority to enter a lease or sale with an outside agency.</li><li>The board approved, on a 4-1 vote, resolutions issuing a response to comments on a conditional negative declaration and granting preliminary site-plan-amendment approval for Island Water Park (Scotts Point) at 5835 Middle Country Road, Calverton.</li><li>The board adopted several local-law amendments to Chapter 231 (Fire Prevention) covering agency reimbursement, flammable and combustible liquids, outdoor fires, and penalties for offenses.</li><li>The board authorized the town clerk to publish notices to bid for a 2025 annual construction contract, sludge-cake and grit-screen-waste removal, corrosion-control chemicals, and a 2025 annual procurement contract.</li><li>The board authorized a public notice to consider amending the zoning code&#x27;s cannabis retail and on-site consumption location regulations.</li><li>Multiple personnel actions were approved, including appointment of a fire marshal, two maintenance mechanics, a seasonal water-treatment-plant operator, and a new member to the Hispanic Development, Empowerment, and Education Committee, along with acceptance of two retirements and one resignation.</li></ul>
+      <h3>Money</h3>
+      <ul><li>The Town Clerk&#x27;s April monthly report totaled approximately $15,378; the Tax Receiver&#x27;s April utility report totaled approximately $332,294; total tax collections as of mid-May reached approximately $114.8 million.</li><li>A capital project budget was adopted for Water District well capacity improvements, and a capital reserve fund was established for a new ambulance district building.</li></ul>
+      <h3>Public hearings &amp; comment</h3>
+      <ul><li>The owner of Crafted spoke at the 127 East Main Street eminent domain hearing, expressing concern about being displaced without a confirmed relocation site and asking the board to delay the 90-day clock; town counsel explained the board can pause or withdraw the proceeding at any time before a court judgment is entered.</li><li>Members of the public questioned whether the Town Square master developer has been properly vetted through a qualified-and-eligible hearing; the town attorney responded that such a hearing will be held publicly before any developer agreement is finalized.</li><li>A speaker asked the board to prioritize funding a hamlet study for Jamesport as recommended in the town&#x27;s comprehensive plan; a board member noted interim documentation work is underway through the Landmarks Preservation Commission.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/a2895106-ca2d-43ae-b9c5-ee66d1c8507d.mp4" type="video/mp4">
@@ -2225,6 +2242,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

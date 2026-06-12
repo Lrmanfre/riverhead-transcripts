@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2025-10-16, category:Town Board Work Session">
@@ -25,6 +25,23 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/142" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/142/files/agenda/5871" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Town Board work session covered monthly department reports, a slate of resolutions, and announced the town will join Southampton in a lawsuit challenging the state Office of Cannabis Management over local zoning authority for cannabis businesses.</p>
+      <h3>Key actions</h3>
+      <ul><li>The board reviewed a resolution to assume lead agency status and issue a positive declaration under SEQRA for a special permit and site plan application for a motocross track at 2822 River Road, Calverton.</li><li>The board reviewed a resolution to waive sign-code requirements under Article 48 for a proposed informational sign at Riverhead Fire District headquarters at 540 Roanoke Avenue, with the Planning Department noting the sign was already approved by the ARB.</li><li>The board reviewed a resolution authorizing the town attorney to bring legal action against the Office of Cannabis Management, the Cannabis Control Board, and the State of New York, joining Southampton in challenging the state agency&#x27;s override of local time, place, and manner zoning authority.</li><li>The board reviewed resolutions approving fireworks applications for a Halloween Fest on October 25 and a Baiting Hollow Club event on October 28.</li><li>The board reviewed a resolution authorizing a license agreement for LIPA to use town property for storm-response vehicle staging, which was used during a recent Nor&#x27;easter.</li><li>The board closed open session to enter executive session on matters involving possible sale of real property, a contractual agreement with Rosemar Construction Corp., and litigation involving Traditional Links Golf Course.</li></ul>
+      <h3>Discussed</h3>
+      <ul><li>The police chief reported criminal incidents dropped approximately 28 percent compared to the same June–September period in 2024, and noted the department is exploring an outside vendor for automated alarm billing and handheld devices for parking ticket issuance.</li><li>The code enforcement report noted 64 new complaints opened in September, 70 summonses issued, 63 rental properties inspected, and roughly $25,000 in revenue collected for the month; staff said the Staples parking lot compliance matter was resolved after extended efforts.</li><li>The town clerk announced that future published correspondence will require a name and address, to address concerns about non-resident submissions appearing on the public record.</li><li>Justice Court reported increases in blight mitigation and parking fines, and noted default judgments and trial settings are being used to address non-compliant property owners.</li></ul>
+      <h3>Affects residents</h3>
+      <ul><li>A no-cost breast cancer screening event is scheduled for Saturday, November 1, from 10 a.m. to 2 p.m. at 1333 Roanoke Avenue.</li><li>A household hazardous waste drop-off at the Riverhead Garage is scheduled for Saturday from 8 a.m. to 2 p.m., accepting paint, old TVs, motor oil, and similar items; the next opportunity will not occur until late spring.</li><li>Halloween Fest is scheduled for October 25 in Town Square starting at 4 p.m., with a parade at 7 p.m. and fireworks to follow; more information is at HalloweenFestRiverhead.com.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/a377bd34-d89f-4885-95f7-069cf0f4638d.mp4" type="video/mp4">
@@ -835,6 +852,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

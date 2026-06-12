@@ -12491,5 +12491,44 @@
       "end": 6260.54,
       "text": "Oh, thank you."
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T03:12:15+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Riverhead Town Board passed more than 40 resolutions covering infrastructure contracts, personnel appointments, committee reappointments, two energy-storage special permits, and an eminent-domain public-hearing notice for 111 East Main Street; public comment focused heavily on that proposed taking and on an immigration-enforcement transparency law proposed by a local advocacy organization.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "The board awarded a bid and established a capital project for the Meetinghouse Creek bulkhead renovation, both adopted unanimously.",
+          "Three change orders related to sewer-district construction contracts (plumbing, electrical, and general) were approved.",
+          "Beach parking permit fees were waived for veterans, volunteer firefighters, and ambulance members residing in Riverhead.",
+          "An administrative assistant and a traffic-control specialist were appointed to town departments; detention-attendant positions were filled after the board amended the hourly rate from $20 to $28.",
+          "Special permit and site-plan approvals were granted for two battery-energy-storage facilities in Calverton on Edwards Avenue and Scott Avenue.",
+          "The board authorized an appraisal for a portion of the Nassau County 4-H Camp property on Sound Avenue.",
+          "A public-hearing notice for a proposed eminent-domain taking of 111 East Main Street was authorized; two board members voted no.",
+          "The board authorized a public hearing on proposed amendments to commercial-district dimensional regulations in the Town Code."
+        ]
+      },
+      {
+        "heading": "Money",
+        "items": [
+          "Total tax collections as of April 15, 2026 were reported at approximately $110.4 million.",
+          "The Meetinghouse Creek bulkhead project is estimated to cost approximately $745,850, with all costs for the Summer Wind Farm water-main extension paid by the developer."
+        ]
+      },
+      {
+        "heading": "Public hearings & comment",
+        "items": [
+          "A public hearing on the Summer Wind Farm water-main extension in Aquebogue was opened; the record will remain open for written comment for ten days.",
+          "Multiple residents and online speakers urged the board to adopt an immigration-enforcement transparency law drafted by a local Latino advocacy organization, citing fear in the community and activity by federal immigration agents.",
+          "Two speakers asked the board to table or reconsider the eminent-domain resolution for 111 East Main Street, raising questions about cost, intended use, and adequacy of environmental review.",
+          "One speaker raised concerns about a request to allow drifting and other motorized vehicles on the track at a local water park, citing an existing covenant restricting use to go-karts and calling for full environmental review."
+        ]
+      }
+    ]
+  }
 }

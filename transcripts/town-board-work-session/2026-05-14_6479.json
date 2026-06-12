@@ -5646,5 +5646,34 @@
       "end": 4370.88,
       "text": "See you next week."
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T02:39:38+00:00",
+    "agenda_grounded": false,
+    "tldr": "The board held a work session focused on the Peconic River Hotel project, a 94-room Tapestry by Hilton boutique hotel proposed as part of the multi-phase Riverhead Town Square urban renewal project, and reviewed a slate of routine resolutions.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "A public hearing on the Peconic River Hotel site plan and special permit application was announced for June 10, 2026 at 6 p.m., dedicated solely to that application.",
+          "The board reviewed the hotel's site plan and special permit application, with the town's senior planner and the applicant's environmental consultant concluding the project is consistent with the prior SEQRA negative declaration for downtown revitalization.",
+          "The board discussed a resolution authorizing the supervisor to execute a letter of intent with the YMCA for redevelopment of the former New York State Armory at 1405 Old Country Road.",
+          "The board discussed a one-year extension of final site plan approval for the Zenith Building at 12 McDermott Avenue.",
+          "A local law amending the town code to provide tax exemptions for volunteer firefighters and ambulance workers was listed for adoption.",
+          "The board raised a concern about compensation for the pump-out boat operator, currently paid $20 per hour, and directed staff to work with personnel on a potential increase before approving the reappointment."
+        ]
+      },
+      {
+        "heading": "Discussed",
+        "items": [
+          "The proposed hotel is five stories with 94 rooms, ground-floor retail and a 5,000-square-foot restaurant, valet parking off Main Street for up to eight vehicles, and nine below-grade staff parking spaces.",
+          "The developer and board emphasized the hotel and town square should open simultaneously, and noted coordination is ongoing with East End Arts regarding the adjacent property and access.",
+          "The board noted the town square streetscape construction drawings and permits are complete pending federal grant funding arrival."
+        ]
+      }
+    ]
+  }
 }

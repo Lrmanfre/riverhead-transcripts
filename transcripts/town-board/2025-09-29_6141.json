@@ -1821,5 +1821,28 @@
       "end": 827.64,
       "text": "we were able to pull the building department file and I know that you submitted updated plans I also want to confirm because again there are no setback dimensions set forth it says shed to be removed is that going to be removed"
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T03:02:49+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Town Board held a special meeting to receive the 2026 tentative budget and passed one resolution scheduling a public hearing on a town-owned property sale. The $112.7 million budget pierces the tax cap by 4.63%, with no new positions and no merit raises.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "The supervisor presented the 2026 tentative budget of $112,722,754 to the town clerk, noting it exceeds the tax cap by 4.63% due to contractual raises, health insurance increases, and rising state retirement rates.",
+          "The board voted to schedule a public hearing on designating the Jazz Loft Incorporated as a qualified and eligible sponsor to purchase and redevelop town-owned property at 18 Peconic Avenue; one board member voted no, citing concerns about downtown foot traffic."
+        ]
+      },
+      {
+        "heading": "Affects residents",
+        "items": [
+          "A home valued at $735,000 would see an increase of approximately 75 cents per day under the proposed budget; residential waste cost is estimated at one penny per day."
+        ]
+      }
+    ]
+  }
 }

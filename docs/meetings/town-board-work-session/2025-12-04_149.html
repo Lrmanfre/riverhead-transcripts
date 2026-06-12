@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2025-12-04, category:Town Board Work Session">
@@ -25,6 +25,23 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/149" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/149/files/agenda/5893" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The board&#x27;s open session focused on planning for America&#x27;s 250th anniversary celebrations in 2026, including a January kickoff gala, a Fourth of July parade, and fireworks at South Jamesport Beach. The board then moved into executive session to discuss a contractual matter with NYSDOT and a possible sale of real property.</p>
+      <h3>Key actions</h3>
+      <ul><li>The board closed open session and moved into executive session to discuss a contractual agreement between the Town of Riverhead and the New York State DOT.</li><li>The board also entered executive session to discuss a possible sale of real property.</li></ul>
+      <h3>Discussed</h3>
+      <ul><li>A town America 250 committee presented plans for a yearlong series of events leading up to July 4, 2026, starting with a kickoff gala on January 23 at the Seastar Ballroom at the Long Island Aquarium, featuring food, music, a costume contest, and a cash bar.</li><li>A Fourth of July parade with floats from fire departments, local businesses, and historical groups is planned, along with fireworks launched from a barge at South Jamesport Beach.</li><li>The committee is developing a sponsorship package with tiered levels to fund fireworks, décor, and red-white-and-blue banners and flags along main streets and in neighborhoods.</li><li>Residents and organizations can participate by emailing the town; the committee includes the Chamber of Commerce, Lions, BIDMA, East End Arts, Townscape, and local historians.</li><li>The town historian noted plans for a Daughters of the American Revolution display in the Town Hall lobby in January highlighting local patriots.</li><li>A Town Square groundbreaking ceremony is scheduled for December 12 at noon at 127 East Main Street.</li></ul>
+      <h3>Affects residents</h3>
+      <ul><li>The Riverhead Holiday Extravaganza is set for Saturday, December 6, on the Town Hall campus from 3 p.m. to 8 p.m., including a parade, tree lighting at 5:30 p.m., free hot chocolate, and a community market.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/3025b339-6596-4292-8c09-523092594af6.mp4" type="video/mp4">
@@ -523,6 +540,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

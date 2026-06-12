@@ -12856,5 +12856,37 @@
       "end": 6444.02,
       "text": "SESSION."
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T02:06:18+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Riverhead Town Board work session covered five open-session topics—including presentations from Riverhead CAP, the Peconic Estuary Partnership, and a traffic-signal request for Middle Country Road—then moved through 35-plus resolutions before closing into executive session.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "The board reviewed a staff report on a special permit application to build a two-family dwelling and detached garage at 4592 Middle Country Road, Calverton, and scheduled a public hearing after classifying it as a Type II SEQRA action.",
+          "The board approved agricultural worker housing at 422 Edwards Avenue (DeLalio Saad Farm), preserving the use of two existing houses for farm employees after a solar-related subdivision would otherwise have extinguished the pre-existing nonconforming status.",
+          "The board authorized the town clerk to publish notices for two separate public hearings regarding alleged unsafe structures at 1092 Dolores Avenue and 650 Elton Street.",
+          "The board authorized hiring a law firm to assist in legal action against the Town of Southampton over its ten-year-old revitalization plan.",
+          "The board authorized a retainer with a parking and mobility consultant to assist with the downtown parking area and First Street parking garage.",
+          "The board authorized submission of a Restore New York grant application to Empire State Development—potentially up to $2 million—for the hotel on the town square.",
+          "Several personnel resolutions were approved, including acceptance of retirements, appointment of a new deputy town clerk, and appointment of a new member to the Conservation Advisory Council.",
+          "A Scramble Elite special event previously scheduled at EPCAL was formally rescinded after the organizer withdrew.",
+          "The board entered executive session to discuss possible litigation over property tax assessments, possible litigation with the Town of Southampton, and a proposed IT department contract."
+        ]
+      },
+      {
+        "heading": "Discussed",
+        "items": [
+          "Riverhead CAP presented its substance-use prevention programs in local schools, mental health first aid and QPR suicide-prevention trainings, a new Partnership for Success federal grant, and free medication disposal and Narcan resources available to residents.",
+          "The Peconic Estuary Partnership outlined estuary-wide projects, noting $600,000 in federal bipartisan infrastructure funds earmarked for Meeting House Creek stormwater work in Riverhead, with roughly $175,000 still needed to close the funding gap.",
+          "Staff and a planning consultant discussed the long-standing lack of a traffic signal at the Fresh Pond Avenue and Middle Country Road intersection, reviewed prior DOT studies, and agreed to work with the town's traffic consultant to draft a formal petition to NYSDOT requesting signal installation."
+        ]
+      }
+    ]
+  }
 }

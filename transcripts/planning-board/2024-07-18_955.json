@@ -6861,5 +6861,27 @@
       "end": 4930.92,
       "text": "Have a great weekend."
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T01:45:35+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Riverhead Planning Board reviewed five active applications at its July 18 meeting, approving negative declarations, scheduling public hearings, and classifying two major projects under environmental review. A proposed townhouse parking workaround was rejected by the board.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "The board classified the Jets 139 LLC minor subdivision as a Type 2 action under SEQRA and scheduled a public hearing (Resolution 2024-46).",
+          "The board classified a minor subdivision for a property at 86 Second Street in South Jamesport (Mallets property) as an unlisted action and issued a negative declaration, allowing the applicant to proceed to the ZBA for required variances (Resolution 2024-48).",
+          "The board granted administrative approval to amend a previously approved site plan for a facade improvement project at 1125 Old Country Road, satisfying a prior condition requiring an approved grading and drainage plan (Resolution 2024-49).",
+          "The board approved amending the Seacrest Estates major subdivision from 14 lots to 13 lots and authorized acceptance of a fee in lieu of the required affordable housing density bonus lot, with funds dedicated to workforce housing purposes (Resolution 2024-051).",
+          "The board classified a combined site plan and major subdivision application for TJOC State Holdings LLC — a mixed-use development proposed on a 15.8-acre vacant site on Middle Country Road in Calverton — as a Type 1 action under SEQRA, initiating mandatory coordinated review (Resolution 2024-052).",
+          "The board declined to support adding a front-yard parking stall to the 8-unit townhouse project at 46 East Second Street, directing the applicant to find another solution to meet the required 12-stall minimum.",
+          "The Diaz lot line modification at 718 Roanoke Avenue was discussed; the board indicated no objections and directed the applicant to provide an updated contract of sale so a public hearing can be scheduled."
+        ]
+      }
+    ]
+  }
 }

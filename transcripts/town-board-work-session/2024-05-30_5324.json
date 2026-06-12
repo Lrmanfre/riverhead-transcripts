@@ -13091,5 +13091,14 @@
       "end": 6980.56,
       "text": "So we located the stage in such a way that the sound would be..."
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T02:07:35+00:00",
+    "agenda_grounded": false,
+    "tldr": "The board held a work session covering three main topics: a proposed indoor sports dome at Veterans Memorial Park, a Cornell Cooperative Extension oyster restoration program at East Creek Marina, and an update on the downtown amphitheater design and feasibility study.",
+    "sections": []
+  }
 }

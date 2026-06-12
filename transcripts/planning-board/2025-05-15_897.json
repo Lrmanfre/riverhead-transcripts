@@ -6376,5 +6376,33 @@
       "end": 3457.78,
       "text": "Thank you."
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T01:49:48+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Planning Board discussed four site plan applications and approved six resolutions, including scheduling a June 5 public hearing for a proposed cannabis dispensary at 840 Old Country Road.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "The board issued a negative declaration under environmental review and scheduled a June 5 public hearing for a proposed adult-use cannabis dispensary and 6,060-square-foot building addition at 840 Old Country Road, a current used-car dealership site.",
+          "Final site plan approval was granted for a project at a manufacturers outlet center on Old Country Road (resolution 2025-043).",
+          "Farm stand approval was granted for Pendleton Harvest Moon LLC to sell farm-raised meat and eggs from an existing small frame building on Sound Avenue (resolution 2025-044).",
+          "Preliminary site plan approval was granted for the Akira House of Worship to convert an existing single-family dwelling into a place of worship on Cox Place (resolution 2025-045).",
+          "Final site plan approval was granted for a project at 1107 Old Country Road (resolution 2025-048).",
+          "The board discussed but took no action on a BJ's Wholesale gas station proposal at 841 Old Country Road to reconfigure traffic circulation by closing the Route 58 entrance, widening the Ostrander Avenue entrance, and using traffic drums and new pavement markings to create one-directional flow.",
+          "The board discussed but took no action on a National Grid application at 8 Mill Road to demolish two buildings and create parking for up to 24 compressed natural gas trucks used to supplement supply during peak winter demand; a town board special permit public hearing is scheduled for May 21."
+        ]
+      },
+      {
+        "heading": "Public hearings & comment",
+        "items": [
+          "No public hearings were held at this meeting; no members of the public offered comment."
+        ]
+      }
+    ]
+  }
 }

@@ -14006,5 +14006,44 @@
       "end": 7621.12,
       "text": "you"
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T03:20:28+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Riverhead Zoning Board of Appeals held hearings on three active appeals and approved minutes from a prior meeting. Two appeals were adjourned for further review and one was reserved for a decision at the January 23 meeting.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "A pool cabana and meditation space enlargement appeal (tax map 600-17-1-8.3, flaglot on a sound-side property) was adjourned to February 13 after the board asked the applicant to return with a smaller alternative for the meditation structure.",
+          "A retail cannabis dispensary variance application for 1201 Ostrander Avenue (appeal 2024-035) was adjourned to January 23 for a reserved decision after testimony from the applicant, a hospital representative, and board questions about use-variance criteria.",
+          "An interpretation appeal by Fisher Realty Group (940–946 West Main Street, appeal 2024-037) — asking whether outdoor storage of repossessed vehicles is accessory to an office use in PRC zoning — was adjourned to January 23 for a reserved decision.",
+          "Minutes from the December 12, 2024 meeting were approved.",
+          "A single-family modular dwelling appeal for 650 Elton Street (appeal 2024-036, applicant Portia Brown-Trent) was adjourned at the applicant's request to February 13."
+        ]
+      },
+      {
+        "heading": "Public hearings & comment",
+        "items": [
+          "An adjacent neighbor testified against the pool cabana enlargement, stating he was not informed of the full scope until days before the hearing and objected specifically to the size of the proposed meditation space; he said he would accept the cabana without the meditation room.",
+          "The neighbor also presented evidence of stormwater runoff from a fill mound on the applicant's adjacent lot, which he said has damaged his driveway since excavation began around 2022; the board asked him to document any future runoff events on video before the February 13 hearing.",
+          "A landscape contractor testified that erosion controls and seeding were installed but have not yet germinated due to winter conditions, and said the source of the neighbor's runoff problem appeared to come from a driveway area rather than the fill mound.",
+          "For the cannabis dispensary, a representative of Peconic Bay Medical Center asked the board to restrict any approval to retail sales only, prohibit on-site consumption, and consider the hospital's future development plans for an adjacent parcel.",
+          "The cannabis applicant's attorney argued the site is a self-contained former bank pad that has been vacant for years, fits the dispensary use without exterior changes, and that the lease was secured before the town finalized its cannabis corridor zoning.",
+          "A board member noted that Riverhead's first cannabis zoning ordinance, effective November 1, 2022, already excluded this site, predating the applicant's lease by over a year.",
+          "The owner of Fisher Realty Group addressed the board to say he intends full compliance and redevelopment of the West Main Street site, citing difficulty obtaining permits and carrying costs on multiple large projects."
+        ]
+      },
+      {
+        "heading": "Discussed",
+        "items": [
+          "Board members questioned whether the cannabis dispensary applicant met the use-variance standard of lacking reasonable return, noting the former bank building could potentially support other commercial uses and that over 120 corridor-compliant sites exist town-wide.",
+          "For the Fisher Realty appeal, the board noted that businesses appear to be operating in the Blackman building without certificates of occupancy or use permits, that repossessed vehicles are stored on a parcel not covered by the 2010 ZBA outdoor-storage variance, and that code-compliance summonses are pending in Justice Court."
+        ]
+      }
+    ]
+  }
 }

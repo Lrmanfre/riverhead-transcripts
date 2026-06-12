@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2024-04-11, category:Town Board Work Session">
@@ -25,6 +25,21 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/5247" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/5247/files/agenda/5085" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Riverhead Town Board work session covered five open-session topics—including presentations from Riverhead CAP, the Peconic Estuary Partnership, and a traffic-signal request for Middle Country Road—then moved through 35-plus resolutions before closing into executive session.</p>
+      <h3>Key actions</h3>
+      <ul><li>The board reviewed a staff report on a special permit application to build a two-family dwelling and detached garage at 4592 Middle Country Road, Calverton, and scheduled a public hearing after classifying it as a Type II SEQRA action.</li><li>The board approved agricultural worker housing at 422 Edwards Avenue (DeLalio Saad Farm), preserving the use of two existing houses for farm employees after a solar-related subdivision would otherwise have extinguished the pre-existing nonconforming status.</li><li>The board authorized the town clerk to publish notices for two separate public hearings regarding alleged unsafe structures at 1092 Dolores Avenue and 650 Elton Street.</li><li>The board authorized hiring a law firm to assist in legal action against the Town of Southampton over its ten-year-old revitalization plan.</li><li>The board authorized a retainer with a parking and mobility consultant to assist with the downtown parking area and First Street parking garage.</li><li>The board authorized submission of a Restore New York grant application to Empire State Development—potentially up to $2 million—for the hotel on the town square.</li><li>Several personnel resolutions were approved, including acceptance of retirements, appointment of a new deputy town clerk, and appointment of a new member to the Conservation Advisory Council.</li><li>A Scramble Elite special event previously scheduled at EPCAL was formally rescinded after the organizer withdrew.</li><li>The board entered executive session to discuss possible litigation over property tax assessments, possible litigation with the Town of Southampton, and a proposed IT department contract.</li></ul>
+      <h3>Discussed</h3>
+      <ul><li>Riverhead CAP presented its substance-use prevention programs in local schools, mental health first aid and QPR suicide-prevention trainings, a new Partnership for Success federal grant, and free medication disposal and Narcan resources available to residents.</li><li>The Peconic Estuary Partnership outlined estuary-wide projects, noting $600,000 in federal bipartisan infrastructure funds earmarked for Meeting House Creek stormwater work in Riverhead, with roughly $175,000 still needed to close the funding gap.</li><li>Staff and a planning consultant discussed the long-standing lack of a traffic signal at the Fresh Pond Avenue and Middle Country Road intersection, reviewed prior DOT studies, and agreed to work with the town&#x27;s traffic consultant to draft a formal petition to NYSDOT requesting signal installation.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/7319d845-6742-4a28-aac8-a909590171f0.mp4" type="video/mp4">
@@ -2521,6 +2536,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

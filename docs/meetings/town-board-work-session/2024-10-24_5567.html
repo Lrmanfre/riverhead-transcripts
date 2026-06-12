@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2024-10-24, category:Town Board Work Session">
@@ -25,6 +25,23 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/5567" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/5567/files/agenda/5405" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Town Board held a work session focused mainly on the 2025 preliminary budget, which pierces the tax cap, with significant discussion of elected official and department-head salaries, police costs, and park maintenance needs. The board also received a visit from Riverhead High School NJROTC cadets and heard community announcements.</p>
+      <h3>Key actions</h3>
+      <ul><li>The board discussed the 2025 preliminary budget, which pierces the state tax cap, and noted that a special meeting must be held by October 25 or 28 to adopt any amendments before the November 7 public hearing.</li><li>Personnel and salary matters related to department heads and elected officials were referred to executive session rather than discussed publicly.</li><li>The board moved into executive session to address personnel changes, a PBA contract, a possible lease of town property, a possible sale of real property, and two active litigation matters.</li></ul>
+      <h3>Money</h3>
+      <ul><li>The supervisor noted elected officials&#x27; salaries have not been raised since approximately 2009 (supervisor) and 2015 (town board members), and presented comparison data showing Riverhead pays among the lowest of comparable towns.</li><li>Police department costs represent roughly 50 percent of the town budget, driven by staffing, new vehicles, health insurance increases of about 10 percent, and rising pension costs.</li><li>The supervisor said the town is likely to pierce the tax cap again in 2026, citing structural cost pressures shared by most Suffolk County towns.</li><li>A roughly $150,000 parking-lot repaving project at Police Officers Memorial Park (Bayberry Park) and a $70,000 Reeves Beach boat-ramp project remain unfunded; the supervisor suggested future solar community-benefit funds could cover both.</li><li>The Suffolk County Supervisors Association has written to the governor seeking relief from the tax cap formula, and the supervisor is pursuing state legislation to allow park-and-recreation fees to be used for maintenance.</li><li>The supervisor is working with East End towns to seek a more equitable distribution of Community Preservation Fund revenue among the five eastern townships.</li></ul>
+      <h3>Discussed</h3>
+      <ul><li>Cherry blossom trees purchased by community members have been planted at Veterans Memorial Park at no cost to the town, with monuments to follow and a ribbon-cutting planned for Veterans Day.</li><li>Portable bathrooms at Enterprise Park (EpCal) received Board of Health approval, with a permanent concrete restroom structure expected to arrive soon.</li><li>The NJROTC program at Riverhead High School has grown from about 70 cadets in 2022 to 141 and reported ongoing community service participation.</li><li>A Huddle for Hunger flag-football food drive is scheduled for November 9 at Stotzky Park, and an Anti-Litter Committee fall cleanup is set for November 2 at Town Hall from 9 to 11 a.m.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/ea5a4b2e-bb14-4606-92ce-6785c8d46055.mp4" type="video/mp4">
@@ -985,6 +1002,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

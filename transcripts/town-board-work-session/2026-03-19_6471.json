@@ -3471,5 +3471,39 @@
       "end": 1837.14,
       "text": "Thank you."
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T02:38:49+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Riverhead Town Board work session covered a potential bond refinancing that could save roughly $390,000, a Polish Town civic flag and heritage initiative, and a code enforcement search warrant that uncovered five illegal apartments in a single-family home.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "The board heard a recommendation from its financial advisor to adopt a bond refunding resolution for the 2018A and 2018B bonds, which could be executed no earlier than September and is projected to save approximately $390,000 net of all costs.",
+          "Code enforcement and police executed a court-authorized search warrant at a residential property and found five illegal apartments in what was required to be a single-family home; the deputy town attorney said further litigation and enforcement action will follow.",
+          "The board moved into executive session to discuss personnel matters and two ongoing litigation matters involving separate outside parties."
+        ]
+      },
+      {
+        "heading": "Money",
+        "items": [
+          "The projected net savings from refinancing the two 2018 bonds is approximately $390,000, with roughly $247,000 benefiting the Community Preservation Fund and approximately $142,000 benefiting the Water District; costs are estimated at about $80,000 and are only incurred if the transaction closes.",
+          "No costs are paid unless the bond sale closes, and the board can cancel if market rates rise before the August pricing window."
+        ]
+      },
+      {
+        "heading": "Discussed",
+        "items": [
+          "A representative of the Polish Town Civic Association proposed installing Polish-themed flags and banners on the 21 light poles along Pulaski Street, offered to purchase and maintain the flags, and noted a local business owner may donate flags shipped from Poland.",
+          "Town staff noted that the Pulaski Street light poles are thinner than those on Main Street and that flag hardware must be oriented parallel to the street to avoid damage from delivery trucks.",
+          "A board member noted ongoing efforts to place Polish Town on the historic registry, requiring photos and historical documentation of each property in the area.",
+          "The Polish Town Civic Association meets every second Wednesday of the month at 7 p.m. at 300 Lincoln Street, Riverhead, and is open to the public."
+        ]
+      }
+    ]
+  }
 }

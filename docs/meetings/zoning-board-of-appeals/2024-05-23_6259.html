@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2024-05-23, category:Zoning Board of Appeals">
@@ -25,6 +25,19 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/6259" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/6259/files/agenda/5701" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Zoning Board of Appeals granted variances and extensions in several cases at its May 23, 2024 meeting, and adjourned one contested matter to June 13, 2024 for further review.</p>
+      <h3>Key actions</h3>
+      <ul><li>A one-year extension of variances previously granted to HK Ventures was approved, pushing the expiration date to June 8, 2025, covering impervious surface coverage and building height relief.</li><li>A third and final one-year extension was granted for appeal 2021-015 (James Hogue, Roanoke Avenue), covering floor area ratio and front yard setback variances, now expiring May 27, 2025.</li><li>Variances for the Church of the Harvest at 572 Rainer Avenue were approved for a side setback of 4.2 feet (20 feet required) and impervious surface coverage of 55 percent (15 percent permitted), subject to conditions including removal of unpermitted improvements, restoration of driveway access, and securing easements and a license agreement from the Riverhead Sewer District.</li><li>A variance was approved for a gazebo at 91 Fire Lane, Wading River, with a rear accessory setback of 5.1 feet (20 feet required), on the condition the structure not be enclosed or used as habitable space.</li><li>Variances were approved for a proposed addition and covered front porch at 41 Cliff Road East, Wading River, with a front yard setback of 15.4 feet and a side yard abutting a side street setback of 14.3 feet (both requiring 60 feet).</li><li>Appeal 2023-042 (3 Taconic Court, Wading River), seeking to legalize a large partially constructed storage building, a hot tub, and addressing impervious surface coverage of 46.5 percent, was adjourned to June 13, 2024 so the board could investigate prior complaints about commercial deliveries and review code enforcement records.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/8102e418-2d03-4cfd-a9bc-10a89ae45ac0.mp4" type="video/mp4">
@@ -1061,6 +1074,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

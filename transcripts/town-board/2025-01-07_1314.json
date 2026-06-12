@@ -11556,5 +11556,44 @@
       "end": 6531.94,
       "text": "Thank you."
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T02:56:20+00:00",
+    "agenda_grounded": false,
+    "tldr": "The board held a public hearing on the Sandy Pond Golf Course special permit application and passed roughly 88 resolutions setting 2025 salaries, making appointments, and handling administrative matters, including a contested 4-1 vote to ratify a $50,000 settlement with Island Water Park.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "The board voted unanimously to set 2025 salaries for elected officials, general town employees, police, highway, water district, and other personnel across more than a dozen resolutions.",
+          "Several employees were reclassified to higher job titles, including multiple heavy equipment operators promoted to construction equipment operator.",
+          "The board ratified a $50,000 civil penalty settlement of a legal action against Island Water Park, with one member voting no citing the operator's history of repeat code violations and calling the penalty insufficient.",
+          "After the settlement vote, the board untabled and approved scheduling a public hearing on Island Water Park's pending site plan amendment application.",
+          "A resolution awarding a rebid for the Meeting House Creek stormwater wetland and habitat restoration project was recalled and then defeated unanimously after staff clarified the town intends to issue a new rebid instead.",
+          "The board authorized the Community Development Department to apply for the New York State ADU Plus One Program.",
+          "A license agreement with the Research Foundation of SUNY was approved for installation of a fish passage camera at a town park.",
+          "The board adopted a local law amending town code to set term limits for town justices."
+        ]
+      },
+      {
+        "heading": "Public hearings & comment",
+        "items": [
+          "A public hearing was held on a special permit application from Sandy Pond Links at 1495 Roanoke Avenue for a roughly 3,100-square-foot clubhouse, a property manager's residence, three trade shop buildings, and 67 additional parking spaces; the hearing was closed and kept open for written comment until January 17, 2025.",
+          "One commenter argued the project's environmental review was improperly segmented by reviewing the mini-golf phase and the clubhouse/trade shop phase separately; the senior planner and the applicant's attorney disputed that characterization and addressed the timeline for the non-conforming use question.",
+          "Multiple residents spoke against ratifying the Island Water Park settlement, citing unpermitted construction, DEC violations related to the go-kart track and expanded parking lot, and the adequacy of the $50,000 penalty.",
+          "A resident raised questions about PFAS contamination risks related to an expansion of the West Wastewater Treatment Plant and asked the board to ensure biosolids are tested before any land application."
+        ]
+      },
+      {
+        "heading": "Affects residents",
+        "items": [
+          "The town is accepting applications for part-time police officers; candidates must be at least six months short of 21 and no older than 35.",
+          "Residents may submit written comments on the Sandy Pond Golf Course special permit application through January 17, 2025."
+        ]
+      }
+    ]
+  }
 }

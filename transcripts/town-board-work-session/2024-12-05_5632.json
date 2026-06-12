@@ -1136,5 +1136,23 @@
       "end": 1161.26,
       "text": "you"
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T02:14:34+00:00",
+    "agenda_grounded": false,
+    "tldr": "The board held a brief work session focused on a proposed water rate adjustment, then entered executive session to discuss a contractual matter with the Jazz Loft.",
+    "sections": [
+      {
+        "heading": "Discussed",
+        "items": [
+          "The water district superintendent presented a proposal for a small incremental rate increase affecting only the highest-volume users, raising the per-thousand-gallon charge above 90,000 gallons from $2.75 to $3.00, which would add roughly $2.50 to the largest users' bills.",
+          "The presentation also included a proposed $50 fee for on-site meter data downloads and a new hourly labor charge for water district staff called to assist large commercial users with troubleshooting.",
+          "The board entered executive session to discuss contractual matters between the Town of Riverhead and the Jazz Loft."
+        ]
+      }
+    ]
+  }
 }

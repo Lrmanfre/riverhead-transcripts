@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2025-11-18, category:Town Board">
@@ -25,6 +25,21 @@
     <div class="meta-row">124 min &nbsp;·&nbsp; <a href="https://riverheadny.portal.civicclerk.com/event/22" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/22/files/agenda/5867" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The board held a public hearing on strengthening enforcement of the existing 29-day minimum rental rule, then voted on roughly two dozen resolutions including a 4-1 vote to designate the Jazz Loft as the qualified sponsor for the Vale Levitt Music Hall and a vote to override the state tax levy limit.</p>
+      <h3>Key actions</h3>
+      <ul><li>The board voted 4-1 to designate the Jazz Loft as the qualified and eligible sponsor to redevelop the Vale Levitt Music Hall at 18 Peconic Avenue, with one board member voting no citing concerns about incomplete financial and architectural documentation.</li><li>The board voted to override the state tax levy limit, with one member noting the increase is tied largely to the cost of expanding the police force to 100 officers.</li><li>The board approved a resolution authorizing publication of a notice to amend the Community Development Block Grant budget for program years 2024 and 2025, which a board member noted redirects funds toward the Jazz Loft project.</li><li>Two automotive equipment operators, a maintenance mechanic, a town board coordinator, and two traffic control specialists were appointed, and a detective promotion was ratified.</li><li>A bid for removal of household hazardous waste was awarded.</li><li>Two appraisals of the Wellbridge Drug and Alcohol Treatment Center were authorized in connection with tax-grievance litigation.</li><li>An extension of a license agreement with the U.S. Fish and Wildlife Service for water-level logging equipment at Wading River Boat Ramp was approved.</li><li>The board approved a special event application for the Lions Club of Riverhead Christmas Parade and Extravaganza.</li><li>The board signaled support for a letter authorizing the Railroad Museum of Long Island to apply to the William G. Pomeroy Foundation for a historic marker commemorating a 1926 fatal train derailment in Calverton, with staff asked to provide the letter by the following day.</li></ul>
+      <h3>Public hearings &amp; comment</h3>
+      <ul><li>A public hearing was held on proposed amendments to Chapter 263 governing rental permits, which would create rebuttable presumptions of illegal transient rental based on online listing language, out-of-state license plates, and excess trash, raise first-offense fines to a minimum of $3,000 and maximum of $15,000, raise subsequent-offense fines up to $30,000 per violation per day, add civil enforcement penalties of $5,000 per day, allow immediate permit revocation, and require permit applicants to sign an acknowledgment of the 29-day minimum rule.</li><li>Several residents spoke in favor of stronger enforcement of the 29-day rule, citing noise, parking, and quality-of-life problems from short-term rentals in their neighborhoods.</li><li>Two speakers urged the board to consider reducing the minimum rental period to 14 days, citing tourism revenue, fixed-income homeowners who rent to supplement income, and alignment with some neighboring towns.</li><li>A resident and an out-of-state caller described prolonged difficulties resolving an alleged illegal rental operation in their neighborhood, illustrating the enforcement gaps the amendments aim to close.</li><li>The public hearing was kept open for ten days, closing November 28.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/cebcc1fa24.mp4" type="video/mp4">
@@ -2373,6 +2388,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

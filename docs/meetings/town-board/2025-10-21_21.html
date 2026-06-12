@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2025-10-21, category:Town Board">
@@ -25,6 +25,25 @@
     <div class="meta-row">66 min &nbsp;·&nbsp; <a href="https://riverheadny.portal.civicclerk.com/event/21" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/21/files/agenda/67" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Riverhead Town Board approved roughly 30 resolutions covering personnel, finance, code amendments, and development matters, with the most notable actions involving the town square demolition lease, a lawsuit against state cannabis regulators, and a positive declaration for a motocross track application.</p>
+      <h3>Key actions</h3>
+      <ul><li>The board approved a prepossession and lease agreement allowing the master developer access to 127 East Main Street so the vacant building can be demolished in preparation for the town square project, with demolition tentatively set for October 30.</li><li>The board authorized the town attorney to file legal action against the Office of Cannabis Management, the Cannabis Control Board, and the State of New York.</li><li>The board assumed lead agency status and issued a positive declaration under SEQRA for the Duffy MX Motocross Track special permit and site plan application at 2822 River Road, Calverton.</li><li>The board approved a site plan finding for the Timothy Hill Children&#x27;s Ranch Barn at 298 Middle Road related to an existing special permit.</li><li>The board authorized publishing notice of a public hearing to consider amending Chapter 263 of the town code governing rental dwelling units.</li><li>The board accepted the 2024 audited financial statements.</li><li>The board approved a fund balance transfer for the ambulance district to cover a chassis and body remount, and ratified a highway department budget transfer for salt barn repair.</li><li>Several personnel actions were adopted, including appointing a senior accountant, a principal accountant and deputy financial administrator, an office assistant, and automotive equipment operators, while also ratifying a termination and approving a separate termination.</li></ul>
+      <h3>Money</h3>
+      <ul><li>A water district capital project for Bayberry Park&#x27;s parking lot and drainage was approved, funded through cannabis sales revenue and park-and-recreation fees rather than direct taxpayer expense.</li></ul>
+      <h3>Public hearings &amp; comment</h3>
+      <ul><li>A representative for a cannabis dispensary applicant asked the board to reconsider its opinion to the Office of Cannabis Management regarding a proposed location at 655 Old Country Road, arguing the site complies with all requirements regardless of the outcome of pending appellate litigation; the town attorney declined to comment publicly and suggested the matter be discussed in executive session.</li><li>A resident working with town staff presented a proposed update to the town code governing waterfowl blinds in local waterways, citing support from several civic and environmental organizations, and asked the board to schedule a working session and public comment period.</li><li>A resident asked the board to ensure that a letter submitted August 15 regarding the community benefit zoning use district amendment be fully posted on the town website and made part of the public record; board members confirmed they had received the letter and said it would be posted.</li></ul>
+      <h3>Affects residents</h3>
+      <ul><li>Early voting runs October 25 through November 2 at Riverhead Town Hall, with varying hours each day; regular Election Day is November 4.</li><li>The town&#x27;s new online FOIL request system launches November 1, allowing residents to submit requests directly to specific departments through the town website.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/0f6726bae2.mp4" type="video/mp4">
@@ -1514,6 +1533,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

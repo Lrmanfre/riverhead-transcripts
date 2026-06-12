@@ -14416,5 +14416,44 @@
       "end": 7180.68,
       "text": ""
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T03:00:18+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Riverhead Town Board approved final site plan for Island Water Park/Scotts Point, passed local law amendments on public nuisances and zoning, and heard extended public comment about a disputed composting/recycling operation on Youngs Avenue and a proposed motocross track on River Road. The town attorney outlined steps toward possible litigation against Patriot Recycling LLC if evidence supports a zoning violation.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "The board granted final site plan approval for Island Water Park, doing business as Scotts Point, at 5835 Middle Country Road, Calverton, by a 4-1 vote after amending a consent order date from 2024 to 2025.",
+          "The board adopted a local law amending Chapter 251 of the town code on public nuisances.",
+          "The board adopted a local law amending the zoning and land use chapter's definitions section.",
+          "The board approved a home rule request supporting state legislation related to conveyance of land formerly used as an armory to the Town of Riverhead, after correcting bill designations from 'A' to 'B' in the resolution.",
+          "The board approved a $75,000 community preservation fund expenditure designating a parcel at 48 Willow Street as open space, including a budget transfer for wetland restoration.",
+          "The board authorized purchase of a dump truck for the highway department at approximately $300,000.",
+          "The board approved two off-floor resolutions authorizing the police department to apply for federal DOJ grants for body camera language-translation software and for funding to hire up to three additional officers.",
+          "The board accepted donations of mulch, flowers, and a flagpole for Veterans Memorial Park and approved fireworks applications for Baiting Hollow Club and Riverhead Raceway.",
+          "The board closed roughly two dozen capital project accounts across water, sewer, and general town funds."
+        ]
+      },
+      {
+        "heading": "Public hearings & comment",
+        "items": [
+          "Multiple Calverton residents described foul odors, truck traffic hazards, health symptoms including nosebleeds, and animal disturbances they attribute to large-scale material dumping by Patriot Recycling LLC on a Youngs Avenue property.",
+          "The town attorney said a stop work order was issued in August 2024, a tree-farm use permit was issued in April 2025, and the town is monitoring the property and prepared to seek injunctive relief if the operator is found to be exceeding the permitted use.",
+          "Two residents and nearby business owners spoke against a proposed motocross track on River Road in Calverton, citing noise, dust, groundwater, and child-safety concerns at an adjacent licensed daycare.",
+          "Several residents from communities near the Route 58 and Ostrander Avenue intersection asked the board to block a pending cannabis dispensary application at that site; the town attorney noted the application meets current zoning setbacks and is before the planning board, with the next meeting July 3."
+        ]
+      },
+      {
+        "heading": "Affects residents",
+        "items": [
+          "Residents concerned about the Youngs Avenue composting operation were advised to document violations; the town attorney said litigation or justice court action is possible if evidence of zoning violations is gathered."
+        ]
+      }
+    ]
+  }
 }

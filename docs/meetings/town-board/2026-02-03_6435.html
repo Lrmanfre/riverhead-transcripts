@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2026-02-03, category:Town Board">
@@ -25,6 +25,25 @@
     <div class="meta-row">61 min &nbsp;·&nbsp; <a href="https://riverheadny.portal.civicclerk.com/event/6435" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/6435/files/agenda/5913" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Riverhead Town Board promoted a police officer to sergeant, held a public hearing on reducing the volunteer firefighter and ambulance member tax exemption waiting period from five to two years, and passed roughly 50 resolutions covering appointments, Water District projects, park grants, and new public hearings.</p>
+      <h3>Key actions</h3>
+      <ul><li>The board unanimously approved Resolution 151, promoting a police officer to the rank of Sergeant in the Riverhead Police Department.</li><li>A public hearing was held and closed on a proposed amendment to reduce the qualifying service period for volunteer firefighter and ambulance member property tax exemptions from five years to two years.</li><li>The board voted to schedule a public scoping session for a special permit and site plan application for a motocross track at 2822 River Road, Calverton.</li><li>An intermunicipal agreement with the Town of Brookhaven for restoration of the Wading River Duck Pond was authorized.</li><li>The board approved an agreement with a professional services firm for the Meeting House Creek Road bulkhead reconstruction project.</li><li>A resolution was pulled from the floor and passed to schedule a public hearing on a proposed local law creating a property tax exemption for surviving spouses of police officers killed in the line of duty, with a March 1 application deadline noted.</li><li>The board approved the release of a performance bond for the major subdivision known as Highlands at Reeves.</li><li>A bid was awarded for construction of Water District Well No. 2A covering electrical, general, and mechanical contracts.</li></ul>
+      <h3>Money</h3>
+      <ul><li>Tax collection totals reported by the Tax Receiver were approximately $105.3 million as of January 21 and approximately $105.97 million as of January 28, 2026.</li><li>ARVAC ambulance barn fundraising has surpassed $6 million collected toward the construction project.</li><li>Resolution 134 authorizing an amended agreement adjusting compensation for an Assistant Recreation Superintendent passed with one dissenting vote; the dissenting member cited budget constraints while supporters noted the adjustment restored pay equity lost when the employee moved out of union classification.</li></ul>
+      <h3>Public hearings &amp; comment</h3>
+      <ul><li>A resident from River Road spoke at length about a dispute involving the highway department, the CSEA, and coverage by a local news outlet, and urged the board to address what she described as misconduct by town employees.</li><li>A caller asked repeatedly about the total cost of the town square project, stating a FOIL request had been acknowledged but not yet fulfilled; the supervisor said the information was not available at the meeting.</li></ul>
+      <h3>Affects residents</h3>
+      <ul><li>Volunteers who qualify for the new two-year tax exemption must submit an application in person at the town assessor&#x27;s office before March 1, 2026; details are available on the town website.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/0693b430ba.mp4" type="video/mp4">
@@ -1426,6 +1445,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2025-08-07, category:Planning Board">
@@ -25,6 +25,21 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/975" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/975/files/agenda/838" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Riverhead Planning Board held public hearings on four applications and discussed two others, closing three hearings while leaving the Peconic Farms subdivision hearing open for written comment through August 27. A county open-space preservation interest was raised for both the Venecia Square and Peconic Farms properties.</p>
+      <h3>Key actions</h3>
+      <ul><li>The public hearing for Venecia Square — a proposed 27,000-square-foot commercial center on 6.34 acres at 6435 NY Route 25A — was closed after public comment; the project previously received a negative declaration under environmental review and Pine Barrens Commission approval.</li><li>The public hearing for the BJ&#x27;s Wholesale Club expansion at East End Commons (565–605 Old Country Road) was closed; the project involves a 10,530-square-foot building addition and a new 16-position fueling station, and will require a dedicated deceleration and right-turn lane on Old Country Road per Suffolk County DPW.</li><li>The public hearing for the 940–946 West Main Street redevelopment — proposing a three-story 110,000-square-foot self-storage building and a one-story 33,000-square-foot wholesale building — was closed; existing tenants are being relocated and the current structure will be demolished.</li><li>The public hearing for the Peconic Farms four-lot minor subdivision at 1161 Peconic Bay Boulevard, Jamesport, was left open for written public comment until August 27, 2025 at 4:30 p.m., due to extensive neighbor concerns about flooding and wetland proximity.</li><li>The board discussed but did not approve the BOLA car wash site plan at 1575 Old Country Road; the applicant must seek ZBA relief for side-yard and front-yard setback variances and submit additional details before a public hearing can be scheduled.</li><li>The board reviewed a site plan discussion item for a proposed adult-use cannabis dispensary at 720 Main Road, Jamesport, involving facade improvements and an 86-square-foot addition to an existing commercial building; no public hearing was scheduled at this meeting.</li><li>The board adopted Resolution 2025-080, classifying the BOLA car wash application as a Type 2 action under environmental review.</li><li>The board adopted Resolution 2025-081 as amended, correcting dates related to a municipal notice for the cannabis dispensary application; the resolution passed 3–1.</li></ul>
+      <h3>Public hearings &amp; comment</h3>
+      <ul><li>A representative from Suffolk County Legislator Catherine Stark&#x27;s office read a letter into the record stating the county has initiated an appraisal process to potentially acquire and preserve the Venecia Square parcels as open space, with an offer letter possible as early as fall 2025.</li><li>The Wading River Civic Association president spoke in support of county preservation of the Venecia Square site, citing traffic and rural-character concerns.</li><li>Multiple residents on Doug&#x27;s Lane and nearby streets testified about chronic flooding on and around the Peconic Farms parcel, with several citing groundwater rising from below grade rather than surface runoff.</li><li>A county legislator&#x27;s office representative stated a letter was sent to the Peconic Farms property owner this week expressing county interest in preserving that parcel as open space.</li><li>Oliver Street residents testified about truck noise and light spillover from the existing BJ&#x27;s Wholesale Club; the board noted the town attorney is drafting a code amendment to strengthen the noise ordinance regarding commercial truck activity adjacent to residential properties.</li><li>The board noted that staff identified a zoning district designation error — the Peconic Farms parcel is in the RB40 district, not RA40 as previously referenced — but confirmed the dimensional requirements and minimum lot size are the same.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/3b712b46-a695-45f0-9a80-12d00cf10071.mp4" type="video/mp4">
@@ -2298,6 +2313,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

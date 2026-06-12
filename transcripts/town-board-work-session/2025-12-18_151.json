@@ -8821,5 +8821,37 @@
       "end": 5779.98,
       "text": "it's 2 [transcription gap]"
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T02:31:03+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Town Board work session covered two main topics: a USGA proposal to use the Calverton Airfield as overflow fan parking for the 2026 US Open at Shinnecock Hills, and proposed 2026 recreation fee increases for beach permits and park facilities.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "The board directed staff to proceed with drafting a license agreement, special events application, and road opening permit to allow the USGA to use the Calverton Airfield as a parking and shuttle hub for the 2026 US Open, held June 15–21, 2026.",
+          "The board directed the Recreation Department to submit a fee-schedule resolution for the first January 2026 board meeting, raising the resident 4x4 beach permit from $90 to $110, the senior 4x4 from $70 to $90, the resident boat launch trailer and night fishing permit, and other categories.",
+          "The board directed staff to set the new community borderline pass — for non-residents in adjacent zip codes — at $75 rather than the proposed $50.",
+          "A planned rollout of a Yodel License Plate Reader beach-pass system was deferred pending a January 6 town-wide parking-system review meeting that will also cover handheld enforcement devices for parks and other facilities.",
+          "If the new parking system is not ready by January 1, the board indicated it may honor 2025 beach stickers through January as it has done in past years.",
+          "The board discussed the possibility of renting the town hall cafeteria space to community groups under the Recreation Department's management, with scheduling built around existing EMT classes, voting, and other committed uses."
+        ]
+      },
+      {
+        "heading": "Discussed",
+        "items": [
+          "The USGA expects roughly 3,200–4,000 cars per day Thursday through Sunday at Calverton, using approximately 42 acres of the eastern runway, with up to 130–145 coach buses shuttling fans the approximately 28 miles to Shinnecock Hills.",
+          "USGA representatives said all structures at Calverton — tents, fencing, trailers, security-screening equipment — would be temporary, with setup starting June 1 and teardown completed by June 26.",
+          "Board members raised concerns about road capacity and condition on potential shuttle routes, and a USGA representative said their traffic consultant is coordinating with state DOT and Suffolk County DPW to place construction holds on roads in the shuttle corridor.",
+          "The town attorney's office noted that Riverhead-area hotels are already nearly fully booked for US Open week, and the USGA said it has contracted over 400 hotel rooms per night in the Riverhead area.",
+          "The USGA's Open Works program was noted as a pathway for local businesses, temporary workers, and community organizations to connect with USGA vendors and supply chains for the event.",
+          "The Recreation Advisory Committee chair urged the board to dedicate a percentage of cannabis tax revenue to park capital improvements, citing a long backlog of repairs across the town's 47 parks; board members expressed differing views on tying park funding to cannabis revenue."
+        ]
+      }
+    ]
+  }
 }

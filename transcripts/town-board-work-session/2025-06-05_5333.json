@@ -5471,5 +5471,39 @@
       "end": 3397.38,
       "text": "Thank you."
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T02:24:40+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Riverhead Town Board work session covered a downtown BID budget review, detailed planning updates for the Alive on 25 summer block party series (rebranded as the Riverhead Summer Block Party), a Riverhead in Action video featuring the town historian, and ended with a move to executive session on a personnel matter.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "The board reviewed and expressed approval of a newly formatted downtown BID budget, with a request that future budgets be submitted by December 1 each year.",
+          "Two agenda items were removed: a hearing on a CSEA contract matter and a proposed community benefit zoning use district item, the latter postponed so board members can receive materials at least a week before the next work session.",
+          "The board moved into executive session to discuss a change in terms and conditions for an employee."
+        ]
+      },
+      {
+        "heading": "Discussed",
+        "items": [
+          "Main Street Agency presented plans to rebrand the Alive on 25 events as the Riverhead Summer Block Party, with two event dates (July 18 and August 1), an expanded footprint reaching businesses beyond the street closure, approximately 14 live music locations, a downtown crawl/scavenger hunt element, and fireworks launched from a barge on the river at approximately 9 p.m.",
+          "Vendor fees were significantly reduced from prior years to attract more local makers, farmers market vendors, and artisans, with fewer commercial vendors.",
+          "Riverhead Raceway will participate on August 1, and a classic car show is planned for the first night; a monster truck appearance is being discussed for July 18.",
+          "The town historian, who has held the role for 23 years and authored nine books, was featured in a Riverhead in Action video; her office at Town Hall is open Wednesdays from 9 a.m. to 3 p.m."
+        ]
+      },
+      {
+        "heading": "Affects residents",
+        "items": [
+          "Volunteers, interns, and community service participants are being sought to help run the summer block party events; interested residents can contact aliveOn25.org.",
+          "The BID budget includes a $45,000 executive director line item that the board indicated should be prorated until a director is hired."
+        ]
+      }
+    ]
+  }
 }

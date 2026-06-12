@@ -18041,5 +18041,44 @@
       "end": 10081.66,
       "text": "Female Speaker 2 Thank you."
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T02:41:53+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Riverhead Town Board held a lengthy January 17 meeting covering a $5 million water grant for PFAS-contaminated wells, several public hearings on shellfishing, zoning, solid waste, and park fees, and adopted more than three dozen resolutions on personnel, contracts, and code changes.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "The board adopted a local law amending the waterways code to reopen East Creek to seasonal shellfishing for Riverhead residents only, with permits required from the town clerk at no fee, a daily limit of 100 hard-shell clams and half a bushel total, hours of 9 a.m. to 3 p.m. Monday through Friday, and no commercial harvesting.",
+          "The board authorized the supervisor to execute a 2024 conditional shellfish harvesting agreement with the New York State DEC.",
+          "The board adopted the final scope for the Town of Riverhead Comprehensive Plan Update, with an amendment removing the requirement to publish the full document in the official newspaper.",
+          "The board authorized an agreement with a company to operate floating upweller systems in East Creek.",
+          "The board authorized an RFP award and agreement for the Riverfront Adaptive Children's Playground.",
+          "The board authorized an RFP and agreement related to the town square project with a company identified in the agenda.",
+          "A public hearing on amending the Manufacturers Outlet Center overlay zone to add retail, interior design showroom, and specialty grocery uses for the Tanger properties was kept open for written comment until January 26.",
+          "A public hearing on solid waste code changes, including new bundling requirements for carpets and mattresses and increased dumping fines tiered by location, was kept open for written comment until January 26.",
+          "Three combined public hearings on increasing park and recreation fees from $3,000 to $5,000 per residential unit and establishing flagship parks were kept open for written comment until January 26.",
+          "A public hearing on an unsafe structure at 29 East 2nd Street was adjourned to February 21 to allow the owner time to work with the building department on restoration or demolition plans."
+        ]
+      },
+      {
+        "heading": "Money",
+        "items": [
+          "The town was awarded a $5 million federal infrastructure law grant for Water District Extensions 95 and 96 to address PFAS and PFOA contamination in private wells in the Middle Road, Toomey Avenue, and River Road areas.",
+          "Tax collection as of January 10 totaled approximately $70 million, and the December utility collection report totaled approximately $688,000."
+        ]
+      },
+      {
+        "heading": "Public hearings & comment",
+        "items": [
+          "Multiple residents and civic representatives urged the board to vigorously fight the EPCAL-related lawsuit and not settle; the supervisor and all board members stated publicly they intend to fight it to the end.",
+          "A local developer and other residents raised concerns that expanding permitted uses at Tanger, particularly allowing a sit-down restaurant, could harm Route 58 businesses and downtown; board members and counsel argued the restrictions in the proposed code are designed to prevent direct competition."
+        ]
+      }
+    ]
+  }
 }

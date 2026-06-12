@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2025-02-06, category:Town Board Work Session">
@@ -25,6 +25,23 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/5139" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/5139/files/agenda/4977" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">A shortened work session covered two minor zoning code proposals from the town planner and a Riverhead in Action segment featuring the Tax Receiver&#x27;s office. The board then moved to executive session on legal, contractual, and personnel matters.</p>
+      <h3>Key actions</h3>
+      <ul><li>The town planner presented a proposed code amendment that would allow governmental authorities such as fire districts, libraries, and town buildings to apply for illuminated LED informational signs, with the Town Board able to waive existing signage restrictions; the board directed the planner to prepare a resolution scheduling a public hearing.</li><li>The town planner also proposed extending the maximum preliminary site plan approval period from 18 months to two years by adding a second optional six-month extension, with associated application fees; the board directed preparation of a public hearing resolution for that amendment as well.</li></ul>
+      <h3>Discussed</h3>
+      <ul><li>Board members discussed how long health department and stormwater plan reviews typically take, concluding that two years is a reasonable window for applicants to satisfy preliminary site plan conditions.</li><li>The board noted that if zoning changes occur during an extended approval period it could affect pending applications, but expressed general comfort that two years is an appropriate limit before requiring a new application.</li><li>The Riverhead in Action segment highlighted the Tax Receiver&#x27;s office, covering tax collection for roughly 13 taxing entities, water bill payments, yard waste sticker sales, drop-box use, and key tax due dates (first half January 10, second half May 31).</li></ul>
+      <h3>Key actions</h3>
+      <ul><li>The board voted to close open session and enter executive session to discuss litigation with Suffolk County, a contractual matter with CVE, a contractual matter with Suffolk County, possible hiring of a part-time employee, and a change in employee status.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/a1e34c29-88ed-4a7e-991f-957e16f3c9f9.mp4" type="video/mp4">
@@ -428,6 +445,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

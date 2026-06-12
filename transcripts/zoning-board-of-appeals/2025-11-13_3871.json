@@ -7911,5 +7911,27 @@
       "end": 4849.28,
       "text": "[transcription gap]"
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T03:25:48+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Riverhead ZBA met on November 13, 2025, adjourning two appeals and deciding four others, including approvals for setback and coverage variances at a pre-existing bungalow community, an unmerger of two undersized lots, a waterfront property shed legalization, and a new single-family home with pool and garage on a steeply sloped lot.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "Appeal 2025-032 (Bayview at Peconic LLC, 47 Bayside Avenue, Jamesport) was adjourned to December 11, 2025 due to the applicant's attorney's illness.",
+          "Appeal 2025-028 (505 Lincoln Street Opportunity Zone Fund LLC, 505 Lincoln Street and 214 Marcy Avenue) was adjourned to January 22, 2026.",
+          "Appeal 2025-034 (Roy Sokoloski, 15 Surfway North, Calverton) was approved for multiple setback and impervious-coverage variances to allow a bedroom addition and indoor bathroom at a pre-existing bungalow in a nonconforming cottage community.",
+          "Appeal 2025-036 (Muhammad Faisal, 2041 Osborne Avenue, Riverhead) seeking a 6-foot front-yard fence and 8-foot driveway gate where 4 feet is permitted was adjourned to December 11, 2025; the board asked the applicant's attorney to provide police trespass reports and examples of comparable residential properties.",
+          "Appeal 2025-037 (Glenn and Virginia Woodhull, 506 Soundshore Road, Jamesport) was approved to legalize two existing sheds, one in the front yard and one at a 2.6-foot side-yard setback, on a 3.2-acre waterfront property where steep topography precludes rear-yard placement.",
+          "Appeal 2025-038 (RH Hamptons 321 LLC, 314 Maple Avenue and 321 Union Avenue, Riverhead) was approved for an unmerger and associated setback and impervious-coverage variances for two undersized lots of approximately 5,000 square feet each in an RA-40 district.",
+          "Appeal 2025-039 (Suzanne Bax, 7 Warner Court, Calverton) was approved for front-yard pool and detached garage locations and a reduced side-yard pool setback, with the garage accessory space limited to seasonal pool-cabana use including a full bathroom with shower and outdoor shower, no overnight accommodations, no kitchen, and no heating; the building department was directed to determine whether a Coastal Erosion Hazard Area permit under Chapter 219 is required."
+        ]
+      }
+    ]
+  }
 }

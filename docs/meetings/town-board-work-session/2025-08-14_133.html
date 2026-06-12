@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2025-08-14, category:Town Board Work Session">
@@ -25,6 +25,19 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/133" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/133/files/agenda/59" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Town Board work session covered proposed code amendments on commercial vehicle parking, e-bikes, and bicycles on Route 58, reviewed 44 resolutions for the upcoming regular meeting, and screened a recap video from National Night Out.</p>
+      <h3>Key actions</h3>
+      <ul><li>A code amendment expanding the commercial vehicle parking prohibition on Young&#x27;s Avenue to include dump trucks is set for a public hearing on August 19, with the rule expected to take effect in October.</li><li>A companion amendment clarifying the definition of &#x27;local delivery&#x27; was discussed to make parking-restriction violations easier to prosecute in court.</li><li>Proposed code changes would prohibit all bicycles and electric scooters from riding on Route 58 sidewalks between defined endpoints due to safety concerns in that high-traffic corridor.</li><li>A separate amendment would classify e-bikes into three state DMV categories and restrict Class 2 and Class 3 electric-assist bicycles from roads with speed limits over 30 mph, from bike lanes, and from the bike path; penalties would range from up to $250 for a first offense to up to $500 for a third or more.</li><li>The board reviewed 44 resolutions for the August 19 regular meeting, including accepting a donated hockey facility valued at roughly $2.9 million from the Peconic Hockey Foundation, applying $525,000 in proceeds from the sale of 201 Howell Avenue to repay a general-fund loan used for Town Square demolition costs, and authorizing road-resurfacing grants under CHIPS, PAVE NY, and POP NY programs.</li><li>The board noted that a volunteer EMT course held at Town Hall last year produced approximately 25 new certified EMTs, and a license agreement for a second year of that program is on the resolution list.</li><li>The session closed with the board moving into executive session to discuss a leave of absence, a class-action grievance, pending litigation, and several contractual agreements.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/2c4192f7-b3ae-43a0-a2e4-c355a3b9c988.mp4" type="video/mp4">
@@ -708,6 +721,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

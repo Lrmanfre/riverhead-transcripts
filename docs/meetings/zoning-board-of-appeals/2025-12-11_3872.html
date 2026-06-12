@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2025-12-11, category:Zoning Board of Appeals">
@@ -25,6 +25,23 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/3872" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/3872/files/agenda/5895" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Riverhead ZBA held a lengthy public hearing on a proposed cannabis greenhouse at 1458 Middle Road, Calverton, drawing heavy community opposition; the hearing was adjourned to January 8, 2026 with no decision made. A separate garage/shed variance in Jamesport was approved, and two other appeals were adjourned.</p>
+      <h3>Key actions</h3>
+      <ul><li>The cannabis greenhouse application for 1458 Middle Road, Calverton (Brother Bear Canna / 1458 Middle Road LLC) was adjourned to January 8, 2026 with no decision; the board&#x27;s vote to adjourn was unanimous.</li><li>A variance was granted unanimously for Appeal 2025-040 (850 Soundshore Road, Jamesport) to allow a proposed detached garage and to legalize an existing shed in the front yard, subject to Conservation Advisory Council approval, silt fencing during construction, and restrictions on the garage&#x27;s second floor (non-habitable, no rental, no water utilities).</li><li>Appeal 2025-032 (47 Bayside Avenue, Jamesport) was adjourned to February 12, 2026.</li><li>Appeal 2025-041 (Osborne Avenue, Riverhead) was adjourned to January 8, 2026.</li><li>There is no ZBA meeting on December 25, 2025; the next meeting is January 8, 2026.</li></ul>
+      <h3>Public hearings &amp; comment</h3>
+      <ul><li>The cannabis greenhouse proposal at 1458 Middle Road seeks two variances: a deer fence height variance (8 feet proposed vs. 6-foot maximum) and an impervious surface coverage variance (approximately 20.4% after a proposed modification vs. 15% maximum).</li><li>During the hearing the applicant proposed removing a truck turnaround area to reduce the impervious surface figure from 24.04% to approximately 20.4%, but the board noted only the plan formally submitted to the Planning Board is before the ZBA.</li><li>A civic group letter requested the board issue a use interpretation on whether the facility qualifies as an agricultural greenhouse or an industrial/vertical farming use before considering any variances.</li><li>Written correspondence was received from multiple organizations including the Greater Calverton Civic Association, the Calverton Civic 458 Committee, the Group for the East End, the Town of Riverhead Open Space Committee, and individual residents; a petition with approximately 245 signatures in opposition was also presented.</li><li>Neighbors from nearby 55-plus communities (Wincrest East and Foxwood Village, estimated 500–700 feet from the site) raised concerns about odor, property values, water usage, PFAS contamination in the area, generator noise, and traffic.</li><li>A resident noted that DEC has no record of a well permit application filed by the cannabis applicant, and that Wincrest East residents were previously denied individual wells due to water contamination and directed to public water supply.</li><li>The applicant described a closed HVAC system with activated carbon scrubbers, stated water usage is approximately 300 gallons per day in a recirculating system, and confirmed the facility would use all-electric power with a goal of 100% renewable sourcing.</li></ul>
+      <h3>Discussed</h3>
+      <ul><li>The board chair clarified that the ZBA&#x27;s jurisdiction is limited to the fence height and impervious surface variances and that the board will not take a position on the Planning Board&#x27;s site plan review.</li><li>The applicant&#x27;s attorney argued that cannabis and hemp are defined as crops under New York State Agriculture and Markets Law and that greenhouse agricultural commercial uses are permitted as-of-right in the Agricultural Protection Zone.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/33f5e6ca-43a1-49b8-bc53-b7104a979fab.mp4" type="video/mp4">
@@ -2432,6 +2449,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

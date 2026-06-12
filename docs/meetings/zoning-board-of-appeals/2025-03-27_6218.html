@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2025-03-27, category:Zoning Board of Appeals">
@@ -25,6 +25,19 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/6218" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/6218/files/agenda/5660" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Riverhead Zoning Board of Appeals held its March 27, 2025 meeting, granting two extension requests, denying one area variance application, and approving three variance or amendment requests.</p>
+      <h3>Key actions</h3>
+      <ul><li>Appeal 2024-001 (Vincent and Thomas Franchini, 196 South Jamesport Avenue): a one-year extension of a previously granted two-lot minor subdivision variance was approved, now expiring March 14, 2026.</li><li>Appeal 2023-038 (AD Enterprises, 426 West Main Street / 116 Sweezy Avenue): a one-year extension of a previously granted variance for a proposed mixed-use building in the Railroad Avenue Urban Renewal Overlay District was approved, now expiring November 9, 2025.</li><li>Appeal 2024-034 (Fisher Realty Group, 940–946 West Main Street): the board denied the area variance application, finding the revised plans did not support the substantial relief requested for lot coverage, impervious surface coverage, or consistency with Peconic River Community Zoning.</li><li>Appeal 2024-026 amendment (Maya Fernquist, 55 Jacobs Place, Aquebogue): an amendment to increase the approved pool and deck size, raising impervious surface coverage from 39% to 41% against a 15% maximum, was granted.</li><li>Appeal 2025-007 (VOLA Operating LI Corp., 4129 Middle Country Road, Calverton): a front yard setback variance of 28.9 feet where 100 feet is required was granted to allow canopies over existing fuel pumps, with the board noting planned curb cuts, sidewalk, and landscaping improvements.</li><li>Appeal 2025-009 (Riverhead Free Library, 330 Court Street): a variance to permit an animated display sign board, which is not otherwise allowed under Town Code Chapter 301-253B, was granted subject to maintaining setbacks established in a prior town board resolution.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/70af3245-9d02-4e10-8d42-d8a53aae8f25.mp4" type="video/mp4">
@@ -658,6 +671,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

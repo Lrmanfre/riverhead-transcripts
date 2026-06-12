@@ -4476,5 +4476,33 @@
       "end": 2719.08,
       "text": "Are there any members for executive session?"
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T02:33:18+00:00",
+    "agenda_grounded": false,
+    "tldr": "The board discussed two community initiatives: placing a Rotary 'Peace Pole' on town property and reducing the volunteer first-responder property tax exemption from five years of service to two years, with formal steps needed before a March 1 filing deadline.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "The board discussed placing a Rotary Peace Pole — a roughly seven-foot multilingual monument reading 'May Peace Prevail on Earth' — along the Riverwalk, with a possible future move to the planned town square; a Rotary representative will order the pole, which takes about eight weeks to arrive.",
+          "The board discussed amending local law to reduce the years of volunteer fire or EMS service required to qualify for a 10% property tax exemption from five years to two years.",
+          "To meet the state's March 1 deadline, the board plans to pass a resolution at the next town board meeting to schedule a public hearing, hold the public hearing at the first February general meeting, and adopt the local law amendment at the second February general meeting.",
+          "The Suffolk County Board of Elections requested a site visit between now and mid-February to identify a location in town for public demonstrations of new voting machines; the board supported the idea and suggested recording the demonstration for broadcast on Channel 22 and the town website.",
+          "The board entered executive session to discuss contractual matters involving Skip Barber Driving School and Racetrack Not Street, personnel matters, and the hiring of an employee."
+        ]
+      },
+      {
+        "heading": "Affects residents",
+        "items": [
+          "Volunteers who have served at least two years in a Riverhead-area fire department or EMS agency would become eligible for a 10% town property tax exemption if the local law amendment is adopted, with benefits appearing on the December 2026 tax bill.",
+          "Residents interested in volunteering can apply at Riverheadfiredistrict.org or WadingRiverFD.org, or pick up an application in person at the respective firehouse.",
+          "Residents will have an opportunity to see demonstrations of new Suffolk County voting machines at a town facility before the next election; dates to be announced after a site visit is completed."
+        ]
+      }
+    ]
+  }
 }

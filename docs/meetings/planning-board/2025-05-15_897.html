@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2025-05-15, category:Planning Board">
@@ -25,6 +25,21 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/897" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/897/files/agenda/760" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Planning Board discussed four site plan applications and approved six resolutions, including scheduling a June 5 public hearing for a proposed cannabis dispensary at 840 Old Country Road.</p>
+      <h3>Key actions</h3>
+      <ul><li>The board issued a negative declaration under environmental review and scheduled a June 5 public hearing for a proposed adult-use cannabis dispensary and 6,060-square-foot building addition at 840 Old Country Road, a current used-car dealership site.</li><li>Final site plan approval was granted for a project at a manufacturers outlet center on Old Country Road (resolution 2025-043).</li><li>Farm stand approval was granted for Pendleton Harvest Moon LLC to sell farm-raised meat and eggs from an existing small frame building on Sound Avenue (resolution 2025-044).</li><li>Preliminary site plan approval was granted for the Akira House of Worship to convert an existing single-family dwelling into a place of worship on Cox Place (resolution 2025-045).</li><li>Final site plan approval was granted for a project at 1107 Old Country Road (resolution 2025-048).</li><li>The board discussed but took no action on a BJ&#x27;s Wholesale gas station proposal at 841 Old Country Road to reconfigure traffic circulation by closing the Route 58 entrance, widening the Ostrander Avenue entrance, and using traffic drums and new pavement markings to create one-directional flow.</li><li>The board discussed but took no action on a National Grid application at 8 Mill Road to demolish two buildings and create parking for up to 24 compressed natural gas trucks used to supplement supply during peak winter demand; a town board special permit public hearing is scheduled for May 21.</li></ul>
+      <h3>Public hearings &amp; comment</h3>
+      <ul><li>No public hearings were held at this meeting; no members of the public offered comment.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/03671b8f-1103-428d-9b00-98ae75748c21.mp4" type="video/mp4">
@@ -1125,6 +1140,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

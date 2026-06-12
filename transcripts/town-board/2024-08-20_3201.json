@@ -18901,5 +18901,40 @@
       "end": 10820.0,
       "text": "Thank you."
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T04:17:42+00:00",
+    "agenda_grounded": false,
+    "chunked": true,
+    "tldr": "The Town Board promoted a police lieutenant, swore in two new officers, and held a public hearing on a charter school's request to add temporary classroom trailers at its Sound Avenue site. Dozens of resolutions covering personnel, equipment purchases, code amendments, and upcoming public notices were adopted unanimously.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "Brian Clements was promoted to Police Lieutenant and sworn in at the meeting.",
+          "Two new police officers were sworn in; the board noted plans to hire approximately five more officers before year-end for a December academy class.",
+          "Four officers were recognized with certificates for a rescue at a house fire on Newton Avenue.",
+          "A proclamation was presented to Griffin Hardware, a family business operating on West Main Street since 1931.",
+          "The board adopted local laws amending town code chapters covering noise and nuisances, zoning and land development, and front-yard parking restrictions.",
+          "The board authorized a license agreement with Riverhead Volunteer Ambulance Corps for EMT course instruction at Town Hall through 2024–2025.",
+          "The board approved a grant submission to New York State for purchase of a police department drone.",
+          "A resolution was adopted authorizing removal of litter and garbage at a Hubbard Avenue property under town code.",
+          "The board adopted a resolution changing town participation in the New York State Health Insurance Program.",
+          "Public hearings previously scheduled on agritourism and resorts were canceled; a public forum was rescheduled to Wednesday, September 18, 2024 at 6 p.m. in the Town Hall board room.",
+          "A special town board meeting was announced to adopt the comprehensive plan update and issue a findings statement; a civic commenter criticized the short notice and requested the vote be delayed."
+        ]
+      },
+      {
+        "heading": "Public hearings & comment",
+        "items": [
+          "A public hearing was held on a special permit application by Riverhead Charter School at 5117 Sound Avenue to construct three temporary trailers totaling approximately 2,880 square feet for two classrooms and one administrative office.",
+          "The school's current enrollment of 154 students exceeds the approximately 105 students anticipated when the original 2022 site plan was approved.",
+          "The applicant's attorney offered conditions including a 180-student enrollment cap, a covenant restricting student driving, trailer removal when the school vacates, a sunset term, and annual board reporting."
+        ]
+      }
+    ]
+  }
 }

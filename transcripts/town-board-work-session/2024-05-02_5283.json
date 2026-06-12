@@ -7791,5 +7791,33 @@
       "end": 4407.28,
       "text": "Have a great weekend and we'll see you next week."
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T02:05:14+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Town Board work session covered a presentation by a domestic violence services organization, two new expedited permit fee programs, a food scrap recycling expansion, and a walk-through of 58 upcoming resolutions for the May 7 town board meeting.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "The board plans to vote on a $10,000 donation to The Retreat, a domestic violence and sexual abuse services organization based at 554 East Main Street in Riverhead, at the upcoming Tuesday town board meeting.",
+          "The board indicated approval of a resolution to create an expedited building permit review option, where applicants can pay additional fees to cover employee overtime so their permits are reviewed after hours without affecting others in the standard queue.",
+          "The Fire Marshal's office is similarly seeking approval to update its accelerated services fee schedule to cover overtime costs for after-hours inspections and plan reviews.",
+          "The board reviewed a proposal to open a second food scrap drop-off location at George Young Community Center, joining the existing site in Calverton, which has collected over 20,000 pounds from roughly 80 registered residents in its first year.",
+          "Resolutions 1 through 5 on the upcoming agenda use 2023 budget surplus funds to pay off or rescind bond anticipation notes totaling roughly $2.4 million for town hall renovations and related projects, avoiding new borrowing.",
+          "Town beaches are proposed to be lifeguard-staffed from 11 a.m. to 6 p.m. starting Memorial Day weekend, moving to seven days a week beginning June 24."
+        ]
+      },
+      {
+        "heading": "Discussed",
+        "items": [
+          "Representatives of The Retreat described services including a 24-hour bilingual hotline, an 18-bed shelter at an undisclosed location, free legal and financial counseling, and prevention education in local schools, noting Suffolk County has only 52 domestic violence shelter beds countywide.",
+          "Staff noted the food scrap program is part of the town's effort to achieve Climate Smart Community bronze certification by 2025 and fulfills a state-required solid waste management plan obligation."
+        ]
+      }
+    ]
+  }
 }

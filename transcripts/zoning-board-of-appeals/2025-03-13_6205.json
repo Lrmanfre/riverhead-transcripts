@@ -3221,5 +3221,23 @@
       "end": 1629.62,
       "text": "Thank you."
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T03:19:46+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Riverhead Zoning Board of Appeals held a short meeting on March 13, 2025, approving two variance requests and scheduling a reopened appeal.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "A prior applicant at 55 Jacobs Place in Aquebogue was granted a hearing on March 27, 2025 to reopen and amend appeal number 2024-026.",
+          "Side yard setback variances were approved for MGRG of NY1 LLC to build a two-story single-family home at 16 Doris Avenue, Riverhead.",
+          "Variances for George Elia at 71 Pine Avenue, Aquebogue were approved subject to conditions: front yard setback relief for an enclosed porch and removal of three of four unpermitted sheds, with the remaining shed to be relocated to meet code."
+        ]
+      }
+    ]
+  }
 }

@@ -1926,5 +1926,33 @@
       "end": 1990.46,
       "text": "you"
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T01:44:20+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Riverhead Planning Board advanced three applications at its August 1 meeting, including a minor subdivision on West Main Street, a tabled subdivision pending ZBA action, and a new restaurant site plan that will go to public hearing in September.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "The board approved a SEQRA classification resolution for the Calverton Acres minor subdivision, designating the Planning Board as lead agency.",
+          "A second Calverton Acres resolution was tabled pending required Zoning Board of Appeals determinations.",
+          "The board passed a SEQRA classification resolution for a proposed two-lot minor subdivision at 230 West Main Street, a 14,557 sq ft parcel in the DC-3 zoning district; the applicant must obtain ZBA approval for undersized lot widths before the Planning Board can hold a public hearing.",
+          "The board classified a SEQRA action and scheduled a public hearing for the Atrium Cafe site plan at 206 Edgar Avenue, a proposed 2,382 sq ft restaurant with 34 indoor and 8 outdoor seats; the public hearing is set for the first September meeting."
+        ]
+      },
+      {
+        "heading": "Discussed",
+        "items": [
+          "Staff recommended future cross-access easements and a shared parking agreement for the two proposed lots at 230 West Main Street to allow for orderly future development without multiple curb cuts.",
+          "For the Atrium Cafe, staff flagged the need for a sidewalk along the parcel frontage to connect an existing crosswalk from the elementary school across Edgar Avenue, and noted that Pine Barrens sanitary credits will be required before approval.",
+          "A board member raised a question about proximity of the Atrium Cafe to the school and the potential effect on a liquor license; staff indicated a beer, wine, and cider license would not be subject to the same restrictions as a full liquor license.",
+          "The next Planning Board meeting is scheduled for Thursday, August 15 at 3 p.m."
+        ]
+      }
+    ]
+  }
 }

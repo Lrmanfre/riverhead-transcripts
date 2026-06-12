@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2026-03-05, category:Planning Board">
@@ -25,6 +25,21 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/6515" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/6515/files/agenda/5941" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Planning Board closed the public hearing on the Hampton Jitney battery storage site plan and approved two resolutions covering a hotel lot line modification and a minor subdivision extension.</p>
+      <h3>Key actions</h3>
+      <ul><li>The public hearing for the Hampton Jitney battery storage site plan was closed by board vote.</li><li>Resolution 2026-015 for the Town Square Hotel Project lot line modifications was adopted.</li><li>An extension of a minor subdivision approval for a property associated with Susan McCarthy was adopted.</li><li>Meeting minutes from February 5, 2026 were approved.</li></ul>
+      <h3>Public hearings &amp; comment</h3>
+      <ul><li>Representatives from the applicant and a hazardous materials consultant addressed board questions about battery fire suppression, chemistry differences from a California incident, battery lifespan of roughly 10–15 years, and the absence of any documented water or soil contamination in comparable New York State battery incidents.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/79103c5c-3729-4e2d-9e0b-d2dc8c353c24.mp4" type="video/mp4">
@@ -429,6 +444,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

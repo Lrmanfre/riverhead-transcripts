@@ -3211,5 +3211,27 @@
       "end": 2155.54,
       "text": "[transcription gap]"
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T01:42:17+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Riverhead Planning Board approved five resolutions at its February 1, 2024 meeting, covering a winery pergola, a bluff stabilization permit, a mini golf course, a subdivision extension, and a settlement agreement.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "The board approved an administrative site plan for RGNY Tasting Room at 6045 Sound Avenue in Jamesport to construct a 39-by-63-foot wooden pergola with a seasonal translucent polycarbonate roof over an existing concrete patio.",
+          "The board classified the 48 Cliffway coastal erosion project in Calverton as a Type 2 action under SEQRA and approved a Chapter 219 Coastal Erosion Management Permit to construct a new 136-linear-foot steel and timber retaining wall, reinforce existing retaining walls, backfill with 300 cubic yards of clean fill, and install a planted berm.",
+          "The board granted preliminary site plan approval for Sandy Pond Mini Links mini golf course, with conditions including a stormwater pollution prevention plan determination, revised vegetation buffer treatment, drainage easement documentation, and submission of kiosk elevations for ARB review.",
+          "The board approved an extension of approval for an unnamed two-lot minor subdivision at 818 Ronald Avenue in Calverton.",
+          "The board authorized the chairman to execute a settlement agreement and mutual release with a local recycling business.",
+          "The public hearing on a subdivision application identified as the Theodora Cohen minus subdivision was closed.",
+          "The next meeting was scheduled for Thursday, February 15, 2024 at 3 p.m."
+        ]
+      }
+    ]
+  }
 }

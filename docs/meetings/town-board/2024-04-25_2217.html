@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2024-04-25, category:Town Board">
@@ -25,6 +25,21 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/2217" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/2217/files/agenda/2080" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Town Board held a brief special meeting, passing one resolution to accept the Draft Generic Environmental Impact Statement (DGEIS) for the 2024 Comprehensive Plan update and scheduling a public hearing on it.</p>
+      <h3>Key actions</h3>
+      <ul><li>The board unanimously adopted a resolution accepting the DGEIS for the 2024 Comprehensive Plan update, declaring it complete for public review purposes, and scheduling a public hearing.</li></ul>
+      <h3>Public hearings &amp; comment</h3>
+      <ul><li>A Reeves Park resident asked the board to maintain the current policy restricting beach permits to residents and to preserve the 29-30 day minimum rental rule to curb short-term rental scams and related nuisances.</li><li>An online commenter sought clarification on when the DGEIS and updated Comprehensive Plan documents would be posted publicly; a planning consultant explained the documents would be available online later that afternoon.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/b164723c-0bca-43e9-93f3-5f4f872f2c1f.mp4" type="video/mp4">
@@ -216,6 +231,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

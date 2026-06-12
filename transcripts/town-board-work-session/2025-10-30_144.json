@@ -1256,5 +1256,29 @@
       "end": 953.64,
       "text": "[transcription gap]"
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T02:29:54+00:00",
+    "agenda_grounded": false,
+    "tldr": "A brief work session covered 20 resolutions ahead of the November 6 meeting, then the board moved into executive session on a contractual matter. No substantive debate occurred on most items.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "The board advanced a resolution to hire an administrative law judge to hear contested stop-arm bus camera cases, replacing the Justice Court process that handled those hearings.",
+          "A resolution was advanced to publish notice of a proposed stop sign at the intersection of Old Stone Road and Timber Drive, following a three-month traffic study.",
+          "The board entered executive session to discuss a contractual matter involving the Jazz Loft."
+        ]
+      },
+      {
+        "heading": "Affects residents",
+        "items": [
+          "Trick-or-treating is expected to end at 8 p.m. on Halloween; early voting continues through Sunday, November 2, at Town Hall."
+        ]
+      }
+    ]
+  }
 }

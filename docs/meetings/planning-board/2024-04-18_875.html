@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2024-04-18, category:Planning Board">
@@ -25,6 +25,23 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/875" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/875/files/agenda/738" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Planning Board discussed a mixed-use conversion proposal at 505 Lincoln Street that cannot move forward without a Zoning Board of Appeals variance for off-site parking located well beyond the 200-foot code limit. The board also received a comprehensive plan update and approved four subdivision and site plan resolutions.</p>
+      <h3>Key actions</h3>
+      <ul><li>The board approved a preliminary plat for Printed Places, a 25-lot major subdivision.</li><li>The board approved a two-lot minor subdivision for Northville Acres involving a 4.22-acre parcel.</li><li>The board approved a minor subdivision for Damaris Farm to create four single-family buildable lots from two existing parcels.</li><li>The board approved a site plan for a winery and vineyard property to convert an existing single-family residence into a tasting room.</li><li>The board will discuss a proposal at its May 2 meeting to convert Second and Third Streets to one-way traffic to reduce congestion and increase on-street parking, with the intent of referring the idea to the Town Board for a traffic and safety study if supported.</li></ul>
+      <h3>Public hearings &amp; comment</h3>
+      <ul><li>No public hearings were held at this meeting.</li></ul>
+      <h3>Discussed</h3>
+      <ul><li>Staff presented the 505 Lincoln Street mixed-use site plan, which proposes converting a warehouse into nine second-floor apartments with retail, art studio, and storage on the ground floor; the application requires a ZBA variance because the closest available off-site parking lot is roughly 630–876 feet away, far exceeding the 200-foot code requirement.</li><li>The applicant is pursuing a formal parking agreement with the Polish Hall directly across the street as a preferred long-term solution, but that arrangement is not yet finalized pending a survey, board approval, and lot repairs.</li><li>Staff noted that park and recreation fees of $5,000 per residential unit would apply if the project is ultimately approved.</li><li>A planning department staffer presented a comprehensive plan update, noting that draft chapters and a Draft Generic Environmental Impact Statement are nearly complete, the Town Board is expected to receive those documents soon, and full plan adoption is targeted for August 2024; proposed changes include a new consolidated industrial zoning district with reduced floor-area ratios, new TDR sending areas, an assisted living overlay zone, reduced parking requirements along Route 58, and hamlet design guidelines.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/85fe4d96-52a1-48b9-9d46-756f247c9046.mp4" type="video/mp4">
@@ -751,6 +768,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

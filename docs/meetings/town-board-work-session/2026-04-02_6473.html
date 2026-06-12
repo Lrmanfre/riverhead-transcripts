@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2026-04-02, category:Town Board Work Session">
@@ -25,6 +25,23 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/6473" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/6473/files/agenda/5961" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Riverhead Town Board held a lengthy work session covering the stalled Long Island Science Center project at 111 Main Street, the future of the Alive on 25 street festival, a new code enforcement initiative targeting overcrowded housing and quality-of-life violations, and a large batch of routine resolutions.</p>
+      <h3>Key actions</h3>
+      <ul><li>The board signaled it intends to move forward with condemnation-related action on 111 East Main Street (the Long Island Science Center building), which has sat vacant for six years with no building permits, site plan approval, or construction activity.</li><li>The Science Center team committed to submitting an amended building permit application for a reduced roughly 4,000-square-foot phase-one footprint by the end of April, and to scheduling stormwater coordination meetings with town engineers and the master developer.</li><li>The board agreed to add two part-time evening code enforcement officers and one part-time clerical position to conduct proactive neighborhood patrols focused on overcrowded housing, property maintenance, illegal parking, and garbage violations.</li><li>Three sewer district change orders (resolutions 11, 12, and 13) related to contract cost increases for the RDSD-2202 project were pulled pending resolution of EFC financing issues.</li><li>A public hearing was called on a proposed local law amending Chapter 273 of town code covering solid waste provisions for all properties.</li><li>A public hearing was called on a proposed local law to amend Chapter 279 providing tax exemptions for volunteer firefighters and ambulance workers.</li><li>The board set a resolution to formally affirm prior authorization for acquisition of 111 East Main Street (tax map 600-129-1-11) for general municipal purposes.</li><li>The board approved setting fees for the 2026 spring/summer recreation brochure, with members flagging that the $10 non-resident surcharge may be too low and requesting data on non-resident participation for future review.</li><li>The Celtic Quest kayak license agreement was advanced at a fee raised to $2,000 for the 2026 season, up from $1,800.</li></ul>
+      <h3>Money</h3>
+      <ul><li>A capital project for downtown alleyway lighting (project 44038) was closed out and roughly $25,000 in CDBG and state grant funding returned to the county after construction costs doubled before the project could be executed.</li><li>A budget adoption was approved for the River and Roots Playground Rehabilitation project, funded by a Suffolk County downtown revitalization grant with the BIDMA contributing approximately $37,000 in matching funds.</li><li>The Water District updated its one-inch service connection fee to $3,600 for a standard installation and $4,100 for a crossing installation, compared to a neighboring supplier&#x27;s rate of $4,600.</li><li>The showmobile currently costs the town an estimated $1,500–$2,000 per use but is charged out at $100; staff estimated a net loss of roughly $60,000 last year, prompting discussion of raising fees to full cost recovery or selling the asset.</li></ul>
+      <h3>Discussed</h3>
+      <ul><li>Board members and invited business owners and event organizers debated the future of the Alive on 25 street festival; all speakers supported continuing the event, and discussion centered on shifting to Thursday dates, reducing police costs by shortening the road closure route, and earlier annual planning.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/90523f09-b780-4041-aa79-d3adb60a3d82.mp4" type="video/mp4">
@@ -3348,6 +3365,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

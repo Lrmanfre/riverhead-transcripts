@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2025-08-28, category:Town Board Work Session">
@@ -25,6 +25,19 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/135" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/135/files/agenda/65" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The board reviewed a special permit amendment for a proposed fine dining restaurant at the Jamesport Manor Inn and walked through a slate of administrative resolutions ahead of a formal vote.</p>
+      <h3>Key actions</h3>
+      <ul><li>The board discussed a special permit amendment application for 370 Manor Lane, Jamesport, seeking to allow use of the second floor of the Jamesport Manor Inn for restaurant seating; staff recommended scheduling a public hearing at the second September meeting.</li><li>The proposed restaurant, to be called 18 Bay, would operate with no more than approximately 82 seats, no catering or wedding events, and no outdoor amplified music.</li><li>A resolution to adopt a budget for capital improvements at Two Bears Park was reviewed.</li><li>A resolution to use ambulance district billing proceeds for architectural services for a new RVAC building was reviewed; a public fundraising event is planned for October 18.</li><li>Several personnel resolutions were reviewed, including provisional appointment of an account clerk, a salary increase for a maintenance mechanic, promotion of a building inspector to senior building inspector, two resignations, and multiple appointments and reappointments to the Agricultural Advisory Committee.</li><li>Several local law amendments were reviewed, covering fire prevention penalties, vehicle and traffic regulations, noise and property maintenance, and the Community Benefit Zoning use district.</li><li>A resolution authorizing demolition or abatement of an unsafe structure at 39 Pie Lane, Jamesport, was reviewed.</li><li>The board moved into executive session to discuss litigation related to a building matter.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/ae025dda-6cd0-43da-b998-e12f8e2c5c90.mp4" type="video/mp4">
@@ -572,6 +585,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

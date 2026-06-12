@@ -4671,5 +4671,34 @@
       "end": 2869.06,
       "text": "Thank you."
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T02:12:30+00:00",
+    "agenda_grounded": false,
+    "tldr": "The board discussed a 30-day paid parking pilot in one downtown lot and a new Limited English Proficiency policy, then reviewed a slate of resolutions scheduled for the October 16 regular meeting.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "The board agreed to move forward with a 30-day paid parking pilot in the lot behind Diggers on West Main Street, to begin roughly ten days after a resolution is adopted on October 16.",
+          "The pilot will charge approximately one dollar per hour; businesses may optionally validate parking for customers, meaning the business absorbs the cost.",
+          "A dedicated website and a 24/7 text-help number will be set up before the pilot launches to inform businesses and the public.",
+          "The board reviewed a draft Limited English Proficiency policy that would extend translation services town-wide, including expanding the police department's existing language line to all town offices.",
+          "A resolution was flagged to rescind a 2023 ARPA-funded budget adoption for software that was never drawn down, as part of obligating all American Rescue Plan funds before the December 31 deadline.",
+          "A resolution authorizes the supervisor to execute an agreement with a fire rescue equipment vendor to get in queue for a new ambulance chassis and box retrofit, with delivery estimated one and a half to two and a half years out.",
+          "Public hearings on dock regulations and a residential parking code amendment were scheduled for November 7 at 2 p.m."
+        ]
+      },
+      {
+        "heading": "Discussed",
+        "items": [
+          "Staff noted the downtown parking garage project has over seventeen million dollars in grant awards toward an estimated twenty-three million dollar cost, but cannot spend any funds until a federal contract is signed, with shovels in the ground estimated roughly two years away.",
+          "A Congressional Medal of Honor belonging to Private First Class Garfield Langhorne will be on display in Town Hall from October 11 through Veterans Day, on loan from his family."
+        ]
+      }
+    ]
+  }
 }

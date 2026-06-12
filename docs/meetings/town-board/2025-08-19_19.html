@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2025-08-19, category:Town Board">
@@ -25,6 +25,21 @@
     <div class="meta-row">228 min &nbsp;·&nbsp; <a href="https://riverheadny.portal.civicclerk.com/event/19" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/19/files/agenda/26" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Town Board held eight public hearings—the largest covering a proposed one-year cannabis moratorium and a Suffolk County Water Authority pipeline through Riverhead—and passed roughly fifteen resolutions covering road resurfacing grants, donations, and administrative matters. All public hearings were closed but remain open for written comment until August 29.</p>
+      <h3>Key actions</h3>
+      <ul><li>A Master Developer Agreement was signed with a developer for downtown Town Square construction, with nearly $50 million in grants reported secured through the Community Development Agency.</li><li>The board closed a public hearing on a proposed one-year moratorium on new cannabis retail and on-site consumption establishments; written comments accepted through August 29.</li><li>The board closed a public hearing on a Monroe Balancing Test concerning the Suffolk County Water Authority&#x27;s proposed 8.5-mile, 24-inch water transmission line running from Flanders through Riverhead to Southold; written comments accepted through August 29.</li><li>The board&#x27;s environmental consultant recommended the town deny governmental immunity to SCWA and require full site plan review, wetlands permits, highway permits, and neighbor notification for the pipeline project.</li><li>A public hearing on a drive-through restaurant queuing requirement (minimum 10-car stacking capacity) was closed, open for written comment.</li><li>Public hearings on 35-foot landscape buffer requirements for Business Center and Shopping Center zones were closed, open for written comment through August 29.</li><li>A public hearing raising the overweight vehicle fine from up to $100 to $500 was closed, open for written comment through August 29.</li><li>A public hearing updating the noise ordinance—replacing &#x27;ten minutes in any hour&#x27; for standing motor vehicles with ten consecutive minutes and adding a 300-foot/residential boundary standard—was closed, open for written comment through August 29.</li><li>Resolutions 707–710 established grant budgets for EWR, CHIPS, Pave New York, and PAUPP 2025–2026 road resurfacing programs, all adopted 5-0.</li><li>Resolution 703, ratifying acceptance of a donation reported at over $2.8 million from the Pekanakake Foundation for a town project, was adopted 5-0.</li></ul>
+      <h3>Public hearings &amp; comment</h3>
+      <ul><li>Supporters of the cannabis moratorium cited public safety, state regulatory failures, and an allegation that a vendor at a local dispensary distributed cannabis gummies to the public in July 2025.</li><li>Opponents of the cannabis moratorium—including licensed dispensary operators, a cannabis trade group, and two attorneys—argued the moratorium could violate state Cannabis Law and sought exemptions for applicants who had already filed notice with the municipality.</li><li>Residents of the Riverhead Reefs subdivision urged the board to call the remaining $843,000–$844,000 performance bond to cover unresolved road and construction deficiencies dating to 2017; board members noted the bond amount may be insufficient and said they would consult with the HOA&#x27;s attorney.</li><li>A resident raised a discrepancy between capital improvement figures for a town ice rink obtained through a FOIL request and figures accepted at the meeting, and stated she would seek backup documents.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/7d72fcfeb9.mp4" type="video/mp4">
@@ -3958,6 +3973,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

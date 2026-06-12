@@ -14501,5 +14501,44 @@
       "end": 8902.36,
       "text": "[transcription gap]"
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T02:35:51+00:00",
+    "agenda_grounded": false,
+    "tldr": "The board reviewed a backyard composting and rain barrel program, a battery energy storage application near a residential area, proposed overhauls to building and planning fee schedules, and advanced plans to build a new highway barn in Wading River financed through CHIPS funds.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "The board discussed moving forward with a backyard composting and rain barrel program through a vendor called Brand Builders, which would cost the town $325 in the first year to host a dedicated website where residents purchase their own equipment.",
+          "Staff plan to re-engage the school district on delivering food scraps to the Young's Avenue drop-off facility, with an update expected at next week's work session.",
+          "A bond authorization resolution for the Wading River highway barn construction contract is to be placed on next week's agenda, with a 10-year bond term recommended by the town attorney.",
+          "The board directed staff to bring the battery energy storage application at 1281 Pulaski Street back to the Conservation Advisory Committee for additional review, particularly regarding the access road within the wetlands jurisdiction area.",
+          "A resolution set is scheduled for the Tuesday meeting covering sewer district budget adjustments, a petty cash policy, a $66,000 legal fee budget transfer, recreation personnel appointments, landmarks commission reappointments, and a water district rate amendment."
+        ]
+      },
+      {
+        "heading": "Money",
+        "items": [
+          "Building permit fees are proposed to move to a flat $0.75 per square foot for residential, with renewal fees rising to 50 percent of the original fee and a new $25 records-retention surcharge per permit.",
+          "Board members questioned whether the $25 records-retention surcharge is sufficient to fund document digitization estimated at $1.4 million, and asked staff to develop a sliding-scale surcharge tied to project size.",
+          "Planning division fees, which have not been updated since approximately 2018, are proposed to increase by roughly $200–$250 per item and be moved out of the town code into a board-adopted fee schedule.",
+          "The highway barn project is proposed to be financed using approximately $200,000 per year in CHIPS funds over 10 years, with no projected increase in property taxes.",
+          "A $60,000 legal fee budget transfer was revised upward to $66,000 to cover outstanding 2025 invoices, offset by savings in the retirement line of the general fund."
+        ]
+      },
+      {
+        "heading": "Discussed",
+        "items": [
+          "Several board members raised concerns about the proximity of the proposed 5-megawatt battery storage facility at 1281 Pulaski Street to a neighboring residential area, specifically regarding air quality during a potential fire event.",
+          "The applicant's safety consultant stated that off-gassing from a Tesla Megapack fire is chemically similar to a standard structure fire and that fire is designed to remain contained within individual enclosures, but board members said that explanation was not fully reassuring.",
+          "Staff proposed eliminating Riverhead's three-step site plan review process in favor of a two-step process matching standard Suffolk County practice, which would streamline approvals without removing public hearing requirements.",
+          "The board discussed an amnesty program for open and expired building permits, potentially generating significant one-time revenue while moving toward an electronic permitting system estimated at roughly $89,000 for software."
+        ]
+      }
+    ]
+  }
 }

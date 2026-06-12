@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2025-05-01, category:Planning Board">
@@ -25,6 +25,23 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/883" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/883/files/agenda/746" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Riverhead Planning Board held five discussion items and approved several resolutions, including final site plan approval for the Long Island Cauliflower Association commercial center and an amended site plan for River Point Apartments, while scheduling public hearings for two additional applications.</p>
+      <h3>Key actions</h3>
+      <ul><li>The board granted final site plan approval for the Long Island Cauliflower Association commercial center redevelopment at the corner of Route 58 and Mill Road, which includes a Chick-fil-A with drive-thru as the first phase.</li><li>The board approved an amended site plan for River Point Apartments at 821 East Main Street, accepting the as-built condition of entry overhangs without decorative brackets.</li><li>A public hearing was scheduled for June 5th for the Gouda LLC site plan application.</li><li>A public hearing was scheduled for the Sandy Pond Links LLC project at 1521 Roanoke Avenue, which proposes a clubhouse, trade shop buildings, and a manager&#x27;s residence.</li><li>The board approved a SEQRA classification and farm stand approval for a business referred to as Hen-Pecked Husband, and separately granted farm stand approval for 47 Pelletreux LLC.</li><li>For the Cordova drive-thru conversion (Qdoba), the board determined that a cross-access easement recorded in 2006 already satisfies a prior condition of approval, requiring no new easement filing; the site plan will be updated to reference the existing recorded easement.</li></ul>
+      <h3>Public hearings &amp; comment</h3>
+      <ul><li>A representative of Long Island Farm Bureau asked the board to meet with all parties involved in the Kinsela property conservation easement matter before making a final determination, arguing the deal&#x27;s complexity has not been fully presented.</li><li>The board chair responded that the town attorney will be asked to draft a memo to the town board with the board&#x27;s findings on the conservation easement matter, as no legal mechanism to support the requested change was identified.</li></ul>
+      <h3>Discussed</h3>
+      <ul><li>One board member stated opposition to the proposed right-in curb cut on Route 58 for the Long Island Cauliflower Association site, citing existing congestion on that corridor.</li><li>For Sandy Pond Links, the board discussed potentially adding a second, separate curb cut on Roanoke Avenue dedicated to the trade shop buildings to reduce traffic conflicts with the golf course.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/15185667-0faa-4fbb-a384-512aaf2836f9.mp4" type="video/mp4">
@@ -1432,6 +1449,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

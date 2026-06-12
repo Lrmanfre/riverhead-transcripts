@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2025-12-18, category:Town Board Work Session">
@@ -25,6 +25,21 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/151" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/151/files/agenda/5901" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Town Board work session covered two main topics: a USGA proposal to use the Calverton Airfield as overflow fan parking for the 2026 US Open at Shinnecock Hills, and proposed 2026 recreation fee increases for beach permits and park facilities.</p>
+      <h3>Key actions</h3>
+      <ul><li>The board directed staff to proceed with drafting a license agreement, special events application, and road opening permit to allow the USGA to use the Calverton Airfield as a parking and shuttle hub for the 2026 US Open, held June 15–21, 2026.</li><li>The board directed the Recreation Department to submit a fee-schedule resolution for the first January 2026 board meeting, raising the resident 4x4 beach permit from $90 to $110, the senior 4x4 from $70 to $90, the resident boat launch trailer and night fishing permit, and other categories.</li><li>The board directed staff to set the new community borderline pass — for non-residents in adjacent zip codes — at $75 rather than the proposed $50.</li><li>A planned rollout of a Yodel License Plate Reader beach-pass system was deferred pending a January 6 town-wide parking-system review meeting that will also cover handheld enforcement devices for parks and other facilities.</li><li>If the new parking system is not ready by January 1, the board indicated it may honor 2025 beach stickers through January as it has done in past years.</li><li>The board discussed the possibility of renting the town hall cafeteria space to community groups under the Recreation Department&#x27;s management, with scheduling built around existing EMT classes, voting, and other committed uses.</li></ul>
+      <h3>Discussed</h3>
+      <ul><li>The USGA expects roughly 3,200–4,000 cars per day Thursday through Sunday at Calverton, using approximately 42 acres of the eastern runway, with up to 130–145 coach buses shuttling fans the approximately 28 miles to Shinnecock Hills.</li><li>USGA representatives said all structures at Calverton — tents, fencing, trailers, security-screening equipment — would be temporary, with setup starting June 1 and teardown completed by June 26.</li><li>Board members raised concerns about road capacity and condition on potential shuttle routes, and a USGA representative said their traffic consultant is coordinating with state DOT and Suffolk County DPW to place construction holds on roads in the shuttle corridor.</li><li>The town attorney&#x27;s office noted that Riverhead-area hotels are already nearly fully booked for US Open week, and the USGA said it has contracted over 400 hotel rooms per night in the Riverhead area.</li><li>The USGA&#x27;s Open Works program was noted as a pathway for local businesses, temporary workers, and community organizations to connect with USGA vendors and supply chains for the event.</li><li>The Recreation Advisory Committee chair urged the board to dedicate a percentage of cannabis tax revenue to park capital improvements, citing a long backlog of repairs across the town&#x27;s 47 parks; board members expressed differing views on tying park funding to cannabis revenue.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/a9e8fb00-0a07-47a2-b815-512072d46827.mp4" type="video/mp4">
@@ -1680,6 +1695,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

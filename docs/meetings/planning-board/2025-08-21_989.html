@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2025-08-21, category:Planning Board">
@@ -25,6 +25,21 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/989" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/989/files/agenda/852" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Planning Board scheduled public hearings for three minor subdivision applications and granted approvals for several pending applications, including a preliminary site plan for a West Main Street redevelopment and final approval for Gouda LLC.</p>
+      <h3>Key actions</h3>
+      <ul><li>The board approved a resolution classifying the Woodhull at Sound Avenue two-lot minor subdivision (506 Townshore Road) as a Type 2 action and scheduled a public hearing for September 18.</li><li>The board granted final site plan approval for Gouda LLC.</li><li>The board granted preliminary site plan approval, as amended, for the 940–946 West Main Street site redevelopment; the approval is valid for one year with the possibility of two six-month extensions.</li><li>The board approved an extension of approval for the Silverback Holdings LLC two-lot minor subdivision.</li><li>The board classified the Thomas Anderson and Richard Anderson minor subdivisions as Type 2 actions and scheduled public hearings for both on September 18.</li><li>The board approved an extension of approval for the Kathy Lane 10-lot major subdivision.</li><li>The next meeting is scheduled for Thursday, September 4 at 6 p.m.</li></ul>
+      <h3>Discussed</h3>
+      <ul><li>For the Woodhull subdivision, staff noted that two accessory sheds are in non-conforming locations and will need to either be relocated or receive zoning relief, and a $5,000 recreational fee applies to the new lot.</li><li>The JPD Calverton site plan at 4195 Middle Country Road was reviewed for status only; the application was previously paused under a Calverton industrial moratorium and the traffic study is ongoing, with no board action taken.</li><li>The board reviewed three revised sketch plans for the Summerwind Farms major subdivision; staff and the town&#x27;s consulting engineer recommended sketch plan 6, which locates a private driveway at the southeast corner of the property on Peconic Bay Boulevard, and the board was asked to indicate a preference individually rather than by formal vote.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/fa14991a-77f2-4eb7-bee1-fe2c4096c1cd.mp4" type="video/mp4">
@@ -738,6 +753,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

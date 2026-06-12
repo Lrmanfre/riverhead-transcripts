@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2025-04-17, category:Planning Board">
@@ -25,6 +25,23 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/872" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/872/files/agenda/735" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Riverhead Planning Board held one public hearing on a four-lot minor subdivision on Middle Road, reviewed two farm stand applications headed to the Zoning Board of Appeals, received a presentation on a proposed grid-scale battery energy storage facility on Edwards Avenue, and discussed facade and lighting compliance issues at a Old Country Road shopping center. Five resolutions were approved.</p>
+      <h3>Public hearings &amp; comment</h3>
+      <ul><li>The board opened and closed a public hearing for Points East LLC, a proposed four-lot minor subdivision at 455 Middle Road using two transfers of development rights; outstanding items include a grading and drainage plan, fire marshal driveway requirements, and Riverhead Water District sign-off.</li></ul>
+      <h3>Discussed</h3>
+      <ul><li>A farm stand application for a partially constructed building at 1254 Northville Turnpike (&#x27;Henpecked Husband Farm&#x27;) was introduced; a stop-work order is in place and the owner must obtain a setback variance from the Zoning Board of Appeals before returning to the Planning Board for farm stand approval.</li><li>A farm stand application for an existing barn at 2241 Roanoke Avenue was reviewed; the applicant needs ZBA relief because agricultural production occurs on leased parcels separate from the subject lot, and the ZBA hearing for both farm stand applications is scheduled for the following week.</li><li>A grid-scale battery energy storage project proposed for a 1.6-acre parcel on Edwards Avenue in Calverton was presented; the town board has requested lead agency status under SEQRA, the project is a permitted use in the CI zone, and outstanding items include a fire safety analysis relative to a nearby fuel storage facility, noise study, decommissioning plan, and SWPPP; the applicant committed $100,000 toward a specialized fire response vehicle for the Riverhead Fire District.</li><li>Facade renovation plans for the former TJ Maxx space at 1080–1120 Old Country Road were reviewed; the board directed the applicant to submit a full lighting plan bringing pole heights and fixtures into dark-sky code compliance, a landscape inventory with proposed plantings, and full building elevations for the Architectural Review Board before approval can be granted.</li></ul>
+      <h3>Key actions</h3>
+      <ul><li>The board approved a second and final six-month extension of preliminary site plan approval for HK Ventures LLC (Resolution 2025-031).</li><li>The board approved a second and final six-month extension of preliminary site plan approval for Long Island Cauliflower Association (Resolution 2025-032).</li><li>The board approved a second and final six-month extension of preliminary site plan approval for a manufacturers outlet center (Resolution 2025-033).</li><li>The board approved administrative site plan approval for a canopy and site improvements at 4129 Middle Country Road (BOLA Market), amended to require a hip roof on the canopy structures prior to plan signature (Resolution 2025-034).</li><li>The board approved grading and drainage plans for single-family residences on lots three and four of a subdivision referred to as Cresta Estate (Resolutions 2025-035 and 2025-036).</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/cc031e1a-265d-4484-bbc2-2806eddce6aa.mp4" type="video/mp4">
@@ -1690,6 +1707,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

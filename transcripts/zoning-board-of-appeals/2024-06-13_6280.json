@@ -5796,5 +5796,24 @@
       "end": 3625.88,
       "text": "Good night."
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T03:15:56+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Riverhead Zoning Board of Appeals heard four cases on June 13, 2024, granting variances in two, partially denying one, and adjourning one to June 27.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "Appeal 2023-042 (Pinchas, 3 Taconic Court, Wading River): The board granted the jacuzzi rear setback variance (5.8 feet where 20 feet is required) but denied the carport/storage building variances for side street setback, rear setback, and impervious surface, citing self-created hardship, construction begun without a permit, neighbor objections, impervious surface coverage nearly three times the permitted maximum, and adequate existing storage in the garage, basement, and shed.",
+          "Appeal 2024-013 (Turner, 89 Morningside Avenue, Jamesport): Variances for proposed side yard setback of 9.9 feet (25 feet required), rear yard setback of 10.2 feet (60 feet required), and front yard setback of 34 feet (50 feet required) for additions to a residence were granted; one board member recused due to a longtime personal relationship with the applicant.",
+          "Appeal 2024-014 (2nd Street Townhomes, 46 East 2nd Street, Riverhead): A request for a parking stall variance — 11 stalls provided where 12 are required for an eight-unit, two-bedroom townhouse development in DC-4 zoning — was adjourned to June 27, 2024, after a neighboring property owner testified that parking on East 2nd Street is already severely strained, especially on weekends.",
+          "Appeal 2024-015 (Greenview Motel, 1433 West Main Street, Riverhead): Sign setback and illumination variances in the Riverfront Corridor zoning district were granted, subject to no additional front-yard signage and Architectural Review Board approval."
+        ]
+      }
+    ]
+  }
 }

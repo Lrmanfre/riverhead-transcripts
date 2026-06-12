@@ -4206,5 +4206,49 @@
       "end": 2024.98,
       "text": ""
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T02:52:05+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Riverhead Town Board held its October 16 meeting, passing most resolutions unanimously, scheduling multiple public hearings, and hearing public comment critical of the proposed 2025 budget and elected officials' salary increases.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "The board approved a Water District capital project budget amendment and a separate Water District budget transfer.",
+          "A youth mentoring sports grant was accepted.",
+          "The board authorized a lateral water main extension at 437 and 483 Young's Avenue in Calverton.",
+          "A Community Preservation Fund Project Plan amendment was adopted.",
+          "The board authorized the town clerk to publish notice of a public hearing to consider overriding the tax levy limit and to consider adopting the 2025 preliminary budget.",
+          "Public hearings were scheduled on proposed amendments to town code chapters covering penalties for offenses, parking, and town officers and employees.",
+          "A Limited English Proficiency Policy for the Town of Riverhead was adopted.",
+          "Two resolutions were tabled by board vote.",
+          "Three public hearings were held and closed to in-person comment, with written comments accepted through October 25, covering a fire prevention code amendment adding mobile food preparation vehicle rules, an abandoned shopping cart removal fee update, and a road opening permit fee increase from $200 to $300."
+        ]
+      },
+      {
+        "heading": "Money",
+        "items": [
+          "The town's finance officer confirmed the town is contractually obligated to pay approximately $150,000–$155,000 per year toward electricity costs for the Peconikake skating rink, charged within the town hall utility budget.",
+          "A resident publicly criticized the proposed 2025 budget for an 8% tax levy increase and 8% salary increases for elected officials; the supervisor responded that elected officials' salaries had not been raised since 2009 and the increase equates to roughly half a percent per year over that period."
+        ]
+      },
+      {
+        "heading": "Public hearings & comment",
+        "items": [
+          "A resident urged the board to reconsider the proposed budget, citing the tax levy increase and elected officials' salary increases as burdensome to residents.",
+          "A caller questioned the accounting treatment of the skating rink electricity charges and asked whether the town receives compensation from vendors at the rink; staff explained the charges are contractually required and publicly documented."
+        ]
+      },
+      {
+        "heading": "Affects residents",
+        "items": [
+          "A free Narcan training is scheduled for Saturday at 11 a.m. at First Congregational Church; attendees will leave with a Narcan kit."
+        ]
+      }
+    ]
+  }
 }

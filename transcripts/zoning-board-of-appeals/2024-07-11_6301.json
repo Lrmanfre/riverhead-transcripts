@@ -2071,5 +2071,23 @@
       "end": 1048.46,
       "text": "Thank you."
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T03:16:14+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Zoning Board of Appeals held a short July 11 meeting, adjourning two active appeals to August 8 and noting there will be no meeting on July 25.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "A one-year extension (to July 27, 2025) was granted for a previously approved variance for a property at 11 Oak Street, Jamesport involving setback and impervious surface relief.",
+          "An appeal to legalize an accessory shed at 189 Ackerley Street was adjourned to August 8 so the applicant can reposition the structure out of the front yard and amend the application to seek a side-yard variance.",
+          "A parking-stall variance appeal for a business at 896 Old Country Road was adjourned to August 8 pending a determination on whether administrative site plan review is required before the board can hear the application."
+        ]
+      }
+    ]
+  }
 }

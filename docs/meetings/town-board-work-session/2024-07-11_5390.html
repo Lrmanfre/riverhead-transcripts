@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2024-07-11, category:Town Board Work Session">
@@ -25,6 +25,19 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/5390" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/5390/files/agenda/5228" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Riverhead Town Board work session covered proposed amendments to a drag racing license agreement at EPCAL to add drifting and go-kart events, a code change to parking rules, a special permit application to convert an office back to a single-family home, and a new town social media initiative called &#x27;Riverhead in Action.&#x27;</p>
+      <h3>Key actions</h3>
+      <ul><li>The board agreed to pursue an addendum to the existing EPCAL/racetrack license agreement to allow drifting and go-kart events to run concurrently with already-approved drag racing dates, pending submission of a revised site plan and town board approval before the first event on August 17.</li><li>The board indicated support for removing the 24-hour exception from the front-yard parking code (Chapter 217-67) to make violations easier to prosecute, while retaining prosecutorial discretion to reduce or dismiss fines.</li><li>A special permit application to convert 431 Griffin Avenue from office use back to a single-family dwelling was advanced, with a public hearing scheduled for August 6.</li><li>The board introduced &#x27;Riverhead in Action,&#x27; a monthly video series to be posted on a new town YouTube channel, Facebook, and Instagram highlighting town departments, events, and local businesses.</li><li>The board noted a resolution authorizing highway asphalt paving contracts would be added for ratification to allow road paving work to begin.</li><li>The open session closed and the board moved into executive session to discuss a personnel matter, a seawall contract, and two legal matters involving real property and litigation with the DEC.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/6d8e24e4-548a-4161-9de2-0815ad3628f3.mp4" type="video/mp4">
@@ -734,6 +747,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

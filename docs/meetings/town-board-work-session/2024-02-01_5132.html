@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2024-02-01, category:Town Board Work Session">
@@ -25,6 +25,21 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/5132" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/5132/files/agenda/4970" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The board reviewed 49 draft resolutions covering water district projects, staffing, recreation fees, cannabis zoning, downtown parking, and several new service contracts. The main substantive discussion covered progress on the Town Square, amphitheater, inclusive playground, parking garage, and transit-oriented development projects downtown.</p>
+      <h3>Key actions</h3>
+      <ul><li>The board reviewed a draft local law amending the cannabis zoning code to divide the town into five corridors with saturation limits and remove residential buffer restrictions on commercial corridors; a public hearing is scheduled for the evening of February 21.</li><li>Design agreements were finalized with two firms — one for the Town Square adaptive playground and street improvements, one for the amphitheater — with public engagement and kickoff meetings planned for the following week.</li><li>The board reviewed a resolution authorizing acceptance of roughly $1.05 million in grant funds for construction of the Town Square adaptive playground.</li><li>A resolution was reviewed to authorize filing a $25 million federal RAISE grant application to help fund the downtown parking garage and street improvements.</li><li>Public hearings on water district capital improvements for the Maris Farm subdivision and for a lateral water main extension at the former Sears building site (a planned apartment development) were set for February 21 at 6 p.m.</li><li>The board reviewed a license agreement with a private operator to run a paintball facility on approximately 14 wooded acres at Veterans Park, including required safety netting, buffering from the dog park, and engineering oversight.</li><li>Recreation fees for new dwelling units under subdivision and condominium map regulations were proposed to return to $5,000 per unit, up from a reduced rate of $3,000.</li><li>A resolution was reviewed to amend the Tanger Outlets Business F Zoning Use District overlay, following a prior public hearing, for a vote at the next board meeting.</li></ul>
+      <h3>Discussed</h3>
+      <ul><li>Staff briefed the board on downtown TOD progress, including finalized easement and staging agreements, a negotiated footprint with the master developer, and Suffolk County&#x27;s agreement to use an existing parking lot rather than requiring a garage on the Griffin Avenue site.</li><li>Board members raised the need to address downtown sanitation infrastructure — including shared compactors or a sanitation district — as part of the overall downtown redevelopment design.</li><li>The board noted that paid parking downtown will need to be introduced once the parking garage is built, and that a payment-in-lieu-of-parking local law is being updated to require certain uses such as hotels to contribute to garage funding.</li><li>A board member noted that Reeves Beach remains under repair after storm damage and asked engineering for a timeline on reopening the boat ramp.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/b9223bb0-f213-456c-a1c2-49ae2b048436.mp4" type="video/mp4">
@@ -1407,6 +1422,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

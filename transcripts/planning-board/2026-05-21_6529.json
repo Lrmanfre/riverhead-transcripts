@@ -8156,5 +8156,38 @@
       "end": 5344.3,
       "text": "you"
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T02:01:19+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Planning Board approved site plan and coastal erosion permits for three properties, held discussions on a code amendment streamlining the site plan review process, and received updates on two pending applications—a Fun Churros legalization site plan and a proposed cannabis greenhouse—both of which require additional steps before public hearings.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "The board approved a residential site plan for Lot 1 of the Henry Silverman minor subdivision on Sound Avenue and Pennies Road, conditioned on the applicant submitting drainage calculations before a building permit is issued.",
+          "The board approved a Chapter 219 coastal erosion hazard permit for 506 Soundshore Road in Jamesport to remove invasive species and replant native vegetation on the bluff, subject to conditions including DEC permit compliance and erosion controls.",
+          "The board approved a Chapter 219 coastal erosion hazard permit for 510 and 516 Soundshore Road for the same purpose, with a condition that tree clearing may not occur between March 1st and November 30th due to northern long-eared bat habitat."
+        ]
+      },
+      {
+        "heading": "Discussed",
+        "items": [
+          "Staff presented final proposed tweaks to a code amendment that would replace the current three-step site plan review process with a two-step process, adding clearer criteria for de minimis review handled administratively by staff; the amendment is expected to go before the Town Board with a public hearing within the next month.",
+          "A site plan application to legalize unpermitted structures and make improvements at a West Main Street food business known as Fun Churros was presented for discussion; the applicant must obtain ZBA variances for setback relief and receive a planning board denial letter before proceeding to ZBA.",
+          "Staff provided an update on the Brother Bear cannabis greenhouse proposal, noting the applicant must revise plans to eliminate approximately 2,700 square feet from the building to comply with impervious coverage limits after a slope analysis identified non-buildable area; the board also requested a narrative on proposed water filtration to address PFAS concerns flagged by the DEC before a public hearing can be scheduled.",
+          "Multiple residents spoke during public comment opposing the cannabis greenhouse, raising concerns about odor filtration, noise from industrial HVAC equipment, property values, PFAS water contamination, and whether the operation's agricultural tax classification would shift the tax burden onto other residents."
+        ]
+      },
+      {
+        "heading": "Affects residents",
+        "items": [
+          "The next Planning Board meeting is scheduled for June 4, 2026 at 6 p.m."
+        ]
+      }
+    ]
+  }
 }

@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2024-03-28, category:Zoning Board of Appeals">
@@ -25,6 +25,21 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/6220" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/6220/files/agenda/5662" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Zoning Board of Appeals granted two variance applications at its March 28, 2024 meeting: one for a new house on Birch Lane in Wading River and one for a ground-mounted solar array on Peconic Bay Boulevard in Laurel.</p>
+      <h3>Key actions</h3>
+      <ul><li>The board granted variances for an application by Dorothy DeFranco for a residence on Birch Lane, Wading River, approving a front yard setback of 30 feet (60 feet required), a combined side yard setback of 49.3 feet (65 feet required), a rear yard setback of 36 feet (75 feet required), and impervious surface coverage of 34.5% (15% maximum allowed), with conditions that privacy bushes be planted around the perimeter and an existing concrete slab shown on the survey be removed.</li><li>The board granted a variance for Frank McVeigh at 1589 Peconic Bay Boulevard, Laurel, to install a ground-mounted solar array in the front yard, where accessory solar structures in the front yard are not permitted, subject to the condition that a vegetative buffer along the westerly side of the property be maintained to shield the adjacent property from view.</li><li>The board approved the minutes of its previous meeting and scheduled its next meeting for April 11, 2024.</li></ul>
+      <h3>Public hearings &amp; comment</h3>
+      <ul><li>Neighbors on Birch Lane testified about concerns regarding the proposed house&#x27;s proximity to their property lines and driveway access; both indicated their questions were answered after reviewing the survey.</li><li>No members of the public commented on the Peconic Bay Boulevard solar application.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/695094d3-3f94-498e-a5ec-146428063c82.mp4" type="video/mp4">
@@ -745,6 +760,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

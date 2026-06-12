@@ -2751,5 +2751,35 @@
       "end": 1687.66,
       "text": "Thank you."
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T01:48:59+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Riverhead Planning Board held a public hearing on a proposed Islamic place of worship and burial ground on Route 25A in Wading River, then approved three resolutions including final site plan approval for Riverhead Mazda.",
+    "sections": [
+      {
+        "heading": "Public hearings & comment",
+        "items": [
+          "The board held a public hearing on the Cox Place of Worship site plan, which proposes converting an existing single-family dwelling into a chapel and adding an approximately 3,600-plot burial ground on a 4.98-acre parcel at 5284 Route 25A in Wading River within the RB80 zoning district.",
+          "The applicant's attorney stated a negative declaration was issued under environmental review and described planned buffers including roughly 374 trees and evergreens around the burial site.",
+          "The applicant stated the chapel is intended for funeral services only, with a capacity determined by the fire marshal and anticipated at no more than 20 people, served by 14 parking spaces.",
+          "A neighboring resident raised concerns about traffic, the frequency of visitors, and the potential for future expansion; board staff explained site plan review does not involve land-use policy decisions and that any future expansion would require a new site plan approval.",
+          "The public hearing was closed by board vote."
+        ]
+      },
+      {
+        "heading": "Key actions",
+        "items": [
+          "The board approved a two-lot minor subdivision for Lizard & Associates (Resolution 2025-028).",
+          "The board granted final site plan approval for Riverhead Mazda (Resolution 2025-029).",
+          "The board approved two 90-day extensions for a minor subdivision approval for Vincent Franchini (Resolution 2025-030).",
+          "The board adopted the amended minutes of the March 6, 2025 meeting, which included a correction to the Summerwind discussion.",
+          "The next meeting is scheduled for Thursday, April 17, 2025 at 3 p.m."
+        ]
+      }
+    ]
+  }
 }

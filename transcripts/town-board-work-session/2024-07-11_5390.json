@@ -4306,5 +4306,26 @@
       "end": 2388.52,
       "text": "Thank you."
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T02:08:24+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Riverhead Town Board work session covered proposed amendments to a drag racing license agreement at EPCAL to add drifting and go-kart events, a code change to parking rules, a special permit application to convert an office back to a single-family home, and a new town social media initiative called 'Riverhead in Action.'",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "The board agreed to pursue an addendum to the existing EPCAL/racetrack license agreement to allow drifting and go-kart events to run concurrently with already-approved drag racing dates, pending submission of a revised site plan and town board approval before the first event on August 17.",
+          "The board indicated support for removing the 24-hour exception from the front-yard parking code (Chapter 217-67) to make violations easier to prosecute, while retaining prosecutorial discretion to reduce or dismiss fines.",
+          "A special permit application to convert 431 Griffin Avenue from office use back to a single-family dwelling was advanced, with a public hearing scheduled for August 6.",
+          "The board introduced 'Riverhead in Action,' a monthly video series to be posted on a new town YouTube channel, Facebook, and Instagram highlighting town departments, events, and local businesses.",
+          "The board noted a resolution authorizing highway asphalt paving contracts would be added for ratification to allow road paving work to begin.",
+          "The open session closed and the board moved into executive session to discuss a personnel matter, a seawall contract, and two legal matters involving real property and litigation with the DEC."
+        ]
+      }
+    ]
+  }
 }

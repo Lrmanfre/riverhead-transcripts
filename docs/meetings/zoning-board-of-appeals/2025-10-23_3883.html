@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2025-10-23, category:Zoning Board of Appeals">
@@ -25,6 +25,23 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/3883" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/3883/files/agenda/5873" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The ZBA held three matters on October 23, 2025. Two were adjourned, and a third involving an appeal over a rescinded pre-existing transient-rental use letter was heard at length but continued to the next meeting pending additional documentation.</p>
+      <h3>Key actions</h3>
+      <ul><li>Appeal No. 2025-035 (a property on Middle Road, Calverton seeking variances for fence height and impervious surface coverage) was adjourned and referred back to the Planning Board, with a tentative return date of December 11, 2025.</li><li>Appeal No. 2025-028 (505 Lincoln Street and 214 Marcy Avenue, Riverhead) was adjourned to November 13, 2025 at the applicant&#x27;s attorney&#x27;s request.</li><li>Appeal No. 2025-032 (47 Bayside Avenue, Jamesport) — an appeal of the chief building inspector&#x27;s July 2025 rescission of a 2022 letter of pre-existing transient-rental use — was heard but adjourned to November 13, 2025 so the applicant can submit additional documentation including scanned leases, license agreements, and proof that tax returns were filed.</li><li>The board accepted minutes from its September 25 and October 9 meetings.</li></ul>
+      <h3>Public hearings &amp; comment</h3>
+      <ul><li>The applicant for 47 Bayside Avenue submitted packets including affidavits from former tenants and neighbors, a booking-records spreadsheet, and tax-return summaries dating to 2008 to support the claim that transient rental use predates both the town&#x27;s 1970 zoning ordinance and the 2013 short-term rental prohibition.</li><li>Board members and counsel raised questions about gaps in the affidavit record, the lack of monetary amounts or copies of leases and canceled checks in the submitted exhibit, and whether the accounting firm&#x27;s letter confirmed tax returns were filed rather than merely prepared.</li><li>Counsel for the board noted on the record that Riverhead had a zoning code as early as 1959, which may affect the pre-existing-use analysis.</li></ul>
+      <h3>Discussed</h3>
+      <ul><li>The board and applicant&#x27;s attorney agreed that no re-mailing or re-posting is required for adjourned matters when the adjourn date is noticed at the hearing.</li><li>The applicant&#x27;s attorney asserted that the building inspector&#x27;s 2022 letter of pre-existing use was rescinded improperly and without notice or an opportunity to be heard.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/2fcf2ca8-6ed4-4b05-a3bb-e2aa62bc1ab7.mp4" type="video/mp4">
@@ -1223,6 +1240,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

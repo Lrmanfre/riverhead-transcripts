@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2024-09-19, category:Planning Board">
@@ -25,6 +25,21 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/1011" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/1011/files/agenda/874" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Planning Board scheduled two public hearings, tabled one site plan resolution, and approved several extensions and modifications at its September 19 meeting.</p>
+      <h3>Key actions</h3>
+      <ul><li>The board voted to table a pending site plan resolution for a restaurant conversion at 1199 Old Country Road (referred to as &#x27;Project 58&#x27;) rather than approve it outright.</li><li>The board approved a resolution scheduling a public hearing for the Project 58 restaurant conversion site plan application for October 17 at 3:00 p.m.</li><li>The board approved a resolution scheduling a public hearing on a preliminary site plan application for a one-story medical office building proposed by 27 Waves LLC on Commerce Drive.</li><li>The board approved a 12-month extension of final site plan approval for the Riverhead Town Home site plan.</li><li>The board approved a lot line modification extension for one applicant and granted a lot line modification approval for a second applicant.</li><li>August 15 meeting minutes were approved.</li></ul>
+      <h3>Discussed</h3>
+      <ul><li>For the restaurant conversion at 1199 Old Country Road, outstanding items include a soil boring or test pit to confirm groundwater depth beneath proposed drainage areas, a sewer district key money assessment, ARB review, and a dumpster screening detail meeting Town Code fencing requirements.</li><li>For the Commerce Drive medical office proposal, staff recommended adding a cross-access connection to the adjacent property to the west, installing sidewalks, and completing restriping at the Commerce Drive and Route 58 intersection in coordination with the town DPW.</li><li>Board members raised questions about shared parking management between the restaurant and an existing office tenant at the 1199 Old Country Road site, and about whether a fire exit door at the rear of the building has adequate vehicle clearance.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/bf1d62df-f517-4ac6-92cf-e80a6655cc5b.mp4" type="video/mp4">
@@ -610,6 +625,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

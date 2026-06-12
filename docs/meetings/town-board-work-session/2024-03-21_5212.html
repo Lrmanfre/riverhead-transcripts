@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2024-03-21, category:Town Board Work Session">
@@ -25,6 +25,25 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/5212" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/5212/files/agenda/5050" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Riverhead Town Board work session covered monthly police and court reports, a private RV park proposal at EPCAL, significant revisions to the agritourism overlay code, and several upcoming community events including a job fair, river cleanup, and Shakespeare in the Park.</p>
+      <h3>Key actions</h3>
+      <ul><li>The board directed the justice court attorney to begin recording instances where judges do not impose minimum mandatory fines, for future tracking.</li><li>A new full-time code enforcement officer is set to begin work on April 1, with two additional positions — one code officer and one clerical — still open.</li><li>The board confirmed that at least one new code enforcement vehicle is needed and that funding has already been allocated in the budget.</li><li>Public bathrooms on Heidi Bear Way and near Grandville Park are expected to reopen seasonally within approximately one month.</li><li>The board reiterated that short-term rentals, including Airbnb listings, require a minimum 29-day rental period under town code.</li></ul>
+      <h3>Money</h3>
+      <ul><li>Justice Court collected approximately $5,600 in February 2024, including $3,400 in court collections, a $2,000 default judgment, and $200 in preservation fines.</li><li>The town noted it is reevaluating and increasing fees related to sand removal.</li></ul>
+      <h3>Discussed</h3>
+      <ul><li>A private developer and attorney presented a concept for a private RV park at EPCAL in Calverton, proposing a lease with the town retaining ownership, up to 100–125 RV slots, amenities including a clubhouse and glamping units, and a reserved percentage of slots for Riverhead residents; board members raised concerns about sand mining for a proposed lake, DEC bird and grassland mitigation requirements, clearing limits, and proximity to runways.</li><li>Proposed revisions to the agritourism overlay code would set yield at 1,500 square feet of floor area per acre of project area with a 100-acre minimum, cap hotel and resort rooms at 150, raise farm building height limits from 25 to 35 feet, require a 500-foot front yard setback along Sound Avenue, and impose a $1,000-per-day penalty for agricultural non-production exceeding nine months; farming community representatives expressed general support but requested one additional Agricultural Advisory Committee review before publication.</li><li>The OpenGov platform implementation remains delayed due to data transfer issues and is still in progress.</li></ul>
+      <h3>Affects residents</h3>
+      <ul><li>A town job fair is planned for May 23rd, 1–4 p.m. at Town Square, with the Suffolk Theatre as a rain location and a New York Blood Center blood drive bus on site.</li><li>A community river cleanup along the Peconic River is proposed for Saturday, May 18th, in partnership with the Rotary Club, Long Island Aquarium, and local paddleboard and kayak groups.</li><li>Northeast Stage&#x27;s non-profit production of Othello is proposed for Wednesday, July 24th at Grand Jewel Park, with ASL interpretation and Spanish language programming planned.</li><li>An Anti-Litter Committee townwide cleanup is scheduled for Sunday, April 28th, with materials available for pickup from 9 to 11 a.m. and approximately 20–25 volunteers signed up.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/cdec2b71-b9b2-427b-af04-76e29818834a.mp4" type="video/mp4">
@@ -1790,6 +1809,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

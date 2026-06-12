@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2024-02-08, category:Town Board Work Session">
@@ -25,6 +25,23 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/5143" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/5143/files/agenda/4981" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The board reviewed four topics: enforcement of a lithium-ion battery sales ban extended to online retailers, a new and costly state stormwater permit mandate, progress on the town&#x27;s comprehensive plan update, and proposals to raise sponsorship and advertising rates for the Recreation Department.</p>
+      <h3>Key actions</h3>
+      <ul><li>Town staff plan to send warning letters to major online retailers and publish a public service announcement informing them that shipping non-UL-listed lithium-ion batteries to six Riverhead-area zip codes violates the town&#x27;s existing Chapter 213 code, effective January 4, 2024.</li><li>The board voted to enter executive session to discuss two employee status changes, and contractual matters involving a sports facilities company, a fabrication firm, and the Riverhead Central School District.</li></ul>
+      <h3>Money</h3>
+      <ul><li>A new state MS4 stormwater permit, effective January 3, 2024, imposes roughly ten new compliance programs and eight new training requirements with no state funding; staff estimated initial costs at approximately 1.6 million dollars for equipment and personnel alone.</li><li>The town is exploring hiring a stormwater consultant for approximately $30,000 for the first year and is pursuing grants to offset costs.</li><li>The Recreation Department proposed raising ball-field banner and brochure advertising rates, which have not increased in many years, with the goal of offsetting the roughly $4,000–$5,000 per-issue printing cost; current ad revenue is under $2,500 annually.</li></ul>
+      <h3>Discussed</h3>
+      <ul><li>The comprehensive plan update remains on schedule, with all draft chapters expected to be posted online by February 15 for a 30-day public comment period, followed by board review in April and concurrent SEQRA processing.</li><li>The Business Improvement District presented its 2024 events calendar, reducing Alive on 25 from four dates to two, proposing to move the Halloween Coffin Race onto Main Street, and replacing the single large bonfire with multiple fire pits throughout Town Square.</li><li>Staff and the board discussed sharing stormwater equipment such as vacuum trucks and sweepers with other East End towns through an inter-municipal agreement to reduce costs.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/f4aebb65-1f0d-4928-809b-ab77e4eddd3d.mp4" type="video/mp4">
@@ -1883,6 +1900,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

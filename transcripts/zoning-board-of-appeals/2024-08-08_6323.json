@@ -3221,5 +3221,26 @@
       "end": 1467.4,
       "text": ""
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T03:17:24+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Zoning Board of Appeals held a short August 8 meeting, granting two extension requests, two property variances, adjourning one matter, and addressing a remanded application being sent to the Planning Board.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "An application remanded to the Planning Board for site plan review was formally closed before the ZBA; the board discussed whether to return or retain the applicant's fee.",
+          "A one-year extension for Appeal 2022-020 (Benedict) covering several accessory-structure variances was granted, with a note that no further extensions will be allowed.",
+          "A one-year extension for Appeal 2023 (Carly Bayfront LLC, 12 Phyllis Lane, Jamesport) covering side-yard and accessory-structure setback variances was granted, expiring July 13, 2025.",
+          "An appeal to legalize an accessory structure (Tomcat Realty Holdings, Riverhead) was adjourned to the September 12 meeting at the applicant's request.",
+          "A shed placement variance for a property at 48 Marokee Trail, Wading River (Appeal 2024-019) was granted.",
+          "Multiple variances for a proposed cold-storage garage and existing shed at 30 Dolphin Way, Riverhead (Appeal 2024-020) were granted."
+        ]
+      }
+    ]
+  }
 }

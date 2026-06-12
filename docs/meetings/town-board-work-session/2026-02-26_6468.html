@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2026-02-26, category:Town Board Work Session">
@@ -25,6 +25,23 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/6468" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/6468/files/agenda/5942" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Town Board work session covered two discussion items — a coastal erosion application for a deck replacement on Soundshore Road and a draft environmental scope for a proposed motocross track in Calverton — plus approval of one resolution.</p>
+      <h3>Key actions</h3>
+      <ul><li>The board approved Resolution 2026-014 related to Birchwood at Wading River; all members voted in favor.</li><li>A public hearing was closed with no public comment after checking for Zoom participants.</li></ul>
+      <h3>Discussed</h3>
+      <ul><li>Staff presented a Chapter 219 coastal erosion application for 888 Soundshore Road in Jamesport, where owners want to demolish a 52-square-foot deck and build a new approximately 438-square-foot deck with a privacy wall; because all proposed work is seaward of the coastal hazard line it is considered new development requiring Zoning Board of Appeals relief and a DEC permit or letter of no jurisdiction — no action was taken.</li><li>Staff noted that vegetation appears to have been cleared on the Soundshore Road property between 2024 aerials and the present, and recommended the applicant revegetate the disturbed area as a condition.</li><li>Staff presented the draft environmental scope for a proposed outdoor motocross dirt bike track at 2822 River Road in Calverton; the town board is lead agency and must adopt a final scope within 60 days of the January 15 submission.</li><li>A significant new finding was disclosed: the DEC determined a mine land reclamation permit is required for the Calverton project because the application proposes excavation and exportation of approximately 120,000 cubic yards of material, which is a prohibited use in the Calverton Industrial Zoning District.</li><li>Staff added to the draft scope a required alternative scenario that evaluates the project without excavation and exportation, and noted a board member requested analysis of an indoor track alternative to address noise and dust concerns.</li><li>The town board is scheduled to adopt the final scope at a future meeting, and staff indicated a referral to the Zoning Board of Appeals will be sent because that agency was not initially identified as involved.</li></ul>
+      <h3>Affects residents</h3>
+      <ul><li>The next Town Board meeting is scheduled for March 5 at 6:00 p.m. in Town Hall.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/b8c9a7c2-68c4-44c5-8d63-183d98422d05.mp4" type="video/mp4">
@@ -389,6 +406,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

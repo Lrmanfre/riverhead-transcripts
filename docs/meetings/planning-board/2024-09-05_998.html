@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2024-09-05, category:Planning Board">
@@ -25,6 +25,23 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/998" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/998/files/agenda/861" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Riverhead Planning Board held public hearings on three applications, approved several resolutions including facade renovations for the Greenview Inn and a minor subdivision, and adopted a new policy to streamline environmental review coordination.</p>
+      <h3>Key actions</h3>
+      <ul><li>The board closed the public hearing for a proposed café (Atrium Cafe) on Main Road near an elementary school after neighbors raised concerns about traffic, parking, children&#x27;s safety, and buffering.</li><li>The board closed the public hearing for a proposed Qdoba drive-through restaurant at 949 Old Country Road, with discussion focused on drive-through traffic flow, a shared fence with an adjacent property owner, and ADA parking placement.</li><li>The board closed the public hearing for a lot-line modification transferring approximately 2,560 square feet from a manufactured home park to an adjacent single-family parcel at Roanoke Avenue.</li><li>The board approved an administrative site plan for facade renovations at the Greenview Inn at 1433 West Main Street, subject to final ARB approval.</li><li>The board approved an administrative site plan for the Church of the Harvest Food Pantry.</li><li>The board approved a minor subdivision of a roughly 57,150-square-foot parcel into two lots (Vincent-Francini).</li><li>The board classified the Riverhead Mazda dealership proposal at 1423 Old Country Road as a Type 1 SEQRA action and initiated lead-agency coordination with involved agencies.</li><li>The board voted to extinguish a covenant on the oncology center property at 896 Old Country Road so the Zoning Board of Appeals can properly review a parking variance, with the applicant agreeing to return to the planning board if the tenancy or use changes.</li><li>The board adopted an amended resolution establishing a policy allowing planning staff to initiate SEQRA coordination upon application completeness, without waiting for a formal board vote, to reduce processing time.</li></ul>
+      <h3>Public hearings &amp; comment</h3>
+      <ul><li>Multiple neighbors and parents testified about the proposed café near Aquebogue Elementary School, citing concerns about school-hour traffic congestion, lack of sidewalks, the existing crosswalk leading nowhere, and potential parking overflow onto Edgar Avenue.</li><li>The owner of the neighboring deli confirmed the intersection is already dangerous during school drop-off and pickup and asked the board to carefully consider public safety.</li><li>The café applicant stated proposed hours would be roughly 7 a.m. to 4 p.m., the menu would focus on vegan and vegetarian offerings, and he is open to installing taller arborvitae as a buffer for the adjacent property owner.</li><li>A board member noted that the proposed café site may be subject to the state Alcoholic Beverage Control Law&#x27;s 200-foot rule given its proximity to a school.</li></ul>
+      <h3>Discussed</h3>
+      <ul><li>For the Riverhead Mazda site plan, staff noted the existing front and side landscape buffers along Route 58 do not meet the required 35-foot unoccupied landscaped area and the board indicated the applicant should work toward compliance.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/851f2afa-6f2f-40c6-8036-0c82fd590a21.mp4" type="video/mp4">
@@ -1401,6 +1418,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

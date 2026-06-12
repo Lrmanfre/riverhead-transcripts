@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2024-08-06, category:Town Board">
@@ -25,6 +25,23 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/3085" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/3085/files/agenda/2948" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Riverhead Town Board held four public hearings, passed roughly three dozen resolutions, and addressed a flood watch, storm preparations, and a police rescue during a house fire.</p>
+      <h3>Key actions</h3>
+      <ul><li>The board approved a change order for Town Hall renovation work at 4 West 2nd Street.</li><li>A capital project for a Downtown Parkway was established.</li><li>The board accepted the Final Generic Environmental Impact Statement (FGEIS) for the comprehensive plan update, with the document to be posted online for public review afterward.</li><li>A site plan application for a property on Scott Avenue/Calvin Street received preliminary approval with conditions.</li><li>The board authorized a license agreement allowing the police department to conduct DWI enforcement operations at EPCAL through year-end.</li><li>A public hearing was scheduled for a special permit application by Riverhead Charter School for portable trailers at 5117 Sound Avenue.</li><li>The residential solid waste collection and disposal service rebid was ratified, and the bid for police uniforms was awarded.</li><li>Andrew Smith was promoted to Chief Fire Marshal.</li></ul>
+      <h3>Money</h3>
+      <ul><li>Building Department collections for July totaled $211,440.</li><li>Community benefit funds from NextEra were approved for expenditure toward agricultural, open space, and community purposes.</li><li>Budget transfers were approved for a Veterans Memorial Park parking lot, a code enforcement vehicle, and water and sewer district capital projects.</li></ul>
+      <h3>Public hearings &amp; comment</h3>
+      <ul><li>A public hearing on a special permit to convert an office building at 431 Griffin Avenue back to a single-family dwelling was closed; written comments accepted through August 16.</li><li>A neighboring property owner&#x27;s attorney asked the board to require the applicant to record a covenant limiting the property to single-family use.</li><li>Public hearings on zoning code clarifications for one-family dwellings, a noise ordinance amendment allowing overnight parking-lot paving by application, and front-yard parking restriction enforcement changes were all closed with written comment periods through August 16.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/5059f7be-edc3-418c-aae9-cf79137cf357.mp4" type="video/mp4">
@@ -1198,6 +1215,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

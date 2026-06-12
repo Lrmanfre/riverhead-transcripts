@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2024-09-17, category:Town Board">
@@ -25,6 +25,23 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/3424" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/3424/files/agenda/3287" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Riverhead Town Board held three public hearings — on a water main extension for a landfill solar project, a traffic code update, and rental dwelling unit regulations — then adopted 28 resolutions covering personnel, budgets, and public safety equipment.</p>
+      <h3>Key actions</h3>
+      <ul><li>The board adopted all 28 resolutions on the agenda, including budget adjustments, personnel appointments, and public safety measures, with unanimous votes throughout.</li><li>A budget transfer using ARPA funds was approved to support police department vehicle purchases.</li><li>The Ambulance District received approval to transfer fund balance for radio replacements, enabling nearly all volunteer members to have radios at home to hear calls.</li><li>The Ambulance District also received approval to fund a chassis-and-body remount of an existing ambulance, estimated to cost significantly less than purchasing a new rig.</li><li>The board authorized an agreement with Language Line Services for the Riverhead Justice Court to provide interpreter access across multiple languages.</li><li>An officer was sworn in and promoted to the rank of sergeant in the Riverhead Police Department.</li><li>A local law amending the Community Preservation chapter of town code was adopted.</li><li>The board authorized a public hearing notice on a proposed amendment to the fire prevention chapter of town code.</li><li>The agritourism resort/spa provisions were confirmed to have been removed from the comprehensive plan, effectively ending that development proposal for Sound Avenue.</li></ul>
+      <h3>Public hearings &amp; comment</h3>
+      <ul><li>A public hearing on a water main extension on Young&#x27;s Avenue was opened and closed; a developer will pay approximately $450,000 to extend roughly 1,100 feet of 8-inch water pipe and install two fire hydrants at the town landfill solar and battery storage project, with construction expected to begin around January or February 2025.</li><li>A public hearing on a vehicle and traffic code amendment was held to codify an existing no-right-turn-on-red restriction at Cromer Avenue and County Road 58 that has been in place since approximately 2012–2013.</li><li>A public hearing on proposed amendments to Chapter 263, Rental Dwelling Units, drew substantial public comment; supporters cited fire safety and overcrowding concerns while opponents, including representatives from the NYCLU, a fair housing nonprofit, and a housing counseling agency, raised concerns about fair housing law, enforcement implications, and impacts on low-income and immigrant residents; all three hearings remain open for written comment until September 27 at 4:30 p.m.</li></ul>
+      <h3>Discussed</h3>
+      <ul><li>Board members emphasized that the rental code amendment targets landlords operating unsafe, illegally subdivided units rather than tenants or any particular group.</li><li>Riverhead Volunteer Fire Department representatives spoke in support of the rental regulations, citing dangers of basement and attic fires in illegally altered homes for both occupants and firefighters.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/b8c795b6-51ac-410f-a200-3b72af3cc08d.mp4" type="video/mp4">
@@ -1886,6 +1903,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

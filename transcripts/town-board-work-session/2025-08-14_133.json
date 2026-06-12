@@ -3291,5 +3291,27 @@
       "end": 2234.42,
       "text": "Thank you."
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T02:27:40+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Town Board work session covered proposed code amendments on commercial vehicle parking, e-bikes, and bicycles on Route 58, reviewed 44 resolutions for the upcoming regular meeting, and screened a recap video from National Night Out.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "A code amendment expanding the commercial vehicle parking prohibition on Young's Avenue to include dump trucks is set for a public hearing on August 19, with the rule expected to take effect in October.",
+          "A companion amendment clarifying the definition of 'local delivery' was discussed to make parking-restriction violations easier to prosecute in court.",
+          "Proposed code changes would prohibit all bicycles and electric scooters from riding on Route 58 sidewalks between defined endpoints due to safety concerns in that high-traffic corridor.",
+          "A separate amendment would classify e-bikes into three state DMV categories and restrict Class 2 and Class 3 electric-assist bicycles from roads with speed limits over 30 mph, from bike lanes, and from the bike path; penalties would range from up to $250 for a first offense to up to $500 for a third or more.",
+          "The board reviewed 44 resolutions for the August 19 regular meeting, including accepting a donated hockey facility valued at roughly $2.9 million from the Peconic Hockey Foundation, applying $525,000 in proceeds from the sale of 201 Howell Avenue to repay a general-fund loan used for Town Square demolition costs, and authorizing road-resurfacing grants under CHIPS, PAVE NY, and POP NY programs.",
+          "The board noted that a volunteer EMT course held at Town Hall last year produced approximately 25 new certified EMTs, and a license agreement for a second year of that program is on the resolution list.",
+          "The session closed with the board moving into executive session to discuss a leave of absence, a class-action grievance, pending litigation, and several contractual agreements."
+        ]
+      }
+    ]
+  }
 }

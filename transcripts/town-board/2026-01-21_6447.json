@@ -18381,5 +18381,39 @@
       "end": 9757.58,
       "text": "Thank you for the meeting."
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T03:08:12+00:00",
+    "agenda_grounded": false,
+    "tldr": "The board held two public hearings on proposed code changes that would allow golf cottages as an accessory use on standard golf courses and link them to the Transfer of Development Rights program; both hearings drew substantial public opposition focused on unit size, attached structures, and lack of specificity, and were left open for written comment until February 2. The board also voted on roughly 40 resolutions covering fees, contracts, appointments, and infrastructure projects.",
+    "sections": [
+      {
+        "heading": "Public hearings & comment",
+        "items": [
+          "Two public hearings were opened on proposed code amendments that would define golf cottages as an accessory use on standard 18-hole golf courses of at least 125 acres and link each cottage to one Transfer of Development Rights credit.",
+          "The proposed definition allows cottages up to 1,200 square feet and permits attached structures with shared walls; multiple speakers urged the board to revert to the 600-square-foot size recommended in the 2024 Comprehensive Plan and to require freestanding units only.",
+          "Several residents and civic representatives argued that permitting attached units of up to 1,200 square feet each could effectively allow construction of a hotel or motel rather than a cottage-scale lodging use.",
+          "Speakers asked the board to clarify whether a Transfer of Development Right would be required for each cottage, to set a maximum 30-day occupancy limit, and to restrict ownership and operation to the golf course owner.",
+          "A senior planner clarified that any specific proposal would still require site plan review and environmental assessment before the planning board, and that only four parcels in town currently meet the 125-acre threshold.",
+          "Both public hearings were closed to oral testimony and left open for written comment until February 2."
+        ]
+      },
+      {
+        "heading": "Key actions",
+        "items": [
+          "The board amended the 2026 recreation fee schedule to reduce several senior resident fees from $15 to $10, then adopted the schedule as amended.",
+          "The board approved a resolution authorizing the town clerk to post notice for a public hearing on a proposed local law that would expand the property tax exemption for volunteer firefighters and volunteer ambulance workers.",
+          "Negative declarations under the state environmental review law were issued for two proposed battery energy storage systems—one on Edwards Avenue in Calverton associated with Hampton Jitney and one on Scott Avenue—and public hearing notices for both were authorized.",
+          "The board authorized the town clerk to post a bid notice for a bulkhead renovation at Meeting House Creek Road.",
+          "A resolution authorizing a grant application to New York Sea Grant for a study addressing flooding on Creek Road and Sound Road in Wading River was adopted.",
+          "The board approved the retirement of a highway department administrative employee, authorized a short-term consulting agreement with the same employee to assist with payroll during the transition, and authorized an agreement with the relevant union local to permit the arrangement.",
+          "An electrical inspector appointment and a part-time code enforcement officer ratification were approved.",
+          "A license agreement with the United States Golf Association for vehicle parking, generating $150,000, was authorized."
+        ]
+      }
+    ]
+  }
 }

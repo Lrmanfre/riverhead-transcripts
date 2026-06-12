@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2024-10-10, category:Zoning Board of Appeals">
@@ -25,6 +25,19 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/6375" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/6375/files/agenda/5817" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Zoning Board of Appeals held its October 10, 2024 meeting and decided three appeals: a minor subdivision variance in Jamesport was granted, a variance to legalize an accessory building in Wading River was granted, and a parking variance for a cancer care medical office on Old Country Road in Riverhead was granted with conditions.</p>
+      <h3>Key actions</h3>
+      <ul><li>The board granted area variances for a minor two-lot subdivision at 82 Second Street, Jamesport (Appeal 2024-028), allowing lot areas of approximately 21,776 and 25,567 square feet and lot widths of approximately 107 and 82 feet where 40,000 square feet and 150 feet are required, subject to Suffolk County Health Department approval, removal of the existing garage and shed on the proposed new lot, future development conforming to applicable dimensional requirements, and planning board approval.</li><li>The board granted a variance to legalize alterations to a roughly 14-by-22-foot accessory building, formerly a detached garage, at 159 Sunset Boulevard, Wading River (Appeal 2024-024), noting the applicant had already submitted a building permit application for legalization.</li><li>The board granted a parking variance for CAV 896 LLC at 896 Old Country Road, Riverhead (Appeal 2024-016), allowing 77 parking spaces where 118 are required by code, to permit expansion of an existing oncology and cancer treatment facility by approximately 3,169 square feet.</li><li>The parking variance approval was conditioned on the applicant&#x27;s offer of mitigation requiring that if either the existing oncology use or the proposed expansion space changes to a different medical or other use, the applicant must return to the planning board for site plan approval and seek any additional relief as required.</li><li>The board approved minutes from the September 26, 2024 meeting and noted the next scheduled meeting is October 24, 2024.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/f4677b01-f82b-4993-8361-370da6c14b5d.mp4" type="video/mp4">
@@ -930,6 +943,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

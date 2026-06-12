@@ -18631,5 +18631,44 @@
       "end": 9375.46,
       "text": "Thank you."
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T03:12:58+00:00",
+    "agenda_grounded": false,
+    "tldr": "The board unanimously adopted a resolution supporting county preservation of a 10-acre parcel at 1161 Peconic Bay Boulevard, Jamesport as natural open space, and swore in a new police officer. Public hearings were held on a sewer biosolids project cost increase, commercial dimensional regulation changes, solid waste fine increases, and a volunteer firefighter/ambulance worker surviving-spouse tax exemption.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "The board unanimously adopted Resolution 2026-469, supporting Suffolk County preservation of the property at 1161 Peconic Bay Boulevard, Jamesport (Tax Map 600-94-1-6) as natural, unimproved open space to protect ecological value, habitat, and water quality.",
+          "A new police officer was appointed and sworn in by the police chief in a unanimous vote, Resolution 2026-426.",
+          "Resolution 452, authorizing the supervisor to sign an agreement with Suffolk County to reuse effluent water from Indian Island Golf Course, was tabled because the contract was not yet finalized.",
+          "The board authorized pursuit of Suffolk County downtown revitalization funding for beautification of the Wading River Duck Pond, with the Wading River Civic Association as co-sponsor.",
+          "Bids were awarded for installation of water mains at 203 East Main Street and for PFAS treatment at Well No. 5-2A in the Riverhead Water District.",
+          "The board authorized the Community Development Department to submit applications to the New York State Environmental Facilities Corporation for sewer infrastructure grants.",
+          "Several board and committee appointments were approved, including members to the Senior Citizen Advisory Council, East Creek Advisory Committee, and Hispanic Development, Empowerment, and Education Committee.",
+          "Special event permits were approved for multiple events including a Chamber of Commerce Cardboard Boat Race, a carnival, a mud run, and a fireworks application for Riverhead Raceway."
+        ]
+      },
+      {
+        "heading": "Public hearings & comment",
+        "items": [
+          "A public hearing on a biosolids improvement project cost increase to approximately $2.4 million drew no public comment and was closed with 10 days left open for written submissions.",
+          "A public hearing on proposed amendments to Chapter 301 commercial dimensional regulations, which would increase impervious surface allowances, drew significant opposition from multiple residents who argued the changes contradict the town's comprehensive plan and could worsen stormwater runoff; the hearing was closed with 10 days for written comment.",
+          "A public hearing on amendments to Chapter 273 Solid Waste raised fine levels for dumping and placement violations substantially, with Category C violations for dumping in wetlands or mishandling hazardous waste rising to a maximum of $20,000 for third offenses; the hearing was closed with 10 days for written comment.",
+          "A public hearing on amendments to Chapter 279 to extend property tax exemptions for surviving spouses of volunteer firefighters and ambulance workers killed in the line of duty drew general public support; changes remove the requirement that surviving spouses remain unmarried and reduce the required service term from five years to two years."
+        ]
+      },
+      {
+        "heading": "Discussed",
+        "items": [
+          "Board members and multiple residents debated the terms under which Suffolk County would fund preservation of the Peconic Bay Boulevard parcel, with County Legislator Dorosky cautioning that a requirement for zero improvements could make the property ineligible for state water quality funds and kill the deal.",
+          "A resident raised unresolved concerns about the town assessor's valuation methodology for golf courses following an appellate court ruling, and asked whether outside water district counsel had been asked to review impact fee legality."
+        ]
+      }
+    ]
+  }
 }

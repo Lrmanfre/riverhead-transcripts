@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2026-04-23, category:Zoning Board of Appeals">
@@ -25,6 +25,19 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/3889" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/3889/files/agenda/5970" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Riverhead Zoning Board of Appeals held its April 23, 2026 meeting, deciding two reserved decisions and several public hearing applications, with outcomes ranging from denials to grants with conditions.</p>
+      <h3>Key actions</h3>
+      <ul><li>The board denied an appeal by Bayview Epiconic, LLC (47 Bayside Avenue, Jamesport) seeking to overturn the Chief Building Inspector&#x27;s rescission of a pre-existing transient rental use letter; one board member dissented, finding the applicant&#x27;s testimony credible.</li><li>The board granted a special exception to a wholesale sprinkler business at 1264 West Main Street, Riverhead, subject to Planning Board site plan review.</li><li>The board denied variance requests from the owner of 2041 Osborne Avenue, Riverhead, for a 6-foot front yard fence and 6-foot recessed gate, finding the grounds insufficient and precedents submitted by the applicant not controlling.</li><li>An application at a Main Road, Aquebogue property (Appeal 2026-002) was adjourned without a date pending a revised plan addressing additional relief items discovered since filing.</li><li>An application for 167 Pierre Avenue, Jamesport (Appeal 2026-005) was withdrawn after the applicant redesigned the project to no longer require a variance.</li><li>The board granted setback and impervious surface variances for a minor subdivision on Hulse Landing Road, Wading River (Appeal 2026-009), conditioned on Planning Board approval and a covenant requiring removal of a greenhouse encroachment if the lots are sold or no longer under unified ownership.</li><li>The board granted a front yard setback variance of 35.2 feet where 60 feet is required, allowing construction of a single-family dwelling on an existing foundation at 451 Northside Road, Wading River (Appeal 2026-010).</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/921a0baa-cebf-44b6-9d4f-1e86d6acb80a.mp4" type="video/mp4">
@@ -1100,6 +1113,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

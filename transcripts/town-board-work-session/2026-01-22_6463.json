@@ -7471,5 +7471,42 @@
       "end": 4433.52,
       "text": ""
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T02:32:01+00:00",
+    "agenda_grounded": false,
+    "tldr": "A Riverhead Town Board work session covered police crime statistics for November and December 2025, town clerk and justice court year-end reports, a code enforcement annual review, and a revised accessory dwelling unit draft law. The board also moved into executive session on several personnel and contractual matters.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "The board directed staff to advance the revised accessory dwelling unit code to a resolution for publication and posting at the next town board meeting.",
+          "The board moved into executive session to discuss the employment status of an employee, the status of two police officers, a license agreement with a local business, and a sonographer services contract."
+        ]
+      },
+      {
+        "heading": "Money",
+        "items": [
+          "The police chief reported total incidents of approximately 2,653 in November and 2,604 in December, with criminal incidents dropping from 130 in November to 106 in December.",
+          "Justice court imposed roughly $394,000 in fines and surcharges for all of 2025, including about $11,490 in blight surcharges and $8,840 in human services surcharges, though actual collections are expected to be lower.",
+          "Code enforcement generated approximately $407,225 in revenue for 2025, described as nearly double the prior year, and referred nine properties to Supreme Court for persistent violations.",
+          "The town clerk's office processed nearly 2,900 public records requests in 2025 and is preparing to launch online payments for items such as dog license renewals and yard sale permits.",
+          "A housing official noted roughly $200,000 has accumulated in an affordable housing fund from subdivision requirements, intended for a first-time homebuyer down payment assistance program."
+        ]
+      },
+      {
+        "heading": "Discussed",
+        "items": [
+          "Code enforcement reported 645 complaints and 755 violations and summonses in 2025, with the department chief saying an ideal full staffing level would be about 12 officers compared to the current five.",
+          "Board members discussed raising fines for building permit violations and requested information on fines for unlicensed taxi operations, solid waste, and hazardous waste violations.",
+          "The revised ADU draft adds owner-occupancy verification using voter registration, driver's license, and utility records, prohibits short-term rental use, and requires a rental permit within 30 days if an ADU is rented.",
+          "The police chief proposed changing how overdose fatalities are reported in monthly statistics to wait for the medical examiner's finding before classifying a death as drug-related, given a typical six-month delay.",
+          "Life rings with weather-resistant housings are planned for installation along the downtown waterfront by spring."
+        ]
+      }
+    ]
+  }
 }

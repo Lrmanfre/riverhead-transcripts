@@ -8476,5 +8476,49 @@
       "end": 5699.7,
       "text": "thank you"
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T01:53:15+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Riverhead Planning Board held a public hearing on a proposed 130-acre industrial subdivision off Middle Country Road in Calverton, then reviewed two discussion items: a North Shore Sprinkler Supply site-plan violation case and a proposed cannabis greenhouse in Calverton near several senior communities.",
+    "sections": [
+      {
+        "heading": "Public hearings & comment",
+        "items": [
+          "The board held a SEQRA public hearing on a proposed seven-lot industrial subdivision of a roughly 131-acre former sod farm fronting Middle Country Road, bordered by Splish Splash to the west and the Long Island Expressway to the south; three lots are proposed as developable, one for a sewage treatment plant, one as dedicated open space, one potentially for a Riverhead Water District well site.",
+          "Presenters noted that a rezoning during a prior moratorium reduced the maximum build-out from roughly 1.6 million square feet under the former Industrial-A zoning to approximately 1.16 million square feet under the current CI code, with TDRs.",
+          "A traffic study concluded the project would not have a significant negative impact on area traffic with mitigation including a new signal and road widening on Middle Country Road, improvements at Middle Country Road and Splish Splash Drive, and signalization of the LIE eastbound off-ramp at Edwards Avenue.",
+          "A representative of the Greater Calverton Civic Association requested the written-comment period be kept open 30 days; the board voted to keep it open 15 days, closing at end of business on Friday, November 21."
+        ]
+      },
+      {
+        "heading": "Key actions",
+        "items": [
+          "The board approved Resolution 2025-102 to accept a site-plan application for 305 West Main Street and schedule a public hearing.",
+          "The board approved Resolution 2025-103 granting a statutory extension for the Bidson-Franken minor subdivision approval.",
+          "The board approved Resolution 2025-104 granting minor subdivision approval for the Richard Anderson Minor Subdivision.",
+          "The board approved Resolution 2025-105 granting minor subdivision approval for the Thomas Anderson Minor Subdivision.",
+          "Minutes of the October 2 and October 16, 2025 meetings were approved."
+        ]
+      },
+      {
+        "heading": "Discussed",
+        "items": [
+          "Staff presented a North Shore Sprinkler Supply site-plan application at 1264 West Main Street, flagged for DEC and town violations related to buffer removal and paving; the board directed the applicant to restore buffers, address impervious-surface coverage relief at the ZBA, and clarify the 50-percent natural-vegetation requirement before returning.",
+          "The board heard an initial presentation on a proposed roughly 33,000-square-foot cannabis cultivation greenhouse at 1458 Middle Road in Calverton, within the Agricultural Protection Zone; outstanding items include noise studies, HVAC and odor-control specifications, generator fuel and storage details, lighting plan, DEC wetland jurisdiction review, and ZBA variances for an eight-foot deer fence and 24-percent impervious coverage.",
+          "Residents from Windcrest East, Foxwood Village, and surrounding neighborhoods raised concerns about noise, odor, property values, truck traffic hours, visibility of the building, and licensing questions; staff confirmed no Planning Board vote can occur before the applicant completes its ZBA process, with the ZBA hearing adjourned to December 11, meaning no public hearing before the Planning Board is expected until 2026."
+        ]
+      },
+      {
+        "heading": "Affects residents",
+        "items": [
+          "Residents near 1458 Middle Road in Calverton, including seniors in Windcrest East and Foxwood Village, have until at least the ZBA hearing on December 11 and a subsequent Planning Board discussion before any public hearing on the cannabis greenhouse is scheduled.",
+          "Written comments on the Calverton industrial subdivision SEQRA record must be submitted by end of business on Friday, November 21, 2025."
+        ]
+      }
+    ]
+  }
 }

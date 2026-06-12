@@ -4261,5 +4261,31 @@
       "end": 2460.78,
       "text": "you"
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T01:43:15+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Planning Board approved two bluff retaining wall replacements on Lewin Drive, a facade improvement for a retail building on Old Country Road, and took a SEQRA action on a townhouse project. The board also discussed a vegetation buffer violation at the Sandy Pond mini golf site.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "The board approved a Chapter 219 application for a property on Lewin Drive to replace a wooden retaining wall with a steel I-beam and wood-lagging wall along a bluff.",
+          "The board approved a similar Chapter 219 application for the Lewin Hills Property Owners Association parcel directly west, involving the same construction method and tying into the adjacent retaining wall.",
+          "The board approved an administrative site plan for facade improvements at 1125 Old Country Road, including new stucco exterior, window replacements, parking lot repaving, landscaping, and formalization of cross-access easements; approval was conditioned on a grading and drainage plan prior to any regrading.",
+          "The board assumed lead agency status and issued a negative declaration under SEQRA for a townhouse project on 2nd Street."
+        ]
+      },
+      {
+        "heading": "Discussed",
+        "items": [
+          "Planning staff reported that the project sponsor for Sandy Pond mini golf cleared vegetation in a required 20-foot non-disturbance buffer without following the agreed review process; a substantial replacement landscaping plan was submitted and staff intends to bring a formal approval resolution to the first June meeting.",
+          "Staff said future site plan applications involving existing vegetation will be pressed for detailed tree inventories within non-disturbance buffers to establish a baseline record."
+        ]
+      }
+    ]
+  }
 }

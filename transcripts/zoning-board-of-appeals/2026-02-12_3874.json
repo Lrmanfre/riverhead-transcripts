@@ -4826,5 +4826,25 @@
       "end": 2824.88,
       "text": "Thank you."
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T03:25:33+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Zoning Board of Appeals approved a pool variance for a Jamesport homeowner, withdrew one appeal with prejudice, voted to reopen a Peconic Bay Medical Center hearing, and closed a West Main Street change-of-use hearing for a decision.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "Appeal 2025-041 (52 Main Road, Riverhead) was withdrawn by the applicant; the board granted the withdrawal with prejudice, barring reapplication for a use variance on that site for two years.",
+          "Appeal 2025-042 (1087 Old Country Road, Riverhead, Peconic Bay Medical Center) was voted to be reopened for a rehearing, scheduled for March 12, 2026, with required re-posting and legal notice.",
+          "Appeal 2025-044 (9 Holly Tree Lane, Jamesport) was granted variances allowing an in-ground pool in the front yard with a 10-foot side-street setback and 33% impervious surface coverage, subject to a planting plan approved by the planning department.",
+          "Appeal 2025-032 (47 Bayside Avenue, Jamesport, Bayview at Peconic LLC) — a challenge to the rescission of a pre-existing transient rental use letter — was adjourned to February 26, 2026, at the applicant's request.",
+          "Appeal 2026-001 (1175 West Main Street, Riverhead) seeking a special exception to convert a former spa/restaurant space to a heating and air conditioning showroom, office, and storage was closed and marked for a reserve decision on February 26, 2026."
+        ]
+      }
+    ]
+  }
 }

@@ -7516,5 +7516,37 @@
       "end": 4925.08,
       "text": "okay open session is closed we will now go into executive session thank you"
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T04:05:47+00:00",
+    "agenda_grounded": false,
+    "chunked": false,
+    "tldr": "The Town Board reviewed proposed updates to the public nuisance code, previewed a new online bill-pay portal for the Water District, and discussed a state parks grant application for the town square playground. A long list of personnel and administrative resolutions was also previewed.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "The board directed staff to prepare a resolution scheduling a public hearing on proposed revisions to the public nuisance code (Chapters 251 and 252) that would broaden the definition of public nuisance beyond the current requirement of criminal convictions.",
+          "Board members agreed to raise the minimum Justice Court fine for public nuisance violations from $500 to $1,000, with further discussion on the full penalty schedule.",
+          "Staff presented a new online bill-pay portal for Riverhead Water District customers that will allow account lookup, one-time payments by e-check or credit card, and autopay enrollment with no fee; May bills are planned to go out with notice of the new service.",
+          "The board previewed a resolution ratifying an application for a New York State Municipal Parks and Recreation Grant of up to $1 million for improvements to the town square playground, with a 10% match from Community Development Block Grant funds; the application is due the following day.",
+          "A resolution authorizing pursuit of Suffolk County Downtown Revitalization Round 23 funding for improvements to the Third Street municipal parking lots was included in the resolution packet.",
+          "The board previewed a resolution to publish a request for proposals for the sale of 214 Griffin Avenue, a town-owned property adjacent to town hall.",
+          "The board went into executive session to discuss matters related to acquisition of real property.",
+          "An update on board committee activities was postponed to the following week's work session."
+        ]
+      },
+      {
+        "heading": "Discussed",
+        "items": [
+          "Staff explained that the revised public nuisance code adds defined terms, structured inspection and due process procedures, civil penalties of $5,000 to $10,000 per day in Supreme Court actions, and explicit First Amendment and 911-call protections that were absent from the prior code.",
+          "Board members and staff discussed the challenge of funding park maintenance through grants, which generally require new capital improvements rather than repairs; a board member noted draft legislation has been brought to a state senator to allow a portion of park and recreation fees to be used for maintenance.",
+          "Staff discussed potential projects for a second round of the state parks grant later in 2025, including lighting at a town ball field and improvements at Stotsky Park, noting that concrete cost estimates and a match source are required before applying."
+        ]
+      }
+    ]
+  }
 }

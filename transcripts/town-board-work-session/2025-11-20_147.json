@@ -12901,5 +12901,44 @@
       "end": 8346.7,
       "text": "you"
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T02:33:58+00:00",
+    "agenda_grounded": false,
+    "tldr": "The board received a parking consultant's overview of downtown parking conditions and held a detailed discussion on proposed amendments to the accessory dwelling unit code, while also reviewing monthly reports on police activity, justice court, town clerk operations, and code enforcement.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "A parking consultant presented a first of four planned work sessions covering downtown parking observations, survey results, and near-term improvements described as 'low-hanging fruit,' including restriping lots, updating signage, and stricter enforcement of time limits.",
+          "The board directed staff to revise the draft accessory dwelling unit code to require rentals be for a minimum of one year, explicitly prohibit short-term or transient rentals, and show all changes in tracked form before the next review.",
+          "The board discussed raising fines for operating a rental without a permit so the penalty meaningfully exceeds the cost of the permit, and asked the town attorney to explore whether repeat offenders could be barred from obtaining future rental permits.",
+          "Staff confirmed two part-time code enforcement officer positions are posted on the town website and interviews are being scheduled, intended primarily to address the rental inspection backlog.",
+          "The board moved to close open session and enter executive session to discuss committee appointments, a possible license agreement with the USGA, an intermunicipal agreement, and a possible agreement with CSEA."
+        ]
+      },
+      {
+        "heading": "Money",
+        "items": [
+          "Code enforcement collected $26,625 in rental permit revenue in October, bringing the year-to-date total to $287,750.",
+          "The parking consultant noted that costs to build a new parking space run roughly $50,000 and that existing spaces carry a supported economic value of $135,000 to $197,000 each.",
+          "A state grant of up to $125,000 for accessory dwelling units will be administered through the Long Island Housing Partnership in partnership with New York State Homes and Community Renewal, with a launch expected early next year.",
+          "The town clerk noted the town spends approximately $20,000 annually on required legal notice publications in print newspapers and raised the possibility of moving to website-only publication if the state codifies that option."
+        ]
+      },
+      {
+        "heading": "Discussed",
+        "items": [
+          "The parking consultant reported that 534 of 3,500 town-wide parking citations issued January through October were written downtown, representing 14 percent, and noted that virtually no overtime-parking citations were issued in the zoned parking lots.",
+          "Survey results showed downtown apartment residents ranked security and safety as their top parking concern, followed by proximity, time limits, and lighting.",
+          "The police report for October showed 2,931 total incidents, 167 criminal incidents, and no violent crimes in the downtown area; criminal incidents are down compared to the same period last year.",
+          "The justice court report noted that fire marshal fines were higher in October due to increased penalties adopted earlier this year and that human-services violations such as public urination and panhandling are trending down, attributed to increased police presence.",
+          "The board discussed a chronic illegal dumping problem in the rear parking corral off Digger's alley, including furniture and tires left by apartment tenants, and asked staff to explore trash compactors and camera placement as potential remedies."
+        ]
+      }
+    ]
+  }
 }

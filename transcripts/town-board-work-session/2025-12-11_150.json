@@ -3151,5 +3151,28 @@
       "end": 1817.58,
       "text": "Are there any questions for Executive Sale?"
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T02:31:46+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Riverhead Town Board work session covered a proposed golf cottage code amendment, a groundbreaking announcement for the new Town Square, and previewed a lengthy consent agenda of routine resolutions ahead of a future regular meeting.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "A groundbreaking ceremony for the demolition of 127 East Main Street to make way for the new Riverhead Town Square is scheduled for Friday, December 12 at noon.",
+          "The board reviewed a revised definition of 'golf cottage' under Chapter 301-3, with the maximum unit size increased from 600 to 1,200 square feet, no limit on length of stay, and a prohibition on using cottages to establish permanent residency.",
+          "Golf cottages would require one transfer of development right per unit, up to a maximum of one per hole; currently only Friars Head Golf Course and Beany Hollow Club are in eligible zoning districts.",
+          "The board directed staff to prepare a resolution scheduling a public hearing on the golf cottage amendment, likely in January.",
+          "The board reviewed proposed code changes to the Business Center and Shopping Center Zoning Use Districts, including expanding permitted uses in shopping centers and bringing the 35-foot unoccupied front yard requirement into supplementary guidelines.",
+          "The board discussed land-banking and parking reduction provisions already in the town code as tools for redeveloping underutilized commercial parking areas along Route 58.",
+          "A large block of consent resolutions was previewed, including a new CSEA contract for 2026–2029, multiple Water District bid extensions, a PFAS treatment bid for a grant-funded project, and agreements related to the proposed East End Arts Pavilion.",
+          "The board moved into executive session to discuss personnel, employment, and several contractual matters."
+        ]
+      }
+    ]
+  }
 }

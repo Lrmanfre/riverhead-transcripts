@@ -2451,5 +2451,25 @@
       "end": 1458.34,
       "text": "Thank you."
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T03:20:00+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Riverhead Zoning Board of Appeals held its February 27 meeting, granting variances in three cases and closing a fourth with a reserved decision pending environmental review.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "Appeal 2020-033 (Kathleen Glass, 120 Louise Court, Riverhead): The board approved an amended variance for a front-yard pool pavilion, trellis, and enclosed meditation space with bathroom, subject to conditions limiting the structure to seasonal use, prohibiting heating, year-round water supply, kitchen or laundry facilities beyond a sink and refrigerator, overnight accommodations, and any business use.",
+          "Appeal 2024-038 (Claude Maselli, 99 Cliff Road East, Wading River): The board granted a variance allowing as-built impervious surface coverage of 43.4% where the maximum permitted in the RB-80 zone is 15%, based on the undersized preexisting nonconforming lot.",
+          "Appeal 2025-004 (Herb Steiger, 131-135 Hidden Acres Path, Wading River): The board granted a variance for a proposed in-ground pool with a side-yard abutting-street setback of 18 feet where 60 feet is required, conditioned on relocating an existing shed to at least 5 feet from all side and rear property lines as required by town code.",
+          "Appeal 2024-034 (Fisher Realty Group, 940–946 West Main Street, Riverhead): The board closed the public hearing with a reserved decision to be issued at a future date after the Planning Board, acting as lead agency, completes its SEQRA review; the applicant noted revised calculations reduced the FAR variance request to 75.17% and the impervious coverage figure to approximately 49.95%, which the applicant contends eliminates the landscaping variance.",
+          "Minutes from the January 23, 2025 meeting were approved, and the next meeting was set for March 13, 2025."
+        ]
+      }
+    ]
+  }
 }

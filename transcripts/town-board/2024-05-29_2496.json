@@ -11536,5 +11536,44 @@
       "end": 6631.2,
       "text": ""
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T02:46:26+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Town Board held a special public hearing on the Draft Generic Environmental Impact Statement (DGEIS) for the comprehensive plan update. The board also formally closed the earlier public hearing on the draft comprehensive plan itself, while keeping written comments open through June 10.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "The board voted to officially close the public hearing on the draft comprehensive plan, with written comments accepted through close of business June 10, 2024.",
+          "The board opened and then closed a separate public hearing on the Draft Generic Environmental Impact Statement (DGEIS), also with a written comment deadline of June 10, 2024.",
+          "The board supervisor stated that all board members support removing language from the comprehensive plan that would allow a charter school to be sited on industrial land.",
+          "The planning consultant described the next steps: after June 10, a Final Generic Environmental Impact Statement will be prepared, expected late July through September, followed by a findings statement and then potential adoption of the comprehensive plan.",
+          "Board members indicated they will hold a work session to discuss proposed revisions to the draft comprehensive plan; minor changes will not require reopening the public hearing, but significant new additions would."
+        ]
+      },
+      {
+        "heading": "Public hearings & comment",
+        "items": [
+          "Multiple residents raised concerns that the DGEIS concludes no significant adverse environmental impacts are anticipated, while the plan contains recommendations they believe would affect traffic, infrastructure, scenic character, and density.",
+          "Residents questioned population projections in the DGEIS, arguing the figures may undercount future growth given the volume of pending housing proposals, approved apartment units, and assisted living facilities already in the pipeline.",
+          "Speakers objected to designating the CRC and PRC zoning districts as Transfer of Development Rights receiving areas, citing lack of adequate infrastructure and the PRC's proximity to the Peconic River.",
+          "Residents raised concerns about recommendations to allow vertical farming on all agricultural land, including areas north of Sound Avenue, and the supervisor and multiple board members stated they do not support vertical farming in that corridor.",
+          "A resident requested that the DGEIS include a land-use acreage inventory table showing current and proposed acreage by land-use category.",
+          "Speakers called for clearer definitions of agritourism, including explicit limits to prevent catering halls or wedding venues from being established on farmland under the agritourism designation.",
+          "Residents asked the board to consider hosting public information sessions to help residents understand the complex DGEIS and comprehensive plan documents before final adoption."
+        ]
+      },
+      {
+        "heading": "Discussed",
+        "items": [
+          "Board members noted that the existing accessory apartment code caps units at 650 square feet, while the draft comprehensive plan would allow up to 40 percent of the principal residence, potentially enabling much larger accessory units in any of the ten permitted zoning districts.",
+          "The board acknowledged that short-term rental provisions and proposals to lift the downtown apartment unit cap do not yet have full board support and will be addressed during upcoming work sessions."
+        ]
+      }
+    ]
+  }
 }

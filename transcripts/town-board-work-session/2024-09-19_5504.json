@@ -3541,5 +3541,33 @@
       "end": 1976.84,
       "text": ""
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T02:10:53+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Riverhead Town Board held a work session covering anti-litter recognition, police and code enforcement monthly reports, Justice Court and Town Clerk updates, and a summer recap video before moving to executive session.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "The Anti-Litter Committee presented Certificates of Appreciation to Riverhead Building Supply, the Business Improvement District, the Riverhead Rotary Club, and the East End Hiking Club, with two additional recipients absent.",
+          "The board discussed restoring a provision in the sign ordinance that would allow code enforcement to impound illegally posted signs without permits, and directed staff to pursue a code revision.",
+          "The board indicated it may review adding a fee for repeat rental-property inspections when violations are not corrected, and noted the current no-show fee of $50 may be too low.",
+          "The Town Clerk reported plans to move forward with Civic Plus agenda-management software, with an expected three-to-four month implementation timeline, and noted a possible 20% increase in clerk's office revenue through service adjustments."
+        ]
+      },
+      {
+        "heading": "Discussed",
+        "items": [
+          "The Police Chief explained that a transition to a new NIBRS-compliant records management system in May changed how crimes are categorized and counted, making year-over-year comparisons unreliable; July recorded 228 criminal incidents and August recorded 235.",
+          "Narcan was used once in July and once in August by officers, with additional civilian doses administered in August; one fatality occurred in July at a hotel where the subject was already deceased before officers arrived.",
+          "Code enforcement opened 77 new complaint investigations in August, issued 85 summonses, inspected 101 residential structures and 160 apartment units, and collected approximately $38,875 in rental fees in August for a year-to-date total of roughly $227,700.",
+          "Justice Court collected approximately $29,593 in August, including mandatory surcharges, and is scheduling trials for older rental-permit cases where property owners have not complied."
+        ]
+      }
+    ]
+  }
 }

@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2025-07-01, category:Town Board">
@@ -25,6 +25,21 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/2781" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/2781/files/agenda/2644" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Riverhead Town Board held four public hearings and voted on roughly 30 resolutions, including approving a no-parking law on Young&#x27;s Avenue near Crown Recycling, scheduling a public hearing on designating a master developer for the Town Square project, accepting a $1.4 million state grant for a riverfront amphitheater, and tabling a resolution involving the Riverhead skate park redevelopment.</p>
+      <h3>Key actions</h3>
+      <ul><li>The board adopted a local law prohibiting parking on both sides of Young&#x27;s Avenue between East Meadow Road and Osborne Avenue, and banning semi-trailer truck parking and idling on the northerly side, in response to hazardous conditions caused by trucks serving a nearby recycling facility.</li><li>The board voted to schedule a public hearing on designating a developer as a qualified and eligible sponsor to purchase and develop town-owned property on the south side of Main Street as part of the Town Square project.</li><li>The board accepted a roughly $1.4 million New York State ESD grant for the Town Square Riverfront Amphitheater.</li><li>The board approved a special permit, preliminary site plan, and final site plan for a satellite earth station at 317–391 Berman Boulevard in Calverton.</li><li>The board adopted a local law amending cannabis zoning regulations, including adding a business corridor designation that would allow retail cannabis uses in a new corridor, over an attorney&#x27;s suggestion to table pending new state guidance.</li><li>The board tabled a resolution that would have waived the town&#x27;s partnership position with Suffolk County in favor of a private nonprofit for redevelopment of a county-owned parcel as a skate park, at the request of the nonprofit&#x27;s representative.</li><li>The board adopted an amendment to demolition permit rules requiring remediation work to begin within 45 days and be completed within six months when permits are issued to resolve code violations.</li><li>The board voted to establish a framework for a town administrative law judge to adjudicate school bus stop-arm camera violations, replacing adjudication in town justice court.</li><li>A public hearing on shopping cart anti-theft regulations was closed and kept open for written comment until July 11.</li><li>The board authorized a request for proposals for the sale of 214 Griffin Avenue.</li><li>The board authorized an ATM license agreement for the lobby of Riverhead Justice Court.</li></ul>
+      <h3>Public hearings &amp; comment</h3>
+      <ul><li>Multiple residents asked the board to delay the Town Square master developer public hearing beyond mid-July to allow adequate time to review financial documents and the master developer agreement, which was filed with the town clerk the same day.</li><li>A resident representing the Greater Calverton Civic Association and others pressed for details on the Crown Recycling fire investigation and site cleanup; the fire marshal confirmed the arson investigation is complete with an undetermined cause, and that DEC cleanup requirements have been met though further remediation is ongoing.</li><li>Residents raised ongoing concerns about Patriot Recycling on Young&#x27;s Avenue, including illegal dumping, vermin, and excess material importation; the town confirmed it revoked Patriot&#x27;s use permit and a stop-work order is in place.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/30f2eefa-af6c-4179-ab80-f4def14ca418.mp4" type="video/mp4">
@@ -2683,6 +2698,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

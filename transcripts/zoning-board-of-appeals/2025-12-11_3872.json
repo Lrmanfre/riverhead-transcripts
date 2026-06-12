@@ -13986,5 +13986,45 @@
       "end": 10641.62,
       "text": "you"
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T04:35:09+00:00",
+    "agenda_grounded": false,
+    "chunked": true,
+    "tldr": "The Riverhead ZBA held a lengthy public hearing on a proposed cannabis greenhouse at 1458 Middle Road, Calverton, drawing heavy community opposition; the hearing was adjourned to January 8, 2026 with no decision made. A separate garage/shed variance in Jamesport was approved, and two other appeals were adjourned.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "The cannabis greenhouse application for 1458 Middle Road, Calverton (Brother Bear Canna / 1458 Middle Road LLC) was adjourned to January 8, 2026 with no decision; the board's vote to adjourn was unanimous.",
+          "A variance was granted unanimously for Appeal 2025-040 (850 Soundshore Road, Jamesport) to allow a proposed detached garage and to legalize an existing shed in the front yard, subject to Conservation Advisory Council approval, silt fencing during construction, and restrictions on the garage's second floor (non-habitable, no rental, no water utilities).",
+          "Appeal 2025-032 (47 Bayside Avenue, Jamesport) was adjourned to February 12, 2026.",
+          "Appeal 2025-041 (Osborne Avenue, Riverhead) was adjourned to January 8, 2026.",
+          "There is no ZBA meeting on December 25, 2025; the next meeting is January 8, 2026."
+        ]
+      },
+      {
+        "heading": "Public hearings & comment",
+        "items": [
+          "The cannabis greenhouse proposal at 1458 Middle Road seeks two variances: a deer fence height variance (8 feet proposed vs. 6-foot maximum) and an impervious surface coverage variance (approximately 20.4% after a proposed modification vs. 15% maximum).",
+          "During the hearing the applicant proposed removing a truck turnaround area to reduce the impervious surface figure from 24.04% to approximately 20.4%, but the board noted only the plan formally submitted to the Planning Board is before the ZBA.",
+          "A civic group letter requested the board issue a use interpretation on whether the facility qualifies as an agricultural greenhouse or an industrial/vertical farming use before considering any variances.",
+          "Written correspondence was received from multiple organizations including the Greater Calverton Civic Association, the Calverton Civic 458 Committee, the Group for the East End, the Town of Riverhead Open Space Committee, and individual residents; a petition with approximately 245 signatures in opposition was also presented.",
+          "Neighbors from nearby 55-plus communities (Wincrest East and Foxwood Village, estimated 500–700 feet from the site) raised concerns about odor, property values, water usage, PFAS contamination in the area, generator noise, and traffic.",
+          "A resident noted that DEC has no record of a well permit application filed by the cannabis applicant, and that Wincrest East residents were previously denied individual wells due to water contamination and directed to public water supply.",
+          "The applicant described a closed HVAC system with activated carbon scrubbers, stated water usage is approximately 300 gallons per day in a recirculating system, and confirmed the facility would use all-electric power with a goal of 100% renewable sourcing."
+        ]
+      },
+      {
+        "heading": "Discussed",
+        "items": [
+          "The board chair clarified that the ZBA's jurisdiction is limited to the fence height and impervious surface variances and that the board will not take a position on the Planning Board's site plan review.",
+          "The applicant's attorney argued that cannabis and hemp are defined as crops under New York State Agriculture and Markets Law and that greenhouse agricultural commercial uses are permitted as-of-right in the Agricultural Protection Zone."
+        ]
+      }
+    ]
+  }
 }

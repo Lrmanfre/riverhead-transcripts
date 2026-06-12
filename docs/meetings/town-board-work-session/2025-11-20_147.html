@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2025-11-20, category:Town Board Work Session">
@@ -25,6 +25,23 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/147" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/147/files/agenda/5888" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The board received a parking consultant&#x27;s overview of downtown parking conditions and held a detailed discussion on proposed amendments to the accessory dwelling unit code, while also reviewing monthly reports on police activity, justice court, town clerk operations, and code enforcement.</p>
+      <h3>Key actions</h3>
+      <ul><li>A parking consultant presented a first of four planned work sessions covering downtown parking observations, survey results, and near-term improvements described as &#x27;low-hanging fruit,&#x27; including restriping lots, updating signage, and stricter enforcement of time limits.</li><li>The board directed staff to revise the draft accessory dwelling unit code to require rentals be for a minimum of one year, explicitly prohibit short-term or transient rentals, and show all changes in tracked form before the next review.</li><li>The board discussed raising fines for operating a rental without a permit so the penalty meaningfully exceeds the cost of the permit, and asked the town attorney to explore whether repeat offenders could be barred from obtaining future rental permits.</li><li>Staff confirmed two part-time code enforcement officer positions are posted on the town website and interviews are being scheduled, intended primarily to address the rental inspection backlog.</li><li>The board moved to close open session and enter executive session to discuss committee appointments, a possible license agreement with the USGA, an intermunicipal agreement, and a possible agreement with CSEA.</li></ul>
+      <h3>Money</h3>
+      <ul><li>Code enforcement collected $26,625 in rental permit revenue in October, bringing the year-to-date total to $287,750.</li><li>The parking consultant noted that costs to build a new parking space run roughly $50,000 and that existing spaces carry a supported economic value of $135,000 to $197,000 each.</li><li>A state grant of up to $125,000 for accessory dwelling units will be administered through the Long Island Housing Partnership in partnership with New York State Homes and Community Renewal, with a launch expected early next year.</li><li>The town clerk noted the town spends approximately $20,000 annually on required legal notice publications in print newspapers and raised the possibility of moving to website-only publication if the state codifies that option.</li></ul>
+      <h3>Discussed</h3>
+      <ul><li>The parking consultant reported that 534 of 3,500 town-wide parking citations issued January through October were written downtown, representing 14 percent, and noted that virtually no overtime-parking citations were issued in the zoned parking lots.</li><li>Survey results showed downtown apartment residents ranked security and safety as their top parking concern, followed by proximity, time limits, and lighting.</li><li>The police report for October showed 2,931 total incidents, 167 criminal incidents, and no violent crimes in the downtown area; criminal incidents are down compared to the same period last year.</li><li>The justice court report noted that fire marshal fines were higher in October due to increased penalties adopted earlier this year and that human-services violations such as public urination and panhandling are trending down, attributed to increased police presence.</li><li>The board discussed a chronic illegal dumping problem in the rear parking corral off Digger&#x27;s alley, including furniture and tires left by apartment tenants, and asked staff to explore trash compactors and camera placement as potential remedies.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/cf80a8f4-1f03-43c3-8d9e-f133a20fc5eb.mp4" type="video/mp4">
@@ -2405,6 +2422,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

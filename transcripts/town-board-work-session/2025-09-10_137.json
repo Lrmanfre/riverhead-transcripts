@@ -856,5 +856,22 @@
       "end": 581.62,
       "text": "Thank you."
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T02:28:41+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Town Board held a brief work session, reading through a resolution packet and then entering executive session to discuss personnel, contractual, real property, and litigation matters.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "The board reviewed roughly 19 resolutions covering topics including a budget adjustment related to a tenant settlement, weed and litter removal at a Hubbard Avenue property, seasonal-to-call-in employee status changes in Recreation, appointment of a chief accountant/financial administrator, three soil-export applications for projects on Main Road and Old Country Road, a $30,000 J-CAP Grant application to the State Unified Court System, an amendment to a U.S. Geological Survey agreement related to Water District well development, designation of alcohol vendors for the 2025 Riverhead Country Fair, hazardous waste removal bidding, rejection and re-bid for truck parts, and awards for auto and Ford auto parts bids.",
+          "The board moved into executive session to discuss committee appointments, a contractual agreement with a third party, two potential real property sales, and two litigation matters involving the town."
+        ]
+      }
+    ]
+  }
 }

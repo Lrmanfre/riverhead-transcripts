@@ -5046,5 +5046,33 @@
       "end": 2577.04,
       "text": "Thank you."
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T01:44:27+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Planning Board closed two public hearings, advanced a minor subdivision with a new buffer condition, and classified a downtown townhouse project for environmental review.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "The public hearing for a two-lot subdivision at 821 Northville Turnpike was closed after staff confirmed both lots exceed the minimum 40,000-square-foot upland area required for yield.",
+          "The public hearing for a tasting room conversion at Terravite Winery and Vineyard, 250 Manor Lane, Jamesport, was closed; the proposal would convert an existing single-family residence into additional tasting room space and add parking on the 2.1-acre parcel.",
+          "The board agreed to add a 25-foot non-disturbance buffer along the northern property boundary and along a second boundary for the Marist Farm Minor Subdivision; staff will prepare an approval resolution for the next meeting.",
+          "The board classified the 2nd Street Townhomes project at 46 East 2nd Street as a Type 1 action and voted to seek lead agency status for SEQRA coordination; the proposal is for two four-unit townhouse buildings on a 0.33-acre vacant lot in the DC-4 zone.",
+          "A denial letter for a one-stall parking variance will be sent to the Zoning Board of Appeals for the 2nd Street Townhomes project, which can provide 11 of the 12 required stalls.",
+          "Minutes from the March 7th meeting were approved."
+        ]
+      },
+      {
+        "heading": "Public hearings & comment",
+        "items": [
+          "A neighbor on Manor Lane asked the board to consider adding noise stipulations or covenants to the Terravite Winery approval, citing concerns about amplified music and large crowds.",
+          "A resident of Linda Lane raised objections to granting a parking variance for the 2nd Street Townhomes, stating that 2nd Street already lacks adequate parking due to nearby businesses, and urged the board to require all parking to be contained on site."
+        ]
+      }
+    ]
+  }
 }

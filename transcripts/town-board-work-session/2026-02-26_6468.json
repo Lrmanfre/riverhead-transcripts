@@ -2111,5 +2111,39 @@
       "end": 1639.86,
       "text": "[transcription gap]"
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T02:34:47+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Town Board work session covered two discussion items — a coastal erosion application for a deck replacement on Soundshore Road and a draft environmental scope for a proposed motocross track in Calverton — plus approval of one resolution.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "The board approved Resolution 2026-014 related to Birchwood at Wading River; all members voted in favor.",
+          "A public hearing was closed with no public comment after checking for Zoom participants."
+        ]
+      },
+      {
+        "heading": "Discussed",
+        "items": [
+          "Staff presented a Chapter 219 coastal erosion application for 888 Soundshore Road in Jamesport, where owners want to demolish a 52-square-foot deck and build a new approximately 438-square-foot deck with a privacy wall; because all proposed work is seaward of the coastal hazard line it is considered new development requiring Zoning Board of Appeals relief and a DEC permit or letter of no jurisdiction — no action was taken.",
+          "Staff noted that vegetation appears to have been cleared on the Soundshore Road property between 2024 aerials and the present, and recommended the applicant revegetate the disturbed area as a condition.",
+          "Staff presented the draft environmental scope for a proposed outdoor motocross dirt bike track at 2822 River Road in Calverton; the town board is lead agency and must adopt a final scope within 60 days of the January 15 submission.",
+          "A significant new finding was disclosed: the DEC determined a mine land reclamation permit is required for the Calverton project because the application proposes excavation and exportation of approximately 120,000 cubic yards of material, which is a prohibited use in the Calverton Industrial Zoning District.",
+          "Staff added to the draft scope a required alternative scenario that evaluates the project without excavation and exportation, and noted a board member requested analysis of an indoor track alternative to address noise and dust concerns.",
+          "The town board is scheduled to adopt the final scope at a future meeting, and staff indicated a referral to the Zoning Board of Appeals will be sent because that agency was not initially identified as involved."
+        ]
+      },
+      {
+        "heading": "Affects residents",
+        "items": [
+          "The next Town Board meeting is scheduled for March 5 at 6:00 p.m. in Town Hall."
+        ]
+      }
+    ]
+  }
 }

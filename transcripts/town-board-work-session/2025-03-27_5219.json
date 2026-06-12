@@ -6801,5 +6801,33 @@
       "end": 4612.94,
       "text": "Thank you."
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T02:20:01+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Town Board work session covered a presentation on the Half Shells for Habitat oyster shell recycling program, committee updates from all board members, and a large batch of resolutions including approvals related to the Heatherwood construction staging area, Town Square project extensions, and several proposed local law amendments.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "The board reviewed a proposed agreement to allow the Riverhead Rotary Club and SeaTuck Environmental Association to operate a Half Shells for Habitat oyster shell recycling program at a town facility on Young's Avenue, with the town attorney's office preparing a draft agreement.",
+          "The board discussed a staging license agreement with the Heatherwood developer for construction materials and employee parking, including acceptance of fill dirt credited at $35 per cubic yard toward a two-year, $150,000 fee.",
+          "The board reviewed a resolution ratifying a license agreement with the Riverhead IDA to use space at Stotsky Park recreational building, with back-rent owed from May through the present to be collected.",
+          "The board discussed a special permit for Riverhead Charter School to place three portable trailers at its Sound Avenue site, with conditions including a decommissioning bond and periodic status updates; at least one board member opposed the application.",
+          "Several resolutions would set public hearings for condemnation or acquisition of properties at 111, 121, and 127 East Main Street for general municipal purposes.",
+          "Multiple resolutions would set public hearings to amend the town fire prevention code and to adopt zoning code changes recommended by the 2024 Comprehensive Plan update covering signs, solar energy systems, wireless towers, and other sections."
+        ]
+      },
+      {
+        "heading": "Discussed",
+        "items": [
+          "Committee updates included: beach concession stand opening Memorial Day weekend, Polish Town National Registry application in progress, East Creek Marina surveillance cameras now active with all docks filled, spring cleanup scheduled for May 3, a new skate park planned on county-designated land, ARVAC ambulance facility construction plans being finalized, Route 25 paving moved up to this year from 2027, and a Memorial Day parade in early planning stages.",
+          "The board discussed expanding the Half Shells for Habitat program to include wineries, farms, and large food distributors, and setting up satellite collection points given Riverhead's geographic size."
+        ]
+      }
+    ]
+  }
 }

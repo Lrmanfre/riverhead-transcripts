@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2024-09-26, category:Town Board Work Session">
@@ -25,6 +25,23 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/5517" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/5517/files/agenda/5355" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The board reviewed the 2025 tentative budget, which pierces the state tax cap by 4.14% for the general fund, and discussed a proposed 190-foot cell/communications tower at the Wading River Fire Department headquarters that would improve emergency radio and cellular coverage.</p>
+      <h3>Key actions</h3>
+      <ul><li>The supervisor presented the 2025 tentative budget; total appropriations for the town operating fund are $109,519,600, an increase of about $5.9 million over 2024.</li><li>The general fund exceeds the state tax cap by 4.14%; all other taxing districts remain within the cap.</li><li>The board discussed initiating SEQRA Type 1 classification and scheduling a Monroe balancing-test public hearing for Elite Towers&#x27; proposed 190-foot communications pole at the Wading River Fire Department headquarters on North Country Road.</li><li>Staff indicated two resolutions would be prepared for the October 1 meeting: one to classify the cell tower project as a Type 1 SEQRA action and one to schedule the Monroe hearing, tentatively set for October 16.</li><li>The police department accepted a donation of two used Harley-Davidson motorcycles from Suffolk County.</li><li>A police department employee, Danielle Wilsey, was promoted to captain.</li><li>The board approved a final CSEA 2023–2025 contract and a new dental plan MOA covering multiple bargaining units.</li><li>Resolutions advanced a road-opening permit fee increase from $200 to $300 and an abandoned-cart fee increase from $125 to $175.</li></ul>
+      <h3>Money</h3>
+      <ul><li>For a property valued at approximately $720,000, the proposed town-wide tax increase amounts to roughly $288 per year.</li><li>Residential solid waste costs would rise approximately $5.25 per month.</li><li>Major drivers of the general fund increase include police salaries, New York State retirement rate hikes, a 9% health insurance increase, new vehicles, debt service on the town hall building, and new radio equipment required by Suffolk County&#x27;s bandwidth change.</li></ul>
+      <h3>Discussed</h3>
+      <ul><li>Fire commissioners and the Elite Towers attorney described the Wading River area&#x27;s poor radio and cell coverage as a direct public-safety problem, citing inability to transmit cardiac telemetry and loss of radio contact during active structure fires.</li><li>Board members discussed tracking how approved development projects affect the town&#x27;s tax base over time as a way to offset future tax increases.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/fa30dcc1-3546-4027-96af-8cfbf0722eba.mp4" type="video/mp4">
@@ -1511,6 +1528,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

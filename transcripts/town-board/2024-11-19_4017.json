@@ -11751,5 +11751,39 @@
       "end": 7531.77,
       "text": "so moved [transcription gap] so"
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T02:55:13+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Riverhead Town Board held public hearings on updated penalty fines for building and rental permit violations, proposed industrial zoning code amendments tied to the 2024 Comprehensive Plan update, and changes to town justice election scheduling. The board then adopted the 2025 budget and acted on roughly two dozen other resolutions.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "The board adopted the 2025 annual budget unanimously, though one board member noted objections to certain items and another stated she would not accept a salary increase included for board members.",
+          "A local law amending town code to set town justice elections on a staggered schedule, so both seats never appear on the same ballot, was adopted.",
+          "A resolution authorizing an agreement for a paid parking trial program was voted down, with the board indicating it will revisit the proposal in spring 2025.",
+          "A resolution involving the Meeting House Creek stormwater and wetland restoration project rebid was tabled because pricing was not yet finalized.",
+          "The board awarded a bid for a dump truck for the overhead water district and separately authorized notice of a public hearing to establish sewer rents for town facilities for 2023 and 2024.",
+          "A license agreement addendum with a driving school to use a portion of the runway at the town's Enterprise Park was pulled from the floor and adopted; the monthly rent increases from $6,000 to $7,500 and the term extends through the end of next year.",
+          "The board accepted a Suffolk County Jumpstart grant and authorized a second extension of a license agreement with a local exterior fabrication business.",
+          "A GIS technician position was ratified, filling a role board members said has long been absent from town staffing.",
+          "Brian Mills was reappointed to the Board of Assessment Review."
+        ]
+      },
+      {
+        "heading": "Public hearings & comment",
+        "items": [
+          "Public hearings were held on raising building-permit-violation fines to a range of $1,000–$3,000, up from a $500 maximum unchanged since 1989; all hearings were kept open for written comment until December 2, 2024.",
+          "Public hearings were held on raising rental-permit-violation fines to $2,000–$3,000 for a first offense, $3,000–$4,000 for a second, and $4,000–$6,000 for a third offense.",
+          "A series of public hearings covering industrial zoning code amendments—eliminating Industrial A and C districts, creating a Calverton Industrial district and expanding Light Industrial zoning, adopting a use table based on federal SIC codes, prohibiting truck terminals and last-mile distribution facilities, reducing maximum allowable development by about 25%, and rezoning several parcels from industrial to residential, open space, or hamlet center—drew multiple public speakers who raised concerns about traffic, native landscaping, dark-sky lighting standards, environmental justice, and the need for independent review of cell tower health data.",
+          "A speaker urged the board not to schedule a public hearing on a water park application until related court proceedings are resolved.",
+          "A newly formed Wading River community group asked the board to hire an independent consultant to evaluate the proposed cell tower application rather than relying solely on materials submitted by the applicant."
+        ]
+      }
+    ]
+  }
 }

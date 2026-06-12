@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2024-06-04, category:Town Board">
@@ -25,6 +25,23 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/2561" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/2561/files/agenda/2424" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Riverhead Town Board met on June 4, 2024, appointing two new full-time police officers, advancing a major sewer district biosolids project bond, and passing more than 40 resolutions covering staffing, grants, road resurfacing, and special events.</p>
+      <h3>Key actions</h3>
+      <ul><li>The board unanimously appointed two probationary officers to full-time positions in the Riverhead Police Department, with one officer sworn in by a town council member who is his parent.</li><li>The board approved a bond authorization amendment for the Riverhead Sewer District biosolids improvement project, now set at $18,650,000, and approved a related public interest order.</li><li>A public hearing on the sewer district biosolids bond was kept open for written comment until June 14 at 4 p.m.</li><li>A proposed resolution (556) related to land use was tabled by a 3-2 vote so board members could review it further; it will be discussed at Thursday&#x27;s work session.</li><li>The board adopted road resurfacing grant budgets under the CHIPS, Pave NY, and EWR programs for 2024-2025.</li><li>The board approved a SEQRA negative declaration and lead agency designation for the Meetinghouse Creek Wetland Restoration project.</li><li>A public hearing was scheduled on a zoning code amendment regarding alternative pervious parking techniques; the board directed staff to add discretionary language before re-noticing, after a speaker argued the current draft would inadvertently push compliant projects into variance proceedings.</li><li>An emergency bonding resolution (562) to support a grant application for wellhead treatment at Water District Well 5-2A was adopted, with a public hearing set for June 14, 2024.</li></ul>
+      <h3>Public hearings &amp; comment</h3>
+      <ul><li>A public hearing on increasing and improving the Riverhead Sewer District was held; staff said the biosolids project is projected to save the town $10.5 million over its lifecycle and reduce solid waste disposal by 80%.</li><li>A public hearing on a zoning amendment for alternative pervious parking techniques was held and will be re-noticed after staff revises the draft language.</li><li>A previously scheduled public hearing on special permit provisions for family dwellings was canceled due to incomplete public notice requirements.</li><li>Two members of the public spoke during open comment urging the board to preserve the Long Island Science Center&#x27;s downtown location rather than proceed with any eminent domain action.</li></ul>
+      <h3>Money</h3>
+      <ul><li>The sewer district biosolids project bond was amended to $18,650,000, up from an earlier $16 million estimate, with staff attributing roughly 75% of the increase to material and labor cost rises since 2019.</li><li>Staff reported the biosolids project will reduce annual sludge handling costs from $1.2 million to $500,000 and yield net savings of approximately $96,000 per year during the 20-year bond repayment period.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/9f3516b8-9ef9-4cc0-9be1-f655bc4e0035.mp4" type="video/mp4">
@@ -1250,6 +1267,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

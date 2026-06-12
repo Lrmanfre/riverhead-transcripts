@@ -26,5 +26,11 @@
       "end": 359.98,
       "text": "[transcription gap]"
     }
-  ]
+  ],
+  "summary": {
+    "status": "too_short",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T02:08:49+00:00",
+    "words": 2
+  }
 }

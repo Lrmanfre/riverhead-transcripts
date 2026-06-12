@@ -7526,5 +7526,43 @@
       "end": 4261.54,
       "text": "[transcription gap]"
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T02:11:48+00:00",
+    "agenda_grounded": false,
+    "tldr": "The board reviewed the 2025 tentative budget, which pierces the state tax cap by 4.14% for the general fund, and discussed a proposed 190-foot cell/communications tower at the Wading River Fire Department headquarters that would improve emergency radio and cellular coverage.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "The supervisor presented the 2025 tentative budget; total appropriations for the town operating fund are $109,519,600, an increase of about $5.9 million over 2024.",
+          "The general fund exceeds the state tax cap by 4.14%; all other taxing districts remain within the cap.",
+          "The board discussed initiating SEQRA Type 1 classification and scheduling a Monroe balancing-test public hearing for Elite Towers' proposed 190-foot communications pole at the Wading River Fire Department headquarters on North Country Road.",
+          "Staff indicated two resolutions would be prepared for the October 1 meeting: one to classify the cell tower project as a Type 1 SEQRA action and one to schedule the Monroe hearing, tentatively set for October 16.",
+          "The police department accepted a donation of two used Harley-Davidson motorcycles from Suffolk County.",
+          "A police department employee, Danielle Wilsey, was promoted to captain.",
+          "The board approved a final CSEA 2023–2025 contract and a new dental plan MOA covering multiple bargaining units.",
+          "Resolutions advanced a road-opening permit fee increase from $200 to $300 and an abandoned-cart fee increase from $125 to $175."
+        ]
+      },
+      {
+        "heading": "Money",
+        "items": [
+          "For a property valued at approximately $720,000, the proposed town-wide tax increase amounts to roughly $288 per year.",
+          "Residential solid waste costs would rise approximately $5.25 per month.",
+          "Major drivers of the general fund increase include police salaries, New York State retirement rate hikes, a 9% health insurance increase, new vehicles, debt service on the town hall building, and new radio equipment required by Suffolk County's bandwidth change."
+        ]
+      },
+      {
+        "heading": "Discussed",
+        "items": [
+          "Fire commissioners and the Elite Towers attorney described the Wading River area's poor radio and cell coverage as a direct public-safety problem, citing inability to transmit cardiac telemetry and loss of radio contact during active structure fires.",
+          "Board members discussed tracking how approved development projects affect the town's tax base over time as a way to offset future tax increases."
+        ]
+      }
+    ]
+  }
 }

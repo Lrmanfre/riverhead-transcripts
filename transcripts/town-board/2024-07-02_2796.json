@@ -11646,5 +11646,39 @@
       "end": 7196.5,
       "text": "I'll head [transcription gap]"
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T02:49:27+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Town Board approved legal action against a waterfront business (Scott's Point) and against a neighboring town over a sewer plant dispute, extended the Calverton industrial moratorium by three months, and passed roughly four dozen resolutions covering budgets, personnel, and upcoming public hearings.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "The board authorized the town attorney to commence legal action against the owner of the waterfront business at 5835 Middle Country Road, Calverton, known as Scott's Point, over multiple code and environmental violations.",
+          "The board ratified authorization to retain outside legal counsel and file suit against the Town of Southampton related to a sewer treatment plant project.",
+          "A three-month extension of the Calverton industrial moratorium was proposed; the public hearing was closed with written comments accepted until July 10, after which it goes to the Planning Commission before a vote.",
+          "Two public hearings were opened and kept open for written comment until July 12 on proposed local laws regulating satellite earth stations as a special-permit use in industrial and planned development zones.",
+          "A bond resolution appropriating $2,260,000 was adopted.",
+          "A new Emerging Technology Committee was established and initial members were appointed.",
+          "A code enforcement officer was provisionally appointed, and the board noted weekend and on-call code enforcement coverage is now in place.",
+          "The board approved fireworks applications for the Jamesport Fire Department (July 20) and Riverhead BID (July 5), and approved a short-term runway use agreement for a 2024 summer classic event at the racetrack.",
+          "The board set a public hearing for a special permit and site plan application for a professional office at 374 Main Road, Aquebogue, and issued a negative SEQRA declaration for that project.",
+          "Public hearings were scheduled on proposed amendments to town code sections covering bed-and-breakfast facilities, peddling and soliciting, and noise and property maintenance variances."
+        ]
+      },
+      {
+        "heading": "Public hearings & comment",
+        "items": [
+          "Residents and an environmental group spoke in support of extending the Calverton industrial moratorium, citing concerns about density, air quality, traffic, water supply, and the area's environmental justice designation.",
+          "An environmental advocate urged the board to revisit density reduction and distribution-center analysis before closing out the comprehensive plan's environmental review.",
+          "A Creek Road resident asked the board to enforce residency and parking rules at a private beach area where large crowds are creating safety and ecological hazards, including incidents requiring Coast Guard and civilian boat rescues.",
+          "Residents from Fishel and Newton Avenues described persistent loud-party noise, overcrowding of single-family rental homes, and unsupervised young children near a busy road, and asked code enforcement to investigate specific addresses."
+        ]
+      }
+    ]
+  }
 }

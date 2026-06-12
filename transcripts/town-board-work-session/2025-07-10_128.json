@@ -4761,5 +4761,36 @@
       "end": 3728.72,
       "text": "Thank you."
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T02:26:15+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Riverhead Town Board work session covered a proposed affordable housing overlay district using TDRs, updated plans for a new Riverhead Volunteer Ambulance Corps headquarters, a Riverhead in Action video segment, and a slate of routine resolutions scheduled for the July 15 meeting.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "The board directed staff to move the proposed Community Benefit District affordable housing overlay forward for a resolution and public hearing on July 15.",
+          "The board reviewed updated plans for a new modular-style, three-story Riverhead Volunteer Ambulance Corps building and directed staff and the town attorney to prepare a request for bids (RFP/RFQ).",
+          "A resolution authorizing a state Consolidated Funding Application (CFA) for up to $1.3 million from DEC and New York State Parks toward the Riverfront Amphitheater project was included in the upcoming resolution package.",
+          "A public hearing was scheduled regarding an unsafe structure at 401 7th Street, Wading River (Tax Map 600-52-2-23.1).",
+          "A local law amending Chapter 105 of the Town Code regarding the Traffic Violations Bureau was placed on the resolution list.",
+          "The board entered executive session to discuss personnel, code enforcement legal matters, a contractual agreement with the Peconic Hockey Foundation, and the sale of real property."
+        ]
+      },
+      {
+        "heading": "Discussed",
+        "items": [
+          "The overlay district requires a minimum 10-acre parcel with 800 linear feet of frontage on a state or county arterial highway; density above the as-of-right baseline must be unlocked through Transfer of Development Rights (TDRs), with 30% of required TDRs supplied by the county.",
+          "Board members asked that staff also explore a separate, simpler code pathway for smaller ownership units targeting single individuals and young families, with a reduced minimum unit size below 1,200 square feet.",
+          "The new ambulance building is designed as a modular three-story structure with a full basement, drive-through bays, a decontamination wash bay connected to the sewer, and rooftop antenna placement; a height variance above the standard 35-foot limit will be required.",
+          "Ambulance officials stated they hope to cover the bond debt service through billing revenues and private donations so as not to draw directly from taxpayers, though no cost figure has been determined yet.",
+          "Resolutions on the July 15 agenda include pickleball court resurfacing at Veterans Memorial Park, acceptance of a cargo truck for the police department, a youth mentoring grant submission, multiple special event permits, street lighting bid award, and a sludge disposal application."
+        ]
+      }
+    ]
+  }
 }

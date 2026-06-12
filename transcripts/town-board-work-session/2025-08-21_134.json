@@ -11556,5 +11556,49 @@
       "end": 6490.66,
       "text": "Thank you."
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T02:28:10+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Town Board work session covered an Agricultural Advisory Committee wish list, a motocross track environmental review, monthly reports from the police, justice court, code enforcement, and town clerk, and briefly discussed upcoming local events before adjourning to executive session.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "The board directed the TDR committee to meet jointly with the Agricultural Advisory Committee and planning staff to advance the transfer of development rights program, with a draft TDR bank account structure expected to be circulated within two weeks.",
+          "The board directed planning staff to prepare a positive declaration (SEQRA) and draft scope for the Duffy MX Motocross track application at 2822 River Road, Calverton, formally initiating an Environmental Impact Statement process.",
+          "The board will explore requiring the motocross applicant to bond or escrow sand-sale revenue until a certificate of occupancy is obtained, to ensure the track is completed rather than the site left as an excavated pit.",
+          "The board discussed referring subdivision and site plan applications adjacent to agricultural land to the Agricultural Advisory Committee for review, and planning staff indicated this could be arranged."
+        ]
+      },
+      {
+        "heading": "Discussed",
+        "items": [
+          "The Agricultural Advisory Committee presented a wish list including: restoring annual burn permits for farmers without a fee, keeping bulk fuel storage exempt from town oversight, improving disclosure to homebuyers near farms about right-to-farm laws, resolving a preserved-land easement issue for one farming family, allowing farm stays of one to five units on bona fide commercial farms, and urging the town to follow New York State Agriculture and Markets definitions for controlled-environment agriculture.",
+          "Four involved agencies responded to coordinated SEQRA review for the motocross track: the Pine Barrens Commission flagged a 40-percent open-space requirement; the DEC raised potential mine-land reclamation permit issues and noted nearby tiger salamander habitat; the Health Department had no significant comments; and the Suffolk County Planning Commission cited potential adverse impacts to prime agricultural soils and groundwater.",
+          "A code enforcement lawsuit filed against the owner of a commercial property on Royal Avenue prompted the owner to arrange an on-site inspection with an asphalt contractor to address long-outstanding parking lot maintenance required by their site plan.",
+          "A contempt motion was filed against the owner of an illegally occupied Wading River house after the owner failed to vacate by the court-ordered July 31 deadline; daily fines will be sought."
+        ]
+      },
+      {
+        "heading": "Money",
+        "items": [
+          "Justice court dispositions for July totaled approximately $30,250 in fines and surcharges, including amounts related to blight mitigation, human services, parking, fire marshal tickets, and other matters; figures are dispositions, not necessarily collected amounts.",
+          "The town's sand removal fee would generate an estimated $400,000–$500,000 to the town from the approximately 120,000 cubic yards proposed to be excavated at the motocross site."
+        ]
+      },
+      {
+        "heading": "Affects residents",
+        "items": [
+          "Criminal incidents in Riverhead dropped from 228 in July 2024 to 141 in July 2025 according to police department figures.",
+          "All Riverhead police officers now have body cameras deployed and operational.",
+          "The police chief noted coastal flooding risk in low-lying areas of Jamesport and downtown during high tides related to Hurricane Erin, and directed residents to the town website's emergency preparedness page for shelter locations and an interactive storm surge zone map.",
+          "Public urination and open-alcohol violations in the downtown area are trending downward, which police attribute to increased officer presence."
+        ]
+      }
+    ]
+  }
 }

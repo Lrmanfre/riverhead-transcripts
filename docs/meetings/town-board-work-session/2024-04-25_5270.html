@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2024-04-25, category:Town Board Work Session">
@@ -25,6 +25,23 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/5270" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/5270/files/agenda/5108" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Town Board work session covered the release of the final draft comprehensive plan and draft Generic Environmental Impact Statement for public review, plus updates on water conservation, a new veteran tree-planting program, ice rink improvements, and various committee reports.</p>
+      <h3>Key actions</h3>
+      <ul><li>The board accepted the final draft comprehensive plan and draft Generic Environmental Impact Statement (GEIS) to begin the public review period.</li><li>A joint public hearing on the comprehensive plan and the GEIS is scheduled for May 20th, with written comments accepted for at least 10 days after.</li><li>Both documents will be posted online and the public comment period on the GEIS will run 39 days.</li><li>A veteran cherry blossom tree program for Veterans Memorial Park in Calverton is being proposed, with resolutions planned for the next town board meeting; trees cost $675 each (tree, granite marker, and installation) and are funded entirely by donations.</li><li>Peconic Hockey is seeking building permits for sidewalks, a concrete pad, an expanded Zamboni garage, and outdoor locker rooms at the ice rink, all funded through private donations at no cost to the town.</li></ul>
+      <h3>Discussed</h3>
+      <ul><li>The Riverhead Water District superintendent presented water conservation tips for irrigation systems and outlined the district&#x27;s tiered water rate structure, which charges higher rates above 90,000 gallons per quarter for standard residential accounts.</li><li>Board members discussed the three-year waiting period before a homeowner can add an accessory dwelling unit and expressed interest in changing that code.</li><li>Staff noted efforts to update town fines across multiple departments, with fire marshal fee revisions already showing increased revenue.</li><li>Tax Grievance Day is May 21st at Town Hall from 10 a.m. to noon and 6 p.m. to 8 p.m.</li><li>A household hazardous waste STOP collection event is scheduled for Saturday, May 4th at the town highway grounds on Osborne Avenue.</li></ul>
+      <h3>Affects residents</h3>
+      <ul><li>Residents can purchase a veteran cherry blossom tree for $675 to honor any veteran or active-service member; checks will be payable to the Town of Riverhead once the program is formally established.</li><li>Residents wanting to grieve their property tax assessment must appear at Town Hall on May 21st between 10 a.m. and noon or 6 p.m. and 8 p.m.</li><li>An anti-litter spring cleanup is scheduled for this Sunday at 9 a.m. at Town Hall.</li><li>Beach stickers are available at the new Town Hall, and beach rules including a bathing suit requirement are being highlighted for the season.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/2adf933d-acf4-4c7f-9f8f-a49a3674961d.mp4" type="video/mp4">
@@ -1570,6 +1587,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

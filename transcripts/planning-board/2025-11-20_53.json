@@ -6876,5 +6876,35 @@
       "end": 4701.06,
       "text": "Thank you."
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T01:55:03+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Riverhead Planning Board approved seven resolutions at its November 20 meeting, covering a farm stand, a covenant amendment, a medical office, a canopy plan, a cross-access site plan, a subdivision extension, and acceptance of a final environmental impact statement for a mixed-use development in Calverton.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "The board approved a farm stand on a vineyard property, classifying it as a Type 2 action under SEQRA; the stand may sell up to 40% non-farm Long Island food and beverage products alongside farm-derived goods.",
+          "The board approved a covenant amendment for Lot 31 of the Reeves Farm subdivision, allowing the use of vinyl cedar-impression siding in place of the natural wood materials required by a 2002 restriction.",
+          "The board granted final site plan approval to 27 Waves LLC for an approximately 8,700-square-foot one-story medical office on Commerce Drive, with a future cross-access easement to the neighboring shopping center shown on the plans.",
+          "The board approved site improvements at 393 Pulaski Street, permitting a physical therapy office to pave its existing gravel parking lot, add drainage, and update lighting.",
+          "The board approved a hip-roof canopy plan for the gas station at 4129 Middle Country Road, satisfying the last condition of an earlier administrative approval.",
+          "The board accepted the Final Environmental Impact Statement for the TKOC Real Estate Holdings project, a proposed mixed-use development on a 15.8-acre parcel on Middle Country Road in Calverton that includes roughly 30,000 square feet of ground-floor commercial space, 36 one-bedroom apartments, seven single-family lots, and a sewage treatment plant; findings by the board are the next step.",
+          "The board granted a 90-day extension for the Malice Property minor subdivision."
+        ]
+      },
+      {
+        "heading": "Discussed",
+        "items": [
+          "For the Cauliflower Square project, staff described amendments to the previously approved Chick-fil-A portion of the site, including a reduced building footprint, fewer seats, loss of outdoor seating, a reduced parking count, and a reoriented building; no resolution was presented because staff wants a revised landscaping plan before final approval.",
+          "For TKOC, board members debated whether to require the mixed-use building to be reoriented so apartments face away from Route 25, but the applicant argued the current orientation is preferred for commercial visibility and residential parking separation; no change to the proposed layout was required at this meeting.",
+          "A proposed 3,900-square-foot warehouse at 52 Main Road was presented for discussion; the project requires a use variance from the Zoning Board of Appeals before the Planning Board can act, and staff noted concerns about dumpster placement near an adjacent residence and the need for additional landscaping."
+        ]
+      }
+    ]
+  }
 }

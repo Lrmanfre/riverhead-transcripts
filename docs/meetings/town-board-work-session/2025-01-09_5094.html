@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2025-01-09, category:Town Board Work Session">
@@ -25,6 +25,23 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/5094" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/5094/files/agenda/4932" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Riverhead Town Board work session covered a new bee-themed recycling receptacle for downtown, a new online rental permit portal, and a CDA recap showing $33.25 million in grants secured in 2024.</p>
+      <h3>Key actions</h3>
+      <ul><li>The board agreed to accept a donation from the North Fork Environmental Council to fund a second &#x27;Litter Critter&#x27; recycling sculpture, shaped like a bee, to be installed near the community garden at Main Street and Griffin Avenue in spring 2025; a resolution accepting the donation will be prepared.</li><li>Code Enforcement demonstrated a new online rental permit application portal through OpenGov that allows landlords to apply, upload documents, and pay fees electronically, replacing handwritten paper applications.</li><li>The board went into executive session to discuss a possible lease of town-owned property, litigation in a matter involving Romano J. et al. versus Elite Towers et al., and a potential change in employment status for an employee.</li></ul>
+      <h3>Money</h3>
+      <ul><li>The Community Development Agency reported securing $33,254,000 in grants during 2024, with the largest share being a roughly $24 million RAISE grant for a parking garage and Main Street improvements.</li><li>Other 2024 grants included $97,000 from Suffolk County for a Town Square splash pad, CDBG funds for home improvement programs for low-income seniors, water quality grants, and a riverfront lighting grant.</li><li>CDA outlined 2025 funding targets including a Safe Streets for All planning grant, Pro Housing infrastructure funds, a $75,000 New York State Archives records-management grant, BioSolids funding, and continued water grants.</li></ul>
+      <h3>Discussed</h3>
+      <ul><li>The board discussed plans to recruit volunteers and community-service participants to collect recyclables from the new downtown bee sculpture, since Parks and Rec does not currently service that area.</li><li>A Riverhead in Action segment highlighted free public skating sessions at the Peconic Hockey ice rink, described as sold out with roughly 70 children attending.</li><li>The supervisor noted that flags should fly at half-staff in observance of the national day of mourning for former President Jimmy Carter, and recognized January 9 as National Law Enforcement Day.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/84cce5a4-a9da-4059-a823-f49727f63308.mp4" type="video/mp4">
@@ -1445,6 +1462,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

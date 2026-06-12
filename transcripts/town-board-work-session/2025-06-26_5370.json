@@ -12481,5 +12481,44 @@
       "end": 8308.88,
       "text": "you"
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T02:26:46+00:00",
+    "agenda_grounded": false,
+    "tldr": "The town board held a work session covering a detailed presentation on the planned Main Street streetscape redesign funded by a federal RAISE grant, reviewed a mixed-use building addition application near McDermott Avenue with unresolved parking questions, and heard a battery energy storage system site plan application for a small facility at EpCal.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "The board received an update on the East Main Street streetscape improvement project covering approximately 770 linear feet from Roanoke Avenue to East Avenue, funded in part by a $750,000 DRI grant for design work.",
+          "Staff reported that a federal RAISE grant contract of approximately $10 million is expected to be executed within roughly 60 days, which would allow the streetscape and related downtown projects to move toward construction.",
+          "The streetscape plan includes widened sidewalks, shortened crosswalks, narrowed travel lanes, new street lighting, street trees, buried utility lines from East Avenue to a driveway near the diner, and a HAWK pedestrian signal near the Suffolk Theater.",
+          "Approximately 11 on-street parking spaces on Main Street would be removed under the current plan.",
+          "The board reviewed a site plan application for a four-story mixed-use addition at 301 East Main Street and 12 McDermott Avenue that would add six two-bedroom apartments and roughly 1,000 square feet of ground-floor commercial space to a previously approved building.",
+          "Staff noted the combined project would generate a code-based need for approximately 13 additional parking spaces while providing only two, and raised the possibility of a payment-in-lieu-of-parking requirement; no decision was made.",
+          "The board reviewed a site plan and special permit application for a five-megawatt battery energy storage system at 221 Scott Avenue in Calverton; no action was taken pending comments from Manorville Fire Department and the state DEC.",
+          "The board was presented with a resolution list that included accepting a $1.4 million New York State ESD grant for the Town Square Riverfront Amphitheater and approving fireworks applications for events on July 18 and July 19."
+        ]
+      },
+      {
+        "heading": "Money",
+        "items": [
+          "A $1.4 million New York State ESD grant for the Town Square Riverfront Amphitheater was listed for acceptance by resolution.",
+          "A payment-in-lieu-of-parking figure of roughly $12,000–$15,000 per space was discussed as a possible condition for residential developments that provide no on-site parking, though no rate has been formally adopted."
+        ]
+      },
+      {
+        "heading": "Discussed",
+        "items": [
+          "Board members raised questions about whether plowable speed-table crosswalks like those used in Westhampton Beach could be permitted by the state DOT on Route 25; staff agreed to seek an answer.",
+          "The town will take over maintenance of the improved Main Street segment from Roanoke Avenue to East Avenue as a condition of the state permit, while the DOT retains jurisdiction over signage standards.",
+          "A planned 504-space modular parking garage north of Main Street was described as expandable and expected to be designed once the RAISE grant contract is executed; it will be a paid facility.",
+          "A shuttle service to bring visitors from outlying parking areas to Main Street during construction was mentioned as under consideration in coordination with the chamber of commerce."
+        ]
+      }
+    ]
+  }
 }

@@ -18151,5 +18151,44 @@
       "end": 9753.2,
       "text": "It is a town board."
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T03:01:16+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Town Board voted to demolish a long-deteriorated unsafe structure in Wading River, designated J. Petrucelli Riverhead Town Square LLC as qualified and eligible master developer for the town square project, and passed roughly four dozen administrative and land-use resolutions.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "The board unanimously adopted a resolution directing demolition of a condemned, abandoned structure at 401 7th Street, Wading River, after testimony from the senior town investigator and town engineer described a collapsed roof, fire hazards including a car and gas can in the garage, evidence of squatters, and risk of wind-blown debris to neighboring homes.",
+          "A public hearing on the unsafe structure was formally closed without being left open for written comment before the demolition vote.",
+          "A public hearing was opened and then closed through August 15, 2025 for written comment on proposed amendments to Chapter 301, Community Benefit Zoning Use District, which would expand potential eligible parcels from roughly three to roughly eight and remove the requirement to connect to the Riverhead Sewer District.",
+          "The board designated J. Petrucelli Riverhead Town Square LLC as qualified and eligible sponsor for purchase and development of town-owned property on the south side of Main Street for a project described as including a 76-room hotel, retail, a riverfront restaurant, plaza, playground, and amphitheater.",
+          "A conveyance of approximately 2,785 square feet of Riverhead Public Parking District No. 1 property to the Town of Riverhead related to the town square parcels was approved.",
+          "The board scheduled a public hearing on an unsafe structure at 39 Pye Lane, Jamesport.",
+          "A resolution authorizing a public hearing for a Monroe balancing test regarding the Suffolk County Water Authority's proposed North Fork water main extension was adopted; a related public forum is set for August 13 at 6 p.m. and a public hearing for August 19 at 6 p.m.",
+          "The board adopted a local law amending the shopping carts chapter and authorized public hearing notices for proposed code changes covering noise, fire prevention penalties, vehicle and traffic penalties, site plan review, a cannabis retail moratorium, and the business center zoning use district.",
+          "A budget amendment for capital project 72306 covering the Vietnam Veterans Memorial Recreation Path bike trail restoration was adopted, with the town engineer confirming repair work is ready to proceed.",
+          "A representative of Peconic Hockey Foundation's skating rink lease raised on the record that audited financial statements required under the agreement are 16 months overdue for 2023 and four months overdue for 2024; the town attorney acknowledged the default and said the matter would be brought to executive session."
+        ]
+      },
+      {
+        "heading": "Money",
+        "items": [
+          "The board authorized a funding application to the Dormitory Authority of New York State for capital improvements to the George Young Community Center.",
+          "An agreement was authorized to accept funds from the Suffolk County Office for the Aging to supplement the town's expanded in-home services for the elderly program.",
+          "A rebid was awarded for water main installation and appurtenances at 205 Osborne Avenue."
+        ]
+      },
+      {
+        "heading": "Public hearings & comment",
+        "items": [
+          "Multiple speakers supported the Petrucelli town square designation; several others questioned the process, contending a financial summary memo was not posted publicly before the vote and that the board signaled its decision before the written comment period closed."
+        ]
+      }
+    ]
+  }
 }

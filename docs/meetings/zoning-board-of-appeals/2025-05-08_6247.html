@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2025-05-08, category:Zoning Board of Appeals">
@@ -25,6 +25,19 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/6247" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/6247/files/agenda/5689" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Riverhead ZBA granted variances for three residential properties and closed the public comment period on a cannabis dispensary application, with a decision reserved for June 12, 2025.</p>
+      <h3>Key actions</h3>
+      <ul><li>Appeal 2025-006 (George Elia, 71 Pine Avenue, Aquebogue): The board re-opened and granted rear yard setback and related variances, conditioned on the roofed overhang remaining an unenclosed porch, removal of a small platform along the property line, and all prior conditions from the March 2025 determination remaining in effect.</li><li>Appeal 2025-015 (Deborah Thompson, 6 Gladys Road, Wading River): Variances for a proposed single-family dwelling were granted, including front yard, rear yard, and side yard abutting street setbacks, with a condition that the rear yard vegetative buffer required by the 2022 ZBA determination be maintained.</li><li>Appeal 2025-017 (Lawrence Luce, 752 Soundshore Road, Jamesport): Variances to legalize an existing side-yard deck near a bluff were granted, conditioned on no further encroachment into the coastal erosion hazard area and no foundation added beyond the existing footings.</li><li>The cannabis retail dispensary application for 1086 Old Country Road (Appeal seeking relief from the 1,000-foot school proximity rule) had its written comment period closed; a decision is reserved for the June 12, 2025 ZBA meeting.</li><li>The May 22, 2025 ZBA meeting is canceled due to no pending appeals; the next meeting is June 12, 2025.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/f7588611-269f-4f7e-baba-499fde6fe583.mp4" type="video/mp4">
@@ -610,6 +623,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

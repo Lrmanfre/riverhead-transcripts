@@ -10841,5 +10841,29 @@
       "end": 5737.52,
       "text": "This concludes our meeting, you guys."
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T04:23:37+00:00",
+    "agenda_grounded": false,
+    "chunked": false,
+    "tldr": "The Riverhead Town Board held its first meeting of 2026 under new Supervisor Halpin, adopting a large batch of salary, appointment, and organizational resolutions while tabling two recreation salary items and discussing ongoing projects including a new RBAC ambulance facility and a proposed YMCA at the Route 58 armory.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "The board adopted 2026 salary resolutions for elected officials, general town employees, highway, police, sewer, street lighting, water district, and various board members, with amendments reducing the legislative aide and assistant recreation superintendent salaries to match budgeted amounts.",
+          "Two recreation salary resolutions were tabled because the figures were not consistent with the adopted budget.",
+          "The board reappointed the chairman and vice chairman of both the Planning Board and Zoning Board of Appeals, along with individual members of each board.",
+          "The board authorized a memorandum of understanding with Suffolk County and the Suffolk County Sheriff related to Flock Safety cameras.",
+          "The board approved a budget transfer for 2025 legal fees related to a multi-municipality even-year election law case.",
+          "A public hearing notice for a proposed zoning code amendment adding a 'golf cottages' definition was approved, with the town attorney directing that the full text of the proposed change be published alongside the notice after a public commenter raised concerns about lack of transparency.",
+          "The board accepted retirements of a police sergeant, a public safety dispatcher, and a heavy equipment operator, and acknowledged new staff appointments including a Chief of Staff and a legislative aide for the supervisor.",
+          "A court contempt ruling against a landlord operating an illegally occupied rental property resulted in maximum fines of $1,000 with a sentencing hearing scheduled for January 13th where the town will seek reimbursement of enforcement costs."
+        ]
+      }
+    ]
+  }
 }

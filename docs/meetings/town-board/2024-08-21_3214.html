@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2024-08-21, category:Town Board">
@@ -25,6 +25,23 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/3214" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/3214/files/agenda/3077" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Town Board voted to table adoption of the 2024 Comprehensive Plan Update until the September 4th meeting after staff discovered the document posted online was an earlier, incorrect version. The board also cited public requests for more review time as a factor in the delay.</p>
+      <h3>Key actions</h3>
+      <ul><li>The board voted unanimously to table Resolution 760, which would have issued a findings statement and adopted the 2024 Comprehensive Plan Update, until the September 4th regular meeting.</li><li>The comprehensive plan item will be placed at the end of the September 4th agenda, meaning it will be heard in the latter part of that 2 p.m. meeting.</li><li>Staff confirmed the correct final version of the comprehensive plan will be posted on the town website, with a direct link added to the landing page for easy public access.</li></ul>
+      <h3>Public hearings &amp; comment</h3>
+      <ul><li>Multiple residents asked the board to move the September 4th meeting to 6 p.m. or hold an evening session to allow working residents to attend; the board said the regularly scheduled 2 p.m. time would not be changed.</li><li>A resident asked the board to remove agritourism-related sections from the comprehensive plan before the September 4th vote, arguing those sections did not emerge from the plan&#x27;s original public process.</li><li>A caller asked about the status of a Freedom of Information Act request related to agritourism and a Town Square project; staff said a response was prepared and would be released after review by the town attorney&#x27;s office.</li></ul>
+      <h3>Discussed</h3>
+      <ul><li>Staff clarified that adoption of the comprehensive plan does not automatically trigger zoning changes; each recommended change would require separate public hearings before being codified into law.</li><li>The board acknowledged the town website is difficult to navigate and said it is in the process of evaluating vendors to redesign it.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/a0fce58c-e4e1-4848-b8cb-dbaced3497d3.mp4" type="video/mp4">
@@ -663,6 +680,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

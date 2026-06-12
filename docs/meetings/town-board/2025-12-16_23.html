@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2025-12-16, category:Town Board">
@@ -25,6 +25,23 @@
     <div class="meta-row">79 min &nbsp;·&nbsp; <a href="https://riverheadny.portal.civicclerk.com/event/23" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/23/files/agenda/5881" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Town Board passed 62 resolutions at its December 16 meeting, covering personnel appointments, contract approvals, budget adjustments, and local law amendments. The meeting also served as a send-off for outgoing Supervisor Tim Hubbard.</p>
+      <h3>Key actions</h3>
+      <ul><li>The board approved a new CSEA collective bargaining agreement covering 2026–2029, with the supervisor citing the need to raise base salaries to help retain employees.</li><li>Two detectives were promoted within the police department.</li><li>A deputy highway superintendent was appointed and employment terms were set.</li><li>The board authorized a request for proposals for a construction manager for a new Riverhead Volunteer Ambulance Corporation headquarters, with construction targeted to begin in early spring and finish by late summer.</li><li>A contract with the Jazz Loft for operation of the Vale Levitt Music Hall was signed earlier in the week and announced at the meeting.</li><li>The board adopted local law amendments to zoning articles covering the Business Center and Shopping Center districts, fire prevention provisions, and traffic regulations.</li><li>A license agreement was authorized with Racetrack Knott Street LLC to use the runway at EPCAL, and a special event permit was approved for a 2026 Spring Fling at EPCAL.</li><li>A special Town Board meeting was announced for December 30 at 10 a.m. to act on a previously held public hearing regarding a proposed CDBG fund reallocation, after the required 30-day public comment period closes December 26.</li></ul>
+      <h3>Money</h3>
+      <ul><li>Budget adjustments were approved for two Water District capital projects, 2025 legal fees, and a police department drone grant.</li><li>The town receiver of taxes reported November 2025 utility revenue of approximately $464,000; the town clerk reported approximately $8,000 and the building department approximately $321,000 for the same period.</li><li>An RFP was authorized for audit services for the Town&#x27;s Community Preservation Fund.</li><li>A contract amendment was authorized accepting Suffolk County Office for the Aging funds to supplement the town&#x27;s elderly nutrition program.</li></ul>
+      <h3>Public hearings &amp; comment</h3>
+      <ul><li>No public hearings were scheduled for this meeting.</li><li>A commenter speaking on behalf of a business called Aquabog raised a question during the Community Development Agency portion of the meeting about whether an application for benefits from the Industrial Development Agency connected to the downtown hotel project had been disclosed to the public; a town official responded that the relevant contract document contemplates a potential IDA application.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/ff5c1ba81c.mp4" type="video/mp4">
@@ -1810,6 +1827,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

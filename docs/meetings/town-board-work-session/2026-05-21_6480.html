@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2026-05-21, category:Town Board Work Session">
@@ -25,6 +25,21 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/6480" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/6480/files/agenda/5988" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Town Board work session covered fire marshal arming and HAZMAT team formation, proposed streamlining of site plan review procedures, and downtown parking concerns raised by Suffolk Theater operators tied to the planned hotel and future parking garage.</p>
+      <h3>Key actions</h3>
+      <ul><li>The board moved to enter executive session to discuss contractual matters involving the Town of Riverhead and the Riverhead Housing Development Corp.</li><li>Staff will circulate draft use-of-force and firearms policies to CSEA and the town board before a future resolution is brought forward to authorize fire marshals to carry sidearms on duty.</li><li>The planning department asked the board to schedule a public hearing on proposed site plan code amendments that would create a clearer de minimis approval track and rename &#x27;administrative approvals&#x27; to &#x27;expedited approvals,&#x27; along with a revised planning fee schedule.</li></ul>
+      <h3>Discussed</h3>
+      <ul><li>Fire marshals, who are already sworn peace officers, presented a case for carrying town-issued firearms on duty, noting other Suffolk County agencies already do so; board members raised questions about psychological testing, liability, insurance costs, and off-duty carry rules.</li><li>A 50-page Hazardous Materials Emergency Response Plan was outlined, classifying the town as a Type 3 HAZMAT team using county-surplused trailers; the plan has been shared with local fire districts for feedback.</li><li>Operators of the Suffolk Theater raised concerns that parking demand from the proposed downtown hotel, combined with disruption during eventual parking garage construction, could severely impact their business and other downtown uses.</li><li>One theater operator proposed covering and draining the narrow alleyway connecting the rear parking area to Main Street to address ice, flooding, and pedestrian access issues; staff suggested meetings with the town engineer and the Community Development Agency to explore grant funding.</li><li>A board member noted that crosswalk safety near the theater, including lighted pedestrian crossing signals, is already being addressed by town staff.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/370a2088-9906-4963-aa89-1ab8c0256d94.mp4" type="video/mp4">
@@ -838,6 +853,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2024-05-02, category:Town Board Work Session">
@@ -25,6 +25,21 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/5283" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/5283/files/agenda/5121" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Town Board work session covered a presentation by a domestic violence services organization, two new expedited permit fee programs, a food scrap recycling expansion, and a walk-through of 58 upcoming resolutions for the May 7 town board meeting.</p>
+      <h3>Key actions</h3>
+      <ul><li>The board plans to vote on a $10,000 donation to The Retreat, a domestic violence and sexual abuse services organization based at 554 East Main Street in Riverhead, at the upcoming Tuesday town board meeting.</li><li>The board indicated approval of a resolution to create an expedited building permit review option, where applicants can pay additional fees to cover employee overtime so their permits are reviewed after hours without affecting others in the standard queue.</li><li>The Fire Marshal&#x27;s office is similarly seeking approval to update its accelerated services fee schedule to cover overtime costs for after-hours inspections and plan reviews.</li><li>The board reviewed a proposal to open a second food scrap drop-off location at George Young Community Center, joining the existing site in Calverton, which has collected over 20,000 pounds from roughly 80 registered residents in its first year.</li><li>Resolutions 1 through 5 on the upcoming agenda use 2023 budget surplus funds to pay off or rescind bond anticipation notes totaling roughly $2.4 million for town hall renovations and related projects, avoiding new borrowing.</li><li>Town beaches are proposed to be lifeguard-staffed from 11 a.m. to 6 p.m. starting Memorial Day weekend, moving to seven days a week beginning June 24.</li></ul>
+      <h3>Discussed</h3>
+      <ul><li>Representatives of The Retreat described services including a 24-hour bilingual hotline, an 18-bed shelter at an undisclosed location, free legal and financial counseling, and prevention education in local schools, noting Suffolk County has only 52 domestic violence shelter beds countywide.</li><li>Staff noted the food scrap program is part of the town&#x27;s effort to achieve Climate Smart Community bronze certification by 2025 and fulfills a state-required solid waste management plan obligation.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/2cfda618-0334-4a04-90ae-4dde8357120b.mp4" type="video/mp4">
@@ -1358,6 +1373,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

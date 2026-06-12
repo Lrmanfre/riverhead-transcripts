@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2024-01-17, category:Town Board">
@@ -25,6 +25,23 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/1378" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/1378/files/agenda/1241" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Riverhead Town Board held a lengthy January 17 meeting covering a $5 million water grant for PFAS-contaminated wells, several public hearings on shellfishing, zoning, solid waste, and park fees, and adopted more than three dozen resolutions on personnel, contracts, and code changes.</p>
+      <h3>Key actions</h3>
+      <ul><li>The board adopted a local law amending the waterways code to reopen East Creek to seasonal shellfishing for Riverhead residents only, with permits required from the town clerk at no fee, a daily limit of 100 hard-shell clams and half a bushel total, hours of 9 a.m. to 3 p.m. Monday through Friday, and no commercial harvesting.</li><li>The board authorized the supervisor to execute a 2024 conditional shellfish harvesting agreement with the New York State DEC.</li><li>The board adopted the final scope for the Town of Riverhead Comprehensive Plan Update, with an amendment removing the requirement to publish the full document in the official newspaper.</li><li>The board authorized an agreement with a company to operate floating upweller systems in East Creek.</li><li>The board authorized an RFP award and agreement for the Riverfront Adaptive Children&#x27;s Playground.</li><li>The board authorized an RFP and agreement related to the town square project with a company identified in the agenda.</li><li>A public hearing on amending the Manufacturers Outlet Center overlay zone to add retail, interior design showroom, and specialty grocery uses for the Tanger properties was kept open for written comment until January 26.</li><li>A public hearing on solid waste code changes, including new bundling requirements for carpets and mattresses and increased dumping fines tiered by location, was kept open for written comment until January 26.</li><li>Three combined public hearings on increasing park and recreation fees from $3,000 to $5,000 per residential unit and establishing flagship parks were kept open for written comment until January 26.</li><li>A public hearing on an unsafe structure at 29 East 2nd Street was adjourned to February 21 to allow the owner time to work with the building department on restoration or demolition plans.</li></ul>
+      <h3>Money</h3>
+      <ul><li>The town was awarded a $5 million federal infrastructure law grant for Water District Extensions 95 and 96 to address PFAS and PFOA contamination in private wells in the Middle Road, Toomey Avenue, and River Road areas.</li><li>Tax collection as of January 10 totaled approximately $70 million, and the December utility collection report totaled approximately $688,000.</li></ul>
+      <h3>Public hearings &amp; comment</h3>
+      <ul><li>Multiple residents and civic representatives urged the board to vigorously fight the EPCAL-related lawsuit and not settle; the supervisor and all board members stated publicly they intend to fight it to the end.</li><li>A local developer and other residents raised concerns that expanding permitted uses at Tanger, particularly allowing a sit-down restaurant, could harm Route 58 businesses and downtown; board members and counsel argued the restrictions in the proposed code are designed to prevent direct competition.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/8277d240-1ade-4ba2-a3d0-c2e61ea9231e.mp4" type="video/mp4">
@@ -2911,6 +2928,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

@@ -16151,5 +16151,44 @@
       "end": 9382.72,
       "text": "[transcription gap]"
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T03:05:20+00:00",
+    "agenda_grounded": false,
+    "tldr": "The board held a lengthy public hearing on a long-neglected unsafe structure at 39 Pye Lane in South Jamesport, ultimately voting to authorize its demolition. A dozen other resolutions were adopted, including one launching a new town website, one amending site-plan violation fines, and one approving the Community Benefit Zoning code amendment.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "The board authorized the demolition, removal, and abatement of the unsafe structure at 39 Pye Lane, Jamesport (tax map 672), with all members voting yes.",
+          "The board adopted a local law amending Chapter 301 site-plan review penalties, raising the fine floor from zero to $500 and the ceiling from $1,000 to $5,000; the hearing was kept open for written comment until September 14.",
+          "The board adopted a local law amending the Community Benefit Zoning Use District provisions of the town code (Chapter 301, Article 17A).",
+          "The board adopted local law amendments to Chapter 231 (Fire Prevention penalties) and Chapter 251 (Noise and Property Maintenance).",
+          "The board approved hiring a consulting building plans examiner (Brad Hammond) at the stated rate, after amending the resolution to correct the civil-service title from senior building inspector to building plans examiner; one member voted no citing a lower-cost alternative.",
+          "The board voted 4-1 to appoint a local farmer to the Agricultural Advisory Committee; the dissenting member stated on the record that the individual had repeatedly sought personal economic relief from the committee and used inappropriate language toward a board member.",
+          "The board approved publishing a request for proposals for a construction manager for a new Riverhead Volunteer Ambulance Corps headquarters building.",
+          "The board authorized 2025 bow hunting for deer at Enterprise Park in Calverton.",
+          "A capital project budget was adopted for improvements at Two Bears Park (Resolution 749)."
+        ]
+      },
+      {
+        "heading": "Public hearings & comment",
+        "items": [
+          "The town engineer testified that the structure at 39 Pye Lane is structurally compromised, open to the elements, a fire and wind-debris hazard to neighboring homes, and recommended immediate demolition; the bulkhead on the property was separately noted as severely deteriorated but was not part of the formal unsafe-structure notice.",
+          "The property owner, participating by video from Germany, stated willingness to hire a demolition contractor and sign a contract, but no contract had been signed as of the hearing date.",
+          "Neighbors testified the property has been neglected for many years and urged the board not to grant further delays.",
+          "The site-plan violation fine increase hearing drew no public speakers."
+        ]
+      },
+      {
+        "heading": "Discussed",
+        "items": [
+          "A resident asked the board to address speeding and vehicles parking in a road easement on Church Lane in Aquebogue; the police chief committed to assigning officers to the area."
+        ]
+      }
+    ]
+  }
 }

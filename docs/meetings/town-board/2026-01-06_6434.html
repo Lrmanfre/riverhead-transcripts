@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2026-01-06, category:Town Board">
@@ -25,6 +25,19 @@
     <div class="meta-row">95 min &nbsp;·&nbsp; <a href="https://riverheadny.portal.civicclerk.com/event/6434" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/6434/files/agenda/5894" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Riverhead Town Board held its first meeting of 2026 under new Supervisor Halpin, adopting a large batch of salary, appointment, and organizational resolutions while tabling two recreation salary items and discussing ongoing projects including a new RBAC ambulance facility and a proposed YMCA at the Route 58 armory.</p>
+      <h3>Key actions</h3>
+      <ul><li>The board adopted 2026 salary resolutions for elected officials, general town employees, highway, police, sewer, street lighting, water district, and various board members, with amendments reducing the legislative aide and assistant recreation superintendent salaries to match budgeted amounts.</li><li>Two recreation salary resolutions were tabled because the figures were not consistent with the adopted budget.</li><li>The board reappointed the chairman and vice chairman of both the Planning Board and Zoning Board of Appeals, along with individual members of each board.</li><li>The board authorized a memorandum of understanding with Suffolk County and the Suffolk County Sheriff related to Flock Safety cameras.</li><li>The board approved a budget transfer for 2025 legal fees related to a multi-municipality even-year election law case.</li><li>A public hearing notice for a proposed zoning code amendment adding a &#x27;golf cottages&#x27; definition was approved, with the town attorney directing that the full text of the proposed change be published alongside the notice after a public commenter raised concerns about lack of transparency.</li><li>The board accepted retirements of a police sergeant, a public safety dispatcher, and a heavy equipment operator, and acknowledged new staff appointments including a Chief of Staff and a legislative aide for the supervisor.</li><li>A court contempt ruling against a landlord operating an illegally occupied rental property resulted in maximum fines of $1,000 with a sentencing hearing scheduled for January 13th where the town will seek reimbursement of enforcement costs.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/feaa76bd5a.mp4" type="video/mp4">
@@ -2070,6 +2083,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

@@ -5401,5 +5401,35 @@
       "end": 4067.68,
       "text": "you"
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T01:55:43+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Planning Board discussed a proposed battery energy storage facility on Pulaski Street, granted sketch plan approval for a minor subdivision on Bluffs Drive, approved a coastal erosion permit for a Beech Hill Drive property, and classified a proposed 140-foot wireless tower at Baiting Hollow as a Type 1 action under environmental review.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "The board granted sketch plan approval for the 2 Bluffs Drive minor subdivision, with conditions requiring map revisions and additional stormwater and vegetation details before final approval.",
+          "The board approved a Chapter 219 coastal erosion permit for 24 Beech Hill Drive, allowing foundation repair and site restoration work to proceed under a New York State DEC order on consent.",
+          "The board voted to classify the Elite Towers wireless communication tower application at Baiting Hollow as a Type 1 action and directed staff to begin environmental review coordination among involved agencies.",
+          "Staff will issue a zoning denial letter for the Elite Towers application because the R80 zoning district does not permit telecommunications towers, requiring the applicant to seek a use variance from the Zoning Board of Appeals.",
+          "The next Planning Board meeting is scheduled for Thursday, May 7 at 6 p.m."
+        ]
+      },
+      {
+        "heading": "Discussed",
+        "items": [
+          "The board reviewed a preliminary site plan for a proposed approximately 5-megawatt battery energy storage system at 1281 Pulaski Street, noting the applicant reconfigured the layout to move all improvements outside wetlands jurisdiction.",
+          "Board members raised concerns about the facility's proximity to Stotzky Park, a nearby residential area, and town offices, and questioned whether alternative locations further from those uses had been considered.",
+          "The applicant stated the site was selected because PSEG identified the local feeder as needing locational relief, and described a requirement to sell 60 percent of energy credits to local residents and potentially 40 percent to a local entity such as the town.",
+          "Fire safety discussion covered thermal runaway propagation, a four-to-six-hour burn duration estimate for a full failure, the town's pending hazmat team, and the importance of simultaneous alarm notifications to emergency responders.",
+          "For the Elite Towers application, the board requested updated plans showing the clubhouse location, existing vegetation, topography, and photo simulations, and discussed options such as stealth coloring and co-location for additional carriers."
+        ]
+      }
+    ]
+  }
 }

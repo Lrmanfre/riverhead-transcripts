@@ -16856,5 +16856,39 @@
       "end": 9114.04,
       "text": "you"
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T03:11:39+00:00",
+    "agenda_grounded": false,
+    "tldr": "The board passed roughly 90 resolutions and voted 4-1 to affirm prior authorization to pursue acquisition—potentially through eminent domain—of the Long Island Science Center building at 111 East Main Street, over strong public objection; Supervisor Halpin cast the dissenting vote.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "The board voted 4-1 to affirm prior authorization for the town attorney to negotiate and execute agreements to acquire 111 East Main Street (the Long Island Science Center building), with Supervisor Halpin voting no and stating he preferred tabling the matter.",
+          "A public hearing would be required before any eminent domain proceeding can formally advance, according to a board member's clarification during public comment.",
+          "The board approved a bond authorization resolution related to the Wading River Highway Garage, subject to a permissive referendum.",
+          "The board approved a resolution calling for a public hearing on a water main extension in the Riverhead Water District at a property in Aquebogue.",
+          "The board adopted local law amendments to town code chapters covering building standards, vehicle and parking regulations, and fire prevention tenancy permits.",
+          "The town authorized a professional services agreement with a former judge to serve as an administrative law judge, filling a gap in adjudicating stop-school-bus violations.",
+          "The board authorized support for Suffolk County's application for state Environmental Bond Act funding to preserve land known as Venezia Square in Wading River as open space.",
+          "A resolution was untabled and adopted authorizing the supervisor to execute a non-binding project scope letter to PSE&G for redevelopment of the former Perkins building at 1129 West Main Street.",
+          "The board reappointed five members to the Anti-Bias Task Force and made multiple appointments to the Parking District Advisory Committee and other advisory bodies.",
+          "Scott Vance of the Highway Department was recognized as 2026 Employee of the Year for daily litter collection throughout the town.",
+          "The board ratified a name change for the Inclusion Task Force Advisory Committee to the Town of Riverhead Disability Advisory Committee."
+        ]
+      },
+      {
+        "heading": "Money",
+        "items": [
+          "Total tax collection as of March 19, 2026 was reported at $108,934,564.04.",
+          "Several residents criticized a tax bill increase they linked to a legal settlement on a golf course property assessment covering years 2008–2015, with one resident citing a roughly 160 percent increase on their bill.",
+          "A board member noted the nonprofit status of 111 East Main Street results in roughly $1,313 in annual taxes versus an estimated $47,000 if it were a commercial property."
+        ]
+      }
+    ]
+  }
 }

@@ -10961,5 +10961,39 @@
       "end": 5793.1,
       "text": "Thank you."
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T02:02:25+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Town Board work session covered three main topics: a spring litter cleanup planned for April 28, updates on the Art in a Park program including new sculptures and electrical upgrades to Grangeville Park, and a proposed town marketing campaign to highlight positive local news, businesses, and employees. The session closed with a move into executive session on personnel and contractual matters.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "The board committed to having Building and Grounds move litter cleanup supplies to an accessible location before the April 28 Earth Day cleanup and to designate drop-off points so highway staff can collect filled bags on Monday.",
+          "The board directed that code enforcement issue fines without prior warnings for repeat litter and illegal dumping violations, following recent increases to those fines.",
+          "The board confirmed that businesses and residents who spot shopping carts on public property should report them to highway, and that stores lacking required Wi-Fi wheel locks are subject to fines.",
+          "Electrical service in Grangeville Park is being upgraded from 100-amp to 200-amp with two new service drops; lockable master panels will control all outlets, ending unauthorized phone charging.",
+          "A DRI-funded lighted art installation is planned for the wooden walking bridge in Grangeville Park, targeting completion by the fall Oktoberfest event.",
+          "A large lighted stainless-steel sea turtle sculpture, approximately 14 feet tall, is ready to be installed in Grangeville Park.",
+          "A crescent-moon sculpture incorporating solar panels, being made in partnership with East End Arts, is also planned for the park.",
+          "Stony Brook University's engineering department agreed to take on the design of a large overhead kinetic marine-life sculpture as a student project, targeted for 2025.",
+          "The board discussed a town-wide marketing campaign to produce short video clips, departmental spotlights, business recognition features, and a 'Did You Know?' trivia series for Channel 22 and the town website.",
+          "Channel 22 improvements were presented, including scrolling news tickers, standardized meeting graphics with time and date stamps, a speaker countdown timer, and a new mobile camera for on-location video.",
+          "The board moved into executive session to discuss changes in status for three employees and two contractual matters."
+        ]
+      },
+      {
+        "heading": "Affects residents",
+        "items": [
+          "Volunteers for the April 28 Earth Day litter cleanup can meet at Riverhead Town Hall at 9 a.m.; supplies, vests, and bags will be provided.",
+          "Residents who witness illegal dumping or unsecured shopping carts are asked to report the address to code enforcement or the highway department.",
+          "Channel 22 programming will add informational flyers, town news tickers, and video segments viewable live and archived on the town website."
+        ]
+      }
+    ]
+  }
 }

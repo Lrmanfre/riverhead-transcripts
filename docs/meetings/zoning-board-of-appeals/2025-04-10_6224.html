@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2025-04-10, category:Zoning Board of Appeals">
@@ -25,6 +25,19 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/6224" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/6224/files/agenda/5666" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Zoning Board of Appeals approved two variance applications, withdrew a third, and voted to reopen a previously decided appeal for reconsideration at its May meeting.</p>
+      <h3>Key actions</h3>
+      <ul><li>Variances for a two-lot minor subdivision at 40 Manor Lane, Jamesport (40 Manor Lane LLC) were granted, with conditions including no further dimensional relief and extinguishing of the prior nonconforming commercial kennel use on Lot 2.</li><li>Variances for proposed additions to a cottage at 36 Kirby Lane, Jamesport (Barbara Capone) were granted, subject to Suffolk County Department of Health approval of a new sanitary system.</li><li>An appeal for 1165 East Main Street (Enrique Zambrano) was withdrawn by the applicant and not heard.</li><li>The board voted to reopen appeal 2025-006 for 71 Pine Avenue, Aquebogue, for reconsideration of a rear yard setback; it will be heard at the May 8, 2025 meeting.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/6d2c71b8-2ce0-4675-8f64-c6b7b332df77.mp4" type="video/mp4">
@@ -436,6 +449,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

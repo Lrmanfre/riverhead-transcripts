@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2024-08-20, category:Town Board">
@@ -25,6 +25,21 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/3201" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/3201/files/agenda/3064" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Town Board promoted a police lieutenant, swore in two new officers, and held a public hearing on a charter school&#x27;s request to add temporary classroom trailers at its Sound Avenue site. Dozens of resolutions covering personnel, equipment purchases, code amendments, and upcoming public notices were adopted unanimously.</p>
+      <h3>Key actions</h3>
+      <ul><li>Brian Clements was promoted to Police Lieutenant and sworn in at the meeting.</li><li>Two new police officers were sworn in; the board noted plans to hire approximately five more officers before year-end for a December academy class.</li><li>Four officers were recognized with certificates for a rescue at a house fire on Newton Avenue.</li><li>A proclamation was presented to Griffin Hardware, a family business operating on West Main Street since 1931.</li><li>The board adopted local laws amending town code chapters covering noise and nuisances, zoning and land development, and front-yard parking restrictions.</li><li>The board authorized a license agreement with Riverhead Volunteer Ambulance Corps for EMT course instruction at Town Hall through 2024–2025.</li><li>The board approved a grant submission to New York State for purchase of a police department drone.</li><li>A resolution was adopted authorizing removal of litter and garbage at a Hubbard Avenue property under town code.</li><li>The board adopted a resolution changing town participation in the New York State Health Insurance Program.</li><li>Public hearings previously scheduled on agritourism and resorts were canceled; a public forum was rescheduled to Wednesday, September 18, 2024 at 6 p.m. in the Town Hall board room.</li><li>A special town board meeting was announced to adopt the comprehensive plan update and issue a findings statement; a civic commenter criticized the short notice and requested the vote be delayed.</li></ul>
+      <h3>Public hearings &amp; comment</h3>
+      <ul><li>A public hearing was held on a special permit application by Riverhead Charter School at 5117 Sound Avenue to construct three temporary trailers totaling approximately 2,880 square feet for two classrooms and one administrative office.</li><li>The school&#x27;s current enrollment of 154 students exceeds the approximately 105 students anticipated when the original 2022 site plan was approved.</li><li>The applicant&#x27;s attorney offered conditions including a 180-student enrollment cap, a covenant restricting student driving, trailer removal when the school vacates, a sunset term, and annual board reporting.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/b92f8c57-2e7d-4702-ba5b-d6b1e5337c3e.mp4" type="video/mp4">
@@ -3327,6 +3342,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

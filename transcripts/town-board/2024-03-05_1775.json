@@ -10021,5 +10021,50 @@
       "end": 4646.82,
       "text": "Thank you."
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T04:10:42+00:00",
+    "agenda_grounded": false,
+    "chunked": false,
+    "tldr": "The Riverhead Town Board adopted cannabis zoning regulations, approved several water district contracts, held a public hearing on a water main extension, and recognized a local electrical business for 100 years of service.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "The board adopted a local law amending the town zoning code to regulate the time, place, and manner of adult-use cannabis retail dispensaries and on-site consumption sites, with all five members voting yes after public comment raised concerns about SEQRA classification and setback preemption under state law.",
+          "The board accepted a settlement related to PFAS contamination from the DuPont/3M litigation, with one member voting no citing the amount as insufficient; officials noted the settlement does not preclude further action against the Navy.",
+          "The board adopted a negative declaration under SEQRA and scheduled a public hearing for a site plan application for a commercial warehouse on Berman Boulevard.",
+          "The board approved bids for construction of two water district wells and for directional drilling services for the Riverhead Water District.",
+          "The board rejected all bids and authorized a rebid for the Meeting House Creek stormwater, wetland, and habitat restoration project.",
+          "The board authorized execution of a lease with the Research Foundation of SUNY for installation of a fish passage camera at Granville Park.",
+          "The board ratified the withdrawal from an exclusion request in the DuPont/3M settlement."
+        ]
+      },
+      {
+        "heading": "Money",
+        "items": [
+          "Total town tax collections as of February 28 stood at $95 million, and the Building Department reported approximately $98,565 in fees for February.",
+          "A proposed water main extension to serve a four-lot subdivision on Roanoke Avenue north of Sound Avenue is estimated at approximately $330,000, all costs to be borne by the developer, with key money of approximately $28,480."
+        ]
+      },
+      {
+        "heading": "Public hearings & comment",
+        "items": [
+          "A public hearing on the proposed water main extension for the Marist Farm subdivision on Roanoke Avenue was held and left open for written comment until March 15, 2024.",
+          "An attorney representing a cannabis dispensary applicant at 1201 Ostrander Avenue requested the board delay adopting the cannabis regulations, citing potential state preemption of local setback distances and a pending advisory opinion request filed with the Office of Cannabis Management.",
+          "A local land use professional raised a procedural concern that the cannabis zoning law may qualify as a Type 1 action under SEQRA, requiring a full environmental assessment rather than the unlisted negative declaration included in the resolution."
+        ]
+      },
+      {
+        "heading": "Affects residents",
+        "items": [
+          "Beach passes for the 2024 season are now available at Town Hall or online; the Parks and Recreation office has relocated to the second floor of Town Hall.",
+          "An Irish flag-raising ceremony will be held Wednesday, March 13 at 5:30 p.m. at the George Young Community Center in Jamesport, ahead of the Jamesport Parade on Saturday, March 30 at 1 p.m."
+        ]
+      }
+    ]
+  }
 }

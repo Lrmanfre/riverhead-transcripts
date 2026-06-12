@@ -5916,5 +5916,34 @@
       "end": 3900.38,
       "text": "it's not just a house"
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T02:40:15+00:00",
+    "agenda_grounded": false,
+    "tldr": "The board reviewed a conceptual plan to lift and relocate East End Arts buildings out of the floodplain, and briefly discussed a proposed zoning change to the CRC district along Route 58 that would add retail and trade contractor uses.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "The board reviewed a conceptual campus redesign by DXA Studio that would raise and reposition East End Arts buildings to elevation 13.5 feet to remove them from the floodplain.",
+          "Staff indicated the next step is issuing a request for proposals using existing grant funding to hire a construction engineer to design the building moves.",
+          "A proposed zoning code amendment to the CRC district would add retail stores and special trade contractor uses on properties fronting Route 25 between Doctors Path and County Route 105; the item was not acted on and will return when draft language is circulated to all board members."
+        ]
+      },
+      {
+        "heading": "Discussed",
+        "items": [
+          "The conceptual plan repositions the Corwin House, carriage house, schoolhouse, and barn into a quad-style campus while keeping the Benjamin House and Corwin House along the Main Street frontage.",
+          "A future-phase event pavilion building and a smaller connector building with a shared elevator for ADA access were presented as concepts requiring separate fundraising.",
+          "The southern portion of the East End Arts site would remain at a lower, floodable elevation and is being left open for a potential flexible outdoor amphitheater.",
+          "Planning staff raised concerns about the CRC amendment potentially constituting spot zoning, inconsistency with the 2024 comprehensive plan update, and added traffic and noise impacts from trade contractor uses.",
+          "East End Arts is temporarily operating from 48 West Main Street; a build-out of that temporary gallery space begins soon with an opening planned for June 13.",
+          "A public downtown forum is scheduled for May 19 at 6 p.m. at Town Hall to update residents on downtown redevelopment progress."
+        ]
+      }
+    ]
+  }
 }

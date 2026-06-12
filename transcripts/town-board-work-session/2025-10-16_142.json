@@ -4381,5 +4381,43 @@
       "end": 2946.0,
       "text": "Thank you."
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T02:30:41+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Town Board work session covered monthly department reports, a slate of resolutions, and announced the town will join Southampton in a lawsuit challenging the state Office of Cannabis Management over local zoning authority for cannabis businesses.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "The board reviewed a resolution to assume lead agency status and issue a positive declaration under SEQRA for a special permit and site plan application for a motocross track at 2822 River Road, Calverton.",
+          "The board reviewed a resolution to waive sign-code requirements under Article 48 for a proposed informational sign at Riverhead Fire District headquarters at 540 Roanoke Avenue, with the Planning Department noting the sign was already approved by the ARB.",
+          "The board reviewed a resolution authorizing the town attorney to bring legal action against the Office of Cannabis Management, the Cannabis Control Board, and the State of New York, joining Southampton in challenging the state agency's override of local time, place, and manner zoning authority.",
+          "The board reviewed resolutions approving fireworks applications for a Halloween Fest on October 25 and a Baiting Hollow Club event on October 28.",
+          "The board reviewed a resolution authorizing a license agreement for LIPA to use town property for storm-response vehicle staging, which was used during a recent Nor'easter.",
+          "The board closed open session to enter executive session on matters involving possible sale of real property, a contractual agreement with Rosemar Construction Corp., and litigation involving Traditional Links Golf Course."
+        ]
+      },
+      {
+        "heading": "Discussed",
+        "items": [
+          "The police chief reported criminal incidents dropped approximately 28 percent compared to the same June–September period in 2024, and noted the department is exploring an outside vendor for automated alarm billing and handheld devices for parking ticket issuance.",
+          "The code enforcement report noted 64 new complaints opened in September, 70 summonses issued, 63 rental properties inspected, and roughly $25,000 in revenue collected for the month; staff said the Staples parking lot compliance matter was resolved after extended efforts.",
+          "The town clerk announced that future published correspondence will require a name and address, to address concerns about non-resident submissions appearing on the public record.",
+          "Justice Court reported increases in blight mitigation and parking fines, and noted default judgments and trial settings are being used to address non-compliant property owners."
+        ]
+      },
+      {
+        "heading": "Affects residents",
+        "items": [
+          "A no-cost breast cancer screening event is scheduled for Saturday, November 1, from 10 a.m. to 2 p.m. at 1333 Roanoke Avenue.",
+          "A household hazardous waste drop-off at the Riverhead Garage is scheduled for Saturday from 8 a.m. to 2 p.m., accepting paint, old TVs, motor oil, and similar items; the next opportunity will not occur until late spring.",
+          "Halloween Fest is scheduled for October 25 in Town Square starting at 4 p.m., with a parade at 7 p.m. and fireworks to follow; more information is at HalloweenFestRiverhead.com."
+        ]
+      }
+    ]
+  }
 }

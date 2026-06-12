@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2025-02-27, category:Zoning Board of Appeals">
@@ -25,6 +25,19 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/6192" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/6192/files/agenda/5634" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Riverhead Zoning Board of Appeals held its February 27 meeting, granting variances in three cases and closing a fourth with a reserved decision pending environmental review.</p>
+      <h3>Key actions</h3>
+      <ul><li>Appeal 2020-033 (Kathleen Glass, 120 Louise Court, Riverhead): The board approved an amended variance for a front-yard pool pavilion, trellis, and enclosed meditation space with bathroom, subject to conditions limiting the structure to seasonal use, prohibiting heating, year-round water supply, kitchen or laundry facilities beyond a sink and refrigerator, overnight accommodations, and any business use.</li><li>Appeal 2024-038 (Claude Maselli, 99 Cliff Road East, Wading River): The board granted a variance allowing as-built impervious surface coverage of 43.4% where the maximum permitted in the RB-80 zone is 15%, based on the undersized preexisting nonconforming lot.</li><li>Appeal 2025-004 (Herb Steiger, 131-135 Hidden Acres Path, Wading River): The board granted a variance for a proposed in-ground pool with a side-yard abutting-street setback of 18 feet where 60 feet is required, conditioned on relocating an existing shed to at least 5 feet from all side and rear property lines as required by town code.</li><li>Appeal 2024-034 (Fisher Realty Group, 940–946 West Main Street, Riverhead): The board closed the public hearing with a reserved decision to be issued at a future date after the Planning Board, acting as lead agency, completes its SEQRA review; the applicant noted revised calculations reduced the FAR variance request to 75.17% and the impervious coverage figure to approximately 49.95%, which the applicant contends eliminates the landscaping variance.</li><li>Minutes from the January 23, 2025 meeting were approved, and the next meeting was set for March 13, 2025.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/29e172c8-8d7f-4641-91d7-52cb5bb7af66.mp4" type="video/mp4">
@@ -517,6 +530,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

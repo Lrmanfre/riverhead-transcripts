@@ -3026,5 +3026,34 @@
       "end": 2448.04,
       "text": "Thank you, staff."
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T01:45:23+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Planning Board scheduled two public hearings, tabled one site plan resolution, and approved several extensions and modifications at its September 19 meeting.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "The board voted to table a pending site plan resolution for a restaurant conversion at 1199 Old Country Road (referred to as 'Project 58') rather than approve it outright.",
+          "The board approved a resolution scheduling a public hearing for the Project 58 restaurant conversion site plan application for October 17 at 3:00 p.m.",
+          "The board approved a resolution scheduling a public hearing on a preliminary site plan application for a one-story medical office building proposed by 27 Waves LLC on Commerce Drive.",
+          "The board approved a 12-month extension of final site plan approval for the Riverhead Town Home site plan.",
+          "The board approved a lot line modification extension for one applicant and granted a lot line modification approval for a second applicant.",
+          "August 15 meeting minutes were approved."
+        ]
+      },
+      {
+        "heading": "Discussed",
+        "items": [
+          "For the restaurant conversion at 1199 Old Country Road, outstanding items include a soil boring or test pit to confirm groundwater depth beneath proposed drainage areas, a sewer district key money assessment, ARB review, and a dumpster screening detail meeting Town Code fencing requirements.",
+          "For the Commerce Drive medical office proposal, staff recommended adding a cross-access connection to the adjacent property to the west, installing sidewalks, and completing restriping at the Commerce Drive and Route 58 intersection in coordination with the town DPW.",
+          "Board members raised questions about shared parking management between the restaurant and an existing office tenant at the 1199 Old Country Road site, and about whether a fire exit door at the rear of the building has adequate vehicle clearance."
+        ]
+      }
+    ]
+  }
 }

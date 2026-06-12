@@ -3141,5 +3141,34 @@
       "end": 1864.32,
       "text": "Thank you."
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T02:27:39+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Town Board held a work session covering a CSEA union grievance hearing on flex-time agreements and a review of proposed increases to three sets of town code violation fines, before moving into executive session.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "The board heard presentations from both the CSEA and town counsel on a grievance appeal concerning termination of flex-time agreements, and will issue a decision within 20 days.",
+          "Town counsel argued the grievance is moot because the original termination letters were rescinded and reissued with proper 15-day notice, and urged the board to deny the grievance.",
+          "The board discussed raising fines for Chapter 301 site plan and illegal rental violations from a $0–$1,000 range (unchanged since 1989) to a $1,000–$5,000 range.",
+          "The board discussed raising overweight vehicle fines under Chapter 289-29 (unchanged since 2001) to a range of $500–$1,000 for a first offense, $1,000–$2,000 for a second, and $2,000–$4,000 for a third.",
+          "The board discussed raising fire marshal violation fines under Chapter 231-66 from the current $250–$2,500 range to $1,000–$5,000.",
+          "Staff noted plans to systematically review all town code fines annually to keep pace with inflation and cost of enforcement.",
+          "The board closed open session and entered executive session to discuss a possible sale of real property."
+        ]
+      },
+      {
+        "heading": "Affects residents",
+        "items": [
+          "A cooling center at the Riverhead Senior Center will be open Friday, July 25, from 8 a.m. to 4 p.m. due to expected heat near 100 degrees.",
+          "The annual Paddle Battle on the Peconic River is scheduled for Saturday, July 26, beginning at 9:15 a.m. near Heidi Bear Way."
+        ]
+      }
+    ]
+  }
 }

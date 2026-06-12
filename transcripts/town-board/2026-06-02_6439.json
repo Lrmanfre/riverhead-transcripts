@@ -10976,5 +10976,44 @@
       "end": 8935.9,
       "text": "Thank you."
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T03:16:38+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Town Board voted 4-1 to proceed with eminent domain to acquire 111 East Main Street (the vacant Long Island Science Center building) for downtown revitalization. The board also held public hearings on an amended site plan for Island Water Park and on expanding the town's e-bike code.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "The board voted 4-1, with the supervisor voting no, to adopt findings authorizing eminent domain proceedings to acquire 111 East Main Street from A Place for Learning, Inc. for a municipal purpose related to downtown revitalization.",
+          "The board approved a site plan modification for a property at 962 Berman Boulevard for River Edge LLC.",
+          "The board authorized an order extending Riverhead Water District facilities for a water main extension serving the Summerwind Farm Subdivision on a parcel in Aquebogue.",
+          "The board authorized execution of an appraisal agreement for the Railroad Avenue parking lot in connection with a transit-oriented development study.",
+          "The board authorized execution of a stipulation with CSEA Local 1000, the town employees union.",
+          "The board adopted local laws amending the town code on fire prevention, zoning supplementary regulations, and waterways and shellfish articles.",
+          "The board scheduled public hearings on proposed fee amendments for the appeals board, coastal erosion hazard areas, and wetlands permits.",
+          "The board approved a special event permit for USGA 2026 U.S. Open general parking and transportation operations.",
+          "Multiple committee reappointments were approved, including members to the Agricultural Advisory Committee and the Open Space Advisory Committee."
+        ]
+      },
+      {
+        "heading": "Money",
+        "items": [
+          "The tax receiver reported total tax collections of approximately $120 million as of May 20 and approximately $169.7 million as of May 27, 2026.",
+          "Board members stated that acquisition costs for 111 East Main Street would come from fund balance and be reimbursed upon resale; an appraisal has not yet been completed."
+        ]
+      },
+      {
+        "heading": "Public hearings & comment",
+        "items": [
+          "A public hearing was held on an amended site plan for Island Water Park (Scotts Point) seeking to add a zip line, battery-powered bumper boats, a fire suppression well, and to amend covenants to allow drift cars on the go-kart track; the hearing was left open for written comment for 10 days.",
+          "Multiple speakers opposed removing the track covenant, arguing it was a condition of a prior negative environmental declaration and that eliminating it without a full environmental review would be unlawful under state environmental law.",
+          "The water district representative stated the lake currently tests at drinking-water quality levels, and described a proposed enhanced monitoring schedule tied to any approval of drift-car use."
+        ]
+      }
+    ]
+  }
 }

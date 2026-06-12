@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2024-05-22, category:Town Board">
@@ -25,6 +25,25 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/2466" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/2466/files/agenda/2329" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Riverhead Town Board approved roughly 70 resolutions covering personnel, budget transfers, special events, property acquisitions, and infrastructure projects. A public hearing on a water main extension for 205 Osborne Avenue was held and left open for written comment through May 31.</p>
+      <h3>Key actions</h3>
+      <ul><li>The board approved a water main extension map and plan for a mixed-use development at 205 Osborne Avenue, replacing approximately 600 feet of cast-iron main with 10-inch pipe and adding two hydrants at a capital cost not to exceed $521,000; written comments accepted through May 31.</li><li>The board authorized acquisition of leasehold or property interests at 111 and 127 East Main Street for general municipal purposes and authorized commencement of environmental (SEQRA) coordinated review.</li><li>The board approved a resolution supporting a cherry blossom tree and granite monument program to honor veterans at Veterans Memorial Park.</li><li>The board accepted a donation of bleachers from Peconic Bay Medical Center Foundation for use at the town ice rink facility.</li><li>The board authorized a license agreement for a concession stand operator at South Jamesport Beach.</li><li>The board approved a consultant services agreement with the outgoing chief accountant following that employee&#x27;s retirement.</li><li>Numerous seasonal and part-time recreation, wastewater, police, and advisory-board appointments were approved, along with multiple special-event permits for summer and fall BID events.</li></ul>
+      <h3>Public hearings &amp; comment</h3>
+      <ul><li>The president of the Long Island Science Center expressed concern that the town initiated acquisition proceedings on the building the Science Center occupies without prior notice to the organization, and noted ongoing delays in obtaining building permits for planned renovations.</li><li>A resident requested that the board consider adding more dedicated pickleball courts; the supervisor noted a pending sports-complex study and a planned private indoor facility in a former retail space.</li></ul>
+      <h3>Affects residents</h3>
+      <ul><li>Beach stickers are required starting January 1 and are available at Town Hall Monday–Friday 8:30–4:30 or online; residents who visit town beaches without a sticker may receive a summons.</li><li>Town Hall will be closed Monday May 27 for Memorial Day and reopen Tuesday May 28 at 8:30 a.m.</li><li>The public hearing on the Comprehensive Plan Update DGEIS has been rescheduled to Wednesday May 29 at 6 p.m. in the town boardroom, with in-person and Zoom participation available.</li><li>Riverhead Volunteer Ambulance Corps is holding a recruitment open house Saturday May 25 from 11 a.m. to 4 p.m. at 1111 Osborne Avenue.</li></ul>
+      <h3>Discussed</h3>
+      <ul><li>The board discussed a sports-complex feasibility study nearing completion that may recommend expanded pickleball and other recreational facilities at Veterans Memorial Park, potentially through a public-private partnership.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/80dfa8f9-ccfe-4c5d-8334-9549a68a7b45.mp4" type="video/mp4">
@@ -1018,6 +1037,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

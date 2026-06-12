@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2025-04-24, category:Town Board Work Session">
@@ -25,6 +25,21 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/5267" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/5267/files/agenda/5105" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Riverhead Town Board work session covered beach hour rules, a proposed pilot entertainment program at South Jamesport Beach, a state parks grant application, and three proposed code amendments on demolition permits, shopping cart anti-theft systems, and use permit revocation.</p>
+      <h3>Key actions</h3>
+      <ul><li>Staff proposed resolving a code conflict between Chapter 211&#x27;s sunrise-to-sunset language and the long-standing 10 p.m. closing practice by setting fixed hours (suggested 6 a.m. to 10 p.m.) for beach parking lots via town board resolution.</li><li>The board signaled support for a pilot program of roughly six live acoustic music events at South Jamesport Beach on summer evenings, contingent on further review.</li><li>A grant writer presented a state &#x27;Unplug and Play&#x27; municipal parks grant of up to $1 million with a 10% match, targeted at an adaptive playground downtown, with a May 2 application deadline.</li><li>Staff presented proposed amendments to the demolition permit code requiring work to start within 45 days and finish within one year (six months for violation-based permits, which would be non-renewable).</li><li>Staff presented updates to the shopping cart code adding definitions of acceptable anti-theft systems and a new exemption for businesses with 15 or fewer carts.</li><li>Staff presented a proposed amendment giving the zoning officer authority to revoke use permits when actual use deviates from the approved application, with an appeals process to the Zoning Board of Appeals within 30 days.</li><li>The board closed open session and moved into executive session to discuss a recycling contract, a police services contract, a racetrack-related license agreement, and a possible real property sale.</li></ul>
+      <h3>Discussed</h3>
+      <ul><li>Board members raised concerns about directing the parks grant toward other needs such as bike trail repairs at Veterans Memorial Park, parking lot repaving at Police Officers Memorial Park, and handicap-accessible equipment in Wading River rather than solely the downtown adaptive playground.</li><li>A board member noted a past attempt at beach entertainment circa 2019-2020 drew strong objections from a local civic association, and the board discussed limiting the pilot to small acoustic acts to distinguish it from larger events at other venues.</li><li>The idea of allowing limited alcohol consumption during music events was raised but noted as not yet discussed by the Beach Committee; a controlled approach using a local winery or brewery vendor was suggested.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/5d8b6afa-01cb-46b3-9a5b-d2e125e5cf5e.mp4" type="video/mp4">
@@ -1212,6 +1227,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

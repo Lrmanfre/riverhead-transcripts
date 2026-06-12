@@ -996,5 +996,27 @@
       "end": 650.3,
       "text": "thank you"
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T01:54:28+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Riverhead Planning Board held a short December 4 meeting, closing one public hearing and advancing a minor subdivision discussion.",
+    "sections": [
+      {
+        "heading": "Public hearings & comment",
+        "items": [
+          "The board opened and closed a public hearing on a site plan application to build a 3,000-square-foot two-tenant retail commercial building with 12 parking stalls at 305 West Main Street on a roughly 19,780-square-foot parcel in the Peconic River Community zoning district; the applicant had previously received area variance relief from the Zoning Board of Appeals in October 2025."
+        ]
+      },
+      {
+        "heading": "Discussed",
+        "items": [
+          "The board reviewed a proposed three-lot minor subdivision of a roughly 25-acre parcel on Holtz Landing Road in Wading River where development rights on the large middle lot were sold to the county in 2009, and staff noted the subdivision would memorialize an existing arrangement; a board member flagged that the existing greenhouses on lot one may require a variance for lot coverage and setback."
+        ]
+      }
+    ]
+  }
 }

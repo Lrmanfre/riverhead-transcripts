@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2025-04-01, category:Town Board">
@@ -25,6 +25,23 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/1993" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/1993/files/agenda/1856" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Riverhead Town Board met on April 1, 2025, approving a large batch of personnel, finance, and zoning resolutions while honoring first responders who saved a cardiac arrest victim in Calverton in March.</p>
+      <h3>Key actions</h3>
+      <ul><li>The board honored seven first responders and a bystander—including police officers, Wading River Fire Department personnel, and a civilian—with proclamations for reviving a cardiac arrest victim on the Calverton bike path on March 11.</li><li>The board approved a staging license agreement with 203 East Main LLC to use town-owned parking lots in connection with the Town Square construction project, with discussion about potentially redirecting construction worker parking away from busier downtown lots.</li><li>The board voted 3-2 to grant a special permit allowing Riverhead Charter School to use two student trailers and one administrative trailer at 5117 Sound Avenue, with conditions including screening, a decommissioning bond, and a prohibition on future expansion.</li><li>The board adopted several local laws amending Town Code Chapter 301 on zoning, covering signs, commercial solar energy systems, wireless communication towers, and battery energy storage systems, all pursuant to the 2024 Comprehensive Plan update.</li><li>The board authorized a public hearing on acquiring the leasehold interest at 127 East Main Street (the Long Island Science Center space) and scheduled a work session with the Science Center&#x27;s board for the following Thursday.</li><li>The board approved a license agreement with the Riverhead IDA for office space at $400 per month for five years including utilities, drawing public criticism over the rate.</li><li>The board authorized two appraisal reports through Goodman Marks Associates and extended agreements with Urban Design Associates and LVF Landscape Architects in connection with ongoing downtown projects.</li><li>Seasonal recreation staff salaries were set and numerous personnel appointments were approved across the recreation, police, and wastewater departments.</li></ul>
+      <h3>Public hearings &amp; comment</h3>
+      <ul><li>A public commenter raised procedural objections to the town&#x27;s conditional negative declaration for an amended Island Water Park site plan, arguing it should have been classified as a Type 1 action under SEQRA; town planning staff defended the classification.</li><li>A downtown business owner whose lease at 127 East Main Street is being acquired spoke during public comment to express concern about a lack of communication from the town throughout the process.</li><li>Multiple commenters urged the board to preserve the Long Island Science Center&#x27;s presence in the town square, citing strong community support expressed online.</li></ul>
+      <h3>Affects residents</h3>
+      <ul><li>Free ice skating is available at the town ice rink on April 15 from 11:30 a.m. to 1:30 p.m. for school-age children; registration with the recreation department is required.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/2766a9c6-2203-4ee7-8c45-67c195218c8c.mp4" type="video/mp4">
@@ -1664,6 +1681,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

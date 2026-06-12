@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2025-05-01, category:Town Board Work Session">
@@ -25,6 +25,21 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/5280" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/5280/files/agenda/5118" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Town Board reviewed proposed updates to the public nuisance code, previewed a new online bill-pay portal for the Water District, and discussed a state parks grant application for the town square playground. A long list of personnel and administrative resolutions was also previewed.</p>
+      <h3>Key actions</h3>
+      <ul><li>The board directed staff to prepare a resolution scheduling a public hearing on proposed revisions to the public nuisance code (Chapters 251 and 252) that would broaden the definition of public nuisance beyond the current requirement of criminal convictions.</li><li>Board members agreed to raise the minimum Justice Court fine for public nuisance violations from $500 to $1,000, with further discussion on the full penalty schedule.</li><li>Staff presented a new online bill-pay portal for Riverhead Water District customers that will allow account lookup, one-time payments by e-check or credit card, and autopay enrollment with no fee; May bills are planned to go out with notice of the new service.</li><li>The board previewed a resolution ratifying an application for a New York State Municipal Parks and Recreation Grant of up to $1 million for improvements to the town square playground, with a 10% match from Community Development Block Grant funds; the application is due the following day.</li><li>A resolution authorizing pursuit of Suffolk County Downtown Revitalization Round 23 funding for improvements to the Third Street municipal parking lots was included in the resolution packet.</li><li>The board previewed a resolution to publish a request for proposals for the sale of 214 Griffin Avenue, a town-owned property adjacent to town hall.</li><li>The board went into executive session to discuss matters related to acquisition of real property.</li><li>An update on board committee activities was postponed to the following week&#x27;s work session.</li></ul>
+      <h3>Discussed</h3>
+      <ul><li>Staff explained that the revised public nuisance code adds defined terms, structured inspection and due process procedures, civil penalties of $5,000 to $10,000 per day in Supreme Court actions, and explicit First Amendment and 911-call protections that were absent from the prior code.</li><li>Board members and staff discussed the challenge of funding park maintenance through grants, which generally require new capital improvements rather than repairs; a board member noted draft legislation has been brought to a state senator to allow a portion of park and recreation fees to be used for maintenance.</li><li>Staff discussed potential projects for a second round of the state parks grant later in 2025, including lighting at a town ball field and improvements at Stotsky Park, noting that concrete cost estimates and a match source are required before applying.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/3b453a32-16e6-4abd-9ddb-5c238a6e52a8.mp4" type="video/mp4">
@@ -1454,6 +1469,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

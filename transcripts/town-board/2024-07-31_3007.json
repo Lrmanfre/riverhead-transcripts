@@ -1406,5 +1406,23 @@
       "end": 851.56,
       "text": "Thank you."
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T02:48:38+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Town Board held a brief special meeting to accept the retirement of the outgoing Police Chief and promote Edward Frost to the provisional title of Chief of Police.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "The board adopted a resolution accepting the retirement of the longtime Chief of Police, who served over 42 years with the department including 23 years as chief.",
+          "The board adopted a resolution promoting Edward Frost to the provisional title of Chief of Police, and he was sworn in at the meeting.",
+          "Chief Frost is scheduled to hold three community meet-and-greet events in early September at the Senior Citizen Center, Town Hall, and Riley Avenue School."
+        ]
+      }
+    ]
+  }
 }

@@ -6376,5 +6376,26 @@
       "end": 2829.44,
       "text": "Thank you."
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T03:15:21+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Zoning Board of Appeals granted variances and extensions in several cases at its May 23, 2024 meeting, and adjourned one contested matter to June 13, 2024 for further review.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "A one-year extension of variances previously granted to HK Ventures was approved, pushing the expiration date to June 8, 2025, covering impervious surface coverage and building height relief.",
+          "A third and final one-year extension was granted for appeal 2021-015 (James Hogue, Roanoke Avenue), covering floor area ratio and front yard setback variances, now expiring May 27, 2025.",
+          "Variances for the Church of the Harvest at 572 Rainer Avenue were approved for a side setback of 4.2 feet (20 feet required) and impervious surface coverage of 55 percent (15 percent permitted), subject to conditions including removal of unpermitted improvements, restoration of driveway access, and securing easements and a license agreement from the Riverhead Sewer District.",
+          "A variance was approved for a gazebo at 91 Fire Lane, Wading River, with a rear accessory setback of 5.1 feet (20 feet required), on the condition the structure not be enclosed or used as habitable space.",
+          "Variances were approved for a proposed addition and covered front porch at 41 Cliff Road East, Wading River, with a front yard setback of 15.4 feet and a side yard abutting a side street setback of 14.3 feet (both requiring 60 feet).",
+          "Appeal 2023-042 (3 Taconic Court, Wading River), seeking to legalize a large partially constructed storage building, a hot tub, and addressing impervious surface coverage of 46.5 percent, was adjourned to June 13, 2024 so the board could investigate prior complaints about commercial deliveries and review code enforcement records."
+        ]
+      }
+    ]
+  }
 }

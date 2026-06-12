@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2025-11-06, category:Planning Board">
@@ -25,6 +25,25 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/40" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/40/files/agenda/5880" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Riverhead Planning Board held a public hearing on a proposed 130-acre industrial subdivision off Middle Country Road in Calverton, then reviewed two discussion items: a North Shore Sprinkler Supply site-plan violation case and a proposed cannabis greenhouse in Calverton near several senior communities.</p>
+      <h3>Public hearings &amp; comment</h3>
+      <ul><li>The board held a SEQRA public hearing on a proposed seven-lot industrial subdivision of a roughly 131-acre former sod farm fronting Middle Country Road, bordered by Splish Splash to the west and the Long Island Expressway to the south; three lots are proposed as developable, one for a sewage treatment plant, one as dedicated open space, one potentially for a Riverhead Water District well site.</li><li>Presenters noted that a rezoning during a prior moratorium reduced the maximum build-out from roughly 1.6 million square feet under the former Industrial-A zoning to approximately 1.16 million square feet under the current CI code, with TDRs.</li><li>A traffic study concluded the project would not have a significant negative impact on area traffic with mitigation including a new signal and road widening on Middle Country Road, improvements at Middle Country Road and Splish Splash Drive, and signalization of the LIE eastbound off-ramp at Edwards Avenue.</li><li>A representative of the Greater Calverton Civic Association requested the written-comment period be kept open 30 days; the board voted to keep it open 15 days, closing at end of business on Friday, November 21.</li></ul>
+      <h3>Key actions</h3>
+      <ul><li>The board approved Resolution 2025-102 to accept a site-plan application for 305 West Main Street and schedule a public hearing.</li><li>The board approved Resolution 2025-103 granting a statutory extension for the Bidson-Franken minor subdivision approval.</li><li>The board approved Resolution 2025-104 granting minor subdivision approval for the Richard Anderson Minor Subdivision.</li><li>The board approved Resolution 2025-105 granting minor subdivision approval for the Thomas Anderson Minor Subdivision.</li><li>Minutes of the October 2 and October 16, 2025 meetings were approved.</li></ul>
+      <h3>Discussed</h3>
+      <ul><li>Staff presented a North Shore Sprinkler Supply site-plan application at 1264 West Main Street, flagged for DEC and town violations related to buffer removal and paving; the board directed the applicant to restore buffers, address impervious-surface coverage relief at the ZBA, and clarify the 50-percent natural-vegetation requirement before returning.</li><li>The board heard an initial presentation on a proposed roughly 33,000-square-foot cannabis cultivation greenhouse at 1458 Middle Road in Calverton, within the Agricultural Protection Zone; outstanding items include noise studies, HVAC and odor-control specifications, generator fuel and storage details, lighting plan, DEC wetland jurisdiction review, and ZBA variances for an eight-foot deer fence and 24-percent impervious coverage.</li><li>Residents from Windcrest East, Foxwood Village, and surrounding neighborhoods raised concerns about noise, odor, property values, truck traffic hours, visibility of the building, and licensing questions; staff confirmed no Planning Board vote can occur before the applicant completes its ZBA process, with the ZBA hearing adjourned to December 11, meaning no public hearing before the Planning Board is expected until 2026.</li></ul>
+      <h3>Affects residents</h3>
+      <ul><li>Residents near 1458 Middle Road in Calverton, including seniors in Windcrest East and Foxwood Village, have until at least the ZBA hearing on December 11 and a subsequent Planning Board discussion before any public hearing on the cannabis greenhouse is scheduled.</li><li>Written comments on the Calverton industrial subdivision SEQRA record must be submitted by end of business on Friday, November 21, 2025.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/f90071f0-016a-49fd-ae81-84f980ccaced.mp4" type="video/mp4">
@@ -1539,6 +1558,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

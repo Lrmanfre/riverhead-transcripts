@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2024-11-07, category:Town Board">
@@ -25,6 +25,21 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/3867" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/3867/files/agenda/3730" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The board held public hearings on a proposed 190-foot cell tower at the Wading River Fire District, the 2025 preliminary budget (7.92% tax levy increase), and several zoning code changes tied to the 2024 comprehensive plan. A series of resolutions authorizing public hearings on zoning amendments passed, most unanimously, while two amendments proposed by one board member failed on split votes.</p>
+      <h3>Key actions</h3>
+      <ul><li>Police Officer Carly Connors was promoted to the rank of Sergeant by unanimous vote.</li><li>The board adopted Resolution 889 updating the industrial districts table of use regulations per the 2024 comprehensive plan; a motion to add recycling/waste uses to that table failed on a 3–2 vote.</li><li>The board adopted Resolution 890 updating industrial districts dimensional regulations, including a 35-foot building height standard; a motion to lower the height to 30 feet in the CI district failed on a 3–2 vote.</li><li>Resolutions 882–888, 891–898, and 901 authorizing public hearings on a comprehensive set of zoning map and code amendments tied to the 2024 comprehensive plan were adopted, most unanimously.</li><li>Resolution 903 awarding a bid for Class A biosolids improvements was adopted unanimously.</li><li>Resolution 909 assessing costs for remedial actions at 271 Hubbard Avenue was adopted unanimously.</li><li>Resolution 910 ratifying a license agreement with Ademco, Inc. to use the runway at EPCAL was adopted unanimously.</li><li>A CDBG grant application to Suffolk County for 2025 funding was authorized.</li></ul>
+      <h3>Public hearings &amp; comment</h3>
+      <ul><li>A public hearing was held on Elite Towers/Wading River Fire District/Verizon Wireless proposal for a 190-foot concealment pole at 1503 North Country Road, Wading River; the application requires variances for use, tower setback (proposed 27 ft 10 in vs. 190 ft required), tower separation, fencing, landscaping, and rear yard; written comments are open until November 18.</li><li>Fire district representatives testified the tower is needed to address radio and cell communication gaps, including dropped 911 calls and inability to transmit patient data to hospitals; a Riverhead PD captain also cited police communication gaps in the area.</li><li>Residents testified in opposition, raising concerns about RF health standards (last updated ~30 years ago), proximity to homes and a preschool, aesthetics, property values, and inadequate community outreach; one speaker submitted a petition with 25 signatures.</li><li>A public hearing was held on the 2025 preliminary budget, which proposes a 7.92% town-wide tax levy increase, piercing the tax cap by 4.14% in the general fund, driven by pension, health insurance, debt service, radio replacement, and insurance cost increases; written comments are open until November 15.</li><li>Two board members stated they will not accept the proposed 3.2% salary increases for themselves.</li><li>Public hearings were also held on proposed changes to waterway/dock regulations (Chapter 293), off-street parking requirements (Chapter 301), and codifying biennial town elections; written comments on all three are open until November 18.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/a86ad10b-3058-45ae-a55a-0a92405f8ff2.mp4" type="video/mp4">
@@ -3793,6 +3808,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

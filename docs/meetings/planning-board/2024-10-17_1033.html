@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2024-10-17, category:Planning Board">
@@ -25,6 +25,21 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/1033" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/1033/files/agenda/896" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Riverhead Planning Board held public hearings on two site plan applications, approved several resolutions including a site plan amendment for Kent Animal Shelter, issued a positive declaration requiring an Environmental Impact Statement for a mixed-use Calverton development, and discussed a residential rezoning referral on Middle Road.</p>
+      <h3>Key actions</h3>
+      <ul><li>The board closed the public hearing for an 8,775-square-foot medical office building proposed for Riverhead Commerce Park on Commerce Drive and discussed conditions including a potential one-way cross-access easement to the adjacent commercial property and a sidewalk requirement.</li><li>The board closed the public hearing and approved (Resolution 2024-072) the site plan for Project 58, a conversion of a vacant 5,233-square-foot building at 1199 Old Country Road into a 56-seat restaurant.</li><li>The board approved (Resolution 2024-080) an amendment to the Kent Animal Shelter site plan to reflect building renovations, a new on-site fire hydrant, and updated utility locations, subject to Architectural Review Board approval of revised elevations and water district requirements.</li><li>The board assumed lead agency status and issued a positive declaration (Resolution 2024-081) for a proposed Calverton development by TGOC Real Estate Holdings, requiring a formal Environmental Impact Statement; a public scoping session will be held.</li><li>The board approved a negative declaration and scheduled a public hearing for a Riverhead Mazda site plan application (Resolutions 2024-077 and 2024-078).</li><li>The board approved minor subdivision extensions or approvals for Delalio Sod Farm LLC (Resolution 2024-079), Manor Lane Subdivision (Resolution 2024-082), and JETS 139 LLC (Resolution 2024-083).</li></ul>
+      <h3>Discussed</h3>
+      <ul><li>Staff presented a change-of-zone referral for a property at 408 Middle Road seeking rezoning from Retirement Community to Residence A-40 to allow one legal accessory apartment; the board indicated general support and staff will draft a recommendation resolution to transmit to the Town Board, which is awaiting resolution of existing justice court violations before acting.</li><li>For the TGOC Calverton project, staff noted concerns about potential impacts to wildlife habitat, archaeological resources, and traffic on Middle Country Road as the basis for the positive declaration; limited clearing on the site for archaeological survey purposes was acknowledged as permissible under a code exemption.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/1505612c-a3cc-4739-97d9-eb420d162da0.mp4" type="video/mp4">
@@ -757,6 +772,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

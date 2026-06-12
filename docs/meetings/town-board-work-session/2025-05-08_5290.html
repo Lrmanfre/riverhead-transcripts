@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2025-05-08, category:Town Board Work Session">
@@ -25,6 +25,23 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/5290" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/5290/files/agenda/5128" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Town Board work session covered a National Grid compressed natural gas facility special permit at 8 Mill Road, reviewed public comments on the Island Water Park conditional negative declaration, and heard committee updates from board members before moving to executive session.</p>
+      <h3>Key actions</h3>
+      <ul><li>The board reviewed a special permit and site plan application for a National Grid compressed natural gas truck staging facility at 8 Mill Road, with a negative declaration and a public hearing scheduled for May 21st.</li><li>Staff recommended removing two conditions from the Island Water Park conditional negative declaration — requirements for Suffolk County Department of Health and DEC approvals — because those are approvals the applicant is already legally obligated to obtain.</li><li>The board discussed potentially revising Town Code section 225-11B-5 to clarify that the 50-or-more parking space threshold applies to new construction, not existing facilities undergoing improvements.</li><li>The board went into executive session to discuss potential litigation, acquisition of real property, a personnel matter involving a change in employee status, and professional services contracts.</li></ul>
+      <h3>Discussed</h3>
+      <ul><li>The National Grid facility would operate only December through February to supplement natural gas supply during peak cold-weather demand, with up to 24 compressed natural gas trucks staged on site.</li><li>A 30-foot access easement on the south side of the National Grid property raises future traffic safety concerns at the Mill Road and West Main Street intersection; staff asked the applicant to explore relocating it to align with the site driveway, which the applicant said may be addressed in a future application.</li><li>Staff noted three public comment letters on the Island Water Park CND raised concerns about go-kart noise impacts on grassland birds, but coordination with DEC during the review period produced no comments on that issue and separation distance from identified habitats is approximately 1,150 feet.</li></ul>
+      <h3>Affects residents</h3>
+      <ul><li>Beach parking stickers are available at Town Hall; the final drive-through pickup is this Saturday from 11 a.m. to 2 p.m., and a sticker is required to park at town beaches year-round.</li><li>Tax Grievance Day is Tuesday, May 20th at Town Hall, with the Review Board meeting from 10 a.m. to noon and 6 p.m. to 8 p.m.</li><li>Free pre-cancer screenings and health outreach events have been offered to the Hispanic and Latino community through the town&#x27;s diversity committee in partnership with Northwell Health.</li><li>A free lead pipe replacement program is available to residents with old lead service lines coming into their homes.</li><li>Upcoming public events include the senior prom on May 9th, a CPR saves ceremony on May 19th at 6:30 p.m. at Town Hall, free public ice skating sessions in May and June at the town rink, and the CAP committee walk on June 6th.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/61e3c8fb-d577-43c8-b62e-7aa8d28765f5.mp4" type="video/mp4">
@@ -1000,6 +1017,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

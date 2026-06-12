@@ -14756,5 +14756,40 @@
       "end": 8529.02,
       "text": "!"
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T04:21:08+00:00",
+    "agenda_grounded": false,
+    "chunked": true,
+    "tldr": "The board held a public hearing on a site plan amendment for Island Water Park (Scott's Point) in Calverton, drawing heavy public comment about unpermitted construction and environmental concerns; the hearing closed with written comments accepted through January 31. The board also approved a slate of administrative resolutions and noted that Crescent Duck Farm faces a major bird flu outbreak and possible permanent closure.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "The public hearing on the Island Water Park site plan amendment at 5835 Middle Country Road, Calverton, seeking to legalize a paved go-kart track, pickleball courts, and catering/event space was closed; written comments are accepted through January 31 at 4:30 p.m.",
+          "The board classified the Island Water Park application as an 'unlisted' action under SEQRA, declining to reclassify it as Type 1 or require a full Environmental Impact Statement despite public requests.",
+          "Resolution 96, appointing a site plan reviewer, was adopted unanimously after a civic association requested it be tabled; the board noted environmental review duties are handled by existing staff.",
+          "Resolution 97, appointing a member to the Antibias Task Force, was tabled unanimously to allow two qualified candidates to be appointed simultaneously next month.",
+          "The board authorized filing an application for the New York State Household Hazardous Waste State Assistance Program.",
+          "Two addenda to agreements with LVF Landscape Architects for Streetscape and Playground projects were authorized, both covered by grant funds.",
+          "A Chapter 229 excavation permit was granted for a one-story self-service car wash at 1535 Old Country Road; the board noted a code amendment is being drafted to raise the excavation fee from $2 to $3 per cubic yard.",
+          "Public hearings were scheduled or noticed on amendments to chapters covering dogs and domestic animals, peddling and soliciting, and yard sales.",
+          "A public hearing was called on a capital improvement for Riverhead Water District Extension No. 9 involving properties on Forge Road in Calverton.",
+          "The board authorized an RFQ for engineering services for the Class A Biosolids Upgrade Project in the Riverhead Sewer District."
+        ]
+      },
+      {
+        "heading": "Public hearings & comment",
+        "items": [
+          "Multiple speakers urged the board to require a full environmental review for the Island Water Park application, citing unpermitted construction, lack of certificates of occupancy, unresolved DEC compliance, and drainage concerns affecting a sole-source aquifer.",
+          "A previous lawsuit against the Island Water Park applicant was settled for a $50,000 fine, and speakers noted the track, pickleball courts, and event space were all built without permits.",
+          "A representative clarified that the applicant is not seeking additional years of tax abatement beyond the original 10-year IDA agreement, currently in its third year.",
+          "One speaker stated Scott's Point has reduced promised full-time jobs by approximately 80% and cut seasonal part-time positions by more than half."
+        ]
+      }
+    ]
+  }
 }

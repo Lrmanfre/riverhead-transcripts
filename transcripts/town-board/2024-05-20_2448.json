@@ -14826,5 +14826,38 @@
       "end": 8663.76,
       "text": "Thank you."
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T04:14:37+00:00",
+    "agenda_grounded": false,
+    "chunked": true,
+    "tldr": "The Town Board held a public hearing on the draft comprehensive plan update and voted to adjourn the separate DGEIS public hearing to May 29 at 6 p.m., with written comments accepted through June 10. Dozens of residents spoke, with debate centering on a proposed zoning change that would allow private or charter schools in industrial zones, agritourism resort development north of Sound Avenue, short-term rental regulations, and downtown housing limits.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "The DGEIS public hearing was adjourned to May 29 at 6 p.m. at the same location.",
+          "The written comment period was extended to June 10, more than ten days after the May 29 hearing.",
+          "The board noted the final DGEIS is expected in early July, with possible plan consideration in late August.",
+          "The draft comprehensive plan, accepted by the board on April 25, includes 13 chapters; Chapter 13 covers future land use and major zoning recommendations."
+        ]
+      },
+      {
+        "heading": "Public hearings & comment",
+        "items": [
+          "Multiple speakers — including a school board president, teachers, and neighboring municipality officials — opposed a proposed zoning change that would allow private or charter schools in industrial zones, arguing it would remove taxable land from the tax rolls and financially harm the public school district.",
+          "A Southampton Town official stated that neighboring municipalities should have been notified as interested agencies under state law and requested the hearing remain open until that notification occurs.",
+          "Several civic association representatives opposed a proposed agritourism resort floating zone north of Sound Avenue, citing a 1975 scenic historic corridor designation, traffic concerns, and neighborhood opposition.",
+          "A representative of the Group for the East End argued that the DGEIS's TDR-based density reduction for Calverton industrial development is insufficient and requested a warehouse carrying capacity analysis be added.",
+          "The Jamesport Civic Association president requested population projections use Riverhead's own historical growth rate rather than countywide figures, and asked that the comment period be extended at least 30 days.",
+          "Speakers raised concerns about lifting the 500-unit downtown apartment cap, reducing minimum residential square footage from 1,200 to 650 square feet, and allowing short-term rentals with a 14-day minimum rather than 28 days.",
+          "Two speakers expressed support for the charter school, citing it as an educational option for children of color, while others questioned why it was not required to site buildings within Riverhead Township.",
+          "A resident asked why the plan defers a decision on the downtown housing cap to a future study given that a housing study has already been completed."
+        ]
+      }
+    ]
+  }
 }

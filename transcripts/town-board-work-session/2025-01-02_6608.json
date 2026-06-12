@@ -5116,5 +5116,28 @@
       "end": 3676.88,
       "text": "thank you."
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T02:14:55+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Riverhead Town Board held its first work session of 2025, reviewing proposed fee increases for excavation permits, dog licenses, yard sales, peddling/soliciting, and taxi licenses, and reading through 84 resolutions covering capital projects, personnel appointments, salary adjustments, and other reorganization items standard for the new year.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "The board discussed raising the excavation permit fee from $2 to $3 per cubic yard, based on a roughly 47% increase in road paving costs since the fee was last set in 2008.",
+          "Dog license fees were proposed to increase by $1 for spayed/neutered animals and $5 for unaltered animals, with impound fees also rising; the schedule has not been updated since 2011.",
+          "Yard sale permit fees were proposed to rise from $5 to $10 per day; the fee has not changed since 2002.",
+          "Peddling and soliciting fees were flagged for review and comparison with neighboring towns before a final increase is proposed.",
+          "Taxi cab fees were proposed to increase by approximately $50 per category; board members also asked staff to research whether Uber and Lyft drivers are subject to any town licensing or fee requirements.",
+          "The board discussed holding a public hearing to remove codified fees from the town code so future adjustments can be made by resolution rather than local law amendment.",
+          "Eighty-four resolutions were read covering new capital projects for Meeting House Creek restoration and downtown alleyway enhancements, bond counsel and financial advisor appointments, planning and zoning board reappointments, 2025 salary schedules across all departments, reclassifications, and various agreements and authorizations.",
+          "The board went into executive session to discuss a contractual matter related to the Rainer Group."
+        ]
+      }
+    ]
+  }
 }

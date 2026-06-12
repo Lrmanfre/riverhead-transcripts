@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2026-04-21, category:Town Board">
@@ -25,6 +25,23 @@
     <div class="meta-row">103 min &nbsp;·&nbsp; <a href="https://riverheadny.portal.civicclerk.com/event/6450" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/6450/files/agenda/5946" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Riverhead Town Board passed more than 40 resolutions covering infrastructure contracts, personnel appointments, committee reappointments, two energy-storage special permits, and an eminent-domain public-hearing notice for 111 East Main Street; public comment focused heavily on that proposed taking and on an immigration-enforcement transparency law proposed by a local advocacy organization.</p>
+      <h3>Key actions</h3>
+      <ul><li>The board awarded a bid and established a capital project for the Meetinghouse Creek bulkhead renovation, both adopted unanimously.</li><li>Three change orders related to sewer-district construction contracts (plumbing, electrical, and general) were approved.</li><li>Beach parking permit fees were waived for veterans, volunteer firefighters, and ambulance members residing in Riverhead.</li><li>An administrative assistant and a traffic-control specialist were appointed to town departments; detention-attendant positions were filled after the board amended the hourly rate from $20 to $28.</li><li>Special permit and site-plan approvals were granted for two battery-energy-storage facilities in Calverton on Edwards Avenue and Scott Avenue.</li><li>The board authorized an appraisal for a portion of the Nassau County 4-H Camp property on Sound Avenue.</li><li>A public-hearing notice for a proposed eminent-domain taking of 111 East Main Street was authorized; two board members voted no.</li><li>The board authorized a public hearing on proposed amendments to commercial-district dimensional regulations in the Town Code.</li></ul>
+      <h3>Money</h3>
+      <ul><li>Total tax collections as of April 15, 2026 were reported at approximately $110.4 million.</li><li>The Meetinghouse Creek bulkhead project is estimated to cost approximately $745,850, with all costs for the Summer Wind Farm water-main extension paid by the developer.</li></ul>
+      <h3>Public hearings &amp; comment</h3>
+      <ul><li>A public hearing on the Summer Wind Farm water-main extension in Aquebogue was opened; the record will remain open for written comment for ten days.</li><li>Multiple residents and online speakers urged the board to adopt an immigration-enforcement transparency law drafted by a local Latino advocacy organization, citing fear in the community and activity by federal immigration agents.</li><li>Two speakers asked the board to table or reconsider the eminent-domain resolution for 111 East Main Street, raising questions about cost, intended use, and adequacy of environmental review.</li><li>One speaker raised concerns about a request to allow drifting and other motorized vehicles on the track at a local water park, citing an existing covenant restricting use to go-karts and calling for full environmental review.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/fa5c64797e.mp4" type="video/mp4">
@@ -2148,6 +2165,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

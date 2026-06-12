@@ -2361,5 +2361,32 @@
       "end": 1915.08,
       "text": "We will now adjourn to executive session."
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T02:29:29+00:00",
+    "agenda_grounded": false,
+    "tldr": "The board reviewed a lengthy resolution list covering purchasing, personnel, local law amendments, and development agreements, and heard a planning presentation for the October 25 Halloween Fest in downtown Riverhead. The meeting closed with an executive session on potential litigation with Suffolk County Water Authority.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "The board reviewed approximately 48 resolutions covering topics including highway equipment purchases, personnel appointments and resignations, local law amendments to parking and bicycle/scooter regulations, a bulletproof vest grant acceptance, and a public hearing notice for 2026 CDBG funds scheduled for November 6 at 2 p.m.",
+          "A resolution was added to amend a prior special permit for a Jamesport restaurant, removing the previously approved 600-square-foot building expansion and catering use, and limiting total seating to 80 seats across both floors with no further expansion of parking or restaurant use permitted.",
+          "The board authorized a letter of intent for redevelopment of a lot adjacent to Town Hall on Griffin Avenue.",
+          "A fire prevention resolution was noted to set agricultural burn permit fees at zero.",
+          "The board moved into executive session to discuss potential litigation with Suffolk County Water Authority."
+        ]
+      },
+      {
+        "heading": "Discussed",
+        "items": [
+          "A representative from the Main Street Agency presented plans for the October 25 Halloween Fest, running 4 to 10 p.m. in downtown Riverhead, featuring a parade with a potentially extended route, live performances, local food and brewery vendors in the town square, a pumpkin derby on Haley Barr Way, decorated utility poles with a prize for the best, and possible fireworks over the river at the end of the event.",
+          "The event organizer noted Halloween Fest is no longer run by the BID and is operating under different funding, with a dedicated website and promotion through existing Alive on 25 social media pages."
+        ]
+      }
+    ]
+  }
 }

@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2025-04-17, category:Town Board Work Session">
@@ -25,6 +25,23 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/5256" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/5256/files/agenda/5094" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Riverhead Town Board work session covered a proposed family amusement event near the ice rink, a 60-megawatt battery energy storage facility in Calverton, a Starlink satellite earth station at EPCAL, and code enforcement updates including action on a severely overcrowded rental property.</p>
+      <h3>Key actions</h3>
+      <ul><li>The board expressed support for a proposed five-day family amusement event by Dreamland Amusement to be held in front of the town ice rink in late June, pending a formal Chapter 255 special events application and resolution of parking logistics.</li><li>A 60-megawatt battery energy storage facility proposed at 104 Edwards Avenue in Calverton was presented to the board; staff recommended coordinated SEQRA review with multiple agencies and the application will also go before the planning board for site plan review.</li><li>A proposed Starlink satellite earth station at EPCAL (317-319 Berman Avenue) was presented; staff recommended scheduling a public hearing, noting the project largely complies with the town&#x27;s satellite earth station code.</li><li>The board was informed that a Chapter 251 public nuisance code amendment is being drafted and is expected to come before the board the following week for possible public hearing scheduling.</li><li>The board entered executive session to discuss contractual matters involving police services and RVAC/AXIS, and a personnel appointment.</li></ul>
+      <h3>Money</h3>
+      <ul><li>Code enforcement collected approximately $21,000 in March, bringing first-quarter rental permit revenue to just under $95,000.</li><li>Justice Court reported total collections of $35,545 for the month, with blight mitigation surcharges imposed totaling $17,255 for the year to date.</li><li>The battery energy storage developer committed $100,000 to the Riverhead Fire District toward purchase of a vehicle and equipment needed to respond to battery storage incidents.</li></ul>
+      <h3>Discussed</h3>
+      <ul><li>Police Chief reported March arrests at 144, shoplifting cases down from 39 to 25, and noted the department is participating in a state teen driving safety campaign ahead of prom season.</li><li>The police department received its third motorcycle and is in the process of equipping it.</li><li>Board members discussed fire safety concerns about the battery storage facility at length; the developer&#x27;s fire safety expert described containment technology, individual cabinet design, and a 24-hour battery management monitoring system.</li><li>Code enforcement reported opening 50 new complaint investigations in March, issuing 83 summonses, and that an officer handling nighttime parking enforcement left for another municipality and will need to be replaced.</li><li>A Supreme Court case involving approximately 21 to 27 people living in a single-family home on Wading River Manor Road is ongoing, with DSS subpoenaed to testify; a follow-up hearing was scheduled for the coming Monday.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/d5a8b927-5a97-413e-bed6-3073e56dd140.mp4" type="video/mp4">
@@ -1880,6 +1897,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

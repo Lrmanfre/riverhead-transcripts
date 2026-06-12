@@ -4736,5 +4736,43 @@
       "end": 3154.36,
       "text": "you"
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T02:29:40+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Riverhead Town Board reviewed the tentative 2026 budget and discussed proposed amendments to the rental code aimed at cracking down on short-term transient rentals under 29 days.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "The board reviewed a presentation on the tentative 2026 budget, which has been formally presented at an earlier special town board meeting.",
+          "The board discussed proposed amendments to Chapter 263 of the rental code to strengthen enforcement against transient rentals, with members requesting two additional changes before any vote.",
+          "The board went into executive session to discuss contractual, legal, and personnel matters."
+        ]
+      },
+      {
+        "heading": "Money",
+        "items": [
+          "Total town operating fund appropriations for 2026 are budgeted at $112.7 million, an increase of $3.2 million over the prior year.",
+          "The general fund tentative budget exceeds the 2025 adopted general fund by $4.3 million and is 4.63% over the tax cap.",
+          "The largest budget driver is police department salaries, a contractual increase of approximately $1.8 million, followed by New York State retirement rate increases of roughly $1.1 million for police and $246,000 for non-police staff.",
+          "A property assessed at $735,000 would see a townwide tax increase of approximately 75 cents per day under the tentative budget.",
+          "Residential waste costs are projected to increase by less than 30 cents per month under an existing five-year contract."
+        ]
+      },
+      {
+        "heading": "Discussed",
+        "items": [
+          "Proposed rental code amendments would create legal presumptions of transient rental activity based on evidence such as nightly pricing, online ads lacking permit numbers, rotating vehicle registrations, and inconsistent trash output.",
+          "Rental permit applicants would be required to sign a certification acknowledging the town's ban on transient rentals; board members asked staff to add a question disclosing prior violations to the application.",
+          "Appeals of rental permit revocations would shift from the town board to the Zoning Board of Appeals under the proposed amendments.",
+          "Civil penalties for violations would be set at up to $5,000 per day, and listing platforms would face a five-day window to remove flagged illegal listings before fines apply.",
+          "Board members requested staff research whether fines in Justice Court, currently ranging from $2,000 to $6,000 depending on offense number, should be increased, citing comparable fines in neighboring towns."
+        ]
+      }
+    ]
+  }
 }

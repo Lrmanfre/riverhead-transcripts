@@ -36531,5 +36531,39 @@
       "end": 19575.88,
       "text": "Thank you."
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T02:43:17+00:00",
+    "agenda_grounded": false,
+    "tldr": "A lengthy meeting dominated by public comment on the Riverhead Charter School's proposed high school expansion onto agriculturally protected land in Aquebogue; the board also held hearings on a downtown water main extension, an unsafe structure on East 2nd Street, and proposed cannabis zoning amendments, and adopted roughly 40 resolutions covering personnel, capital project closures, and other routine matters.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "The board voted unanimously to adopt a local law amending the town code on vehicles, traffic, and parking regulations (Resolution 188).",
+          "The board voted unanimously to authorize execution of an Empire State Development grant incentive proposal for a recreational complex feasibility study at Calverton Enterprise Park (Resolution 200).",
+          "The board voted unanimously to authorize an amendment to the application for the federal RAISE 2024 transportation grant (Resolution 201).",
+          "The board voted unanimously to authorize purchase of a 2024 Kenworth dump truck for approximately $278,000 (Resolution 202).",
+          "The board voted unanimously to authorize a water district extension public hearing for the Marist Farm subdivision and nearby properties on Northville Turnpike (Resolution 191).",
+          "The board voted unanimously to authorize an agreement with Urban Design Associates regarding a planning project (Resolution 203).",
+          "The board voted unanimously to support the Suffolk County District Attorney's efforts to strengthen state fentanyl laws and two state deadly-driving bills (Resolutions 197–198).",
+          "A public hearing on an unsafe structure at 29 East 2nd Street was held; the town engineer testified the building ranks in the top 5% of worst he has inspected, but the new owner appeared virtually, said an architect will file emergency structural repair plans within four weeks, and the board reserved its decision for 30 days.",
+          "A public hearing on a water district extension for 203–213 East Main Street was held, covering roughly $1 million in water main improvements and key-money assessments; the record remains open for written comment until March 1.",
+          "A previously noticed public hearing on agritourism resort zoning was canceled and returned to work session; a separate hearing on a tax-map-error correction was also canceled and rescheduled with the corrected parcel number.",
+          "The Parks and Recreation office will relocate from Stotsky Park to Town Hall beginning March 4, 2024; beach stickers can also be purchased online at riverheadrecreation.net."
+        ]
+      },
+      {
+        "heading": "Public hearings & comment",
+        "items": [
+          "Dozens of Riverhead Charter School students, parents, and administrators spoke in favor of expanding the charter high school onto a roughly 70-acre parcel on Sound Avenue in Aquebogue, citing the need for a cafeteria, gymnasium, library, sports teams, and advanced classes.",
+          "Numerous Aquebogue and Northville residents and farmland advocates opposed the proposed location, arguing the site is in an agricultural protection zone, the development rights on 53 acres were purchased by Suffolk County, and the project would increase traffic, depress property values, and set a precedent for further farmland development.",
+          "A charter school board member stated the school has searched for a suitable site for seven years, that only nine zoning districts in Riverhead permit schools, and that no formal application has yet been submitted to the town."
+        ]
+      }
+    ]
+  }
 }

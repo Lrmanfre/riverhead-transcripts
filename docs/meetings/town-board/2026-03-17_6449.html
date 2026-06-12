@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2026-03-17, category:Town Board">
@@ -25,6 +25,21 @@
     <div class="meta-row">93 min &nbsp;·&nbsp; <a href="https://riverheadny.portal.civicclerk.com/event/6449" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/6449/files/agenda/5928" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Riverhead Town Board held its March 17, 2026 meeting, marking the town&#x27;s 234th birthday, and adopted a broad slate of resolutions covering staffing, contracts, special events, and land-use matters while tabling two items pending corrections.</p>
+      <h3>Key actions</h3>
+      <ul><li>The board adopted a local law creating a &#x27;change of tenancy&#x27; permit process under the Fire Marshal&#x27;s office to streamline inspections when a business moves into an existing space without a change of use.</li><li>A local law amending the fire safety code related to tenancy permits was given a public hearing; both fire-code measures were left open ten days for written comment before adoption.</li><li>A third public hearing addressed updated requirements for electronic reporting of fire-protection-system inspection and testing records.</li><li>The board reappointed multiple members to the Landmarks Preservation Commission, including Richard Wines, Kelly Sharga, James McMahon, Stephanie Bell, Joe Petruccelli, Peter Lucas, and one additional member.</li><li>The Polish Town Street Fair and Festival special-event application was approved after the board voted to strike the clause requiring the organizers to reimburse police costs, which town counsel confirmed is not currently enforceable under the town code.</li><li>The Zenith Building addition site-plan preliminary approval at 301 East Main Street and 12 McDermott Avenue was adopted; one board member abstained citing concerns about a fifth-floor element and incomplete knowledge of the scoping process.</li><li>The board authorized retaining special counsel to defend against litigation brought by Suffolk County Water Authority over a town zoning ruling, with board members urging residents to contact the water authority directly.</li><li>Resolution 254 authorizing a project-scope letter for the Perkins Building at 1129 West Main Street was tabled pending funding clarification.</li><li>Resolution 227 setting salaries for call-in and seasonal recreation personnel was tabled after dollar amounts were found to be incorrect; a corrected version, Resolution 228, was adopted the same meeting.</li><li>The board adopted local laws on accessory dwelling units and sewer code amendments, and approved contracts for sewer-district chemicals, generator maintenance, and a prefabricated highway department building.</li><li>Off-agenda resolutions authorizing the Community Development Agency to apply for Congressional Directed Spending for infrastructure projects and police vehicles were adopted after Congressman Lota&#x27;s office requested submissions by Friday.</li></ul>
+      <h3>Money</h3>
+      <ul><li>The town clerk reported the building department collected approximately $125,099 in fees in February, and total tax collections reached roughly $108.7 million as of March 11.</li><li>The board amended the Riverhead Water District schedule of rates and charges.</li><li>A budget adjustment was adopted for the Children&#x27;s Adaptive Playground capital project to align spending lines with grant requirements.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/06fbb07106.mp4" type="video/mp4">
@@ -1797,6 +1812,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2025-03-27, category:Town Board Work Session">
@@ -25,6 +25,21 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/5219" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/5219/files/agenda/5057" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Town Board work session covered a presentation on the Half Shells for Habitat oyster shell recycling program, committee updates from all board members, and a large batch of resolutions including approvals related to the Heatherwood construction staging area, Town Square project extensions, and several proposed local law amendments.</p>
+      <h3>Key actions</h3>
+      <ul><li>The board reviewed a proposed agreement to allow the Riverhead Rotary Club and SeaTuck Environmental Association to operate a Half Shells for Habitat oyster shell recycling program at a town facility on Young&#x27;s Avenue, with the town attorney&#x27;s office preparing a draft agreement.</li><li>The board discussed a staging license agreement with the Heatherwood developer for construction materials and employee parking, including acceptance of fill dirt credited at $35 per cubic yard toward a two-year, $150,000 fee.</li><li>The board reviewed a resolution ratifying a license agreement with the Riverhead IDA to use space at Stotsky Park recreational building, with back-rent owed from May through the present to be collected.</li><li>The board discussed a special permit for Riverhead Charter School to place three portable trailers at its Sound Avenue site, with conditions including a decommissioning bond and periodic status updates; at least one board member opposed the application.</li><li>Several resolutions would set public hearings for condemnation or acquisition of properties at 111, 121, and 127 East Main Street for general municipal purposes.</li><li>Multiple resolutions would set public hearings to amend the town fire prevention code and to adopt zoning code changes recommended by the 2024 Comprehensive Plan update covering signs, solar energy systems, wireless towers, and other sections.</li></ul>
+      <h3>Discussed</h3>
+      <ul><li>Committee updates included: beach concession stand opening Memorial Day weekend, Polish Town National Registry application in progress, East Creek Marina surveillance cameras now active with all docks filled, spring cleanup scheduled for May 3, a new skate park planned on county-designated land, ARVAC ambulance facility construction plans being finalized, Route 25 paving moved up to this year from 2027, and a Memorial Day parade in early planning stages.</li><li>The board discussed expanding the Half Shells for Habitat program to include wineries, farms, and large food distributors, and setting up satellite collection points given Riverhead&#x27;s geographic size.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/95d52173-3fe5-4e11-9d6c-2b812f8c0ca5.mp4" type="video/mp4">
@@ -1227,6 +1242,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

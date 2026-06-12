@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2024-04-11, category:Zoning Board of Appeals">
@@ -25,6 +25,19 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/6227" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/6227/files/agenda/5669" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Zoning Board of Appeals met on April 11, 2024, adjourning two applications to May 23rd and granting two variances for a detached garage on a waterfront flag lot in Laurel.</p>
+      <h3>Key actions</h3>
+      <ul><li>An unspecified application was adjourned to May 23, 2024 at the applicant&#x27;s request.</li><li>The hearing for Appeal 2024-007 (Marta Campos, 91 Fire Lane, Wading River) was adjourned to May 23, 2024 because the applicant had not completed certified mailing to neighbors as required.</li><li>A deputy town attorney offered to meet with the applicant on Monday to walk through the affidavit of mailing and certified mail process, and suggested an interpreter be arranged for the next hearing.</li><li>Appeal 2024-010 (Maureen and Paul Sweetow, 1579 Peconic Bay Boulevard, Laurel) was approved, granting two variances: one to allow a detached garage in the front yard and one to allow a five-foot setback between the garage and residence where ten feet is required.</li><li>The Sweetow variance approval was granted subject to Suffolk County Health Department approval, compliance with DEC permits, and compliance with the Conservation Advisory Council approval dated March 18, 2024, including the non-disturbance easement or any amended CAC determination.</li><li>Minutes from the March 14 and March 28 meetings were approved.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/f6ab1030-3072-4fb9-a394-1ae02f1c7ed0.mp4" type="video/mp4">
@@ -568,6 +581,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2026-04-16, category:Town Board Work Session">
@@ -25,6 +25,21 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/6475" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/6475/files/agenda/5969" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The board reviewed proposed regulations for e-bikes and e-scooters, discussed amendments to covenants at Island Water Park (Scott&#x27;s Point), and took up a new waterfowl blind registration code, among roughly 50 resolutions covering personnel, capital projects, and grants.</p>
+      <h3>Key actions</h3>
+      <ul><li>The board discussed codifying county-level e-bike and e-scooter rules into town code so officers can issue town summonses, impound devices, and fine operators or parents of minors; no vote was taken but further drafting was directed.</li><li>Island Water Park (Scott&#x27;s Point) presented a site plan amendment seeking approval for a zip line, battery-powered bumper boats, drift-car and pit-bike events on the go-kart track, and permanent storage of inflatable structures; discussion was deferred pending DEC input, though after the session a planner reported the DEC had issued final reclamation for the site.</li><li>A proposed update to the waterfowl blind code was discussed; the board directed staff to revisit the permit fee (suggested range moved above the draft figure of $15 toward something closer to $100) and add a deposit or cost-recovery mechanism before scheduling a public hearing.</li><li>The board reviewed roughly 51 resolutions including awarding a bid for the Meeting House Creek Road bulkhead renovation, associated capital budget transfers, multiple sewer district change orders, and appointments to advisory committees.</li><li>A resolution was listed to set a public hearing on condemnation of a parcel at 111 East Main Street for general municipal purposes.</li><li>Special permit approvals for two battery energy storage systems—one on Edwards Avenue in Calverton and one on Scott Avenue at EPCAL—were on the resolution list; the Scott Avenue applicant&#x27;s request to waive landscaping requirements due to the site&#x27;s lack of visibility was discussed favorably.</li><li>A pump-out boat grant application for up to approximately $14,000 in 2026 reimbursements was listed, with board members noting concern about retaining the sole pump-out operator and the need to revisit compensation.</li></ul>
+      <h3>Affects residents</h3>
+      <ul><li>Under the proposed e-bike and e-scooter rules, riders under 16 would be prohibited from operating these devices, helmets would be required regardless of age, and riding on roads posted above 30 mph would be prohibited; parents could receive summonses for violations by younger children.</li><li>The Little League opening day is April 25 at 10:30 a.m. at Stotsky Park, and the town&#x27;s spring cleanup runs the same day with free supplies available at town hall from 9 to 11 a.m.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/179022f4-9543-4bef-8913-5f198cb20fb5.mp4" type="video/mp4">
@@ -1606,6 +1621,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

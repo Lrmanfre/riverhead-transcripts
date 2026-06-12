@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2025-09-17, category:Town Board Work Session">
@@ -25,6 +25,21 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/138" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/138/files/agenda/5579" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Riverhead Town Board work session covered proposed zoning changes to allow golf cottages tied to the TDR program, reviewed August police and code enforcement reports, heard a justice court update, and received the monthly town clerk report.</p>
+      <h3>Key actions</h3>
+      <ul><li>The board agreed to direct staff to revise a proposed code amendment allowing golf cottages as accessory uses to golf courses, raising the maximum unit size from 600 to 1,200 square feet and removing the one-bedroom restriction, with a public hearing to be scheduled after the revised language is circulated.</li><li>Each golf cottage would require redemption of one preservation credit under the Transfer of Development Rights program, with the two eligible golf courses currently being those located in the RA80 zoning district.</li><li>The town clerk indicated he will take over management of the invocation calendar following the departure of a staff coordinator.</li><li>Staff are exploring whether the requirement for notarized signatures on building permit applications can be replaced with a photo ID verification process.</li></ul>
+      <h3>Discussed</h3>
+      <ul><li>The senior planner noted that extending the golf cottage program to courses in other zoning districts, such as the APZ or RB80, would require a Generic Environmental Impact Statement before those districts could become TDR receiving districts.</li><li>The August 2025 police report showed criminal incidents down roughly 25 percent year-over-year, no fatal or non-fatal overdoses, and no downtown violent crime, while domestic incidents and DUI arrests increased.</li><li>The code enforcement report for August noted 88 new complaints opened, 73 rental inspections completed, 91 rental permits issued, and year-to-date rental permit revenue of approximately $236,400.</li><li>The town attorney reported ongoing Supreme Court proceedings the following day seeking civil contempt findings and daily fines against a property owner in violation of prior court orders regarding an illegal group home.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/de87afe2-4034-4f49-8a4f-69358638cd32.mp4" type="video/mp4">
@@ -988,6 +1003,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

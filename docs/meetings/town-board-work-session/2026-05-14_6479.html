@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2026-05-14, category:Town Board Work Session">
@@ -25,6 +25,21 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/6479" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/6479/files/agenda/5984" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The board held a work session focused on the Peconic River Hotel project, a 94-room Tapestry by Hilton boutique hotel proposed as part of the multi-phase Riverhead Town Square urban renewal project, and reviewed a slate of routine resolutions.</p>
+      <h3>Key actions</h3>
+      <ul><li>A public hearing on the Peconic River Hotel site plan and special permit application was announced for June 10, 2026 at 6 p.m., dedicated solely to that application.</li><li>The board reviewed the hotel&#x27;s site plan and special permit application, with the town&#x27;s senior planner and the applicant&#x27;s environmental consultant concluding the project is consistent with the prior SEQRA negative declaration for downtown revitalization.</li><li>The board discussed a resolution authorizing the supervisor to execute a letter of intent with the YMCA for redevelopment of the former New York State Armory at 1405 Old Country Road.</li><li>The board discussed a one-year extension of final site plan approval for the Zenith Building at 12 McDermott Avenue.</li><li>A local law amending the town code to provide tax exemptions for volunteer firefighters and ambulance workers was listed for adoption.</li><li>The board raised a concern about compensation for the pump-out boat operator, currently paid $20 per hour, and directed staff to work with personnel on a potential increase before approving the reappointment.</li></ul>
+      <h3>Discussed</h3>
+      <ul><li>The proposed hotel is five stories with 94 rooms, ground-floor retail and a 5,000-square-foot restaurant, valet parking off Main Street for up to eight vehicles, and nine below-grade staff parking spaces.</li><li>The developer and board emphasized the hotel and town square should open simultaneously, and noted coordination is ongoing with East End Arts regarding the adjacent property and access.</li><li>The board noted the town square streetscape construction drawings and permits are complete pending federal grant funding arrival.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/b602b1c2-5cbd-47f1-bbe4-3e9a9a299a8c.mp4" type="video/mp4">
@@ -1028,6 +1043,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

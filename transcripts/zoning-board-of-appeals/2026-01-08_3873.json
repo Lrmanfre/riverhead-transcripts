@@ -10961,5 +10961,43 @@
       "end": 6497.48,
       "text": ""
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T03:24:55+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Zoning Board of Appeals heard two use-variance applications and reserved decisions on both for February 12, 2026: one for a proposed storage warehouse in a Commercial Residential Campus zone, and one for a Stony Brook Medicine ambulance and mobile stroke unit facility in a Shopping Center zone.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "The board adjourned appeal 2025-036 (a property on Osborne Avenue) with all members voting aye.",
+          "The board voted to reserve a decision on appeal 2025-041 (Fadoon Warehouse, 52 Main Road) until February 12, 2026, after hearing testimony on a proposed 3,900-square-foot storage warehouse in the CRC zone, where warehouses are not a listed permitted use.",
+          "The board voted to reserve a decision on appeal 2025-042 (Stony Brook Ambulance Center, 1087 Old Country Road, Suite 1103) until February 12, 2026, pending Suffolk County Planning Commission review; one member abstained.",
+          "Minutes from the November 13 and December 11, 2025 meetings were accepted."
+        ]
+      },
+      {
+        "heading": "Public hearings & comment",
+        "items": [
+          "The Fadoon warehouse applicant testified that water yield limitations (156 gallons per day) make most CRC permitted uses financially unfeasible on the roughly half-acre parcel, and that 15 years of marketing produced no viable tenants.",
+          "A neighbor on Tower Lane testified in opposition, saying the proposed three-unit warehouse layout would direct traffic and overflow parking onto a shared easement used by residential households.",
+          "A resident on Tara Lane spoke in opposition, stating she had not received a certified-mail notice and urging the board to reject the warehouse on a lot directly behind her home.",
+          "A representative of the Greater Calverton Civic Association asked the board to weigh traffic impacts and the effect on residents who would face the warehouse from their front windows.",
+          "Riverhead Volunteer Ambulance Corps testified in support of the Stony Brook application, describing the mobile stroke unit as a critical asset given the volume of calls the corps handles and the absence of such a unit on the East End.",
+          "Stony Brook Medicine's Director of Emergency Services testified that the facility would house up to eight ambulances and one mobile stroke unit, with no sirens or lights activated within the parking lot, and that Stony Brook is investing approximately $2 million without public funds."
+        ]
+      },
+      {
+        "heading": "Discussed",
+        "items": [
+          "Board members questioned the Fadoon warehouse applicant about whether merging the adjacent parcel he owns, lowering the asking price, or pursuing other permitted uses such as an office or residence had been seriously explored.",
+          "Council for the Stony Brook applicant argued the facility may already be permitted outright as a 'business establishment' within the defined shopping center use, and that a use variance is alternatively warranted because the L-shaped rear space has no road visibility and has been unsuccessfully marketed to more than 80 potential tenants for several years.",
+          "Board members noted that the rear portion of the building was previously used as a distribution warehouse by the former Big Lots tenant, and that the ambulance vehicles are smaller than typical delivery trucks already serving the shopping center."
+        ]
+      }
+    ]
+  }
 }

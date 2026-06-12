@@ -1471,5 +1471,28 @@
       "end": 816.08,
       "text": "Thank you."
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T03:13:42+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Zoning Board of Appeals held its first meeting of 2024, approving a settlement agreement with Gershow Recycling and granting multiple variances for a two-lot unmerger on Park Road.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "The board unanimously passed Resolution 2024-01, authorizing the chair to execute a settlement agreement and mutual release with Gershow Recycling of Riverhead.",
+          "The board unanimously granted variances for Amanda Furmentier at 86 Park Road (Tax Map 600-16-3-3.1) for a two-lot unmerger, including lot area, lot width, impervious surface coverage, a shed rear setback, and conversion of a seasonal accessory apartment to a principal single-family dwelling on Lot 2, subject to conditions including obtaining a certificate of occupancy, removing highway right-of-way encroachments, and getting highway apron approval."
+        ]
+      },
+      {
+        "heading": "Discussed",
+        "items": [
+          "The next meeting is scheduled for February 8, 2024."
+        ]
+      }
+    ]
+  }
 }

@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2026-05-14, category:Zoning Board of Appeals">
@@ -25,6 +25,19 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/3877" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/3877/files/agenda/5982" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Zoning Board of Appeals denied a request to operate an ambulance center/mobile stroke unit garage in a shopping center zone, and approved setback variances for a residential addition in Riverhead. A deck application near a bluff in Jamesport was adjourned for additional information.</p>
+      <h3>Key actions</h3>
+      <ul><li>The board issued its reserved decision on Appeal 2026-042 (1099 Royal LLC, 1087 Old Country Road), denying both the interpretation request and the use variance request to allow ambulance storage, a training office, and emergency dispatch within the shopping center zoning district.</li><li>The board found the applicant did not demonstrate sufficient &#x27;dollars and cents&#x27; proof of inability to realize a reasonable return from permitted uses, and that the proposed uses do not serve the public shopping purpose of the district.</li><li>Appeal 2026-008 (190 Park Road, Riverhead) was approved, granting variances for side yard setbacks, combined side yard, rear yard setback, impervious surface coverage, and a shed setback, subject to removal of one of the two existing sheds.</li><li>Appeal 2026-007 (189 Trout Brook Lane, Aquebogue) was adjourned to June 11, 2026, after the applicant did not respond following a prior adjournment for possible redesign or withdrawal; staff was directed to send a formal letter.</li><li>Appeal 2026-011 (888 Soundshore Road, Jamesport) — a proposed rear deck within the coastal erosion hazard area — was adjourned to June 11, 2026, pending the applicant&#x27;s submission of comparable approval examples; the board also raised concerns about unpermitted vegetation clearing within the 50-foot coastal buffer.</li><li>The next meeting was set for June 11, 2026, as no cases are scheduled for May 28.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/2a523891-31a2-459f-ab12-632ffd870d93.mp4" type="video/mp4">
@@ -654,6 +667,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

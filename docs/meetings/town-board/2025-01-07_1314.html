@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2025-01-07, category:Town Board">
@@ -25,6 +25,23 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/1314" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/1314/files/agenda/1177" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The board held a public hearing on the Sandy Pond Golf Course special permit application and passed roughly 88 resolutions setting 2025 salaries, making appointments, and handling administrative matters, including a contested 4-1 vote to ratify a $50,000 settlement with Island Water Park.</p>
+      <h3>Key actions</h3>
+      <ul><li>The board voted unanimously to set 2025 salaries for elected officials, general town employees, police, highway, water district, and other personnel across more than a dozen resolutions.</li><li>Several employees were reclassified to higher job titles, including multiple heavy equipment operators promoted to construction equipment operator.</li><li>The board ratified a $50,000 civil penalty settlement of a legal action against Island Water Park, with one member voting no citing the operator&#x27;s history of repeat code violations and calling the penalty insufficient.</li><li>After the settlement vote, the board untabled and approved scheduling a public hearing on Island Water Park&#x27;s pending site plan amendment application.</li><li>A resolution awarding a rebid for the Meeting House Creek stormwater wetland and habitat restoration project was recalled and then defeated unanimously after staff clarified the town intends to issue a new rebid instead.</li><li>The board authorized the Community Development Department to apply for the New York State ADU Plus One Program.</li><li>A license agreement with the Research Foundation of SUNY was approved for installation of a fish passage camera at a town park.</li><li>The board adopted a local law amending town code to set term limits for town justices.</li></ul>
+      <h3>Public hearings &amp; comment</h3>
+      <ul><li>A public hearing was held on a special permit application from Sandy Pond Links at 1495 Roanoke Avenue for a roughly 3,100-square-foot clubhouse, a property manager&#x27;s residence, three trade shop buildings, and 67 additional parking spaces; the hearing was closed and kept open for written comment until January 17, 2025.</li><li>One commenter argued the project&#x27;s environmental review was improperly segmented by reviewing the mini-golf phase and the clubhouse/trade shop phase separately; the senior planner and the applicant&#x27;s attorney disputed that characterization and addressed the timeline for the non-conforming use question.</li><li>Multiple residents spoke against ratifying the Island Water Park settlement, citing unpermitted construction, DEC violations related to the go-kart track and expanded parking lot, and the adequacy of the $50,000 penalty.</li><li>A resident raised questions about PFAS contamination risks related to an expansion of the West Wastewater Treatment Plant and asked the board to ensure biosolids are tested before any land application.</li></ul>
+      <h3>Affects residents</h3>
+      <ul><li>The town is accepting applications for part-time police officers; candidates must be at least six months short of 21 and no older than 35.</li><li>Residents may submit written comments on the Sandy Pond Golf Course special permit application through January 17, 2025.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/206ab79d-2eef-437d-bb78-4fbd52203777.mp4" type="video/mp4">
@@ -1922,6 +1939,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

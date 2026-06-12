@@ -7506,5 +7506,49 @@
       "end": 3618.0,
       "text": "NEW SPEAKER RON RON."
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T03:11:11+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Town Board approved roughly two dozen resolutions covering personnel, special events, water and fire-code amendments, and a federal funding application. A public hearing on a new no-parking rule on Northern Parkway drew resident concerns about a nearby medical office, and public comment centered on ICE enforcement activity near schools and the town hockey rink's certificate of occupancy.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "The board adopted a resolution authorizing staff to apply for federal congressionally directed spending for Riverhead Water District extensions 96 and 97 and police department equipment, amending the grant amount to approximately $4,092,000.",
+          "The board approved three special-event permits for Jamesport Farm Brewery events (a food truck rodeo, a car show, and a Fresh Hop Festival) and separate permits for an East End Arts community mosaic event and a Rise Life Services car show.",
+          "The board authorized public notices to consider amendments to town code chapters governing use-tenancy fire marshal review and fire safety change-of-tenancy review.",
+          "A water district capital project budget was adopted and a highway department budget transfer for additional road salt was approved.",
+          "Four people were appointed or reappointed to the Town Agricultural Advisory Committee.",
+          "Two staff reclassifications, a new Recreation Department account clerk, and a new building plans examiner were approved."
+        ]
+      },
+      {
+        "heading": "Public hearings & comment",
+        "items": [
+          "A public hearing was held on a proposed amendment to prohibit parking on the north side of Northern Parkway from Roanoke Avenue eastward for 500 feet, weekdays 8 a.m. to 6 p.m.; the hearing was closed with a 10-day written-comment period ending March 13.",
+          "Residents on Northern Parkway testified that the parking restriction would not solve underlying problems and raised concerns about fire-lane clearance, ADA accessibility, and certificate-of-occupancy compliance at an adjacent medical office.",
+          "Several residents and an advocacy organization representative asked the board to consider a public-safety resolution related to federal immigration enforcement activity near schools and in residential neighborhoods.",
+          "A caller raised concerns about the town hockey rink's outstanding final certificate of occupancy and an unresolved Freedom of Information Act request about rink repairs; the supervisor noted an outside engineering review had been completed and the rink is operating."
+        ]
+      },
+      {
+        "heading": "Discussed",
+        "items": [
+          "The supervisor addressed the hockey rink dome incident, stating it occurred during a power outage rather than the blizzard, an outside engineer cleared the facility, and the fire marshal was involved.",
+          "A board member disclosed purchase of a 108-acre equestrian farm in Jamesport with development rights already sold to a farmland preservation program; a caller suggested the board seek a formal conflict-of-interest opinion regarding future agritourism or transfer-of-development-rights matters.",
+          "The supervisor warned residents about phishing scams impersonating town departments and noted the building department does not accept electronic payment."
+        ]
+      },
+      {
+        "heading": "Affects residents",
+        "items": [
+          "Residents on and near Northern Parkway should monitor the proposed no-parking rule and may submit written comments through March 13."
+        ]
+      }
+    ]
+  }
 }

@@ -7216,5 +7216,35 @@
       "end": 3823.7,
       "text": ""
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T02:07:19+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Town Board work session featured a PSEG Long Island presentation on new time-of-day electricity rates and reviewed a draft food truck ordinance, then read through 33 resolutions for the upcoming meeting.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "The board is set to vote at the June 18 meeting on an MOA that includes recognizing Juneteenth (June 19) as a paid holiday, with Town Hall expected to close that day.",
+          "A $500,000 state grant contract for the Riverfront Adaptive Children's Playground was placed on the resolution list for approval.",
+          "The board directed staff to publish and post a public hearing notice for a proposed code amendment to regulate food trucks, restricting them to properties with an existing restaurant, brewery, winery, or similar use, and prohibiting operation within 500 feet of a competing food establishment.",
+          "Bids for residential solid waste collection and disposal were rejected and the town will re-bid with revised specifications, with new bid documents posted by June 27.",
+          "A public hearing was scheduled for July 16 on the Hildreth Real Estate Advisors site plan at 1001 Scott Avenue, Calverton, after the board assumed lead agency and issued a negative declaration under SEQRA.",
+          "Preliminary approval was placed on the resolution list for a commercial warehouse site plan at 901 Berman Boulevard, Calverton.",
+          "The board will hold a public hearing on July 2 on proposed amendments to the Community Preservation Fund Water Quality Improvement and Pollution Prevention Project Plan.",
+          "The board entered executive session to discuss a possible MOA or STIP, a personnel disciplinary matter, and possible litigation."
+        ]
+      },
+      {
+        "heading": "Discussed",
+        "items": [
+          "PSEG Long Island representatives explained the new residential time-of-day rate program, which sets peak pricing from 3–7 p.m. weekdays and offers up to a 40% overnight discount; customers who do not save in the first 12 months receive a bill credit, and migration of roughly 31,000 customers began this month.",
+          "The PSEG app's rate-comparison tool lets customers see which plan would have saved them the most based on 12 months of smart-meter data and allows enrollment directly in the app."
+        ]
+      }
+    ]
+  }
 }

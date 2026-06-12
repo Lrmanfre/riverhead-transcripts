@@ -12506,5 +12506,43 @@
       "end": 7827.84,
       "text": "Thank you."
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T04:33:48+00:00",
+    "agenda_grounded": false,
+    "chunked": true,
+    "tldr": "The Riverhead ZBA held hearings on six active appeals on January 23, 2025. Two variances were granted, one use variance was denied, one coastal erosion application was reserved pending a revised plan, one application was adjourned for corrections, and a large commercial development application was continued with additional information requested.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "Appeal 2024-037 (Fisher Realty Group, 940–946 West Main Street) — request to store repossessed vehicles outdoors was unanimously denied; the board agreed the use is not permitted in the Peconic River Community zoning district.",
+          "Appeal 2025-001 (776 Soundshore Road, Jamesport) — variance unanimously granted for a 16x32 in-ground pool and pool house in the front yard, subject to conditions including seasonal-only pool house use, no habitable space, and submission of impervious surface calculations.",
+          "Appeal 2025-002 (1022 Parkway Street, Riverhead) — variance unanimously granted for enclosure of an existing front porch with a front yard setback of 19.2 ft (50 ft required) and side yard setback of 1.5 ft (25 ft required); applicant must obtain permits or remove an unpermitted gazebo and shed within six months.",
+          "Appeal 2024-035 (1201 Ostrander Avenue, cannabis use variance) — adjourned to February 13, 2025, awaiting a Suffolk County Planning Commission response.",
+          "Appeal 2024-038 (99 Cliff Road East, Wading River) — unanimously adjourned to February 27, 2025, because the application contained errors including a wrong pool type reference, incorrect tax map numbers, and an incorrect environmental assessment form.",
+          "Appeal 2024-031 (834 Soundshore Road, Jamesport, coastal erosion hazard area) — decision reserved to February 13, 2025; the board expressed preference for a relocated pool option (Option 3), and if the applicant submits an amended plan within seven days, the reserved decision will be held pending review.",
+          "Appeal 2024-034 (Fisher Realty Group, 940–946 West Main Street, large commercial development) — continued; the landscape variance was deemed moot after the landscaped area increased to 50.07%, but variances for impervious surface coverage and floor-area ratio remain; the board requested updated plans and a staff report within 7–10 days confirming parking and dimensional calculations."
+        ]
+      },
+      {
+        "heading": "Public hearings & comment",
+        "items": [
+          "A neighbor at 774 Soundshore Road raised concerns about runoff and grade change for the Jamesport pool application but was satisfied after learning the pool would be on the east side and the grade would not change.",
+          "A neighbor at 1028 Parkway Street raised concerns about encroachment for the Parkway Street porch enclosure but was satisfied after confirmation that the footprint would not expand.",
+          "A resident of Reeves Park spoke in opposition to the 1201 Ostrander Avenue cannabis use variance, citing proximity to homes and children; the applicant's attorney argued the use meets the town code's special use exception standard."
+        ]
+      },
+      {
+        "heading": "Discussed",
+        "items": [
+          "For the large Fisher Realty commercial project, an unresolved question remains whether a 3,520 sq ft ramp area counts toward floor-area ratio; planning staff informally said it does not, but the board requested formal written clarification.",
+          "The board noted it could not locate a ZBA application or Chapter 219 coastal erosion permit for a comparable property at 862 Soundshore Road, which has a pool 37.5 ft from the coastal erosion hazard line."
+        ]
+      }
+    ]
+  }
 }

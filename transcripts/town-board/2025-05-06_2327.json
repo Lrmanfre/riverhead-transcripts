@@ -7916,5 +7916,44 @@
       "end": 3324.5,
       "text": "We'll head [transcription gap]"
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T02:59:00+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Riverhead Town Board held six fire code public hearings and voted unanimously on roughly 40 resolutions covering personnel, special events, parking, grants, and land use matters.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "The board adopted a budget amendment appropriating HUD HOME funds for a capital project.",
+          "A six-month extension of preliminary site plan approval was granted for a property at 38 McDermott Avenue.",
+          "The board authorized a SEQRA negative declaration and scheduled a public hearing for a proposed Calverton Satellite Earth Station at 317-391 Berman Boulevard, correcting a prior address error.",
+          "The board approved a license agreement with Waddington Realty Corp for use of town parking facilities, retroactively.",
+          "A license agreement was authorized allowing Stein Seafood LLC to operate floating upweller systems in East Creek.",
+          "Special event permits were approved for Duck Pond Day, Riverhead Country Fair, Dreamland Amusements East End Fair, Long Island Antique Power Association shows, and two other events.",
+          "The board authorized soliciting an RFP for the sale of 214 Griffin Avenue.",
+          "A public hearing was scheduled to consider designating a parcel at 48 Willow Street as open space using $75,000 in Community Preservation funds.",
+          "Robert Myrick was appointed to the town's Emerging Technology Committee."
+        ]
+      },
+      {
+        "heading": "Money",
+        "items": [
+          "Tax collection totals reported as of May 1 stood at approximately $105.9 million.",
+          "The building department reported approximately $87,483 in permits for April.",
+          "A speaker publicly objected to the Waddington Realty parking license fee, calling it inadequate at roughly 31 cents per space per day."
+        ]
+      },
+      {
+        "heading": "Public hearings & comment",
+        "items": [
+          "Six fire code public hearings were closed and kept open for written comment through May 16, covering new definitions, alarm reset restrictions, lithium-ion battery fire reimbursement, fire suppression requirements at gas stations, outdoor fire permits, and reclassifying certain violations.",
+          "A resident raised concerns about the pace of approval for the Dreamland Amusements fair, particularly regarding parking and the absence of a finalized license agreement; town officials said review by police, fire marshal, and other departments is ongoing."
+        ]
+      }
+    ]
+  }
 }

@@ -20036,5 +20036,44 @@
       "end": 11461.32,
       "text": "you"
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T02:36:51+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Riverhead Town Board held a lengthy work session covering the stalled Long Island Science Center project at 111 Main Street, the future of the Alive on 25 street festival, a new code enforcement initiative targeting overcrowded housing and quality-of-life violations, and a large batch of routine resolutions.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "The board signaled it intends to move forward with condemnation-related action on 111 East Main Street (the Long Island Science Center building), which has sat vacant for six years with no building permits, site plan approval, or construction activity.",
+          "The Science Center team committed to submitting an amended building permit application for a reduced roughly 4,000-square-foot phase-one footprint by the end of April, and to scheduling stormwater coordination meetings with town engineers and the master developer.",
+          "The board agreed to add two part-time evening code enforcement officers and one part-time clerical position to conduct proactive neighborhood patrols focused on overcrowded housing, property maintenance, illegal parking, and garbage violations.",
+          "Three sewer district change orders (resolutions 11, 12, and 13) related to contract cost increases for the RDSD-2202 project were pulled pending resolution of EFC financing issues.",
+          "A public hearing was called on a proposed local law amending Chapter 273 of town code covering solid waste provisions for all properties.",
+          "A public hearing was called on a proposed local law to amend Chapter 279 providing tax exemptions for volunteer firefighters and ambulance workers.",
+          "The board set a resolution to formally affirm prior authorization for acquisition of 111 East Main Street (tax map 600-129-1-11) for general municipal purposes.",
+          "The board approved setting fees for the 2026 spring/summer recreation brochure, with members flagging that the $10 non-resident surcharge may be too low and requesting data on non-resident participation for future review.",
+          "The Celtic Quest kayak license agreement was advanced at a fee raised to $2,000 for the 2026 season, up from $1,800."
+        ]
+      },
+      {
+        "heading": "Money",
+        "items": [
+          "A capital project for downtown alleyway lighting (project 44038) was closed out and roughly $25,000 in CDBG and state grant funding returned to the county after construction costs doubled before the project could be executed.",
+          "A budget adoption was approved for the River and Roots Playground Rehabilitation project, funded by a Suffolk County downtown revitalization grant with the BIDMA contributing approximately $37,000 in matching funds.",
+          "The Water District updated its one-inch service connection fee to $3,600 for a standard installation and $4,100 for a crossing installation, compared to a neighboring supplier's rate of $4,600.",
+          "The showmobile currently costs the town an estimated $1,500–$2,000 per use but is charged out at $100; staff estimated a net loss of roughly $60,000 last year, prompting discussion of raising fees to full cost recovery or selling the asset."
+        ]
+      },
+      {
+        "heading": "Discussed",
+        "items": [
+          "Board members and invited business owners and event organizers debated the future of the Alive on 25 street festival; all speakers supported continuing the event, and discussion centered on shifting to Thursday dates, reducing police costs by shortening the road closure route, and earlier annual planning."
+        ]
+      }
+    ]
+  }
 }

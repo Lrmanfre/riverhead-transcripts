@@ -5991,5 +5991,27 @@
       "end": 4156.2,
       "text": "you"
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T03:28:49+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Riverhead Zoning Board of Appeals held its April 23, 2026 meeting, deciding two reserved decisions and several public hearing applications, with outcomes ranging from denials to grants with conditions.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "The board denied an appeal by Bayview Epiconic, LLC (47 Bayside Avenue, Jamesport) seeking to overturn the Chief Building Inspector's rescission of a pre-existing transient rental use letter; one board member dissented, finding the applicant's testimony credible.",
+          "The board granted a special exception to a wholesale sprinkler business at 1264 West Main Street, Riverhead, subject to Planning Board site plan review.",
+          "The board denied variance requests from the owner of 2041 Osborne Avenue, Riverhead, for a 6-foot front yard fence and 6-foot recessed gate, finding the grounds insufficient and precedents submitted by the applicant not controlling.",
+          "An application at a Main Road, Aquebogue property (Appeal 2026-002) was adjourned without a date pending a revised plan addressing additional relief items discovered since filing.",
+          "An application for 167 Pierre Avenue, Jamesport (Appeal 2026-005) was withdrawn after the applicant redesigned the project to no longer require a variance.",
+          "The board granted setback and impervious surface variances for a minor subdivision on Hulse Landing Road, Wading River (Appeal 2026-009), conditioned on Planning Board approval and a covenant requiring removal of a greenhouse encroachment if the lots are sold or no longer under unified ownership.",
+          "The board granted a front yard setback variance of 35.2 feet where 60 feet is required, allowing construction of a single-family dwelling on an existing foundation at 451 Northside Road, Wading River (Appeal 2026-010)."
+        ]
+      }
+    ]
+  }
 }

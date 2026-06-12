@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2024-10-31, category:Town Board Work Session">
@@ -25,6 +25,21 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/5579" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/5579/files/agenda/5417" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Riverhead Town Board held a Halloween work session covering a tanker fire incident briefing, a food drive event announcement, lengthy discussion on draft industrial zoning code amendments implementing the 2024 Comprehensive Plan, and committee updates. Seventeen public hearing notices related to zoning changes were authorized, along with several personnel and administrative resolutions.</p>
+      <h3>Key actions</h3>
+      <ul><li>The board authorized the town clerk to publish and post notices for 17 public hearings on proposed zoning code amendments implementing the 2024 Comprehensive Plan, covering the new Calverton Industrial (CI) and Light Industrial (LI) districts, transfer development rights updates, zoning map changes, and removal of the existing Industrial A, B, and C districts.</li><li>A public hearing notice was also authorized for a proposed local law amending the town code chapter on term limits.</li><li>The board adopted local laws amending town code chapters on abandoned shopping carts, permit procedures, and fire prevention.</li><li>A bid was awarded for Class A biosolids improvements.</li><li>A police officer was promoted to sergeant, and additional personnel appointments and a retirement acceptance were included in the resolutions.</li><li>The board authorized a license agreement with Ademco Inc. to use the runway at EPCAL and authorized grant applications for 2025 Community Development Block Grant funding and HUD HOME funds.</li><li>The board voted to enter executive session at the close of the work session to discuss personnel matters, a Supreme Court referral for town code violations, a sewer district matter, and a change to a license agreement.</li></ul>
+      <h3>Discussed</h3>
+      <ul><li>Town Fire Marshal and Riverhead Fire Department Chief briefed the board on a recent tanker truck fire on East Main Street involving approximately 12,000 gallons of gasoline; the driver moved the burning truck away from a gas station before it was extinguished by firefighters with no fuel leak.</li><li>Planning staff presented updated draft code amendments for the CI and LI zoning districts and noted the industrial moratorium has lapsed, creating urgency to adopt new code before processing pending applications.</li><li>Board members debated whether recycling and upcycling uses belong in the CI district; the majority agreed those uses are more appropriate in the Planned Industrial Park (PIP/EPCAL) zone, and staff was directed to address upcycling in the PIP code at a future work session.</li><li>The board discussed the proposed floor area ratio (FAR) of 0.25 as-of-right and 0.30 with transfer development rights (TDR) purchase, compared to the prior 0.40 allowance, with one board member advocating for 0.35; staff noted changes beyond the comp plan recommendations would require additional environmental review.</li><li>Building permit renewal fees were raised as a concern for large-scale projects that cannot be completed within one year; staff indicated a code revision is being explored.</li><li>Planning staff said they would present a board policy at the next work session to delegate SEQRA coordination authority to the planning department, which could shorten review timelines by approximately two months.</li><li>A quarterly town newsletter and video series branded &#x27;Riverhead in Action&#x27; was introduced, available online and via email alert; the next issue is planned for January 2025.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/40f637dd-4126-455f-9423-6e2ec7148b06.mp4" type="video/mp4">
@@ -2431,6 +2446,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

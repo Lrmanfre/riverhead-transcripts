@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2026-05-07, category:Planning Board">
@@ -25,6 +25,19 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/6517" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/6517/files/agenda/5976" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Riverhead Planning Board approved several resolutions at its May 7 meeting, including scheduling public hearings for multiple applications and granting site plan approval for one project. The board also accepted a final environmental impact statement for a large Calverton industrial subdivision.</p>
+      <h3>Key actions</h3>
+      <ul><li>The board voted to schedule a public hearing for a site plan application by a business identified as North Shore Sprinkler Supply.</li><li>The board voted to schedule a public hearing for a three-lot minor subdivision associated with the Marie L. Andrews Revocable Living Trust, which memorializes a prior development rights sale.</li><li>The board assumed lead agency status and issued a negative declaration under SEQRA for the JPD Calverton site plan, a proposed roughly 75,000-square-foot multi-tenant warehouse at 4195 Middle Country Road on the former Neptune Supply site.</li><li>The board voted to schedule a public hearing for the JPD Calverton site plan application.</li><li>The board granted a 90-day extension for a minor subdivision identified as Woodhull at Soundshore.</li><li>The board granted preliminary and final site plan approval for a Hampton Jitney application involving four battery energy storage units, with conditions including a decommissioning fund and a contribution to a fire marshal hazard mitigation fund.</li><li>The board approved a grading and drainage plan for a single-family residence at Seacrest Estates, lot 12.</li><li>The board accepted the Final Environmental Impact Statement for the Calverton Industrial Subdivision (approximately 131 acres west of Splish Splash) and authorized its distribution to involved agencies; next steps are findings and potential approvals.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/de3275af-0d0f-48c1-9703-b048c9203be7.mp4" type="video/mp4">
@@ -556,6 +569,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

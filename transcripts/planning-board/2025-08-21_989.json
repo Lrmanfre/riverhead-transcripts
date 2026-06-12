@@ -4336,5 +4336,35 @@
       "end": 3086.46,
       "text": ""
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T01:52:32+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Planning Board scheduled public hearings for three minor subdivision applications and granted approvals for several pending applications, including a preliminary site plan for a West Main Street redevelopment and final approval for Gouda LLC.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "The board approved a resolution classifying the Woodhull at Sound Avenue two-lot minor subdivision (506 Townshore Road) as a Type 2 action and scheduled a public hearing for September 18.",
+          "The board granted final site plan approval for Gouda LLC.",
+          "The board granted preliminary site plan approval, as amended, for the 940–946 West Main Street site redevelopment; the approval is valid for one year with the possibility of two six-month extensions.",
+          "The board approved an extension of approval for the Silverback Holdings LLC two-lot minor subdivision.",
+          "The board classified the Thomas Anderson and Richard Anderson minor subdivisions as Type 2 actions and scheduled public hearings for both on September 18.",
+          "The board approved an extension of approval for the Kathy Lane 10-lot major subdivision.",
+          "The next meeting is scheduled for Thursday, September 4 at 6 p.m."
+        ]
+      },
+      {
+        "heading": "Discussed",
+        "items": [
+          "For the Woodhull subdivision, staff noted that two accessory sheds are in non-conforming locations and will need to either be relocated or receive zoning relief, and a $5,000 recreational fee applies to the new lot.",
+          "The JPD Calverton site plan at 4195 Middle Country Road was reviewed for status only; the application was previously paused under a Calverton industrial moratorium and the traffic study is ongoing, with no board action taken.",
+          "The board reviewed three revised sketch plans for the Summerwind Farms major subdivision; staff and the town's consulting engineer recommended sketch plan 6, which locates a private driveway at the southeast corner of the property on Peconic Bay Boulevard, and the board was asked to indicate a preference individually rather than by formal vote."
+        ]
+      }
+    ]
+  }
 }

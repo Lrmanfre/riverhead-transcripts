@@ -130,6 +130,28 @@ else
 fi
 
 # ---------------------------------------------------------------------------
+# Step 3b: Generate AI meeting summaries
+# Non-fatal by design: if the key is missing or the API call fails, log a
+# warning and keep going so the site still publishes. Only meetings without a
+# current summary are processed, so this is cheap on a normal night.
+# ---------------------------------------------------------------------------
+log ""
+log "--- Step 3b: Generating AI meeting summaries ---"
+# launchd jobs have no shell profile, so load the API key from a gitignored
+# env file (riverhead.env) if the variable is not already in the environment.
+if [ -f "$PROJECT_DIR/riverhead.env" ]; then
+    set -a; . "$PROJECT_DIR/riverhead.env"; set +a
+fi
+if [ -z "${ANTHROPIC_API_KEY:-}" ]; then
+    log "WARNING: ANTHROPIC_API_KEY not set; skipping AI summaries."
+    log "         Create $PROJECT_DIR/riverhead.env with: ANTHROPIC_API_KEY=sk-ant-..."
+elif run python3 riverhead_summarize.py --workers 4; then
+    log "Step 3b complete."
+else
+    log "WARNING: summary generation failed; continuing so the site still publishes."
+fi
+
+# ---------------------------------------------------------------------------
 # Step 4: Rebuild static site and search index
 # ---------------------------------------------------------------------------
 log ""

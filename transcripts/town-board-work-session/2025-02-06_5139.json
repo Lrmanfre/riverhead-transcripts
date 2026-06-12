@@ -2016,5 +2016,36 @@
       "end": 1339.7,
       "text": ""
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T02:17:12+00:00",
+    "agenda_grounded": false,
+    "tldr": "A shortened work session covered two minor zoning code proposals from the town planner and a Riverhead in Action segment featuring the Tax Receiver's office. The board then moved to executive session on legal, contractual, and personnel matters.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "The town planner presented a proposed code amendment that would allow governmental authorities such as fire districts, libraries, and town buildings to apply for illuminated LED informational signs, with the Town Board able to waive existing signage restrictions; the board directed the planner to prepare a resolution scheduling a public hearing.",
+          "The town planner also proposed extending the maximum preliminary site plan approval period from 18 months to two years by adding a second optional six-month extension, with associated application fees; the board directed preparation of a public hearing resolution for that amendment as well."
+        ]
+      },
+      {
+        "heading": "Discussed",
+        "items": [
+          "Board members discussed how long health department and stormwater plan reviews typically take, concluding that two years is a reasonable window for applicants to satisfy preliminary site plan conditions.",
+          "The board noted that if zoning changes occur during an extended approval period it could affect pending applications, but expressed general comfort that two years is an appropriate limit before requiring a new application.",
+          "The Riverhead in Action segment highlighted the Tax Receiver's office, covering tax collection for roughly 13 taxing entities, water bill payments, yard waste sticker sales, drop-box use, and key tax due dates (first half January 10, second half May 31)."
+        ]
+      },
+      {
+        "heading": "Key actions",
+        "items": [
+          "The board voted to close open session and enter executive session to discuss litigation with Suffolk County, a contractual matter with CVE, a contractual matter with Suffolk County, possible hiring of a part-time employee, and a change in employee status."
+        ]
+      }
+    ]
+  }
 }

@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2026-01-02, category:Town Board Work Session">
@@ -25,6 +25,19 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/6603" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/6603/files/agenda/5909" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Riverhead Town Board held its first work session of 2026, reviewing approximately 48 organizational and operational resolutions slated for the January 6 board meeting, then entered executive session to discuss employee terms and election-law litigation.</p>
+      <h3>Key actions</h3>
+      <ul><li>The board reviewed resolutions setting 2026 salaries for elected officials, general town employees, highway, police, sewer, street lighting, water district, and various board members, with no merit raises included in any category.</li><li>Two resolutions (approving agreements for recreation superintendent and a network/systems administrator positions) were flagged for potential removal from the Tuesday agenda because dollar amounts and final agreement text were not yet available for board review.</li><li>A memorandum of understanding with Suffolk County and the Suffolk County Sheriff will allow the police department to access new Flock Safety cameras to be installed on town road rights-of-way.</li><li>Two public hearings on proposed amendments to Town Code Chapter 301 related to golf cottages and transfer development rights were scheduled for January 21 at 6 p.m.</li><li>The board reviewed a new formal 2026 donation policy required by auditors to document, evaluate, and track all gifts received by the town.</li><li>A grant application for bulletproof vests was included, with the grant potentially offsetting up to 50 percent of costs the police department planned to incur regardless.</li><li>Change orders one and two for the sewer district&#x27;s Class A biosolids upgrade project were reviewed; both were described as carrying no additional cost to the town.</li><li>The board entered executive session to discuss employee terms and conditions and an update on litigation involving even-year election law.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/6fa32c13-51f4-4a66-8780-4f6d67001332.mp4" type="video/mp4">
@@ -493,6 +506,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

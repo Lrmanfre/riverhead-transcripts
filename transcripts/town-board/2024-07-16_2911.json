@@ -23291,5 +23291,40 @@
       "end": 13849.92,
       "text": "Thank you."
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T04:16:44+00:00",
+    "agenda_grounded": false,
+    "chunked": true,
+    "tldr": "The Town Board held multiple public hearings—on a proposed medical office in Aquebogue, food truck regulations, a Calverton warehouse, a two-family dwelling in Calverton, a barber pole sign exception, and agritourism zoning amendments—and adopted roughly two dozen resolutions covering budget adjustments, personnel appointments, and project authorizations.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "A negative declaration (Resolution 2024-646) was issued for a proposed ~15,000 sq ft medical office at 374 Main Road, Aquebogue; the public hearing remains open for written comment until July 26, 2024.",
+          "A public hearing on food truck regulations (Chapter 257 amendment) was closed; proposed rules ban operation between 9 p.m. and 5 a.m., require 500-foot separation from eating establishments, and prohibit use of public rights-of-way or municipal parking without Town Board approval; written comments accepted until July 26.",
+          "A public hearing on a one-story warehouse complex (70,455 sq ft and 75,000 sq ft buildings) at 1001 Scott Avenue, Calverton was closed; written comments accepted until July 26.",
+          "A public hearing on a barber pole sign exception to Chapter 301 was opened and closed; the definition limits barber poles to red, white, and blue helix-striped staff poles that are not illuminated.",
+          "A public hearing on a two-family dwelling special permit at 4592 Middle Country Road, Calverton was closed; written comments accepted until July 26.",
+          "Resolutions 656 and 657 were adopted, authorizing a public notice and definitions amendment to advance agritourism zoning changes to Chapter 301, over objections from several residents and civic representatives.",
+          "Resolution 655 was adopted, classifying a special permit application at 431 Griffin Avenue (office-to-single-family conversion) as a Type II SEQRA action and scheduling a public hearing.",
+          "Resolution 673 extended the Calverton Industrial Moratorium to October 12, 2024.",
+          "Resolution 670 (Pro-Housing Community Pledge) was adopted.",
+          "Several budget and capital project resolutions (648–654) were adopted, covering ARPA, sewer, water district, and bond rescission items.",
+          "Personnel resolutions appointed a maintenance mechanic to the sewer district, an on-call seasonal pump-out boat operator, and seasonal recreation staff."
+        ]
+      },
+      {
+        "heading": "Money",
+        "items": [
+          "Tax Receiver collections for June totaled $394,872.97; Building Department collections totaled $147,992.25; Town Clerk collections totaled $10,523.24.",
+          "The applicant for the Aquebogue medical office confirmed the developer would cover the cost of emergency vehicle signal preemption equipment (approximately $5,000) if a traffic signal is approved at Main Road and Union Avenue.",
+          "Independent auditor reports were received for the Riverhead, Jamesport, and Wading River Fire Departments."
+        ]
+      }
+    ]
+  }
 }

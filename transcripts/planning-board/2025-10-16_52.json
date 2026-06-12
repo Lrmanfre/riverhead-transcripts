@@ -1181,5 +1181,22 @@
       "end": 596.24,
       "text": "you"
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T01:54:30+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Planning Board approved a site plan for a new horse barn at Timothy Hill Children's Ranch and granted a one-year extension for a final site plan at a separate development site. No public hearings were held.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "The board approved an administrative site plan for Timothy Hill Children's Ranch (298 Middle Road) to build an approximately 6,500-square-foot horse barn, replacing a demolished 4,200-square-foot barn, subject to conditions including stormwater management, health department approval, a town board resolution, and trimming of evergreen trees near a driveway for visibility.",
+          "The board granted a one-year extension for a final site plan associated with a separate development, referred to in resolution 2025-101, where the originally planned tenant has since withdrawn and no new tenant has been secured."
+        ]
+      }
+    ]
+  }
 }

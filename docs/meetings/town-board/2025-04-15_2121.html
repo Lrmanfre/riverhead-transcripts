@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2025-04-15, category:Town Board">
@@ -25,6 +25,23 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/2121" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/2121/files/agenda/1984" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Riverhead Town Board approved dozens of personnel and operational resolutions, voted 3-2 to move forward with negotiating a contract of sale of the Vale Levitt Theater at 18 Peconic Avenue to the Jazz Loft, and tabled a special event permit for Island Water Park pending an amended application.</p>
+      <h3>Key actions</h3>
+      <ul><li>The board voted 3-2 against tabling a resolution authorizing the town attorney to negotiate a contract of sale of the Vale Levitt Theater at 18 Peconic Avenue to the Jazz Loft, allowing the process to move forward.</li><li>The special event permit application for Island Water Park (Resolution 366) was unanimously tabled after staff disclosed the applicant is rescheduling the event from late April to potentially September and must submit an amended application.</li><li>The board appointed a police officer to the rank of captain after she passed the required civil service examination.</li><li>The board voted 4-1 to approve a professional services agreement with Main Street Agency, after amending the resolution to remove a second company name from the title and body.</li><li>A resolution opposing a state bill that would limit municipal zoning authority was adopted unanimously.</li><li>The board authorized submission of applications for congressional funding for a proposed water district project and for a riverfront amphitheater.</li><li>The board ratified a contract award for the Meeting House Creek Stormwater Wetland and Habitat Restoration project.</li><li>The board accepted the resignation of a fire marshal and ratified several other personnel separations and status changes.</li></ul>
+      <h3>Money</h3>
+      <ul><li>The tax receiver reported tax collections of approximately $103.4 million for the 2024-25 period.</li><li>The town clerk monthly report for March totaled approximately $12,700 and the tax receiver utility report for March totaled approximately $340,000.</li></ul>
+      <h3>Public hearings &amp; comment</h3>
+      <ul><li>Residents of Northwoods Road in Calverton came out in force to describe speeding, excessive vehicle traffic, and suspected illegal conversions at multiple properties; staff confirmed active code enforcement cases and a court date of April 22 for one address.</li><li>A speaker with music industry experience and an associate on Zoom expressed interest in the Vale Levitt and said they would prepare a renovation budget and business plan, while two council members argued the sale process should be opened to an RFP and a public hearing.</li><li>A resident raised a long-running complaint about a nighttime low-frequency hum in the Timber Point area, attributed by staff to a blower at a nearby business; staff said observed decibel levels do not violate town code.</li><li>A resident asked the town to investigate reports of large boats being stored and repaired at Island Water Park as a potentially unauthorized use.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/cf382733-599f-4eed-a223-f74f8711404e.mp4" type="video/mp4">
@@ -2177,6 +2194,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

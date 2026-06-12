@@ -4876,5 +4876,32 @@
       "end": 3086.3,
       "text": "moved it moved"
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T03:22:52+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Zoning Board of Appeals granted two variance applications at its August 28 meeting: one for a property at 459 Hamilton Avenue and one for a proposed single-family dwelling at 108 Beach Road in Wading River, the latter over neighbor objections about flooding and neighborhood character.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "The board approved variance relief for 459 Hamilton Avenue (Agneska Gask, RA-40 zone), covering a front yard setback of 9.5 feet where 50 feet is required, side yard and combined side yard setbacks well below the minimums, impervious surface coverage of 40.2 percent where 15 percent is the maximum, and a rear yard accessory setback of 2.5 feet where 20 feet is required, subject to relocation of an existing shed to at least 5 feet from the rear and side property lines.",
+          "The board approved a front yard setback variance for 108 Beach Road, Wading River (John Sullivan, B-80 zone), reducing the required 60-foot front yard setback to 44 feet for a proposed two-story single-family dwelling on an 8,000-square-foot lot.",
+          "The 108 Beach Road approval was conditioned on all stormwater being maintained on-site via gutters, leaders, dry wells, or other means as required by the building department.",
+          "The board clarified that the small lot ordinance provides relief for side, rear, and lot-area requirements but does not reduce the front yard setback requirement, which is why the front yard variance was needed for 108 Beach Road.",
+          "July 24, 2025 meeting minutes were approved and the next meeting was set for September 11, 2025."
+        ]
+      },
+      {
+        "heading": "Public hearings & comment",
+        "items": [
+          "Three neighbors of 108 Beach Road spoke in opposition, raising concerns about recurring flooding on and near Sixth Street, the size of the proposed house relative to the lot, drainage adequacy, traffic on the private right-of-way, and potential impacts on neighborhood character.",
+          "A neighboring property owner questioned whether a second variance for the Sixth Street frontage setback should have been required; staff and board counsel indicated the small lot ordinance covered that setback, consistent with how neighboring lots are treated."
+        ]
+      }
+    ]
+  }
 }

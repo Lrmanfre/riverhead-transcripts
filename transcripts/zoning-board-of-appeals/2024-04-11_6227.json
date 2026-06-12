@@ -3551,5 +3551,26 @@
       "end": 1714.58,
       "text": "Thank you."
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T03:15:12+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Zoning Board of Appeals met on April 11, 2024, adjourning two applications to May 23rd and granting two variances for a detached garage on a waterfront flag lot in Laurel.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "An unspecified application was adjourned to May 23, 2024 at the applicant's request.",
+          "The hearing for Appeal 2024-007 (Marta Campos, 91 Fire Lane, Wading River) was adjourned to May 23, 2024 because the applicant had not completed certified mailing to neighbors as required.",
+          "A deputy town attorney offered to meet with the applicant on Monday to walk through the affidavit of mailing and certified mail process, and suggested an interpreter be arranged for the next hearing.",
+          "Appeal 2024-010 (Maureen and Paul Sweetow, 1579 Peconic Bay Boulevard, Laurel) was approved, granting two variances: one to allow a detached garage in the front yard and one to allow a five-foot setback between the garage and residence where ten feet is required.",
+          "The Sweetow variance approval was granted subject to Suffolk County Health Department approval, compliance with DEC permits, and compliance with the Conservation Advisory Council approval dated March 18, 2024, including the non-disturbance easement or any amended CAC determination.",
+          "Minutes from the March 14 and March 28 meetings were approved."
+        ]
+      }
+    ]
+  }
 }

@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2025-07-03, category:Planning Board">
@@ -25,6 +25,21 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/941" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/941/files/agenda/804" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Riverhead Planning Board approved or advanced several commercial site plan applications on July 3, 2025, including a negative declaration for Venetia Square and preliminary approval for a cannabis dispensary that drew significant public opposition.</p>
+      <h3>Key actions</h3>
+      <ul><li>The board issued a negative declaration under SEQRA and scheduled a public hearing for the Venetia Square commercial center proposal on Route 25A in Wading River, a long-running application for roughly 27,000 square feet of retail across multiple buildings.</li><li>A public hearing was scheduled for the BJ&#x27;s Wholesale Club expansion at East End Commons, which includes a roughly 10,500-square-foot building addition and a 16-pump accessory fueling station.</li><li>Preliminary site plan approval was granted for a cannabis dispensary application (Resolution 2025-64); the vote passed with board members noting the site fully complies with town code and no variances were required.</li><li>The Tanger Outlet 1700 building conversion to a Shake Shack restaurant received preliminary site plan approval, with a condition that lighting in the vicinity be brought up to town code compliance.</li><li>Administrative site plan approval was granted for the Bargain Molding site plan amendment at an address on West Main Street, revising traffic circulation to two-way using only the existing eastern curb cut.</li><li>A public hearing was scheduled for the 940–946 West Main Street redevelopment, a revised plan for two new commercial warehouse buildings that no longer requires zoning variances.</li><li>A site plan application for a new 3,000-square-foot commercial retail building at 305 West Main Street was introduced to the board; the applicant will seek relief from the Zoning Board of Appeals for impervious surface coverage and a landscape buffer requirement before returning for a public hearing.</li></ul>
+      <h3>Public hearings &amp; comment</h3>
+      <ul><li>Multiple residents spoke against the cannabis dispensary application, citing proximity to a hospital, senior communities, Timothy Hill Ranch, a church, and residential streets, as well as traffic concerns on Ostrander Avenue.</li><li>An attorney for the dispensary applicant noted the site meets all town and state requirements and that Riverhead&#x27;s local cannabis regulations are more restrictive than state minimums.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/6852bd03-cd1e-49ea-8ad1-fdad233d62dc.mp4" type="video/mp4">
@@ -1485,6 +1500,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

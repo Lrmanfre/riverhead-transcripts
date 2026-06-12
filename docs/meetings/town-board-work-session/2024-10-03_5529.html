@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2024-10-03, category:Town Board Work Session">
@@ -25,6 +25,23 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/5529" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/5529/files/agenda/5367" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Town Board reviewed sweeping industrial zoning code amendments tied to the comprehensive plan update, discussed increasing building-permit and rental-permit penalties, and heard a proposal for a paid-parking pilot at the Griffin Avenue lot on October 13.</p>
+      <h3>Key actions</h3>
+      <ul><li>The board reviewed a proposal to merge Industrial A and Industrial C zones into a new Calverton Industrial (CI) district, rezone remaining industrial areas outside CI to Light Industrial, and eliminate Industrial A, B, and C from the code.</li><li>A new industrial district table of use regulations based on Standard Industrial Classification (SIC) codes was presented to replace the existing limited use lists and give the zoning officer a standardized reference for interpreting similar uses.</li><li>Last-mile fulfillment centers, trucking terminals, and transfer stations would be prohibited in both the CI and Light Industrial zones under the proposed amendments.</li><li>Several mismatched parcels—including residential lots on one boulevard zoned industrial and a county-owned reforestation parcel—are proposed for rezoning to more appropriate designations such as residential or open space.</li><li>The TDR code would be updated to allow preservation credits to increase floor area in the CI district in 5,000-square-foot increments up to a maximum floor area ratio of 0.5.</li><li>Building-permit and certificate-of-occupancy violation fines, unchanged since 1989, are proposed to increase to a range of $1,000–$3,000; rental-permit violation fines would rise to $1,000–$2,000 for a first offense, with higher ranges for repeat offenders.</li><li>A one-day paid-parking pilot using a scan-to-park or text-to-park system is planned for the Griffin Avenue lot on October 13 from 8 a.m. to 8 p.m., at rates of $1 per hour or $5 for the full day, with no physical meters installed.</li></ul>
+      <h3>Discussed</h3>
+      <ul><li>Board members raised questions about allowing showrooms for large equipment, adding recycling or organic-fertilizer production uses, and whether farm-supply wholesale should be permitted by right rather than by special permit given the town&#x27;s agricultural character.</li><li>The board discussed whether repeat rental-permit violators who own multiple properties should have subsequent violations treated as second or third offenses regardless of which property is cited, and staff confirmed the offense follows the defendant, not the property.</li><li>Questions were raised about how parking enforcement would identify unpaid or expired sessions by license plate in open lots, with staff noting a handheld scanning approach for the pilot and automated license-plate readers as a future option for larger areas.</li></ul>
+      <h3>Affects residents</h3>
+      <ul><li>Homeowners on a boulevard whose lots are currently zoned industrial despite being improved with single-family houses would be rezoned to a residential designation, resolving setback and accessory-structure issues.</li><li>Residents and visitors parking in the Griffin Avenue lot on October 13 during the Country Fair will be charged; the adjacent Second Street lot will remain free.</li><li>Multiple public hearings will be required for each code section and map change before any amendments take effect, and materials are currently posted to the town&#x27;s work session attachments page.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/8e6a75a2-f082-4d4c-a6da-919a550733f4.mp4" type="video/mp4">
@@ -1722,6 +1739,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2026-06-04, category:Planning Board">
@@ -23,8 +23,21 @@
     <h1 data-pagefind-meta="title:June 4, 2026 — Planning Board">June 4, 2026 &mdash; Planning Board</h1>
     <div class="meta-row"><strong>Planning Board Meeting</strong></div>
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/6518" target="_blank">CivicClerk page</a></div>
-    
+    <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/6518/files/agenda/5993" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Riverhead Planning Board held three public hearings on June 4, 2026, closing all three, and approved a minor subdivision extension and a final site plan.</p>
+      <h3>Key actions</h3>
+      <ul><li>The board closed the public hearing for North Shore Sprinkler Supply at 1264 West Main Street, which seeks to legalize as-built conditions including paved parking areas, additional drainage, and landscaping following a 2023 notice of violation.</li><li>The board closed the public hearing for the Marie L. Andrews Revocable Living Trust minor subdivision, which proposes to formally divide a roughly 24.8-acre parcel on the east side of House Landing Road in Wading River into three lots, memorializing a prior Suffolk County development rights purchase.</li><li>The board closed the public hearing for JPD Calverton at 4195 Middle Country Road, which proposes demolition of one existing building, retention of a large multi-tenant warehouse, construction of a new roughly 74,650-square-foot multi-tenant warehouse, two concrete outdoor storage pads, and consolidation of site access on a 28.66-acre parcel in the Calverton Industrial zone.</li><li>The board approved two 90-day extensions for the Mallis Property minor subdivision (Resolution 2026-034).</li><li>The board granted final site plan approval for the application at 305 West Main Street (Resolution 2026-035).</li><li>The board approved minutes from the May 7, 2026 meeting.</li><li>The next meeting is scheduled for Thursday, June 18 at 3 p.m.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/4adc5568-c152-45c7-b68f-0c24caa6b1ac.mp4" type="video/mp4">
@@ -412,6 +425,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

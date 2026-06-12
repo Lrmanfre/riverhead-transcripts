@@ -546,5 +546,23 @@
       "end": 293.06,
       "text": "cda we did okay we did all right so let's just formally close everything"
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T01:27:33+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Community Development Agency held a brief special meeting, passing resolutions on voice votes. A member of the public raised a question about whether parcels related to a town square project may require a parkland alienation process under New York State law.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "The board approved resolutions by roll-call vote with all members voting in favor.",
+          "A speaker referenced guidance from the New York State Office of Parks, Recreation, and Historic Preservation and the Comptroller's Office regarding whether certain parcels — including one described as a 127-space site — could be classified as parkland requiring formal alienation before transfer to a private owner.",
+          "A board member responded that none of the parcels have been formally dedicated as parkland and that the referenced building is currently an occupied commercial structure."
+        ]
+      }
+    ]
+  }
 }

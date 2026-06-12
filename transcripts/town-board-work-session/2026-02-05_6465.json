@@ -606,5 +606,28 @@
       "end": 507.12,
       "text": "[transcription gap]"
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T02:34:36+00:00",
+    "agenda_grounded": false,
+    "tldr": "The board discussed a proposed parking restriction on Roanoke Avenue near medical offices to reduce congestion on a residential street, then moved into executive session on several legal and contractual matters.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "A proposed amendment to Chapter 289-12 would add a parking restriction on a portion of Roanoke Avenue on weekdays to address overflow parking from nearby medical offices; the board agreed to schedule a public hearing.",
+          "The board entered executive session to discuss a potential contractual agreement related to Perkins Power Station and three pending litigation matters involving a former employee, a party named Gigliotta, and Suffolk County."
+        ]
+      },
+      {
+        "heading": "Affects residents",
+        "items": [
+          "Residents near Roanoke Avenue are encouraged to attend the upcoming public hearing on the proposed weekday parking restriction."
+        ]
+      }
+    ]
+  }
 }

@@ -14,7 +14,7 @@
     <a href="../../index.html"><h1>Riverhead Town Meeting Transcripts</h1></a>
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
-  <div class="build-stamp">Updated Jun 11, 2026 at 1:36 AM</div>
+  <div class="build-stamp">Updated Jun 12, 2026 at 1:16 AM</div>
 </header>
 <main class="container" data-pagefind-body
       data-pagefind-meta="date:2025-01-09, category:Zoning Board of Appeals">
@@ -25,6 +25,23 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/6145" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/6145/files/agenda/5587" target="_blank">Agenda PDF</a></div>
   </div>
+  <section class="transcript-summary" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Summary <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
+    </div>
+    <div id="summary-body">
+      <p class="tldr">The Riverhead Zoning Board of Appeals held hearings on three active appeals and approved minutes from a prior meeting. Two appeals were adjourned for further review and one was reserved for a decision at the January 23 meeting.</p>
+      <h3>Key actions</h3>
+      <ul><li>A pool cabana and meditation space enlargement appeal (tax map 600-17-1-8.3, flaglot on a sound-side property) was adjourned to February 13 after the board asked the applicant to return with a smaller alternative for the meditation structure.</li><li>A retail cannabis dispensary variance application for 1201 Ostrander Avenue (appeal 2024-035) was adjourned to January 23 for a reserved decision after testimony from the applicant, a hospital representative, and board questions about use-variance criteria.</li><li>An interpretation appeal by Fisher Realty Group (940–946 West Main Street, appeal 2024-037) — asking whether outdoor storage of repossessed vehicles is accessory to an office use in PRC zoning — was adjourned to January 23 for a reserved decision.</li><li>Minutes from the December 12, 2024 meeting were approved.</li><li>A single-family modular dwelling appeal for 650 Elton Street (appeal 2024-036, applicant Portia Brown-Trent) was adjourned at the applicant&#x27;s request to February 13.</li></ul>
+      <h3>Public hearings &amp; comment</h3>
+      <ul><li>An adjacent neighbor testified against the pool cabana enlargement, stating he was not informed of the full scope until days before the hearing and objected specifically to the size of the proposed meditation space; he said he would accept the cabana without the meditation room.</li><li>The neighbor also presented evidence of stormwater runoff from a fill mound on the applicant&#x27;s adjacent lot, which he said has damaged his driveway since excavation began around 2022; the board asked him to document any future runoff events on video before the February 13 hearing.</li><li>A landscape contractor testified that erosion controls and seeding were installed but have not yet germinated due to winter conditions, and said the source of the neighbor&#x27;s runoff problem appeared to come from a driveway area rather than the fill mound.</li><li>For the cannabis dispensary, a representative of Peconic Bay Medical Center asked the board to restrict any approval to retail sales only, prohibit on-site consumption, and consider the hospital&#x27;s future development plans for an adjacent parcel.</li><li>The cannabis applicant&#x27;s attorney argued the site is a self-contained former bank pad that has been vacant for years, fits the dispensary use without exterior changes, and that the lease was secured before the town finalized its cannabis corridor zoning.</li><li>A board member noted that Riverhead&#x27;s first cannabis zoning ordinance, effective November 1, 2022, already excluded this site, predating the applicant&#x27;s lease by over a year.</li><li>The owner of Fisher Realty Group addressed the board to say he intends full compliance and redevelopment of the West Main Street site, citing difficulty obtaining permits and carrying costs on multiple large projects.</li></ul>
+      <h3>Discussed</h3>
+      <ul><li>Board members questioned whether the cannabis dispensary applicant met the use-variance standard of lacking reasonable return, noting the former bank building could potentially support other commercial uses and that over 120 corridor-compliant sites exist town-wide.</li><li>For the Fisher Realty appeal, the board noted that businesses appear to be operating in the Blackman building without certificates of occupancy or use permits, that repossessed vehicles are stored on a parcel not covered by the 2010 ZBA outdoor-storage variance, and that code-compliance summonses are pending in Justice Court.</li></ul>
+      <p class="summary-disclaimer">Auto-generated from an unofficial, machine-made transcript.
+      It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
+    </div>
+  </section>
   <div class="video-wrap">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/f0ae8278-3242-4db2-acdf-6733a66fddc3.mp4" type="video/mp4">
@@ -2457,6 +2474,14 @@ function toggleTimestamps(btn) {
   var view = document.getElementById('timestamped-view');
   var open = view.classList.toggle('open');
   btn.textContent = open ? 'Hide timestamped view' : 'Show timestamped view';
+}
+</script>
+<script>
+function toggleSummary(btn) {
+  var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>
 </body>

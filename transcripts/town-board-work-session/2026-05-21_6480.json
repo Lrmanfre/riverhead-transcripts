@@ -4046,5 +4046,33 @@
       "end": 3000.82,
       "text": "Thank you."
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T02:40:46+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Town Board work session covered fire marshal arming and HAZMAT team formation, proposed streamlining of site plan review procedures, and downtown parking concerns raised by Suffolk Theater operators tied to the planned hotel and future parking garage.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "The board moved to enter executive session to discuss contractual matters involving the Town of Riverhead and the Riverhead Housing Development Corp.",
+          "Staff will circulate draft use-of-force and firearms policies to CSEA and the town board before a future resolution is brought forward to authorize fire marshals to carry sidearms on duty.",
+          "The planning department asked the board to schedule a public hearing on proposed site plan code amendments that would create a clearer de minimis approval track and rename 'administrative approvals' to 'expedited approvals,' along with a revised planning fee schedule."
+        ]
+      },
+      {
+        "heading": "Discussed",
+        "items": [
+          "Fire marshals, who are already sworn peace officers, presented a case for carrying town-issued firearms on duty, noting other Suffolk County agencies already do so; board members raised questions about psychological testing, liability, insurance costs, and off-duty carry rules.",
+          "A 50-page Hazardous Materials Emergency Response Plan was outlined, classifying the town as a Type 3 HAZMAT team using county-surplused trailers; the plan has been shared with local fire districts for feedback.",
+          "Operators of the Suffolk Theater raised concerns that parking demand from the proposed downtown hotel, combined with disruption during eventual parking garage construction, could severely impact their business and other downtown uses.",
+          "One theater operator proposed covering and draining the narrow alleyway connecting the rear parking area to Main Street to address ice, flooding, and pedestrian access issues; staff suggested meetings with the town engineer and the Community Development Agency to explore grant funding.",
+          "A board member noted that crosswalk safety near the theater, including lighted pedestrian crossing signals, is already being addressed by town staff."
+        ]
+      }
+    ]
+  }
 }

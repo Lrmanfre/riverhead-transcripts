@@ -2386,5 +2386,25 @@
       "end": 1339.26,
       "text": "All in favor? Aye. Motion carried."
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T01:52:53+00:00",
+    "agenda_grounded": false,
+    "tldr": "The Riverhead Planning Board held three public hearings on minor subdivision applications and approved two resolutions at its September 18, 2025 meeting.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "The board closed the public hearing for a minor subdivision on Roanoke Avenue (Woodhull at South Shore), where a family-owned property in the RA40 zone is proposed to be split into two lots each exceeding 70,000 square feet for estate planning purposes.",
+          "The board closed the public hearing for the Thomas Anderson Minor Subdivision, which would split a roughly 25-acre parcel on the east side of Roanoke Avenue into two lots, with the larger portion to be sold to Suffolk County for preservation as farmland.",
+          "The board closed the public hearing for the Richard Anderson Minor Subdivision, a related application to split a roughly 67-acre parcel into three lots, with the larger portions similarly intended for county preservation; the town water district has expressed interest in purchasing a four-acre retained parcel.",
+          "The board approved a resolution issuing a negative declaration for the BJ's Fueling Station and Wholesale Club expansion (Resolution 2025-094).",
+          "The board granted final site plan approval for a clubhouse structure at Sandy Pond Links LLC (Resolution 2025-095)."
+        ]
+      }
+    ]
+  }
 }

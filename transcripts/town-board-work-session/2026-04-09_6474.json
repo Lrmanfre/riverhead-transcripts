@@ -7821,5 +7821,41 @@
       "end": 3883.64,
       "text": "Thank you."
     }
-  ]
+  ],
+  "summary": {
+    "status": "ok",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "1",
+    "generated_at": "2026-06-12T02:39:05+00:00",
+    "agenda_grounded": false,
+    "tldr": "The board discussed a potential land preservation acquisition near the Sound, reviewed proposed zoning changes for Tanger Outlets, heard a brief update on the Long Island Science Center dispute, and considered impervious surface coverage amendments for several commercial zones.",
+    "sections": [
+      {
+        "heading": "Key actions",
+        "items": [
+          "The board reached consensus to authorize an appraisal of a Sound-front parcel identified as a land preservation target, with a resolution to be prepared for signatures and the appraisal ordered promptly.",
+          "The board indicated it would move forward with scheduling a public hearing on proposed amendments to the Business F zoning district governing the Tanger Outlets property.",
+          "The board directed staff to prepare clean written versions of proposed impervious surface coverage increases for several commercial zones and schedule a public hearing.",
+          "A resolution is being prepared for the April 21 town board meeting to schedule a public hearing on whether to proceed with eminent domain to acquire the Long Island Science Center property at 111 East Main Street."
+        ]
+      },
+      {
+        "heading": "Discussed",
+        "items": [
+          "Representatives from Peconic Land Trust and a Suffolk County legislator presented a roughly 140-acre Sound-front parcel as a once-in-a-lifetime preservation opportunity, noting Nassau County intends to sell the property; Suffolk County, New York State, and private fundraising would contribute to the acquisition alongside any town share.",
+          "Tanger representatives presented data showing the Riverhead outlet center has dropped from a top-tier to a lower-tier property since 2019 due to vacancies, and staff proposed rewriting the Business F use district to allow broader retail, personal services, restaurants, indoor recreation, and professional office uses modeled on the Deer Park Tanger code.",
+          "Staff noted the Business F amendments do not change dimensional or floor-area regulations, and would reduce the parking requirement from one space per 200 square feet to one per 250 square feet while requiring a minimum landscaped area of 20–25 percent of the site.",
+          "Proposed impervious surface increases under discussion include DC3 from 80 to 90 percent, commercial residential campus from 60 to 75 percent, Business PB from 80 to 90 percent, and Peconic River Community from 40 to 50 percent; the town planner cautioned that higher limits could reduce landscaping and invite requests for even greater coverage."
+        ]
+      },
+      {
+        "heading": "Affects residents",
+        "items": [
+          "Water district crews will flush water mains nightly from April 12 through April 25, which may temporarily affect water quality or pressure.",
+          "A town-wide cleanup day is scheduled for April 25 from 9 to 11 a.m., running from Wading River to Laurel; gloves, bags, and vests will be provided at Town Hall.",
+          "Peconic Hospital is hosting a free National Health Care Decisions Day seminar on advance directives and health proxies on April 16 from noon to 2 p.m. in the Caregiver's Room."
+        ]
+      }
+    ]
+  }
 }
