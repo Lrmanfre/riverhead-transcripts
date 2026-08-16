@@ -1,0 +1,53 @@
+{
+  "_comment": "Stripe Payment Link config for the Support page. The 'live' block is fully populated with real live-mode links (created Aug 16, 2026). The 'test' block mirrors the Stripe sandbox for local checkout testing. Set 'enabled' to false to keep the Support button and page out of the build entirely (the nightly pipeline runs git add -A, so anything built WILL be published). LAUNCH = set 'enabled' to true with 'mode' on 'live', rebuild, push.",
+
+  "enabled": true,
+  "mode": "live",
+  "default_frequency": "monthly",
+
+  "test": {
+    "portal_url": "https://billing.stripe.com/p/login/test_6oU6oz9fQ3HN89f9ln5J600",
+    "once": [
+      { "label": "$10", "url": "https://buy.stripe.com/test_28E4grbnYdin9dj4135J605" },
+      { "label": "$25", "url": "https://buy.stripe.com/test_fZubITdw67Y389fgNP5J606" },
+      { "label": "$50", "url": "https://buy.stripe.com/test_fZucMXfEecejahnfJL5J607" }
+    ],
+    "monthly": [
+      { "label": "$5",  "url": "https://buy.stripe.com/test_8x214f4ZA1zFdtzgNP5J601" },
+      { "label": "$10", "url": "https://buy.stripe.com/test_4gMdR1cs2guzcpvapr5J602", "featured": true },
+      { "label": "$20", "url": "https://buy.stripe.com/test_dRm5kvbnYbafahncxz5J603" }
+    ],
+    "annual": [
+      { "label": "$25", "url": "https://buy.stripe.com/test_eVqeV577Ia6b0GNbtv5J604" },
+      { "label": "$40", "url": "https://buy.stripe.com/test_9B67sDfEe5PV9dj0OR5J608" },
+      { "label": "$75", "url": "https://buy.stripe.com/test_4gMeV5fEe3HNcpvgNP5J609" }
+    ],
+    "custom": {
+      "label": "Other amount",
+      "url": "https://buy.stripe.com/test_6oU6oz9fQ3HN89f9ln5J600"
+    }
+  },
+
+  "live": {
+    "portal_url": "https://billing.stripe.com/p/login/28E14fazWgrkeRR3Yn5os00",
+    "once": [
+      { "label": "$10", "url": "https://buy.stripe.com/00w9ALdM8a2WdNN1Qf5os01" },
+      { "label": "$25", "url": "https://buy.stripe.com/fZueV58rOejc4dd66v5os03" },
+      { "label": "$50", "url": "https://buy.stripe.com/7sYaEP6jG4ICgZZ0Mb5os04" }
+    ],
+    "monthly": [
+      { "label": "$5",  "url": "https://buy.stripe.com/28E14fazWgrkeRR3Yn5os00" },
+      { "label": "$10", "url": "https://buy.stripe.com/cNi8wHeQcgrk6llcuT5os05", "featured": true },
+      { "label": "$15", "url": "https://buy.stripe.com/aFafZ9eQc2Au9xxdyX5os02" }
+    ],
+    "annual": [
+      { "label": "$20", "url": "https://buy.stripe.com/bJedR1eQc1wqcJJ66v5os06" },
+      { "label": "$40", "url": "https://buy.stripe.com/28EeV57nKgrk9xx8eD5os07" },
+      { "label": "$75", "url": "https://buy.stripe.com/4gM5kvgYkgrk1118eD5os08" }
+    ],
+    "custom": {
+      "label": "Other amount",
+      "url": "https://buy.stripe.com/28E8wH23qa2W39952r5os09"
+    }
+  }
+}

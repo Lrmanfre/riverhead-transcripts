@@ -11,6 +11,13 @@ a:hover { text-decoration: underline; }
 .site-header p { font-size: .9rem; opacity: .8; margin-top: .25rem; }
 .site-header a { color: white; }
 .site-header .build-stamp { font-size: .75rem; opacity: .5; white-space: nowrap; padding-top: .3rem; }
+.site-header .header-right { display: flex; flex-direction: column; align-items: flex-end; gap: .5rem; }
+.support-btn { display: inline-block; padding: .5rem 1.15rem; font-size: .9rem;
+  font-weight: bold; letter-spacing: .01em; border-radius: 4px; white-space: nowrap;
+  background: #c62828; color: #fff !important; border: 1px solid rgba(255,255,255,.55);
+  box-shadow: 0 1px 4px rgba(0,0,0,.35); transition: background .15s, box-shadow .15s; }
+.support-btn:hover { background: #d1342b; border-color: #fff; text-decoration: none;
+  box-shadow: 0 2px 7px rgba(0,0,0,.4); }
 
 .container { max-width: 860px; margin: 0 auto; padding: 2rem 1.5rem; }
 
@@ -109,7 +116,58 @@ a.badge-link:hover { background: #1a5c8a; color: #fff; text-decoration: none; }
   font-style: italic; margin-top: 1rem; border-top: 1px solid #e3e3e3; padding-top: .6rem; }
 #summary-body.collapsed { display: none; }
 
+/* Support page and other prose pages */
+.support-page h1, .text-page h1 { font-size: 1.8rem; margin-bottom: .5rem; }
+.support-page .lede, .text-page .lede { font-size: 1.1rem; color: #444; margin-bottom: 1.5rem; }
+.support-page h2, .text-page h2 { font-size: 1rem; text-transform: uppercase;
+  letter-spacing: .08em; color: #555; margin: 2rem 0 .8rem; }
+.support-page p, .text-page p { margin-bottom: 1rem; }
+.text-page ul { margin: 0 0 1rem 1.3rem; }
+.text-page li { margin-bottom: .4rem; }
+.text-page .updated { font-size: .85rem; color: #888; margin-bottom: 1.5rem; }
+
+.support-box { background: #f7f9fc; border: 1px solid #d6e2ef;
+  border-radius: 4px; padding: 1.5rem; margin: 1.5rem 0 2rem; }
+.freq-toggle { display: flex; gap: .5rem; flex-wrap: wrap; margin-bottom: 1.25rem; }
+.freq-btn { flex: 1 1 auto; padding: .55rem 1rem; font-family: inherit; font-size: .9rem;
+  background: #fff; border: 1px solid #aac; border-radius: 3px; cursor: pointer;
+  color: #1a5c8a; }
+.freq-btn:hover { background: #dce8f4; }
+.freq-btn.active { background: #1a3a5c; border-color: #1a3a5c; color: #fff; }
+
+.amount-panel { display: none; }
+.amount-panel.active { display: block; }
+.amount-grid { display: flex; gap: .6rem; flex-wrap: wrap; }
+.amount-btn { flex: 1 1 6rem; text-align: center; padding: .9rem .5rem;
+  font-size: 1.15rem; border: 2px solid #1a5c8a; border-radius: 4px;
+  background: #fff; color: #1a5c8a; }
+.amount-btn:hover { background: #1a5c8a; color: #fff; text-decoration: none; }
+.amount-btn .per { display: block; font-size: .7rem; text-transform: uppercase;
+  letter-spacing: .05em; opacity: .7; margin-top: .15rem; }
+.amount-btn.disabled { border-color: #ccc; color: #aaa; background: #f5f5f5;
+  cursor: not-allowed; pointer-events: none; }
+.amount-btn.featured { background: #1a5c8a; color: #fff; }
+.amount-btn.featured:hover { background: #14476b; }
+.amount-btn .suggested { display: block; font-size: .6rem; text-transform: uppercase;
+  letter-spacing: .07em; opacity: .85; margin-bottom: .15rem; }
+.amount-custom { display: block; margin-top: .6rem; text-align: center;
+  padding: .8rem .5rem; font-size: 1.05rem; border: 2px dashed #9bb8cf;
+  border-radius: 4px; background: #fff; color: #1a5c8a; }
+.amount-custom:hover { border-style: solid; background: #1a5c8a; color: #fff;
+  text-decoration: none; }
+.support-note { font-size: .85rem; color: #666; margin-top: 1rem; }
+.support-warning { background: #fff8dc; border: 1px solid #e0d18a; border-radius: 4px;
+  padding: .8rem 1rem; font-size: .85rem; color: #6b5a1a; margin-bottom: 1.25rem; }
+
+.support-faq dt { font-weight: bold; margin-top: 1.2rem; }
+.support-faq dd { margin-left: 0; color: #444; }
+
 @media (max-width: 600px) {
   body { font-size: 16px; }
   .segment .ts { display: none; }
+  .site-header { padding: 1.2rem 1.25rem; }
+  .site-header .header-right { flex-direction: row; align-items: center;
+    width: 100%; justify-content: space-between; }
+  .site-header .build-stamp { padding-top: 0; }
+  .amount-btn { flex: 1 1 100%; }
 }

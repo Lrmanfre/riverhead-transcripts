@@ -33,6 +33,65 @@ PORTAL_BASE     = "https://riverheadny.portal.civicclerk.com"
 PARAGRAPH_PAUSE = 3.0
 BUILD_TIME      = datetime.now().strftime("%b %-d, %Y at %-I:%M %p")
 
+SUPPORT_CONFIG_FILE = "support_config.json"
+SUPPORT_PAGE        = "support.html"
+SUPPORT_LABEL       = "Support this project"
+CONTACT_EMAIL       = "riverheadtranscripts@gmail.com"
+
+THANKS_PAGE     = "thanks.html"
+
+PRIVACY_PAGE    = "privacy.html"
+# Bump this by hand whenever the privacy policy text changes. It is deliberately
+# NOT tied to BUILD_TIME, which would make the date churn on every nightly build.
+PRIVACY_UPDATED = "August 16, 2026"
+
+# Set by main() once, then read by html_header() on every page.
+SUPPORT_ENABLED = False
+
+
+def load_support_config(path=SUPPORT_CONFIG_FILE):
+    """Return the resolved Stripe link block, or None to disable the feature.
+
+    Returning None on any problem is deliberate: the nightly unattended build must
+    never fail because of a support-config typo. Worst case the button disappears.
+    """
+    if not os.path.exists(path):
+        return None
+    try:
+        with open(path, "r", encoding="utf-8") as f:
+            raw = json.load(f)
+    except (ValueError, OSError) as e:
+        print("  WARNING: could not read {} ({}). Support page disabled.".format(path, e))
+        return None
+
+    if raw.get("enabled") is False:
+        print("  Support page disabled via \"enabled\": false in {}.".format(path))
+        return None
+
+    mode = raw.get("mode", "test")
+    block = raw.get(mode)
+    if not isinstance(block, dict):
+        print("  WARNING: {} has no '{}' block. Support page disabled.".format(path, mode))
+        return None
+
+    cfg = dict(block)
+    cfg["mode"] = mode
+    cfg["default_frequency"] = raw.get("default_frequency", "annual")
+    if cfg["default_frequency"] not in ("once", "monthly", "annual"):
+        cfg["default_frequency"] = "annual"
+
+    # Count tiers that actually have a URL, so the page can warn instead of
+    # rendering dead buttons.
+    configured = 0
+    for key in ("once", "monthly", "annual"):
+        for tier in cfg.get(key) or []:
+            if isinstance(tier, dict) and tier.get("url"):
+                configured += 1
+    if (cfg.get("custom") or {}).get("url"):
+        configured += 1
+    cfg["configured_count"] = configured
+    return cfg
+
 # ---------------------------------------------------------------------------
 # Helpers
 # ---------------------------------------------------------------------------
@@ -132,6 +191,13 @@ a:hover { text-decoration: underline; }
 .site-header p { font-size: .9rem; opacity: .8; margin-top: .25rem; }
 .site-header a { color: white; }
 .site-header .build-stamp { font-size: .75rem; opacity: .5; white-space: nowrap; padding-top: .3rem; }
+.site-header .header-right { display: flex; flex-direction: column; align-items: flex-end; gap: .5rem; }
+.support-btn { display: inline-block; padding: .5rem 1.15rem; font-size: .9rem;
+  font-weight: bold; letter-spacing: .01em; border-radius: 4px; white-space: nowrap;
+  background: #c62828; color: #fff !important; border: 1px solid rgba(255,255,255,.55);
+  box-shadow: 0 1px 4px rgba(0,0,0,.35); transition: background .15s, box-shadow .15s; }
+.support-btn:hover { background: #d1342b; border-color: #fff; text-decoration: none;
+  box-shadow: 0 2px 7px rgba(0,0,0,.4); }
 
 .container { max-width: 860px; margin: 0 auto; padding: 2rem 1.5rem; }
 
@@ -230,9 +296,60 @@ a.badge-link:hover { background: #1a5c8a; color: #fff; text-decoration: none; }
   font-style: italic; margin-top: 1rem; border-top: 1px solid #e3e3e3; padding-top: .6rem; }
 #summary-body.collapsed { display: none; }
 
+/* Support page and other prose pages */
+.support-page h1, .text-page h1 { font-size: 1.8rem; margin-bottom: .5rem; }
+.support-page .lede, .text-page .lede { font-size: 1.1rem; color: #444; margin-bottom: 1.5rem; }
+.support-page h2, .text-page h2 { font-size: 1rem; text-transform: uppercase;
+  letter-spacing: .08em; color: #555; margin: 2rem 0 .8rem; }
+.support-page p, .text-page p { margin-bottom: 1rem; }
+.text-page ul { margin: 0 0 1rem 1.3rem; }
+.text-page li { margin-bottom: .4rem; }
+.text-page .updated { font-size: .85rem; color: #888; margin-bottom: 1.5rem; }
+
+.support-box { background: #f7f9fc; border: 1px solid #d6e2ef;
+  border-radius: 4px; padding: 1.5rem; margin: 1.5rem 0 2rem; }
+.freq-toggle { display: flex; gap: .5rem; flex-wrap: wrap; margin-bottom: 1.25rem; }
+.freq-btn { flex: 1 1 auto; padding: .55rem 1rem; font-family: inherit; font-size: .9rem;
+  background: #fff; border: 1px solid #aac; border-radius: 3px; cursor: pointer;
+  color: #1a5c8a; }
+.freq-btn:hover { background: #dce8f4; }
+.freq-btn.active { background: #1a3a5c; border-color: #1a3a5c; color: #fff; }
+
+.amount-panel { display: none; }
+.amount-panel.active { display: block; }
+.amount-grid { display: flex; gap: .6rem; flex-wrap: wrap; }
+.amount-btn { flex: 1 1 6rem; text-align: center; padding: .9rem .5rem;
+  font-size: 1.15rem; border: 2px solid #1a5c8a; border-radius: 4px;
+  background: #fff; color: #1a5c8a; }
+.amount-btn:hover { background: #1a5c8a; color: #fff; text-decoration: none; }
+.amount-btn .per { display: block; font-size: .7rem; text-transform: uppercase;
+  letter-spacing: .05em; opacity: .7; margin-top: .15rem; }
+.amount-btn.disabled { border-color: #ccc; color: #aaa; background: #f5f5f5;
+  cursor: not-allowed; pointer-events: none; }
+.amount-btn.featured { background: #1a5c8a; color: #fff; }
+.amount-btn.featured:hover { background: #14476b; }
+.amount-btn .suggested { display: block; font-size: .6rem; text-transform: uppercase;
+  letter-spacing: .07em; opacity: .85; margin-bottom: .15rem; }
+.amount-custom { display: block; margin-top: .6rem; text-align: center;
+  padding: .8rem .5rem; font-size: 1.05rem; border: 2px dashed #9bb8cf;
+  border-radius: 4px; background: #fff; color: #1a5c8a; }
+.amount-custom:hover { border-style: solid; background: #1a5c8a; color: #fff;
+  text-decoration: none; }
+.support-note { font-size: .85rem; color: #666; margin-top: 1rem; }
+.support-warning { background: #fff8dc; border: 1px solid #e0d18a; border-radius: 4px;
+  padding: .8rem 1rem; font-size: .85rem; color: #6b5a1a; margin-bottom: 1.25rem; }
+
+.support-faq dt { font-weight: bold; margin-top: 1.2rem; }
+.support-faq dd { margin-left: 0; color: #444; }
+
 @media (max-width: 600px) {
   body { font-size: 16px; }
   .segment .ts { display: none; }
+  .site-header { padding: 1.2rem 1.25rem; }
+  .site-header .header-right { flex-direction: row; align-items: center;
+    width: 100%; justify-content: space-between; }
+  .site-header .build-stamp { padding-top: 0; }
+  .amount-btn { flex: 1 1 100%; }
 }
 """
 
@@ -253,22 +370,31 @@ def html_head(title, depth=0):
   <script src="{rel}_pagefind/pagefind-ui.js"></script>
 </head>""".format(t=title, s=SITE_TITLE, rel=rel)
 
-def html_header(depth=0):
+def html_header(depth=0, show_support=True):
     rel = "../" * depth
+    support_btn = ""
+    if SUPPORT_ENABLED and show_support:
+        support_btn = ('<a class="support-btn" href="{rel}{page}">{label}</a>'
+                       .format(rel=rel, page=SUPPORT_PAGE, label=SUPPORT_LABEL))
     return """<header class="site-header">
   <div class="header-left">
     <a href="{rel}index.html"><h1>{t}</h1></a>
     <p>{d}</p>
   </div>
-  <div class="build-stamp">Updated {bt}</div>
-</header>""".format(rel=rel, t=SITE_TITLE, d=SITE_DESC, bt=BUILD_TIME)
+  <div class="header-right">
+    {btn}
+    <div class="build-stamp">Updated {bt}</div>
+  </div>
+</header>""".format(rel=rel, t=SITE_TITLE, d=SITE_DESC, bt=BUILD_TIME, btn=support_btn)
 
-def html_footer():
+def html_footer(depth=0):
+    rel = "../" * depth
     return """<footer class="site-footer">
   <p>Transcripts generated by volunteers using OpenAI Whisper. Not an official record.
   Source videos: <a href="https://riverheadny.portal.civicclerk.com/">CivicClerk portal</a>.</p>
-  <p>Questions, suggestions, or bugs? Email <a href="mailto:riverheadtranscripts@gmail.com">riverheadtranscripts@gmail.com</a></p>
-</footer>"""
+  <p>Questions, suggestions, or bugs? Email <a href="mailto:{e}">{e}</a></p>
+  <p><a href="{rel}{p}">Privacy policy</a></p>
+</footer>""".format(rel=rel, p=PRIVACY_PAGE, e=CONTACT_EMAIL)
 
 VIDEO_JS = """
 <script>
@@ -298,6 +424,328 @@ function toggleSummary(btn) {
   btn.textContent = collapsed ? 'Show' : 'Hide';
 }
 </script>"""
+
+SUPPORT_JS = """
+<script>
+function showFreq(btn, key) {
+  var i;
+  var btns = document.querySelectorAll('.freq-btn');
+  for (i = 0; i < btns.length; i++) { btns[i].classList.remove('active'); }
+  btn.classList.add('active');
+  var panels = document.querySelectorAll('.amount-panel');
+  for (i = 0; i < panels.length; i++) { panels[i].classList.remove('active'); }
+  var target = document.getElementById('panel-' + key);
+  if (target) { target.classList.add('active'); }
+}
+</script>"""
+
+# ---------------------------------------------------------------------------
+# Support page
+# ---------------------------------------------------------------------------
+
+FREQ_LABELS = [
+    ("once",    "One time",  ""),
+    ("monthly", "Monthly",   "per month"),
+    ("annual",  "Annually",  "per year"),
+]
+
+
+def render_amount_panel(key, tiers, custom, per_label, active):
+    buttons = []
+    for tier in tiers or []:
+        label = htmlmod.escape(str(tier.get("label", "")))
+        url   = (tier.get("url") or "").strip()
+        per   = ('<span class="per">{}</span>'.format(per_label)) if per_label else ""
+        featured = tier.get("featured") is True
+        cls = "amount-btn featured" if featured else "amount-btn"
+        tag = '<span class="suggested">Suggested</span>' if featured else ""
+        if url:
+            buttons.append('<a class="{c}" href="{u}" rel="noopener">{t}{l}{p}</a>'
+                           .format(c=cls, u=htmlmod.escape(url, quote=True),
+                                   t=tag, l=label, p=per))
+        else:
+            buttons.append('<span class="amount-btn disabled">{l}{p}</span>'
+                           .format(l=label, p=per))
+
+    # The custom-amount Stripe link is one-time only (Stripe cannot do
+    # custom recurring), but it must be VISIBLE on every panel so nobody
+    # concludes there is no choose-your-own-amount option.
+    custom_html = ""
+    curl = ((custom or {}).get("url") or "").strip()
+    clabel = htmlmod.escape(str((custom or {}).get("label") or "Other amount"))
+    if curl:
+        suffix = "" if key == "once" else " (one-time)"
+        custom_html = ('<a class="amount-custom" href="{u}" rel="noopener">{l}{s} &rsaquo;</a>'
+                       .format(u=htmlmod.escape(curl, quote=True), l=clabel, s=suffix))
+
+    if key == "once":
+        note = ""
+    else:
+        note = ('<p class="support-note">Renews automatically. Cancel any time.</p>')
+
+    return """<div class="amount-panel{act}" id="panel-{k}">
+  <div class="amount-grid">
+    {b}
+  </div>
+  {c}
+  {n}
+</div>""".format(act=(" active" if active else ""), k=key,
+                 b="\n    ".join(buttons), c=custom_html, n=note)
+
+
+def build_support_page(cfg, output_path):
+    default_freq = cfg.get("default_frequency", "annual")
+
+    toggle = []
+    panels = []
+    for key, label, per in FREQ_LABELS:
+        active = (key == default_freq)
+        toggle.append('<button class="freq-btn{act}" onclick="showFreq(this, \'{k}\')">{l}</button>'
+                      .format(act=(" active" if active else ""), k=key, l=label))
+        panels.append(render_amount_panel(key, cfg.get(key), cfg.get("custom"), per, active))
+
+    warning = ""
+    if cfg.get("configured_count", 0) == 0:
+        warning = ('<div class="support-warning"><strong>Not yet live.</strong> '
+                   'Payment links have not been configured in <code>support_config.json</code>, '
+                   'so the amounts below are placeholders and are not clickable. '
+                   'This page is here for layout and copy review only.</div>')
+    elif cfg.get("mode") == "test":
+        warning = ('<div class="support-warning"><strong>Stripe test mode.</strong> '
+                   'These buttons use test payment links. No real money moves. '
+                   'Set <code>"mode": "live"</code> in <code>support_config.json</code> before launch.'
+                   '</div>')
+
+    portal = (cfg.get("portal_url") or "").strip()
+    if portal:
+        cancel_answer = ('Use the <a href="{}" rel="noopener">contribution management portal</a> '
+                         'to update your card or cancel at any time. You can also email '
+                         '<a href="mailto:{e}">{e}</a>.'.format(
+                             htmlmod.escape(portal, quote=True), e=CONTACT_EMAIL))
+    else:
+        cancel_answer = ('Email <a href="mailto:{e}">{e}</a> and it will be cancelled. '
+                         'A self-service portal is coming.'.format(e=CONTACT_EMAIL))
+
+    body = """<main class="container support-page" data-pagefind-ignore>
+  <nav class="breadcrumb"><a href="index.html">Home</a> &rsaquo; Support</nav>
+
+  <h1>Support this project</h1>
+  <p class="lede">Riverhead Town meetings are public. Finding out what actually happened
+  at one should not require watching three hours of video.</p>
+
+  <h2>Choose an amount</h2>
+
+  <div class="support-box">
+    {warning}
+    <div class="freq-toggle">
+      {toggle}
+    </div>
+    {panels}
+  </div>
+
+  <h2>Why contribute?</h2>
+
+  <p>This site transcribes every Riverhead Town Board, Planning Board, Zoning Board and
+  related public meeting, makes the full text searchable, and adds a plain-language
+  summary at the top of each one. It is free, it has no ads, and nothing is behind a
+  paywall. That is not going to change.</p>
+
+  <p>It takes money and steady work to run. Every meeting gets machine-transcribed and
+  then summarized, the summaries are generated through a paid API that bills per meeting,
+  there is a domain to renew, and someone has to keep all of it running every night.
+  If this is useful to you, chipping in covers the costs and supports the work.</p>
+
+  <h2>Questions</h2>
+  <dl class="support-faq">
+    <dt>Is my contribution tax-deductible?</dt>
+    <dd>No. This project is not a registered nonprofit and has no 501(c)(3) status,
+    so contributions are not tax-deductible and no deduction receipt can be issued.
+    Please contribute only if you want to support the work itself.</dd>
+
+    <dt>What does the money actually pay for?</dt>
+    <dd>Direct costs first: per-meeting AI summary generation, the riverheadtranscripts.org
+    domain, and the compute that turns meeting video into searchable text. Beyond that,
+    contributions support the time it takes to build, maintain, and improve the site.
+    This is an independent project run by one person, not a nonprofit.</dd>
+
+    <dt>Does contributing get me any influence over what is published?</dt>
+    <dd>No. Every meeting posted by the Town gets transcribed the same way regardless of
+    who has contributed. Contributors get no say in what is transcribed, summarized, or
+    left out, and no contributor list is published.</dd>
+
+    <dt>How do I change or cancel a recurring contribution?</dt>
+    <dd>{cancel}</dd>
+
+    <dt>Is my card information safe?</dt>
+    <dd>Payments are processed entirely by Stripe on Stripe's own pages. Card numbers
+    never touch this site, and this site stores no personal information about you.</dd>
+
+    <dt>I would rather help in another way.</dt>
+    <dd>Corrections, missing meetings, and bug reports are genuinely valuable. Email
+    <a href="mailto:{email}">{email}</a>.</dd>
+  </dl>
+
+  <p class="support-note">Transcripts are machine-generated and are not an official record
+  of any Town proceeding. Contributions do not change that.</p>
+</main>""".format(warning=warning,
+                  toggle="\n      ".join(toggle),
+                  panels="\n    ".join(panels),
+                  cancel=cancel_answer,
+                  email=CONTACT_EMAIL)
+
+    html = """{head}
+<body>
+{header}
+{body}
+{footer}
+{js}
+</body>
+</html>""".format(head=html_head("Support", depth=0),
+                  header=html_header(depth=0, show_support=False),
+                  body=body,
+                  footer=html_footer(depth=0),
+                  js=SUPPORT_JS)
+
+    os.makedirs(os.path.dirname(output_path) or ".", exist_ok=True)
+    with open(output_path, "w", encoding="utf-8") as f:
+        f.write(html)
+
+# ---------------------------------------------------------------------------
+# Post-payment thank-you page
+# ---------------------------------------------------------------------------
+# Every live Stripe Payment Link redirects here after a successful payment
+# ("After payment" setting on each link), so supporters land back on the site
+# instead of on Stripe's dead-end confirmation screen. This page must always
+# be generated when the links are live, or the redirect 404s.
+
+def build_thanks_page(portal_url, output_path):
+    portal_line = ""
+    if (portal_url or "").strip():
+        portal_line = ('<p>To update your card or cancel a recurring contribution at any '
+                       'time, use the <a href="{u}" rel="noopener">contribution management '
+                       'portal</a>.</p>'
+                       .format(u=htmlmod.escape(portal_url.strip(), quote=True)))
+
+    body = """<main class="container text-page" data-pagefind-ignore>
+  <h1>Thank you</h1>
+  <p class="lede">Your contribution goes directly toward keeping every Riverhead Town
+  meeting transcribed, searchable, and free for everyone.</p>
+
+  <p>A receipt from Stripe is on its way to your email.</p>
+  {portal}
+  <p>Questions about your contribution? Email
+  <a href="mailto:{email}">{email}</a>.</p>
+
+  <p style="margin-top:2rem;"><a class="toggle-btn" href="index.html">&lsaquo; Back to the
+  transcripts</a></p>
+</main>""".format(portal=portal_line, email=CONTACT_EMAIL)
+
+    html = """{head}
+<body>
+{header}
+{body}
+{footer}
+</body>
+</html>""".format(head=html_head("Thank you", depth=0),
+                  header=html_header(depth=0, show_support=False),
+                  body=body,
+                  footer=html_footer(depth=0))
+
+    os.makedirs(os.path.dirname(output_path) or ".", exist_ok=True)
+    with open(output_path, "w", encoding="utf-8") as f:
+        f.write(html)
+
+# ---------------------------------------------------------------------------
+# Privacy policy page
+# ---------------------------------------------------------------------------
+
+def build_privacy_page(output_path):
+    body = """<main class="container text-page" data-pagefind-ignore>
+  <nav class="breadcrumb"><a href="index.html">Home</a> &rsaquo; Privacy</nav>
+
+  <h1>Privacy policy</h1>
+  <p class="updated">Last updated: {updated}</p>
+
+  <p class="lede">Short version: this site does not track you. There are no accounts,
+  no cookies set by this site, no analytics, and no advertising.</p>
+
+  <h2>What this site collects</h2>
+  <p>Nothing. Reading transcripts on riverheadtranscripts.org requires no account and
+  sets no cookies. There are no analytics scripts, no tracking pixels, and no
+  advertising networks anywhere on the site.</p>
+
+  <h2>Hosting</h2>
+  <p>The site is served by GitHub Pages. Like any web host, GitHub receives standard
+  request information, including your IP address and browser type, in order to deliver
+  the page. That data is handled under GitHub's privacy statement, not by me. I have no
+  access to server logs and cannot see who visits.</p>
+
+  <h2>Search</h2>
+  <p>Search runs entirely inside your browser using Pagefind. The search index is
+  downloaded to your device and queried locally. What you type into the search box is
+  never transmitted anywhere and is not logged by me or by anyone else.</p>
+
+  <h2>Meeting video and documents</h2>
+  <p>Meeting video is streamed directly from the Town of Riverhead's CivicClerk portal
+  and its content delivery network at <code>cpmedia.azureedge.net</code>. Agenda and
+  minutes links point to <code>riverheadny.portal.civicclerk.com</code>. If you play a
+  video or open one of those documents, those providers receive your IP address under
+  their own privacy practices. They are the Town's vendors, not mine.</p>
+
+  <h2>Contributions</h2>
+  <p>Payments are processed entirely by Stripe on Stripe's own pages. Card numbers never
+  touch this site and I never see them. Stripe shows me a contributor's name, email
+  address, amount, and date, which I use only to process the contribution and to reply if
+  you contact me. I do not sell or share it, and there is no mailing list. Stripe's
+  handling of your information is governed by Stripe's privacy policy.</p>
+
+  <h2>Email</h2>
+  <p>If you email <a href="mailto:{email}">{email}</a>, I keep that message so I can
+  respond and track corrections. That mailbox is Gmail, so Google's privacy policy
+  applies to it.</p>
+
+  <h2>AI summaries</h2>
+  <p>The plain-language summary at the top of each meeting page is generated by sending
+  the meeting transcript and the Town's published agenda to Anthropic's API. Only public
+  government records are sent. No information about site visitors is involved at any
+  point.</p>
+
+  <h2>Names in transcripts</h2>
+  <p>These transcripts are records of public government meetings and include the names
+  and statements of people who spoke on the record at them. That is public information.
+  Transcripts are machine-generated and can contain errors, including misheard names. If
+  you find something transcribed incorrectly, email me and I will correct it.</p>
+
+  <h2>What I do not do</h2>
+  <ul>
+    <li>I do not sell, rent, or share personal information.</li>
+    <li>I do not run ads or embed third-party advertising or tracking code.</li>
+    <li>I do not build profiles of visitors or maintain a mailing list.</li>
+    <li>I do not use cookies to identify or follow you.</li>
+  </ul>
+
+  <h2>Changes</h2>
+  <p>If this policy changes in a meaningful way, the date at the top of this page will be
+  updated.</p>
+
+  <h2>Contact</h2>
+  <p>Questions about any of this: <a href="mailto:{email}">{email}</a></p>
+</main>""".format(updated=PRIVACY_UPDATED, email=CONTACT_EMAIL)
+
+    html = """{head}
+<body>
+{header}
+{body}
+{footer}
+</body>
+</html>""".format(head=html_head("Privacy policy", depth=0),
+                  header=html_header(depth=0),
+                  body=body,
+                  footer=html_footer(depth=0))
+
+    os.makedirs(os.path.dirname(output_path) or ".", exist_ok=True)
+    with open(output_path, "w", encoding="utf-8") as f:
+        f.write(html)
 
 # ---------------------------------------------------------------------------
 # Meeting page
@@ -476,7 +924,7 @@ def build_meeting_page(record, output_path, depth=2):
 </html>""".format(
         head       = html_head(page_title, depth=depth),
         header     = html_header(depth=depth),
-        footer     = html_footer(),
+        footer     = html_footer(depth=depth),
         js         = (VIDEO_JS if video_url else "") + (SUMMARY_JS if summary_html else ""),
         summary    = summary_html,
         rel        = rel,
@@ -601,7 +1049,7 @@ def build_index(all_records, output_path):
 </body>
 </html>""".format(
         head=html_head(SITE_TITLE, depth=0), header=html_header(depth=0),
-        footer=html_footer(), total=len(all_records),
+        footer=html_footer(depth=0), total=len(all_records),
         sections="\n".join(sections))
 
     os.makedirs(os.path.dirname(output_path), exist_ok=True)
@@ -613,9 +1061,19 @@ def build_index(all_records, output_path):
 # ---------------------------------------------------------------------------
 
 def main():
+    global SUPPORT_ENABLED
+
     print("=" * 60)
     print("Riverhead Site Builder")
     print("=" * 60)
+
+    support_cfg = load_support_config()
+    SUPPORT_ENABLED = support_cfg is not None
+    if SUPPORT_ENABLED:
+        print("Support page: enabled ({} mode, {} link(s) configured).".format(
+            support_cfg.get("mode"), support_cfg.get("configured_count", 0)))
+    else:
+        print("Support page: disabled (no usable {}).".format(SUPPORT_CONFIG_FILE))
 
     records = load_all_transcripts(TRANSCRIPTS_DIR)
     print("Loaded {} transcripts.".format(len(records)))
@@ -664,6 +1122,19 @@ def main():
 
     print("Building index ...")
     build_index(records, os.path.join(OUTPUT_DIR, "index.html"))
+
+    if SUPPORT_ENABLED:
+        print("Building support page ...")
+        build_support_page(support_cfg, os.path.join(OUTPUT_DIR, SUPPORT_PAGE))
+
+    # Always built, even with support disabled: the live Stripe links redirect
+    # here after payment, and a raw link shared before launch must not 404.
+    print("Building thanks page ...")
+    build_thanks_page((support_cfg or {}).get("portal_url", ""),
+                      os.path.join(OUTPUT_DIR, THANKS_PAGE))
+
+    print("Building privacy page ...")
+    build_privacy_page(os.path.join(OUTPUT_DIR, PRIVACY_PAGE))
 
     print()
     print("Done! Next:")
