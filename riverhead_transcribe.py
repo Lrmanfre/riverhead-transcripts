@@ -35,6 +35,7 @@ import csv
 import json
 import os
 import re
+import subprocess
 import sys
 import time
 import urllib.request
@@ -50,6 +51,19 @@ TEMP_VIDEO_DIR = "tmp_videos"
 MODEL          = "mlx-community/whisper-large-v3-mlx"
 LANGUAGE       = "en"
 TIMEOUT        = 120    # seconds for HTTP connections
+
+# --- Bad-asset detection ---------------------------------------------------
+# On 2026-08-18 CivicClerk served a 2.9-second, 678 KB stub at the URL the
+# inventory had recorded, while the real 174-minute recording sat at a different
+# URL. Whisper transcribed the stub as "Thank you." and the pipeline published
+# it as the record of a 172-minute Town Board meeting.
+#
+# Comparing what we downloaded against the meeting length CivicClerk reports is
+# what catches this. A file under half the reported length is not the meeting.
+DOWNLOAD_ATTEMPTS  = 3
+RETRY_BACKOFF      = 20     # seconds, multiplied by attempt number
+MIN_MEDIA_SECONDS  = 60     # anything shorter is a stub, not a meeting
+MIN_DURATION_RATIO = 0.5    # of CivicClerk's reported duration_minutes
 
 # ---------------------------------------------------------------------------
 # Helpers
@@ -78,9 +92,28 @@ def already_done(txt_path):
     return os.path.exists(txt_path) and os.path.getsize(txt_path) > 0
 
 
-def download_video(url, dest_path):
-    """Download a video file with progress reporting."""
-    print("    Downloading: {}".format(url[:80]))
+def parse_duration_minutes(raw):
+    """CivicClerk's reported meeting length in minutes, or None if absent.
+
+    Only a minority of CSV rows carry this, so callers must handle None.
+    """
+    try:
+        v = float(str(raw).strip())
+        return v if v > 0 else None
+    except (TypeError, ValueError):
+        return None
+
+
+class BadAsset(Exception):
+    """The file at the source URL is not the meeting recording we expected.
+
+    Distinct from a network error: the download succeeded, the server just
+    served something that is not the meeting.
+    """
+
+
+def _download_once(url, dest_path):
+    """Single download attempt. Raises IOError on a short read."""
     req = urllib.request.Request(
         url,
         headers={"User-Agent": "riverhead-transparency-bot/1.0"},
@@ -102,6 +135,93 @@ def download_video(url, dest_path):
                           downloaded // (1024*1024),
                           total // (1024*1024), pct), end="\r")
     print()   # newline after progress
+
+    # A dropped connection makes resp.read() return b"" and the loop above exit
+    # normally, with no exception raised. Without this comparison a half-received
+    # video is indistinguishable from a complete one.
+    if total and downloaded != total:
+        raise IOError("incomplete download: got {} of {} bytes ({:.1f}%)".format(
+                      downloaded, total, downloaded * 100.0 / total))
+
+
+def download_video(url, dest_path, attempts=DOWNLOAD_ATTEMPTS):
+    """Download a video, verifying it arrived whole. Retries transient failures."""
+    print("    Downloading: {}".format(url[:80]))
+    last = None
+    for attempt in range(1, attempts + 1):
+        try:
+            _download_once(url, dest_path)
+            return
+        except Exception as e:
+            last = e
+            if os.path.exists(dest_path):
+                os.remove(dest_path)
+            if attempt < attempts:
+                wait = RETRY_BACKOFF * attempt
+                print("    Attempt {}/{} failed ({}). Retrying in {}s ...".format(
+                      attempt, attempts, e, wait))
+                time.sleep(wait)
+    raise IOError("download failed after {} attempts: {}".format(attempts, last))
+
+
+def probe_media(path):
+    """Return (duration_seconds, has_audio) via ffprobe.
+
+    Returns (None, True) when ffprobe is missing or the file is unreadable, so an
+    absent tool degrades to the old permissive behaviour instead of blocking the
+    whole run.
+    """
+    try:
+        out = subprocess.run(
+            ["ffprobe", "-v", "error",
+             "-show_entries", "format=duration",
+             "-show_entries", "stream=codec_type",
+             "-of", "default=noprint_wrappers=1",
+             path],
+            capture_output=True, text=True, timeout=180)
+    except (OSError, subprocess.SubprocessError):
+        return (None, True)
+    if out.returncode != 0:
+        return (None, True)
+
+    duration, has_audio = None, False
+    for line in out.stdout.splitlines():
+        line = line.strip()
+        if line.startswith("duration=") and duration is None:
+            try:
+                duration = float(line.split("=", 1)[1])
+            except ValueError:
+                pass
+        elif line == "codec_type=audio":
+            has_audio = True
+    return (duration, has_audio)
+
+
+def verify_media(path, expected_minutes):
+    """Raise BadAsset if the downloaded file is clearly not the full meeting.
+
+    Returns the measured duration in seconds, or None if ffprobe was unavailable.
+    """
+    duration, has_audio = probe_media(path)
+
+    if not has_audio:
+        raise BadAsset("file contains no audio stream")
+
+    if duration is None:
+        return None   # ffprobe unavailable: nothing to compare against
+
+    if duration < MIN_MEDIA_SECONDS:
+        raise BadAsset("file is only {:.1f}s long".format(duration))
+
+    if expected_minutes:
+        expected_s = expected_minutes * 60.0
+        if duration < expected_s * MIN_DURATION_RATIO:
+            raise BadAsset(
+                "file is {:.1f} min but CivicClerk reports a {:.0f} min meeting "
+                "({:.0f}% of expected)".format(
+                    duration / 60.0, expected_minutes,
+                    duration / expected_s * 100))
+    return duration
 
 
 def transcribe(video_path):
@@ -259,6 +379,8 @@ def main():
     done_count    = 0
     skipped_count = 0
     error_count   = 0
+    bad_assets    = []
+    thin_results  = []
     t_start       = time.time()
 
     for i, row in enumerate(meetings, 1):
@@ -289,6 +411,27 @@ def main():
             error_count += 1
             continue
 
+        # Verify we actually got the meeting before spending an hour on Whisper.
+        #
+        # Nothing is written when this fails. That is deliberate: already_done()
+        # only checks that the .txt exists, so writing a transcript here would
+        # mark the meeting permanently complete and it would never be retried.
+        # Leaving no file means the next run picks it up again, and the --days
+        # window naturally stops the retries once the meeting ages out.
+        try:
+            expected = parse_duration_minutes(row.get("duration_minutes"))
+            measured = verify_media(video_path, expected)
+            if measured:
+                print("    Media verified: {:.1f} min{}".format(
+                      measured / 60.0,
+                      " (CivicClerk reports {:.0f})".format(expected) if expected else ""))
+        except BadAsset as e:
+            print("    SKIPPING: source is not the meeting recording — {}".format(e))
+            print("    No transcript written, so this meeting will be retried.")
+            bad_assets.append((event_date, category, event_id, str(e)))
+            os.remove(video_path)
+            continue
+
         # Transcribe
         t0 = time.time()
         try:
@@ -312,6 +455,18 @@ def main():
             "video_url":  video_url,
             "transcribed_at": datetime.now().strftime("%Y-%m-%dT%H:%M:%S"),
         }
+        # The media verified as full length, so this transcript is saved even if
+        # it is sparse: a long recording that is mostly silence is a real record,
+        # not a failure, and re-downloading 3 GB nightly would not improve it.
+        # Flag it so a human can look, and let build_site caveat it for readers.
+        words = len((result.get("text") or "").split())
+        if measured and words < (measured / 60.0) * 5:
+            print("    NOTE: only {} words from {:.0f} min of audio. Saving anyway "
+                  "(recording is full length), but flagging for review.".format(
+                      words, measured / 60.0))
+            thin_results.append((event_date, category, event_id, words,
+                                 measured / 60.0))
+
         save_transcript(result, txt_path, json_path, meta)
         print("    Saved: {}".format(txt_path))
 
@@ -340,6 +495,32 @@ def main():
     print("  Transcribed : {}".format(done_count))
     print("  Skipped     : {} (already existed)".format(skipped_count))
     print("  Errors      : {}".format(error_count))
+    print("  Bad assets  : {} (will retry next run)".format(len(bad_assets)))
+
+    if bad_assets:
+        print()
+        print("!" * 60)
+        print("SOURCE DID NOT SERVE THE MEETING RECORDING for {} meeting(s):".format(
+              len(bad_assets)))
+        for date, cat, eid, why in bad_assets:
+            print("  {}  {}  (event {})".format(date, cat, eid))
+            print("      {}".format(why))
+        print()
+        print("No transcripts were written, so these retry automatically on the")
+        print("next run. If one persists past the --days window it will stop being")
+        print("retried and the meeting will be missing from the site entirely.")
+        print("!" * 60)
+
+    if thin_results:
+        print()
+        print("-" * 60)
+        print("FULL-LENGTH but very little speech ({} meeting(s)):".format(
+              len(thin_results)))
+        for date, cat, eid, words, mins in thin_results:
+            print("  {}  {}  (event {}): {} words from {:.0f} min".format(
+                  date, cat, eid, words, mins))
+        print("These were saved. Often legitimate (executive session, silence).")
+        print("-" * 60)
     print("  Total time  : {:.1f} hours".format(total_time))
     print("  Transcripts : {}".format(OUTPUT_DIR))
     print("=" * 60)

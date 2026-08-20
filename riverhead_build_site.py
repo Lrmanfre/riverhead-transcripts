@@ -46,6 +46,19 @@ BUILD_TIME      = datetime.now().strftime("%b %-d, %Y at %-I:%M %p")
 MIN_WORDS_PER_MINUTE = 5
 MIN_WORDS_NO_DURATION = 25
 
+# Two different problems, which need different treatment:
+#
+#   "incomplete" — the recording we transcribed is far shorter than the meeting
+#     CivicClerk describes, so the transcript cannot be the record of it. This is
+#     the 2026-08-18 case: a 2.9-second stub served for a 172-minute meeting.
+#     Suppress it; a partial record presented as complete is worse than none.
+#
+#   "thin" — the recording IS full length, there was just very little speech in
+#     it. Usually legitimate: a session that opens and immediately goes into
+#     executive session. Show the text, with a caveat so nobody reads three
+#     sentences as the whole meeting.
+MIN_COVERAGE_RATIO = 0.5
+
 SUPPORT_CONFIG_FILE = "support_config.json"
 SUPPORT_PAGE        = "support.html"
 SUPPORT_LABEL       = "Support this project"
@@ -220,26 +233,56 @@ def transcript_duration_minutes(record):
     return end / 60.0 if end > 0 else 0.0
 
 
-def transcript_failure_reason(record):
-    """Return a plain-language reason the transcript is unusable, or None if OK.
+def transcript_span_minutes(record):
+    """How much wall-clock time the transcript's segments actually cover."""
+    end = 0.0
+    for seg in record.get("segments") or []:
+        try:
+            end = max(end, float(seg.get("end", 0)))
+        except (TypeError, ValueError):
+            continue
+    return end / 60.0
 
-    See MIN_WORDS_PER_MINUTE for why the threshold sits where it does.
-    """
-    words = transcript_word_count(record)
-    duration = transcript_duration_minutes(record)
 
-    if duration > 0:
-        if words < duration * MIN_WORDS_PER_MINUTE:
-            return ("Only {} word{} of speech could be transcribed from a "
-                    "recording roughly {:.0f} minute{} long.".format(
-                        words, "" if words == 1 else "s",
-                        duration, "" if round(duration) == 1 else "s"))
+def stated_duration_minutes(record):
+    """The meeting length CivicClerk reports, or None. Never inferred."""
+    try:
+        v = float(record.get("meta", {}).get("duration_minutes", ""))
+        return v if v > 0 else None
+    except (TypeError, ValueError):
         return None
 
-    if words < MIN_WORDS_NO_DURATION:
-        return ("Only {} word{} of speech could be transcribed from the "
+
+def transcript_quality(record):
+    """Classify a transcript. Returns (level, reason).
+
+    level is None (fine), "incomplete" (suppress), or "thin" (show with caveat).
+    See MIN_COVERAGE_RATIO for why these are treated differently.
+    """
+    words  = transcript_word_count(record)
+    stated = stated_duration_minutes(record)
+    span   = transcript_span_minutes(record)
+
+    # The recording itself does not cover the meeting.
+    if stated and span < stated * MIN_COVERAGE_RATIO:
+        return ("incomplete",
+                "The recording transcribed here runs about {:.0f} minute{}, but "
+                "this meeting is listed as {:.0f} minutes long.".format(
+                    span, "" if round(span) == 1 else "s", stated))
+
+    # Full-length recording, but almost nothing was said on it.
+    duration = transcript_duration_minutes(record)
+    if duration > 0:
+        if words < duration * MIN_WORDS_PER_MINUTE:
+            return ("thin",
+                    "This {:.0f}-minute recording produced only {} word{} of "
+                    "speech.".format(duration, words,
+                                     "" if words == 1 else "s"))
+    elif words < MIN_WORDS_NO_DURATION:
+        return ("thin",
+                "Only {} word{} of speech could be transcribed from this "
                 "recording.".format(words, "" if words == 1 else "s"))
-    return None
+    return (None, None)
 
 
 def load_all_transcripts(d):
@@ -888,7 +931,7 @@ def build_meeting_page(record, output_path, depth=2):
     segments  = record.get("segments", [])
     rel       = "../" * depth
     summary_html = render_summary(record.get("summary"))
-    failure_reason = transcript_failure_reason(record)
+    quality_level, quality_reason = transcript_quality(record)
 
     event_id    = str(meta.get("event_id", ""))
     event_date  = meta.get("event_date", "")
@@ -994,21 +1037,33 @@ def build_meeting_page(record, output_path, depth=2):
   {}
 </div>""".format("\n  ".join(para_html) if para_html else "<p><em>No transcript available.</em></p>")
 
-    # Failed-transcription guard. Whisper returns a stub such as "Thank you."
-    # when handed silence, which otherwise renders as though it were the record
-    # of the meeting. Say plainly that transcription failed instead.
-    if failure_reason:
+    # The recording does not cover the meeting, so whatever text exists cannot be
+    # its record. Withhold it rather than present a fragment as the whole.
+    if quality_level == "incomplete":
         summary_html        = ""
         timestamped_section = ""
         readable_section    = """<div class="transcript-missing" data-pagefind-ignore>
   <h2>Transcript unavailable</h2>
-  <p><strong>Automatic transcription failed for this meeting.</strong> The meeting
-  took place and was recorded, but no usable transcript could be produced.</p>
-  <p class="why">{reason} This usually means the audio could not be retrieved from
-  the source video. Nothing has been omitted or edited; there is simply no text to
-  show. The recording and agenda linked above remain the record for this meeting
-  until transcription can be retried.</p>
-</div>""".format(reason=htmlmod.escape(failure_reason))
+  <p><strong>The published recording for this meeting is incomplete</strong>, so no
+  transcript of it can be shown.</p>
+  <p class="why">{reason} Presenting a fragment as though it were the full meeting
+  would be misleading, so the partial text is withheld. Nothing has been edited or
+  censored. The agenda linked above remains the best available record until a
+  complete recording can be transcribed.</p>
+</div>""".format(reason=htmlmod.escape(quality_reason))
+
+    # Full-length recording with very little speech. Often legitimate, so show
+    # the text, but make sure nobody reads three sentences as the whole meeting.
+    elif quality_level == "thin":
+        thin_notice = """<div class="transcript-missing" data-pagefind-ignore>
+  <h2>Very little speech in this recording</h2>
+  <p>{reason} That is normal when a meeting opens and moves quickly into executive
+  session, which is not recorded, or when the room is silent for long stretches. It
+  can also mean the audio was poor.</p>
+  <p class="why">Everything that could be transcribed appears below. Nothing has
+  been omitted or edited.</p>
+</div>""".format(reason=htmlmod.escape(quality_reason))
+        readable_section = thin_notice + "\n" + readable_section
 
     html = """{head}
 <body>
@@ -1096,10 +1151,13 @@ def build_index(all_records, output_path):
             if minutes_url:
                 badges += ('<a class="badge badge-link" href="{}" target="_blank" '
                            'rel="noopener" title="Open minutes PDF">Minutes</a>').format(minutes_url)
-            if transcript_failure_reason(r):
-                badges += ('<span class="badge badge-warn" '
-                           'title="Automatic transcription failed for this meeting">'
-                           'Transcript unavailable</span>')
+            level, why = transcript_quality(r)
+            if level == "incomplete":
+                badges += ('<span class="badge badge-warn" title="{}">'
+                           'Transcript unavailable</span>'.format(htmlmod.escape(why)))
+            elif level == "thin":
+                badges += ('<span class="badge badge-warn" title="{}">'
+                           'Little speech</span>'.format(htmlmod.escape(why)))
             items.append(
                 '<li><a href="{}">{}</a>'
                 '<span class="date">{}{}</span></li>'.format(
@@ -1220,17 +1278,18 @@ def main():
 
     print("Building meeting pages ...")
     built = 0
-    failed_transcripts = []
+    incomplete_transcripts = []
+    thin_transcripts       = []
     for record in records:
-        reason = transcript_failure_reason(record)
-        if reason:
+        level, reason = transcript_quality(record)
+        if level:
             rmeta = record.get("meta", {})
-            failed_transcripts.append((
-                rmeta.get("event_date", "no-date"),
-                rmeta.get("category") or "Uncategorized",
-                str(rmeta.get("event_id", "unknown")),
-                reason,
-            ))
+            entry = (rmeta.get("event_date", "no-date"),
+                     rmeta.get("category") or "Uncategorized",
+                     str(rmeta.get("event_id", "unknown")),
+                     reason)
+            (incomplete_transcripts if level == "incomplete"
+             else thin_transcripts).append(entry)
         meta     = record.get("meta", {})
         category = meta.get("category") or "uncategorized"
         date     = meta.get("event_date", "no-date")
@@ -1243,17 +1302,28 @@ def main():
             print("  ... {}".format(built))
     print("  Built {} pages.".format(built))
 
-    if failed_transcripts:
+    if incomplete_transcripts:
         print()
         print("!" * 60)
-        print("WARNING: {} meeting(s) had NO USABLE TRANSCRIPT.".format(
-              len(failed_transcripts)))
-        print("These pages were published with a 'Transcript unavailable' notice")
-        print("instead of the failed text. Re-run transcription for:")
-        for date, cat, eid, reason in sorted(failed_transcripts):
+        print("INCOMPLETE RECORDING for {} meeting(s). Transcript WITHHELD:".format(
+              len(incomplete_transcripts)))
+        for date, cat, eid, reason in sorted(incomplete_transcripts):
             print("  {}  {}  (event {})".format(date, cat, eid))
             print("      {}".format(reason))
+        print("Delete the transcript files for these and let the pipeline retry;")
+        print("the source may since have published the full recording.")
         print("!" * 60)
+        print()
+
+    if thin_transcripts:
+        print()
+        print("-" * 60)
+        print("Full-length but very little speech, {} meeting(s). Text SHOWN "
+              "with a caveat:".format(len(thin_transcripts)))
+        for date, cat, eid, reason in sorted(thin_transcripts):
+            print("  {}  {}  (event {}): {}".format(date, cat, eid, reason))
+        print("Usually legitimate (executive session, silence). No action needed.")
+        print("-" * 60)
         print()
 
     print("Building index ...")
