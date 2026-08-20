@@ -93,6 +93,18 @@ a.badge-link:hover { background: #1a5c8a; color: #fff; text-decoration: none; }
 
 .gap-marker { color: #bbb; font-style: italic; font-size: .9em; }
 
+/* Failed-transcription notice — replaces the transcript body when Whisper
+   returned effectively nothing for a meeting of real length. */
+.transcript-missing { background: #fdf6e3; border: 1px solid #e8d9a8;
+  border-left: 4px solid #b8860b; border-radius: 4px;
+  padding: 1.1rem 1.5rem 1.2rem; margin-bottom: 2rem; }
+.transcript-missing h2 { font-size: 1rem; text-transform: uppercase;
+  letter-spacing: .08em; color: #8a6d1f; margin-bottom: .7rem; }
+.transcript-missing p { margin-bottom: .6rem; }
+.transcript-missing p:last-child { margin-bottom: 0; }
+.transcript-missing .why { font-size: .85rem; color: #6b6b6b; }
+.badge-warn { background: #fdf6e3; color: #8a6d1f; }
+
 /* AI summary — sits at the top of the page, above the video */
 .transcript-summary { background: #f7f9fc; border: 1px solid #d6e2ef;
   border-left: 4px solid #1a5c8a; border-radius: 4px;

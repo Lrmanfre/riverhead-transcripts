@@ -33,6 +33,19 @@ PORTAL_BASE     = "https://riverheadny.portal.civicclerk.com"
 PARAGRAPH_PAUSE = 3.0
 BUILD_TIME      = datetime.now().strftime("%b %-d, %Y at %-I:%M %p")
 
+# --- Failed-transcription guard -------------------------------------------
+# Whisper emits a stub like "Thank you." when handed silence or a bad audio
+# extraction, so a failed transcription looks like a successful tiny one. On
+# 2026-08-18 a 172-minute Town Board meeting transcribed to 2 words and would
+# have published as the official-looking record of that meeting.
+#
+# Real meetings run 100-200 words per minute. A floor of 5 wpm is a 20x+ margin
+# below normal speech, so it only catches recordings that are effectively silent,
+# not quiet or sparsely-attended meetings. When duration is missing or
+# unparseable we fall back to a small absolute floor instead.
+MIN_WORDS_PER_MINUTE = 5
+MIN_WORDS_NO_DURATION = 25
+
 SUPPORT_CONFIG_FILE = "support_config.json"
 SUPPORT_PAGE        = "support.html"
 SUPPORT_LABEL       = "Support this project"
@@ -162,6 +175,73 @@ def group_into_paragraphs(segments, pause=PARAGRAPH_PAUSE):
         paragraphs.append(current)
     return paragraphs
 
+def transcript_word_count(record):
+    """Count usable words in a transcript, after hallucination sanitizing.
+
+    Gap markers and empty segments do not count, so a transcript that is mostly
+    truncated hallucination loops scores near zero rather than looking healthy.
+    """
+    segments = record.get("segments") or []
+    if segments:
+        words = 0
+        for seg in segments:
+            text = sanitize_segment_text((seg.get("text") or "").strip())
+            if not text or text == GAP_MARKER:
+                continue
+            words += len(text.split())
+        return words
+    # Fall back to the flat transcript field if segments are absent.
+    return len((record.get("transcript") or "").split())
+
+
+def transcript_duration_minutes(record):
+    """Recording length in minutes, best effort.
+
+    Only a minority of records carry meta.duration_minutes (34 of 302 as of
+    Aug 2026), so fall back to the end timestamp of the last segment. That
+    under-states length when transcription stopped early, which biases toward
+    NOT flagging. That is the safe direction: a missed failure is recoverable,
+    a wrongly suppressed transcript is not.
+    """
+    raw = record.get("meta", {}).get("duration_minutes", "")
+    try:
+        d = float(raw)
+        if d > 0:
+            return d
+    except (TypeError, ValueError):
+        pass
+
+    end = 0.0
+    for seg in record.get("segments") or []:
+        try:
+            end = max(end, float(seg.get("end", 0)))
+        except (TypeError, ValueError):
+            continue
+    return end / 60.0 if end > 0 else 0.0
+
+
+def transcript_failure_reason(record):
+    """Return a plain-language reason the transcript is unusable, or None if OK.
+
+    See MIN_WORDS_PER_MINUTE for why the threshold sits where it does.
+    """
+    words = transcript_word_count(record)
+    duration = transcript_duration_minutes(record)
+
+    if duration > 0:
+        if words < duration * MIN_WORDS_PER_MINUTE:
+            return ("Only {} word{} of speech could be transcribed from a "
+                    "recording roughly {:.0f} minute{} long.".format(
+                        words, "" if words == 1 else "s",
+                        duration, "" if round(duration) == 1 else "s"))
+        return None
+
+    if words < MIN_WORDS_NO_DURATION:
+        return ("Only {} word{} of speech could be transcribed from the "
+                "recording.".format(words, "" if words == 1 else "s"))
+    return None
+
+
 def load_all_transcripts(d):
     records = []
     for path in sorted(glob.glob(os.path.join(d, "**", "*.json"), recursive=True)):
@@ -272,6 +352,18 @@ a.badge-link:hover { background: #1a5c8a; color: #fff; text-decoration: none; }
 .expand-btn .chevron.up { transform: rotate(180deg); }
 
 .gap-marker { color: #bbb; font-style: italic; font-size: .9em; }
+
+/* Failed-transcription notice — replaces the transcript body when Whisper
+   returned effectively nothing for a meeting of real length. */
+.transcript-missing { background: #fdf6e3; border: 1px solid #e8d9a8;
+  border-left: 4px solid #b8860b; border-radius: 4px;
+  padding: 1.1rem 1.5rem 1.2rem; margin-bottom: 2rem; }
+.transcript-missing h2 { font-size: 1rem; text-transform: uppercase;
+  letter-spacing: .08em; color: #8a6d1f; margin-bottom: .7rem; }
+.transcript-missing p { margin-bottom: .6rem; }
+.transcript-missing p:last-child { margin-bottom: 0; }
+.transcript-missing .why { font-size: .85rem; color: #6b6b6b; }
+.badge-warn { background: #fdf6e3; color: #8a6d1f; }
 
 /* AI summary — sits at the top of the page, above the video */
 .transcript-summary { background: #f7f9fc; border: 1px solid #d6e2ef;
@@ -796,6 +888,7 @@ def build_meeting_page(record, output_path, depth=2):
     segments  = record.get("segments", [])
     rel       = "../" * depth
     summary_html = render_summary(record.get("summary"))
+    failure_reason = transcript_failure_reason(record)
 
     event_id    = str(meta.get("event_id", ""))
     event_date  = meta.get("event_date", "")
@@ -901,6 +994,22 @@ def build_meeting_page(record, output_path, depth=2):
   {}
 </div>""".format("\n  ".join(para_html) if para_html else "<p><em>No transcript available.</em></p>")
 
+    # Failed-transcription guard. Whisper returns a stub such as "Thank you."
+    # when handed silence, which otherwise renders as though it were the record
+    # of the meeting. Say plainly that transcription failed instead.
+    if failure_reason:
+        summary_html        = ""
+        timestamped_section = ""
+        readable_section    = """<div class="transcript-missing" data-pagefind-ignore>
+  <h2>Transcript unavailable</h2>
+  <p><strong>Automatic transcription failed for this meeting.</strong> The meeting
+  took place and was recorded, but no usable transcript could be produced.</p>
+  <p class="why">{reason} This usually means the audio could not be retrieved from
+  the source video. Nothing has been omitted or edited; there is simply no text to
+  show. The recording and agenda linked above remain the record for this meeting
+  until transcription can be retried.</p>
+</div>""".format(reason=htmlmod.escape(failure_reason))
+
     html = """{head}
 <body>
 {header}
@@ -987,6 +1096,10 @@ def build_index(all_records, output_path):
             if minutes_url:
                 badges += ('<a class="badge badge-link" href="{}" target="_blank" '
                            'rel="noopener" title="Open minutes PDF">Minutes</a>').format(minutes_url)
+            if transcript_failure_reason(r):
+                badges += ('<span class="badge badge-warn" '
+                           'title="Automatic transcription failed for this meeting">'
+                           'Transcript unavailable</span>')
             items.append(
                 '<li><a href="{}">{}</a>'
                 '<span class="date">{}{}</span></li>'.format(
@@ -1107,7 +1220,17 @@ def main():
 
     print("Building meeting pages ...")
     built = 0
+    failed_transcripts = []
     for record in records:
+        reason = transcript_failure_reason(record)
+        if reason:
+            rmeta = record.get("meta", {})
+            failed_transcripts.append((
+                rmeta.get("event_date", "no-date"),
+                rmeta.get("category") or "Uncategorized",
+                str(rmeta.get("event_id", "unknown")),
+                reason,
+            ))
         meta     = record.get("meta", {})
         category = meta.get("category") or "uncategorized"
         date     = meta.get("event_date", "no-date")
@@ -1119,6 +1242,19 @@ def main():
         if built % 25 == 0:
             print("  ... {}".format(built))
     print("  Built {} pages.".format(built))
+
+    if failed_transcripts:
+        print()
+        print("!" * 60)
+        print("WARNING: {} meeting(s) had NO USABLE TRANSCRIPT.".format(
+              len(failed_transcripts)))
+        print("These pages were published with a 'Transcript unavailable' notice")
+        print("instead of the failed text. Re-run transcription for:")
+        for date, cat, eid, reason in sorted(failed_transcripts):
+            print("  {}  {}  (event {})".format(date, cat, eid))
+            print("      {}".format(reason))
+        print("!" * 60)
+        print()
 
     print("Building index ...")
     build_index(records, os.path.join(OUTPUT_DIR, "index.html"))
