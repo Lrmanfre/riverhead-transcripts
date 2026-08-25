@@ -52,7 +52,7 @@ from datetime import datetime, timezone, date
 
 TRANSCRIPTS_DIR = "transcripts"
 AGENDA_CACHE    = "agenda_cache"
-DEFAULT_MODEL   = os.environ.get("ANTHROPIC_MODEL", "claude-sonnet-4-6")
+DEFAULT_MODEL   = os.environ.get("ANTHROPIC_MODEL", "claude-sonnet-5")
 PROMPT_VERSION  = "1"           # bump to invalidate old summaries with --force
 GAP_MARKER      = "[transcription gap]"
 
@@ -60,15 +60,17 @@ MIN_WORDS         = 300         # below this, transcript is too thin to summariz
 MAX_TRANSCRIPT_CH = 400_000     # safety cap (~100k tokens); longest meeting fits
 MAX_AGENDA_CH     = 15_000
 MAX_AGENDA_PAGES  = 15
-MAX_TOKENS        = 1500
+MAX_TOKENS        = 2500       # raised for the Sonnet 5 tokenizer (~30% more tokens)
 RETRY_SLEEPS      = [5, 15, 40] # backoff between attempts on transient errors
 
-# Agenda grounding is OFF until the agenda's API file-stream id is resolved. The
-# portal URL's agenda_id is a DIFFERENT id space than GetMeetingFileStream's fileId
-# (fileId=<agenda_id> returns the wrong, often years-off document), so grounding on
-# it would feed wrong agendas into summaries. Transcript-only output tested accurate.
-# See AI_SUMMARIES.md. Flip to True only once the lookup + a date check are wired.
-GROUND_IN_AGENDA  = False
+# Agenda grounding. The portal URL's agenda_id is a DIFFERENT id space than
+# GetMeetingFileStream's fileId (fileId=<agenda_id> returns the wrong, often
+# years-off document). Fixed August 2026: the correct fileIds come from the
+# Events entity's publishedFiles array (resolve_event_files below), and every
+# fetched document must pass a date check before it is trusted, so a mismatched
+# file is discarded instead of grounding on the wrong meeting. See AI_SUMMARIES.md.
+GROUND_IN_AGENDA  = True
+CIVICCLERK_API    = "https://riverheadny.api.civicclerk.com/v1"
 
 # Rate limiting. Tier 1 Sonnet allows 30k input tokens/min, so the script paces
 # itself under a ceiling and splits any meeting whose transcript alone would exceed
@@ -148,65 +150,129 @@ def length_tier(words):
 # Agenda grounding
 # ---------------------------------------------------------------------------
 
-def agenda_api_url(agenda_pdf_url):
-    """Turn the stored portal URL into the API text-stream endpoint, or '' if it
-    does not match the expected shape.
+def _curl_json(url):
+    """Fetch JSON via macOS system curl (avoids LibreSSL TLS issues, matching
+    riverhead_inventory.py)."""
+    r = subprocess.run(
+        ["/usr/bin/curl", "-s", "--fail", "-H", "Accept: application/json", url],
+        capture_output=True, text=True, timeout=30,
+    )
+    if r.returncode != 0:
+        raise RuntimeError("curl exit {}".format(r.returncode))
+    return json.loads(r.stdout)
 
-    Portal (SPA shell, serves HTML):
-      https://riverheadny.portal.civicclerk.com/event/<eid>/files/agenda/<fileId>
-    API (returns the agenda as plain text):
-      https://riverheadny.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=<fileId>,plainText=true)
+def resolve_event_files(event_id, cache_dir=AGENDA_CACHE):
+    """Return the event's publishedFiles list [{fileId, type, name}, ...].
+
+    The portal URL's agendaId is a different id space than the file-stream
+    fileId; the publishedFiles array on the Events entity carries the real
+    fileIds (verified August 2026: event 6454 -> agendaId 6017 but agenda
+    fileId 12254). Note: Events(<id>) direct addressing 404s on this API;
+    the $filter form works. Cached in agenda_cache/<eid>_files.json.
     """
-    m = re.search(r"/files/agenda/(\d+)", agenda_pdf_url or "")
-    if not m:
-        return ""
-    file_id = m.group(1)
-    host = agenda_pdf_url.split("/event/")[0].replace(".portal.civicclerk.com",
-                                                       ".api.civicclerk.com")
-    return "{}/v1/Meetings/GetMeetingFileStream(fileId={},plainText=true)".format(host, file_id)
-
-def fetch_agenda_text(meta, cache_dir):
-    """Fetch the agenda as plain text from the CivicClerk API, or '' on failure.
-
-    The stored agenda_pdf_url is the portal's single-page-app route (serves HTML),
-    so we derive the API GetMeetingFileStream endpoint and ask for plainText=true.
-    Uses macOS system curl, matching the TLS approach in riverhead_inventory.py.
-    Extracted text is cached under agenda_cache/<event_id>.txt.
-    """
-    if not GROUND_IN_AGENDA:
-        return ""
-    api_url = agenda_api_url(meta.get("agenda_pdf_url"))
-    if not api_url:
-        return ""
-    eid = re.sub(r"[^\w.-]", "_", str(meta.get("event_id", "x")))
-    cache_path = os.path.join(cache_dir, eid + ".txt")
+    eid = re.sub(r"[^\w.-]", "_", str(event_id))
+    cache_path = os.path.join(cache_dir, eid + "_files.json")
     if os.path.exists(cache_path):
         try:
-            cached = open(cache_path, encoding="utf-8").read()
-            if cached.strip():
-                return cached[:MAX_AGENDA_CH]
+            return json.load(open(cache_path, encoding="utf-8"))
         except Exception:
             pass
+    url = "{}/Events?$filter=id%20eq%20{}".format(CIVICCLERK_API, event_id)
     try:
+        data = _curl_json(url)
+        events = data.get("value") or []
+        files = (events[0].get("publishedFiles") or []) if events else []
+        files = [{"fileId": f.get("fileId"), "type": (f.get("type") or "").strip(),
+                  "name": (f.get("name") or "").strip()}
+                 for f in files if f.get("fileId")]
         os.makedirs(cache_dir, exist_ok=True)
-        r = subprocess.run(
-            ["/usr/bin/curl", "-sL", "--fail", "-H", "Accept: text/plain", api_url],
-            capture_output=True, text=True, timeout=60,
-        )
-        if r.returncode != 0 or not (r.stdout or "").strip():
-            log("    agenda fetch empty/failed ({}): curl exit {}".format(eid, r.returncode))
-            return ""
-        text = r.stdout
-        # Guard against an HTML error page sneaking through.
-        head = text.lstrip()[:200].lower()
-        if head.startswith("<!doctype") or "<html" in head:
-            return ""
         with open(cache_path, "w", encoding="utf-8") as f:
-            f.write(text)
-        return text[:MAX_AGENDA_CH]
+            json.dump(files, f)
+        return files
     except Exception as e:
-        log("    agenda fetch error ({}): {}".format(eid, e))
+        log("    publishedFiles lookup failed ({}): {}".format(event_id, e))
+        return []
+
+def _date_variants(event_date):
+    """Strings an official document for this date should contain."""
+    try:
+        d = datetime.strptime(event_date, "%Y-%m-%d")
+    except Exception:
+        return []
+    return [
+        d.strftime("%B") + " {}, {}".format(d.day, d.year),
+        d.strftime("%B %d, %Y"),
+        "{}/{}/{}".format(d.month, d.day, d.year),
+        "{:02d}/{:02d}/{}".format(d.month, d.day, d.year),
+        "{}/{}/{}".format(d.month, d.day, d.strftime("%y")),
+        d.strftime("%Y-%m-%d"),
+    ]
+
+def text_matches_event_date(text, event_date):
+    head = (text or "")[:4000]
+    return any(v in head for v in _date_variants(event_date))
+
+def fetch_official_text(meta, prefer=("Agenda",), cache_dir=AGENDA_CACHE,
+                        max_chars=MAX_AGENDA_CH):
+    """Plain text of the first available official document in `prefer` order
+    (types as they appear in publishedFiles, e.g. "Agenda", "Minutes").
+    Returns (text, type) or ("", "").
+
+    Every fetched document must contain the event date near the top or it is
+    discarded, so a wrong-id document can never ground a summary. Cached per
+    fileId under agenda_cache/file_<fileId>.txt.
+    """
+    event_id   = meta.get("event_id")
+    event_date = meta.get("event_date", "")
+    files = resolve_event_files(event_id, cache_dir)
+    ranked = [f for want in prefer
+              for f in files if f["type"].lower() == want.lower()]
+    for f in ranked:
+        fid = f["fileId"]
+        cache_path = os.path.join(cache_dir, "file_{}.txt".format(fid))
+        text = ""
+        if os.path.exists(cache_path):
+            try:
+                text = open(cache_path, encoding="utf-8").read()
+            except Exception:
+                text = ""
+        if not text.strip():
+            url = "{}/Meetings/GetMeetingFileStream(fileId={},plainText=true)".format(
+                  CIVICCLERK_API, fid)
+            try:
+                r = subprocess.run(
+                    ["/usr/bin/curl", "-sL", "--fail", "-H", "Accept: text/plain", url],
+                    capture_output=True, text=True, timeout=60,
+                )
+                text = r.stdout if r.returncode == 0 else ""
+            except Exception:
+                text = ""
+            head = text.lstrip()[:200].lower()
+            if head.startswith("<!doctype") or "<html" in head:
+                text = ""
+            if text.strip():
+                try:
+                    os.makedirs(cache_dir, exist_ok=True)
+                    with open(cache_path, "w", encoding="utf-8") as fh:
+                        fh.write(text)
+                except Exception:
+                    pass
+        if text.strip() and text_matches_event_date(text, event_date):
+            return text[:max_chars], f["type"]
+        if text.strip():
+            log("    official doc fileId={} failed date check for {}; discarded".format(
+                fid, event_date))
+    return "", ""
+
+def fetch_agenda_text(meta, cache_dir):
+    """Agenda text for summary grounding, or '' (kept as the summarizer's
+    entry point). Prefers the Agenda, falls back to Minutes (same resolution
+    list, published after the meeting)."""
+    if not GROUND_IN_AGENDA:
         return ""
+    text, _kind = fetch_official_text(meta, prefer=("Agenda", "Minutes"),
+                                      cache_dir=cache_dir)
+    return text
 
 # ---------------------------------------------------------------------------
 # Prompt
@@ -397,6 +463,13 @@ class _RateLimiter:
                 self.window, self.used = time.monotonic(), 0
             self.used += est
 
+# Sonnet 5 turns adaptive thinking ON by default; Sonnet 4.6 and earlier did not.
+# Thinking tokens count against max_tokens, so an unchanged request can burn the
+# entire budget on reasoning and return zero text. These are structured-JSON
+# extraction calls, so we explicitly opt out to restore the 4.6 behaviour.
+THINKING_OFF = {"type": "disabled"}
+_NO_THINKING_PARAM = set()   # models that reject the parameter outright
+
 def _create(client, model, system, user, limiter, max_tokens):
     """One messages.create with rate-limit pacing and retries; returns text."""
     import anthropic
@@ -405,11 +478,35 @@ def _create(client, model, system, user, limiter, max_tokens):
         if limiter:
             limiter.acquire(_estimate_tokens(system) + _estimate_tokens(user))
         try:
-            resp = client.messages.create(
-                model=model, max_tokens=max_tokens, system=system,
-                messages=[{"role": "user", "content": user}],
-            )
-            return "".join(b.text for b in resp.content if getattr(b, "type", "") == "text")
+            kwargs = dict(model=model, max_tokens=max_tokens, system=system,
+                          messages=[{"role": "user", "content": user}])
+            if model not in _NO_THINKING_PARAM:
+                kwargs["thinking"] = THINKING_OFF
+            try:
+                resp = client.messages.create(**kwargs)
+            except anthropic.BadRequestError as e:
+                if "thinking" in str(e).lower() and "thinking" in kwargs:
+                    # Model does not accept the parameter; remember and retry.
+                    _NO_THINKING_PARAM.add(model)
+                    kwargs.pop("thinking")
+                    resp = client.messages.create(**kwargs)
+                else:
+                    raise
+            text = "".join(b.text for b in resp.content
+                           if getattr(b, "type", "") == "text")
+            if not text.strip():
+                # No text block came back. Silently returning "" here used to
+                # surface downstream as a bogus "did not return valid JSON".
+                # Report what the API actually said instead.
+                blocks = [getattr(b, "type", "?") for b in resp.content] or ["<none>"]
+                u = getattr(resp, "usage", None)
+                raise RuntimeError(
+                    "empty text response from {}: stop_reason={} blocks={} "
+                    "in={} out={} (max_tokens={})".format(
+                        model, getattr(resp, "stop_reason", None), ",".join(blocks),
+                        getattr(u, "input_tokens", "?"), getattr(u, "output_tokens", "?"),
+                        max_tokens))
+            return text
         except anthropic.RateLimitError as e:
             last = e
             time.sleep(_retry_after(e) or 60)
