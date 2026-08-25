@@ -1424,5 +1424,54 @@
         ]
       }
     ]
+  },
+  "decisions": {
+    "status": "ok",
+    "truncated": false,
+    "model": "claude-sonnet-5",
+    "prompt_version": "1",
+    "generated_at": "2026-08-25T21:24:16+00:00",
+    "grounded_in": null,
+    "items": [
+      {
+        "kind": "resolution",
+        "number": "2024-678",
+        "title": "Accept retirement of Chief of Police",
+        "outcome": "adopted",
+        "votes": [
+          {
+            "member": "Joann Waski",
+            "vote": "yes"
+          },
+          {
+            "member": "Denise Merrifield",
+            "vote": "yes"
+          }
+        ],
+        "unanimous": true,
+        "confidence": "low",
+        "timestamp_s": 272
+      },
+      {
+        "kind": "resolution",
+        "number": "2024-679",
+        "title": "Promote employee to provisional title of Chief of Police",
+        "outcome": "adopted",
+        "votes": [],
+        "unanimous": false,
+        "confidence": "low",
+        "timestamp_s": 491
+      },
+      {
+        "kind": "motion",
+        "number": null,
+        "title": "Close special town board meeting",
+        "outcome": "adopted",
+        "votes": [],
+        "unanimous": false,
+        "confidence": "low",
+        "timestamp_s": 810
+      }
+    ]
   }
 }

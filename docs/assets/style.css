@@ -128,6 +128,56 @@ a.badge-link:hover { background: #1a5c8a; color: #fff; text-decoration: none; }
   font-style: italic; margin-top: 1rem; border-top: 1px solid #e3e3e3; padding-top: .6rem; }
 #summary-body.collapsed { display: none; }
 
+/* Decisions & votes — below the AI summary, above the video */
+.transcript-decisions { background: #f6faf7; border: 1px solid #cfe3d4;
+  border-left: 4px solid #2e7d32; border-radius: 4px;
+  padding: 1.1rem 1.5rem 1.3rem; margin-bottom: 1.75rem; }
+.transcript-decisions .summary-head { display: flex; align-items: center;
+  justify-content: space-between; gap: 1rem; margin-bottom: .6rem; }
+.transcript-decisions h2 { font-size: 1rem; text-transform: uppercase;
+  letter-spacing: .08em; color: #2e7d32; }
+.transcript-decisions .ai-tag { font-size: .6rem; text-transform: uppercase;
+  letter-spacing: .06em; background: #2e7d32; color: #fff;
+  padding: .12rem .4rem; border-radius: 3px; margin-left: .4rem; vertical-align: middle; }
+.transcript-decisions .summary-toggle { font-size: .78rem; font-family: inherit;
+  background: none; border: none; color: #2e7d32; cursor: pointer; padding: 0; }
+.transcript-decisions .summary-toggle:hover { text-decoration: underline; }
+.transcript-decisions .summary-disclaimer { font-size: .75rem; color: #888;
+  font-style: italic; margin-top: 1rem; border-top: 1px solid #dde8e0; padding-top: .6rem; }
+#decisions-body.collapsed { display: none; }
+.decision-item { padding: .65rem 0; border-bottom: 1px solid #e2ede5; }
+.decision-item:last-child { border-bottom: none; }
+.decision-num { font-family: monospace; font-size: .82rem; color: #555;
+  margin-right: .5rem; }
+.outcome-badge { display: inline-block; font-size: .68rem; text-transform: uppercase;
+  letter-spacing: .05em; padding: .12rem .45rem; border-radius: 3px;
+  margin-right: .5rem; vertical-align: middle; }
+.outcome-adopted { background: #e3f2e6; color: #1e5c28; }
+.outcome-defeated { background: #fdeaea; color: #a02020; }
+.outcome-tabled, .outcome-withdrawn, .outcome-amended { background: #fdf6e3; color: #8a6d1f; }
+.outcome-held, .outcome-unknown { background: #ececec; color: #666; }
+.decision-votes { font-size: .82rem; color: #555; margin-top: .3rem; }
+.decision-votes .v-yes { color: #1e5c28; }
+.decision-votes .v-no { color: #a02020; font-weight: bold; }
+.decision-votes .v-other { color: #8a6d1f; }
+.decision-votes .no-rollcall { font-style: italic; color: #888; }
+.decision-jump { font-size: .78rem; margin-left: .5rem; white-space: nowrap; }
+
+/* Global decisions page */
+.decisions-page .filters { display: flex; gap: .75rem; flex-wrap: wrap;
+  margin-bottom: 1.75rem; }
+.decisions-page .filters input[type=text] { flex: 1 1 260px; padding: .45rem .7rem;
+  font-family: inherit; font-size: .9rem; border: 1px solid #bbb; border-radius: 3px; }
+.decisions-page .filters select { padding: .45rem .5rem; font-family: inherit;
+  font-size: .9rem; border: 1px solid #bbb; border-radius: 3px; background: #fff; }
+.decisions-page .meeting-group h2 { font-size: 1rem; margin: 1.8rem 0 .4rem; }
+.decisions-page .meeting-group h2 a { color: #1a5c8a; }
+.decisions-page .decision-item.hidden { display: none; }
+.decisions-page .meeting-group.hidden { display: none; }
+.decisions-page .count-line { font-size: .85rem; color: #888; margin-bottom: .5rem; }
+
+.nav-link { font-size: .85rem; margin-right: 1rem; color: #1a5c8a; }
+
 /* Support page and other prose pages */
 .support-page h1, .text-page h1 { font-size: 1.8rem; margin-bottom: .5rem; }
 .support-page .lede, .text-page .lede { font-size: 1.1rem; color: #444; margin-bottom: 1.5rem; }

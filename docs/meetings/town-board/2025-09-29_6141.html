@@ -15,8 +15,9 @@
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
   <div class="header-right">
+    <a class="nav-link" href="../../decisions/index.html">Decisions &amp; Votes</a>
     <a class="support-btn" href="../../support.html">Support this project</a>
-    <div class="build-stamp">Updated Aug 25, 2026 at 1:01 AM</div>
+    <div class="build-stamp">Updated Aug 25, 2026 at 6:13 PM</div>
   </div>
 </header>
 <main class="container" data-pagefind-body
@@ -28,7 +29,7 @@
     <div class="meta-row">13 min &nbsp;·&nbsp; <a href="https://riverheadny.portal.civicclerk.com/event/6141" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/6141/files/agenda/5582" target="_blank">Agenda PDF</a></div>
   </div>
-  <section class="transcript-summary" data-pagefind-ignore>
+  <section class="transcript-summary" id="summary" data-pagefind-ignore>
     <div class="summary-head">
       <h2>Summary <span class="ai-tag">AI</span></h2>
       <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
@@ -43,7 +44,21 @@
       It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
     </div>
   </section>
-  <div class="video-wrap">
+  <section class="transcript-decisions" id="decisions" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Decisions &amp; Votes <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleDecisions(this)">Hide</button>
+    </div>
+    <div id="decisions-body">
+      <div class="decision-item" id="decision-2025-806" data-outcome="adopted"><span class="outcome-badge outcome-adopted">Adopted</span><span class="decision-num">2025-806</span>Schedules Public Hearing on Jazz Loft, Inc. as Qualified Sponsor for 18 Peconic Ave<a class="decision-jump" href="#" onclick="seekTo(663); return false;">watch vote (11:03)</a><div class="decision-votes">Roll call 4&ndash;1 &mdash; <span class="v-yes">Waski: yes</span>, <span class="v-yes">Merrifield: yes</span>, <span class="v-no">Kern: no</span>, <span class="v-yes">Rothwell: yes</span>, <span class="v-yes">Hubbard: yes</span></div></div>
+      <div class="decision-item" id="decision-1" data-outcome="adopted"><span class="outcome-badge outcome-adopted">Adopted</span>Adjourn Town Board special meeting<a class="decision-jump" href="#" onclick="seekTo(720); return false;">watch vote (12:00)</a><div class="decision-votes">Roll call 5&ndash;0 unanimous &mdash; <span class="v-yes">Waski: yes</span>, <span class="v-yes">Merrifield: yes</span>, <span class="v-yes">Kern: yes</span>, <span class="v-yes">Rothwell: yes</span>, <span class="v-yes">Hubbard: yes</span></div></div>
+      <p class="summary-disclaimer">Extracted automatically from an unofficial,
+      machine-made transcript; votes are recorded only where the roll call is
+      audible. Resolution numbers and titles are grounded in the official minutes. May contain errors &mdash; verify against the full transcript
+      below and the town&rsquo;s official record.</p>
+    </div>
+  </section>
+  <div class="video-wrap" id="video">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/663f0af1bf.mp4" type="video/mp4">
   </video>
@@ -233,7 +248,7 @@
     <div class="segment"><span class="ts"><a href="#" onclick="seekTo(808); return false;" title="Jump to 13:28">13:28</a></span><span class="text">we were able to pull the building department file and I know that you submitted updated plans I also want to confirm because again there are no setback dimensions set forth it says shed to be removed is that going to be removed</span></div>
   </div>
 </div>
-  <div class="transcript-readable">
+  <div class="transcript-readable" id="transcript">
   <h2>Full Transcript</h2>
   <p>Good morning, everybody. We are here today for a special town board meeting. It is Monday, September 29, 2025. And if we could all please rise for the pledge. And Councilwoman Merrifield, would you mind leading us? Thank you, Supervisor. I pledge allegiance to the flag of the United States of America and to the republic for which it stands, one nation, under God, indivisible, with liberty and justice for all. Thank you.</p>
   <p>Okay. We are here today for the town clerk presentation of the 2026 budget. We have completed the budget, and it's going to be presented to the town clerk at this point in time. And he will log it in. Thank you, sir. Thank you very much. Thank you. <em class="gap-marker">[transcription gap]</em> Thank you. Now, I've done a letter on the forefront of this budget, and I will read that letter, and it will give you a better idea of how we came about this budget and what we had to do, what we could do, and what we couldn't do. And I will say one thing about this budget. This process has been so much better having the whole town board participate in the process. So each board member is a liaison to a different department, and when we did the budget meetings and we had the discussions, each board member was there present for those discussions. So the board has a better understanding of the budget itself overall, and they also are able to participate in it because in the end game, the board adopts or doesn't choose to adopt the budget. So everybody should have been made part of it. It should have been done that way years ago. It never was. Thank you. So I'm very proud that the board participated along with this. All right. I'll read the opening letter. Dear town clerk and fellow town board members, in accordance with Section 106 of the New York State town law and as supervisor and chief financial officer of the town of Riverhead, I am pleased to present for your consideration the town of Riverhead 2026 tentative budget. I will reiterate that I believe my single biggest responsibility to the residents of Riverhead is the formulation of the annual budget. The process of developing the budget is deliberate, calculated and meticulous and any suggestion to the contrary is simply incorrect. The fact is, we as a town must absorb certain annual costs for things over which we have zero fiscal control. Those include contractual raises for the police department and the CSEA, health insurance premium increases. Ms.</p>
@@ -270,6 +285,14 @@ function toggleTimestamps(btn) {
 <script>
 function toggleSummary(btn) {
   var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
+}
+</script>
+<script>
+function toggleDecisions(btn) {
+  var body = document.getElementById('decisions-body');
   if (!body) return;
   var collapsed = body.classList.toggle('collapsed');
   btn.textContent = collapsed ? 'Show' : 'Hide';

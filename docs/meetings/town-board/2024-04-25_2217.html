@@ -15,8 +15,9 @@
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
   <div class="header-right">
+    <a class="nav-link" href="../../decisions/index.html">Decisions &amp; Votes</a>
     <a class="support-btn" href="../../support.html">Support this project</a>
-    <div class="build-stamp">Updated Aug 25, 2026 at 1:01 AM</div>
+    <div class="build-stamp">Updated Aug 25, 2026 at 6:13 PM</div>
   </div>
 </header>
 <main class="container" data-pagefind-body
@@ -28,7 +29,7 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/2217" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/2217/files/agenda/2080" target="_blank">Agenda PDF</a></div>
   </div>
-  <section class="transcript-summary" data-pagefind-ignore>
+  <section class="transcript-summary" id="summary" data-pagefind-ignore>
     <div class="summary-head">
       <h2>Summary <span class="ai-tag">AI</span></h2>
       <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
@@ -43,7 +44,21 @@
       It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
     </div>
   </section>
-  <div class="video-wrap">
+  <section class="transcript-decisions" id="decisions" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Decisions &amp; Votes <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleDecisions(this)">Hide</button>
+    </div>
+    <div id="decisions-body">
+      <div class="decision-item" id="decision-2024-376" data-outcome="adopted"><span class="outcome-badge outcome-adopted">Adopted</span><span class="decision-num">2024-376</span>Accept DGEIS for 2024 Comprehensive Plan Update; Schedule Public Hearing<a class="decision-jump" href="#" onclick="seekTo(172); return false;">watch vote (2:52)</a><div class="decision-votes">Roll call 5&ndash;0 unanimous &mdash; <span class="v-yes">Waski: yes</span>, <span class="v-yes">Merrifield: yes</span>, <span class="v-yes">Kern: yes</span>, <span class="v-yes">Rothwell: yes</span>, <span class="v-yes">Halpin: yes</span></div></div>
+      <div class="decision-item" id="decision-1" data-outcome="adopted"><span class="outcome-badge outcome-adopted">Adopted</span>Motion to close town board meeting<a class="decision-jump" href="#" onclick="seekTo(633); return false;">watch vote (10:33)</a><div class="decision-votes"><span class="no-rollcall">Voice vote or roll call not clearly audible in the recording.</span></div></div>
+      <p class="summary-disclaimer">Extracted automatically from an unofficial,
+      machine-made transcript; votes are recorded only where the roll call is
+      audible. May contain errors &mdash; verify against the full transcript
+      below and the town&rsquo;s official record.</p>
+    </div>
+  </section>
+  <div class="video-wrap" id="video">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/b164723c-0bca-43e9-93f3-5f4f872f2c1f.mp4" type="video/mp4">
   </video>
@@ -202,7 +217,7 @@
     <div class="segment"><span class="ts"><a href="#" onclick="seekTo(670); return false;" title="Jump to 11:10">11:10</a></span><span class="text">Thank you.</span></div>
   </div>
 </div>
-  <div class="transcript-readable">
+  <div class="transcript-readable" id="transcript">
   <h2>Full Transcript</h2>
   <p>Thank you. <em class="gap-marker">[transcription gap]</em> Thank you, Tim.</p>
   <p>Counsel Rothwell, do we have somebody for invocation? yes we have Pastor George Dupree from the living waterfall gospel church in aqua bar Pastor here we do not have pastor here all right we will move on and we will go we have an announcement that those that may have just tuned in to channel 22 and you're looking for a town board work session hang in there we pause the work session to conduct a special town board meeting and we'll resume the work session at the conclusion of this meeting okay do we have comments any comments at all on the one resolution before us today we have anybody in the room that would like to comment on the one resolution we have today do we have anybody online we have nobody online to make a comment you okay Julie would you please call the one resolution sure resolution number 376 accepts DG EIS for the 2024 town of Riverhead comprehensive plan update issues notice of compliance of DG EIS and schedules public hearing for the DG EIS and draft comprehensive plan so moved seconded both please Woskie yes Merrifield yes Kern yes Rothwell yes Hubbard yes resolution is adopted thank you we will now open the floor to any comments from the public on any matter any comments on any matter</p>
@@ -240,6 +255,14 @@ function toggleTimestamps(btn) {
 <script>
 function toggleSummary(btn) {
   var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
+}
+</script>
+<script>
+function toggleDecisions(btn) {
+  var body = document.getElementById('decisions-body');
   if (!body) return;
   var collapsed = body.classList.toggle('collapsed');
   btn.textContent = collapsed ? 'Show' : 'Hide';

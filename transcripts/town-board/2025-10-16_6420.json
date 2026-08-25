@@ -5865,5 +5865,25 @@
         ]
       }
     ]
+  },
+  "decisions": {
+    "status": "ok",
+    "truncated": false,
+    "model": "claude-sonnet-5",
+    "prompt_version": "1",
+    "generated_at": "2026-08-25T20:41:14+00:00",
+    "grounded_in": "Minutes",
+    "items": [
+      {
+        "kind": "hearing_action",
+        "number": null,
+        "title": "Qualified and Eligible Public Hearing - The Jazz Loft Inc.",
+        "outcome": "held",
+        "votes": [],
+        "unanimous": false,
+        "confidence": "low",
+        "timestamp_s": 4189
+      }
+    ]
   }
 }

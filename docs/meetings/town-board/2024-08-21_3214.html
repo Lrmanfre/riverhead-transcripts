@@ -15,8 +15,9 @@
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
   <div class="header-right">
+    <a class="nav-link" href="../../decisions/index.html">Decisions &amp; Votes</a>
     <a class="support-btn" href="../../support.html">Support this project</a>
-    <div class="build-stamp">Updated Aug 25, 2026 at 1:01 AM</div>
+    <div class="build-stamp">Updated Aug 25, 2026 at 6:13 PM</div>
   </div>
 </header>
 <main class="container" data-pagefind-body
@@ -28,7 +29,7 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/3214" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/3214/files/agenda/3077" target="_blank">Agenda PDF</a></div>
   </div>
-  <section class="transcript-summary" data-pagefind-ignore>
+  <section class="transcript-summary" id="summary" data-pagefind-ignore>
     <div class="summary-head">
       <h2>Summary <span class="ai-tag">AI</span></h2>
       <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
@@ -45,7 +46,20 @@
       It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
     </div>
   </section>
-  <div class="video-wrap">
+  <section class="transcript-decisions" id="decisions" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Decisions &amp; Votes <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleDecisions(this)">Hide</button>
+    </div>
+    <div id="decisions-body">
+      <div class="decision-item" id="decision-2024-760" data-outcome="tabled"><span class="outcome-badge outcome-tabled">Tabled</span><span class="decision-num">2024-760</span>Adopt findings statement and Town of Riverhead 2024 Comprehensive Plan Update<a class="decision-jump" href="#" onclick="seekTo(1669); return false;">watch vote (27:49)</a><div class="decision-votes">Roll call 5&ndash;0 unanimous &mdash; <span class="v-yes">Waski: yes</span>, <span class="v-yes">Merrifield: yes</span>, <span class="v-yes">Kern: yes</span>, <span class="v-yes">Rothwell: yes</span>, <span class="v-yes">Hubbard: yes</span></div></div>
+      <p class="summary-disclaimer">Extracted automatically from an unofficial,
+      machine-made transcript; votes are recorded only where the roll call is
+      audible. May contain errors &mdash; verify against the full transcript
+      below and the town&rsquo;s official record.</p>
+    </div>
+  </section>
+  <div class="video-wrap" id="video">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/a0fce58c-e4e1-4848-b8cb-dbaced3497d3.mp4" type="video/mp4">
   </video>
@@ -647,7 +661,7 @@
     <div class="segment"><span class="ts"><a href="#" onclick="seekTo(1728); return false;" title="Jump to 28:48">28:48</a></span><span class="text">I think it's .</span></div>
   </div>
 </div>
-  <div class="transcript-readable">
+  <div class="transcript-readable" id="transcript">
   <h2>Full Transcript</h2>
   <p>Thank you.</p>
   <p>Thank you, Devin. And... Okay.</p>
@@ -689,6 +703,14 @@ function toggleTimestamps(btn) {
 <script>
 function toggleSummary(btn) {
   var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
+}
+</script>
+<script>
+function toggleDecisions(btn) {
+  var body = document.getElementById('decisions-body');
   if (!body) return;
   var collapsed = body.classList.toggle('collapsed');
   btn.textContent = collapsed ? 'Show' : 'Hide';

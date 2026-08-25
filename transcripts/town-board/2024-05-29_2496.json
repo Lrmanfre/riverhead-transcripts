@@ -11575,5 +11575,35 @@
         ]
       }
     ]
+  },
+  "decisions": {
+    "status": "ok",
+    "truncated": false,
+    "model": "claude-sonnet-5",
+    "prompt_version": "1",
+    "generated_at": "2026-08-25T21:31:13+00:00",
+    "grounded_in": null,
+    "items": [
+      {
+        "kind": "hearing_action",
+        "number": null,
+        "title": "Close public hearing on draft comprehensive plan",
+        "outcome": "held",
+        "votes": [],
+        "unanimous": false,
+        "confidence": "low",
+        "timestamp_s": 157
+      },
+      {
+        "kind": "hearing_action",
+        "number": null,
+        "title": "Close DGEIS public hearing (written comment until June 10)",
+        "outcome": "held",
+        "votes": [],
+        "unanimous": false,
+        "confidence": "low",
+        "timestamp_s": 6577
+      }
+    ]
   }
 }

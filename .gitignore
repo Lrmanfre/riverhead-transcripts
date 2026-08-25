@@ -8,3 +8,6 @@ __pycache__/
 riverhead.env
 agenda_cache/
 *.json.tmp
+
+# Compressed meeting audio kept for future speaker diarization (local only)
+audio_archive/

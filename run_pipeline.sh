@@ -152,6 +152,21 @@ else
 fi
 
 # ---------------------------------------------------------------------------
+# Step 3c: Extract decisions & roll-call votes (Town Board meetings)
+# Non-fatal like Step 3b: a failure logs a warning and the site still
+# publishes. Idempotent, so only new meetings are processed each night.
+# ---------------------------------------------------------------------------
+log ""
+log "--- Step 3c: Extracting decisions and votes ---"
+if [ -z "${ANTHROPIC_API_KEY:-}" ]; then
+    log "WARNING: ANTHROPIC_API_KEY not set; skipping vote extraction."
+elif run python3 riverhead_extract_votes.py --days 14 --workers 2; then
+    log "Step 3c complete."
+else
+    log "WARNING: vote extraction failed; continuing so the site still publishes."
+fi
+
+# ---------------------------------------------------------------------------
 # Step 4: Rebuild static site and search index
 # ---------------------------------------------------------------------------
 log ""

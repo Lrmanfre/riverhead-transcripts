@@ -2618,5 +2618,71 @@
         ]
       }
     ]
+  },
+  "decisions": {
+    "status": "ok",
+    "truncated": false,
+    "model": "claude-sonnet-5",
+    "prompt_version": "1",
+    "generated_at": "2026-08-25T20:34:16+00:00",
+    "grounded_in": "Minutes",
+    "items": [
+      {
+        "kind": "resolution",
+        "number": "2025-1035",
+        "title": "Ratifies Budget Adjustment for New Dump Truck for Highway Department",
+        "outcome": "adopted",
+        "votes": [
+          {
+            "member": "Joann Waski",
+            "vote": "yes"
+          },
+          {
+            "member": "Denise Merrifield",
+            "vote": "yes"
+          },
+          {
+            "member": "Bob Kern",
+            "vote": "yes"
+          }
+        ],
+        "unanimous": true,
+        "confidence": "high",
+        "timestamp_s": 485
+      },
+      {
+        "kind": "resolution",
+        "number": "2025-1036",
+        "title": "Approves Transfer of CDBG Funds to Jazz Loft for Vail-Leavitt Restoration",
+        "outcome": "adopted",
+        "votes": [
+          {
+            "member": "Joann Waski",
+            "vote": "yes"
+          },
+          {
+            "member": "Denise Merrifield",
+            "vote": "no"
+          },
+          {
+            "member": "Bob Kern",
+            "vote": "no"
+          }
+        ],
+        "unanimous": false,
+        "confidence": "high",
+        "timestamp_s": 564
+      },
+      {
+        "kind": "motion",
+        "number": null,
+        "title": "Motion to adjourn special town board meeting",
+        "outcome": "adopted",
+        "votes": [],
+        "unanimous": false,
+        "confidence": "low",
+        "timestamp_s": 1486
+      }
+    ]
   }
 }

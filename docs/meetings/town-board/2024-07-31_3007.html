@@ -15,8 +15,9 @@
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
   <div class="header-right">
+    <a class="nav-link" href="../../decisions/index.html">Decisions &amp; Votes</a>
     <a class="support-btn" href="../../support.html">Support this project</a>
-    <div class="build-stamp">Updated Aug 25, 2026 at 1:01 AM</div>
+    <div class="build-stamp">Updated Aug 25, 2026 at 6:13 PM</div>
   </div>
 </header>
 <main class="container" data-pagefind-body
@@ -28,7 +29,7 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/3007" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/3007/files/agenda/2870" target="_blank">Agenda PDF</a></div>
   </div>
-  <section class="transcript-summary" data-pagefind-ignore>
+  <section class="transcript-summary" id="summary" data-pagefind-ignore>
     <div class="summary-head">
       <h2>Summary <span class="ai-tag">AI</span></h2>
       <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
@@ -41,7 +42,22 @@
       It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
     </div>
   </section>
-  <div class="video-wrap">
+  <section class="transcript-decisions" id="decisions" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Decisions &amp; Votes <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleDecisions(this)">Hide</button>
+    </div>
+    <div id="decisions-body">
+      <div class="decision-item" id="decision-2024-678" data-outcome="adopted"><span class="outcome-badge outcome-adopted">Adopted</span><span class="decision-num">2024-678</span>Accept retirement of Chief of Police<a class="decision-jump" href="#" onclick="seekTo(272); return false;">watch vote (4:32)</a><div class="decision-votes">Roll call 2&ndash;0 unanimous &mdash; <span class="v-yes">Waski: yes</span>, <span class="v-yes">Merrifield: yes</span></div></div>
+      <div class="decision-item" id="decision-2024-679" data-outcome="adopted"><span class="outcome-badge outcome-adopted">Adopted</span><span class="decision-num">2024-679</span>Promote employee to provisional title of Chief of Police<a class="decision-jump" href="#" onclick="seekTo(491); return false;">watch vote (8:11)</a><div class="decision-votes"><span class="no-rollcall">Voice vote or roll call not clearly audible in the recording.</span></div></div>
+      <div class="decision-item" id="decision-2" data-outcome="adopted"><span class="outcome-badge outcome-adopted">Adopted</span>Close special town board meeting<a class="decision-jump" href="#" onclick="seekTo(810); return false;">watch vote (13:30)</a><div class="decision-votes"><span class="no-rollcall">Voice vote or roll call not clearly audible in the recording.</span></div></div>
+      <p class="summary-disclaimer">Extracted automatically from an unofficial,
+      machine-made transcript; votes are recorded only where the roll call is
+      audible. May contain errors &mdash; verify against the full transcript
+      below and the town&rsquo;s official record.</p>
+    </div>
+  </section>
+  <div class="video-wrap" id="video">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/734594b2-5ac7-4d2d-9e00-ae72893bfd2e.mp4" type="video/mp4">
   </video>
@@ -239,7 +255,7 @@
     <div class="segment"><span class="ts"><a href="#" onclick="seekTo(837); return false;" title="Jump to 13:57">13:57</a></span><span class="text">Thank you.</span></div>
   </div>
 </div>
-  <div class="transcript-readable">
+  <div class="transcript-readable" id="transcript">
   <h2>Full Transcript</h2>
   <p>Thank you. <em class="gap-marker">[transcription gap]</em> Thank you, Chief.</p>
   <p>Okay. As we lead off our meetings, we do so with an invocation, and we thought it was fitting, and I appreciate him offering to do it for me, but Town Clerk Wooten, a former police officer himself with Riverhead PD, is also known as Deacon Wooten in some areas of town, so we've asked him to do an invocation today. Thank you, Supervisor. Good morning. Riverheads. Dear God, you wield great power over your world and people, and though many people need your loving care, let us ask that you grant our local police department and all those who wear the uniform and be with them and give them a personalized attention today. Those brave men and women keep our homes, our children, and our businesses safe. You are the Lord whose great power and eternal wisdom embrace the world. Please watch over our police officers and guide them from the danger. We especially petition you to be with Edward Frost as he takes on his new role as Chief of the Riverhead Town Police Department. Let your wisdom be his guide as he grows and shapes the community to the betterment of the town, and give him strength and resilience to perform his duty. And we ask that you be with David Hagemiller as he retires and moves on into a different role, and be with him and comfort him. And we ask all these things through Jesus our Lord. Amen. Thank you, Jim. Okay, now as part of our meeting, what we have to do is... Uh-oh. I remember those days. We have to open up for comments on the two resolutions that we have today. And first I'm going to start with anybody in the room. Does anybody in the room want to come up to the microphone and comment on either of the resolutions? Having seen nobody, I'm going to check online. Do we have anybody that would... A wave? Okay.</p>
@@ -284,6 +300,14 @@ function toggleTimestamps(btn) {
 <script>
 function toggleSummary(btn) {
   var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
+}
+</script>
+<script>
+function toggleDecisions(btn) {
+  var body = document.getElementById('decisions-body');
   if (!body) return;
   var collapsed = body.classList.toggle('collapsed');
   btn.textContent = collapsed ? 'Show' : 'Hide';

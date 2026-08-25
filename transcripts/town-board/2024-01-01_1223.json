@@ -4222,5 +4222,14 @@
         ]
       }
     ]
+  },
+  "decisions": {
+    "status": "ok",
+    "truncated": false,
+    "model": "claude-sonnet-5",
+    "prompt_version": "1",
+    "generated_at": "2026-08-25T21:46:13+00:00",
+    "grounded_in": null,
+    "items": []
   }
 }

@@ -15,8 +15,9 @@
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
   <div class="header-right">
+    <a class="nav-link" href="../../decisions/index.html">Decisions &amp; Votes</a>
     <a class="support-btn" href="../../support.html">Support this project</a>
-    <div class="build-stamp">Updated Aug 25, 2026 at 1:01 AM</div>
+    <div class="build-stamp">Updated Aug 25, 2026 at 6:13 PM</div>
   </div>
 </header>
 <main class="container" data-pagefind-body
@@ -28,7 +29,7 @@
     <div class="meta-row"><a href="https://riverheadny.portal.civicclerk.com/event/2496" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/2496/files/agenda/2359" target="_blank">Agenda PDF</a></div>
   </div>
-  <section class="transcript-summary" data-pagefind-ignore>
+  <section class="transcript-summary" id="summary" data-pagefind-ignore>
     <div class="summary-head">
       <h2>Summary <span class="ai-tag">AI</span></h2>
       <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
@@ -45,7 +46,21 @@
       It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
     </div>
   </section>
-  <div class="video-wrap">
+  <section class="transcript-decisions" id="decisions" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Decisions &amp; Votes <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleDecisions(this)">Hide</button>
+    </div>
+    <div id="decisions-body">
+      <div class="decision-item" id="decision-0" data-outcome="held"><span class="outcome-badge outcome-held">Hearing held</span>Close public hearing on draft comprehensive plan<a class="decision-jump" href="#" onclick="seekTo(157); return false;">watch vote (2:37)</a><div class="decision-votes"><span class="no-rollcall">Voice vote or roll call not clearly audible in the recording.</span></div></div>
+      <div class="decision-item" id="decision-1" data-outcome="held"><span class="outcome-badge outcome-held">Hearing held</span>Close DGEIS public hearing (written comment until June 10)<a class="decision-jump" href="#" onclick="seekTo(6577); return false;">watch vote (1:49:37)</a><div class="decision-votes"><span class="no-rollcall">Voice vote or roll call not clearly audible in the recording.</span></div></div>
+      <p class="summary-disclaimer">Extracted automatically from an unofficial,
+      machine-made transcript; votes are recorded only where the roll call is
+      audible. May contain errors &mdash; verify against the full transcript
+      below and the town&rsquo;s official record.</p>
+    </div>
+  </section>
+  <div class="video-wrap" id="video">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/0d48e7b0-2af0-4db8-8a25-6c603059e8bd.mp4" type="video/mp4">
   </video>
@@ -1970,7 +1985,7 @@
     <div class="segment"><span class="ts"><a href="#" onclick="seekTo(6622); return false;" title="Jump to 1:50:22">1:50:22</a></span><span class="text"><em class="gap-marker">[transcription gap]</em></span></div>
   </div>
 </div>
-  <div class="transcript-readable">
+  <div class="transcript-readable" id="transcript">
   <h2>Full Transcript</h2>
   <p>Thank you.</p>
   <p>I'd appreciate, since we're live on TV, if we could quiet it down a little bit. Okay. All right. Would we all rise for the Pledge of Allegiance, please? Kirk Howard, would you lead us in the pledge? Yes, sir. Pledge of Allegiance to the flag of the United States of America and to the republic for which it stands, one nation, under God, indivisible, with liberty and justice for all. Thank you, Art. Thank you. Thank you, cities.</p>
@@ -2028,6 +2043,14 @@ function toggleTimestamps(btn) {
 <script>
 function toggleSummary(btn) {
   var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
+}
+</script>
+<script>
+function toggleDecisions(btn) {
+  var body = document.getElementById('decisions-body');
   if (!body) return;
   var collapsed = body.classList.toggle('collapsed');
   btn.textContent = collapsed ? 'Show' : 'Hide';

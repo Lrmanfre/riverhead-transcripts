@@ -664,5 +664,55 @@
         ]
       }
     ]
+  },
+  "decisions": {
+    "status": "ok",
+    "model": "claude-sonnet-5",
+    "prompt_version": "1",
+    "generated_at": "2026-08-25T19:41:22+00:00",
+    "grounded_in": null,
+    "items": [
+      {
+        "kind": "resolution",
+        "number": "2026-632",
+        "title": "Adopting hearing officer's findings and recommendations",
+        "outcome": "adopted",
+        "votes": [
+          {
+            "member": "Joann Waski",
+            "vote": "yes"
+          },
+          {
+            "member": "Denise Merrifield",
+            "vote": "yes"
+          },
+          {
+            "member": "Bob Kern",
+            "vote": "abstain"
+          },
+          {
+            "member": "Ken Rothwell",
+            "vote": "yes"
+          },
+          {
+            "member": "Jerry Halpin",
+            "vote": "yes"
+          }
+        ],
+        "unanimous": false,
+        "confidence": "high",
+        "timestamp_s": 627
+      },
+      {
+        "kind": "motion",
+        "number": null,
+        "title": "Motion to adjourn the meeting",
+        "outcome": "adopted",
+        "votes": [],
+        "unanimous": false,
+        "confidence": "low",
+        "timestamp_s": 703
+      }
+    ]
   }
 }

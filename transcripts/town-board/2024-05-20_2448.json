@@ -14859,5 +14859,35 @@
         ]
       }
     ]
+  },
+  "decisions": {
+    "status": "ok",
+    "truncated": false,
+    "model": "claude-sonnet-5",
+    "prompt_version": "1",
+    "generated_at": "2026-08-25T21:33:14+00:00",
+    "grounded_in": null,
+    "items": [
+      {
+        "kind": "motion",
+        "number": null,
+        "title": "Adjourn DGEIS public hearing to May 29 at 6pm",
+        "outcome": "adopted",
+        "votes": [],
+        "unanimous": false,
+        "confidence": "low",
+        "timestamp_s": 182
+      },
+      {
+        "kind": "motion",
+        "number": null,
+        "title": "Extend comprehensive plan comment period to June 10 and set May 29 hearing",
+        "outcome": "adopted",
+        "votes": [],
+        "unanimous": false,
+        "confidence": "low",
+        "timestamp_s": 8617
+      }
+    ]
   }
 }

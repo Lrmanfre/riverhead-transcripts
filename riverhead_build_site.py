@@ -431,6 +431,56 @@ a.badge-link:hover { background: #1a5c8a; color: #fff; text-decoration: none; }
   font-style: italic; margin-top: 1rem; border-top: 1px solid #e3e3e3; padding-top: .6rem; }
 #summary-body.collapsed { display: none; }
 
+/* Decisions & votes — below the AI summary, above the video */
+.transcript-decisions { background: #f6faf7; border: 1px solid #cfe3d4;
+  border-left: 4px solid #2e7d32; border-radius: 4px;
+  padding: 1.1rem 1.5rem 1.3rem; margin-bottom: 1.75rem; }
+.transcript-decisions .summary-head { display: flex; align-items: center;
+  justify-content: space-between; gap: 1rem; margin-bottom: .6rem; }
+.transcript-decisions h2 { font-size: 1rem; text-transform: uppercase;
+  letter-spacing: .08em; color: #2e7d32; }
+.transcript-decisions .ai-tag { font-size: .6rem; text-transform: uppercase;
+  letter-spacing: .06em; background: #2e7d32; color: #fff;
+  padding: .12rem .4rem; border-radius: 3px; margin-left: .4rem; vertical-align: middle; }
+.transcript-decisions .summary-toggle { font-size: .78rem; font-family: inherit;
+  background: none; border: none; color: #2e7d32; cursor: pointer; padding: 0; }
+.transcript-decisions .summary-toggle:hover { text-decoration: underline; }
+.transcript-decisions .summary-disclaimer { font-size: .75rem; color: #888;
+  font-style: italic; margin-top: 1rem; border-top: 1px solid #dde8e0; padding-top: .6rem; }
+#decisions-body.collapsed { display: none; }
+.decision-item { padding: .65rem 0; border-bottom: 1px solid #e2ede5; }
+.decision-item:last-child { border-bottom: none; }
+.decision-num { font-family: monospace; font-size: .82rem; color: #555;
+  margin-right: .5rem; }
+.outcome-badge { display: inline-block; font-size: .68rem; text-transform: uppercase;
+  letter-spacing: .05em; padding: .12rem .45rem; border-radius: 3px;
+  margin-right: .5rem; vertical-align: middle; }
+.outcome-adopted { background: #e3f2e6; color: #1e5c28; }
+.outcome-defeated { background: #fdeaea; color: #a02020; }
+.outcome-tabled, .outcome-withdrawn, .outcome-amended { background: #fdf6e3; color: #8a6d1f; }
+.outcome-held, .outcome-unknown { background: #ececec; color: #666; }
+.decision-votes { font-size: .82rem; color: #555; margin-top: .3rem; }
+.decision-votes .v-yes { color: #1e5c28; }
+.decision-votes .v-no { color: #a02020; font-weight: bold; }
+.decision-votes .v-other { color: #8a6d1f; }
+.decision-votes .no-rollcall { font-style: italic; color: #888; }
+.decision-jump { font-size: .78rem; margin-left: .5rem; white-space: nowrap; }
+
+/* Global decisions page */
+.decisions-page .filters { display: flex; gap: .75rem; flex-wrap: wrap;
+  margin-bottom: 1.75rem; }
+.decisions-page .filters input[type=text] { flex: 1 1 260px; padding: .45rem .7rem;
+  font-family: inherit; font-size: .9rem; border: 1px solid #bbb; border-radius: 3px; }
+.decisions-page .filters select { padding: .45rem .5rem; font-family: inherit;
+  font-size: .9rem; border: 1px solid #bbb; border-radius: 3px; background: #fff; }
+.decisions-page .meeting-group h2 { font-size: 1rem; margin: 1.8rem 0 .4rem; }
+.decisions-page .meeting-group h2 a { color: #1a5c8a; }
+.decisions-page .decision-item.hidden { display: none; }
+.decisions-page .meeting-group.hidden { display: none; }
+.decisions-page .count-line { font-size: .85rem; color: #888; margin-bottom: .5rem; }
+
+.nav-link { font-size: .85rem; margin-right: 1rem; color: #1a5c8a; }
+
 /* Support page and other prose pages */
 .support-page h1, .text-page h1 { font-size: 1.8rem; margin-bottom: .5rem; }
 .support-page .lede, .text-page .lede { font-size: 1.1rem; color: #444; margin-bottom: 1.5rem; }
@@ -517,6 +567,7 @@ def html_header(depth=0, show_support=True):
     <p>{d}</p>
   </div>
   <div class="header-right">
+    <a class="nav-link" href="{rel}decisions/index.html">Decisions &amp; Votes</a>
     {btn}
     <div class="build-stamp">Updated {bt}</div>
   </div>
@@ -554,6 +605,16 @@ SUMMARY_JS = """
 <script>
 function toggleSummary(btn) {
   var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
+}
+</script>"""
+
+DECISIONS_JS = """
+<script>
+function toggleDecisions(btn) {
+  var body = document.getElementById('decisions-body');
   if (!body) return;
   var collapsed = body.classList.toggle('collapsed');
   btn.textContent = collapsed ? 'Show' : 'Hide';
@@ -913,7 +974,7 @@ def render_summary(summary):
     if not parts:
         return ""
     body = "\n      ".join(parts)
-    return """<section class="transcript-summary" data-pagefind-ignore>
+    return """<section class="transcript-summary" id="summary" data-pagefind-ignore>
     <div class="summary-head">
       <h2>Summary <span class="ai-tag">AI</span></h2>
       <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
@@ -926,11 +987,98 @@ def render_summary(summary):
   </section>""".format(body=body)
 
 
+OUTCOME_LABELS = {
+    "adopted": "Adopted", "defeated": "Defeated", "tabled": "Tabled",
+    "amended": "Amended", "withdrawn": "Withdrawn", "held": "Hearing held",
+    "unknown": "Outcome unclear",
+}
+
+def render_decision_item(it, video_url="", anchor=None):
+    """One decision as HTML. Shared by the meeting page and the global page."""
+    outcome = it.get("outcome", "unknown")
+    badge = '<span class="outcome-badge outcome-{o}">{l}</span>'.format(
+        o=htmlmod.escape(outcome), l=OUTCOME_LABELS.get(outcome, outcome))
+    num = ('<span class="decision-num">{}</span>'.format(htmlmod.escape(it["number"]))
+           if it.get("number") else "")
+    title = htmlmod.escape(it.get("title") or "(untitled action)")
+
+    votes = it.get("votes") or []
+    if votes:
+        yes = sum(1 for v in votes if v["vote"] == "yes")
+        no  = sum(1 for v in votes if v["vote"] == "no")
+        tally = "{}&ndash;{}".format(yes, no)
+        if it.get("unanimous"):
+            tally += " unanimous"
+        cls = {"yes": "v-yes", "no": "v-no"}
+        detail = ", ".join(
+            '<span class="{c}">{m}: {v}</span>'.format(
+                c=cls.get(v["vote"], "v-other"),
+                m=htmlmod.escape(v["member"].split()[-1]),
+                v=htmlmod.escape(v["vote"]))
+            for v in votes)
+        votes_html = ('<div class="decision-votes">Roll call {t} &mdash; {d}</div>'
+                      .format(t=tally, d=detail))
+    else:
+        votes_html = ('<div class="decision-votes"><span class="no-rollcall">'
+                      'Voice vote or roll call not clearly audible in the recording.'
+                      '</span></div>')
+
+    jump = ""
+    ts = it.get("timestamp_s")
+    if ts is not None and video_url:
+        jump = ('<a class="decision-jump" href="#" onclick="seekTo({s}); return false;">'
+                'watch vote ({t})</a>'.format(s=int(ts), t=format_timestamp(ts)))
+
+    aid = ' id="{}"'.format(anchor) if anchor else ""
+    return ('<div class="decision-item"{aid} data-outcome="{o}">'
+            '{badge}{num}{title}{jump}{votes}</div>'.format(
+                aid=aid, o=htmlmod.escape(outcome), badge=badge, num=num,
+                title=title, jump=jump, votes=votes_html))
+
+def decision_anchor(it, i):
+    n = re.sub(r"[^\w-]", "", it.get("number") or "")
+    return "decision-{}".format(n or i)
+
+def render_decisions(record, video_url=""):
+    """Render the stored decisions dict into an HTML block, or '' if none.
+
+    Expected shape (written by riverhead_extract_votes.py):
+      {"status":"ok","items":[{kind,number,title,outcome,votes,unanimous,
+                               confidence,timestamp_s}, ...]}
+    """
+    d = record.get("decisions")
+    if not isinstance(d, dict) or d.get("status") != "ok":
+        return ""
+    items = d.get("items") or []
+    if not items:
+        return ""
+    rows = "\n      ".join(
+        render_decision_item(it, video_url, anchor=decision_anchor(it, i))
+        for i, it in enumerate(items))
+    grounded = d.get("grounded_in")
+    grounding_note = (" Resolution numbers and titles are grounded in the official {}."
+                      .format(str(grounded).lower()) if grounded else "")
+    return """<section class="transcript-decisions" id="decisions" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Decisions &amp; Votes <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleDecisions(this)">Hide</button>
+    </div>
+    <div id="decisions-body">
+      {rows}
+      <p class="summary-disclaimer">Extracted automatically from an unofficial,
+      machine-made transcript; votes are recorded only where the roll call is
+      audible.{gn} May contain errors &mdash; verify against the full transcript
+      below and the town&rsquo;s official record.</p>
+    </div>
+  </section>""".format(rows=rows, gn=grounding_note)
+
+
 def build_meeting_page(record, output_path, depth=2):
     meta      = record.get("meta", {})
     segments  = record.get("segments", [])
     rel       = "../" * depth
     summary_html = render_summary(record.get("summary"))
+    decisions_html = render_decisions(record, meta.get("video_url", ""))
     quality_level, quality_reason = transcript_quality(record)
 
     event_id    = str(meta.get("event_id", ""))
@@ -961,7 +1109,7 @@ def build_meeting_page(record, output_path, depth=2):
     doc_links = '<div class="doc-links">{}</div>'.format("".join(links)) if links else ""
 
     # Video player
-    video_block = """<div class="video-wrap">
+    video_block = """<div class="video-wrap" id="video">
   <video id="meeting-video" controls preload="metadata">
     <source src="{}" type="video/mp4">
   </video>
@@ -1032,7 +1180,7 @@ def build_meeting_page(record, output_path, depth=2):
             )
             para_html.append("<p>{}</p>".format(rendered))
 
-    readable_section = """<div class="transcript-readable">
+    readable_section = """<div class="transcript-readable" id="transcript">
   <h2>Full Transcript</h2>
   {}
 </div>""".format("\n  ".join(para_html) if para_html else "<p><em>No transcript available.</em></p>")
@@ -1041,6 +1189,7 @@ def build_meeting_page(record, output_path, depth=2):
     # its record. Withhold it rather than present a fragment as the whole.
     if quality_level == "incomplete":
         summary_html        = ""
+        decisions_html      = ""
         timestamped_section = ""
         readable_section    = """<div class="transcript-missing" data-pagefind-ignore>
   <h2>Transcript unavailable</h2>
@@ -1078,6 +1227,7 @@ def build_meeting_page(record, output_path, depth=2):
     {dl}
   </div>
   {summary}
+  {decisions}
   {video}
   {timestamped}
   {readable}
@@ -1089,8 +1239,11 @@ def build_meeting_page(record, output_path, depth=2):
         head       = html_head(page_title, depth=depth),
         header     = html_header(depth=depth),
         footer     = html_footer(depth=depth),
-        js         = (VIDEO_JS if video_url else "") + (SUMMARY_JS if summary_html else ""),
+        js         = ((VIDEO_JS if video_url else "")
+                      + (SUMMARY_JS if summary_html else "")
+                      + (DECISIONS_JS if decisions_html else "")),
         summary    = summary_html,
+        decisions  = decisions_html,
         rel        = rel,
         date       = event_date,
         cat        = category,
@@ -1109,6 +1262,117 @@ def build_meeting_page(record, output_path, depth=2):
     os.makedirs(os.path.dirname(output_path), exist_ok=True)
     with open(output_path, "w", encoding="utf-8") as f:
         f.write(html)
+
+# ---------------------------------------------------------------------------
+# Global Decisions & Votes page
+# ---------------------------------------------------------------------------
+
+DECISIONS_PAGE_JS = """
+<script>
+function filterDecisions() {
+  var q = document.getElementById('dq').value.toLowerCase();
+  var o = document.getElementById('do').value;
+  var shown = 0;
+  document.querySelectorAll('.meeting-group').forEach(function(g) {
+    var any = false;
+    g.querySelectorAll('.decision-item').forEach(function(it) {
+      var okText = !q || it.textContent.toLowerCase().indexOf(q) !== -1;
+      var okOutcome = !o || it.getAttribute('data-outcome') === o;
+      var ok = okText && okOutcome;
+      it.classList.toggle('hidden', !ok);
+      if (ok) { any = true; shown++; }
+    });
+    g.classList.toggle('hidden', !any);
+  });
+  document.getElementById('dcount').textContent =
+    shown + ' decision' + (shown === 1 ? '' : 's') + ' shown';
+}
+</script>"""
+
+def build_decisions_page(all_records, output_path, depth=1):
+    """One browsable page of every extracted decision, newest meeting first."""
+    rel = "../" * depth
+    withdec = [r for r in all_records
+               if isinstance(r.get("decisions"), dict)
+               and r["decisions"].get("status") == "ok"
+               and (r["decisions"].get("items") or [])]
+    withdec.sort(key=lambda r: r["meta"].get("event_date", ""), reverse=True)
+
+    total = 0
+    groups = []
+    for r in withdec:
+        meta  = r["meta"]
+        cat   = meta.get("category") or "Uncategorized"
+        date  = meta.get("event_date", "")
+        eid   = str(meta.get("event_id", ""))
+        href  = "{}meetings/{}/{}_{}.html".format(rel, slugify(cat), date, eid)
+        items = r["decisions"]["items"]
+        total += len(items)
+        # No video element on this page: each item links to its anchor on the
+        # meeting page, where the seek link lives.
+        link_rows = []
+        for i, it in enumerate(items):
+            row = render_decision_item(it, video_url="")
+            row = row.replace(
+                "</div></div>",
+                '<a class="decision-jump" href="{h}#{a}">meeting page &rsaquo;</a>'
+                "</div></div>".format(h=href, a=decision_anchor(it, i)))
+            link_rows.append(row)
+        rows = "\n    ".join(link_rows)
+        groups.append(
+            '<section class="meeting-group">'
+            '<h2><a href="{href}">{dd} &mdash; {cat}</a></h2>'
+            '{rows}</section>'.format(
+                href=href, dd=format_date_display(date),
+                cat=htmlmod.escape(cat), rows=rows))
+
+    body = ("\n".join(groups) if groups else
+            "<p><em>No decisions extracted yet. They appear here as Town Board "
+            "meetings are processed.</em></p>")
+
+    html = """{head}
+<body>
+{header}
+<main class="container decisions-page" data-pagefind-ignore>
+  <nav class="breadcrumb"><a href="{rel}index.html">Home</a> &rsaquo; Decisions &amp; Votes</nav>
+  <h1 style="font-size:1.5rem;margin-bottom:.4rem;">Decisions &amp; Votes</h1>
+  <p style="color:#555;margin-bottom:1.2rem;">Every resolution, motion, and public
+  hearing action extracted from Town Board meeting transcripts, with roll-call
+  votes where the roll call is audible in the recording. Auto-generated from
+  unofficial transcripts; grounded in the town&rsquo;s published agendas and
+  minutes where available. Verify anything important against the
+  <a href="https://riverheadny.portal.civicclerk.com/" target="_blank" rel="noopener">official record</a>.</p>
+  <div class="filters">
+    <input id="dq" type="text" placeholder="Filter by keyword, address, resolution number..."
+           oninput="filterDecisions()">
+    <select id="do" onchange="filterDecisions()">
+      <option value="">All outcomes</option>
+      <option value="adopted">Adopted</option>
+      <option value="defeated">Defeated</option>
+      <option value="tabled">Tabled</option>
+      <option value="amended">Amended</option>
+      <option value="withdrawn">Withdrawn</option>
+      <option value="held">Hearing held</option>
+      <option value="unknown">Outcome unclear</option>
+    </select>
+  </div>
+  <p class="count-line" id="dcount">{total} decisions shown</p>
+  {body}
+</main>
+{footer}
+{js}
+</body>
+</html>""".format(
+        head=html_head("Decisions & Votes", depth=depth),
+        header=html_header(depth=depth),
+        footer=html_footer(depth=depth),
+        js=DECISIONS_PAGE_JS,
+        rel=rel, total=total, body=body)
+
+    os.makedirs(os.path.dirname(output_path), exist_ok=True)
+    with open(output_path, "w", encoding="utf-8") as f:
+        f.write(html)
+    return len(withdec), total
 
 # ---------------------------------------------------------------------------
 # Index page
@@ -1151,6 +1415,20 @@ def build_index(all_records, output_path):
             if minutes_url:
                 badges += ('<a class="badge badge-link" href="{}" target="_blank" '
                            'rel="noopener" title="Open minutes PDF">Minutes</a>').format(minutes_url)
+            # Section deep links, rendered only when that meeting has the
+            # section. The title link is the transcript, so no transcript badge.
+            summary = r.get("summary")
+            if isinstance(summary, dict) and summary.get("status") == "ok":
+                badges += ('<a class="badge badge-link" href="{}#summary" '
+                           'title="Jump to the AI summary">Summary</a>').format(href)
+            decisions = r.get("decisions")
+            if (isinstance(decisions, dict) and decisions.get("status") == "ok"
+                    and (decisions.get("items") or [])):
+                badges += ('<a class="badge badge-link" href="{}#decisions" '
+                           'title="Jump to decisions and roll-call votes">Votes</a>').format(href)
+            if meta.get("video_url"):
+                badges += ('<a class="badge badge-link" href="{}#video" '
+                           'title="Jump to the meeting video">Video</a>').format(href)
             level, why = transcript_quality(r)
             if level == "incomplete":
                 badges += ('<span class="badge badge-warn" title="{}">'
@@ -1328,6 +1606,11 @@ def main():
 
     print("Building index ...")
     build_index(records, os.path.join(OUTPUT_DIR, "index.html"))
+
+    print("Building decisions page ...")
+    n_meetings, n_items = build_decisions_page(
+        records, os.path.join(OUTPUT_DIR, "decisions", "index.html"))
+    print("  {} decisions across {} meetings.".format(n_items, n_meetings))
 
     if SUPPORT_ENABLED:
         print("Building support page ...")

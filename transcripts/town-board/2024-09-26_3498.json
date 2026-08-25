@@ -468,5 +468,25 @@
         ]
       }
     ]
+  },
+  "decisions": {
+    "status": "ok",
+    "truncated": false,
+    "model": "claude-sonnet-5",
+    "prompt_version": "1",
+    "generated_at": "2026-08-25T21:16:14+00:00",
+    "grounded_in": "Minutes",
+    "items": [
+      {
+        "kind": "motion",
+        "number": null,
+        "title": "Adjourn special town board meeting",
+        "outcome": "adopted",
+        "votes": [],
+        "unanimous": false,
+        "confidence": "low",
+        "timestamp_s": 290
+      }
+    ]
   }
 }

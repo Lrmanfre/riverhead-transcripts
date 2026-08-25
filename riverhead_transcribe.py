@@ -48,6 +48,7 @@ from datetime import datetime, timedelta
 INPUT_CSV      = "riverhead_meetings_reversed.csv"
 OUTPUT_DIR     = "transcripts"
 TEMP_VIDEO_DIR = "tmp_videos"
+AUDIO_DIR      = "audio_archive"   # gitignored; future-proofs speaker diarization
 MODEL          = "mlx-community/whisper-large-v3-mlx"
 LANGUAGE       = "en"
 TIMEOUT        = 120    # seconds for HTTP connections
@@ -90,6 +91,37 @@ def transcript_paths(category, event_date, event_id):
 
 def already_done(txt_path):
     return os.path.exists(txt_path) and os.path.getsize(txt_path) > 0
+
+
+def archive_audio(video_path, category, event_date, event_id):
+    """Keep a compressed audio copy before the video is deleted.
+
+    Speaker diarization (planned) needs the meeting audio; videos are deleted
+    to save disk and the CDN may not host them forever. Mono 24k Opus is
+    voice-grade and ~10-20MB per meeting. Non-fatal: transcription already
+    succeeded, so a missing ffmpeg or a failed encode only logs a warning.
+    """
+    out_dir = os.path.join(AUDIO_DIR, slugify(category or "uncategorized"))
+    os.makedirs(out_dir, exist_ok=True)
+    stem = "{}_{}".format(event_date or "no-date", event_id)
+    out_path = os.path.join(out_dir, stem + ".opus")
+    if os.path.exists(out_path) and os.path.getsize(out_path) > 0:
+        return
+    try:
+        r = subprocess.run(
+            ["ffmpeg", "-nostdin", "-y", "-i", video_path,
+             "-vn", "-ac", "1", "-c:a", "libopus", "-b:a", "24k", out_path],
+            capture_output=True, text=True, timeout=1800,
+        )
+        if r.returncode != 0:
+            print("    WARNING: audio archive failed (ffmpeg exit {})".format(r.returncode))
+            if os.path.exists(out_path):
+                os.remove(out_path)
+        else:
+            print("    Audio archived: {} ({} MB)".format(
+                  out_path, os.path.getsize(out_path) // (1024 * 1024)))
+    except Exception as e:
+        print("    WARNING: audio archive failed: {}".format(e))
 
 
 def parse_duration_minutes(raw):
@@ -470,7 +502,8 @@ def main():
         save_transcript(result, txt_path, json_path, meta)
         print("    Saved: {}".format(txt_path))
 
-        # Delete video
+        # Keep compressed audio for future speaker diarization, then delete video
+        archive_audio(video_path, category, event_date, event_id)
         os.remove(video_path)
 
         done_count += 1

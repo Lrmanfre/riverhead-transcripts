@@ -15,8 +15,9 @@
     <p>Searchable public record of Riverhead Town government meetings.</p>
   </div>
   <div class="header-right">
+    <a class="nav-link" href="../../decisions/index.html">Decisions &amp; Votes</a>
     <a class="support-btn" href="../../support.html">Support this project</a>
-    <div class="build-stamp">Updated Aug 25, 2026 at 1:01 AM</div>
+    <div class="build-stamp">Updated Aug 25, 2026 at 6:13 PM</div>
   </div>
 </header>
 <main class="container" data-pagefind-body
@@ -28,7 +29,7 @@
     <div class="meta-row">159 min &nbsp;·&nbsp; <a href="https://riverheadny.portal.civicclerk.com/event/6609" target="_blank">CivicClerk page</a></div>
     <div class="doc-links"><a href="https://riverheadny.portal.civicclerk.com/event/6609/files/agenda/5986" target="_blank">Agenda PDF</a></div>
   </div>
-  <section class="transcript-summary" data-pagefind-ignore>
+  <section class="transcript-summary" id="summary" data-pagefind-ignore>
     <div class="summary-head">
       <h2>Summary <span class="ai-tag">AI</span></h2>
       <button class="summary-toggle" onclick="toggleSummary(this)">Hide</button>
@@ -45,7 +46,22 @@
       It may misstate names, figures, or votes. Verify against the agenda and the full transcript below.</p>
     </div>
   </section>
-  <div class="video-wrap">
+  <section class="transcript-decisions" id="decisions" data-pagefind-ignore>
+    <div class="summary-head">
+      <h2>Decisions &amp; Votes <span class="ai-tag">AI</span></h2>
+      <button class="summary-toggle" onclick="toggleDecisions(this)">Hide</button>
+    </div>
+    <div id="decisions-body">
+      <div class="decision-item" id="decision-0" data-outcome="held"><span class="outcome-badge outcome-held">Hearing held</span>Public Hearing - Peconic River Hotel Special Permit/Site Plan<div class="decision-votes"><span class="no-rollcall">Voice vote or roll call not clearly audible in the recording.</span></div></div>
+      <div class="decision-item" id="decision-1" data-outcome="held"><span class="outcome-badge outcome-held">Hearing held</span>Public Hearing - Peconic River Hotel site plan/special permit<div class="decision-votes"><span class="no-rollcall">Voice vote or roll call not clearly audible in the recording.</span></div></div>
+      <div class="decision-item" id="decision-2" data-outcome="adopted"><span class="outcome-badge outcome-adopted">Adopted</span>Motion to close the meeting<a class="decision-jump" href="#" onclick="seekTo(9506); return false;">watch vote (2:38:26)</a><div class="decision-votes"><span class="no-rollcall">Voice vote or roll call not clearly audible in the recording.</span></div></div>
+      <p class="summary-disclaimer">Extracted automatically from an unofficial,
+      machine-made transcript; votes are recorded only where the roll call is
+      audible. Resolution numbers and titles are grounded in the official minutes. May contain errors &mdash; verify against the full transcript
+      below and the town&rsquo;s official record.</p>
+    </div>
+  </section>
+  <div class="video-wrap" id="video">
   <video id="meeting-video" controls preload="metadata">
     <source src="https://cpmedia.azureedge.net/riverheadny/c3ea2d2a17.mp4" type="video/mp4">
   </video>
@@ -1940,7 +1956,7 @@
     <div class="segment"><span class="ts"><a href="#" onclick="seekTo(9526); return false;" title="Jump to 2:38:46">2:38:46</a></span><span class="text">Thank you.</span></div>
   </div>
 </div>
-  <div class="transcript-readable">
+  <div class="transcript-readable" id="transcript">
   <h2>Full Transcript</h2>
   <p>Thank you.</p>
   <p>Good evening, everybody. Today is Wednesday, June 10th, 2026. The Knicks play at 830. But before we get to any of that or what we have scheduled for our special town board meeting tonight, why don't we stand and say the Pledge of Allegiance together? I pledge allegiance to the flag of the United States of America and to the republic for which it stands, one nation, under God, indivisible, with liberty and justice for all. So joining us from North Carolina is our town clerk, Jim Wooten. Jim, I'd like to ask if you would, since we're in a special meeting and you're in a special place, if you would lead us in our invocation tonight. Oh, I would love to. Thank you. Let us bow our heads. Dear Lord, as we come together as a community, as a one people, to best decide what our future lies in for us. Be with us, govern our thoughts. Be with us during our deliberations. And may all our decisions be just. Amen. Thank you, sir. We have a couple of announcements. I don't know if anybody from our council members have any announcements tonight. Anybody? So we do have our 4th of July Grand Float Parade at 11 a.m. on the 4th of July. We also have fireworks at the South Jamesport Beach. We'll be approximately about 9.30 on the 4th of July. And this Sunday is the Wading River Duck Pond Day. And again, the Knicks play at 8.30, so go Knicks. And we're excited about all of that stuff. With that mentioned, we will begin our very first agenda item tonight, which is why we're here. and we will open up for comments on our public hearing. Our public hearing is scheduled for 6 p.m. It is 6.02. And so I believe, Mr. Howard, you will begin that for us. Yes, thank you. This is a special permit and site plan application hearing relative to the Peconic River Hotel. The public hearing is intended to provide for review of the plan submitted, for the board to receive information and comments and other evidence to consider in deliberating upon the site plan and special permit applications. The special permit is governed by Riverhead Town Code 301-312, which sets forth a variety of factors that the town board will consider. The site plan application is regulated by Riverhead Town Code 301-305, Which similar similarly sets forth a variety of factors for the town board to consider in reviewing the applications</p>
@@ -1991,6 +2007,14 @@ function toggleTimestamps(btn) {
 <script>
 function toggleSummary(btn) {
   var body = document.getElementById('summary-body');
+  if (!body) return;
+  var collapsed = body.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
+}
+</script>
+<script>
+function toggleDecisions(btn) {
+  var body = document.getElementById('decisions-body');
   if (!body) return;
   var collapsed = body.classList.toggle('collapsed');
   btn.textContent = collapsed ? 'Show' : 'Hide';
