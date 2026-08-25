@@ -289,12 +289,41 @@ class SegmentIndex:
         self.text = " ".join(parts)
 
     def locate(self, quote):
+        """Best-effort character offset -> timestamp.
+
+        Whisper mishears names constantly ("Kern?" -> "Karen?"), so an exact
+        match and a fixed 5-word prefix both fail on exactly the roll calls we
+        most want to link: the contested ones, where members speak between
+        votes. Fall back to any 4-word window, then to a longest-common-run
+        match, before giving up.
+        """
         q = _norm_text(quote)
-        idx = self.text.find(q) if q else -1
-        if idx < 0 and q:
-            words = q.split()
-            if len(words) >= 5:
-                idx = self.text.find(" ".join(words[:5]))
+        if not q:
+            return None
+        idx = self.text.find(q)
+        words = q.split()
+        if idx < 0 and len(words) >= 5:
+            idx = self.text.find(" ".join(words[:5]))
+        if idx < 0:
+            # Any distinctive window, widest first; the first hit wins. Three
+            # words is the floor: shorter is common enough to land anywhere.
+            for width in (4, 3):
+                if len(words) < width:
+                    continue
+                for w in range(len(words) - width + 1):
+                    idx = self.text.find(" ".join(words[w:w + width]))
+                    if idx >= 0:
+                        break
+                if idx >= 0:
+                    break
+        if idx < 0 and len(q) >= 20:
+            # Last resort: longest shared run of characters, long enough that a
+            # stopword phrase cannot satisfy it.
+            from difflib import SequenceMatcher
+            m = SequenceMatcher(None, self.text, q, autojunk=False)
+            blk = m.find_longest_match(0, len(self.text), 0, len(q))
+            if blk.size >= 20:
+                idx = blk.a
         if idx < 0:
             return None
         i = bisect_right(self.starts, idx) - 1
@@ -459,8 +488,18 @@ def extract_file(path, client, model, dry_run, limiter=None, usage=None):
     items = merge_items(all_items)
 
     seg_index = SegmentIndex(record.get("segments", []))
+    unlocated = 0
     for it in items:
-        it["timestamp_s"] = seg_index.locate(it.pop("anchor_quote", ""))
+        quote = it.pop("anchor_quote", "") or ""
+        it["timestamp_s"] = seg_index.locate(quote)
+        if it["timestamp_s"] is None:
+            # Retain the quote ONLY on a miss, so the failure can be diagnosed
+            # and re-located later without paying for another extraction.
+            it["anchor_quote_unmatched"] = quote
+            unlocated += 1
+    if unlocated:
+        rs.log("    NOTE {}: {} of {} item(s) could not be timestamped".format(
+               os.path.basename(path), unlocated, len(items)))
 
     record["decisions"] = {
         "status": "partial" if truncated else "ok",

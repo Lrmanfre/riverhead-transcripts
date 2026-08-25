@@ -162,6 +162,7 @@ a.badge-link:hover { background: #1a5c8a; color: #fff; text-decoration: none; }
 .decision-votes .v-other { color: #8a6d1f; }
 .decision-votes .no-rollcall { font-style: italic; color: #888; }
 .decision-jump { font-size: .78rem; margin-left: .5rem; white-space: nowrap; }
+.decision-jump-untimed { color: #8a6d1f; font-style: italic; white-space: normal; }
 
 /* Global decisions page */
 .decisions-page .filters { display: flex; gap: .75rem; flex-wrap: wrap;

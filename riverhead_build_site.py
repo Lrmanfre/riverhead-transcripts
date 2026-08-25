@@ -465,6 +465,7 @@ a.badge-link:hover { background: #1a5c8a; color: #fff; text-decoration: none; }
 .decision-votes .v-other { color: #8a6d1f; }
 .decision-votes .no-rollcall { font-style: italic; color: #888; }
 .decision-jump { font-size: .78rem; margin-left: .5rem; white-space: nowrap; }
+.decision-jump-untimed { color: #8a6d1f; font-style: italic; white-space: normal; }
 
 /* Global decisions page */
 .decisions-page .filters { display: flex; gap: .75rem; flex-wrap: wrap;
@@ -1006,7 +1007,12 @@ def render_decision_item(it, video_url="", anchor=None):
     if votes:
         yes = sum(1 for v in votes if v["vote"] == "yes")
         no  = sum(1 for v in votes if v["vote"] == "no")
+        other = len(votes) - yes - no
         tally = "{}&ndash;{}".format(yes, no)
+        if other:
+            # Without this, a 3-1 with one abstention reads as a 4-member board.
+            tally += " ({} abstained)".format(other) if other == 1 else \
+                     " ({} did not vote)".format(other)
         if it.get("unanimous"):
             tally += " unanimous"
         cls = {"yes": "v-yes", "no": "v-no"}
@@ -1028,6 +1034,11 @@ def render_decision_item(it, video_url="", anchor=None):
     if ts is not None and video_url:
         jump = ('<a class="decision-jump" href="#" onclick="seekTo({s}); return false;">'
                 'watch vote ({t})</a>'.format(s=int(ts), t=format_timestamp(ts)))
+    elif video_url:
+        # No timestamp matched. Send the reader to the recording anyway rather
+        # than dead-ending them on the item they are most likely checking.
+        jump = ('<a class="decision-jump decision-jump-untimed" href="#video">'
+                'timestamp unavailable &mdash; watch full meeting</a>')
 
     aid = ' id="{}"'.format(anchor) if anchor else ""
     return ('<div class="decision-item"{aid} data-outcome="{o}">'
