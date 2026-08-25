@@ -11,3 +11,6 @@ agenda_cache/
 
 # Compressed meeting audio kept for future speaker diarization (local only)
 audio_archive/
+
+# Sandbox scratch, never publish
+_to_delete/
