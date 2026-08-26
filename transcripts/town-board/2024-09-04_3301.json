@@ -16346,13 +16346,13 @@
     "truncated": false,
     "model": "claude-sonnet-5",
     "prompt_version": "1",
-    "generated_at": "2026-08-26T01:37:18+00:00",
+    "generated_at": "2026-08-26T02:57:50+00:00",
     "grounded_in": "Minutes",
     "items": [
       {
         "kind": "hearing_action",
         "number": null,
-        "title": "Public Hearing Chapter 293 Waterways and Water Related Activities",
+        "title": "Public Hearing - Chapter 293 Waterways and Water Related Activities",
         "outcome": "withdrawn",
         "votes": [],
         "unanimous": false,
@@ -16362,7 +16362,7 @@
       {
         "kind": "hearing_action",
         "number": null,
-        "title": "Public Hearing Chapter 221 Community Preservation advisory committee",
+        "title": "Public Hearing - Chapter 221 Community Preservation advisory committee",
         "outcome": "held",
         "votes": [],
         "unanimous": false,
@@ -16394,12 +16394,15 @@
           {
             "member": "Halpin",
             "vote": "yes"
+          },
+          {
+            "member": "Tim Hubbard",
+            "vote": "yes"
           }
         ],
         "unanimous": true,
-        "confidence": "low",
-        "timestamp_s": null,
-        "anchor_quote_unmatched": ""
+        "confidence": "high",
+        "timestamp_s": 5685
       },
       {
         "kind": "resolution",
@@ -16468,7 +16471,7 @@
       {
         "kind": "resolution",
         "number": "2024-764",
-        "title": "Grants Special Permit for 431 Griffing Avenue to Convert Office to Single-Family Dwelling",
+        "title": "Special Permit for 431 Griffing Avenue - Office to Single-Family Dwelling",
         "outcome": "adopted",
         "votes": [
           {
@@ -16500,7 +16503,7 @@
       {
         "kind": "resolution",
         "number": "2024-765",
-        "title": "Grants Special Permit for 4592 Middle Country Road to Construct Two-Family Dwelling",
+        "title": "Special Permit for 4592 Middle Country Road - Two-Family Dwelling",
         "outcome": "adopted",
         "votes": [
           {
@@ -16532,7 +16535,7 @@
       {
         "kind": "resolution",
         "number": "2024-766",
-        "title": "Authorizes Contract with State OPRHP for Riverfront Adaptive Children's Playground Grant",
+        "title": "Authorizes contract with State OPRHP for Riverfront Adaptive Children's Playground Grant",
         "outcome": "adopted",
         "votes": [
           {
@@ -16563,7 +16566,7 @@
       {
         "kind": "resolution",
         "number": "2024-767",
-        "title": "Coordinate with Town of Brookhaven for Grant Application for Wading River Duck Ponds Dredging",
+        "title": "Coordinate with Town of Brookhaven for grant application, Wading River duck ponds dredging",
         "outcome": "adopted",
         "votes": [
           {
@@ -16589,7 +16592,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 5852
+        "timestamp_s": 5878
       },
       {
         "kind": "resolution",
@@ -16625,7 +16628,7 @@
       {
         "kind": "resolution",
         "number": "2024-770",
-        "title": "Approves Special Event Application for Wading River Shoreham Chamber Fall Festival",
+        "title": "Special Event Chapter 255 Application - Wading River Shore Chamber Fall Festival",
         "outcome": "adopted",
         "votes": [
           {
@@ -16651,12 +16654,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 5923
+        "timestamp_s": 5938
       },
       {
         "kind": "resolution",
         "number": "2024-771",
-        "title": "Approves Special Event Application for Foodie Fest Productions LLC First Annual Foodie Fest",
+        "title": "Special Event Chapter 255 Application - Foodie Fest Productions LLC First Annual Foodie Fest",
         "outcome": "adopted",
         "votes": [
           {
@@ -16718,7 +16721,7 @@
       {
         "kind": "resolution",
         "number": "2024-774",
-        "title": "Appoints a Senior Account Clerk",
+        "title": "Appoints Senior Account Clerk",
         "outcome": "adopted",
         "votes": [
           {
@@ -16749,7 +16752,7 @@
       {
         "kind": "resolution",
         "number": "2024-775",
-        "title": "Ratifies Appointment of a Fire Marshal",
+        "title": "Ratifies Appointment of Fire Marshal",
         "outcome": "adopted",
         "votes": [
           {
@@ -16780,7 +16783,7 @@
       {
         "kind": "resolution",
         "number": "2024-778",
-        "title": "Ratifies and Accepts Resignation of a Part-Time Police Officer",
+        "title": "Ratifies Resignation of Part-Time Police Officer",
         "outcome": "adopted",
         "votes": [
           {
@@ -16811,7 +16814,38 @@
       {
         "kind": "resolution",
         "number": "2024-779",
-        "title": "Ratifies and Accepts Resignation from a Part-Time Court Officer",
+        "title": "Resignation Related Matter (Jordan) - Suffolk County PD",
+        "outcome": "adopted",
+        "votes": [
+          {
+            "member": "Joann Waski",
+            "vote": "yes"
+          },
+          {
+            "member": "Denise Merrifield",
+            "vote": "yes"
+          },
+          {
+            "member": "Bob Kern",
+            "vote": "yes"
+          },
+          {
+            "member": "Ken Rothwell",
+            "vote": "yes"
+          },
+          {
+            "member": "Tim Hubbard",
+            "vote": "yes"
+          }
+        ],
+        "unanimous": true,
+        "confidence": "high",
+        "timestamp_s": 6142
+      },
+      {
+        "kind": "resolution",
+        "number": "2024-780",
+        "title": "Ratifies Resignation from Part-Time Court Officer",
         "outcome": "adopted",
         "votes": [
           {
@@ -16842,7 +16876,7 @@
       {
         "kind": "resolution",
         "number": "2024-781",
-        "title": "Accepts Resignation of a Water Treatment Plant Operator",
+        "title": "Accepts Resignation of Water Treatment Plant Operator Trainee",
         "outcome": "adopted",
         "votes": [
           {
@@ -16873,7 +16907,7 @@
       {
         "kind": "resolution",
         "number": "2024-782",
-        "title": "Calls Public Hearing for Water Main Extension at 437 and 483 Young's Avenue",
+        "title": "Calls Public Hearing for Water Main Extension at 437 and 483 Young's Avenue, Calverton",
         "outcome": "adopted",
         "votes": [
           {
@@ -16904,7 +16938,7 @@
       {
         "kind": "resolution",
         "number": "2024-783",
-        "title": "Authorizes Town Clerk to Publish Notice for Public Hearing on CDBG 2025 Funds",
+        "title": "Authorizes Town Clerk to Publish Notice for CDBG 2025 Funds Hearing",
         "outcome": "adopted",
         "votes": [
           {
@@ -17059,7 +17093,7 @@
       {
         "kind": "resolution",
         "number": "2024-788",
-        "title": "Pays Bills",
+        "title": "Pay Bills",
         "outcome": "adopted",
         "votes": [
           {
@@ -17116,12 +17150,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 7415
+        "timestamp_s": 7414
       },
       {
         "kind": "resolution",
         "number": "2024-790",
-        "title": "Ratifies Authorization to Execute Change Order for Wellhead Treatment Plant Number 5",
+        "title": "Ratifies Authorization for Change Order No. 1, Wellhead Treatment Plant No. 5",
         "outcome": "adopted",
         "votes": [
           {
@@ -17147,12 +17181,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 7427
+        "timestamp_s": 7432
       },
       {
         "kind": "motion",
         "number": null,
-        "title": "Motion to adjourn town board meeting",
+        "title": "Motion to adjourn the town board meeting",
         "outcome": "adopted",
         "votes": [],
         "unanimous": false,

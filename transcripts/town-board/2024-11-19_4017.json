@@ -11791,13 +11791,13 @@
     "truncated": false,
     "model": "claude-sonnet-5",
     "prompt_version": "1",
-    "generated_at": "2026-08-26T01:59:45+00:00",
+    "generated_at": "2026-08-26T02:52:16+00:00",
     "grounded_in": "Minutes",
     "items": [
       {
         "kind": "hearing_action",
         "number": null,
-        "title": "Chapter 217 Penalties and Offenses code amendment",
+        "title": "Public Hearing: Chapter 217, Penalties and Offenses",
         "outcome": "held",
         "votes": [],
         "unanimous": false,
@@ -11807,7 +11807,7 @@
       {
         "kind": "hearing_action",
         "number": null,
-        "title": "Town Officers and Employees Article VI term limits amendment",
+        "title": "Public Hearing: Town Officers and Employees, Article VI",
         "outcome": "held",
         "votes": [],
         "unanimous": false,
@@ -11817,7 +11817,7 @@
       {
         "kind": "hearing_action",
         "number": null,
-        "title": "Chapter 301 industrial code amendments (Public Hearings 4-20)",
+        "title": "Public Hearings 4-20: Industrial Code Amendments and Zoning Map Changes",
         "outcome": "held",
         "votes": [],
         "unanimous": false,
@@ -11847,14 +11847,13 @@
             "vote": "yes"
           },
           {
-            "member": "Halpin",
+            "member": "Tim Hubbard",
             "vote": "yes"
           }
         ],
         "unanimous": true,
-        "confidence": "low",
-        "timestamp_s": null,
-        "anchor_quote_unmatched": ""
+        "confidence": "high",
+        "timestamp_s": 4372
       },
       {
         "kind": "resolution",
@@ -11885,7 +11884,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 4386
+        "timestamp_s": 4389
       },
       {
         "kind": "resolution",
@@ -12042,7 +12041,7 @@
       {
         "kind": "resolution",
         "number": "2024-926",
-        "title": "Awards Bid for 2024 Mack Model Dump Truck for Water District",
+        "title": "Awards Bid for 2024 Mack Dump Truck for Riverhead Water District",
         "outcome": "adopted",
         "votes": [
           {
@@ -12126,7 +12125,7 @@
       {
         "kind": "resolution",
         "number": "2024-929",
-        "title": "Authorizes Notice of Public Hearing on Fair Sewer Rent for Out-of-Town Facilities",
+        "title": "Authorizes Notice of Public Hearing for Fair and Reasonable Sewer Rent for Out-of-Town Facilities 2023-2024",
         "outcome": "adopted",
         "votes": [
           {
@@ -12219,7 +12218,7 @@
       {
         "kind": "resolution",
         "number": "2024-932",
-        "title": "Authorizes Extension of Time to Remit Property Taxes for Senior Citizens with Enhanced STAR",
+        "title": "Extension of Time to Remit Real Property Taxes for Enhanced STAR Seniors",
         "outcome": "adopted",
         "votes": [
           {
@@ -12275,7 +12274,7 @@
       {
         "kind": "resolution",
         "number": "2024-934",
-        "title": "Approves Special Event Application for Race Track Not Street Fall Series",
+        "title": "Approves Special Event Application for Race Track Not Street Fall Motorsports Series at EPCAL",
         "outcome": "adopted",
         "votes": [
           {
@@ -12306,7 +12305,7 @@
       {
         "kind": "resolution",
         "number": "2024-935",
-        "title": "Approves Special Event Application for Race Track Not Street Summer 2025 Series",
+        "title": "Approves Special Event Application for Race Track Not Street Summer Series",
         "outcome": "adopted",
         "votes": [
           {
@@ -12360,7 +12359,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 4689
+        "timestamp_s": 4719
       },
       {
         "kind": "resolution",
@@ -12391,12 +12390,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 4747
+        "timestamp_s": 4754
       },
       {
         "kind": "resolution",
         "number": "2024-938",
-        "title": "Adopts Local Law Amending Chapter 103 Term Limits",
+        "title": "Adopts Local Law Amending Chapter 103, Town Officers and Employees, Article VI Term Limits",
         "outcome": "adopted",
         "votes": [
           {
@@ -12453,12 +12452,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 4843
+        "timestamp_s": 4418
       },
       {
         "kind": "resolution",
         "number": "2024-940",
-        "title": "Accepts Donation from George and Janice Gabrielsen for Recreation Dept",
+        "title": "Accepts Donation from George and Janice Gabrielsen for Recreation Department",
         "outcome": "adopted",
         "votes": [
           {
@@ -12489,7 +12488,7 @@
       {
         "kind": "resolution",
         "number": "2024-941",
-        "title": "Accepts Donation from Joseph C. DiBenedetto for Recreation Dept",
+        "title": "Accepts Donation from Joseph C. DiBenedetto for Recreation Department",
         "outcome": "adopted",
         "votes": [
           {
@@ -12518,9 +12517,9 @@
         "timestamp_s": 4885
       },
       {
-        "kind": "motion",
+        "kind": "resolution",
         "number": "2024-863",
-        "title": "Motion to Untable Resolution 863",
+        "title": "Accepts Resignation of and Appoints Member to the Riverhead Industrial Development Agency",
         "outcome": "adopted",
         "votes": [
           {
@@ -12546,13 +12545,13 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 4927
+        "timestamp_s": 4941
       },
       {
-        "kind": "motion",
+        "kind": "resolution",
         "number": "2024-880",
-        "title": "Motion to Untable Resolution 880",
-        "outcome": "adopted",
+        "title": "Authorizes Agreement with HonkMobile USA Ltd.",
+        "outcome": "defeated",
         "votes": [
           {
             "member": "Joann Waski",
@@ -12576,8 +12575,8 @@
           }
         ],
         "unanimous": false,
-        "confidence": "low",
-        "timestamp_s": 5001
+        "confidence": "high",
+        "timestamp_s": 5023
       },
       {
         "kind": "resolution",
@@ -12608,7 +12607,38 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 5078
+        "timestamp_s": 5082
+      },
+      {
+        "kind": "motion",
+        "number": null,
+        "title": "Motion to Untable Resolution 2024-863",
+        "outcome": "adopted",
+        "votes": [
+          {
+            "member": "Joann Waski",
+            "vote": "yes"
+          },
+          {
+            "member": "Denise Merrifield",
+            "vote": "yes"
+          },
+          {
+            "member": "Bob Kern",
+            "vote": "yes"
+          },
+          {
+            "member": "Ken Rothwell",
+            "vote": "yes"
+          },
+          {
+            "member": "Tim Hubbard",
+            "vote": "yes"
+          }
+        ],
+        "unanimous": true,
+        "confidence": "high",
+        "timestamp_s": 4927
       },
       {
         "kind": "resolution",
@@ -12700,13 +12730,13 @@
           }
         ],
         "unanimous": true,
-        "confidence": "low",
+        "confidence": "high",
         "timestamp_s": 5163
       },
       {
         "kind": "motion",
         "number": null,
-        "title": "Motion to Take DMS Apex Holdings Addendum Off the Floor",
+        "title": "Motion to Take Off the Floor: Addendum with DMS Apex Holdings LLC",
         "outcome": "adopted",
         "votes": [
           {
@@ -12768,17 +12798,22 @@
       {
         "kind": "motion",
         "number": null,
-        "title": "Motion to Close CDA Meeting and Reopen Town Board Meeting",
+        "title": "Motion to Close Town Board and Open CDA Meeting",
         "outcome": "adopted",
-        "votes": [
-          {
-            "member": "Joann Waski",
-            "vote": "yes"
-          }
-        ],
-        "unanimous": true,
+        "votes": [],
+        "unanimous": false,
         "confidence": "low",
-        "timestamp_s": 6454
+        "timestamp_s": 6401
+      },
+      {
+        "kind": "hearing_action",
+        "number": null,
+        "title": "Closes Public Hearings 1-20, Held Open for Written Comment till 12/2/2024",
+        "outcome": "held",
+        "votes": [],
+        "unanimous": false,
+        "confidence": "low",
+        "timestamp_s": 4268
       }
     ]
   }

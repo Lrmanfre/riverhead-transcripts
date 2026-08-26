@@ -14797,13 +14797,13 @@
     "truncated": false,
     "model": "claude-sonnet-5",
     "prompt_version": "1",
-    "generated_at": "2026-08-26T01:49:53+00:00",
+    "generated_at": "2026-08-26T03:16:24+00:00",
     "grounded_in": null,
     "items": [
       {
         "kind": "hearing_action",
         "number": null,
-        "title": "Public hearing on Scott's Point site plan/go-kart facility",
+        "title": "Public hearing on Scott's Point site plan closed, kept open 10 days for written comments",
         "outcome": "held",
         "votes": [],
         "unanimous": false,
@@ -14813,7 +14813,7 @@
       {
         "kind": "resolution",
         "number": "2025-93",
-        "title": "Approves annual meeting and training school by Association of Towns",
+        "title": "Annual meeting and training school held by Association of Towns",
         "outcome": "adopted",
         "votes": [
           {
@@ -14932,12 +14932,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 6950
+        "timestamp_s": 6635
       },
       {
         "kind": "motion",
         "number": "2025-97",
-        "title": "Motion to table appointment resolution (Antibias Task Force)",
+        "title": "Motion to table appointment resolution 97 (Antibias Task Force)",
         "outcome": "tabled",
         "votes": [
           {
@@ -14962,7 +14962,7 @@
           }
         ],
         "unanimous": true,
-        "confidence": "low",
+        "confidence": "high",
         "timestamp_s": 6984
       },
       {
@@ -14999,7 +14999,7 @@
       {
         "kind": "resolution",
         "number": "2025-100",
-        "title": "Ratifies appointment of temporary part-time office assistant",
+        "title": "Ratifies appointment of a temporary part-time office assistant",
         "outcome": "adopted",
         "votes": [
           {
@@ -15060,39 +15060,19 @@
       },
       {
         "kind": "resolution",
-        "number": "2025-104",
-        "title": "Resolution item 104 (general business)",
+        "number": "2025-9",
+        "title": "Resolution (number garbled, likely 104 series)",
         "outcome": "adopted",
-        "votes": [
-          {
-            "member": "Joann Waski",
-            "vote": "yes"
-          },
-          {
-            "member": "Denise Merrifield",
-            "vote": "yes"
-          },
-          {
-            "member": "Bob Kern",
-            "vote": "yes"
-          },
-          {
-            "member": "Ken Rothwell",
-            "vote": "yes"
-          },
-          {
-            "member": "Tim Hubbard",
-            "vote": "yes"
-          }
-        ],
-        "unanimous": true,
+        "votes": [],
+        "unanimous": false,
         "confidence": "low",
-        "timestamp_s": 7181
+        "timestamp_s": null,
+        "anchor_quote_unmatched": ""
       },
       {
         "kind": "resolution",
         "number": "2025-105",
-        "title": "Amends resolution 2025-69",
+        "title": "Amends Resolution 2025-69",
         "outcome": "adopted",
         "votes": [
           {
@@ -15123,7 +15103,7 @@
       {
         "kind": "resolution",
         "number": "2025-106",
-        "title": "Approves stipend for a Pine Barrens designee",
+        "title": "Approves a stipend for a Pine Barrens designee",
         "outcome": "adopted",
         "votes": [
           {
@@ -15165,7 +15145,7 @@
       {
         "kind": "resolution",
         "number": "2025-108",
-        "title": "Authorizes renewal of music works license agreement with ASCAP",
+        "title": "Authorizes renewal of ASCAP music works license agreement",
         "outcome": "adopted",
         "votes": [
           {
@@ -15214,10 +15194,6 @@
           {
             "member": "Ken Rothwell",
             "vote": "yes"
-          },
-          {
-            "member": "Tim Hubbard",
-            "vote": "yes"
           }
         ],
         "unanimous": true,
@@ -15245,10 +15221,6 @@
           {
             "member": "Ken Rothwell",
             "vote": "yes"
-          },
-          {
-            "member": "Tim Hubbard",
-            "vote": "yes"
           }
         ],
         "unanimous": true,
@@ -15258,7 +15230,7 @@
       {
         "kind": "resolution",
         "number": "2025-111",
-        "title": "Grants Chapter 229 excavation/exportation permit for GR Riverhead Land LLC carwash",
+        "title": "Grants Chapter 229 excavation/exportation permit for GR Riverhead Land LLC",
         "outcome": "adopted",
         "votes": [
           {
@@ -15267,10 +15239,6 @@
           },
           {
             "member": "Denise Merrifield",
-            "vote": "yes"
-          },
-          {
-            "member": "Bob Kern",
             "vote": "yes"
           },
           {
@@ -15284,12 +15252,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 7436
+        "timestamp_s": 7419
       },
       {
         "kind": "resolution",
         "number": "2025-112",
-        "title": "Amends resolution 86-2025 setting fees for taxis and vehicles for hire",
+        "title": "Amends Resolution 86-2025 setting fees for taxicabs and vehicles for hire",
         "outcome": "adopted",
         "votes": [
           {
@@ -15306,21 +15274,17 @@
           },
           {
             "member": "Ken Rothwell",
-            "vote": "yes"
-          },
-          {
-            "member": "Tim Hubbard",
             "vote": "yes"
           }
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 7498
+        "timestamp_s": 7492
       },
       {
         "kind": "resolution",
         "number": "2025-113",
-        "title": "Notice of public hearing to amend Chapter 207 (dogs/domestic-farm animals)",
+        "title": "Notice of public hearing to amend Chapter 207, Dogs and Domestic/Farm Animals",
         "outcome": "adopted",
         "votes": [
           {
@@ -15337,10 +15301,6 @@
           },
           {
             "member": "Ken Rothwell",
-            "vote": "yes"
-          },
-          {
-            "member": "Tim Hubbard",
             "vote": "yes"
           }
         ],
@@ -15351,7 +15311,7 @@
       {
         "kind": "resolution",
         "number": "2025-114",
-        "title": "Authorizes town clerk to publish notice to amend Chapter 257 (peddling and soliciting)",
+        "title": "Authorizes town clerk to publish/post notice to amend Chapter 257, Peddling and Soliciting",
         "outcome": "adopted",
         "votes": [
           {
@@ -15382,7 +15342,7 @@
       {
         "kind": "resolution",
         "number": "2025-115",
-        "title": "Authorizes town clerk to publish notice to amend Chapter 301 (yard sales)",
+        "title": "Authorizes town clerk to publish/post notice to amend Chapter 301, Yard Sales",
         "outcome": "adopted",
         "votes": [
           {
@@ -15396,14 +15356,6 @@
           {
             "member": "Bob Kern",
             "vote": "yes"
-          },
-          {
-            "member": "Ken Rothwell",
-            "vote": "yes"
-          },
-          {
-            "member": "Tim Hubbard",
-            "vote": "yes"
           }
         ],
         "unanimous": true,
@@ -15413,7 +15365,7 @@
       {
         "kind": "resolution",
         "number": "2025-116",
-        "title": "Calls public hearing on capital improvement/extension of Riverhead Water District, Forge Road",
+        "title": "Calls public hearing on capital improvement, Riverhead Water District extension for Forge Road",
         "outcome": "adopted",
         "votes": [
           {
@@ -15444,7 +15396,7 @@
       {
         "kind": "resolution",
         "number": "2025-117",
-        "title": "Authorizes RFQ for engineering services - Class A biosolids upgrade project",
+        "title": "Authorizes RFQ for engineering services, biosolids upgrade project",
         "outcome": "adopted",
         "votes": [
           {
@@ -15470,12 +15422,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 7644
+        "timestamp_s": 7640
       },
       {
         "kind": "resolution",
         "number": "2025-118",
-        "title": "Authorizes bid notice for janitorial and kitchen supplies",
+        "title": "Authorizes notice to bidders for janitorial and kitchen supplies",
         "outcome": "adopted",
         "votes": [
           {
@@ -15506,7 +15458,7 @@
       {
         "kind": "resolution",
         "number": "2025-119",
-        "title": "Authorizes bid for two-way radio service for highway department",
+        "title": "Authorizes bid for two-way radio service, highway department",
         "outcome": "adopted",
         "votes": [
           {
@@ -15537,7 +15489,7 @@
       {
         "kind": "resolution",
         "number": "2025-120",
-        "title": "Awards bid for grinding of town yard waste at Young's Avenue facility",
+        "title": "Awards bid for grinding of town yard waste at Southside/Youngs Avenue facility",
         "outcome": "adopted",
         "votes": [
           {
@@ -15568,7 +15520,7 @@
       {
         "kind": "resolution",
         "number": "2025-121",
-        "title": "Awards bid for construction of pump station at East Wind Drive",
+        "title": "Awards bid for construction of pump station at East Wind Drive, capital project 19",
         "outcome": "adopted",
         "votes": [
           {
@@ -15599,7 +15551,7 @@
       {
         "kind": "resolution",
         "number": "2025-122",
-        "title": "Extends bid non-pro-ton for electrical system maintenance - Riverhead Water District",
+        "title": "Extends bid for electrical system maintenance and emergency service, Riverhead Water District",
         "outcome": "adopted",
         "votes": [
           {
@@ -15630,7 +15582,7 @@
       {
         "kind": "resolution",
         "number": "2025-123",
-        "title": "Extends bid non-pro-ton for hydraulic control valve maintenance - Riverhead Water District",
+        "title": "Extends bid for hydraulic control valve maintenance services, Riverhead Water District",
         "outcome": "adopted",
         "votes": [
           {
@@ -15661,7 +15613,7 @@
       {
         "kind": "resolution",
         "number": "2025-124",
-        "title": "Extends bid non-pro-ton for distribution system maintenance - Riverhead Water District",
+        "title": "Extends bid for distribution system maintenance and emergency services, Riverhead Water District",
         "outcome": "adopted",
         "votes": [
           {
@@ -15687,12 +15639,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 7794
+        "timestamp_s": 7793
       },
       {
         "kind": "resolution",
         "number": "2025-125",
-        "title": "Extends bid non-pro-ton for distribution system maintenance - Riverhead Water District",
+        "title": "Extends bid for distribution system maintenance and emergency services, Riverhead Water District",
         "outcome": "adopted",
         "votes": [
           {
@@ -15718,12 +15670,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 7811
+        "timestamp_s": 7793
       },
       {
         "kind": "resolution",
         "number": "2025-126",
-        "title": "Extends bid non-pro-ton for process control system maintenance - Riverhead Water District",
+        "title": "Extends bid for process control system maintenance and emergency services, Riverhead Water District",
         "outcome": "adopted",
         "votes": [
           {
@@ -15754,7 +15706,7 @@
       {
         "kind": "resolution",
         "number": "2025-127",
-        "title": "Extends bid non-pro-ton for distribution system maintenance - Riverhead Water District",
+        "title": "Extends bid for distribution system maintenance and emergency services, Riverhead Water District",
         "outcome": "adopted",
         "votes": [
           {
@@ -15785,7 +15737,7 @@
       {
         "kind": "resolution",
         "number": "2025-128",
-        "title": "Amends resolution 969-2024 East End Arts Mosaic Festival date change",
+        "title": "Amends Resolution 969-2024, East End Arts Mosaic Festival date change",
         "outcome": "adopted",
         "votes": [
           {
@@ -15816,7 +15768,7 @@
       {
         "kind": "resolution",
         "number": "2025-129",
-        "title": "Approves special event application - Run for the Ridley 5K",
+        "title": "Approves special event application, New York Marine Rescue Center Run for the Ridley 5K",
         "outcome": "adopted",
         "votes": [
           {
@@ -15847,7 +15799,7 @@
       {
         "kind": "resolution",
         "number": "2025-130",
-        "title": "Approves special event application - Paddle Battle Long Island",
+        "title": "Approves special event application, New York Marine Rescue Center Paddle Battle Long Island",
         "outcome": "adopted",
         "votes": [
           {
@@ -15909,7 +15861,7 @@
       {
         "kind": "resolution",
         "number": "2025-133",
-        "title": "Ratifies settlement of legal action against owners of premises at 250 Newton Avenue",
+        "title": "Ratifies settlement of legal action, 250 Newton Avenue premises",
         "outcome": "adopted",
         "votes": [
           {
@@ -16002,7 +15954,7 @@
       {
         "kind": "motion",
         "number": "CDA 2025-2",
-        "title": "Omnibus resolution on Public Authorities Accountability Act, ratifying prior CDA policies",
+        "title": "Omnibus resolution on Public Authorities Accountability Act, ratifying CDA policies",
         "outcome": "adopted",
         "votes": [
           {
@@ -16028,7 +15980,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 8423
+        "timestamp_s": 8416
       }
     ]
   }

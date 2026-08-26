@@ -12536,13 +12536,13 @@
     "truncated": false,
     "model": "claude-sonnet-5",
     "prompt_version": "1",
-    "generated_at": "2026-08-26T01:49:44+00:00",
+    "generated_at": "2026-08-26T03:01:48+00:00",
     "grounded_in": "Minutes",
     "items": [
       {
         "kind": "hearing_action",
         "number": null,
-        "title": "Summerwind Farm Water Main Extension",
+        "title": "Public Hearing - Summerwind Farm Water Main Extension",
         "outcome": "held",
         "votes": [],
         "unanimous": false,
@@ -12552,7 +12552,7 @@
       {
         "kind": "resolution",
         "number": "2026-360",
-        "title": "Awards Bid for Meetinghouse Creek Road Bulkhead Renovation",
+        "title": "Awards Bid for Meetinghouse Creek Bulkhead Renovation",
         "outcome": "adopted",
         "votes": [
           {
@@ -12614,7 +12614,7 @@
       {
         "kind": "resolution",
         "number": "2026-362",
-        "title": "Approves Sewer District Change Order No. 2, Contract P Plumbing Construction",
+        "title": "Approves Sewer District Change Order No. 2, Contract P Plumbing Construction RDSD 2202",
         "outcome": "adopted",
         "votes": [
           {
@@ -12645,7 +12645,7 @@
       {
         "kind": "resolution",
         "number": "2026-363",
-        "title": "Approves Sewer District Change Order No. 2, Contract E Electrical Construction",
+        "title": "Approves Sewer District Change Order No. 2, Contract E Electrical Construction RDSD 2202",
         "outcome": "adopted",
         "votes": [
           {
@@ -12676,7 +12676,7 @@
       {
         "kind": "resolution",
         "number": "2026-364",
-        "title": "Approves Sewer District Change Order No. 3, Contract G General Construction",
+        "title": "Approves Sewer District Change Order No. 3, Contract G General Construction RDSD 2202",
         "outcome": "adopted",
         "votes": [
           {
@@ -12925,7 +12925,7 @@
         "kind": "motion",
         "number": null,
         "title": "Amend Resolution 372 hourly rate from $20 to $28",
-        "outcome": "adopted",
+        "outcome": "amended",
         "votes": [
           {
             "member": "Joann Waski",
@@ -12950,7 +12950,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 2091
+        "timestamp_s": 2087
       },
       {
         "kind": "resolution",
@@ -12981,39 +12981,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 2126
-      },
-      {
-        "kind": "resolution",
-        "number": "2026-373",
-        "title": "Authorize Rate Increase for Justice Court Interpreters",
-        "outcome": "adopted",
-        "votes": [
-          {
-            "member": "Joann Waski",
-            "vote": "yes"
-          },
-          {
-            "member": "Denise Merrifield",
-            "vote": "yes"
-          },
-          {
-            "member": "Bob Kern",
-            "vote": "yes"
-          },
-          {
-            "member": "Ken Rothwell",
-            "vote": "yes"
-          },
-          {
-            "member": "Jerry Halpin",
-            "vote": "yes"
-          }
-        ],
-        "unanimous": true,
-        "confidence": "low",
-        "timestamp_s": null,
-        "anchor_quote_unmatched": ""
+        "timestamp_s": 2136
       },
       {
         "kind": "resolution",
@@ -13031,11 +12999,11 @@
           },
           {
             "member": "Bob Kern",
-            "vote": "yes"
+            "vote": "abstain"
           },
           {
             "member": "Ken Rothwell",
-            "vote": "abstain"
+            "vote": "yes"
           },
           {
             "member": "Jerry Halpin",
@@ -13049,7 +13017,7 @@
       {
         "kind": "resolution",
         "number": "2026-376",
-        "title": "Changes the Status of Part-time Police Officers",
+        "title": "Changes Status of Part-time Police Officers",
         "outcome": "adopted",
         "votes": [
           {
@@ -13075,39 +13043,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 2214
-      },
-      {
-        "kind": "resolution",
-        "number": "2026-377",
-        "title": "Appoints Myles Caracciolo to the Agricultural Advisory Committee",
-        "outcome": "adopted",
-        "votes": [
-          {
-            "member": "Joann Waski",
-            "vote": "yes"
-          },
-          {
-            "member": "Denise Merrifield",
-            "vote": "yes"
-          },
-          {
-            "member": "Bob Kern",
-            "vote": "yes"
-          },
-          {
-            "member": "Ken Rothwell",
-            "vote": "yes"
-          },
-          {
-            "member": "Jerry Halpin",
-            "vote": "yes"
-          }
-        ],
-        "unanimous": true,
-        "confidence": "low",
-        "timestamp_s": null,
-        "anchor_quote_unmatched": ""
+        "timestamp_s": 2224
       },
       {
         "kind": "resolution",
@@ -13169,7 +13105,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 2270
+        "timestamp_s": 2277
       },
       {
         "kind": "resolution",
@@ -13267,7 +13203,7 @@
       {
         "kind": "resolution",
         "number": "2026-383",
-        "title": "Reappoints Meagan Bamberger to the Disability Advisory Committee",
+        "title": "Reappoints Megan Bamberger to the Disability Advisory Committee",
         "outcome": "adopted",
         "votes": [
           {
@@ -13484,7 +13420,7 @@
       {
         "kind": "resolution",
         "number": "2026-390",
-        "title": "Authorizes Letter of Intent and Contract for O&M Grant Program to NYS EFC",
+        "title": "Authorizes Letter of Intent for Operation and Maintenance Grant to NYS EFC",
         "outcome": "adopted",
         "votes": [
           {
@@ -13493,10 +13429,6 @@
           },
           {
             "member": "Denise Merrifield",
-            "vote": "yes"
-          },
-          {
-            "member": "Bob Kern",
             "vote": "yes"
           },
           {
@@ -13546,7 +13478,7 @@
       {
         "kind": "resolution",
         "number": "2026-392",
-        "title": "Ratifies MOU with NYS Commodity Supplemental Food Program for 2026",
+        "title": "Ratifies MOU with NYS Commodity Supplemental Food Program 2026",
         "outcome": "adopted",
         "votes": [
           {
@@ -13608,7 +13540,7 @@
       {
         "kind": "resolution",
         "number": "2026-394",
-        "title": "Ratifies Authorization for Supervisor to Execute a Stipulation with an Employee",
+        "title": "Ratifies Authorization for Supervisor to Execute Stipulation with Employee",
         "outcome": "adopted",
         "votes": [
           {
@@ -13639,25 +13571,9 @@
       {
         "kind": "resolution",
         "number": "2026-395",
-        "title": "Authorizes Agreement with Suffolk County Office for the Aging (Home Maintenance/Repair Program)",
+        "title": "Authorizes Agreement with Suffolk County Office for the Aging",
         "outcome": "adopted",
         "votes": [
-          {
-            "member": "Joann Waski",
-            "vote": "yes"
-          },
-          {
-            "member": "Denise Merrifield",
-            "vote": "yes"
-          },
-          {
-            "member": "Bob Kern",
-            "vote": "yes"
-          },
-          {
-            "member": "Ken Rothwell",
-            "vote": "yes"
-          },
           {
             "member": "Jerry Halpin",
             "vote": "yes"
@@ -13665,8 +13581,7 @@
         ],
         "unanimous": true,
         "confidence": "low",
-        "timestamp_s": null,
-        "anchor_quote_unmatched": ""
+        "timestamp_s": 2581
       },
       {
         "kind": "resolution",
@@ -13702,7 +13617,7 @@
       {
         "kind": "resolution",
         "number": "2026-397",
-        "title": "Ratifies Authorization for Professional Services Agreement with Brand Builders Media LLC",
+        "title": "Ratifies Agreement with Brand Builders Media LLC",
         "outcome": "adopted",
         "votes": [
           {
@@ -13764,7 +13679,7 @@
       {
         "kind": "resolution",
         "number": "2026-399",
-        "title": "Approves Chapter 255 Application, Jamesport Fire Department Sound to Bay 5K/10K",
+        "title": "Approves Chapter 255 Application for Jamesport Fire Department Sound to Bay 5K10K",
         "outcome": "adopted",
         "votes": [
           {
@@ -13821,12 +13736,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 2770
+        "timestamp_s": 2771
       },
       {
         "kind": "resolution",
         "number": "2026-401",
-        "title": "Grants Special Permit Approval, Hampton Chitney BESS, 253 Edwards Avenue",
+        "title": "Grants Special Permit Approval for Hampton Chitney Battery Energy Storage System, 253 Edwards Ave",
         "outcome": "adopted",
         "votes": [
           {
@@ -13857,7 +13772,7 @@
       {
         "kind": "resolution",
         "number": "2026-402",
-        "title": "Grants Special Permit Preliminary and Final Site Plan Approval, Scott Avenue Energy Storage System",
+        "title": "Grants Special Permit and Site Plan Approval, Scott Avenue Energy Storage System, 221 Scott Ave",
         "outcome": "adopted",
         "votes": [
           {
@@ -13888,7 +13803,7 @@
       {
         "kind": "resolution",
         "number": "2026-403",
-        "title": "Town Board Determination Findings, Esthetician's Office Used Similar to Professional Office",
+        "title": "Town Board Determination Findings: Esthetician's Office Use Similar to Professional Office",
         "outcome": "adopted",
         "votes": [
           {
@@ -13919,7 +13834,7 @@
       {
         "kind": "resolution",
         "number": "2026-404",
-        "title": "Condemnation/Public Hearing Notice, 111 East Main Street (Science Center)",
+        "title": "Condemnation/Eminent Domain, 111 East Main Street (Science Center)",
         "outcome": "adopted",
         "votes": [
           {
@@ -13950,7 +13865,7 @@
       {
         "kind": "resolution",
         "number": "2026-405",
-        "title": "Ratifies Authorization to Publish Notice of Public Hearing, Riverhead Sewer District Facilities",
+        "title": "Ratifies Publication of Notice of Public Hearing, Riverhead Sewer District Facilities Increase",
         "outcome": "adopted",
         "votes": [
           {
@@ -13981,7 +13896,7 @@
       {
         "kind": "resolution",
         "number": "2026-406",
-        "title": "Authorizes Publication of Notice to Amend Town Code Chapter 301 Commercial Dimensional Regulations",
+        "title": "Authorizes Publication of Notice re: Amend Chapter 301 Commercial Districts Dimensional Regulations",
         "outcome": "adopted",
         "votes": [
           {
@@ -14012,7 +13927,7 @@
       {
         "kind": "resolution",
         "number": "2026-407",
-        "title": "Authorizes Publication of Notice, Local Law Amending Chapter 293 Shellfish and Fin Fish",
+        "title": "Authorizes Publication of Notice to Amend Chapter 293 Waterways, Shellfish and Fin Fish",
         "outcome": "adopted",
         "votes": [
           {
@@ -14043,7 +13958,7 @@
       {
         "kind": "resolution",
         "number": "2026-408",
-        "title": "Ratifies Award of Bid for Town Honda Motors",
+        "title": "Ratifies Award of Bid for Town Honda/Motors",
         "outcome": "adopted",
         "votes": [
           {
@@ -14105,7 +14020,7 @@
       {
         "kind": "resolution",
         "number": "2026-411",
-        "title": "Pays the Bills",
+        "title": "Pay the Bills",
         "outcome": "adopted",
         "votes": [
           {
@@ -14131,44 +14046,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 3050
-      },
-      {
-        "kind": "resolution",
-        "number": "2026-374",
-        "title": "Reappoints a Temporary Office Assistant to the Tax Receiver's Office",
-        "outcome": "adopted",
-        "votes": [
-          {
-            "member": "Joann Waski",
-            "vote": "yes"
-          },
-          {
-            "member": "Denise Merrifield",
-            "vote": "yes"
-          },
-          {
-            "member": "Bob Kern",
-            "vote": "yes"
-          },
-          {
-            "member": "Ken Rothwell",
-            "vote": "yes"
-          },
-          {
-            "member": "Jerry Halpin",
-            "vote": "yes"
-          }
-        ],
-        "unanimous": true,
-        "confidence": "low",
-        "timestamp_s": null,
-        "anchor_quote_unmatched": ""
+        "timestamp_s": 3046
       },
       {
         "kind": "motion",
         "number": null,
-        "title": "Close/adjourn Town Board meeting",
+        "title": "Motion to close Town Board meeting",
         "outcome": "adopted",
         "votes": [],
         "unanimous": false,
@@ -14178,7 +14061,7 @@
       {
         "kind": "motion",
         "number": null,
-        "title": "Open CDA meeting",
+        "title": "Motion to open CDA meeting",
         "outcome": "adopted",
         "votes": [],
         "unanimous": false,

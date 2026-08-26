@@ -13343,7 +13343,7 @@
     "truncated": false,
     "model": "claude-sonnet-5",
     "prompt_version": "1",
-    "generated_at": "2026-08-26T01:55:43+00:00",
+    "generated_at": "2026-08-26T02:32:36+00:00",
     "grounded_in": "Minutes",
     "items": [
       {
@@ -13390,7 +13390,7 @@
       {
         "kind": "motion",
         "number": "2026-764",
-        "title": "Pull Resolution 764 (RVAC Barn Monroe test exemption) off the floor",
+        "title": "Pull Resolution 764 (RVAC Monroe test determination) off the floor",
         "outcome": "adopted",
         "votes": [
           {
@@ -13421,7 +13421,7 @@
       {
         "kind": "hearing_action",
         "number": null,
-        "title": "Amend Chapter 207 Art. IV Commercial Sale of Animals - hearing held open for written comment",
+        "title": "Amend Chapter 207 Commercial Sale of Animals - hearing closed, held open for written comment",
         "outcome": "held",
         "votes": [],
         "unanimous": false,
@@ -13456,9 +13456,8 @@
           }
         ],
         "unanimous": true,
-        "confidence": "low",
-        "timestamp_s": null,
-        "anchor_quote_unmatched": ""
+        "confidence": "high",
+        "timestamp_s": 5867
       },
       {
         "kind": "resolution",
@@ -13488,9 +13487,8 @@
           }
         ],
         "unanimous": true,
-        "confidence": "low",
-        "timestamp_s": null,
-        "anchor_quote_unmatched": ""
+        "confidence": "high",
+        "timestamp_s": 5884
       },
       {
         "kind": "resolution",
@@ -13520,9 +13518,8 @@
           }
         ],
         "unanimous": true,
-        "confidence": "low",
-        "timestamp_s": null,
-        "anchor_quote_unmatched": ""
+        "confidence": "high",
+        "timestamp_s": 5904
       },
       {
         "kind": "resolution",
@@ -13552,9 +13549,8 @@
           }
         ],
         "unanimous": true,
-        "confidence": "low",
-        "timestamp_s": null,
-        "anchor_quote_unmatched": ""
+        "confidence": "high",
+        "timestamp_s": 5919
       },
       {
         "kind": "resolution",
@@ -13584,14 +13580,13 @@
           }
         ],
         "unanimous": true,
-        "confidence": "low",
-        "timestamp_s": null,
-        "anchor_quote_unmatched": ""
+        "confidence": "high",
+        "timestamp_s": 5941
       },
       {
         "kind": "resolution",
         "number": "2026-722",
-        "title": "Authorizes Purchasing Director and Technician to Attend NYSAMPO Conference",
+        "title": "Authorizes Purchasing Director and Technician to Attend NYSAMPO Fall Conference",
         "outcome": "adopted",
         "votes": [
           {
@@ -13616,14 +13611,13 @@
           }
         ],
         "unanimous": true,
-        "confidence": "low",
-        "timestamp_s": null,
-        "anchor_quote_unmatched": ""
+        "confidence": "high",
+        "timestamp_s": 5961
       },
       {
         "kind": "resolution",
         "number": "2026-723",
-        "title": "Ratifies Amendment to Resolution 2026-483 Appointing Temp Account Clerk",
+        "title": "Ratifies Amendment to Resolution #2026-483 Temp Account Clerk Water District",
         "outcome": "adopted",
         "votes": [
           {
@@ -13648,9 +13642,8 @@
           }
         ],
         "unanimous": true,
-        "confidence": "low",
-        "timestamp_s": null,
-        "anchor_quote_unmatched": ""
+        "confidence": "high",
+        "timestamp_s": 5981
       },
       {
         "kind": "resolution",
@@ -13680,14 +13673,13 @@
           }
         ],
         "unanimous": true,
-        "confidence": "low",
-        "timestamp_s": null,
-        "anchor_quote_unmatched": ""
+        "confidence": "high",
+        "timestamp_s": 6002
       },
       {
         "kind": "resolution",
         "number": "2026-725",
-        "title": "Ratifies Amendment of Resolution 2026-442 Approving Leave of Absence",
+        "title": "Ratifies Amendment of Resolution #2026-442 Leave of Absence",
         "outcome": "adopted",
         "votes": [
           {
@@ -13712,14 +13704,13 @@
           }
         ],
         "unanimous": true,
-        "confidence": "low",
-        "timestamp_s": null,
-        "anchor_quote_unmatched": ""
+        "confidence": "high",
+        "timestamp_s": 6024
       },
       {
         "kind": "resolution",
         "number": "2026-726",
-        "title": "Ratifies Termination of a Senior Accountant",
+        "title": "Ratifies the Termination of a Senior Accountant",
         "outcome": "adopted",
         "votes": [
           {
@@ -13744,14 +13735,13 @@
           }
         ],
         "unanimous": true,
-        "confidence": "low",
-        "timestamp_s": null,
-        "anchor_quote_unmatched": ""
+        "confidence": "high",
+        "timestamp_s": 6050
       },
       {
         "kind": "resolution",
         "number": "2026-727",
-        "title": "Ratifies Resignation of a Maintenance Mechanic II",
+        "title": "Ratifies the Resignation of a Maintenance Mechanic II",
         "outcome": "adopted",
         "votes": [
           {
@@ -13776,14 +13766,13 @@
           }
         ],
         "unanimous": true,
-        "confidence": "low",
-        "timestamp_s": null,
-        "anchor_quote_unmatched": ""
+        "confidence": "high",
+        "timestamp_s": 6069
       },
       {
         "kind": "resolution",
         "number": "2026-728",
-        "title": "Ratifies Resignation of a Part-time Court Officer",
+        "title": "Ratifies Acceptance of Resignation of a Part-time Court Officer",
         "outcome": "adopted",
         "votes": [
           {
@@ -13808,14 +13797,13 @@
           }
         ],
         "unanimous": true,
-        "confidence": "low",
-        "timestamp_s": null,
-        "anchor_quote_unmatched": ""
+        "confidence": "high",
+        "timestamp_s": 6076
       },
       {
         "kind": "resolution",
         "number": "2026-729",
-        "title": "Ratifies Resignation of a Part-time Court Officer",
+        "title": "Ratifies and Accepts Resignation of a Part-time Court Officer",
         "outcome": "adopted",
         "votes": [
           {
@@ -13840,9 +13828,8 @@
           }
         ],
         "unanimous": true,
-        "confidence": "low",
-        "timestamp_s": null,
-        "anchor_quote_unmatched": ""
+        "confidence": "high",
+        "timestamp_s": 6092
       },
       {
         "kind": "resolution",
@@ -13872,14 +13859,13 @@
           }
         ],
         "unanimous": true,
-        "confidence": "low",
-        "timestamp_s": null,
-        "anchor_quote_unmatched": ""
+        "confidence": "high",
+        "timestamp_s": 6108
       },
       {
         "kind": "resolution",
         "number": "2026-731",
-        "title": "Accepts Retirement of a Police Detective",
+        "title": "Accepts Retirement of a Police Detective - Henry",
         "outcome": "adopted",
         "votes": [
           {
@@ -13904,14 +13890,13 @@
           }
         ],
         "unanimous": true,
-        "confidence": "low",
-        "timestamp_s": null,
-        "anchor_quote_unmatched": ""
+        "confidence": "high",
+        "timestamp_s": 6123
       },
       {
         "kind": "resolution",
         "number": "2026-732",
-        "title": "Establishes/Increases Membership for Wildlife Management Advisory Committee",
+        "title": "Establishes and Increases Membership for Wildlife Management Advisory Committee",
         "outcome": "adopted",
         "votes": [
           {
@@ -13936,9 +13921,8 @@
           }
         ],
         "unanimous": true,
-        "confidence": "low",
-        "timestamp_s": null,
-        "anchor_quote_unmatched": ""
+        "confidence": "high",
+        "timestamp_s": 6178
       },
       {
         "kind": "resolution",
@@ -13968,14 +13952,13 @@
           }
         ],
         "unanimous": true,
-        "confidence": "low",
-        "timestamp_s": null,
-        "anchor_quote_unmatched": ""
+        "confidence": "high",
+        "timestamp_s": 6202
       },
       {
         "kind": "resolution",
         "number": "2026-734",
-        "title": "Approves Special Event Application - Polish Festival",
+        "title": "Special Event Application - Riverhead Polish Independence Club (Polish Festival)",
         "outcome": "adopted",
         "votes": [
           {
@@ -14000,14 +13983,13 @@
           }
         ],
         "unanimous": true,
-        "confidence": "low",
-        "timestamp_s": null,
-        "anchor_quote_unmatched": ""
+        "confidence": "high",
+        "timestamp_s": 6237
       },
       {
         "kind": "resolution",
         "number": "2026-735",
-        "title": "Approves Special Event Application - Foodie Fest II",
+        "title": "Special Event Application - Foodie Fest Productions (Foodie Fest 2)",
         "outcome": "adopted",
         "votes": [
           {
@@ -14032,14 +14014,13 @@
           }
         ],
         "unanimous": true,
-        "confidence": "low",
-        "timestamp_s": null,
-        "anchor_quote_unmatched": ""
+        "confidence": "high",
+        "timestamp_s": 6254
       },
       {
         "kind": "resolution",
         "number": "2026-736",
-        "title": "Approves Special Event Application - Chicken Kidz Consignment Sale",
+        "title": "Special Event Application - Chicken Kidz LLC",
         "outcome": "adopted",
         "votes": [
           {
@@ -14064,14 +14045,13 @@
           }
         ],
         "unanimous": true,
-        "confidence": "low",
-        "timestamp_s": null,
-        "anchor_quote_unmatched": ""
+        "confidence": "high",
+        "timestamp_s": 6270
       },
       {
         "kind": "resolution",
         "number": "2026-737",
-        "title": "Approves Special Event Application - Sound Stock Music and Vendor Festival",
+        "title": "Special Event Application - New Beginnings Community Center",
         "outcome": "adopted",
         "votes": [
           {
@@ -14096,14 +14076,13 @@
           }
         ],
         "unanimous": true,
-        "confidence": "low",
-        "timestamp_s": null,
-        "anchor_quote_unmatched": ""
+        "confidence": "high",
+        "timestamp_s": 6290
       },
       {
         "kind": "resolution",
         "number": "2026-738",
-        "title": "Approves Special Event Application - Hallockville Country Fair",
+        "title": "Special Event Application - Hallockville Museum Farm (Country Fair)",
         "outcome": "adopted",
         "votes": [
           {
@@ -14128,14 +14107,13 @@
           }
         ],
         "unanimous": true,
-        "confidence": "low",
-        "timestamp_s": null,
-        "anchor_quote_unmatched": ""
+        "confidence": "high",
+        "timestamp_s": 6310
       },
       {
         "kind": "resolution",
         "number": "2026-739",
-        "title": "Approves Special Event Application - Dan's White Party",
+        "title": "Special Event Application - Hallockville Museum Farm (Dan's White Party)",
         "outcome": "adopted",
         "votes": [
           {
@@ -14160,14 +14138,13 @@
           }
         ],
         "unanimous": true,
-        "confidence": "low",
-        "timestamp_s": null,
-        "anchor_quote_unmatched": ""
+        "confidence": "high",
+        "timestamp_s": 6329
       },
       {
         "kind": "resolution",
         "number": "2026-740",
-        "title": "Approves Special Event Application - Fine Fare Customer Appreciation Day",
+        "title": "Special Event Application - Fine Fair Supermarket (Customer Appreciation Day)",
         "outcome": "adopted",
         "votes": [
           {
@@ -14192,14 +14169,13 @@
           }
         ],
         "unanimous": true,
-        "confidence": "low",
-        "timestamp_s": null,
-        "anchor_quote_unmatched": ""
+        "confidence": "high",
+        "timestamp_s": 6351
       },
       {
         "kind": "resolution",
         "number": "2026-741",
-        "title": "Approves Special Event Application - Garlic Festival",
+        "title": "Special Event Application - Waterdrinker Farm (Garlic Festival)",
         "outcome": "adopted",
         "votes": [
           {
@@ -14224,14 +14200,13 @@
           }
         ],
         "unanimous": true,
-        "confidence": "low",
-        "timestamp_s": null,
-        "anchor_quote_unmatched": ""
+        "confidence": "high",
+        "timestamp_s": 6371
       },
       {
         "kind": "resolution",
         "number": "2026-742",
-        "title": "Ratifies Approval of Special Event - Home Depot Plant Sale Extension",
+        "title": "Ratifies Special Event Approval - Home Depot (Extension of Plant Sale)",
         "outcome": "adopted",
         "votes": [
           {
@@ -14256,14 +14231,13 @@
           }
         ],
         "unanimous": true,
-        "confidence": "low",
-        "timestamp_s": null,
-        "anchor_quote_unmatched": ""
+        "confidence": "high",
+        "timestamp_s": 6387
       },
       {
         "kind": "resolution",
         "number": "2026-743",
-        "title": "Approves Special Event Application - Veteran's Day 5K Run Walk",
+        "title": "Special Event Application - Greater NY Running Club (Veteran's Day 5K)",
         "outcome": "adopted",
         "votes": [
           {
@@ -14288,14 +14262,13 @@
           }
         ],
         "unanimous": true,
-        "confidence": "low",
-        "timestamp_s": null,
-        "anchor_quote_unmatched": ""
+        "confidence": "high",
+        "timestamp_s": 6405
       },
       {
         "kind": "resolution",
         "number": "2026-744",
-        "title": "Approves Special Event Application - Darkside Haunted House",
+        "title": "Special Event Application - Darkside Productions (Haunted House)",
         "outcome": "adopted",
         "votes": [
           {
@@ -14320,14 +14293,13 @@
           }
         ],
         "unanimous": true,
-        "confidence": "low",
-        "timestamp_s": null,
-        "anchor_quote_unmatched": ""
+        "confidence": "high",
+        "timestamp_s": 6426
       },
       {
         "kind": "resolution",
         "number": "2026-745",
-        "title": "Approves Fireworks Permit - Riverhead Raceway",
+        "title": "Fireworks Permit - Riverhead Raceway (August 8, 2026)",
         "outcome": "adopted",
         "votes": [
           {
@@ -14352,14 +14324,13 @@
           }
         ],
         "unanimous": true,
-        "confidence": "low",
-        "timestamp_s": null,
-        "anchor_quote_unmatched": ""
+        "confidence": "high",
+        "timestamp_s": 6463
       },
       {
         "kind": "resolution",
         "number": "2026-746",
-        "title": "Grants Special Permit and Site Plan Approval for Peconic River Hotel",
+        "title": "Special Permit and Site Plan Approval - Peconic River Hotel",
         "outcome": "adopted",
         "votes": [
           {
@@ -14384,14 +14355,13 @@
           }
         ],
         "unanimous": true,
-        "confidence": "low",
-        "timestamp_s": null,
-        "anchor_quote_unmatched": ""
+        "confidence": "high",
+        "timestamp_s": 6487
       },
       {
         "kind": "resolution",
         "number": "2026-747",
-        "title": "Assumes Lead Agency, Issues Positive Declaration for Golf Course Zoning Amendments",
+        "title": "Assumes Lead Agency, Positive Declaration - Golf Course Zoning Amendments",
         "outcome": "adopted",
         "votes": [
           {
@@ -14416,14 +14386,13 @@
           }
         ],
         "unanimous": true,
-        "confidence": "low",
-        "timestamp_s": null,
-        "anchor_quote_unmatched": ""
+        "confidence": "high",
+        "timestamp_s": 6709
       },
       {
         "kind": "resolution",
         "number": "2026-748",
-        "title": "Accepts Draft Scope on Golf Course Zoning Amendments",
+        "title": "Accepts Draft Scope - Golf Course Zoning Amendments Comment Period",
         "outcome": "adopted",
         "votes": [
           {
@@ -14448,14 +14417,13 @@
           }
         ],
         "unanimous": true,
-        "confidence": "low",
-        "timestamp_s": null,
-        "anchor_quote_unmatched": ""
+        "confidence": "high",
+        "timestamp_s": 6726
       },
       {
         "kind": "resolution",
         "number": "2026-749",
-        "title": "Grants State of NY authority to perform assessment adjustment",
+        "title": "Granting State of NY Authority to Perform Adjustment and Maintain Facilities",
         "outcome": "adopted",
         "votes": [
           {
@@ -14486,7 +14454,7 @@
       {
         "kind": "resolution",
         "number": "2026-750",
-        "title": "Approves submission of grant application to NYS Unified Court System JCAP grant",
+        "title": "Grant Application to NY State Unified Court System - JCAP Grant",
         "outcome": "adopted",
         "votes": [
           {
@@ -14517,7 +14485,7 @@
       {
         "kind": "resolution",
         "number": "2026-751",
-        "title": "Authorizes Community Development Dept to apply for NY Kicks funding",
+        "title": "Authorizes CD Department to Apply for Empire State NY Kicks Funding",
         "outcome": "adopted",
         "votes": [
           {
@@ -14548,7 +14516,7 @@
       {
         "kind": "resolution",
         "number": "2026-752",
-        "title": "Ratifies authorization to apply for NYS EFC WIA funding for Water Main 96",
+        "title": "Ratifies Authorization to Apply for NYS EFC Funding - Water Main Calverton",
         "outcome": "adopted",
         "votes": [
           {
@@ -14579,7 +14547,7 @@
       {
         "kind": "resolution",
         "number": "2026-753",
-        "title": "Order for public hearing - increase/improvement of Riverhead Ambulance District facilities, as amended",
+        "title": "Order Calling for Public Hearing - Riverhead Ambulance District Improvements",
         "outcome": "amended",
         "votes": [
           {
@@ -14610,7 +14578,7 @@
       {
         "kind": "resolution",
         "number": "2026-754",
-        "title": "Authorizes Town Clerk to publish notice of hearing - amend Chapter 301 Business PB",
+        "title": "Authorizes Town Clerk to Publish Notice re: Chapter 301 Business PB",
         "outcome": "adopted",
         "votes": [
           {
@@ -14641,7 +14609,7 @@
       {
         "kind": "resolution",
         "number": "2026-755",
-        "title": "Adopts local law amending Chapter 289 Parking Standing Stopping",
+        "title": "Adopts Local Law Amending Chapter 289 Vehicles Traffic and Parking",
         "outcome": "adopted",
         "votes": [
           {
@@ -14667,12 +14635,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 7077
+        "timestamp_s": 7072
       },
       {
         "kind": "resolution",
         "number": "2026-756",
-        "title": "Professional services agreement with Sound Engineering - Osborne/Harrison Ave signal design",
+        "title": "Professional Services Agreement - Sound Engineering, Osborne/Harrison Ave Signal",
         "outcome": "adopted",
         "votes": [
           {
@@ -14698,12 +14666,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 7100
+        "timestamp_s": 7094
       },
       {
         "kind": "resolution",
         "number": "2026-757",
-        "title": "Professional services agreement with Sound Engineering - South Jamesport/Railroad Ave signal design",
+        "title": "Professional Services Agreement - Sound Engineering, S. Jamesport/Railroad Ave Signal",
         "outcome": "adopted",
         "votes": [
           {
@@ -14734,7 +14702,7 @@
       {
         "kind": "resolution",
         "number": "2026-758",
-        "title": "License agreement with East Coast Lumberjacks LLC for baseball field",
+        "title": "License Agreement - East Coast Lumberjacks LLC, Memorial Park Baseball Field",
         "outcome": "adopted",
         "votes": [
           {
@@ -14765,7 +14733,7 @@
       {
         "kind": "resolution",
         "number": "2026-759",
-        "title": "Addendum to short-term runway use agreement for Motorsports Classic",
+        "title": "Addendum to Short-Term Runway Use Agreement - Summer Motorsports Classic",
         "outcome": "adopted",
         "votes": [
           {
@@ -14791,12 +14759,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 7172
+        "timestamp_s": 7164
       },
       {
         "kind": "resolution",
         "number": "2026-760",
-        "title": "Settlement of legal action - United Riverhead Terminal",
+        "title": "Settlement of Legal Action - United Riverhead Terminal, Inc.",
         "outcome": "adopted",
         "votes": [
           {
@@ -14822,12 +14790,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 7195
+        "timestamp_s": 7191
       },
       {
         "kind": "resolution",
         "number": "2026-761",
-        "title": "Pay the bills",
+        "title": "Pays the Bills",
         "outcome": "adopted",
         "votes": [
           {
@@ -14853,12 +14821,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 7210
+        "timestamp_s": 7214
       },
       {
         "kind": "resolution",
         "number": "2026-762",
-        "title": "Ratifies budget adjustment for funding source - Town Square pay down",
+        "title": "Ratifies Budget Adjustment - Funding Source for Town Square Bond Paydown",
         "outcome": "adopted",
         "votes": [
           {
@@ -14884,12 +14852,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 7230
+        "timestamp_s": 7228
       },
       {
         "kind": "resolution",
         "number": "2026-763",
-        "title": "Promotes an employee to Accountant, as amended",
+        "title": "Promotes an Employee to Accountant",
         "outcome": "amended",
         "votes": [
           {
@@ -14915,7 +14883,17 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 7301
+        "timestamp_s": 7288
+      },
+      {
+        "kind": "hearing_action",
+        "number": null,
+        "title": "Amend Chapter 207, Art. IV - Commercial Sale of Animals",
+        "outcome": "held",
+        "votes": [],
+        "unanimous": false,
+        "confidence": "low",
+        "timestamp_s": 2874
       }
     ]
   }

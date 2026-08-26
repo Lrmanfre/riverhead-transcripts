@@ -16196,13 +16196,13 @@
     "truncated": false,
     "model": "claude-sonnet-5",
     "prompt_version": "1",
-    "generated_at": "2026-08-26T01:40:45+00:00",
+    "generated_at": "2026-08-26T02:55:15+00:00",
     "grounded_in": "Minutes",
     "items": [
       {
         "kind": "hearing_action",
         "number": null,
-        "title": "Unsafe Structure, 39 Pye Lane, Jamesport",
+        "title": "Chapter 217 Unsafe Structure - 39 Pye Lane",
         "outcome": "held",
         "votes": [],
         "unanimous": false,
@@ -16212,7 +16212,7 @@
       {
         "kind": "hearing_action",
         "number": null,
-        "title": "Amendment Chapter 301, Art. LVI, Site Plan Review fees",
+        "title": "Amendment Chapter 301 Art. LVI Site Plan Review fees",
         "outcome": "held",
         "votes": [],
         "unanimous": false,
@@ -16223,7 +16223,7 @@
       {
         "kind": "resolution",
         "number": "2025-749",
-        "title": "Budget Adoption for Capital Project #72515 at Two Bears Park",
+        "title": "Budget Adoption for Capital Project #72515 Improvements at Two Bears Park",
         "outcome": "adopted",
         "votes": [
           {
@@ -16249,12 +16249,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 6090
+        "timestamp_s": 6051
       },
       {
         "kind": "resolution",
         "number": "2025-750",
-        "title": "Authorizes the Removal of Fixed Assets",
+        "title": "Authorizes The Removal of Fixed Assets",
         "outcome": "adopted",
         "votes": [
           {
@@ -16280,15 +16280,32 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 6090
+        "timestamp_s": 6082
       },
       {
         "kind": "resolution",
         "number": "2025-751",
         "title": "Use RVAC Medical Billing Proceeds for Architectural Services",
         "outcome": "adopted",
-        "votes": [],
-        "unanimous": false,
+        "votes": [
+          {
+            "member": "Joann Waski",
+            "vote": "yes"
+          },
+          {
+            "member": "Denise Merrifield",
+            "vote": "yes"
+          },
+          {
+            "member": "Bob Kern",
+            "vote": "yes"
+          },
+          {
+            "member": "Ken Rothwell",
+            "vote": "yes"
+          }
+        ],
+        "unanimous": true,
         "confidence": "low",
         "timestamp_s": null,
         "anchor_quote_unmatched": ""
@@ -16322,7 +16339,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 6140
+        "timestamp_s": 6135
       },
       {
         "kind": "resolution",
@@ -16353,12 +16370,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 6140
+        "timestamp_s": 6155
       },
       {
         "kind": "resolution",
         "number": "2025-754",
-        "title": "Ratifies Promotion of Building Inspector to Senior Building Inspector",
+        "title": "Ratifies the Promotion of a Building Inspector to Senior Building Inspector",
         "outcome": "adopted",
         "votes": [
           {
@@ -16384,7 +16401,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 6140
+        "timestamp_s": 6181
       },
       {
         "kind": "resolution",
@@ -16415,15 +16432,32 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 6140
+        "timestamp_s": 6198
       },
       {
         "kind": "resolution",
         "number": "2025-756",
         "title": "Ratifies Resignation of an Automotive Equipment Operator",
         "outcome": "adopted",
-        "votes": [],
-        "unanimous": false,
+        "votes": [
+          {
+            "member": "Joann Waski",
+            "vote": "yes"
+          },
+          {
+            "member": "Denise Merrifield",
+            "vote": "yes"
+          },
+          {
+            "member": "Bob Kern",
+            "vote": "yes"
+          },
+          {
+            "member": "Ken Rothwell",
+            "vote": "yes"
+          }
+        ],
+        "unanimous": true,
         "confidence": "low",
         "timestamp_s": null,
         "anchor_quote_unmatched": ""
@@ -16431,7 +16465,7 @@
       {
         "kind": "resolution",
         "number": "2025-757",
-        "title": "Appoints John Condzella to Agricultural Advisory Committee",
+        "title": "Appoints John Condzella to the Agricultural Advisory Committee",
         "outcome": "adopted",
         "votes": [
           {
@@ -16451,14 +16485,13 @@
             "vote": "yes"
           },
           {
-            "member": "Halpin",
+            "member": "Tim Hubbard",
             "vote": "yes"
           }
         ],
         "unanimous": false,
-        "confidence": "low",
-        "timestamp_s": null,
-        "anchor_quote_unmatched": ""
+        "confidence": "high",
+        "timestamp_s": 6234
       },
       {
         "kind": "resolution",
@@ -16471,13 +16504,22 @@
             "vote": "yes"
           },
           {
-            "member": "Tim Hubbard",
+            "member": "Denise Merrifield",
+            "vote": "yes"
+          },
+          {
+            "member": "Bob Kern",
+            "vote": "yes"
+          },
+          {
+            "member": "Ken Rothwell",
             "vote": "yes"
           }
         ],
         "unanimous": true,
         "confidence": "low",
-        "timestamp_s": 6782
+        "timestamp_s": null,
+        "anchor_quote_unmatched": ""
       },
       {
         "kind": "resolution",
@@ -16503,8 +16545,9 @@
           }
         ],
         "unanimous": true,
-        "confidence": "high",
-        "timestamp_s": 6796
+        "confidence": "low",
+        "timestamp_s": null,
+        "anchor_quote_unmatched": ""
       },
       {
         "kind": "resolution",
@@ -16530,16 +16573,34 @@
           }
         ],
         "unanimous": true,
-        "confidence": "high",
-        "timestamp_s": 6812
+        "confidence": "low",
+        "timestamp_s": null,
+        "anchor_quote_unmatched": ""
       },
       {
         "kind": "resolution",
         "number": "2025-761",
         "title": "Ratifies Reappointment of Phil Schmitt to Agricultural Advisory Committee",
         "outcome": "adopted",
-        "votes": [],
-        "unanimous": false,
+        "votes": [
+          {
+            "member": "Joann Waski",
+            "vote": "yes"
+          },
+          {
+            "member": "Denise Merrifield",
+            "vote": "yes"
+          },
+          {
+            "member": "Bob Kern",
+            "vote": "yes"
+          },
+          {
+            "member": "Ken Rothwell",
+            "vote": "yes"
+          }
+        ],
+        "unanimous": true,
         "confidence": "low",
         "timestamp_s": null,
         "anchor_quote_unmatched": ""
@@ -16547,7 +16608,7 @@
       {
         "kind": "resolution",
         "number": "2025-762",
-        "title": "Authorizes Consultant/Professional Services Agreement with Brad Hammond, as amended",
+        "title": "Authorizes Supervisor to Sign Consultant/Professional Services Agreement with Brad Hammond",
         "outcome": "adopted",
         "votes": [
           {
@@ -16573,12 +16634,12 @@
         ],
         "unanimous": false,
         "confidence": "high",
-        "timestamp_s": 7302
+        "timestamp_s": 7326
       },
       {
         "kind": "resolution",
         "number": "2025-763",
-        "title": "Ratifies Authorization to Apply for a National Council on Aging Grant",
+        "title": "Ratifies Authorization to Apply for a Grant Offered by the National Council on Aging",
         "outcome": "adopted",
         "votes": [
           {
@@ -16604,12 +16665,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 7345
+        "timestamp_s": 7338
       },
       {
         "kind": "resolution",
         "number": "2025-764",
-        "title": "Authorizes Demolition/Abatement of Unsafe Structure at 39 Pye Lane, Jamesport",
+        "title": "Authorizes Demolition/Removal/Abatement of Unsafe Structure at 39 Pye Lane",
         "outcome": "adopted",
         "votes": [
           {
@@ -16640,7 +16701,7 @@
       {
         "kind": "resolution",
         "number": "2025-765",
-        "title": "Authorizes RFP for Construction Manager for RVAC Headquarters Building",
+        "title": "Authorizes Town Clerk to Publish RFP for Construction Manager for RVAC HQ",
         "outcome": "adopted",
         "votes": [
           {
@@ -16666,12 +16727,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 7412
+        "timestamp_s": 7413
       },
       {
         "kind": "resolution",
         "number": "2025-766",
-        "title": "Authorizes Notice to Bidders for Food and Meat Products",
+        "title": "Authorizes Town Clerk to Publish Notice to Bidders for Food and Meat Products",
         "outcome": "adopted",
         "votes": [
           {
@@ -16697,15 +16758,32 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 7431
+        "timestamp_s": 7433
       },
       {
         "kind": "resolution",
         "number": "2025-767",
         "title": "Extends Bid Nunc Pro Tunc for Propane Fuel and Equipment Maintenance",
         "outcome": "adopted",
-        "votes": [],
-        "unanimous": false,
+        "votes": [
+          {
+            "member": "Joann Waski",
+            "vote": "yes"
+          },
+          {
+            "member": "Denise Merrifield",
+            "vote": "yes"
+          },
+          {
+            "member": "Bob Kern",
+            "vote": "yes"
+          },
+          {
+            "member": "Ken Rothwell",
+            "vote": "yes"
+          }
+        ],
+        "unanimous": true,
         "confidence": "low",
         "timestamp_s": null,
         "anchor_quote_unmatched": ""
@@ -16713,11 +16791,15 @@
       {
         "kind": "resolution",
         "number": "2025-768",
-        "title": "Extends Bid for Well and Pump Testing for Riverhead Water District",
+        "title": "Extends Bid for Well and Pump Testing, Riverhead Water District",
         "outcome": "adopted",
         "votes": [
           {
             "member": "Joann Waski",
+            "vote": "yes"
+          },
+          {
+            "member": "Denise Merrifield",
             "vote": "yes"
           },
           {
@@ -16727,24 +16809,25 @@
           {
             "member": "Ken Rothwell",
             "vote": "yes"
-          },
-          {
-            "member": "Tim Hubbard",
-            "vote": "yes"
           }
         ],
         "unanimous": true,
-        "confidence": "high",
-        "timestamp_s": 7478
+        "confidence": "low",
+        "timestamp_s": null,
+        "anchor_quote_unmatched": ""
       },
       {
         "kind": "resolution",
         "number": "2025-769",
-        "title": "Authorizes Stipulation with Local 1000 AFSCME AFL-CIO Riverhead Unit",
+        "title": "Authorizes Stipulation with Local 1000 AFSCME AFL-CIO Unit 3852",
         "outcome": "adopted",
         "votes": [
           {
             "member": "Joann Waski",
+            "vote": "yes"
+          },
+          {
+            "member": "Denise Merrifield",
             "vote": "yes"
           },
           {
@@ -16754,15 +16837,12 @@
           {
             "member": "Ken Rothwell",
             "vote": "yes"
-          },
-          {
-            "member": "Tim Hubbard",
-            "vote": "yes"
           }
         ],
         "unanimous": true,
-        "confidence": "high",
-        "timestamp_s": 7530
+        "confidence": "low",
+        "timestamp_s": null,
+        "anchor_quote_unmatched": ""
       },
       {
         "kind": "resolution",
@@ -16793,7 +16873,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 7545
+        "timestamp_s": 7540
       },
       {
         "kind": "resolution",
@@ -16824,15 +16904,32 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 7545
+        "timestamp_s": 7557
       },
       {
         "kind": "resolution",
         "number": "2025-772",
         "title": "Local Law Amending Chapter 289 Vehicles, Traffic and Parking Penalties",
         "outcome": "adopted",
-        "votes": [],
-        "unanimous": false,
+        "votes": [
+          {
+            "member": "Joann Waski",
+            "vote": "yes"
+          },
+          {
+            "member": "Denise Merrifield",
+            "vote": "yes"
+          },
+          {
+            "member": "Bob Kern",
+            "vote": "yes"
+          },
+          {
+            "member": "Ken Rothwell",
+            "vote": "yes"
+          }
+        ],
+        "unanimous": true,
         "confidence": "low",
         "timestamp_s": null,
         "anchor_quote_unmatched": ""
@@ -16840,7 +16937,7 @@
       {
         "kind": "resolution",
         "number": "2025-773",
-        "title": "Adopts Local Law Amending Chapter 251 Noise Article I",
+        "title": "Adopts Local Law Amending Chapter 251 Noise",
         "outcome": "adopted",
         "votes": [
           {
@@ -16866,12 +16963,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 7545
+        "timestamp_s": 7578
       },
       {
         "kind": "resolution",
         "number": "2025-774",
-        "title": "Adopts Local Law Amending Chapter 301 Article XVIIA Community Benefit Zoning Use District",
+        "title": "Adopts Local Law Amending Chapter 301 Community Benefit Zoning Use District",
         "outcome": "adopted",
         "votes": [
           {
@@ -16897,7 +16994,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 7646
+        "timestamp_s": 7655
       },
       {
         "kind": "resolution",
@@ -16928,15 +17025,32 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 7674
+        "timestamp_s": 7667
       },
       {
         "kind": "resolution",
         "number": "2025-776",
         "title": "Authorizes 2025 Bow Hunting for Deer on Town Property",
         "outcome": "adopted",
-        "votes": [],
-        "unanimous": false,
+        "votes": [
+          {
+            "member": "Joann Waski",
+            "vote": "yes"
+          },
+          {
+            "member": "Denise Merrifield",
+            "vote": "yes"
+          },
+          {
+            "member": "Bob Kern",
+            "vote": "yes"
+          },
+          {
+            "member": "Ken Rothwell",
+            "vote": "yes"
+          }
+        ],
+        "unanimous": true,
         "confidence": "low",
         "timestamp_s": null,
         "anchor_quote_unmatched": ""
@@ -16970,33 +17084,13 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 6090
-      },
-      {
-        "kind": "hearing_action",
-        "number": null,
-        "title": "Chapter 217 Unsafe Structure Public Hearing",
-        "outcome": "held",
-        "votes": [],
-        "unanimous": false,
-        "confidence": "low",
-        "timestamp_s": 5870
+        "timestamp_s": 7741
       },
       {
         "kind": "motion",
         "number": null,
-        "title": "Amend name in consultant agreement resolution",
+        "title": "Motion to table Consultant Agreement with Brad Hammond (no second)",
         "outcome": "withdrawn",
-        "votes": [],
-        "unanimous": false,
-        "confidence": "low",
-        "timestamp_s": 6980
-      },
-      {
-        "kind": "motion",
-        "number": null,
-        "title": "Table the Brad Hammond consultant agreement resolution",
-        "outcome": "defeated",
         "votes": [],
         "unanimous": false,
         "confidence": "low",
@@ -17005,8 +17099,8 @@
       {
         "kind": "motion",
         "number": null,
-        "title": "Amend resolution 762 to change title to building plans examiner",
-        "outcome": "amended",
+        "title": "Amendment to change title to Building Plans Examiner in resolution",
+        "outcome": "adopted",
         "votes": [],
         "unanimous": false,
         "confidence": "low",

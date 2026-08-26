@@ -26137,9 +26137,80 @@
     "truncated": false,
     "model": "claude-sonnet-5",
     "prompt_version": "1",
-    "generated_at": "2026-08-26T01:30:08+00:00",
+    "generated_at": "2026-08-26T02:48:40+00:00",
     "grounded_in": "Minutes",
     "items": [
+      {
+        "kind": "hearing_action",
+        "number": null,
+        "title": "Public Hearing - 111 East Main St Eminent Domain",
+        "outcome": "held",
+        "votes": [
+          {
+            "member": "Joann Waski",
+            "vote": "yes"
+          },
+          {
+            "member": "Denise Merrifield",
+            "vote": "yes"
+          },
+          {
+            "member": "Bob Kern",
+            "vote": "yes"
+          },
+          {
+            "member": "Ken Rothwell",
+            "vote": "yes"
+          },
+          {
+            "member": "Jerry Halpin",
+            "vote": "yes"
+          }
+        ],
+        "unanimous": true,
+        "confidence": "high",
+        "timestamp_s": 9791
+      },
+      {
+        "kind": "hearing_action",
+        "number": null,
+        "title": "Public Hearing - Amend Chapter 301, Art XVII, Business F",
+        "outcome": "held",
+        "votes": [],
+        "unanimous": false,
+        "confidence": "low",
+        "timestamp_s": 10894
+      },
+      {
+        "kind": "hearing_action",
+        "number": null,
+        "title": "Public Hearing - Amend Chapter 301, Part 3, Supplementary Regulations",
+        "outcome": "held",
+        "votes": [],
+        "unanimous": false,
+        "confidence": "low",
+        "timestamp_s": 11752
+      },
+      {
+        "kind": "hearing_action",
+        "number": null,
+        "title": "Public Hearing - Amend Chapter 293 Shellfish and Finfish",
+        "outcome": "held",
+        "votes": [],
+        "unanimous": false,
+        "confidence": "low",
+        "timestamp_s": 11752
+      },
+      {
+        "kind": "hearing_action",
+        "number": null,
+        "title": "Public Hearing - Amend Chapter 231 Art IV Fire Prevention",
+        "outcome": "held",
+        "votes": [],
+        "unanimous": false,
+        "confidence": "low",
+        "timestamp_s": 11877
+      },
       {
         "kind": "resolution",
         "number": "2026-470",
@@ -26399,7 +26470,7 @@
       {
         "kind": "resolution",
         "number": "2026-478",
-        "title": "Approves Attendance of One Police Department Employee to Attend a Seminar",
+        "title": "Approves Attendance of One Police Department Employee at a Seminar",
         "outcome": "adopted",
         "votes": [
           {
@@ -26719,7 +26790,7 @@
       {
         "kind": "resolution",
         "number": "2026-488",
-        "title": "Ratifies Termination of an Employee",
+        "title": "Ratifies the Termination of an Employee",
         "outcome": "adopted",
         "votes": [
           {
@@ -26751,7 +26822,7 @@
       {
         "kind": "resolution",
         "number": "2026-489",
-        "title": "Accepts Resignation of a Maintenance Mechanic II",
+        "title": "Accepts the Resignation of a Maintenance Mechanic II",
         "outcome": "adopted",
         "votes": [
           {
@@ -26776,80 +26847,8 @@
           }
         ],
         "unanimous": true,
-        "confidence": "low",
-        "timestamp_s": null,
-        "anchor_quote_unmatched": ""
-      },
-      {
-        "kind": "hearing_action",
-        "number": null,
-        "title": "Public Hearing - 111 East Main St Eminent Domain",
-        "outcome": "held",
-        "votes": [
-          {
-            "member": "Joann Waski",
-            "vote": "yes"
-          },
-          {
-            "member": "Denise Merrifield",
-            "vote": "yes"
-          },
-          {
-            "member": "Bob Kern",
-            "vote": "yes"
-          },
-          {
-            "member": "Ken Rothwell",
-            "vote": "yes"
-          },
-          {
-            "member": "Jerry Halpin",
-            "vote": "yes"
-          }
-        ],
-        "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 9791
-      },
-      {
-        "kind": "hearing_action",
-        "number": null,
-        "title": "Public Hearing - Amend Chapter 301, Art XVII, Business F",
-        "outcome": "held",
-        "votes": [],
-        "unanimous": false,
-        "confidence": "low",
-        "timestamp_s": 9734
-      },
-      {
-        "kind": "hearing_action",
-        "number": null,
-        "title": "Public Hearing - Amend Chapter 301, Part 3, Supplementary Regulations",
-        "outcome": "held",
-        "votes": [],
-        "unanimous": false,
-        "confidence": "low",
-        "timestamp_s": 10894
-      },
-      {
-        "kind": "hearing_action",
-        "number": null,
-        "title": "Public Hearing - Amend Chapter 293 - Shellfish and Finfish",
-        "outcome": "held",
-        "votes": [],
-        "unanimous": false,
-        "confidence": "low",
-        "timestamp_s": 9762
-      },
-      {
-        "kind": "hearing_action",
-        "number": null,
-        "title": "Public Hearing - Amend Chapter 231, Art IV - Fire Prevention",
-        "outcome": "held",
-        "votes": [],
-        "unanimous": false,
-        "confidence": "low",
-        "timestamp_s": 9762
+        "timestamp_s": 13501
       },
       {
         "kind": "resolution",
@@ -26911,7 +26910,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 13535
+        "timestamp_s": 13539
       },
       {
         "kind": "resolution",
@@ -26947,7 +26946,7 @@
       {
         "kind": "resolution",
         "number": "2026-495",
-        "title": "Reappoint Shannon Reese to the Recreation Advisory Committee",
+        "title": "Reappoints Shannon Reese to the Recreation Advisory Committee",
         "outcome": "adopted",
         "votes": [
           {
@@ -26973,7 +26972,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 13604
+        "timestamp_s": 13607
       },
       {
         "kind": "resolution",
@@ -27004,7 +27003,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 13620
+        "timestamp_s": 13622
       },
       {
         "kind": "resolution",
@@ -27035,7 +27034,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 13634
+        "timestamp_s": 13637
       },
       {
         "kind": "resolution",
@@ -27097,12 +27096,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 13682
+        "timestamp_s": 13684
       },
       {
         "kind": "resolution",
         "number": "2026-500",
-        "title": "Authorizes RFQ for Engineering Services for Water Mains Boundary Extensions",
+        "title": "Authorizes Town Clerk to Publish RFQ for Engineering Services, Water District Boundary Extensions",
         "outcome": "adopted",
         "votes": [
           {
@@ -27133,7 +27132,7 @@
       {
         "kind": "resolution",
         "number": "2026-501",
-        "title": "Authorizes Publish/Post Notice for Public Hearing - Special Permit and Site Plan Application",
+        "title": "Authorizes Publication of Notice for Public Hearing, Special Permit and Site Plan Application",
         "outcome": "adopted",
         "votes": [
           {
@@ -27154,13 +27153,13 @@
           }
         ],
         "unanimous": true,
-        "confidence": "high",
+        "confidence": "low",
         "timestamp_s": 13734
       },
       {
         "kind": "resolution",
         "number": "2026-502",
-        "title": "Local Law Amending Chapter 279 - Volunteer Firefighters and Ambulance Workers Exemption",
+        "title": "Adopts Local Law Amending Chapter 279, Exemption for Volunteer Firefighters/Ambulance Workers",
         "outcome": "adopted",
         "votes": [
           {
@@ -27186,12 +27185,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 13779
+        "timestamp_s": 13781
       },
       {
         "kind": "resolution",
         "number": "2026-503",
-        "title": "Local Law Amending Chapter 273 - Solid Waste Article 5",
+        "title": "Adopts Local Law Amending Chapter 273, Solid Waste Article 5",
         "outcome": "adopted",
         "votes": [
           {
@@ -27217,7 +27216,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 13803
+        "timestamp_s": 13807
       },
       {
         "kind": "resolution",
@@ -27248,12 +27247,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 13820
+        "timestamp_s": 13824
       },
       {
         "kind": "resolution",
         "number": "2026-505",
-        "title": "Grants Extension of Final Site Plan Approval - Zenith Building 12 McDermott Avenue",
+        "title": "Grants Extension of Final Site Plan Approval for Zenith Building, 12 McDermott Avenue",
         "outcome": "adopted",
         "votes": [
           {
@@ -27270,13 +27269,13 @@
           }
         ],
         "unanimous": true,
-        "confidence": "high",
+        "confidence": "low",
         "timestamp_s": 13844
       },
       {
         "kind": "resolution",
         "number": "2026-507",
-        "title": "Approve Special Event Application - Racetrack Not Street 2027 Summer Classic",
+        "title": "Approve Special Event Application for Racetrack Not Street 2027 Summer Classic",
         "outcome": "adopted",
         "votes": [
           {
@@ -27307,7 +27306,7 @@
       {
         "kind": "resolution",
         "number": "2026-508",
-        "title": "Approve Special Event Application - Railroad Museum of Long Island Riverhead Railroad Festival 2026",
+        "title": "Approve Special Event Application for Railroad Museum of Long Island Riverhead Railroad Festival 2026",
         "outcome": "adopted",
         "votes": [
           {
@@ -27328,13 +27327,13 @@
           }
         ],
         "unanimous": true,
-        "confidence": "high",
-        "timestamp_s": 13912
+        "confidence": "low",
+        "timestamp_s": 13914
       },
       {
         "kind": "resolution",
         "number": "2026-511",
-        "title": "Approve Special Event Application - Railroad Museum Memorial and Historical Markers",
+        "title": "Approve Special Event Application for Railroad Museum Memorial and Historical Markers",
         "outcome": "adopted",
         "votes": [
           {
@@ -27360,12 +27359,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 13971
+        "timestamp_s": 13975
       },
       {
         "kind": "resolution",
         "number": "2026-512",
-        "title": "Approve Special Event Application - Little Flower Summer Festival",
+        "title": "Approve Special Event Application for Little Flower Summer Festival",
         "outcome": "adopted",
         "votes": [
           {
@@ -27391,12 +27390,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 13995
+        "timestamp_s": 13993
       },
       {
         "kind": "resolution",
         "number": "2026-513",
-        "title": "Approve Special Event Application - Jamesport Firemen's Association Annual Carnival Bazaar",
+        "title": "Approve Special Event Application for Jamesport Firemen's Association Annual Carnival Bazaar",
         "outcome": "adopted",
         "votes": [
           {
@@ -27427,7 +27426,7 @@
       {
         "kind": "resolution",
         "number": "2026-514",
-        "title": "Authorizes Co-sponsorship of Duck Pond Day",
+        "title": "Authorizes Co-sponsorship of Duck Pond Day 2026",
         "outcome": "adopted",
         "votes": [
           {
@@ -27458,7 +27457,7 @@
       {
         "kind": "resolution",
         "number": "2026-515",
-        "title": "Authorizes Designated Alcohol Service Vendors - Community Mosaic Street Painting Festival 2026",
+        "title": "Authorizes Alcohol Service Vendors for Community Mosaic Street Painting Festival 2026",
         "outcome": "adopted",
         "votes": [
           {
@@ -27489,7 +27488,7 @@
       {
         "kind": "resolution",
         "number": "2026-516",
-        "title": "Authorizes Designated Alcohol Service Vendors - 2026 Duck Pond Day Street Festival",
+        "title": "Authorizes Alcohol Service Vendors for 2026 Duck Pond Day Street Festival",
         "outcome": "adopted",
         "votes": [
           {
@@ -27551,7 +27550,7 @@
       {
         "kind": "resolution",
         "number": "2026-519",
-        "title": "Authorizes Supervisor to Sign Payment in Lieu of Taxes Agreement with LIPA 2025-2026",
+        "title": "Authorizes Supervisor to Sign Agreement with LIPA for 2025-2026 PILOT",
         "outcome": "adopted",
         "votes": [
           {
@@ -27582,7 +27581,7 @@
       {
         "kind": "resolution",
         "number": "2026-520",
-        "title": "Authorizes Supervisor to Execute Letter of Intent with YMCA for Former Armory Redevelopment",
+        "title": "Authorizes Supervisor to Execute Letter of Intent with YMCA for 1405 Old Country Road",
         "outcome": "adopted",
         "votes": [
           {
@@ -27644,20 +27643,16 @@
       {
         "kind": "resolution",
         "number": "2026-522",
-        "title": "Budget Adjustment for Part-Time Staff for Code Enforcement and Town Attorneys",
+        "title": "Budget Adjustment for Part-time Staff, Code Enforcement and Town Attorney's Office",
         "outcome": "adopted",
         "votes": [
-          {
-            "member": "Joann Waski",
-            "vote": "yes"
-          },
           {
             "member": "Jerry Halpin",
             "vote": "yes"
           }
         ],
         "unanimous": true,
-        "confidence": "high",
+        "confidence": "low",
         "timestamp_s": 14223
       },
       {
@@ -27694,7 +27689,7 @@
       {
         "kind": "resolution",
         "number": "2026-524",
-        "title": "Appoint Part-Time Code Enforcement Officers",
+        "title": "Appoint Part-time Code Enforcement Officers",
         "outcome": "adopted",
         "votes": [
           {
@@ -27720,7 +27715,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 14256
+        "timestamp_s": 14258
       },
       {
         "kind": "resolution",
@@ -27797,7 +27792,7 @@
       {
         "kind": "motion",
         "number": null,
-        "title": "CDA motion to open meeting",
+        "title": "CDA - Motion to open meeting",
         "outcome": "adopted",
         "votes": [
           {

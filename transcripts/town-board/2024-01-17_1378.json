@@ -18086,23 +18086,23 @@
     "truncated": false,
     "model": "claude-sonnet-5",
     "prompt_version": "1",
-    "generated_at": "2026-08-26T01:43:31+00:00",
+    "generated_at": "2026-08-26T03:05:47+00:00",
     "grounded_in": "Minutes",
     "items": [
       {
         "kind": "motion",
         "number": null,
-        "title": "Accept minutes of January 3, 2024 meeting",
+        "title": "Accept minutes of January 3, 2024 Town Board meeting",
         "outcome": "adopted",
         "votes": [],
         "unanimous": false,
         "confidence": "low",
-        "timestamp_s": 611
+        "timestamp_s": 492
       },
       {
         "kind": "motion",
         "number": null,
-        "title": "Close Town Board meeting to open CDA meeting",
+        "title": "Close Town Board meeting and open CDA meeting",
         "outcome": "adopted",
         "votes": [
           {
@@ -18120,24 +18120,28 @@
           {
             "member": "Ken Rothwell",
             "vote": "yes"
+          },
+          {
+            "member": "Halpin",
+            "vote": "yes"
           }
         ],
         "unanimous": true,
-        "confidence": "high",
+        "confidence": "low",
         "timestamp_s": 616
       },
       {
         "kind": "motion",
         "number": "2024-1",
-        "title": "CDA: Appoint members and officers to the Community Development Agency",
+        "title": "CDA appoints members and officers to the Community Development Agency",
         "outcome": "adopted",
         "votes": [
           {
-            "member": "Denise Merrifield",
+            "member": "Joann Waski",
             "vote": "yes"
           },
           {
-            "member": "Joann Waski",
+            "member": "Denise Merrifield",
             "vote": "yes"
           },
           {
@@ -18146,6 +18150,10 @@
           },
           {
             "member": "Ken Rothwell",
+            "vote": "yes"
+          },
+          {
+            "member": "Halpin",
             "vote": "yes"
           }
         ],
@@ -18156,15 +18164,15 @@
       {
         "kind": "motion",
         "number": "2024-2",
-        "title": "CDA: Omnibus resolution on policies and Public Authorities Accountability Act",
+        "title": "CDA omnibus resolution on Public Authorities Accountability Act policies",
         "outcome": "adopted",
         "votes": [
           {
-            "member": "Denise Merrifield",
+            "member": "Joann Waski",
             "vote": "yes"
           },
           {
-            "member": "Joann Waski",
+            "member": "Denise Merrifield",
             "vote": "yes"
           },
           {
@@ -18173,6 +18181,10 @@
           },
           {
             "member": "Ken Rothwell",
+            "vote": "yes"
+          },
+          {
+            "member": "Halpin",
             "vote": "yes"
           }
         ],
@@ -18183,7 +18195,7 @@
       {
         "kind": "hearing_action",
         "number": null,
-        "title": "Public hearing on unsafe structure at 29 East 2nd Street adjourned",
+        "title": "Adjourn public hearing on unsafe structure at 29 E 2nd Street to Feb 21",
         "outcome": "tabled",
         "votes": [],
         "unanimous": false,
@@ -18193,7 +18205,7 @@
       {
         "kind": "hearing_action",
         "number": null,
-        "title": "Public hearing to amend waterways and water-related activities closed",
+        "title": "Close public hearing on Waterways and Water-Related Activities amendment",
         "outcome": "held",
         "votes": [
           {
@@ -18220,7 +18232,7 @@
       {
         "kind": "hearing_action",
         "number": null,
-        "title": "Public hearing on solid waste kept open for written comment",
+        "title": "Keep solid waste public hearing open until January 26, 2024",
         "outcome": "tabled",
         "votes": [],
         "unanimous": false,
@@ -18230,7 +18242,7 @@
       {
         "kind": "hearing_action",
         "number": null,
-        "title": "Public hearing on Manufacturers Outlet Center Overlay Zone / Tanger",
+        "title": "Public Hearing Manufacturers Outlet Center Overlay Zone (Tanger)",
         "outcome": "held",
         "votes": [],
         "unanimous": false,
@@ -18240,7 +18252,7 @@
       {
         "kind": "hearing_action",
         "number": null,
-        "title": "Public hearing on Site Plan Review/Park Fees/Condominium Maps amendments",
+        "title": "Public Hearings on Site Plan Review, Park/Rec Fees, Condominium Maps",
         "outcome": "held",
         "votes": [],
         "unanimous": false,
@@ -18250,7 +18262,7 @@
       {
         "kind": "resolution",
         "number": "2024-74",
-        "title": "2023 Budget transfers for end of year",
+        "title": "2023 Budget Transfers for End of Year",
         "outcome": "adopted",
         "votes": [
           {
@@ -18280,8 +18292,8 @@
       },
       {
         "kind": "resolution",
-        "number": "2024-76",
-        "title": "Authorizes free beach stickers to veterans and volunteer fire/ambulance",
+        "number": "2024-75",
+        "title": "Water District Capital Project #82401 901-923 Burman Blvd.",
         "outcome": "adopted",
         "votes": [
           {
@@ -18312,7 +18324,7 @@
       {
         "kind": "resolution",
         "number": "2024-77",
-        "title": "Sets fees for usage of recreation and other town facilities",
+        "title": "Sets Fees for Usage of Recreation and Other Town Facilities",
         "outcome": "adopted",
         "votes": [
           {
@@ -18343,7 +18355,7 @@
       {
         "kind": "resolution",
         "number": "2024-78",
-        "title": "Appoints a call-in recreation specialist to the recreation department",
+        "title": "Appoints a Call-In Recreation Specialist to the Recreation Department",
         "outcome": "adopted",
         "votes": [
           {
@@ -18373,39 +18385,8 @@
       },
       {
         "kind": "resolution",
-        "number": "2024-79",
-        "title": "Sets salaries for 2024 call-in recreation personnel",
-        "outcome": "adopted",
-        "votes": [
-          {
-            "member": "Joann Waski",
-            "vote": "yes"
-          },
-          {
-            "member": "Denise Merrifield",
-            "vote": "yes"
-          },
-          {
-            "member": "Bob Kern",
-            "vote": "yes"
-          },
-          {
-            "member": "Ken Rothwell",
-            "vote": "yes"
-          },
-          {
-            "member": "Tim Hubbard",
-            "vote": "yes"
-          }
-        ],
-        "unanimous": true,
-        "confidence": "high",
-        "timestamp_s": 7340
-      },
-      {
-        "kind": "resolution",
         "number": "2024-81",
-        "title": "Approves a salary increase for a paralegal",
+        "title": "Approves a Salary Increase for a Paralegal",
         "outcome": "adopted",
         "votes": [
           {
@@ -18436,7 +18417,7 @@
       {
         "kind": "resolution",
         "number": "2024-82",
-        "title": "Ratifies the promotion of an assessment clerk",
+        "title": "Ratifies the Promotion of an Assessment Clerk",
         "outcome": "adopted",
         "votes": [
           {
@@ -18467,7 +18448,7 @@
       {
         "kind": "resolution",
         "number": "2024-83",
-        "title": "Accepts the retirement of a legislative secretary",
+        "title": "Accepts the Retirement of a Legislative Secretary",
         "outcome": "adopted",
         "votes": [
           {
@@ -18529,7 +18510,7 @@
       {
         "kind": "resolution",
         "number": "2024-85",
-        "title": "Sets terms and conditions of employment for Town Board Coordinator Diane Tucci",
+        "title": "Setting Terms and Conditions of Employment for Town Board Coordinator Diane Tucci",
         "outcome": "adopted",
         "votes": [
           {
@@ -18560,7 +18541,7 @@
       {
         "kind": "resolution",
         "number": "2024-86",
-        "title": "Authorizes agreement with Lawrence M. Levy/On-Site Productions, nunc pro tunc",
+        "title": "Authorizes Agreement with Lawrence M. Levy D/B/A On-Site Productions",
         "outcome": "adopted",
         "votes": [
           {
@@ -18586,12 +18567,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 7579
+        "timestamp_s": 7557
       },
       {
         "kind": "resolution",
         "number": "2024-87",
-        "title": "Ratifies provisional appointment of a wastewater treatment plant operator trainee",
+        "title": "Ratifies Provisional Appointment of a Wastewater Treatment Plant Operator Trainee",
         "outcome": "adopted",
         "votes": [
           {
@@ -18622,7 +18603,7 @@
       {
         "kind": "resolution",
         "number": "2024-88",
-        "title": "Ratifies salaries of current police academy officers for 2024",
+        "title": "Ratifies Salaries of Current Police Academy Officers for 2024",
         "outcome": "adopted",
         "votes": [
           {
@@ -18653,7 +18634,7 @@
       {
         "kind": "resolution",
         "number": "2024-89",
-        "title": "Ratifies a stipend for Network and Systems Specialist II",
+        "title": "Ratifies a Stipend for Network and Systems Specialist II",
         "outcome": "adopted",
         "votes": [
           {
@@ -18684,7 +18665,7 @@
       {
         "kind": "resolution",
         "number": "2024-90",
-        "title": "Ratifies reclassification of a maintenance mechanic III",
+        "title": "Ratifies Reclassification of a Maintenance Mechanic III",
         "outcome": "adopted",
         "votes": [
           {
@@ -18715,7 +18696,7 @@
       {
         "kind": "resolution",
         "number": "2024-91",
-        "title": "Amends adjustments for named highway employees",
+        "title": "Amends Adjustments for Named Highway Employees",
         "outcome": "adopted",
         "votes": [
           {
@@ -18746,7 +18727,7 @@
       {
         "kind": "resolution",
         "number": "2024-92",
-        "title": "Authorizes agreement with Jason Hodge",
+        "title": "Authorizes Professional Services Agreement with Jason Hodge",
         "outcome": "adopted",
         "votes": [
           {
@@ -18777,7 +18758,7 @@
       {
         "kind": "resolution",
         "number": "2024-93",
-        "title": "Authorizes stipulation agreement with a police officer",
+        "title": "Authorizes Stipulation Agreement with a Police Officer",
         "outcome": "adopted",
         "votes": [
           {
@@ -18808,7 +18789,7 @@
       {
         "kind": "resolution",
         "number": "2024-94",
-        "title": "Adopts local law amending Chapter 293 Waterways and Water-Related Activities",
+        "title": "Adopts Local Law Amending Chapter 293 Waterways and Water-Related Activities",
         "outcome": "adopted",
         "votes": [
           {
@@ -18834,12 +18815,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 7740
+        "timestamp_s": 7721
       },
       {
         "kind": "resolution",
         "number": "2024-95",
-        "title": "Authorizes 2024 conditional shellfish harvesting program agreement with NYSDEC",
+        "title": "Authorizes 2024 Conditional Shellfish Harvesting Program Agreement with NYSDEC",
         "outcome": "adopted",
         "votes": [
           {
@@ -18870,7 +18851,7 @@
       {
         "kind": "resolution",
         "number": "2024-96",
-        "title": "Ratifies license agreement with Race Track Not Street LLC for EPCAL runway",
+        "title": "Ratifies License Agreement with Race Track Not Street LLC to Utilize Runway at EPCAL",
         "outcome": "adopted",
         "votes": [
           {
@@ -18901,8 +18882,8 @@
       {
         "kind": "resolution",
         "number": "2024-97",
-        "title": "Authorizes professional service agreement with Charles Leja",
-        "outcome": "amended",
+        "title": "Authorizes Professional Service Agreement with Charles Leja",
+        "outcome": "adopted",
         "votes": [
           {
             "member": "Joann Waski",
@@ -18927,12 +18908,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 7841
+        "timestamp_s": 7798
       },
       {
         "kind": "resolution",
         "number": "2024-98",
-        "title": "Authorizes license agreement with Stein Seafoods LLC for FLUPSY in East Creek",
+        "title": "Authorizes License Agreement with Stein Seafoods LLC for FLUPSY in East Creek",
         "outcome": "adopted",
         "votes": [
           {
@@ -18963,7 +18944,7 @@
       {
         "kind": "resolution",
         "number": "2024-99",
-        "title": "Authorizes settlement agreement and mutual release with Gershow Recycling",
+        "title": "Authorizes Settlement Agreement with Gershow Recycling of Riverhead",
         "outcome": "adopted",
         "votes": [
           {
@@ -18989,12 +18970,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 7893
+        "timestamp_s": 7883
       },
       {
         "kind": "resolution",
         "number": "2024-100",
-        "title": "Ratifies authorization to execute agreement with CSC Holdings LLC",
+        "title": "Ratifies Authorization for Agreement with CSC Holdings, LLC",
         "outcome": "adopted",
         "votes": [
           {
@@ -19051,12 +19032,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 7956
+        "timestamp_s": 7933
       },
       {
         "kind": "resolution",
         "number": "2024-102",
-        "title": "Awards RFP for Town Square Amphitheater",
+        "title": "Awards RFP for the Town Square Amphitheater",
         "outcome": "adopted",
         "votes": [
           {
@@ -19082,12 +19063,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 7991
+        "timestamp_s": 7935
       },
       {
         "kind": "resolution",
         "number": "2024-103",
-        "title": "Authorizes town clerk to publish notice to bidders for generator maintenance",
+        "title": "Authorizes Notice to Bidders for Generator Maintenance",
         "outcome": "adopted",
         "votes": [
           {
@@ -19118,7 +19099,7 @@
       {
         "kind": "resolution",
         "number": "2024-104",
-        "title": "Authorizes RFP for IT managed service provider",
+        "title": "Authorizes RFP for IT Managed Service Provider",
         "outcome": "adopted",
         "votes": [
           {
@@ -19149,7 +19130,7 @@
       {
         "kind": "resolution",
         "number": "2024-105",
-        "title": "Extends bid contract for water meters and accessory equipment",
+        "title": "Extends Bid Contract for Water Meters in Riverhead Water District",
         "outcome": "adopted",
         "votes": [
           {
@@ -19178,10 +19159,20 @@
         "timestamp_s": 8058
       },
       {
+        "kind": "motion",
+        "number": null,
+        "title": "Amend Resolution 106 Final Scope Comprehensive Plan Update",
+        "outcome": "amended",
+        "votes": [],
+        "unanimous": false,
+        "confidence": "low",
+        "timestamp_s": 8213
+      },
+      {
         "kind": "resolution",
         "number": "2024-106",
-        "title": "Adopts final scope for Town of Riverhead Comprehensive Plan Update",
-        "outcome": "amended",
+        "title": "Adopts Final Scope for Town of Riverhead Comprehensive Plan Update",
+        "outcome": "adopted",
         "votes": [
           {
             "member": "Joann Waski",
@@ -19206,12 +19197,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 8213
+        "timestamp_s": 8228
       },
       {
         "kind": "resolution",
         "number": "2024-107",
-        "title": "Authorizes notice to consider local law amending Chapter 289 vehicles, traffic and parking",
+        "title": "Authorizes Notice to Amend Chapter 289 Vehicles, Traffic and Parking Regulations",
         "outcome": "adopted",
         "votes": [
           {
@@ -19242,7 +19233,7 @@
       {
         "kind": "resolution",
         "number": "2024-108",
-        "title": "Authorizes notice to consider local law amending procurement policy",
+        "title": "Authorizes Notice to Amend Procurement Policy Pursuant to General Municipal Law",
         "outcome": "adopted",
         "votes": [
           {
@@ -19273,7 +19264,7 @@
       {
         "kind": "resolution",
         "number": "2024-109",
-        "title": "Authorizes notice to amend Chapter 301 zoning and land development (agritourism)",
+        "title": "Authorizes Notice to Amend Chapter 301 Zoning and Land Development",
         "outcome": "adopted",
         "votes": [
           {
@@ -19304,7 +19295,7 @@
       {
         "kind": "resolution",
         "number": "2024-110",
-        "title": "Resolution 110",
+        "title": "Resolution 110 (title unspecified)",
         "outcome": "adopted",
         "votes": [
           {
@@ -19335,7 +19326,7 @@
       {
         "kind": "resolution",
         "number": "2024-111",
-        "title": "Pay bills",
+        "title": "Pay Bills",
         "outcome": "adopted",
         "votes": [
           {
@@ -19366,7 +19357,7 @@
       {
         "kind": "resolution",
         "number": "2024-112",
-        "title": "Ratifies the promotion of a senior justice court clerk",
+        "title": "Ratifies Promotion of a Senior Justice Court Clerk",
         "outcome": "adopted",
         "votes": [
           {
@@ -19393,60 +19384,6 @@
         "unanimous": true,
         "confidence": "high",
         "timestamp_s": 8441
-      },
-      {
-        "kind": "motion",
-        "number": null,
-        "title": "Approval of Jan 3, 2024 Town Board minutes",
-        "outcome": "adopted",
-        "votes": [
-          {
-            "member": "Joann Waski",
-            "vote": "yes"
-          },
-          {
-            "member": "Denise Merrifield",
-            "vote": "yes"
-          },
-          {
-            "member": "Bob Kern",
-            "vote": "yes"
-          },
-          {
-            "member": "Ken Rothwell",
-            "vote": "yes"
-          },
-          {
-            "member": "Halpin",
-            "vote": "yes"
-          }
-        ],
-        "unanimous": true,
-        "confidence": "low",
-        "timestamp_s": null,
-        "anchor_quote_unmatched": ""
-      },
-      {
-        "kind": "resolution",
-        "number": "2024-75",
-        "title": "Water District Capital Project #82401 901-923 Burman Blvd.",
-        "outcome": "adopted",
-        "votes": [],
-        "unanimous": false,
-        "confidence": "low",
-        "timestamp_s": null,
-        "anchor_quote_unmatched": ""
-      },
-      {
-        "kind": "resolution",
-        "number": "2024-80",
-        "title": "Sets Salaries of Various Recreation Employees for the Year 2024",
-        "outcome": "adopted",
-        "votes": [],
-        "unanimous": false,
-        "confidence": "low",
-        "timestamp_s": null,
-        "anchor_quote_unmatched": ""
       },
       {
         "kind": "motion",

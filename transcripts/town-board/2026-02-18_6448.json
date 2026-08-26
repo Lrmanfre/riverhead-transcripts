@@ -20347,28 +20347,60 @@
     "truncated": false,
     "model": "claude-sonnet-5",
     "prompt_version": "1",
-    "generated_at": "2026-08-26T01:19:16+00:00",
+    "generated_at": "2026-08-26T02:41:47+00:00",
     "grounded_in": "Minutes",
     "items": [
       {
         "kind": "hearing_action",
         "number": null,
-        "title": "Public Hearing - 221 Scott Ave Energy Storage System",
+        "title": "Public Hearing - Special Permit/Site Plan - 221 Scott Ave Energy Storage System",
         "outcome": "held",
         "votes": [],
         "unanimous": false,
         "confidence": "low",
-        "timestamp_s": 5965
+        "timestamp_s": null,
+        "anchor_quote_unmatched": ""
       },
       {
         "kind": "hearing_action",
         "number": null,
-        "title": "Public Hearing - Hampton Jitney Battery Energy Storage System",
+        "title": "Public Hearing - Special Permit - Hampton Jitney Battery Energy Storage System",
         "outcome": "held",
         "votes": [],
         "unanimous": false,
         "confidence": "low",
-        "timestamp_s": 6891
+        "timestamp_s": null,
+        "anchor_quote_unmatched": ""
+      },
+      {
+        "kind": "hearing_action",
+        "number": null,
+        "title": "Public Hearing - Repeal/Enact Accessory Dwelling Units Law",
+        "outcome": "held",
+        "votes": [],
+        "unanimous": false,
+        "confidence": "low",
+        "timestamp_s": 8799
+      },
+      {
+        "kind": "hearing_action",
+        "number": null,
+        "title": "Public Hearing - Amend Chapter 265 Sewers",
+        "outcome": "held",
+        "votes": [],
+        "unanimous": false,
+        "confidence": "low",
+        "timestamp_s": 8952
+      },
+      {
+        "kind": "hearing_action",
+        "number": null,
+        "title": "Public Hearing - Amend Chapter 279 Taxation (surviving spouses exemption)",
+        "outcome": "held",
+        "votes": [],
+        "unanimous": false,
+        "confidence": "low",
+        "timestamp_s": 9206
       },
       {
         "kind": "resolution",
@@ -20398,9 +20430,8 @@
           }
         ],
         "unanimous": true,
-        "confidence": "low",
-        "timestamp_s": null,
-        "anchor_quote_unmatched": ""
+        "confidence": "high",
+        "timestamp_s": 9260
       },
       {
         "kind": "resolution",
@@ -20430,9 +20461,8 @@
           }
         ],
         "unanimous": true,
-        "confidence": "low",
-        "timestamp_s": null,
-        "anchor_quote_unmatched": ""
+        "confidence": "high",
+        "timestamp_s": 9277
       },
       {
         "kind": "resolution",
@@ -20462,9 +20492,8 @@
           }
         ],
         "unanimous": true,
-        "confidence": "low",
-        "timestamp_s": null,
-        "anchor_quote_unmatched": ""
+        "confidence": "high",
+        "timestamp_s": 9292
       },
       {
         "kind": "resolution",
@@ -20494,9 +20523,8 @@
           }
         ],
         "unanimous": true,
-        "confidence": "low",
-        "timestamp_s": null,
-        "anchor_quote_unmatched": ""
+        "confidence": "high",
+        "timestamp_s": 9309
       },
       {
         "kind": "resolution",
@@ -20526,9 +20554,8 @@
           }
         ],
         "unanimous": true,
-        "confidence": "low",
-        "timestamp_s": null,
-        "anchor_quote_unmatched": ""
+        "confidence": "high",
+        "timestamp_s": 9325
       },
       {
         "kind": "resolution",
@@ -20558,41 +20585,8 @@
           }
         ],
         "unanimous": true,
-        "confidence": "low",
-        "timestamp_s": null,
-        "anchor_quote_unmatched": ""
-      },
-      {
-        "kind": "resolution",
-        "number": "2026-161",
-        "title": "Appoints Automotive Equipment Operators",
-        "outcome": "adopted",
-        "votes": [
-          {
-            "member": "Joann Waski",
-            "vote": "yes"
-          },
-          {
-            "member": "Denise Merrifield",
-            "vote": "yes"
-          },
-          {
-            "member": "Bob Kern",
-            "vote": "yes"
-          },
-          {
-            "member": "Ken Rothwell",
-            "vote": "yes"
-          },
-          {
-            "member": "Jerry Halpin",
-            "vote": "yes"
-          }
-        ],
-        "unanimous": true,
-        "confidence": "low",
-        "timestamp_s": null,
-        "anchor_quote_unmatched": ""
+        "confidence": "high",
+        "timestamp_s": 9343
       },
       {
         "kind": "resolution",
@@ -20622,14 +20616,13 @@
           }
         ],
         "unanimous": true,
-        "confidence": "low",
-        "timestamp_s": null,
-        "anchor_quote_unmatched": ""
+        "confidence": "high",
+        "timestamp_s": 9363
       },
       {
         "kind": "resolution",
         "number": "2026-163",
-        "title": "Ratifies Reclassification of a Senior Account Clerk to Principal Account Clerk",
+        "title": "Ratifies the Reclassification of a Senior Account Clerk to Principal Account Clerk",
         "outcome": "adopted",
         "votes": [
           {
@@ -20654,9 +20647,8 @@
           }
         ],
         "unanimous": true,
-        "confidence": "low",
-        "timestamp_s": null,
-        "anchor_quote_unmatched": ""
+        "confidence": "high",
+        "timestamp_s": 9406
       },
       {
         "kind": "resolution",
@@ -20686,14 +20678,13 @@
           }
         ],
         "unanimous": true,
-        "confidence": "low",
-        "timestamp_s": null,
-        "anchor_quote_unmatched": ""
+        "confidence": "high",
+        "timestamp_s": 9423
       },
       {
         "kind": "resolution",
         "number": "2026-165",
-        "title": "Reappoints Monique Parsons to Business Advisory Committee",
+        "title": "Reappoints Monique Parsons to the Business Advisory Committee",
         "outcome": "adopted",
         "votes": [
           {
@@ -20718,14 +20709,13 @@
           }
         ],
         "unanimous": true,
-        "confidence": "low",
-        "timestamp_s": null,
-        "anchor_quote_unmatched": ""
+        "confidence": "high",
+        "timestamp_s": 9439
       },
       {
         "kind": "resolution",
         "number": "2026-166",
-        "title": "Reappoints Connie Lassandro to Business Advisory Committee",
+        "title": "Reappoints Connie Lissandro to the Business Advisory Committee",
         "outcome": "adopted",
         "votes": [
           {
@@ -20750,14 +20740,13 @@
           }
         ],
         "unanimous": true,
-        "confidence": "low",
-        "timestamp_s": null,
-        "anchor_quote_unmatched": ""
+        "confidence": "high",
+        "timestamp_s": 9454
       },
       {
         "kind": "resolution",
         "number": "2026-167",
-        "title": "Reappoints Steve Shauger to Business Advisory Committee",
+        "title": "Reappoints Steve Shauger to the Business Advisory Committee",
         "outcome": "adopted",
         "votes": [
           {
@@ -20782,14 +20771,13 @@
           }
         ],
         "unanimous": true,
-        "confidence": "low",
-        "timestamp_s": null,
-        "anchor_quote_unmatched": ""
+        "confidence": "high",
+        "timestamp_s": 9470
       },
       {
         "kind": "resolution",
         "number": "2026-168",
-        "title": "Reappoints Dean Del Prete to Business Advisory Committee",
+        "title": "Reappoints Dean Del Prete to the Business Advisory Committee",
         "outcome": "adopted",
         "votes": [
           {
@@ -20814,14 +20802,13 @@
           }
         ],
         "unanimous": true,
-        "confidence": "low",
-        "timestamp_s": null,
-        "anchor_quote_unmatched": ""
+        "confidence": "high",
+        "timestamp_s": 9484
       },
       {
         "kind": "resolution",
         "number": "2026-169",
-        "title": "Reappoints Ray Castranova to Business Advisory Committee",
+        "title": "Reappoints Ray Castranova to the Business Advisory Committee",
         "outcome": "adopted",
         "votes": [
           {
@@ -20846,14 +20833,13 @@
           }
         ],
         "unanimous": true,
-        "confidence": "low",
-        "timestamp_s": null,
-        "anchor_quote_unmatched": ""
+        "confidence": "high",
+        "timestamp_s": 9500
       },
       {
         "kind": "resolution",
         "number": "2026-170",
-        "title": "Reappoints Ike Israel to Business Advisory Committee",
+        "title": "Reappoints Ike Israel to the Business Advisory Committee",
         "outcome": "adopted",
         "votes": [
           {
@@ -20878,14 +20864,13 @@
           }
         ],
         "unanimous": true,
-        "confidence": "low",
-        "timestamp_s": null,
-        "anchor_quote_unmatched": ""
+        "confidence": "high",
+        "timestamp_s": 9517
       },
       {
         "kind": "resolution",
         "number": "2026-171",
-        "title": "Reappoints Lee Mendelsen to Business Advisory Committee",
+        "title": "Reappoints Lee Mendelsen to the Business Advisory Committee",
         "outcome": "adopted",
         "votes": [
           {
@@ -20910,14 +20895,13 @@
           }
         ],
         "unanimous": true,
-        "confidence": "low",
-        "timestamp_s": null,
-        "anchor_quote_unmatched": ""
+        "confidence": "high",
+        "timestamp_s": 9532
       },
       {
         "kind": "resolution",
         "number": "2026-172",
-        "title": "Reappoints Scott Middleton to Business Advisory Committee",
+        "title": "Reappoints Scott Middleton to the Business Advisory Committee",
         "outcome": "adopted",
         "votes": [
           {
@@ -20942,14 +20926,13 @@
           }
         ],
         "unanimous": true,
-        "confidence": "low",
-        "timestamp_s": null,
-        "anchor_quote_unmatched": ""
+        "confidence": "high",
+        "timestamp_s": 9549
       },
       {
         "kind": "resolution",
         "number": "2026-173",
-        "title": "Adopts Local Law Amending Chapter 279 Taxation - Volunteer Firefighter/Ambulance Exemption",
+        "title": "Adopts Local Law Amending Chapter 279 - Exemption for Volunteer Firefighters and Ambulance Workers",
         "outcome": "adopted",
         "votes": [
           {
@@ -20974,14 +20957,13 @@
           }
         ],
         "unanimous": true,
-        "confidence": "low",
-        "timestamp_s": null,
-        "anchor_quote_unmatched": ""
+        "confidence": "high",
+        "timestamp_s": 9570
       },
       {
         "kind": "resolution",
         "number": "2026-174",
-        "title": "Adopts Local Law Amending Chapter 279 Taxation - Exemption for Surviving Spouses of Police Officers",
+        "title": "Adopts Local Law Amending Chapter 279 - Exemption for Surviving Spouses of Police Officers Killed in the Line of Duty",
         "outcome": "adopted",
         "votes": [
           {
@@ -21006,14 +20988,13 @@
           }
         ],
         "unanimous": true,
-        "confidence": "low",
-        "timestamp_s": null,
-        "anchor_quote_unmatched": ""
+        "confidence": "high",
+        "timestamp_s": 9658
       },
       {
         "kind": "resolution",
         "number": "2026-175",
-        "title": "Authorizes Public Notice to Amend Chapter 289 No Parking Certain Hours",
+        "title": "Authorizes Town Clerk to Publish Notice re: Amendment to Chapter 289 No Parking Certain Hours",
         "outcome": "adopted",
         "votes": [
           {
@@ -21038,14 +21019,13 @@
           }
         ],
         "unanimous": true,
-        "confidence": "low",
-        "timestamp_s": null,
-        "anchor_quote_unmatched": ""
+        "confidence": "high",
+        "timestamp_s": 9669
       },
       {
         "kind": "resolution",
         "number": "2026-176",
-        "title": "Authorizes Notice to Bidders for Generator Maintenance and Emergency Service",
+        "title": "Authorizes Town Clerk to Publish Notice to Bidders for Generator Maintenance and Emergency Service",
         "outcome": "adopted",
         "votes": [
           {
@@ -21070,14 +21050,13 @@
           }
         ],
         "unanimous": true,
-        "confidence": "low",
-        "timestamp_s": null,
-        "anchor_quote_unmatched": ""
+        "confidence": "high",
+        "timestamp_s": 9669
       },
       {
         "kind": "resolution",
         "number": "2026-177",
-        "title": "Rejects Bids and Authorizes Rebid - PFAS Treatment at Well No. 5-2A",
+        "title": "Rejects Bids and Authorizes Rebid for PFAS Treatment at Well No. 5-2A",
         "outcome": "adopted",
         "votes": [
           {
@@ -21102,14 +21081,13 @@
           }
         ],
         "unanimous": true,
-        "confidence": "low",
-        "timestamp_s": null,
-        "anchor_quote_unmatched": ""
+        "confidence": "high",
+        "timestamp_s": 9711
       },
       {
         "kind": "resolution",
         "number": "2026-178",
-        "title": "Authorizes Agreement with Municipal Valuation Services, Inc.",
+        "title": "Authorizes Town Attorney to Execute Agreement with Municipal Valuation Services, Inc.",
         "outcome": "adopted",
         "votes": [
           {
@@ -21134,14 +21112,13 @@
           }
         ],
         "unanimous": true,
-        "confidence": "low",
-        "timestamp_s": null,
-        "anchor_quote_unmatched": ""
+        "confidence": "high",
+        "timestamp_s": 9744
       },
       {
         "kind": "resolution",
         "number": "2026-179",
-        "title": "Authorizes Agreement with Nassau County PAL Lacrosse Unit",
+        "title": "Authorizes Agreement with Nassau County Police Activity League Lacrosse Unit",
         "outcome": "adopted",
         "votes": [
           {
@@ -21166,14 +21143,13 @@
           }
         ],
         "unanimous": true,
-        "confidence": "low",
-        "timestamp_s": null,
-        "anchor_quote_unmatched": ""
+        "confidence": "high",
+        "timestamp_s": 9763
       },
       {
         "kind": "resolution",
         "number": "2026-180",
-        "title": "Authorizes Agreement with P.W. Grosser Consulting for Meetinghouse Creek Restoration",
+        "title": "Authorizes Professional Services Agreement with P.W. Grosser Consulting for Meetinghouse Creek Project",
         "outcome": "adopted",
         "votes": [
           {
@@ -21198,14 +21174,13 @@
           }
         ],
         "unanimous": true,
-        "confidence": "low",
-        "timestamp_s": null,
-        "anchor_quote_unmatched": ""
+        "confidence": "high",
+        "timestamp_s": 9787
       },
       {
         "kind": "resolution",
         "number": "2026-181",
-        "title": "Authorizes Agreement with The Raynor Group, P.E. & L.S., PLLC",
+        "title": "Authorizes Professional Services Agreement with The Raynor Group, P.E. & L.S., PLLC",
         "outcome": "adopted",
         "votes": [
           {
@@ -21230,14 +21205,13 @@
           }
         ],
         "unanimous": true,
-        "confidence": "low",
-        "timestamp_s": null,
-        "anchor_quote_unmatched": ""
+        "confidence": "high",
+        "timestamp_s": 9814
       },
       {
         "kind": "resolution",
         "number": "2026-182",
-        "title": "License Agreement with DMS Apex Holdings LLC (Skip Barber Racing School) at EPCAL",
+        "title": "Authorizes License Agreement with DMS Apex Holdings LLC (Skip Barber Racing School) at EPCAL",
         "outcome": "adopted",
         "votes": [
           {
@@ -21263,42 +21237,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 9681
-      },
-      {
-        "kind": "hearing_action",
-        "number": null,
-        "title": "Public Hearing - Repeal/Enact Accessory Dwelling Units law",
-        "outcome": "held",
-        "votes": [],
-        "unanimous": false,
-        "confidence": "low",
-        "timestamp_s": 8799
-      },
-      {
-        "kind": "hearing_action",
-        "number": null,
-        "title": "Public Hearing - Amend Chapter 265 Sewers",
-        "outcome": "held",
-        "votes": [],
-        "unanimous": false,
-        "confidence": "low",
-        "timestamp_s": 8952
-      },
-      {
-        "kind": "hearing_action",
-        "number": null,
-        "title": "Public Hearing - Amend Chapter 279 Taxation (surviving spouses)",
-        "outcome": "held",
-        "votes": [],
-        "unanimous": false,
-        "confidence": "low",
-        "timestamp_s": 9206
+        "timestamp_s": 9837
       },
       {
         "kind": "resolution",
         "number": "2026-184",
-        "title": "Ratifies Authorization of Retainer Agreement with Sertilman Law Services",
+        "title": "Ratifies Retainer Agreement for Town Attorney - Sertilman Services",
         "outcome": "adopted",
         "votes": [
           {
@@ -21324,12 +21268,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 9923
+        "timestamp_s": 9863
       },
       {
         "kind": "resolution",
         "number": "2026-186",
-        "title": "Special Event Chapter 255 Application - Riverhead Home Depot Plant Event",
+        "title": "Approves Special Event Chapter 255 Application for Riverhead Home Depot Plant Event",
         "outcome": "adopted",
         "votes": [
           {
@@ -21355,12 +21299,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 9956
+        "timestamp_s": 9943
       },
       {
         "kind": "resolution",
         "number": "2026-187",
-        "title": "Special Event Chapter 255 Application - NY Marine Rescue Center Run/5k",
+        "title": "Approves Special Event Chapter 255 Application for New York Marine Rescue Center Run",
         "outcome": "adopted",
         "votes": [
           {
@@ -21386,12 +21330,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 9976
+        "timestamp_s": 9962
       },
       {
         "kind": "resolution",
         "number": "2026-188",
-        "title": "Special Event Chapter 255 Application - Slow Food East and Earth Day",
+        "title": "Approves Special Event Chapter 255 Application for Slow Food East and Earth Day",
         "outcome": "adopted",
         "votes": [
           {
@@ -21417,12 +21361,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 9995
+        "timestamp_s": 9983
       },
       {
         "kind": "resolution",
         "number": "2026-189",
-        "title": "Special Event Chapter 255 Application - St. John Baptist Ukrainian Church Blessing of the Cars",
+        "title": "Approves Special Event Chapter 255 Application for St. John Baptist Ukrainian Church Blessing of the Cars",
         "outcome": "adopted",
         "votes": [
           {
@@ -21448,12 +21392,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 9995
+        "timestamp_s": 10002
       },
       {
         "kind": "resolution",
         "number": "2026-190",
-        "title": "Ratifies Amendment of Resolution 2026-148 - Stotzky Park Lighting Grant Application",
+        "title": "Ratifies Amendment of Resolution 2026-148 - Stotsky Park Lighting Grant Application",
         "outcome": "adopted",
         "votes": [
           {
@@ -21479,7 +21423,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 10047
+        "timestamp_s": 10019
       },
       {
         "kind": "resolution",
@@ -21515,7 +21459,7 @@
       {
         "kind": "resolution",
         "number": "2026-192",
-        "title": "Authorizes Lawrence Indamine Consulting Corp. for Article 7 Tax Appraisal",
+        "title": "Authorizes Lawrence Indamine Consulting Corp. to Conduct Appraisal for RPTL Article 7 Proceeding",
         "outcome": "adopted",
         "votes": [
           {
@@ -21541,12 +21485,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 9429
+        "timestamp_s": 10071
       },
       {
         "kind": "resolution",
         "number": "2026-193",
-        "title": "Retainer Agreement with Timothy James Hopkins Esquire (Hopkins Law Services)",
+        "title": "Authorizes Retainer Agreement with Timothy James Hopkins, Esq. (Hopkins Law Services)",
         "outcome": "adopted",
         "votes": [
           {
@@ -21572,7 +21516,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 9429
+        "timestamp_s": 10094
       },
       {
         "kind": "resolution",
@@ -21603,18 +21547,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 9429
-      },
-      {
-        "kind": "hearing_action",
-        "number": null,
-        "title": "Repeal Chapter 105 Accessory Apartments; Enact Accessory Dwelling Units",
-        "outcome": "held",
-        "votes": [],
-        "unanimous": false,
-        "confidence": "low",
-        "timestamp_s": null,
-        "anchor_quote_unmatched": ""
+        "timestamp_s": 10114
       },
       {
         "kind": "motion",
@@ -21629,7 +21562,7 @@
       {
         "kind": "motion",
         "number": null,
-        "title": "Close CDA meeting",
+        "title": "Close CDA meeting (adjournment)",
         "outcome": "adopted",
         "votes": [
           {

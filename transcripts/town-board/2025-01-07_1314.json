@@ -11601,13 +11601,13 @@
     "truncated": false,
     "model": "claude-sonnet-5",
     "prompt_version": "1",
-    "generated_at": "2026-08-26T01:44:16+00:00",
+    "generated_at": "2026-08-26T03:12:49+00:00",
     "grounded_in": "Minutes",
     "items": [
       {
         "kind": "hearing_action",
         "number": null,
-        "title": "Public Hearing - Special Permit Sandy Pond Golf Course",
+        "title": "Special Permit Sandy Pond Golf Course public hearing",
         "outcome": "held",
         "votes": [],
         "unanimous": false,
@@ -11643,7 +11643,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 4084
+        "timestamp_s": 4067
       },
       {
         "kind": "resolution",
@@ -11679,7 +11679,7 @@
       {
         "kind": "resolution",
         "number": "2025-4",
-        "title": "Ratifies Waiver of Building Department Fees for Habitat for Humanity, Nunc Pro Tunc",
+        "title": "Ratifies Waiver of Building Department Fees for Habitat for Humanity",
         "outcome": "adopted",
         "votes": [
           {
@@ -11689,10 +11689,22 @@
           {
             "member": "Denise Merrifield",
             "vote": "yes"
+          },
+          {
+            "member": "Bob Kern",
+            "vote": "yes"
+          },
+          {
+            "member": "Ken Rothwell",
+            "vote": "yes"
+          },
+          {
+            "member": "Tim Hubbard",
+            "vote": "yes"
           }
         ],
         "unanimous": true,
-        "confidence": "low",
+        "confidence": "high",
         "timestamp_s": 4127
       },
       {
@@ -11708,11 +11720,23 @@
           {
             "member": "Denise Merrifield",
             "vote": "yes"
+          },
+          {
+            "member": "Bob Kern",
+            "vote": "yes"
+          },
+          {
+            "member": "Ken Rothwell",
+            "vote": "yes"
+          },
+          {
+            "member": "Tim Hubbard",
+            "vote": "yes"
           }
         ],
         "unanimous": true,
-        "confidence": "low",
-        "timestamp_s": 4140
+        "confidence": "high",
+        "timestamp_s": 4148
       },
       {
         "kind": "resolution",
@@ -11748,7 +11772,7 @@
       {
         "kind": "resolution",
         "number": "2025-7",
-        "title": "Authorization to Publish Help Wanted Advertisement for Part-Time Police Officers",
+        "title": "Authorization to Publish Help Wanted Ad for Part-Time Police Officers",
         "outcome": "adopted",
         "votes": [
           {
@@ -11793,11 +11817,19 @@
           {
             "member": "Bob Kern",
             "vote": "yes"
+          },
+          {
+            "member": "Ken Rothwell",
+            "vote": "yes"
+          },
+          {
+            "member": "Tim Hubbard",
+            "vote": "yes"
           }
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 4243
+        "timestamp_s": 4252
       },
       {
         "kind": "resolution",
@@ -11819,6 +11851,10 @@
           },
           {
             "member": "Ken Rothwell",
+            "vote": "yes"
+          },
+          {
+            "member": "Tim Hubbard",
             "vote": "yes"
           }
         ],
@@ -11957,6 +11993,10 @@
         "outcome": "adopted",
         "votes": [
           {
+            "member": "Joann Waski",
+            "vote": "yes"
+          },
+          {
             "member": "Denise Merrifield",
             "vote": "yes"
           },
@@ -11975,7 +12015,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 4334
+        "timestamp_s": 4337
       },
       {
         "kind": "resolution",
@@ -12122,6 +12162,10 @@
           {
             "member": "Ken Rothwell",
             "vote": "yes"
+          },
+          {
+            "member": "Tim Hubbard",
+            "vote": "yes"
           }
         ],
         "unanimous": true,
@@ -12224,7 +12268,7 @@
       {
         "kind": "resolution",
         "number": "2025-23",
-        "title": "Renews Appointment of Legal Representation for Planning Board",
+        "title": "Renews Appointment of Legal Representation for the Planning Board",
         "outcome": "adopted",
         "votes": [
           {
@@ -12255,7 +12299,7 @@
       {
         "kind": "resolution",
         "number": "2025-24",
-        "title": "Reappoints a Zoning Officer, Nunc Pro Tunc",
+        "title": "Re-Appoints a Zoning Officer, Nunc Pro Tunc",
         "outcome": "adopted",
         "votes": [
           {
@@ -12348,7 +12392,7 @@
       {
         "kind": "resolution",
         "number": "2025-29",
-        "title": "Ratifies Reclassification of a Heavy Equipment Operator to Construction Equipment Operator",
+        "title": "Ratifies Reclassification of Heavy Equipment Operator to Construction Equipment Operator",
         "outcome": "adopted",
         "votes": [
           {
@@ -12374,12 +12418,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 4590
+        "timestamp_s": 4585
       },
       {
         "kind": "resolution",
         "number": "2025-30",
-        "title": "Ratifies Reclassification of a Heavy Equipment Operator to Construction Equipment Operator",
+        "title": "Ratifies Reclassification of Heavy Equipment Operator to Construction Equipment Operator",
         "outcome": "adopted",
         "votes": [
           {
@@ -12405,12 +12449,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 4610
+        "timestamp_s": 4618
       },
       {
         "kind": "resolution",
         "number": "2025-31",
-        "title": "Ratifies Reclassification of a Heavy Equipment Operator to Construction Equipment Operator",
+        "title": "Ratifies Reclassification of Heavy Equipment Operator to Construction Equipment Operator",
         "outcome": "adopted",
         "votes": [
           {
@@ -12436,12 +12480,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 4628
+        "timestamp_s": 4637
       },
       {
         "kind": "resolution",
         "number": "2025-32",
-        "title": "Ratifies Reclassification of a Heavy Equipment Operator to Construction Equipment Operator",
+        "title": "Ratifies Reclassification of Heavy Equipment Operator to Construction Equipment Operator",
         "outcome": "adopted",
         "votes": [
           {
@@ -12467,12 +12511,33 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 4648
+        "timestamp_s": 4657
+      },
+      {
+        "kind": "resolution",
+        "number": "2025-2",
+        "title": "Establishes Capital Project #12425 Town Owned Alleyway Enhancements",
+        "outcome": "adopted",
+        "votes": [],
+        "unanimous": false,
+        "confidence": "low",
+        "timestamp_s": null,
+        "anchor_quote_unmatched": ""
+      },
+      {
+        "kind": "resolution",
+        "number": "2025-27",
+        "title": "Reappoints Member to the Town of Riverhead Planning Board",
+        "outcome": "adopted",
+        "votes": [],
+        "unanimous": false,
+        "confidence": "low",
+        "timestamp_s": 4548
       },
       {
         "kind": "resolution",
         "number": "2025-33",
-        "title": "Ratifies Reclassification of an Office Assistant to a Senior Office Assistant",
+        "title": "Ratifies Reclassification of Office Assistant to Senior Office Assistant",
         "outcome": "adopted",
         "votes": [
           {
@@ -12498,7 +12563,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 4666
+        "timestamp_s": 4660
       },
       {
         "kind": "resolution",
@@ -12530,17 +12595,6 @@
         "unanimous": true,
         "confidence": "high",
         "timestamp_s": 4679
-      },
-      {
-        "kind": "resolution",
-        "number": "2025-2",
-        "title": "Establishes Capital Project #12425 Town Owned Alleyway Enhancements",
-        "outcome": "adopted",
-        "votes": [],
-        "unanimous": false,
-        "confidence": "low",
-        "timestamp_s": null,
-        "anchor_quote_unmatched": ""
       },
       {
         "kind": "resolution",
@@ -13005,7 +13059,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 4944
+        "timestamp_s": 4931
       },
       {
         "kind": "resolution",
@@ -13214,16 +13268,20 @@
           {
             "member": "Ken Rothwell",
             "vote": "yes"
+          },
+          {
+            "member": "Tim Hubbard",
+            "vote": "recused"
           }
         ],
-        "unanimous": true,
+        "unanimous": false,
         "confidence": "high",
-        "timestamp_s": 5083
+        "timestamp_s": 5071
       },
       {
         "kind": "resolution",
         "number": "2025-57",
-        "title": "Approves Salary Increase for a Principal Office Assistant",
+        "title": "Approves Salary Increase for Principal Office Assistant",
         "outcome": "adopted",
         "votes": [
           {
@@ -13520,9 +13578,44 @@
           {
             "member": "Ken Rothwell",
             "vote": "yes"
+          },
+          {
+            "member": "Tim Hubbard",
+            "vote": "yes"
           }
         ],
         "unanimous": true,
+        "confidence": "high",
+        "timestamp_s": 5259
+      },
+      {
+        "kind": "resolution",
+        "number": "2025-67",
+        "title": "Approves Salary Increase for Town Attorney",
+        "outcome": "adopted",
+        "votes": [
+          {
+            "member": "Joann Waski",
+            "vote": "yes"
+          },
+          {
+            "member": "Denise Merrifield",
+            "vote": "yes"
+          },
+          {
+            "member": "Bob Kern",
+            "vote": "yes"
+          },
+          {
+            "member": "Ken Rothwell",
+            "vote": "yes"
+          },
+          {
+            "member": "Tim Hubbard",
+            "vote": "recused"
+          }
+        ],
+        "unanimous": false,
         "confidence": "high",
         "timestamp_s": 5330
       },
@@ -13591,7 +13684,7 @@
       {
         "kind": "resolution",
         "number": "2025-71",
-        "title": "Renews Stipend for Oversight of Department of Economic Development and Planning",
+        "title": "Renews Stipend for Oversight of Economic Development and Planning/Building Dept",
         "outcome": "adopted",
         "votes": [],
         "unanimous": false,
@@ -13632,7 +13725,7 @@
       {
         "kind": "resolution",
         "number": "2025-73",
-        "title": "Authorizes Community Development Department to Apply for NYS ADU Plus One Program",
+        "title": "Authorizes Community Development Dept to Apply for NYS ADU Plus One Program",
         "outcome": "adopted",
         "votes": [
           {
@@ -13658,7 +13751,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 5434
+        "timestamp_s": 5435
       },
       {
         "kind": "resolution",
@@ -13689,7 +13782,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 5451
+        "timestamp_s": 5453
       },
       {
         "kind": "resolution",
@@ -13720,7 +13813,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 5468
+        "timestamp_s": 5470
       },
       {
         "kind": "resolution",
@@ -13751,12 +13844,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 5490
+        "timestamp_s": 5492
       },
       {
         "kind": "resolution",
         "number": "2025-77",
-        "title": "Authorizes Supervisor to Execute Stipulation with Local 1000 AFSCME AFL-CIO",
+        "title": "Authorizes Stipulation with Local 1000 AFSCME AFL-CIO Riverhead Unit",
         "outcome": "adopted",
         "votes": [
           {
@@ -13782,7 +13875,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 5528
+        "timestamp_s": 5529
       },
       {
         "kind": "resolution",
@@ -13813,7 +13906,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 5549
+        "timestamp_s": 5550
       },
       {
         "kind": "resolution",
@@ -13844,12 +13937,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 5574
+        "timestamp_s": 5575
       },
       {
         "kind": "resolution",
         "number": "2025-80",
-        "title": "Authorizes Letter to Suffolk County DHS re: Pine Barrens Credits",
+        "title": "Authorizes Letter to Suffolk County DHS Regarding Pine Barrens Credits",
         "outcome": "adopted",
         "votes": [
           {
@@ -13875,7 +13968,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 5590
+        "timestamp_s": 5591
       },
       {
         "kind": "resolution",
@@ -13937,7 +14030,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 5634
+        "timestamp_s": 5635
       },
       {
         "kind": "resolution",
@@ -13973,7 +14066,7 @@
       {
         "kind": "motion",
         "number": null,
-        "title": "Motion to untable resolution 2024-925 (Meeting House Creek rebid)",
+        "title": "Untable resolution 2024-925, Meeting House Creek rebid",
         "outcome": "adopted",
         "votes": [
           {
@@ -14030,12 +14123,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 5733
+        "timestamp_s": 5703
       },
       {
         "kind": "resolution",
         "number": "2025-85",
-        "title": "Ratifies Provisional Appointment of a Senior Wastewater Treatment Plant Operator 2A",
+        "title": "Ratifies Provisional Appointment of Senior Wastewater Treatment Plant Operator 2A",
         "outcome": "adopted",
         "votes": [
           {
@@ -14066,7 +14159,7 @@
       {
         "kind": "resolution",
         "number": "2025-86",
-        "title": "Sets Fees for Taxi Cabs and Vehicles for Hire under Chapter 281",
+        "title": "Sets Fees for Taxi Cabs and Vehicles for Hire",
         "outcome": "adopted",
         "votes": [
           {
@@ -14092,12 +14185,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 5784
+        "timestamp_s": 5786
       },
       {
         "kind": "resolution",
         "number": "2025-87",
-        "title": "Rejects All Bids, Authorizes Town Clerk to Publish Rebid #2 for Meeting House Creek Project",
+        "title": "Rejects All Bids for Meeting House Creek Rebid Number Two",
         "outcome": "adopted",
         "votes": [
           {
@@ -14123,12 +14216,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 5818
+        "timestamp_s": 5821
       },
       {
         "kind": "resolution",
         "number": "2025-88",
-        "title": "Ratifies Authorization for Town Attorney to Execute Settlement with Island Water Park",
+        "title": "Ratifies Settlement of Legal Action Against Island Water Park",
         "outcome": "adopted",
         "votes": [
           {
@@ -14154,43 +14247,12 @@
         ],
         "unanimous": false,
         "confidence": "high",
-        "timestamp_s": 5868
+        "timestamp_s": 5862
       },
       {
         "kind": "motion",
-        "number": null,
-        "title": "Motion to recall Town Board resolution 2024-925",
-        "outcome": "adopted",
-        "votes": [
-          {
-            "member": "Joann Waski",
-            "vote": "yes"
-          },
-          {
-            "member": "Denise Merrifield",
-            "vote": "yes"
-          },
-          {
-            "member": "Bob Kern",
-            "vote": "yes"
-          },
-          {
-            "member": "Ken Rothwell",
-            "vote": "yes"
-          },
-          {
-            "member": "Tim Hubbard",
-            "vote": "yes"
-          }
-        ],
-        "unanimous": true,
-        "confidence": "high",
-        "timestamp_s": 6142
-      },
-      {
-        "kind": "motion",
-        "number": null,
-        "title": "Motion to untable resolution 2024-1009, schedule public hearing for Island Water Park site plan amendment",
+        "number": "2024-1009",
+        "title": "Untable Resolution Scheduling Public Hearing for Island Water Park Site Plan Amendment",
         "outcome": "adopted",
         "votes": [
           {
@@ -14219,40 +14281,9 @@
         "timestamp_s": 6244
       },
       {
-        "kind": "resolution",
-        "number": "2024-1009",
-        "title": "Schedules Public Hearing for Site Plan Amendment, Island Water Park",
-        "outcome": "adopted",
-        "votes": [
-          {
-            "member": "Joann Waski",
-            "vote": "yes"
-          },
-          {
-            "member": "Denise Merrifield",
-            "vote": "no"
-          },
-          {
-            "member": "Bob Kern",
-            "vote": "yes"
-          },
-          {
-            "member": "Ken Rothwell",
-            "vote": "yes"
-          },
-          {
-            "member": "Tim Hubbard",
-            "vote": "yes"
-          }
-        ],
-        "unanimous": false,
-        "confidence": "high",
-        "timestamp_s": 6272
-      },
-      {
         "kind": "motion",
         "number": null,
-        "title": "Motion to close the Town Board meeting",
+        "title": "Motion to Close the Town Board Meeting",
         "outcome": "adopted",
         "votes": [],
         "unanimous": false,

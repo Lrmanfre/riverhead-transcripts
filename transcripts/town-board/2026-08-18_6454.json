@@ -13897,7 +13897,7 @@
     "truncated": false,
     "model": "claude-sonnet-5",
     "prompt_version": "1",
-    "generated_at": "2026-08-26T01:57:16+00:00",
+    "generated_at": "2026-08-26T03:22:48+00:00",
     "grounded_in": "Minutes",
     "items": [
       {
@@ -13939,7 +13939,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 2374
+        "timestamp_s": 2337
       },
       {
         "kind": "resolution",
@@ -14001,7 +14001,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 2404
+        "timestamp_s": 2396
       },
       {
         "kind": "resolution",
@@ -14032,7 +14032,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 2421
+        "timestamp_s": 2414
       },
       {
         "kind": "resolution",
@@ -14063,7 +14063,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 2441
+        "timestamp_s": 2433
       },
       {
         "kind": "resolution",
@@ -14094,7 +14094,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 2458
+        "timestamp_s": 2448
       },
       {
         "kind": "resolution",
@@ -14125,7 +14125,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 2480
+        "timestamp_s": 2471
       },
       {
         "kind": "resolution",
@@ -14156,12 +14156,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 2491
+        "timestamp_s": 2483
       },
       {
         "kind": "resolution",
         "number": "2026-773",
-        "title": "Ratifies the Authorization for the Police Department to Apply for a Grant",
+        "title": "Ratifies the Authorization for the Police Department to apply for a Grant",
         "outcome": "adopted",
         "votes": [
           {
@@ -14187,12 +14187,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 2511
+        "timestamp_s": 2505
       },
       {
         "kind": "resolution",
         "number": "2026-774",
-        "title": "Authorizes The Community Development Department to Offer Assistance to Eligible First-Time Homebuyers",
+        "title": "Authorizes Community Development Dept to Assist First-Time Homebuyers",
         "outcome": "adopted",
         "votes": [
           {
@@ -14218,7 +14218,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 2535
+        "timestamp_s": 2523
       },
       {
         "kind": "resolution",
@@ -14249,7 +14249,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 2511
+        "timestamp_s": 2559
       },
       {
         "kind": "resolution",
@@ -14280,7 +14280,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 2584
+        "timestamp_s": 2573
       },
       {
         "kind": "resolution",
@@ -14311,7 +14311,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 2602
+        "timestamp_s": 2596
       },
       {
         "kind": "resolution",
@@ -14330,7 +14330,7 @@
         ],
         "unanimous": true,
         "confidence": "low",
-        "timestamp_s": 2618
+        "timestamp_s": 2614
       },
       {
         "kind": "resolution",
@@ -14361,7 +14361,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 2511
+        "timestamp_s": 2625
       },
       {
         "kind": "resolution",
@@ -14392,7 +14392,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 2644
+        "timestamp_s": 2640
       },
       {
         "kind": "resolution",
@@ -14423,7 +14423,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 2644
+        "timestamp_s": 2656
       },
       {
         "kind": "resolution",
@@ -14449,8 +14449,8 @@
           }
         ],
         "unanimous": true,
-        "confidence": "high",
-        "timestamp_s": 2441
+        "confidence": "low",
+        "timestamp_s": 2669
       },
       {
         "kind": "resolution",
@@ -14481,7 +14481,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 2696
+        "timestamp_s": 2684
       },
       {
         "kind": "resolution",
@@ -14512,7 +14512,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 2726
+        "timestamp_s": 2719
       },
       {
         "kind": "resolution",
@@ -14543,7 +14543,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 2404
+        "timestamp_s": 2735
       },
       {
         "kind": "resolution",
@@ -14574,7 +14574,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 2762
+        "timestamp_s": 2751
       },
       {
         "kind": "resolution",
@@ -14605,7 +14605,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 2777
+        "timestamp_s": 2772
       },
       {
         "kind": "resolution",
@@ -14636,7 +14636,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 2793
+        "timestamp_s": 2787
       },
       {
         "kind": "resolution",
@@ -14667,7 +14667,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 2511
+        "timestamp_s": 2802
       },
       {
         "kind": "resolution",
@@ -14698,7 +14698,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 2824
+        "timestamp_s": 2816
       },
       {
         "kind": "resolution",
@@ -14729,12 +14729,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 2511
+        "timestamp_s": 2842
       },
       {
         "kind": "resolution",
         "number": "2026-792",
-        "title": "Establishing Town Hazardous Materials Response Team and Response Plan",
+        "title": "Establishes Hazardous Materials Response Team and Response Plan",
         "outcome": "adopted",
         "votes": [
           {
@@ -14760,7 +14760,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 2511
+        "timestamp_s": 2863
       },
       {
         "kind": "resolution",
@@ -14791,12 +14791,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 2900
+        "timestamp_s": 2888
       },
       {
         "kind": "resolution",
         "number": "2026-794",
-        "title": "Ratifies Authorization for Town Attorney Retainer Agreement with Siegel & Sitler, PLLC",
+        "title": "Ratifies Retainer Agreement with Siegel & Sitler, PLLC",
         "outcome": "adopted",
         "votes": [
           {
@@ -14822,12 +14822,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 2511
+        "timestamp_s": 2905
       },
       {
         "kind": "resolution",
         "number": "2026-795",
-        "title": "License Agreement with Riverhead Volunteer Ambulance Corps for Town Hall Basement",
+        "title": "Authorizes License Agreement with Riverhead Volunteer Ambulance Corps for EMT Course Instruction",
         "outcome": "adopted",
         "votes": [
           {
@@ -14853,12 +14853,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 2943
+        "timestamp_s": 2928
       },
       {
         "kind": "resolution",
         "number": "2026-796",
-        "title": "License Agreement for Annex Building Basement for Medical Billing Storage",
+        "title": "Authorizes License Agreement for Annex Building Basement for Medical Billing",
         "outcome": "adopted",
         "votes": [
           {
@@ -14884,12 +14884,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 2967
+        "timestamp_s": 2955
       },
       {
         "kind": "motion",
         "number": null,
-        "title": "Amend fiscal impact statement for Armory Building license agreement resolution",
+        "title": "Amend fiscal impact statement for Resolution 797 (Armory Building agreement)",
         "outcome": "amended",
         "votes": [
           {
@@ -14920,8 +14920,8 @@
       {
         "kind": "resolution",
         "number": "2026-797",
-        "title": "License Agreement for Armory Building Vehicle Bays for Ambulance Storage (Amended)",
-        "outcome": "adopted",
+        "title": "Authorizes License Agreement for Armory Building Use for Ambulance Storage (as amended)",
+        "outcome": "amended",
         "votes": [
           {
             "member": "Joann Waski",
@@ -14946,12 +14946,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 3103
+        "timestamp_s": 3099
       },
       {
         "kind": "resolution",
         "number": "2026-798",
-        "title": "Consultant/Professional Services Agreement with D&B Engineers and Architects",
+        "title": "Authorizes Consultant/Professional Services Agreement with D&B Engineers and Architects",
         "outcome": "adopted",
         "votes": [
           {
@@ -14977,12 +14977,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 3130
+        "timestamp_s": 3119
       },
       {
         "kind": "resolution",
         "number": "2026-799",
-        "title": "Agreement with Riverhead Youth Sports for Referee/Umpire Services",
+        "title": "Authorizes Agreement with Riverhead Youth Sports for PAL Football Referee/Umpire Services",
         "outcome": "adopted",
         "votes": [
           {
@@ -15008,12 +15008,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 2480
+        "timestamp_s": 3142
       },
       {
         "kind": "resolution",
         "number": "2026-800",
-        "title": "Amends Chapter 289 to Memorialize Stop Intersection at Doctors Path and Northville Tpke",
+        "title": "Amends Ch. 289 to Memorialize Stop Intersection at Doctors Path and Northville Tpke",
         "outcome": "adopted",
         "votes": [
           {
@@ -15039,7 +15039,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 3181
+        "timestamp_s": 3170
       },
       {
         "kind": "resolution",
@@ -15070,12 +15070,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 3217
+        "timestamp_s": 3209
       },
       {
         "kind": "resolution",
         "number": "2026-802",
-        "title": "Calling Public Hearing for Sewer District Extension to 840 Old Country Road",
+        "title": "Calls Public Hearing on Sewer District Extension to 840 Old Country Road",
         "outcome": "adopted",
         "votes": [
           {
@@ -15101,12 +15101,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 2511
+        "timestamp_s": 3229
       },
       {
         "kind": "resolution",
         "number": "2026-803",
-        "title": "Publish Notice for Local Law Amending Chapter 255 Special Events",
+        "title": "Authorizes Notice for Local Law Amending Ch. 255 Special Events",
         "outcome": "adopted",
         "votes": [
           {
@@ -15132,12 +15132,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 3263
+        "timestamp_s": 3252
       },
       {
         "kind": "resolution",
         "number": "2026-804",
-        "title": "Publish Notice for Local Law Amending Chapter 231 Fireworks and Pyrotechnics",
+        "title": "Authorizes Notice for Local Law Amending Ch. 231 Fireworks and Pyrotechnics",
         "outcome": "adopted",
         "votes": [
           {
@@ -15163,12 +15163,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 3294
+        "timestamp_s": 3279
       },
       {
         "kind": "resolution",
         "number": "2026-805",
-        "title": "Adopts Local Law Amending Chapter 207 Animals - Ban on Sale of Commercially Bred Pets",
+        "title": "Adopts Local Law Amending Ch. 207 Animals - Prohibition on Commercially Bred Pet Sales",
         "outcome": "adopted",
         "votes": [
           {
@@ -15194,12 +15194,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 3334
+        "timestamp_s": 3309
       },
       {
         "kind": "resolution",
         "number": "2026-806",
-        "title": "Publish Notice to Bidders for Altec AT40G Aerial Device",
+        "title": "Authorizes Notice to Bidders for Altec AT40G Aerial Device",
         "outcome": "adopted",
         "votes": [
           {
@@ -15225,12 +15225,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 3375
+        "timestamp_s": 3344
       },
       {
         "kind": "resolution",
         "number": "2026-807",
-        "title": "Awards Bid for CUES Flexitrax C550C Video Pipe Inspection Camera",
+        "title": "Awards Bid for CUES Flexitrax C550C Portable Video Pipe Inspection Camera",
         "outcome": "adopted",
         "votes": [
           {
@@ -15256,7 +15256,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 3263
+        "timestamp_s": 3387
       },
       {
         "kind": "resolution",
@@ -15287,7 +15287,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 3263
+        "timestamp_s": 3409
       },
       {
         "kind": "resolution",
@@ -15318,7 +15318,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 2511
+        "timestamp_s": 3426
       },
       {
         "kind": "resolution",
@@ -15349,7 +15349,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 3453
+        "timestamp_s": 3442
       },
       {
         "kind": "resolution",
@@ -15380,7 +15380,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 3475
+        "timestamp_s": 3463
       },
       {
         "kind": "resolution",
@@ -15411,7 +15411,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 3497
+        "timestamp_s": 3488
       },
       {
         "kind": "resolution",
@@ -15442,7 +15442,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 3510
+        "timestamp_s": 3504
       },
       {
         "kind": "motion",
@@ -15458,7 +15458,17 @@
       {
         "kind": "motion",
         "number": null,
-        "title": "Motion to open CDA meeting",
+        "title": "Adjourn Town Board meeting",
+        "outcome": "adopted",
+        "votes": [],
+        "unanimous": false,
+        "confidence": "low",
+        "timestamp_s": 9921
+      },
+      {
+        "kind": "motion",
+        "number": null,
+        "title": "Open CDA meeting",
         "outcome": "adopted",
         "votes": [
           {

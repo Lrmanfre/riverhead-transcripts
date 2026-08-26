@@ -12561,19 +12561,9 @@
     "truncated": false,
     "model": "claude-sonnet-5",
     "prompt_version": "1",
-    "generated_at": "2026-08-26T01:22:38+00:00",
+    "generated_at": "2026-08-26T02:44:11+00:00",
     "grounded_in": "Minutes",
     "items": [
-      {
-        "kind": "hearing_action",
-        "number": null,
-        "title": "Public Hearing - CDBG Funds",
-        "outcome": "held",
-        "votes": [],
-        "unanimous": false,
-        "confidence": "low",
-        "timestamp_s": 3829
-      },
       {
         "kind": "hearing_action",
         "number": null,
@@ -12601,41 +12591,19 @@
           {
             "member": "Ken Rothwell",
             "vote": "yes"
-          },
-          {
-            "member": "Tim Hubbard",
-            "vote": "yes"
           }
         ],
         "unanimous": true,
-        "confidence": "low",
-        "timestamp_s": null,
-        "anchor_quote_unmatched": ""
+        "confidence": "high",
+        "timestamp_s": 4624
       },
       {
         "kind": "resolution",
         "number": "2025-896",
-        "title": "Budget Adjustment for Administrative Charges - Chapter 217 - 40 17th Street",
+        "title": "Budget Adjustment for Administrative Charges - Chapter 217",
         "outcome": "adopted",
-        "votes": [
-          {
-            "member": "Joann Waski",
-            "vote": "yes"
-          },
-          {
-            "member": "Denise Merrifield",
-            "vote": "yes"
-          },
-          {
-            "member": "Ken Rothwell",
-            "vote": "yes"
-          },
-          {
-            "member": "Tim Hubbard",
-            "vote": "yes"
-          }
-        ],
-        "unanimous": true,
+        "votes": [],
+        "unanimous": false,
         "confidence": "low",
         "timestamp_s": null,
         "anchor_quote_unmatched": ""
@@ -12643,7 +12611,7 @@
       {
         "kind": "resolution",
         "number": "2025-897",
-        "title": "Capital Project #72515 Budget Adjustment - Two Bears Park Improvements",
+        "title": "Capital Project #72515 Budget Adjustment - Two Bears Park",
         "outcome": "adopted",
         "votes": [
           {
@@ -12664,9 +12632,8 @@
           }
         ],
         "unanimous": true,
-        "confidence": "low",
-        "timestamp_s": null,
-        "anchor_quote_unmatched": ""
+        "confidence": "high",
+        "timestamp_s": 4696
       },
       {
         "kind": "resolution",
@@ -12692,9 +12659,8 @@
           }
         ],
         "unanimous": true,
-        "confidence": "low",
-        "timestamp_s": null,
-        "anchor_quote_unmatched": ""
+        "confidence": "high",
+        "timestamp_s": 4715
       },
       {
         "kind": "resolution",
@@ -12720,14 +12686,13 @@
           }
         ],
         "unanimous": true,
-        "confidence": "low",
-        "timestamp_s": null,
-        "anchor_quote_unmatched": ""
+        "confidence": "high",
+        "timestamp_s": 4739
       },
       {
         "kind": "resolution",
         "number": "2025-900",
-        "title": "Ratifies Appointment of Call-In Mini Bus Driver",
+        "title": "Ratifies Appointment of a Call-In Mini Bus Driver",
         "outcome": "adopted",
         "votes": [
           {
@@ -12749,33 +12714,15 @@
         ],
         "unanimous": true,
         "confidence": "low",
-        "timestamp_s": null,
-        "anchor_quote_unmatched": ""
+        "timestamp_s": 4750
       },
       {
         "kind": "resolution",
         "number": "2025-901",
-        "title": "Ratifies Provisional Appointment of Account Clerk",
+        "title": "Ratifies Provisional Appointment of an Account Clerk",
         "outcome": "adopted",
-        "votes": [
-          {
-            "member": "Joann Waski",
-            "vote": "yes"
-          },
-          {
-            "member": "Denise Merrifield",
-            "vote": "yes"
-          },
-          {
-            "member": "Ken Rothwell",
-            "vote": "yes"
-          },
-          {
-            "member": "Tim Hubbard",
-            "vote": "yes"
-          }
-        ],
-        "unanimous": true,
+        "votes": [],
+        "unanimous": false,
         "confidence": "low",
         "timestamp_s": null,
         "anchor_quote_unmatched": ""
@@ -12783,7 +12730,7 @@
       {
         "kind": "resolution",
         "number": "2025-902",
-        "title": "Ratifies Acceptance of Resignation from Public Safety Dispatcher",
+        "title": "Ratifies Acceptance of Resignation from a Public Safety Dispatcher",
         "outcome": "adopted",
         "votes": [
           {
@@ -12804,14 +12751,13 @@
           }
         ],
         "unanimous": true,
-        "confidence": "low",
-        "timestamp_s": null,
-        "anchor_quote_unmatched": ""
+        "confidence": "high",
+        "timestamp_s": 4784
       },
       {
         "kind": "resolution",
         "number": "2025-903",
-        "title": "Accepts Resignation of Maintenance Mechanic II",
+        "title": "Accepts Resignation of a Maintenance Mechanic II",
         "outcome": "adopted",
         "votes": [
           {
@@ -12832,9 +12778,8 @@
           }
         ],
         "unanimous": true,
-        "confidence": "low",
-        "timestamp_s": null,
-        "anchor_quote_unmatched": ""
+        "confidence": "high",
+        "timestamp_s": 4799
       },
       {
         "kind": "resolution",
@@ -12860,9 +12805,8 @@
           }
         ],
         "unanimous": true,
-        "confidence": "low",
-        "timestamp_s": null,
-        "anchor_quote_unmatched": ""
+        "confidence": "high",
+        "timestamp_s": 4827
       },
       {
         "kind": "resolution",
@@ -12881,41 +12825,19 @@
           {
             "member": "Ken Rothwell",
             "vote": "yes"
-          },
-          {
-            "member": "Tim Hubbard",
-            "vote": "yes"
           }
         ],
         "unanimous": true,
-        "confidence": "low",
-        "timestamp_s": null,
-        "anchor_quote_unmatched": ""
+        "confidence": "high",
+        "timestamp_s": 4867
       },
       {
         "kind": "resolution",
         "number": "2025-906",
-        "title": "Authorizing Hiring of Administrative Law Judge for Stop-Arm Camera Hearings",
+        "title": "Authorizes Hiring of Administrative Law Judge for Stop-Arm Camera Hearings",
         "outcome": "adopted",
-        "votes": [
-          {
-            "member": "Joann Waski",
-            "vote": "yes"
-          },
-          {
-            "member": "Denise Merrifield",
-            "vote": "yes"
-          },
-          {
-            "member": "Ken Rothwell",
-            "vote": "yes"
-          },
-          {
-            "member": "Tim Hubbard",
-            "vote": "yes"
-          }
-        ],
-        "unanimous": true,
+        "votes": [],
+        "unanimous": false,
         "confidence": "low",
         "timestamp_s": null,
         "anchor_quote_unmatched": ""
@@ -12923,7 +12845,7 @@
       {
         "kind": "resolution",
         "number": "2025-907",
-        "title": "Authorizes Public Notice to Amend Chapter 289 Traffic Regulations",
+        "title": "Publish Notice to Amend Chapter 289 - Vehicles, Traffic and Parking Regulations",
         "outcome": "adopted",
         "votes": [
           {
@@ -12944,14 +12866,13 @@
           }
         ],
         "unanimous": true,
-        "confidence": "low",
-        "timestamp_s": null,
-        "anchor_quote_unmatched": ""
+        "confidence": "high",
+        "timestamp_s": 4919
       },
       {
         "kind": "resolution",
         "number": "2025-908",
-        "title": "Authorizes Public Notice to Amend Chapter 231 Fire Prevention",
+        "title": "Publish Notice to Amend Chapter 231 - Fire Prevention",
         "outcome": "adopted",
         "votes": [
           {
@@ -12972,14 +12893,13 @@
           }
         ],
         "unanimous": true,
-        "confidence": "low",
-        "timestamp_s": null,
-        "anchor_quote_unmatched": ""
+        "confidence": "high",
+        "timestamp_s": 4942
       },
       {
         "kind": "resolution",
         "number": "2025-909",
-        "title": "Authorizes Notice to Bidders for Well No. 2A Construction Contracts",
+        "title": "Publish Notice to Bidders for Construction of Well No. 2A",
         "outcome": "adopted",
         "votes": [
           {
@@ -13000,14 +12920,13 @@
           }
         ],
         "unanimous": true,
-        "confidence": "low",
-        "timestamp_s": null,
-        "anchor_quote_unmatched": ""
+        "confidence": "high",
+        "timestamp_s": 4965
       },
       {
         "kind": "resolution",
         "number": "2025-910",
-        "title": "Authorizes Notice to Bidders for General Hardware Items",
+        "title": "Publish Notice to Bidders for General Hardware Items",
         "outcome": "adopted",
         "votes": [
           {
@@ -13028,14 +12947,13 @@
           }
         ],
         "unanimous": true,
-        "confidence": "low",
-        "timestamp_s": null,
-        "anchor_quote_unmatched": ""
+        "confidence": "high",
+        "timestamp_s": 4995
       },
       {
         "kind": "resolution",
         "number": "2025-911",
-        "title": "Authorizes RFP for Audit Services for Community Preservation Fund",
+        "title": "Publish Notice of RFP for Audit Services - Community Preservation Fund",
         "outcome": "adopted",
         "votes": [
           {
@@ -13056,14 +12974,13 @@
           }
         ],
         "unanimous": true,
-        "confidence": "low",
-        "timestamp_s": null,
-        "anchor_quote_unmatched": ""
+        "confidence": "high",
+        "timestamp_s": 5011
       },
       {
         "kind": "resolution",
         "number": "2025-912",
-        "title": "Rejects Bids for Food and Meat, Authorizes Rebid",
+        "title": "Reject Bids for Food and Meat; Authorize Rebid",
         "outcome": "adopted",
         "votes": [
           {
@@ -13084,14 +13001,13 @@
           }
         ],
         "unanimous": true,
-        "confidence": "low",
-        "timestamp_s": null,
-        "anchor_quote_unmatched": ""
+        "confidence": "high",
+        "timestamp_s": 5032
       },
       {
         "kind": "resolution",
         "number": "2025-913",
-        "title": "Awards Bid for Riverhead Landfill Water Main Extension",
+        "title": "Awards Bid for CVE US NY Riverhead 215 LLC Water Main Extension",
         "outcome": "adopted",
         "votes": [
           {
@@ -13112,9 +13028,8 @@
           }
         ],
         "unanimous": true,
-        "confidence": "low",
-        "timestamp_s": null,
-        "anchor_quote_unmatched": ""
+        "confidence": "high",
+        "timestamp_s": 5051
       },
       {
         "kind": "resolution",
@@ -13140,14 +13055,13 @@
           }
         ],
         "unanimous": true,
-        "confidence": "low",
-        "timestamp_s": null,
-        "anchor_quote_unmatched": ""
+        "confidence": "high",
+        "timestamp_s": 5070
       },
       {
         "kind": "resolution",
         "number": "2025-915",
-        "title": "Ratifies Stipulation with Local 1000 AFSCME AFL-CIO",
+        "title": "Ratifies Stipulation with Local 1000 AFSCME Riverhead Unit",
         "outcome": "adopted",
         "votes": [
           {
@@ -13168,14 +13082,13 @@
           }
         ],
         "unanimous": true,
-        "confidence": "low",
-        "timestamp_s": null,
-        "anchor_quote_unmatched": ""
+        "confidence": "high",
+        "timestamp_s": 5093
       },
       {
         "kind": "resolution",
         "number": "2025-916",
-        "title": "Authorizes Agreement with Municipal Valuation Services, Inc.",
+        "title": "Agreement with Municipal Valuation Services, Inc.",
         "outcome": "adopted",
         "votes": [
           {
@@ -13196,14 +13109,13 @@
           }
         ],
         "unanimous": true,
-        "confidence": "low",
-        "timestamp_s": null,
-        "anchor_quote_unmatched": ""
+        "confidence": "high",
+        "timestamp_s": 5111
       },
       {
         "kind": "resolution",
         "number": "2025-917",
-        "title": "Ratifies Agreement with Inter-Fluve Engineering for Meetinghouse Creek Project",
+        "title": "Agreement with Inter-Fluve Engineering - Meetinghouse Creek Restoration",
         "outcome": "adopted",
         "votes": [
           {
@@ -13224,34 +13136,16 @@
           }
         ],
         "unanimous": true,
-        "confidence": "low",
-        "timestamp_s": null,
-        "anchor_quote_unmatched": ""
+        "confidence": "high",
+        "timestamp_s": 5132
       },
       {
         "kind": "resolution",
         "number": "2025-918",
         "title": "Authorizes Agreement with Special FX Wizard Inc. for Fireworks Display",
         "outcome": "adopted",
-        "votes": [
-          {
-            "member": "Joann Waski",
-            "vote": "yes"
-          },
-          {
-            "member": "Denise Merrifield",
-            "vote": "yes"
-          },
-          {
-            "member": "Ken Rothwell",
-            "vote": "yes"
-          },
-          {
-            "member": "Tim Hubbard",
-            "vote": "yes"
-          }
-        ],
-        "unanimous": true,
+        "votes": [],
+        "unanimous": false,
         "confidence": "low",
         "timestamp_s": null,
         "anchor_quote_unmatched": ""
@@ -13259,7 +13153,7 @@
       {
         "kind": "resolution",
         "number": "2025-919",
-        "title": "Approves Special Event Application for Cystic Fibrosis Foundation",
+        "title": "Chapter 255 Special Event Application - Cystic Fibrosis Foundation",
         "outcome": "adopted",
         "votes": [
           {
@@ -13280,9 +13174,8 @@
           }
         ],
         "unanimous": true,
-        "confidence": "low",
-        "timestamp_s": null,
-        "anchor_quote_unmatched": ""
+        "confidence": "high",
+        "timestamp_s": 5179
       },
       {
         "kind": "resolution",
@@ -13308,9 +13201,18 @@
           }
         ],
         "unanimous": true,
+        "confidence": "high",
+        "timestamp_s": 5190
+      },
+      {
+        "kind": "hearing_action",
+        "number": null,
+        "title": "CDBG Funds Public Hearing",
+        "outcome": "held",
+        "votes": [],
+        "unanimous": false,
         "confidence": "low",
-        "timestamp_s": null,
-        "anchor_quote_unmatched": ""
+        "timestamp_s": 4583
       },
       {
         "kind": "motion",

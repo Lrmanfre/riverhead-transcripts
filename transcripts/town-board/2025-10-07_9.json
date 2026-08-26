@@ -12159,13 +12159,13 @@
     "truncated": false,
     "model": "claude-sonnet-5",
     "prompt_version": "1",
-    "generated_at": "2026-08-26T01:32:38+00:00",
+    "generated_at": "2026-08-26T02:48:02+00:00",
     "grounded_in": "Minutes",
     "items": [
       {
         "kind": "hearing_action",
         "number": null,
-        "title": "Zenith Building, 301 East Main St. public hearing",
+        "title": "Public Hearing - Zenith Building, 301 East Main St.",
         "outcome": "held",
         "votes": [],
         "unanimous": false,
@@ -12202,12 +12202,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 1326
+        "timestamp_s": 1319
       },
       {
         "kind": "resolution",
         "number": "2025-808",
-        "title": "Ratifies Budget Adjustment for Removal of Unsafe Structure, 40 17th St, Wading River",
+        "title": "Ratifies Budget Adjustment for Removal of Unsafe Structure - 40 17th Street, Wading River",
         "outcome": "adopted",
         "votes": [
           {
@@ -12233,12 +12233,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 1350
+        "timestamp_s": 1341
       },
       {
         "kind": "resolution",
         "number": "2025-809",
-        "title": "Ratifies Budget Adjustment for Removal of Unsafe Structure, 39 Pye Lane, Jamesport",
+        "title": "Ratifies Budget Adjustment for Removal of Unsafe Structure - 39 Pye Lane, Jamesport",
         "outcome": "adopted",
         "votes": [
           {
@@ -12264,36 +12264,15 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 1350
+        "timestamp_s": 1371
       },
       {
         "kind": "resolution",
         "number": "2025-810",
         "title": "Amends Town Board Resolution 2021-274",
         "outcome": "adopted",
-        "votes": [
-          {
-            "member": "Joann Waski",
-            "vote": "yes"
-          },
-          {
-            "member": "Denise Merrifield",
-            "vote": "yes"
-          },
-          {
-            "member": "Bob Kern",
-            "vote": "yes"
-          },
-          {
-            "member": "Ken Rothwell",
-            "vote": "yes"
-          },
-          {
-            "member": "Tim Hubbard",
-            "vote": "yes"
-          }
-        ],
-        "unanimous": true,
+        "votes": [],
+        "unanimous": false,
         "confidence": "low",
         "timestamp_s": null,
         "anchor_quote_unmatched": ""
@@ -12301,7 +12280,7 @@
       {
         "kind": "resolution",
         "number": "2025-811",
-        "title": "Reversal of Budget Adoption for Removal of Weeds, Yard Waste, 262 Hulse Ave, Wading River",
+        "title": "Reversal of Budget Adoption for Removal of Weeds/Yard Waste - 262 Hulse Ave, Wading River",
         "outcome": "adopted",
         "votes": [
           {
@@ -12327,7 +12306,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 1350
+        "timestamp_s": 1410
       },
       {
         "kind": "resolution",
@@ -12358,36 +12337,15 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 1350
+        "timestamp_s": 1429
       },
       {
         "kind": "resolution",
         "number": "2025-813",
         "title": "Authorizes Removal of Fixed Assets",
         "outcome": "adopted",
-        "votes": [
-          {
-            "member": "Joann Waski",
-            "vote": "yes"
-          },
-          {
-            "member": "Denise Merrifield",
-            "vote": "yes"
-          },
-          {
-            "member": "Bob Kern",
-            "vote": "yes"
-          },
-          {
-            "member": "Ken Rothwell",
-            "vote": "yes"
-          },
-          {
-            "member": "Tim Hubbard",
-            "vote": "yes"
-          }
-        ],
-        "unanimous": true,
+        "votes": [],
+        "unanimous": false,
         "confidence": "low",
         "timestamp_s": null,
         "anchor_quote_unmatched": ""
@@ -12397,61 +12355,18 @@
         "number": "2025-814",
         "title": "Amends Fire Prevention Fee for Burn Permit",
         "outcome": "adopted",
-        "votes": [
-          {
-            "member": "Joann Waski",
-            "vote": "yes"
-          },
-          {
-            "member": "Denise Merrifield",
-            "vote": "yes"
-          },
-          {
-            "member": "Bob Kern",
-            "vote": "yes"
-          },
-          {
-            "member": "Ken Rothwell",
-            "vote": "yes"
-          },
-          {
-            "member": "Tim Hubbard",
-            "vote": "yes"
-          }
-        ],
-        "unanimous": true,
+        "votes": [],
+        "unanimous": false,
         "confidence": "low",
-        "timestamp_s": null,
-        "anchor_quote_unmatched": ""
+        "timestamp_s": 1468
       },
       {
         "kind": "resolution",
         "number": "2025-815",
-        "title": "Ratifies Authorization for Police Employee to Attend Seminar",
+        "title": "Ratifies Authorization for Police Department Employee to Attend a Seminar",
         "outcome": "adopted",
-        "votes": [
-          {
-            "member": "Joann Waski",
-            "vote": "yes"
-          },
-          {
-            "member": "Denise Merrifield",
-            "vote": "yes"
-          },
-          {
-            "member": "Bob Kern",
-            "vote": "yes"
-          },
-          {
-            "member": "Ken Rothwell",
-            "vote": "yes"
-          },
-          {
-            "member": "Tim Hubbard",
-            "vote": "yes"
-          }
-        ],
-        "unanimous": true,
+        "votes": [],
+        "unanimous": false,
         "confidence": "low",
         "timestamp_s": null,
         "anchor_quote_unmatched": ""
@@ -12459,31 +12374,10 @@
       {
         "kind": "resolution",
         "number": "2025-816",
-        "title": "Authorizes Police Employee to Attend Training",
+        "title": "Authorizes Police Department Employee to Attend a Training",
         "outcome": "adopted",
-        "votes": [
-          {
-            "member": "Joann Waski",
-            "vote": "yes"
-          },
-          {
-            "member": "Denise Merrifield",
-            "vote": "yes"
-          },
-          {
-            "member": "Bob Kern",
-            "vote": "yes"
-          },
-          {
-            "member": "Ken Rothwell",
-            "vote": "yes"
-          },
-          {
-            "member": "Tim Hubbard",
-            "vote": "yes"
-          }
-        ],
-        "unanimous": true,
+        "votes": [],
+        "unanimous": false,
         "confidence": "low",
         "timestamp_s": null,
         "anchor_quote_unmatched": ""
@@ -12493,29 +12387,8 @@
         "number": "2025-817",
         "title": "Authorizes Fire Marshal to Attend Fire/Arson Investigation Seminar",
         "outcome": "adopted",
-        "votes": [
-          {
-            "member": "Joann Waski",
-            "vote": "yes"
-          },
-          {
-            "member": "Denise Merrifield",
-            "vote": "yes"
-          },
-          {
-            "member": "Bob Kern",
-            "vote": "yes"
-          },
-          {
-            "member": "Ken Rothwell",
-            "vote": "yes"
-          },
-          {
-            "member": "Tim Hubbard",
-            "vote": "yes"
-          }
-        ],
-        "unanimous": true,
+        "votes": [],
+        "unanimous": false,
         "confidence": "low",
         "timestamp_s": null,
         "anchor_quote_unmatched": ""
@@ -12537,18 +12410,10 @@
           {
             "member": "Bob Kern",
             "vote": "yes"
-          },
-          {
-            "member": "Ken Rothwell",
-            "vote": "yes"
-          },
-          {
-            "member": "Tim Hubbard",
-            "vote": "yes"
           }
         ],
         "unanimous": true,
-        "confidence": "high",
+        "confidence": "low",
         "timestamp_s": 1529
       },
       {
@@ -12568,20 +12433,11 @@
           {
             "member": "Bob Kern",
             "vote": "yes"
-          },
-          {
-            "member": "Ken Rothwell",
-            "vote": "yes"
-          },
-          {
-            "member": "Tim Hubbard",
-            "vote": "yes"
           }
         ],
         "unanimous": true,
         "confidence": "low",
-        "timestamp_s": null,
-        "anchor_quote_unmatched": ""
+        "timestamp_s": 1542
       },
       {
         "kind": "resolution",
@@ -12604,16 +12460,11 @@
           {
             "member": "Ken Rothwell",
             "vote": "yes"
-          },
-          {
-            "member": "Tim Hubbard",
-            "vote": "yes"
           }
         ],
         "unanimous": true,
-        "confidence": "low",
-        "timestamp_s": null,
-        "anchor_quote_unmatched": ""
+        "confidence": "high",
+        "timestamp_s": 1562
       },
       {
         "kind": "resolution",
@@ -12636,16 +12487,11 @@
           {
             "member": "Ken Rothwell",
             "vote": "yes"
-          },
-          {
-            "member": "Tim Hubbard",
-            "vote": "yes"
           }
         ],
         "unanimous": true,
-        "confidence": "low",
-        "timestamp_s": null,
-        "anchor_quote_unmatched": ""
+        "confidence": "high",
+        "timestamp_s": 1577
       },
       {
         "kind": "resolution",
@@ -12664,20 +12510,11 @@
           {
             "member": "Bob Kern",
             "vote": "yes"
-          },
-          {
-            "member": "Ken Rothwell",
-            "vote": "yes"
-          },
-          {
-            "member": "Tim Hubbard",
-            "vote": "yes"
           }
         ],
         "unanimous": true,
         "confidence": "low",
-        "timestamp_s": null,
-        "anchor_quote_unmatched": ""
+        "timestamp_s": 1596
       },
       {
         "kind": "resolution",
@@ -12700,16 +12537,11 @@
           {
             "member": "Ken Rothwell",
             "vote": "yes"
-          },
-          {
-            "member": "Tim Hubbard",
-            "vote": "yes"
           }
         ],
         "unanimous": true,
-        "confidence": "low",
-        "timestamp_s": null,
-        "anchor_quote_unmatched": ""
+        "confidence": "high",
+        "timestamp_s": 1617
       },
       {
         "kind": "resolution",
@@ -12732,41 +12564,19 @@
           {
             "member": "Ken Rothwell",
             "vote": "yes"
-          },
-          {
-            "member": "Tim Hubbard",
-            "vote": "yes"
           }
         ],
         "unanimous": true,
-        "confidence": "low",
-        "timestamp_s": null,
-        "anchor_quote_unmatched": ""
+        "confidence": "high",
+        "timestamp_s": 1627
       },
       {
         "kind": "resolution",
         "number": "2025-825",
         "title": "Ratifies and Accepts Resignation of a Traffic Control Specialist",
         "outcome": "adopted",
-        "votes": [
-          {
-            "member": "Joann Waski",
-            "vote": "yes"
-          },
-          {
-            "member": "Denise Merrifield",
-            "vote": "yes"
-          },
-          {
-            "member": "Bob Kern",
-            "vote": "yes"
-          },
-          {
-            "member": "Ken Rothwell",
-            "vote": "yes"
-          }
-        ],
-        "unanimous": true,
+        "votes": [],
+        "unanimous": false,
         "confidence": "low",
         "timestamp_s": null,
         "anchor_quote_unmatched": ""
@@ -12774,7 +12584,7 @@
       {
         "kind": "resolution",
         "number": "2025-826",
-        "title": "Approve Special Event Chapter 255 Application, Bold Broadcasting LLC Holiday Light Show",
+        "title": "Approve Special Event Application for Bold Broadcasting LLC (Holiday Light Show)",
         "outcome": "adopted",
         "votes": [
           {
@@ -12805,7 +12615,7 @@
       {
         "kind": "resolution",
         "number": "2025-827",
-        "title": "Approve Special Event Chapter 255 Application, Main Street Agency Halloween Fest",
+        "title": "Approves Special Event Application for Main Street Agency & Associates (Halloween Fest)",
         "outcome": "adopted",
         "votes": [
           {
@@ -12831,12 +12641,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 1692
+        "timestamp_s": 1684
       },
       {
         "kind": "resolution",
         "number": "2025-828",
-        "title": "Authorizes Designated Alcohol Service Vendors for 2025 Halloween Fest",
+        "title": "Authorizes Alcohol Service Vendors at 2025 Halloween Fest",
         "outcome": "adopted",
         "votes": [
           {
@@ -12862,12 +12672,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 1692
+        "timestamp_s": 1704
       },
       {
         "kind": "resolution",
         "number": "2025-829",
-        "title": "Designates Alcohol Service Vendors for Riverhead Country Fair Street Festival",
+        "title": "Designates Alcohol Vendors for 2025 Riverhead Country Fair Street Festival",
         "outcome": "adopted",
         "votes": [
           {
@@ -12889,12 +12699,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 1743
+        "timestamp_s": 1725
       },
       {
         "kind": "resolution",
         "number": "2025-830",
-        "title": "Ratifies Authorization for Stipulation with Local 1000 AFSCME AFL-CIO",
+        "title": "Ratifies Authorization for Stipulation with Local 1000, AFSCME, AFL-CIO",
         "outcome": "adopted",
         "votes": [
           {
@@ -12920,12 +12730,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 1767
+        "timestamp_s": 1755
       },
       {
         "kind": "resolution",
         "number": "2025-831",
-        "title": "Authorize Supervisor to Execute Agreement with Interpreter for Justice Court (Alvarez)",
+        "title": "Authorize Supervisor to Execute Agreement with Interpreter for Justice Court",
         "outcome": "adopted",
         "votes": [
           {
@@ -12950,13 +12760,13 @@
           }
         ],
         "unanimous": true,
-        "confidence": "high",
+        "confidence": "low",
         "timestamp_s": 1779
       },
       {
         "kind": "resolution",
         "number": "2025-832",
-        "title": "Ratifies License Agreement with Riverhead Chamber of Commerce for Town Hall Use",
+        "title": "Ratifies Authorization for License Agreement with Riverhead Chamber of Commerce",
         "outcome": "adopted",
         "votes": [
           {
@@ -12982,7 +12792,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 1767
+        "timestamp_s": 1804
       },
       {
         "kind": "resolution",
@@ -13013,7 +12823,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 1781
+        "timestamp_s": 1820
       },
       {
         "kind": "resolution",
@@ -13044,7 +12854,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 1853
+        "timestamp_s": 1854
       },
       {
         "kind": "resolution",
@@ -13075,12 +12885,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 1871
+        "timestamp_s": 1867
       },
       {
         "kind": "resolution",
         "number": "2025-836",
-        "title": "Ratifies Agreement with Goodman-Marks Associates Inc. for Appraisal",
+        "title": "Ratifies Agreement with Goodman-Marks Associates for Appraisal",
         "outcome": "adopted",
         "votes": [
           {
@@ -13106,12 +12916,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 1880
+        "timestamp_s": 1877
       },
       {
         "kind": "resolution",
-        "number": null,
-        "title": "Authorizes town attorney to retain special counsel for perfection of an appeal",
+        "number": "2025-838",
+        "title": "Authorizes Town Attorney to Retain Special Counsel for Perfection of an Appeal",
         "outcome": "adopted",
         "votes": [
           {
@@ -13137,12 +12947,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 1767
+        "timestamp_s": 1922
       },
       {
         "kind": "resolution",
         "number": "2025-839",
-        "title": "Authorizes Application for Funding to Empire State Development, Long Island Forward Housing Project",
+        "title": "Authorizes Application for Funding to Empire State Development (Long Island Forward Housing)",
         "outcome": "adopted",
         "votes": [
           {
@@ -13168,7 +12978,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 1781
+        "timestamp_s": 1945
       },
       {
         "kind": "resolution",
@@ -13199,12 +13009,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 1767
+        "timestamp_s": 1970
       },
       {
         "kind": "resolution",
         "number": "2025-841",
-        "title": "Adopts Local Law Amending Chapter 289, Article 4 Parking Standing and Stopping",
+        "title": "Local Law Amending Chapter 289 - Parking, Standing, and Stopping",
         "outcome": "adopted",
         "votes": [
           {
@@ -13230,12 +13040,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 1781
+        "timestamp_s": 1992
       },
       {
         "kind": "resolution",
         "number": "2025-842",
-        "title": "Adopts Local Law Amending Chapter 289, Article 1 Terminology",
+        "title": "Local Law Amending Chapter 289 - Terminology",
         "outcome": "adopted",
         "votes": [
           {
@@ -13261,12 +13071,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 1767
+        "timestamp_s": 2010
       },
       {
         "kind": "motion",
         "number": "2025-843",
-        "title": "Motion to table resolution regarding e-bikes",
+        "title": "Motion to Table Resolution 843 (E-Bike Related Legislation)",
         "outcome": "tabled",
         "votes": [
           {
@@ -13292,12 +13102,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 2104
+        "timestamp_s": 2043
       },
       {
         "kind": "motion",
         "number": "2025-844",
-        "title": "Motion to table similar e-bike related resolution",
+        "title": "Motion to Table Resolution 844 (Similar E-Bike Legislation)",
         "outcome": "tabled",
         "votes": [
           {
@@ -13323,12 +13133,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 2133
+        "timestamp_s": 2129
       },
       {
         "kind": "resolution",
         "number": "2025-845",
-        "title": "Authorizes Town Clerk to Publish Notice for Public Hearing on CDBG 2026 Fund",
+        "title": "Authorizes Town Clerk to Publish Notice for CDBG 2026 Public Hearing",
         "outcome": "adopted",
         "votes": [
           {
@@ -13354,12 +13164,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 1781
+        "timestamp_s": 2157
       },
       {
         "kind": "resolution",
         "number": "2025-846",
-        "title": "Authorizes Town Clerk to Publish Notice to Bidders for Highway Dept Prefab Building",
+        "title": "Authorizes Notice to Bidders for Prefabricated Building for Highway Department",
         "outcome": "adopted",
         "votes": [
           {
@@ -13385,7 +13195,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 1767
+        "timestamp_s": 2180
       },
       {
         "kind": "resolution",
@@ -13416,7 +13226,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 1781
+        "timestamp_s": 2194
       },
       {
         "kind": "resolution",
@@ -13447,12 +13257,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 1781
+        "timestamp_s": 2211
       },
       {
         "kind": "resolution",
         "number": "2025-849",
-        "title": "Awards Bid for Dow Flake Extra 83-87% Calcium Chloride or Equal",
+        "title": "Awards Bid for Dow Flake Calcium Chloride or Equal",
         "outcome": "adopted",
         "votes": [
           {
@@ -13478,7 +13288,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 1781
+        "timestamp_s": 2224
       },
       {
         "kind": "resolution",
@@ -13509,7 +13319,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 1671
+        "timestamp_s": 2249
       },
       {
         "kind": "resolution",
@@ -13540,12 +13350,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 1692
+        "timestamp_s": 2265
       },
       {
         "kind": "resolution",
         "number": "2025-852",
-        "title": "Rescinds Award and Awards Bid, Annual Construction Contract #17",
+        "title": "Rescinds Award and Awards Bid #17, Annual Construction Contract",
         "outcome": "adopted",
         "votes": [
           {
@@ -13571,7 +13381,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 1692
+        "timestamp_s": 2280
       },
       {
         "kind": "resolution",
@@ -13602,7 +13412,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 1692
+        "timestamp_s": 2313
       },
       {
         "kind": "resolution",
@@ -13633,7 +13443,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 1671
+        "timestamp_s": 2323
       },
       {
         "kind": "resolution",
@@ -13664,12 +13474,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 1692
+        "timestamp_s": 2342
       },
       {
         "kind": "resolution",
         "number": "2025-856",
-        "title": "Bond Resolution Authorizing Issuance of Bonds, $6,500,000 for Justice Court",
+        "title": "Bond Resolution Authorizing Issuance of Bonds - $6,500,000 (Justice Court)",
         "outcome": "adopted",
         "votes": [
           {
@@ -13695,7 +13505,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 1692
+        "timestamp_s": 2365
       },
       {
         "kind": "resolution",
@@ -13726,12 +13536,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 2461
+        "timestamp_s": 2455
       },
       {
         "kind": "resolution",
         "number": "2025-858",
-        "title": "Amends Conditions of Resolution 2023-751, Cardmouth Bay Special Permit",
+        "title": "Amends Conditions of Resolution 2023-751 (Cardmouth Bay Special Permit)",
         "outcome": "adopted",
         "votes": [
           {
@@ -13757,27 +13567,22 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 2461
+        "timestamp_s": 2439
       },
       {
         "kind": "resolution",
         "number": "2025-859",
         "title": "Hayes Bill",
         "outcome": "adopted",
-        "votes": [
-          {
-            "member": "Joann Waski",
-            "vote": "yes"
-          }
-        ],
-        "unanimous": true,
+        "votes": [],
+        "unanimous": false,
         "confidence": "low",
-        "timestamp_s": 2500
+        "timestamp_s": 2501
       },
       {
         "kind": "resolution",
         "number": "2025-860",
-        "title": "Monroe Balancing Test / FTL Immunity from Riverhead Zoning and Land Use Laws",
+        "title": "Declares FTL Not Immune from Riverhead Zoning and Land Use Laws (Monroe Balancing Test)",
         "outcome": "adopted",
         "votes": [
           {
@@ -13803,12 +13608,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 1692
+        "timestamp_s": 2542
       },
       {
         "kind": "motion",
         "number": null,
-        "title": "Motion to call off floor resolution on tax cap override and 2026 preliminary budget notice",
+        "title": "Motion to Call Resolution off the Floor - Tax Cap Override/2026 Preliminary Budget Notice",
         "outcome": "adopted",
         "votes": [
           {
@@ -13834,22 +13639,17 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 2664
+        "timestamp_s": 2656
       },
       {
         "kind": "resolution",
         "number": null,
-        "title": "Authorizes publication of notice to override tax levy limit and adopt 2026 preliminary budget",
+        "title": "Authorizes Notice for Public Hearing on Tax Levy Cap Override and 2026 Preliminary Budget",
         "outcome": "adopted",
-        "votes": [
-          {
-            "member": "Denise Merrifield",
-            "vote": "yes"
-          }
-        ],
-        "unanimous": true,
+        "votes": [],
+        "unanimous": false,
         "confidence": "low",
-        "timestamp_s": 3501
+        "timestamp_s": 3494
       },
       {
         "kind": "motion",
