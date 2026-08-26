@@ -470,6 +470,17 @@ class _RateLimiter:
 THINKING_OFF = {"type": "disabled"}
 _NO_THINKING_PARAM = set()   # models that reject the parameter outright
 
+def _send(client, kwargs):
+    """Issue one request and return the assembled Message.
+
+    Streaming is not optional here. The SDK refuses a non-streaming request
+    whose max_tokens implies it could run past 10 minutes, which a large
+    extraction does. get_final_message() reassembles the same Message object,
+    so stop_reason, content blocks and usage all behave as before.
+    """
+    with client.messages.stream(**kwargs) as stream:
+        return stream.get_final_message()
+
 def _create(client, model, system, user, limiter, max_tokens):
     """One messages.create with rate-limit pacing and retries; returns text."""
     import anthropic
@@ -483,13 +494,13 @@ def _create(client, model, system, user, limiter, max_tokens):
             if model not in _NO_THINKING_PARAM:
                 kwargs["thinking"] = THINKING_OFF
             try:
-                resp = client.messages.create(**kwargs)
+                resp = _send(client, kwargs)
             except anthropic.BadRequestError as e:
                 if "thinking" in str(e).lower() and "thinking" in kwargs:
                     # Model does not accept the parameter; remember and retry.
                     _NO_THINKING_PARAM.add(model)
                     kwargs.pop("thinking")
-                    resp = client.messages.create(**kwargs)
+                    resp = _send(client, kwargs)
                 else:
                     raise
             text = "".join(b.text for b in resp.content

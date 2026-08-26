@@ -12601,13 +12601,13 @@
     "truncated": false,
     "model": "claude-sonnet-5",
     "prompt_version": "1",
-    "generated_at": "2026-08-25T21:00:59+00:00",
+    "generated_at": "2026-08-26T02:17:42+00:00",
     "grounded_in": "Minutes",
     "items": [
       {
         "kind": "hearing_action",
         "number": null,
-        "title": "National Grid Special Permit public hearing closed",
+        "title": "Public Hearing - National Grid Special Permit",
         "outcome": "held",
         "votes": [],
         "unanimous": false,
@@ -12622,12 +12622,12 @@
         "votes": [],
         "unanimous": false,
         "confidence": "low",
-        "timestamp_s": null
+        "timestamp_s": 897
       },
       {
         "kind": "hearing_action",
         "number": null,
-        "title": "Close public hearing on acquisition of 127 East Main Street",
+        "title": "Public Hearing - Acquisition of 127 East Main Street",
         "outcome": "held",
         "votes": [],
         "unanimous": false,
@@ -12637,7 +12637,7 @@
       {
         "kind": "resolution",
         "number": "2025-421",
-        "title": "Water District Capital Project 82507 Budget Adoption for Well 4-1",
+        "title": "Water District Capital Project 82507 Budget Adoption for Well 4-1 Capacity Increase",
         "outcome": "adopted",
         "votes": [
           {
@@ -12668,7 +12668,7 @@
       {
         "kind": "resolution",
         "number": "2025-422",
-        "title": "Agreement with Todd O'Connell Architect for Ambulance District Building Renovations",
+        "title": "Authorizes Supervisor to Execute Agreement with Todd O'Connell Architect for Ambulance District Building Renovations",
         "outcome": "adopted",
         "votes": [
           {
@@ -12699,7 +12699,7 @@
       {
         "kind": "resolution",
         "number": "2025-423",
-        "title": "Capital Project 12506 Ambulance District New Building Reserve Fund Transfer",
+        "title": "Capital Project 12506 Ambulance District New Building Capital Reserve Fund Balance Transfer",
         "outcome": "adopted",
         "votes": [
           {
@@ -12823,7 +12823,7 @@
       {
         "kind": "resolution",
         "number": "2025-427",
-        "title": "Ratifies Salary Increase for a Senior Office Assistant",
+        "title": "Ratifies a Salary Increase for a Senior Office Assistant",
         "outcome": "adopted",
         "votes": [
           {
@@ -12854,7 +12854,7 @@
       {
         "kind": "resolution",
         "number": "2025-428",
-        "title": "Ratifies Appointment of a Water Treatment Plant Operator IIB",
+        "title": "Ratifies the Appointment of a Water Treatment Plant Operator IIB",
         "outcome": "adopted",
         "votes": [
           {
@@ -12880,12 +12880,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 3886
+        "timestamp_s": 4004
       },
       {
         "kind": "resolution",
         "number": "2025-429",
-        "title": "Ratifies Provisional Appointment to Wastewater Treatment Plant Operator 4A",
+        "title": "Ratifies the Provisional Appointment of an Employee to Wastewater Treatment Plant Operator 4A",
         "outcome": "adopted",
         "votes": [
           {
@@ -12911,12 +12911,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 4011
+        "timestamp_s": 4004
       },
       {
         "kind": "resolution",
         "number": "2025-430",
-        "title": "Terms and Conditions of Employment for Deputy Sewer District Superintendent",
+        "title": "Setting Terms and Conditions of Employment for Deputy Sewer District Superintendent",
         "outcome": "adopted",
         "votes": [
           {
@@ -12947,7 +12947,7 @@
       {
         "kind": "resolution",
         "number": "2025-431",
-        "title": "Reappoints Provisional Senior Wastewater Treatment Plant Operator 2",
+        "title": "Reappoints a Provisional Senior Wastewater Treatment Plant Operator 2",
         "outcome": "adopted",
         "votes": [
           {
@@ -13035,7 +13035,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 4083
+        "timestamp_s": 4088
       },
       {
         "kind": "resolution",
@@ -13066,7 +13066,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 4069
+        "timestamp_s": 4096
       },
       {
         "kind": "resolution",
@@ -13097,12 +13097,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 4069
+        "timestamp_s": 4111
       },
       {
         "kind": "resolution",
         "number": "2025-436",
-        "title": "Appoints Member to Hispanic Development, Empowerment and Education Committee",
+        "title": "Appoints Member to the Hispanic Development, Empowerment, and Education Committee",
         "outcome": "adopted",
         "votes": [
           {
@@ -13128,12 +13128,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 4135
+        "timestamp_s": 4139
       },
       {
         "kind": "resolution",
         "number": "2025-437",
-        "title": "Ratifies Resignation of an Automotive Equipment Operator",
+        "title": "Ratifies the Resignation of an Automotive Equipment Operator",
         "outcome": "adopted",
         "votes": [
           {
@@ -13164,7 +13164,7 @@
       {
         "kind": "resolution",
         "number": "2025-438",
-        "title": "Accepts Retirement of a Maintenance Mechanic III",
+        "title": "Accepts the Retirement of a Maintenance Mechanic III",
         "outcome": "adopted",
         "votes": [
           {
@@ -13195,7 +13195,7 @@
       {
         "kind": "resolution",
         "number": "2025-439",
-        "title": "Accepts Retirement of a Maintenance Mechanic IV",
+        "title": "Accepts the Retirement of a Maintenance Mechanic IV",
         "outcome": "adopted",
         "votes": [
           {
@@ -13226,7 +13226,7 @@
       {
         "kind": "resolution",
         "number": "2025-440",
-        "title": "Extends Bid for Electric Motor Repair and Replacement",
+        "title": "Extends the Bid for Electric Motor Repair and Replacement, Including Emergencies",
         "outcome": "adopted",
         "votes": [
           {
@@ -13257,7 +13257,7 @@
       {
         "kind": "resolution",
         "number": "2025-441",
-        "title": "Notice to Bidders for 2025 Annual Construction Contract",
+        "title": "Authorizes Town Clerk to Publish Notice to Bidders for 2025 Annual Construction Contract",
         "outcome": "adopted",
         "votes": [
           {
@@ -13288,7 +13288,7 @@
       {
         "kind": "resolution",
         "number": "2025-442",
-        "title": "Notice to Bidders for Removal and Disposal of Sludge Cake and Grit Waste",
+        "title": "Authorizes Town Clerk to Publish Notice to Bidders for Sludge Cake and Grit Screen Waste Removal",
         "outcome": "adopted",
         "votes": [
           {
@@ -13319,7 +13319,7 @@
       {
         "kind": "resolution",
         "number": "2025-443",
-        "title": "Notice to Bidders for Corrosion Control Chemicals PO4",
+        "title": "Authorizes Town Clerk to Publish Notice to Bidders for Corrosion Control Chemicals (PO4)",
         "outcome": "adopted",
         "votes": [
           {
@@ -13350,7 +13350,7 @@
       {
         "kind": "resolution",
         "number": "2025-444",
-        "title": "Notice to Bidders for 2025 Annual Procurement Contract",
+        "title": "Authorizes Town Clerk to Publish Notice to Bidders for 2025 Annual Procurement Contract",
         "outcome": "adopted",
         "votes": [
           {
@@ -13381,7 +13381,7 @@
       {
         "kind": "resolution",
         "number": "2025-445",
-        "title": "Special Event Application for Church of the Harvest Unity Day",
+        "title": "Approves Special Event Application for Church of the Harvest (East End Church Unity Day)",
         "outcome": "adopted",
         "votes": [
           {
@@ -13412,7 +13412,7 @@
       {
         "kind": "resolution",
         "number": "2025-446",
-        "title": "Special Event Application for Mainstreet Agency Alive on 25",
+        "title": "Approves Special Event Application for Mainstreet Agency Alive on 25",
         "outcome": "adopted",
         "votes": [
           {
@@ -13443,7 +13443,7 @@
       {
         "kind": "resolution",
         "number": "2025-447",
-        "title": "Amends Resolution 934-2024 Fall Motorsports Racing Series at EPCAL",
+        "title": "Amends Resolution 934-2024 Racetrack Not Street Fall Motorsports Series",
         "outcome": "adopted",
         "votes": [
           {
@@ -13469,12 +13469,12 @@
         ],
         "unanimous": false,
         "confidence": "high",
-        "timestamp_s": 4363
+        "timestamp_s": 4359
       },
       {
         "kind": "resolution",
         "number": "2025-448",
-        "title": "Amends Resolution 935-2024 Summer Motorsports Racing Series at EPCAL",
+        "title": "Amends Resolution 935-2024 Racetrack Not Street Summer Motorsports Series",
         "outcome": "adopted",
         "votes": [
           {
@@ -13500,7 +13500,7 @@
         ],
         "unanimous": false,
         "confidence": "high",
-        "timestamp_s": 4396
+        "timestamp_s": 4393
       },
       {
         "kind": "resolution",
@@ -13531,12 +13531,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 4418
+        "timestamp_s": 3884
       },
       {
         "kind": "resolution",
         "number": "2025-450",
-        "title": "Authorizes Alcohol Service Vendors for Mosaic Street Painting Festival",
+        "title": "Authorizes Alcohol Service Vendors for Mosaic Community Street Painting Festival",
         "outcome": "adopted",
         "votes": [
           {
@@ -13556,18 +13556,18 @@
             "vote": "yes"
           },
           {
-            "member": "Halpin",
+            "member": "Tim Hubbard",
             "vote": "yes"
           }
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 4418
+        "timestamp_s": 3902
       },
       {
         "kind": "resolution",
         "number": "2025-451",
-        "title": "Local Law Amending Chapter 231 Fire Prevention Definitions",
+        "title": "Amends Chapter 231 Fire Prevention Section 7 Definitions",
         "outcome": "adopted",
         "votes": [
           {
@@ -13587,47 +13587,43 @@
             "vote": "yes"
           },
           {
-            "member": "Halpin",
+            "member": "Tim Hubbard",
             "vote": "yes"
           }
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 4418
+        "timestamp_s": 4461
       },
       {
         "kind": "resolution",
         "number": "2025-452",
-        "title": "Local Law Amending Chapter 231 Interference with Fire Marshal/CEO",
+        "title": "Amends Chapter 231 Fire Prevention Section 24 Interference with Fire Department",
         "outcome": "adopted",
         "votes": [
-          {
-            "member": "Denise Merrifield",
-            "vote": "yes"
-          },
           {
             "member": "Bob Kern",
             "vote": "yes"
           },
           {
             "member": "Ken Rothwell",
+            "vote": "yes"
+          },
+          {
+            "member": "Tim Hubbard",
             "vote": "yes"
           }
         ],
         "unanimous": true,
         "confidence": "low",
-        "timestamp_s": 4055
+        "timestamp_s": 4488
       },
       {
         "kind": "resolution",
         "number": "2025-453",
-        "title": "Local Law Amending Chapter 231 Fire Prevention Reimbursement of Expenses",
+        "title": "Amends Chapter 231 Fire Prevention Section 14 Reimbursement of Expenses",
         "outcome": "adopted",
         "votes": [
-          {
-            "member": "Joann Waski",
-            "vote": "yes"
-          },
           {
             "member": "Denise Merrifield",
             "vote": "yes"
@@ -13641,18 +13637,18 @@
             "vote": "yes"
           },
           {
-            "member": "Halpin",
+            "member": "Tim Hubbard",
             "vote": "yes"
           }
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 4418
+        "timestamp_s": 4055
       },
       {
         "kind": "resolution",
         "number": "2025-454",
-        "title": "Local Law Amending Chapter 231 Flammable and Combustible Liquids",
+        "title": "Amends Chapter 231 Fire Prevention Flammable and Combustible Liquids",
         "outcome": "adopted",
         "votes": [
           {
@@ -13672,18 +13668,18 @@
             "vote": "yes"
           },
           {
-            "member": "Halpin",
+            "member": "Tim Hubbard",
             "vote": "yes"
           }
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 4418
+        "timestamp_s": 4533
       },
       {
         "kind": "resolution",
         "number": "2025-455",
-        "title": "Local Law Amending Chapter 231 Outdoor Fires",
+        "title": "Amends Chapter 231 Fire Prevention Section 25 Outdoor Fires",
         "outcome": "adopted",
         "votes": [
           {
@@ -13703,18 +13699,18 @@
             "vote": "yes"
           },
           {
-            "member": "Halpin",
+            "member": "Tim Hubbard",
             "vote": "yes"
           }
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 4418
+        "timestamp_s": 4533
       },
       {
         "kind": "resolution",
         "number": "2025-456",
-        "title": "Local Law Amending Chapter 231 Penalties/Notice of Violation",
+        "title": "Amends Chapter 231 Fire Prevention Section 66 Penalties for Offenses",
         "outcome": "adopted",
         "votes": [
           {
@@ -13734,13 +13730,13 @@
             "vote": "yes"
           },
           {
-            "member": "Halpin",
+            "member": "Tim Hubbard",
             "vote": "yes"
           }
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 4418
+        "timestamp_s": 4533
       },
       {
         "kind": "resolution",
@@ -13765,13 +13761,13 @@
             "vote": "yes"
           },
           {
-            "member": "Halpin",
+            "member": "Tim Hubbard",
             "vote": "yes"
           }
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 4603
+        "timestamp_s": 4533
       },
       {
         "kind": "resolution",
@@ -13796,18 +13792,18 @@
             "vote": "yes"
           },
           {
-            "member": "Halpin",
+            "member": "Tim Hubbard",
             "vote": "yes"
           }
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 4667
+        "timestamp_s": 4633
       },
       {
         "kind": "resolution",
         "number": "2025-459",
-        "title": "Responses to Comments on CND for Scotts Point Site Plan",
+        "title": "Issues Responses to Comments on CND for Island Water Park (Scotts Point)",
         "outcome": "adopted",
         "votes": [
           {
@@ -13827,18 +13823,18 @@
             "vote": "yes"
           },
           {
-            "member": "Halpin",
+            "member": "Tim Hubbard",
             "vote": "yes"
           }
         ],
         "unanimous": false,
         "confidence": "high",
-        "timestamp_s": 4710
+        "timestamp_s": 4709
       },
       {
         "kind": "resolution",
-        "number": "2025-460",
-        "title": "Grants Preliminary Approval Scotts Point Site Plan Amendment",
+        "number": "2025-462",
+        "title": "Grants Preliminary Approval for Site Plan Amendment Island Water Park (Scotts Point)",
         "outcome": "adopted",
         "votes": [
           {
@@ -13858,13 +13854,13 @@
             "vote": "yes"
           },
           {
-            "member": "Halpin",
+            "member": "Tim Hubbard",
             "vote": "yes"
           }
         ],
         "unanimous": false,
         "confidence": "high",
-        "timestamp_s": 4710
+        "timestamp_s": 4709
       },
       {
         "kind": "resolution",
@@ -13889,37 +13885,18 @@
             "vote": "yes"
           },
           {
-            "member": "Halpin",
+            "member": "Tim Hubbard",
             "vote": "yes"
           }
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 4418
-      },
-      {
-        "kind": "resolution",
-        "number": "2025-462",
-        "title": "Notice to Amend Chapter 301 Zoning Cannabis Retail Establishments",
-        "outcome": "adopted",
-        "votes": [
-          {
-            "member": "Joann Waski",
-            "vote": "yes"
-          },
-          {
-            "member": "Denise Merrifield",
-            "vote": "yes"
-          }
-        ],
-        "unanimous": true,
-        "confidence": "low",
-        "timestamp_s": 4832
+        "timestamp_s": 4765
       },
       {
         "kind": "resolution",
         "number": "2025-463",
-        "title": "Amend Demolition Permit Renewal Fees/Timeframe",
+        "title": "Authorizes Notice to Amend Demolition Permit Time Frame Regulations",
         "outcome": "adopted",
         "votes": [
           {
@@ -13927,18 +13904,18 @@
             "vote": "yes"
           },
           {
-            "member": "Halpin",
+            "member": "Tim Hubbard",
             "vote": "yes"
           }
         ],
         "unanimous": true,
         "confidence": "low",
-        "timestamp_s": 4943
+        "timestamp_s": 4910
       },
       {
         "kind": "resolution",
         "number": "2025-464",
-        "title": "Notice to Amend Chapter 269 Shopping Carts",
+        "title": "Authorizes Notice to Amend Chapter 269 Shopping Carts",
         "outcome": "adopted",
         "votes": [
           {
@@ -13958,28 +13935,29 @@
             "vote": "yes"
           },
           {
-            "member": "Halpin",
+            "member": "Tim Hubbard",
             "vote": "yes"
           }
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 4968
+        "timestamp_s": 4962
       },
       {
         "kind": "resolution",
         "number": "2025-465",
-        "title": "Authorizes License Agreement with Tony McDonough",
+        "title": "Authorizes Supervisor to Execute License Agreement",
         "outcome": "adopted",
         "votes": [],
         "unanimous": false,
         "confidence": "low",
-        "timestamp_s": 4979
+        "timestamp_s": null,
+        "anchor_quote_unmatched": ""
       },
       {
         "kind": "motion",
         "number": null,
-        "title": "Close Town Board Meeting and Open CDA Meeting",
+        "title": "Close Town Board meeting and open CDA meeting",
         "outcome": "adopted",
         "votes": [],
         "unanimous": false,
@@ -13989,7 +13967,7 @@
       {
         "kind": "motion",
         "number": null,
-        "title": "CDA Motion to Close CDA Meeting",
+        "title": "Close CDA meeting",
         "outcome": "adopted",
         "votes": [
           {
@@ -14009,13 +13987,13 @@
             "vote": "yes"
           },
           {
-            "member": "Halpin",
+            "member": "Tim Hubbard",
             "vote": "yes"
           }
         ],
         "unanimous": false,
         "confidence": "high",
-        "timestamp_s": 7024
+        "timestamp_s": 7016
       }
     ]
   }

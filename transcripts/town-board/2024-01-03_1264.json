@@ -10652,7 +10652,7 @@
     "truncated": false,
     "model": "claude-sonnet-5",
     "prompt_version": "1",
-    "generated_at": "2026-08-25T21:47:25+00:00",
+    "generated_at": "2026-08-25T23:01:57+00:00",
     "grounded_in": null,
     "items": [
       {
@@ -10746,7 +10746,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 830
+        "timestamp_s": 823
       },
       {
         "kind": "resolution",
@@ -10777,7 +10777,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 847
+        "timestamp_s": 844
       },
       {
         "kind": "resolution",
@@ -10808,7 +10808,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 861
+        "timestamp_s": 859
       },
       {
         "kind": "resolution",
@@ -10839,7 +10839,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 847
+        "timestamp_s": 873
       },
       {
         "kind": "resolution",
@@ -10870,12 +10870,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 847
+        "timestamp_s": 903
       },
       {
         "kind": "resolution",
         "number": "2024-9",
-        "title": "Approves salary increase for code enforcement officers",
+        "title": "Approve salary increase for code enforcement officers",
         "outcome": "adopted",
         "votes": [
           {
@@ -10901,12 +10901,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 944
+        "timestamp_s": 942
       },
       {
         "kind": "resolution",
         "number": "2024-10",
-        "title": "Approves salary increase for a code enforcement officer",
+        "title": "Approve salary increase for a code enforcement officer",
         "outcome": "adopted",
         "votes": [
           {
@@ -10932,12 +10932,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 970
+        "timestamp_s": 965
       },
       {
         "kind": "resolution",
         "number": "2024-11",
-        "title": "Approves salary increase for an account clerk",
+        "title": "Approve salary increase for an account clerk",
         "outcome": "adopted",
         "votes": [
           {
@@ -10963,22 +10963,22 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 996
+        "timestamp_s": 993
       },
       {
         "kind": "resolution",
         "number": "2024-12",
-        "title": "Salary increase resolution",
+        "title": "Approve salary increase (unspecified title)",
         "outcome": "adopted",
         "votes": [],
         "unanimous": false,
         "confidence": "low",
-        "timestamp_s": 999
+        "timestamp_s": 1007
       },
       {
         "kind": "resolution",
         "number": "2024-13",
-        "title": "Approves salary increase for a principal account clerk",
+        "title": "Approve salary increase for a principal account clerk",
         "outcome": "adopted",
         "votes": [
           {
@@ -11004,12 +11004,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 793
+        "timestamp_s": 1031
       },
       {
         "kind": "resolution",
         "number": "2024-14",
-        "title": "Approves salary increase for the payroll supervisor",
+        "title": "Approve salary increase for the payroll supervisor",
         "outcome": "adopted",
         "votes": [
           {
@@ -11035,12 +11035,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 847
+        "timestamp_s": 1053
       },
       {
         "kind": "resolution",
         "number": "2024-15",
-        "title": "Approves salary increase for a heavy equipment operator",
+        "title": "Approve salary increase for a heavy equipment operator",
         "outcome": "adopted",
         "votes": [
           {
@@ -11066,12 +11066,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 996
+        "timestamp_s": 1080
       },
       {
         "kind": "resolution",
         "number": "2024-16",
-        "title": "Approves salary increase for a heavy equipment operator",
+        "title": "Approve salary increase for a heavy equipment operator",
         "outcome": "adopted",
         "votes": [
           {
@@ -11093,12 +11093,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 1043
+        "timestamp_s": 1094
       },
       {
         "kind": "resolution",
         "number": "2024-17",
-        "title": "Approves salary increase for a custodial worker",
+        "title": "Approve salary increase for a custodial worker 1",
         "outcome": "adopted",
         "votes": [
           {
@@ -11124,12 +11124,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 996
+        "timestamp_s": 1108
       },
       {
         "kind": "resolution",
         "number": "2024-18",
-        "title": "Approves salary increase for wastewater treatment plant operator 3A",
+        "title": "Approve salary increase for wastewater treatment plant operator 3A",
         "outcome": "adopted",
         "votes": [
           {
@@ -11155,12 +11155,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 1144
+        "timestamp_s": 1130
       },
       {
         "kind": "resolution",
         "number": "2024-19",
-        "title": "Approves salary increase for a construction equipment operator",
+        "title": "Approve salary increase for a construction equipment operator",
         "outcome": "adopted",
         "votes": [
           {
@@ -11186,12 +11186,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 1144
+        "timestamp_s": 1152
       },
       {
         "kind": "resolution",
         "number": "2024-20",
-        "title": "Approves salary increase for a part-time position",
+        "title": "Approve salary increase for a part-time position",
         "outcome": "adopted",
         "votes": [
           {
@@ -11217,12 +11217,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 1182
+        "timestamp_s": 1176
       },
       {
         "kind": "resolution",
         "number": "2024-21",
-        "title": "Approves salary increase for a senior account clerk",
+        "title": "Approve salary increase for a senior account clerk",
         "outcome": "adopted",
         "votes": [
           {
@@ -11248,12 +11248,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 1144
+        "timestamp_s": 1192
       },
       {
         "kind": "resolution",
         "number": "2024-22",
-        "title": "Approves salary increase for wastewater treatment plant operator 3A",
+        "title": "Approve salary increase for wastewater treatment plant operator 3A",
         "outcome": "adopted",
         "votes": [
           {
@@ -11279,12 +11279,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 1225
+        "timestamp_s": 1214
       },
       {
         "kind": "resolution",
         "number": "2024-23",
-        "title": "Approves salary increase for a construction equipment operator",
+        "title": "Approve salary increase for a construction equipment operator",
         "outcome": "adopted",
         "votes": [
           {
@@ -11310,12 +11310,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 1225
+        "timestamp_s": 1235
       },
       {
         "kind": "resolution",
         "number": "2024-24",
-        "title": "Approves salary increase for town engineer",
+        "title": "Approve salary increase for town engineer",
         "outcome": "adopted",
         "votes": [
           {
@@ -11341,12 +11341,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 1225
+        "timestamp_s": 1254
       },
       {
         "kind": "resolution",
         "number": "2024-25",
-        "title": "Approves salary increase for a heavy equipment operator",
+        "title": "Approve salary increase for a heavy equipment operator",
         "outcome": "adopted",
         "votes": [
           {
@@ -11372,12 +11372,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 1144
+        "timestamp_s": 1273
       },
       {
         "kind": "resolution",
         "number": "2024-26",
-        "title": "Approves salary increase for wastewater treatment plant operator 3A",
+        "title": "Approve salary increase for wastewater treatment plant operator 3A",
         "outcome": "adopted",
         "votes": [
           {
@@ -11403,12 +11403,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 1144
+        "timestamp_s": 1291
       },
       {
         "kind": "resolution",
         "number": "2024-27",
-        "title": "Approves salary increase for wastewater treatment plant operator 3A",
+        "title": "Approve salary increase for wastewater treatment plant operator 3A",
         "outcome": "adopted",
         "votes": [
           {
@@ -11434,12 +11434,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 1144
+        "timestamp_s": 1312
       },
       {
         "kind": "resolution",
         "number": "2024-28",
-        "title": "Approves salary increase for an account clerk",
+        "title": "Approve salary increase for an account clerk",
         "outcome": "adopted",
         "votes": [
           {
@@ -11465,12 +11465,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 1144
+        "timestamp_s": 1330
       },
       {
         "kind": "resolution",
         "number": "2024-29",
-        "title": "Approves salary increase for a heavy equipment operator",
+        "title": "Approve salary increase for a heavy equipment operator",
         "outcome": "adopted",
         "votes": [
           {
@@ -11496,12 +11496,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 1144
+        "timestamp_s": 1353
       },
       {
         "kind": "resolution",
         "number": "2024-30",
-        "title": "Approves salary adjustments for a named highway employee",
+        "title": "Approve salary adjustments for a named highway employee",
         "outcome": "adopted",
         "votes": [
           {
@@ -11527,7 +11527,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 1144
+        "timestamp_s": 1370
       },
       {
         "kind": "resolution",
@@ -11558,12 +11558,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 1398
+        "timestamp_s": 1391
       },
       {
         "kind": "resolution",
         "number": "2024-32",
-        "title": "Ratifies appointment of a recreation aide",
+        "title": "Ratifies appointment of recreation aide to recreation department",
         "outcome": "adopted",
         "votes": [
           {
@@ -11589,12 +11589,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 1419
+        "timestamp_s": 1410
       },
       {
         "kind": "resolution",
         "number": "2024-33",
-        "title": "Reappoints Town Attorney Eric Howard",
+        "title": "Reappoints town attorney Eric Howard",
         "outcome": "adopted",
         "votes": [
           {
@@ -11620,12 +11620,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 1510
+        "timestamp_s": 1432
       },
       {
         "kind": "resolution",
         "number": "2024-34",
-        "title": "Acknowledges appointment of secretary to town supervisor Joanne Cannon",
+        "title": "Acknowledges appointment of Joanne Cannon as secretary to town supervisor",
         "outcome": "adopted",
         "votes": [
           {
@@ -11639,7 +11639,7 @@
         ],
         "unanimous": true,
         "confidence": "low",
-        "timestamp_s": 1565
+        "timestamp_s": 1524
       },
       {
         "kind": "resolution",
@@ -11670,12 +11670,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 1398
+        "timestamp_s": 1573
       },
       {
         "kind": "resolution",
         "number": "2024-37",
-        "title": "Accepts resignation of Planning Board Member Waski",
+        "title": "Accepts resignation of Planning Board member Waski",
         "outcome": "adopted",
         "votes": [
           {
@@ -11701,12 +11701,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": null
+        "timestamp_s": 1622
       },
       {
         "kind": "resolution",
         "number": "2024-38",
-        "title": "Appoints Edward Deniseski chairperson of Planning Board",
+        "title": "Appoints Edward Deniseski as chairperson of Planning Board",
         "outcome": "adopted",
         "votes": [
           {
@@ -11732,12 +11732,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": null
+        "timestamp_s": 1697
       },
       {
         "kind": "resolution",
         "number": "2024-39",
-        "title": "Appoints John Hogan vice chairman of Planning Board",
+        "title": "Appoints John Hogan as vice chairman of Planning Board",
         "outcome": "adopted",
         "votes": [
           {
@@ -11763,7 +11763,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 1745
+        "timestamp_s": 1723
       },
       {
         "kind": "resolution",
@@ -11794,7 +11794,7 @@
         ],
         "unanimous": false,
         "confidence": "high",
-        "timestamp_s": 1837
+        "timestamp_s": 1808
       },
       {
         "kind": "resolution",
@@ -11825,14 +11825,18 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 1144
+        "timestamp_s": 1874
       },
       {
         "kind": "resolution",
         "number": "2024-42",
-        "title": "Accepts resignation of ZBA member McLaughlin",
+        "title": "Accepts resignation of Zoning Board of Appeals member McLaughlin",
         "outcome": "adopted",
         "votes": [
+          {
+            "member": "Ken Rothwell",
+            "vote": "yes"
+          },
           {
             "member": "Tim Hubbard",
             "vote": "yes"
@@ -11840,12 +11844,12 @@
         ],
         "unanimous": true,
         "confidence": "low",
-        "timestamp_s": 1996
+        "timestamp_s": 1917
       },
       {
         "kind": "resolution",
         "number": "2024-43",
-        "title": "Appoints Otto Whitmire chairman of Zoning Board of Appeals",
+        "title": "Appoints Otto Whitmire as chairman of Zoning Board of Appeals",
         "outcome": "adopted",
         "votes": [
           {
@@ -11871,7 +11875,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 2019
+        "timestamp_s": 2009
       },
       {
         "kind": "resolution",
@@ -11902,7 +11906,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 2064
+        "timestamp_s": 2050
       },
       {
         "kind": "resolution",
@@ -11910,6 +11914,10 @@
         "title": "Appoints legal representation for the Zoning Board of Appeals",
         "outcome": "adopted",
         "votes": [
+          {
+            "member": "Joann Waski",
+            "vote": "yes"
+          },
           {
             "member": "Denise Merrifield",
             "vote": "yes"
@@ -11929,7 +11937,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 2089
+        "timestamp_s": 2077
       },
       {
         "kind": "resolution",
@@ -11960,12 +11968,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 2119
+        "timestamp_s": 2105
       },
       {
         "kind": "resolution",
         "number": "2024-47",
-        "title": "Authorizes assignment of employment labor matter to Keene and Bean",
+        "title": "Authorizes assignment of employment labor matter to Keene and Bean, P.C.",
         "outcome": "adopted",
         "votes": [
           {
@@ -11983,11 +11991,15 @@
           {
             "member": "Ken Rothwell",
             "vote": "yes"
+          },
+          {
+            "member": "Tim Hubbard",
+            "vote": "yes"
           }
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 1398
+        "timestamp_s": 2130
       },
       {
         "kind": "resolution",
@@ -12014,7 +12026,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 2066
+        "timestamp_s": 2183
       },
       {
         "kind": "resolution",
@@ -12045,7 +12057,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 2216
+        "timestamp_s": 2203
       },
       {
         "kind": "resolution",
@@ -12076,12 +12088,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 2216
+        "timestamp_s": 2226
       },
       {
         "kind": "resolution",
         "number": "2024-53",
-        "title": "Budget adoption, capital project East Main Street",
+        "title": "Budget adoption for capital project 82336992 East Main Street",
         "outcome": "adopted",
         "votes": [
           {
@@ -12107,12 +12119,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 2285
+        "timestamp_s": 2280
       },
       {
         "kind": "resolution",
         "number": "2024-54",
-        "title": "Water district capital project, Youngs Avenue landfill solar project",
+        "title": "Water district capital project - Young's Avenue landfill solar project",
         "outcome": "adopted",
         "votes": [
           {
@@ -12143,7 +12155,7 @@
       {
         "kind": "resolution",
         "number": "2024-55",
-        "title": "Purchases portable restroom unit for Veterans Memorial Park",
+        "title": "Purchasing portable restroom unit for Veterans Memorial Park",
         "outcome": "adopted",
         "votes": [
           {
@@ -12159,18 +12171,22 @@
             "vote": "yes"
           },
           {
+            "member": "Ken Rothwell",
+            "vote": "yes"
+          },
+          {
             "member": "Tim Hubbard",
             "vote": "yes"
           }
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 2375
+        "timestamp_s": 2329
       },
       {
         "kind": "resolution",
         "number": "2024-56",
-        "title": "Authorizes notice to bidders for Class A biosolids",
+        "title": "Authorizes notice to bidders for class A biosolids",
         "outcome": "adopted",
         "votes": [
           {
@@ -12196,12 +12212,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 2402
+        "timestamp_s": 2387
       },
       {
         "kind": "resolution",
         "number": "2024-57",
-        "title": "Authorizes notice to bidders for chemicals for sewer district",
+        "title": "Authorizes notice to bidders for chemicals for Riverhead sewer district",
         "outcome": "adopted",
         "votes": [
           {
@@ -12227,7 +12243,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 1144
+        "timestamp_s": 2412
       },
       {
         "kind": "resolution",
@@ -12258,12 +12274,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 1144
+        "timestamp_s": 2428
       },
       {
         "kind": "resolution",
         "number": "2024-59",
-        "title": "Authorizes town supervisor to add item",
+        "title": "Authorizes town supervisor to add (unspecified)",
         "outcome": "adopted",
         "votes": [
           {
@@ -12289,12 +12305,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 1144
+        "timestamp_s": 2449
       },
       {
         "kind": "resolution",
         "number": "2024-61",
-        "title": "Amends resolution 2022-202 adopted March 1, 2022",
+        "title": "Amends resolution 2022-202 adopted March 1 2022",
         "outcome": "adopted",
         "votes": [
           {
@@ -12320,22 +12336,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 1144
-      },
-      {
-        "kind": "motion",
-        "number": null,
-        "title": "Amend Calverton moratorium duration to six months and correct BFJ typo",
-        "outcome": "adopted",
-        "votes": [],
-        "unanimous": false,
-        "confidence": "low",
-        "timestamp_s": 2572
+        "timestamp_s": 2499
       },
       {
         "kind": "resolution",
         "number": "2024-62",
-        "title": "Adopts Chapter 303 Calverton industrial moratorium, as amended",
+        "title": "Adopts local law chapter 303 Calverton industrial moratorium, as amended",
         "outcome": "adopted",
         "votes": [
           {
@@ -12361,12 +12367,12 @@
         ],
         "unanimous": false,
         "confidence": "high",
-        "timestamp_s": 2593
+        "timestamp_s": 2578
       },
       {
         "kind": "resolution",
         "number": "2024-63",
-        "title": "Amends Chapter 301 zoning, PD district airport use provisions",
+        "title": "Adopts local law amending chapter 301 zoning PD zoning use district",
         "outcome": "adopted",
         "votes": [
           {
@@ -12392,39 +12398,12 @@
         ],
         "unanimous": false,
         "confidence": "high",
-        "timestamp_s": null
+        "timestamp_s": 2696
       },
       {
         "kind": "resolution",
         "number": "2024-64",
-        "title": "Publishes notice to amend Chapter 293 waterways local law",
-        "outcome": "adopted",
-        "votes": [
-          {
-            "member": "Joann Waski",
-            "vote": "yes"
-          },
-          {
-            "member": "Denise Merrifield",
-            "vote": "yes"
-          },
-          {
-            "member": "Bob Kern",
-            "vote": "yes"
-          },
-          {
-            "member": "Ken Rothwell",
-            "vote": "yes"
-          }
-        ],
-        "unanimous": true,
-        "confidence": "high",
-        "timestamp_s": 2935
-      },
-      {
-        "kind": "resolution",
-        "number": "2024-65",
-        "title": "Approves salary increase for paralegal",
+        "title": "Authorizes public notice to amend Chapter 293 Waterways and Water-Related Activities",
         "outcome": "adopted",
         "votes": [
           {
@@ -12450,7 +12429,38 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 2976
+        "timestamp_s": 2915
+      },
+      {
+        "kind": "resolution",
+        "number": "2024-65",
+        "title": "Approve salary increase for paralegal",
+        "outcome": "adopted",
+        "votes": [
+          {
+            "member": "Joann Waski",
+            "vote": "yes"
+          },
+          {
+            "member": "Denise Merrifield",
+            "vote": "yes"
+          },
+          {
+            "member": "Bob Kern",
+            "vote": "yes"
+          },
+          {
+            "member": "Ken Rothwell",
+            "vote": "yes"
+          },
+          {
+            "member": "Tim Hubbard",
+            "vote": "yes"
+          }
+        ],
+        "unanimous": true,
+        "confidence": "high",
+        "timestamp_s": 2966
       },
       {
         "kind": "resolution",
@@ -12481,7 +12491,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 2976
+        "timestamp_s": 2988
       },
       {
         "kind": "resolution",
@@ -12508,7 +12518,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 3013
+        "timestamp_s": 3007
       },
       {
         "kind": "resolution",
@@ -12539,7 +12549,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 3031
+        "timestamp_s": 3022
       },
       {
         "kind": "resolution",
@@ -12570,12 +12580,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 3048
+        "timestamp_s": 3040
       },
       {
         "kind": "resolution",
         "number": "2024-70",
-        "title": "Assigns administrative oversight of the office of fire marshal",
+        "title": "Assigns administrative oversight of the office of the fire marshal",
         "outcome": "adopted",
         "votes": [
           {
@@ -12601,7 +12611,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 3072
+        "timestamp_s": 3062
       },
       {
         "kind": "resolution",
@@ -12632,7 +12642,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 3108
+        "timestamp_s": 3083
       },
       {
         "kind": "resolution",
@@ -12663,7 +12673,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 3131
+        "timestamp_s": 3113
       },
       {
         "kind": "resolution",
@@ -12694,7 +12704,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 3148
+        "timestamp_s": 3138
       },
       {
         "kind": "motion",

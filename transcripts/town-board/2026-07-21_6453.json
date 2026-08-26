@@ -7612,13 +7612,13 @@
     "truncated": false,
     "model": "claude-sonnet-5",
     "prompt_version": "1",
-    "generated_at": "2026-08-25T22:08:18+00:00",
+    "generated_at": "2026-08-26T01:52:17+00:00",
     "grounded_in": "Minutes",
     "items": [
       {
         "kind": "resolution",
         "number": "2026-707",
-        "title": "Adopts Local Law Amending Chapter 289 Parking Regulations",
+        "title": "Adopts Local Law Amending Chapter 289 Parking, Standing and Stopping",
         "outcome": "adopted",
         "votes": [
           {
@@ -7680,12 +7680,12 @@
       {
         "kind": "motion",
         "number": null,
-        "title": "Close public hearing on Chapter 289-17 parking time limits",
+        "title": "Close public hearing on Chapter 289-17 parking time limited",
         "outcome": "adopted",
         "votes": [],
         "unanimous": false,
         "confidence": "low",
-        "timestamp_s": 2079
+        "timestamp_s": 2021
       },
       {
         "kind": "resolution",
@@ -7778,12 +7778,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 1553
+        "timestamp_s": 1541
       },
       {
         "kind": "resolution",
         "number": "2026-689",
-        "title": "Ratifies Acceptance of Donation for Annual Snapper Tournament",
+        "title": "Ratifies Acceptance of Donation from Local Businesses for Snapper Tournament",
         "outcome": "adopted",
         "votes": [
           {
@@ -7929,7 +7929,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": null
+        "timestamp_s": 1641
       },
       {
         "kind": "resolution",
@@ -7960,12 +7960,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 1656
+        "timestamp_s": 1524
       },
       {
         "kind": "resolution",
         "number": "2026-695",
-        "title": "Ratifies Appointment of Recreation Superintendent and Sets Terms",
+        "title": "Ratifies Appointment of Recreation Superintendent, Sets Terms of Employment",
         "outcome": "adopted",
         "votes": [
           {
@@ -7987,7 +7987,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 1524
+        "timestamp_s": 1678
       },
       {
         "kind": "resolution",
@@ -8049,7 +8049,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": null
+        "timestamp_s": 1524
       },
       {
         "kind": "resolution",
@@ -8064,24 +8064,13 @@
           {
             "member": "Denise Merrifield",
             "vote": "yes"
-          }
-        ],
-        "unanimous": true,
-        "confidence": "high",
-        "timestamp_s": 1733
-      },
-      {
-        "kind": "resolution",
-        "number": "2026-699",
-        "title": "Accepts Retirement of Police Officer Michael Mowdy",
-        "outcome": "adopted",
-        "votes": [
-          {
-            "member": "Denise Merrifield",
-            "vote": "yes"
           },
           {
             "member": "Bob Kern",
+            "vote": "yes"
+          },
+          {
+            "member": "Ken Rothwell",
             "vote": "yes"
           },
           {
@@ -8091,7 +8080,38 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 1767
+        "timestamp_s": 1736
+      },
+      {
+        "kind": "resolution",
+        "number": "2026-699",
+        "title": "Accepts Retirement of Police Officer Michael Mowdy",
+        "outcome": "adopted",
+        "votes": [
+          {
+            "member": "Joann Waski",
+            "vote": "yes"
+          },
+          {
+            "member": "Denise Merrifield",
+            "vote": "yes"
+          },
+          {
+            "member": "Bob Kern",
+            "vote": "yes"
+          },
+          {
+            "member": "Ken Rothwell",
+            "vote": "yes"
+          },
+          {
+            "member": "Jerry Halpin",
+            "vote": "yes"
+          }
+        ],
+        "unanimous": true,
+        "confidence": "high",
+        "timestamp_s": 1757
       },
       {
         "kind": "resolution",
@@ -8127,7 +8147,7 @@
       {
         "kind": "resolution",
         "number": "2026-701",
-        "title": "Ratifies Notice for Public Hearing on Monroe Balancing Test for RVAC Ambulance Barn",
+        "title": "Ratifies Authorization to Publish Notice for Monroe Balancing Test Hearing, RVAC Ambulance Barn",
         "outcome": "adopted",
         "votes": [
           {
@@ -8153,12 +8173,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 1844
+        "timestamp_s": 1848
       },
       {
         "kind": "resolution",
         "number": "2026-702",
-        "title": "Adopts Local Law Amending Chapter 301 Site Plan Review Fees",
+        "title": "Adopts Local Law Amending Chapter 301 Site Plan Review Procedure and Fees",
         "outcome": "adopted",
         "votes": [
           {
@@ -8220,7 +8240,7 @@
       {
         "kind": "resolution",
         "number": "2026-704",
-        "title": "Adopts Local Law Amending Chapter 219 Coastal Erosion Hazard Fees",
+        "title": "Adopts Local Law Amending Chapter 219 Coastal Erosion Hazard Areas Fees",
         "outcome": "adopted",
         "votes": [
           {
@@ -8246,12 +8266,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": null
+        "timestamp_s": 1921
       },
       {
         "kind": "resolution",
         "number": "2026-705",
-        "title": "Adopts Local Law Amending Chapter 295 Wetlands Enforcement Penalties",
+        "title": "Adopts Local Law Amending Chapter 295 Wetlands Application and Enforcement",
         "outcome": "adopted",
         "votes": [
           {
@@ -8273,7 +8293,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 1944
+        "timestamp_s": 1524
       },
       {
         "kind": "resolution",
@@ -8309,7 +8329,7 @@
       {
         "kind": "resolution",
         "number": "2026-709",
-        "title": "Ratifies Alcohol Service Vendor for Polish Town Street Fair 2026",
+        "title": "Ratifies Designation of Alcohol Service Vendor for Polish Town Street Fair 2026",
         "outcome": "adopted",
         "votes": [
           {
@@ -8397,7 +8417,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 2172
+        "timestamp_s": 2176
       },
       {
         "kind": "resolution",
@@ -8455,7 +8475,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 2210
+        "timestamp_s": 2219
       },
       {
         "kind": "resolution",
@@ -8491,7 +8511,7 @@
       {
         "kind": "resolution",
         "number": "2026-715",
-        "title": "Authorizes Agreement with Riverhead Ambulance Corps Subject to Permissive Referendum",
+        "title": "Authorizes Agreement with RVAC Subject to Permissive Referendum",
         "outcome": "adopted",
         "votes": [
           {
@@ -8513,43 +8533,22 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 2402
+        "timestamp_s": 2406
       },
       {
         "kind": "motion",
         "number": null,
-        "title": "Close CDA meeting",
+        "title": "Close meeting and move into CDA meeting",
         "outcome": "adopted",
-        "votes": [
-          {
-            "member": "Joann Waski",
-            "vote": "yes"
-          },
-          {
-            "member": "Denise Merrifield",
-            "vote": "yes"
-          },
-          {
-            "member": "Bob Kern",
-            "vote": "yes"
-          },
-          {
-            "member": "Ken Rothwell",
-            "vote": "yes"
-          },
-          {
-            "member": "Jerry Halpin",
-            "vote": "yes"
-          }
-        ],
-        "unanimous": true,
-        "confidence": "high",
-        "timestamp_s": 5805
+        "votes": [],
+        "unanimous": false,
+        "confidence": "low",
+        "timestamp_s": 5378
       },
       {
         "kind": "motion",
         "number": null,
-        "title": "Ratify EPCAL budget adjustment for legal fees",
+        "title": "Ratify EPCAL legal fees budget adjustment (fund balance transfer)",
         "outcome": "adopted",
         "votes": [
           {
@@ -8576,6 +8575,37 @@
         "unanimous": true,
         "confidence": "high",
         "timestamp_s": 5425
+      },
+      {
+        "kind": "motion",
+        "number": null,
+        "title": "Motion to close the CDA meeting",
+        "outcome": "adopted",
+        "votes": [
+          {
+            "member": "Joann Waski",
+            "vote": "yes"
+          },
+          {
+            "member": "Denise Merrifield",
+            "vote": "yes"
+          },
+          {
+            "member": "Bob Kern",
+            "vote": "yes"
+          },
+          {
+            "member": "Ken Rothwell",
+            "vote": "yes"
+          },
+          {
+            "member": "Jerry Halpin",
+            "vote": "yes"
+          }
+        ],
+        "unanimous": true,
+        "confidence": "high",
+        "timestamp_s": 5800
       }
     ]
   }

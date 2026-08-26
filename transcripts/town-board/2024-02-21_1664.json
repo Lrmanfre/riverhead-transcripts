@@ -36571,7 +36571,7 @@
     "truncated": false,
     "model": "claude-sonnet-5",
     "prompt_version": "1",
-    "generated_at": "2026-08-25T21:45:49+00:00",
+    "generated_at": "2026-08-26T00:12:12+00:00",
     "grounded_in": "Minutes",
     "items": [
       {
@@ -36591,19 +36591,11 @@
           {
             "member": "Bob Kern",
             "vote": "yes"
-          },
-          {
-            "member": "Ken Rothwell",
-            "vote": "absent"
-          },
-          {
-            "member": "Halpin",
-            "vote": "absent"
           }
         ],
-        "unanimous": false,
+        "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 811
+        "timestamp_s": 808
       },
       {
         "kind": "motion",
@@ -36618,7 +36610,7 @@
       {
         "kind": "resolution",
         "number": "2024-164",
-        "title": "Appoints a Call-In Recreation Aide to the Recreation Department",
+        "title": "Appoints a Call-In Recreation Aide to Recreation Department",
         "outcome": "adopted",
         "votes": [
           {
@@ -36634,22 +36626,18 @@
             "vote": "yes"
           },
           {
-            "member": "Ken Rothwell",
-            "vote": "absent"
-          },
-          {
             "member": "Tim Hubbard",
             "vote": "yes"
           }
         ],
-        "unanimous": false,
+        "unanimous": true,
         "confidence": "high",
-        "timestamp_s": null
+        "timestamp_s": 18456
       },
       {
         "kind": "resolution",
         "number": "2024-165",
-        "title": "Accepts the Resignation of an Automotive Equipment Operator",
+        "title": "Accepts Resignation of an Automotive Equipment Operator",
         "outcome": "adopted",
         "votes": [
           {
@@ -36665,17 +36653,13 @@
             "vote": "yes"
           },
           {
-            "member": "Ken Rothwell",
-            "vote": "absent"
-          },
-          {
             "member": "Tim Hubbard",
             "vote": "yes"
           }
         ],
-        "unanimous": false,
+        "unanimous": true,
         "confidence": "high",
-        "timestamp_s": null
+        "timestamp_s": 18476
       },
       {
         "kind": "resolution",
@@ -36696,23 +36680,19 @@
             "vote": "yes"
           },
           {
-            "member": "Ken Rothwell",
-            "vote": "absent"
-          },
-          {
             "member": "Tim Hubbard",
             "vote": "yes"
           }
         ],
-        "unanimous": false,
+        "unanimous": true,
         "confidence": "high",
-        "timestamp_s": null
+        "timestamp_s": 18494
       },
       {
         "kind": "resolution",
         "number": "2024-167",
         "title": "Appoints a PSD I in the Police Department",
-        "outcome": "adopted",
+        "outcome": "amended",
         "votes": [
           {
             "member": "Joann Waski",
@@ -36727,17 +36707,13 @@
             "vote": "yes"
           },
           {
-            "member": "Ken Rothwell",
-            "vote": "absent"
-          },
-          {
             "member": "Tim Hubbard",
             "vote": "yes"
           }
         ],
-        "unanimous": false,
+        "unanimous": true,
         "confidence": "high",
-        "timestamp_s": null
+        "timestamp_s": 18591
       },
       {
         "kind": "resolution",
@@ -36758,17 +36734,13 @@
             "vote": "yes"
           },
           {
-            "member": "Ken Rothwell",
-            "vote": "absent"
-          },
-          {
             "member": "Tim Hubbard",
             "vote": "yes"
           }
         ],
-        "unanimous": false,
+        "unanimous": true,
         "confidence": "high",
-        "timestamp_s": null
+        "timestamp_s": 18621
       },
       {
         "kind": "resolution",
@@ -36789,22 +36761,18 @@
             "vote": "yes"
           },
           {
-            "member": "Ken Rothwell",
-            "vote": "absent"
-          },
-          {
             "member": "Tim Hubbard",
             "vote": "yes"
           }
         ],
-        "unanimous": false,
+        "unanimous": true,
         "confidence": "high",
-        "timestamp_s": null
+        "timestamp_s": 18640
       },
       {
         "kind": "resolution",
         "number": "2024-170",
-        "title": "Ratifies the Appointment of a Water Treatment Plant Operator IIB",
+        "title": "Ratifies Appointment of a Water Treatment Plant Operator IIB",
         "outcome": "adopted",
         "votes": [
           {
@@ -36820,17 +36788,13 @@
             "vote": "yes"
           },
           {
-            "member": "Ken Rothwell",
-            "vote": "absent"
-          },
-          {
             "member": "Tim Hubbard",
             "vote": "yes"
           }
         ],
-        "unanimous": false,
+        "unanimous": true,
         "confidence": "high",
-        "timestamp_s": null
+        "timestamp_s": 18654
       },
       {
         "kind": "resolution",
@@ -36851,17 +36815,13 @@
             "vote": "yes"
           },
           {
-            "member": "Ken Rothwell",
-            "vote": "absent"
-          },
-          {
             "member": "Tim Hubbard",
             "vote": "yes"
           }
         ],
-        "unanimous": false,
+        "unanimous": true,
         "confidence": "high",
-        "timestamp_s": null
+        "timestamp_s": 18669
       },
       {
         "kind": "resolution",
@@ -36882,17 +36842,13 @@
             "vote": "yes"
           },
           {
-            "member": "Ken Rothwell",
-            "vote": "absent"
-          },
-          {
             "member": "Tim Hubbard",
             "vote": "yes"
           }
         ],
-        "unanimous": false,
+        "unanimous": true,
         "confidence": "high",
-        "timestamp_s": null
+        "timestamp_s": 18683
       },
       {
         "kind": "resolution",
@@ -36913,17 +36869,13 @@
             "vote": "yes"
           },
           {
-            "member": "Ken Rothwell",
-            "vote": "absent"
-          },
-          {
             "member": "Tim Hubbard",
             "vote": "yes"
           }
         ],
-        "unanimous": false,
+        "unanimous": true,
         "confidence": "high",
-        "timestamp_s": null
+        "timestamp_s": 18699
       },
       {
         "kind": "resolution",
@@ -36944,23 +36896,19 @@
             "vote": "yes"
           },
           {
-            "member": "Ken Rothwell",
-            "vote": "absent"
-          },
-          {
             "member": "Tim Hubbard",
             "vote": "yes"
           }
         ],
-        "unanimous": false,
+        "unanimous": true,
         "confidence": "high",
-        "timestamp_s": null
+        "timestamp_s": 18715
       },
       {
         "kind": "resolution",
         "number": "2024-175",
         "title": "Appoints Member to the Board of Assessment Review - Hogan",
-        "outcome": "adopted",
+        "outcome": "amended",
         "votes": [
           {
             "member": "Joann Waski",
@@ -36975,17 +36923,13 @@
             "vote": "yes"
           },
           {
-            "member": "Ken Rothwell",
-            "vote": "absent"
-          },
-          {
             "member": "Tim Hubbard",
             "vote": "yes"
           }
         ],
-        "unanimous": false,
+        "unanimous": true,
         "confidence": "high",
-        "timestamp_s": null
+        "timestamp_s": 18771
       },
       {
         "kind": "resolution",
@@ -37006,17 +36950,13 @@
             "vote": "yes"
           },
           {
-            "member": "Ken Rothwell",
-            "vote": "absent"
-          },
-          {
             "member": "Tim Hubbard",
             "vote": "yes"
           }
         ],
-        "unanimous": false,
+        "unanimous": true,
         "confidence": "high",
-        "timestamp_s": null
+        "timestamp_s": 18789
       },
       {
         "kind": "resolution",
@@ -37037,17 +36977,13 @@
             "vote": "yes"
           },
           {
-            "member": "Ken Rothwell",
-            "vote": "absent"
-          },
-          {
             "member": "Tim Hubbard",
             "vote": "yes"
           }
         ],
-        "unanimous": false,
+        "unanimous": true,
         "confidence": "high",
-        "timestamp_s": null
+        "timestamp_s": 18806
       },
       {
         "kind": "resolution",
@@ -37068,17 +37004,13 @@
             "vote": "yes"
           },
           {
-            "member": "Ken Rothwell",
-            "vote": "absent"
-          },
-          {
             "member": "Tim Hubbard",
             "vote": "yes"
           }
         ],
-        "unanimous": false,
+        "unanimous": true,
         "confidence": "high",
-        "timestamp_s": null
+        "timestamp_s": 18824
       },
       {
         "kind": "resolution",
@@ -37099,52 +37031,17 @@
             "vote": "yes"
           },
           {
-            "member": "Ken Rothwell",
-            "vote": "absent"
-          },
-          {
             "member": "Tim Hubbard",
             "vote": "yes"
           }
         ],
-        "unanimous": false,
+        "unanimous": true,
         "confidence": "high",
-        "timestamp_s": null
+        "timestamp_s": 18842
       },
       {
         "kind": "resolution",
         "number": "2024-180",
-        "title": "Recreation Project 72119 Sound Avenue Preserve Closure",
-        "outcome": "adopted",
-        "votes": [
-          {
-            "member": "Joann Waski",
-            "vote": "yes"
-          },
-          {
-            "member": "Denise Merrifield",
-            "vote": "yes"
-          },
-          {
-            "member": "Bob Kern",
-            "vote": "yes"
-          },
-          {
-            "member": "Ken Rothwell",
-            "vote": "absent"
-          },
-          {
-            "member": "Tim Hubbard",
-            "vote": "yes"
-          }
-        ],
-        "unanimous": false,
-        "confidence": "high",
-        "timestamp_s": null
-      },
-      {
-        "kind": "resolution",
-        "number": "2024-181",
         "title": "Water Capital Project #82055 Plant 10 Storage Tank Rehab Closure",
         "outcome": "adopted",
         "votes": [
@@ -37161,21 +37058,17 @@
             "vote": "yes"
           },
           {
-            "member": "Ken Rothwell",
-            "vote": "absent"
-          },
-          {
             "member": "Tim Hubbard",
             "vote": "yes"
           }
         ],
-        "unanimous": false,
+        "unanimous": true,
         "confidence": "high",
-        "timestamp_s": null
+        "timestamp_s": 18860
       },
       {
         "kind": "resolution",
-        "number": "2024-182",
+        "number": "2024-181",
         "title": "Water Capital Project #81953 Plant 4 Rehab Closure",
         "outcome": "adopted",
         "votes": [
@@ -37192,17 +37085,24 @@
             "vote": "yes"
           },
           {
-            "member": "Ken Rothwell",
-            "vote": "absent"
-          },
-          {
             "member": "Tim Hubbard",
             "vote": "yes"
           }
         ],
-        "unanimous": false,
+        "unanimous": true,
         "confidence": "high",
-        "timestamp_s": null
+        "timestamp_s": 18891
+      },
+      {
+        "kind": "resolution",
+        "number": "2024-182",
+        "title": "Water Capital Project #81953 Plant 4 Rehab Closure",
+        "outcome": "adopted",
+        "votes": [],
+        "unanimous": false,
+        "confidence": "low",
+        "timestamp_s": null,
+        "anchor_quote_unmatched": ""
       },
       {
         "kind": "resolution",
@@ -37223,17 +37123,13 @@
             "vote": "yes"
           },
           {
-            "member": "Ken Rothwell",
-            "vote": "absent"
-          },
-          {
             "member": "Tim Hubbard",
             "vote": "yes"
           }
         ],
-        "unanimous": false,
+        "unanimous": true,
         "confidence": "high",
-        "timestamp_s": null
+        "timestamp_s": 18910
       },
       {
         "kind": "resolution",
@@ -37254,17 +37150,13 @@
             "vote": "yes"
           },
           {
-            "member": "Ken Rothwell",
-            "vote": "absent"
-          },
-          {
             "member": "Tim Hubbard",
             "vote": "yes"
           }
         ],
-        "unanimous": false,
+        "unanimous": true,
         "confidence": "high",
-        "timestamp_s": null
+        "timestamp_s": 18927
       },
       {
         "kind": "resolution",
@@ -37285,17 +37177,13 @@
             "vote": "yes"
           },
           {
-            "member": "Ken Rothwell",
-            "vote": "absent"
-          },
-          {
             "member": "Tim Hubbard",
             "vote": "yes"
           }
         ],
-        "unanimous": false,
+        "unanimous": true,
         "confidence": "high",
-        "timestamp_s": null
+        "timestamp_s": 18949
       },
       {
         "kind": "resolution",
@@ -37316,22 +37204,18 @@
             "vote": "yes"
           },
           {
-            "member": "Ken Rothwell",
-            "vote": "absent"
-          },
-          {
             "member": "Tim Hubbard",
             "vote": "yes"
           }
         ],
-        "unanimous": false,
+        "unanimous": true,
         "confidence": "high",
-        "timestamp_s": null
+        "timestamp_s": 18966
       },
       {
         "kind": "resolution",
         "number": "2024-187",
-        "title": "Adopts Local Law to Amend Procurement Policy",
+        "title": "Adopts a Local Law to Amend Procurement Policy",
         "outcome": "adopted",
         "votes": [
           {
@@ -37347,22 +37231,18 @@
             "vote": "yes"
           },
           {
-            "member": "Ken Rothwell",
-            "vote": "absent"
-          },
-          {
             "member": "Tim Hubbard",
             "vote": "yes"
           }
         ],
-        "unanimous": false,
+        "unanimous": true,
         "confidence": "high",
-        "timestamp_s": null
+        "timestamp_s": 18983
       },
       {
         "kind": "resolution",
         "number": "2024-188",
-        "title": "Adopts Local Law Amending Chapter 289 Vehicles, Traffic and Parking",
+        "title": "Adopts Local Law Amending Chapter 289 Vehicles, Traffic and Parking Regulations",
         "outcome": "adopted",
         "votes": [
           {
@@ -37378,22 +37258,18 @@
             "vote": "yes"
           },
           {
-            "member": "Ken Rothwell",
-            "vote": "absent"
-          },
-          {
             "member": "Tim Hubbard",
             "vote": "yes"
           }
         ],
-        "unanimous": false,
+        "unanimous": true,
         "confidence": "high",
-        "timestamp_s": null
+        "timestamp_s": 18984
       },
       {
         "kind": "resolution",
         "number": "2024-189",
-        "title": "Agreement with Nassau County PAL Lacrosse for Referee Services",
+        "title": "Agreement with Nassau County PAL Lacrosse Unit for Referee/Umpire Services",
         "outcome": "adopted",
         "votes": [
           {
@@ -37409,22 +37285,18 @@
             "vote": "yes"
           },
           {
-            "member": "Ken Rothwell",
-            "vote": "absent"
-          },
-          {
             "member": "Tim Hubbard",
             "vote": "yes"
           }
         ],
-        "unanimous": false,
+        "unanimous": true,
         "confidence": "high",
-        "timestamp_s": null
+        "timestamp_s": 19040
       },
       {
         "kind": "resolution",
         "number": "2024-190",
-        "title": "Notice to Bidders for Police Marine Unit Boat Maintenance",
+        "title": "Notice to Bidders for Police Marine Unit Boat and Motor Maintenance",
         "outcome": "adopted",
         "votes": [
           {
@@ -37434,28 +37306,16 @@
           {
             "member": "Denise Merrifield",
             "vote": "yes"
-          },
-          {
-            "member": "Bob Kern",
-            "vote": "yes"
-          },
-          {
-            "member": "Ken Rothwell",
-            "vote": "absent"
-          },
-          {
-            "member": "Tim Hubbard",
-            "vote": "yes"
           }
         ],
-        "unanimous": false,
-        "confidence": "high",
-        "timestamp_s": null
+        "unanimous": true,
+        "confidence": "low",
+        "timestamp_s": 19055
       },
       {
         "kind": "resolution",
         "number": "2024-191",
-        "title": "Public Notice of Hearing for Riverhead Water District Extension No. 99",
+        "title": "Notice of Public Hearing for Water District Extension No. 99 Maris Farms",
         "outcome": "adopted",
         "votes": [
           {
@@ -37471,17 +37331,13 @@
             "vote": "yes"
           },
           {
-            "member": "Ken Rothwell",
-            "vote": "absent"
-          },
-          {
             "member": "Tim Hubbard",
             "vote": "yes"
           }
         ],
-        "unanimous": false,
+        "unanimous": true,
         "confidence": "high",
-        "timestamp_s": null
+        "timestamp_s": 19091
       },
       {
         "kind": "resolution",
@@ -37502,22 +37358,18 @@
             "vote": "yes"
           },
           {
-            "member": "Ken Rothwell",
-            "vote": "absent"
-          },
-          {
             "member": "Tim Hubbard",
             "vote": "yes"
           }
         ],
-        "unanimous": false,
+        "unanimous": true,
         "confidence": "high",
-        "timestamp_s": null
+        "timestamp_s": 19129
       },
       {
         "kind": "resolution",
         "number": "2024-193",
-        "title": "Approves Special Event Chapter 255 Application for Our Future Generation",
+        "title": "Special Event Application for Our Future Generation",
         "outcome": "adopted",
         "votes": [
           {
@@ -37533,27 +37385,13 @@
             "vote": "yes"
           },
           {
-            "member": "Ken Rothwell",
-            "vote": "absent"
-          },
-          {
             "member": "Tim Hubbard",
             "vote": "yes"
           }
         ],
-        "unanimous": false,
+        "unanimous": true,
         "confidence": "high",
-        "timestamp_s": null
-      },
-      {
-        "kind": "hearing_action",
-        "number": null,
-        "title": "RWD Extension 203-213 East Main Street held open for comment",
-        "outcome": "held",
-        "votes": [],
-        "unanimous": false,
-        "confidence": "low",
-        "timestamp_s": 11138
+        "timestamp_s": 19151
       },
       {
         "kind": "resolution",
@@ -37572,16 +37410,60 @@
           {
             "member": "Bob Kern",
             "vote": "yes"
+          },
+          {
+            "member": "Tim Hubbard",
+            "vote": "yes"
           }
         ],
         "unanimous": true,
-        "confidence": "low",
+        "confidence": "high",
         "timestamp_s": 19159
+      },
+      {
+        "kind": "hearing_action",
+        "number": null,
+        "title": "Public Hearing RWD Extension Maris Farms - cancelled",
+        "outcome": "withdrawn",
+        "votes": [],
+        "unanimous": false,
+        "confidence": "low",
+        "timestamp_s": 10968
+      },
+      {
+        "kind": "hearing_action",
+        "number": null,
+        "title": "Public Hearing Amend Chapter 301 Agritourism, Inns and Resorts - cancelled",
+        "outcome": "withdrawn",
+        "votes": [],
+        "unanimous": false,
+        "confidence": "low",
+        "timestamp_s": 10999
+      },
+      {
+        "kind": "hearing_action",
+        "number": null,
+        "title": "Public Hearing RWD Extension 203-213 East Main St. - held open",
+        "outcome": "held",
+        "votes": [],
+        "unanimous": false,
+        "confidence": "low",
+        "timestamp_s": 11131
+      },
+      {
+        "kind": "hearing_action",
+        "number": null,
+        "title": "Public Hearing Unsafe Structure 29 E 2nd Street",
+        "outcome": "held",
+        "votes": [],
+        "unanimous": false,
+        "confidence": "low",
+        "timestamp_s": 11255
       },
       {
         "kind": "resolution",
         "number": "2024-195",
-        "title": "Sale of Banners and Brochure Ads by Recreation Department; Sets 2024 Fees",
+        "title": "Authorizes Sale of Banners and Brochure Ads, Sets 2024 Fees",
         "outcome": "adopted",
         "votes": [
           {
@@ -37595,10 +37477,14 @@
           {
             "member": "Bob Kern",
             "vote": "yes"
+          },
+          {
+            "member": "Tim Hubbard",
+            "vote": "yes"
           }
         ],
         "unanimous": true,
-        "confidence": "low",
+        "confidence": "high",
         "timestamp_s": 19181
       },
       {
@@ -37618,131 +37504,20 @@
           {
             "member": "Bob Kern",
             "vote": "yes"
+          },
+          {
+            "member": "Tim Hubbard",
+            "vote": "yes"
           }
         ],
         "unanimous": true,
-        "confidence": "low",
+        "confidence": "high",
         "timestamp_s": 19190
       },
       {
         "kind": "resolution",
         "number": "2024-197",
-        "title": "Support DA Tierney's Campaign on Fentanyl Laws",
-        "outcome": "adopted",
-        "votes": [
-          {
-            "member": "Joann Waski",
-            "vote": "yes"
-          },
-          {
-            "member": "Denise Merrifield",
-            "vote": "yes"
-          },
-          {
-            "member": "Bob Kern",
-            "vote": "yes"
-          }
-        ],
-        "unanimous": true,
-        "confidence": "low",
-        "timestamp_s": 19227
-      },
-      {
-        "kind": "resolution",
-        "number": "2024-198",
-        "title": "Support NYS Deadly Driving Bills S.3135 and A.174",
-        "outcome": "adopted",
-        "votes": [
-          {
-            "member": "Joann Waski",
-            "vote": "yes"
-          },
-          {
-            "member": "Denise Merrifield",
-            "vote": "yes"
-          },
-          {
-            "member": "Bob Kern",
-            "vote": "yes"
-          }
-        ],
-        "unanimous": true,
-        "confidence": "low",
-        "timestamp_s": 19246
-      },
-      {
-        "kind": "resolution",
-        "number": "2024-199",
-        "title": "Agreement with Goodman Marks Associates for Leasehold Appraisal",
-        "outcome": "adopted",
-        "votes": [
-          {
-            "member": "Joann Waski",
-            "vote": "yes"
-          },
-          {
-            "member": "Denise Merrifield",
-            "vote": "yes"
-          },
-          {
-            "member": "Bob Kern",
-            "vote": "yes"
-          }
-        ],
-        "unanimous": true,
-        "confidence": "low",
-        "timestamp_s": 19293
-      },
-      {
-        "kind": "resolution",
-        "number": "2024-200",
-        "title": "Empire State Development Grant - Calverton Enterprise Park Feasibility Study",
-        "outcome": "adopted",
-        "votes": [
-          {
-            "member": "Joann Waski",
-            "vote": "yes"
-          },
-          {
-            "member": "Denise Merrifield",
-            "vote": "yes"
-          },
-          {
-            "member": "Bob Kern",
-            "vote": "yes"
-          }
-        ],
-        "unanimous": true,
-        "confidence": "low",
-        "timestamp_s": 19310
-      },
-      {
-        "kind": "resolution",
-        "number": "2024-201",
-        "title": "Amends Resolution 8015 - RAISE 2024 Grant Application",
-        "outcome": "adopted",
-        "votes": [
-          {
-            "member": "Joann Waski",
-            "vote": "yes"
-          },
-          {
-            "member": "Denise Merrifield",
-            "vote": "yes"
-          },
-          {
-            "member": "Bob Kern",
-            "vote": "yes"
-          }
-        ],
-        "unanimous": true,
-        "confidence": "low",
-        "timestamp_s": 19342
-      },
-      {
-        "kind": "resolution",
-        "number": "2024-202",
-        "title": "Purchase of 2024 Kenworth Model T480 Dump Truck",
+        "title": "Support for Suffolk County DA's Fentanyl Campaign",
         "outcome": "adopted",
         "votes": [
           {
@@ -37763,7 +37538,142 @@
           }
         ],
         "unanimous": true,
-        "confidence": "low",
+        "confidence": "high",
+        "timestamp_s": 19227
+      },
+      {
+        "kind": "resolution",
+        "number": "2024-198",
+        "title": "Support for NYS Deadly Driving Bills S.3135 and A.174",
+        "outcome": "adopted",
+        "votes": [
+          {
+            "member": "Joann Waski",
+            "vote": "yes"
+          },
+          {
+            "member": "Denise Merrifield",
+            "vote": "yes"
+          },
+          {
+            "member": "Bob Kern",
+            "vote": "yes"
+          },
+          {
+            "member": "Tim Hubbard",
+            "vote": "yes"
+          }
+        ],
+        "unanimous": true,
+        "confidence": "high",
+        "timestamp_s": 19246
+      },
+      {
+        "kind": "resolution",
+        "number": "2024-199",
+        "title": "Agreement with Goodman Marks Associates for Leasehold Appraisal",
+        "outcome": "adopted",
+        "votes": [
+          {
+            "member": "Joann Waski",
+            "vote": "yes"
+          },
+          {
+            "member": "Denise Merrifield",
+            "vote": "yes"
+          },
+          {
+            "member": "Bob Kern",
+            "vote": "yes"
+          },
+          {
+            "member": "Tim Hubbard",
+            "vote": "yes"
+          }
+        ],
+        "unanimous": true,
+        "confidence": "high",
+        "timestamp_s": 19293
+      },
+      {
+        "kind": "resolution",
+        "number": "2024-200",
+        "title": "Incentive Proposal for Empire State Development Grant - Calverton Feasibility Study",
+        "outcome": "adopted",
+        "votes": [
+          {
+            "member": "Joann Waski",
+            "vote": "yes"
+          },
+          {
+            "member": "Denise Merrifield",
+            "vote": "yes"
+          },
+          {
+            "member": "Bob Kern",
+            "vote": "yes"
+          },
+          {
+            "member": "Tim Hubbard",
+            "vote": "yes"
+          }
+        ],
+        "unanimous": true,
+        "confidence": "high",
+        "timestamp_s": 19310
+      },
+      {
+        "kind": "resolution",
+        "number": "2024-201",
+        "title": "Amends Resolution 8015 - RAISE 2024 Grant Application",
+        "outcome": "adopted",
+        "votes": [
+          {
+            "member": "Joann Waski",
+            "vote": "yes"
+          },
+          {
+            "member": "Denise Merrifield",
+            "vote": "yes"
+          },
+          {
+            "member": "Bob Kern",
+            "vote": "yes"
+          },
+          {
+            "member": "Tim Hubbard",
+            "vote": "yes"
+          }
+        ],
+        "unanimous": true,
+        "confidence": "high",
+        "timestamp_s": 19342
+      },
+      {
+        "kind": "resolution",
+        "number": "2024-202",
+        "title": "Purchase of One 2024 Kenworth Model T480 Dump Truck",
+        "outcome": "adopted",
+        "votes": [
+          {
+            "member": "Joann Waski",
+            "vote": "yes"
+          },
+          {
+            "member": "Denise Merrifield",
+            "vote": "yes"
+          },
+          {
+            "member": "Bob Kern",
+            "vote": "yes"
+          },
+          {
+            "member": "Tim Hubbard",
+            "vote": "yes"
+          }
+        ],
+        "unanimous": true,
+        "confidence": "high",
         "timestamp_s": 19357
       },
       {
@@ -37788,7 +37698,7 @@
       {
         "kind": "resolution",
         "number": "2024-204",
-        "title": "Cancellation of a Public Hearing (Procedural)",
+        "title": "Procedural Resolution - Cancellation of Public Hearing",
         "outcome": "adopted",
         "votes": [
           {
@@ -37802,10 +37712,14 @@
           {
             "member": "Bob Kern",
             "vote": "yes"
+          },
+          {
+            "member": "Tim Hubbard",
+            "vote": "yes"
           }
         ],
         "unanimous": true,
-        "confidence": "low",
+        "confidence": "high",
         "timestamp_s": 19417
       },
       {
@@ -37825,11 +37739,15 @@
           {
             "member": "Bob Kern",
             "vote": "yes"
+          },
+          {
+            "member": "Tim Hubbard",
+            "vote": "yes"
           }
         ],
         "unanimous": true,
-        "confidence": "low",
-        "timestamp_s": 19456
+        "confidence": "high",
+        "timestamp_s": 19455
       },
       {
         "kind": "resolution",
@@ -37848,10 +37766,14 @@
           {
             "member": "Bob Kern",
             "vote": "yes"
+          },
+          {
+            "member": "Tim Hubbard",
+            "vote": "yes"
           }
         ],
         "unanimous": true,
-        "confidence": "low",
+        "confidence": "high",
         "timestamp_s": 19476
       },
       {
@@ -37867,7 +37789,7 @@
       {
         "kind": "motion",
         "number": null,
-        "title": "Motion to Close Town Board Meeting",
+        "title": "Motion to Close the Town Board Meeting",
         "outcome": "adopted",
         "votes": [],
         "unanimous": false,

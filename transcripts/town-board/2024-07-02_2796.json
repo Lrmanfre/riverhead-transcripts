@@ -11686,13 +11686,13 @@
     "truncated": false,
     "model": "claude-sonnet-5",
     "prompt_version": "1",
-    "generated_at": "2026-08-25T21:27:14+00:00",
+    "generated_at": "2026-08-26T02:10:14+00:00",
     "grounded_in": null,
     "items": [
       {
         "kind": "hearing_action",
         "number": null,
-        "title": "Local law amending Chapter 301 zoning - satellite earth stations",
+        "title": "Local law amending Ch.301 zoning - satellite earth station definitions/code",
         "outcome": "held",
         "votes": [],
         "unanimous": false,
@@ -11702,7 +11702,7 @@
       {
         "kind": "hearing_action",
         "number": null,
-        "title": "Three-month extension of Calverton Industrial Moratorium",
+        "title": "Calverton Industrial Moratorium three-month extension public hearing",
         "outcome": "held",
         "votes": [],
         "unanimous": false,
@@ -11712,7 +11712,7 @@
       {
         "kind": "resolution",
         "number": "2024-601",
-        "title": "Sewer District Capital Project 8317 budget adjustments",
+        "title": "Sewer District Capital Project 8.2317 budget adjustments",
         "outcome": "adopted",
         "votes": [
           {
@@ -11734,12 +11734,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": null
+        "timestamp_s": 2573
       },
       {
         "kind": "resolution",
         "number": "2024-602",
-        "title": "Water District Capital Project 82303 budget adjustments",
+        "title": "Water District Capital Project 8.2303 budget adjustments",
         "outcome": "adopted",
         "votes": [
           {
@@ -11761,12 +11761,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 2570
+        "timestamp_s": 2573
       },
       {
         "kind": "resolution",
         "number": "2024-603",
-        "title": "Riverhead Sewer District Capital Project 82226 budget adjustments",
+        "title": "Riverhead Sewer District Capital Project 8.2226 budget adjustments",
         "outcome": "adopted",
         "votes": [
           {
@@ -11792,12 +11792,12 @@
         ],
         "unanimous": false,
         "confidence": "high",
-        "timestamp_s": 2598
+        "timestamp_s": 2595
       },
       {
         "kind": "resolution",
         "number": "2024-604",
-        "title": "Budget transfer, Veterans Memorial Park Sanitary System Capital Project 72306",
+        "title": "Budget transfer, Veterans Memorial Park Sanitary System Capital Project 7.2306",
         "outcome": "adopted",
         "votes": [
           {
@@ -11819,7 +11819,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 2602
+        "timestamp_s": 2573
       },
       {
         "kind": "resolution",
@@ -11846,12 +11846,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 2647
+        "timestamp_s": 2654
       },
       {
         "kind": "resolution",
         "number": "2024-608",
-        "title": "Extend bid non-pro-tunc for lubricants",
+        "title": "Extend bid non pro tunc for lubricants",
         "outcome": "adopted",
         "votes": [
           {
@@ -11873,7 +11873,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 2665
+        "timestamp_s": 2671
       },
       {
         "kind": "resolution",
@@ -11895,8 +11895,8 @@
           }
         ],
         "unanimous": true,
-        "confidence": "high",
-        "timestamp_s": 2678
+        "confidence": "low",
+        "timestamp_s": 2685
       },
       {
         "kind": "resolution",
@@ -11923,7 +11923,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 2690
+        "timestamp_s": 2671
       },
       {
         "kind": "resolution",
@@ -11950,12 +11950,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 2708
+        "timestamp_s": 2671
       },
       {
         "kind": "resolution",
         "number": "2024-612",
-        "title": "Approves attendance of one police department employee at seminar",
+        "title": "Approves police department employee attendance at seminar",
         "outcome": "adopted",
         "votes": [
           {
@@ -11977,12 +11977,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 2719
+        "timestamp_s": 2592
       },
       {
         "kind": "resolution",
         "number": "2024-613",
-        "title": "Approves attendance at DCJS Public Safety Symposium",
+        "title": "Approve police department employee attendance at DCJS Public Safety Symposium",
         "outcome": "adopted",
         "votes": [
           {
@@ -12004,7 +12004,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 2738
+        "timestamp_s": 2744
       },
       {
         "kind": "resolution",
@@ -12036,7 +12036,7 @@
       {
         "kind": "resolution",
         "number": "2024-615",
-        "title": "Reappoints members to the Small Business Advisory Committee",
+        "title": "Reappoint member(s) to the Small Business Advisory Committee",
         "outcome": "adopted",
         "votes": [
           {
@@ -12058,7 +12058,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 2786
+        "timestamp_s": 2774
       },
       {
         "kind": "resolution",
@@ -12085,7 +12085,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 2800
+        "timestamp_s": 2774
       },
       {
         "kind": "resolution",
@@ -12112,7 +12112,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 2816
+        "timestamp_s": 2774
       },
       {
         "kind": "resolution",
@@ -12139,12 +12139,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 2831
+        "timestamp_s": 2744
       },
       {
         "kind": "resolution",
         "number": "2024-620",
-        "title": "Appoints call-in recreation specialist to Recreation Department",
+        "title": "Appoint call-in recreation specialist to Recreation Department",
         "outcome": "adopted",
         "votes": [
           {
@@ -12161,8 +12161,8 @@
           }
         ],
         "unanimous": true,
-        "confidence": "high",
-        "timestamp_s": 2836
+        "confidence": "low",
+        "timestamp_s": 2846
       },
       {
         "kind": "resolution",
@@ -12189,12 +12189,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 2882
+        "timestamp_s": 2671
       },
       {
         "kind": "resolution",
         "number": "2024-623",
-        "title": "Appoints Brian Mills chairman of Board of Assessment Review",
+        "title": "Appoints Brian Mills as chairman of Board of Assessment Review",
         "outcome": "adopted",
         "votes": [
           {
@@ -12270,7 +12270,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 2956
+        "timestamp_s": 2744
       },
       {
         "kind": "resolution",
@@ -12297,7 +12297,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 2969
+        "timestamp_s": 2774
       },
       {
         "kind": "resolution",
@@ -12324,7 +12324,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 2976
+        "timestamp_s": 2987
       },
       {
         "kind": "resolution",
@@ -12351,7 +12351,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 3004
+        "timestamp_s": 3011
       },
       {
         "kind": "resolution",
@@ -12378,12 +12378,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 3025
+        "timestamp_s": 2744
       },
       {
         "kind": "resolution",
         "number": "2024-630",
-        "title": "Authorize notice for local law amending Chapter 301 bed and breakfast facilities",
+        "title": "Authorize town clerk to publish notice re: bed and breakfast facilities local law",
         "outcome": "adopted",
         "votes": [
           {
@@ -12405,12 +12405,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 3053
+        "timestamp_s": 2774
       },
       {
         "kind": "resolution",
         "number": "2024-631",
-        "title": "Authorize notice for local law amending Chapter 257 peddling and soliciting",
+        "title": "Authorizes town clerk to publish notice to amend chapter 257 peddling and soliciting",
         "outcome": "adopted",
         "votes": [
           {
@@ -12432,12 +12432,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 3071
+        "timestamp_s": 2744
       },
       {
         "kind": "resolution",
         "number": "2024-632",
-        "title": "Authorize notice for local law amending Chapter 251 noise variances",
+        "title": "Authorizes town clerk to publish notice re: noise, public nuisances variances",
         "outcome": "adopted",
         "votes": [
           {
@@ -12459,12 +12459,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 3100
+        "timestamp_s": 2744
       },
       {
         "kind": "resolution",
         "number": "2024-633",
-        "title": "Adopts local law amending Chapter 301, Pine Barrens Overlay District",
+        "title": "Adopts local law amending Ch.301 Pine Barrens overlay district",
         "outcome": "adopted",
         "votes": [
           {
@@ -12486,12 +12486,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 3116
+        "timestamp_s": 3124
       },
       {
         "kind": "resolution",
         "number": "2024-637",
-        "title": "Approves agreement with Windship Media LLC for Jazz in the Vines 2024",
+        "title": "Approves agreement with Windship Media LLC for Jazz in the Vines",
         "outcome": "adopted",
         "votes": [
           {
@@ -12513,12 +12513,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 3209
+        "timestamp_s": 3212
       },
       {
         "kind": "resolution",
         "number": "2024-638",
-        "title": "Approves fireworks application for Jamesport Fire Department July 20, 2024",
+        "title": "Approves fireworks application for Jamesport Fire Department July 20 2024",
         "outcome": "adopted",
         "votes": [
           {
@@ -12540,12 +12540,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 3222
+        "timestamp_s": 3212
       },
       {
         "kind": "resolution",
         "number": "2024-639",
-        "title": "Approves fireworks application for Riverhead BID July 5, 2024",
+        "title": "Approves fireworks application for Riverhead BID July 5 2024",
         "outcome": "adopted",
         "votes": [
           {
@@ -12567,12 +12567,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 3239
+        "timestamp_s": 3243
       },
       {
         "kind": "resolution",
         "number": "2024-640",
-        "title": "Approves special event application, Hallockville Museum Barn Raising Supper",
+        "title": "Approves special event Ch.255 application for Hallockville Museum barn raising supper",
         "outcome": "adopted",
         "votes": [
           {
@@ -12594,12 +12594,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 3257
+        "timestamp_s": 3212
       },
       {
         "kind": "resolution",
         "number": "2024-641",
-        "title": "Establishes Town of Riverhead Emerging Technology Committee, initial members",
+        "title": "Establishes Town of Riverhead Emerging Technology Committee and initial members",
         "outcome": "adopted",
         "votes": [
           {
@@ -12621,12 +12621,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 3274
+        "timestamp_s": 3277
       },
       {
         "kind": "resolution",
         "number": "2024-642",
-        "title": "Authorizes legal action against Island Water Park Corp (Scott's Point)",
+        "title": "Authorizes legal action against Scott's Point (Island Water Park Corp)",
         "outcome": "adopted",
         "votes": [
           {
@@ -12648,12 +12648,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 3350
+        "timestamp_s": 3370
       },
       {
         "kind": "resolution",
         "number": "2024-643",
-        "title": "Ratify authorization to retain legal counsel, commence action against Southampton",
+        "title": "Ratify authorization to retain legal counsel and commence action against Southampton",
         "outcome": "adopted",
         "votes": [
           {
@@ -12675,7 +12675,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 3387
+        "timestamp_s": 3212
       },
       {
         "kind": "resolution",
@@ -12702,12 +12702,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 3407
+        "timestamp_s": 3212
       },
       {
         "kind": "resolution",
         "number": "2024-645",
-        "title": "Authorizes short-term runway use agreement, Racetrack Knot Street 2024 Summer Classic",
+        "title": "Authorizes short-term runway use agreement for Racetrack Knot Street 2024 Summer Classic",
         "outcome": "adopted",
         "votes": [
           {
@@ -12724,13 +12724,13 @@
           }
         ],
         "unanimous": true,
-        "confidence": "high",
-        "timestamp_s": 3427
+        "confidence": "low",
+        "timestamp_s": 3428
       },
       {
         "kind": "resolution",
         "number": "2024-646",
-        "title": "Lead agency status, negative declaration, 374 Main Road Professional Office",
+        "title": "Assumes lead agency, negative declaration for 374 Main Road Professional Office",
         "outcome": "adopted",
         "votes": [
           {
@@ -12752,12 +12752,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 3440
+        "timestamp_s": 3212
       },
       {
         "kind": "resolution",
         "number": "2024-647",
-        "title": "Schedules public hearing, 374 Main Road Professional Office special permit",
+        "title": "Schedules public hearing for special permit application, 374 Main Road Professional Office",
         "outcome": "adopted",
         "votes": [
           {
@@ -12779,7 +12779,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 3477
+        "timestamp_s": 3212
       },
       {
         "kind": "motion",

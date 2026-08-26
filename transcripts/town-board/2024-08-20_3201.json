@@ -18942,13 +18942,13 @@
     "truncated": false,
     "model": "claude-sonnet-5",
     "prompt_version": "1",
-    "generated_at": "2026-08-25T21:23:47+00:00",
+    "generated_at": "2026-08-26T02:13:47+00:00",
     "grounded_in": null,
     "items": [
       {
         "kind": "hearing_action",
         "number": null,
-        "title": "Charter School space variance public hearing closed, written comment extended",
+        "title": "Public hearing on charter school portable classrooms",
         "outcome": "held",
         "votes": [],
         "unanimous": false,
@@ -18984,12 +18984,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 6200
+        "timestamp_s": 6197
       },
       {
         "kind": "resolution",
         "number": "2024-726",
-        "title": "Publish notice of hearing to amend Ch. 221 Community Preservation Fund Committee",
+        "title": "Publish notice of hearing to amend Chapter 221, CPF/Water Quality Committee",
         "outcome": "adopted",
         "votes": [
           {
@@ -19015,12 +19015,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 6228
+        "timestamp_s": 6219
       },
       {
         "kind": "resolution",
         "number": "2024-727",
-        "title": "Adopt local law amending Ch. 251 Noise, Public Nuisances and Property Maintenance variances",
+        "title": "Adopt local law amending Chapter 251, Noise/Nuisances, variances section",
         "outcome": "adopted",
         "votes": [
           {
@@ -19046,12 +19046,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 6249
+        "timestamp_s": 6245
       },
       {
         "kind": "resolution",
         "number": "2024-728",
-        "title": "Adopt local law amending Ch. 301 Zoning and Land Development Section 247",
+        "title": "Adopt local law amending Chapter 301, Zoning Section 247",
         "outcome": "adopted",
         "votes": [
           {
@@ -19077,12 +19077,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 6271
+        "timestamp_s": 6270
       },
       {
         "kind": "resolution",
         "number": "2024-729",
-        "title": "Adopt local law amending Ch. 217 Sec. 67 Front Yard Parking Restrictions",
+        "title": "Adopt local law amending Chapter 217, Front Yard Parking Restrictions",
         "outcome": "adopted",
         "votes": [
           {
@@ -19108,7 +19108,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 6287
+        "timestamp_s": 6286
       },
       {
         "kind": "resolution",
@@ -19139,12 +19139,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 6319
+        "timestamp_s": 6318
       },
       {
         "kind": "resolution",
         "number": "2024-732",
-        "title": "Appoint call-in cook to Senior Citizen Department",
+        "title": "Appoint call-in Cook to Senior Citizen Department",
         "outcome": "adopted",
         "votes": [
           {
@@ -19170,12 +19170,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 6335
+        "timestamp_s": 6334
       },
       {
         "kind": "resolution",
         "number": "2024-733",
-        "title": "Appoint call-in cook to Senior Citizen Department",
+        "title": "Appoint call-in Cook to Senior Citizen Department",
         "outcome": "adopted",
         "votes": [
           {
@@ -19201,12 +19201,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 6335
+        "timestamp_s": 6350
       },
       {
         "kind": "resolution",
         "number": "2024-734",
-        "title": "Appoint call-in park attendants to Recreation Department",
+        "title": "Appoint call-in Park Attendants to Recreation Department",
         "outcome": "adopted",
         "votes": [
           {
@@ -19232,12 +19232,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 6372
+        "timestamp_s": 6371
       },
       {
         "kind": "resolution",
         "number": "2024-735",
-        "title": "Appoint call-in recreation aides to Senior Citizen Department",
+        "title": "Appoint call-in Recreation Aides to Senior Citizen Department",
         "outcome": "adopted",
         "votes": [
           {
@@ -19263,12 +19263,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 6388
+        "timestamp_s": 6387
       },
       {
         "kind": "resolution",
         "number": "2024-736",
-        "title": "License agreement with Riverhead Volunteer Ambulance Corps for EMT course",
+        "title": "License agreement with Riverhead Volunteer Ambulance Corps for Town Hall Basement use",
         "outcome": "adopted",
         "votes": [
           {
@@ -19294,12 +19294,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 6405
+        "timestamp_s": 6403
       },
       {
         "kind": "resolution",
         "number": "2024-737",
-        "title": "Appoint two police officers",
+        "title": "Appoint two police officers (Falsita and Waski)",
         "outcome": "adopted",
         "votes": [
           {
@@ -19325,7 +19325,7 @@
         ],
         "unanimous": false,
         "confidence": "high",
-        "timestamp_s": 6536
+        "timestamp_s": 6517
       },
       {
         "kind": "resolution",
@@ -19356,7 +19356,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 6562
+        "timestamp_s": 6561
       },
       {
         "kind": "resolution",
@@ -19387,12 +19387,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 6628
+        "timestamp_s": 6625
       },
       {
         "kind": "resolution",
         "number": "2024-740",
-        "title": "Authorize purchase of dump truck for highway department",
+        "title": "Authorize purchase of dump truck for Highway Department",
         "outcome": "adopted",
         "votes": [
           {
@@ -19449,7 +19449,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 6680
+        "timestamp_s": 6672
       },
       {
         "kind": "resolution",
@@ -19480,12 +19480,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 6700
+        "timestamp_s": 6694
       },
       {
         "kind": "resolution",
         "number": "2024-743",
-        "title": "Ratify purchase of work trucks for highway department",
+        "title": "Ratify purchase of work trucks for Highway Department",
         "outcome": "adopted",
         "votes": [
           {
@@ -19511,7 +19511,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 6723
+        "timestamp_s": 6721
       },
       {
         "kind": "resolution",
@@ -19542,12 +19542,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 6741
+        "timestamp_s": 6757
       },
       {
         "kind": "resolution",
         "number": "2024-745",
-        "title": "Rescind Resolution 2024-368, Townscape Blues by the River event",
+        "title": "Rescind Resolution 2024-368, Townscape Blues by the River special event",
         "outcome": "adopted",
         "votes": [
           {
@@ -19573,7 +19573,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 6770
+        "timestamp_s": 6769
       },
       {
         "kind": "resolution",
@@ -19604,12 +19604,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 6790
+        "timestamp_s": 6788
       },
       {
         "kind": "resolution",
         "number": "2024-747",
-        "title": "Agreement with Riverhead Youth Sports for referee/umpire services, PAL football",
+        "title": "Agreement with Riverhead Youth Sports for referee/umpire services",
         "outcome": "adopted",
         "votes": [
           {
@@ -19635,7 +19635,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 6813
+        "timestamp_s": 6807
       },
       {
         "kind": "resolution",
@@ -19666,7 +19666,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 6832
+        "timestamp_s": 6830
       },
       {
         "kind": "resolution",
@@ -19697,12 +19697,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 6851
+        "timestamp_s": 6849
       },
       {
         "kind": "resolution",
         "number": "2024-750",
-        "title": "Change town participation to NY State Health Insurance Program",
+        "title": "Change Town participation to NY State Health Insurance Program",
         "outcome": "adopted",
         "votes": [
           {
@@ -19725,12 +19725,12 @@
       {
         "kind": "resolution",
         "number": "2024-751",
-        "title": "Removal of litter/garbage/rubbish at 271 Hubbard Avenue",
+        "title": "Authorize removal of litter/garbage at 271 Hubbard Avenue",
         "outcome": "adopted",
         "votes": [],
         "unanimous": false,
         "confidence": "low",
-        "timestamp_s": 6900
+        "timestamp_s": 6893
       },
       {
         "kind": "resolution",
@@ -19792,12 +19792,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": null
+        "timestamp_s": 6947
       },
       {
         "kind": "resolution",
         "number": "2024-754",
-        "title": "Publish notice re local law amending Ch. 263 Rental Dwelling Units",
+        "title": "Publish notice for local law amending Chapter 263, Rental Dwelling Units",
         "outcome": "adopted",
         "votes": [
           {
@@ -19823,7 +19823,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 6966
+        "timestamp_s": 6956
       },
       {
         "kind": "resolution",
@@ -19859,7 +19859,7 @@
       {
         "kind": "resolution",
         "number": "2024-756",
-        "title": "Publish notice re amendment to Ch. 289 Vehicles, Traffic and Parking",
+        "title": "Publish notice for amendment to Chapter 289, Vehicles Traffic and Parking",
         "outcome": "adopted",
         "votes": [
           {
@@ -19885,12 +19885,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 7009
+        "timestamp_s": 7002
       },
       {
         "kind": "resolution",
         "number": "2024-759",
-        "title": "Approve submission of grant to NY State OPRHP for drone purchase",
+        "title": "Approve submission of grant to NYS OPRHP for drone purchase",
         "outcome": "adopted",
         "votes": [
           {
@@ -19904,10 +19904,6 @@
           {
             "member": "Bob Kern",
             "vote": "yes"
-          },
-          {
-            "member": "Ken Rothwell",
-            "vote": "yes"
           }
         ],
         "unanimous": true,
@@ -19917,17 +19913,7 @@
       {
         "kind": "motion",
         "number": null,
-        "title": "Close Town Board meeting and open CDA meeting",
-        "outcome": "adopted",
-        "votes": [],
-        "unanimous": false,
-        "confidence": "low",
-        "timestamp_s": 10702
-      },
-      {
-        "kind": "motion",
-        "number": null,
-        "title": "Close CDA meeting",
+        "title": "Motion to close CDA meeting",
         "outcome": "adopted",
         "votes": [
           {

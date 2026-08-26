@@ -11791,13 +11791,13 @@
     "truncated": false,
     "model": "claude-sonnet-5",
     "prompt_version": "1",
-    "generated_at": "2026-08-25T21:11:45+00:00",
+    "generated_at": "2026-08-26T01:59:45+00:00",
     "grounded_in": "Minutes",
     "items": [
       {
         "kind": "hearing_action",
         "number": null,
-        "title": "Chapter 217 Penalties and Offenses amendment",
+        "title": "Chapter 217 Penalties and Offenses code amendment",
         "outcome": "held",
         "votes": [],
         "unanimous": false,
@@ -11807,7 +11807,7 @@
       {
         "kind": "hearing_action",
         "number": null,
-        "title": "Town Officers and Employees Article VI term limits",
+        "title": "Town Officers and Employees Article VI term limits amendment",
         "outcome": "held",
         "votes": [],
         "unanimous": false,
@@ -11817,7 +11817,7 @@
       {
         "kind": "hearing_action",
         "number": null,
-        "title": "Industrial code amendments and zoning map changes (Hearings 4-20)",
+        "title": "Chapter 301 industrial code amendments (Public Hearings 4-20)",
         "outcome": "held",
         "votes": [],
         "unanimous": false,
@@ -11847,33 +11847,14 @@
             "vote": "yes"
           },
           {
-            "member": "Tim Hubbard",
+            "member": "Halpin",
             "vote": "yes"
           }
         ],
         "unanimous": true,
-        "confidence": "high",
-        "timestamp_s": 4372
-      },
-      {
-        "kind": "hearing_action",
-        "number": null,
-        "title": "Chapter 301 Art XXV Industrial C zoning amendments",
-        "outcome": "held",
-        "votes": [],
-        "unanimous": false,
         "confidence": "low",
-        "timestamp_s": null
-      },
-      {
-        "kind": "hearing_action",
-        "number": null,
-        "title": "Multiple Chapter 301 zoning code public hearings",
-        "outcome": "held",
-        "votes": [],
-        "unanimous": false,
-        "confidence": "low",
-        "timestamp_s": 4270
+        "timestamp_s": null,
+        "anchor_quote_unmatched": ""
       },
       {
         "kind": "resolution",
@@ -11904,12 +11885,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": null
+        "timestamp_s": 4386
       },
       {
         "kind": "resolution",
         "number": "2024-921",
-        "title": "Ratifies authorization for Police employee training course",
+        "title": "Ratifies Authorization for Police Dept. Employee to Attend Training Course",
         "outcome": "adopted",
         "votes": [
           {
@@ -11940,7 +11921,7 @@
       {
         "kind": "resolution",
         "number": "2024-922",
-        "title": "Ratifies resignation of a traffic control specialist",
+        "title": "Ratifies and Accepts Resignation of a Traffic Control Specialist",
         "outcome": "adopted",
         "votes": [
           {
@@ -11971,7 +11952,7 @@
       {
         "kind": "resolution",
         "number": "2024-923",
-        "title": "Appoints a Public Safety Dispatcher to Police Department",
+        "title": "Appoints a Public Safety Dispatcher to the Police Department",
         "outcome": "adopted",
         "votes": [
           {
@@ -12033,7 +12014,7 @@
       {
         "kind": "resolution",
         "number": "2024-925",
-        "title": "Awards Re-Bid for Meetinghouse Creek Stormwater Wetland Project",
+        "title": "Awards Re-Bid for Meetinghouse Creek Stormwater Wetland and Habitat Restoration Project",
         "outcome": "tabled",
         "votes": [
           {
@@ -12051,30 +12032,17 @@
           {
             "member": "Ken Rothwell",
             "vote": "yes"
-          },
-          {
-            "member": "Tim Hubbard",
-            "vote": "yes"
           }
         ],
         "unanimous": true,
-        "confidence": "high",
-        "timestamp_s": 4483
+        "confidence": "low",
+        "timestamp_s": null,
+        "anchor_quote_unmatched": ""
       },
       {
         "kind": "resolution",
         "number": "2024-926",
-        "title": "Awards Bid for 2024 Mack Dump Truck for Water District",
-        "outcome": "adopted",
-        "votes": [],
-        "unanimous": false,
-        "confidence": "low",
-        "timestamp_s": 4501
-      },
-      {
-        "kind": "resolution",
-        "number": "2024-928",
-        "title": "Authorizes Notice to Bidders for Pump Station East Wind Drive",
+        "title": "Awards Bid for 2024 Mack Model Dump Truck for Water District",
         "outcome": "adopted",
         "votes": [
           {
@@ -12092,20 +12060,73 @@
           {
             "member": "Ken Rothwell",
             "vote": "yes"
+          }
+        ],
+        "unanimous": true,
+        "confidence": "low",
+        "timestamp_s": null,
+        "anchor_quote_unmatched": ""
+      },
+      {
+        "kind": "resolution",
+        "number": "2024-927",
+        "title": "Extends Bid for E-Waste Collection and Recycling",
+        "outcome": "adopted",
+        "votes": [
+          {
+            "member": "Joann Waski",
+            "vote": "yes"
           },
           {
-            "member": "Tim Hubbard",
+            "member": "Denise Merrifield",
+            "vote": "yes"
+          },
+          {
+            "member": "Bob Kern",
+            "vote": "yes"
+          },
+          {
+            "member": "Ken Rothwell",
             "vote": "yes"
           }
         ],
         "unanimous": true,
-        "confidence": "high",
-        "timestamp_s": 4546
+        "confidence": "low",
+        "timestamp_s": null,
+        "anchor_quote_unmatched": ""
+      },
+      {
+        "kind": "resolution",
+        "number": "2024-928",
+        "title": "Authorizes Notice to Bidders for Pump Station at East Wind Drive",
+        "outcome": "adopted",
+        "votes": [
+          {
+            "member": "Joann Waski",
+            "vote": "yes"
+          },
+          {
+            "member": "Denise Merrifield",
+            "vote": "yes"
+          },
+          {
+            "member": "Bob Kern",
+            "vote": "yes"
+          },
+          {
+            "member": "Ken Rothwell",
+            "vote": "yes"
+          }
+        ],
+        "unanimous": true,
+        "confidence": "low",
+        "timestamp_s": null,
+        "anchor_quote_unmatched": ""
       },
       {
         "kind": "resolution",
         "number": "2024-929",
-        "title": "Authorizes Public Hearing on Sewer Rent for Out-of-Town Facilities",
+        "title": "Authorizes Notice of Public Hearing on Fair Sewer Rent for Out-of-Town Facilities",
         "outcome": "adopted",
         "votes": [
           {
@@ -12167,7 +12188,7 @@
       {
         "kind": "resolution",
         "number": "2024-931",
-        "title": "Extension of License Agreement with Island Exterior Fabricators",
+        "title": "Authorizes Second Extension of License Agreement with Island Exterior Fabricators",
         "outcome": "adopted",
         "votes": [
           {
@@ -12197,8 +12218,64 @@
       },
       {
         "kind": "resolution",
+        "number": "2024-932",
+        "title": "Authorizes Extension of Time to Remit Property Taxes for Senior Citizens with Enhanced STAR",
+        "outcome": "adopted",
+        "votes": [
+          {
+            "member": "Joann Waski",
+            "vote": "yes"
+          },
+          {
+            "member": "Denise Merrifield",
+            "vote": "yes"
+          },
+          {
+            "member": "Bob Kern",
+            "vote": "yes"
+          },
+          {
+            "member": "Ken Rothwell",
+            "vote": "yes"
+          }
+        ],
+        "unanimous": true,
+        "confidence": "low",
+        "timestamp_s": null,
+        "anchor_quote_unmatched": ""
+      },
+      {
+        "kind": "resolution",
+        "number": "2024-933",
+        "title": "Approves Special Event Application for Chicken Kidz Consignment Event",
+        "outcome": "adopted",
+        "votes": [
+          {
+            "member": "Joann Waski",
+            "vote": "yes"
+          },
+          {
+            "member": "Denise Merrifield",
+            "vote": "yes"
+          },
+          {
+            "member": "Bob Kern",
+            "vote": "yes"
+          },
+          {
+            "member": "Ken Rothwell",
+            "vote": "yes"
+          }
+        ],
+        "unanimous": true,
+        "confidence": "low",
+        "timestamp_s": null,
+        "anchor_quote_unmatched": ""
+      },
+      {
+        "kind": "resolution",
         "number": "2024-934",
-        "title": "Special Event Application: Race Track Not Street Fall Series",
+        "title": "Approves Special Event Application for Race Track Not Street Fall Series",
         "outcome": "adopted",
         "votes": [
           {
@@ -12228,8 +12305,36 @@
       },
       {
         "kind": "resolution",
+        "number": "2024-935",
+        "title": "Approves Special Event Application for Race Track Not Street Summer 2025 Series",
+        "outcome": "adopted",
+        "votes": [
+          {
+            "member": "Joann Waski",
+            "vote": "yes"
+          },
+          {
+            "member": "Denise Merrifield",
+            "vote": "yes"
+          },
+          {
+            "member": "Bob Kern",
+            "vote": "yes"
+          },
+          {
+            "member": "Ken Rothwell",
+            "vote": "yes"
+          }
+        ],
+        "unanimous": true,
+        "confidence": "low",
+        "timestamp_s": null,
+        "anchor_quote_unmatched": ""
+      },
+      {
+        "kind": "resolution",
         "number": "2024-936",
-        "title": "Adopts Local Law to Override Tax Levy Limit",
+        "title": "Adopts Local Law to Override the Tax Levy Limit",
         "outcome": "adopted",
         "votes": [
           {
@@ -12255,7 +12360,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 4719
+        "timestamp_s": 4689
       },
       {
         "kind": "resolution",
@@ -12286,12 +12391,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 4754
+        "timestamp_s": 4747
       },
       {
         "kind": "resolution",
         "number": "2024-938",
-        "title": "Local Law Amending Term Limits, Chapter 103",
+        "title": "Adopts Local Law Amending Chapter 103 Term Limits",
         "outcome": "adopted",
         "votes": [
           {
@@ -12322,7 +12427,7 @@
       {
         "kind": "resolution",
         "number": "2024-939",
-        "title": "Ratifies resignation of a traffic control specialist",
+        "title": "Ratifies and Accepts Resignation of a Traffic Control Specialist",
         "outcome": "adopted",
         "votes": [
           {
@@ -12348,12 +12453,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 4418
+        "timestamp_s": 4843
       },
       {
         "kind": "resolution",
         "number": "2024-940",
-        "title": "Accepts Donation from George and Janice Gabrielsen",
+        "title": "Accepts Donation from George and Janice Gabrielsen for Recreation Dept",
         "outcome": "adopted",
         "votes": [
           {
@@ -12384,7 +12489,7 @@
       {
         "kind": "resolution",
         "number": "2024-941",
-        "title": "Accepts Donation from Joseph C. Dibenedetto",
+        "title": "Accepts Donation from Joseph C. DiBenedetto for Recreation Dept",
         "outcome": "adopted",
         "votes": [
           {
@@ -12414,8 +12519,8 @@
       },
       {
         "kind": "motion",
-        "number": null,
-        "title": "Untables resolution 863",
+        "number": "2024-863",
+        "title": "Motion to Untable Resolution 863",
         "outcome": "adopted",
         "votes": [
           {
@@ -12444,41 +12549,10 @@
         "timestamp_s": 4927
       },
       {
-        "kind": "resolution",
-        "number": "2024-863",
-        "title": "Accepts Resignation and Appoints Member to Riverhead IDA",
-        "outcome": "adopted",
-        "votes": [
-          {
-            "member": "Joann Waski",
-            "vote": "yes"
-          },
-          {
-            "member": "Denise Merrifield",
-            "vote": "yes"
-          },
-          {
-            "member": "Bob Kern",
-            "vote": "yes"
-          },
-          {
-            "member": "Ken Rothwell",
-            "vote": "yes"
-          },
-          {
-            "member": "Tim Hubbard",
-            "vote": "yes"
-          }
-        ],
-        "unanimous": true,
-        "confidence": "high",
-        "timestamp_s": 4946
-      },
-      {
-        "kind": "resolution",
+        "kind": "motion",
         "number": "2024-880",
-        "title": "Agreement with HonkMobile USA Ltd.",
-        "outcome": "defeated",
+        "title": "Motion to Untable Resolution 880",
+        "outcome": "adopted",
         "votes": [
           {
             "member": "Joann Waski",
@@ -12502,8 +12576,8 @@
           }
         ],
         "unanimous": false,
-        "confidence": "high",
-        "timestamp_s": 5023
+        "confidence": "low",
+        "timestamp_s": 5001
       },
       {
         "kind": "resolution",
@@ -12534,7 +12608,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 5082
+        "timestamp_s": 5078
       },
       {
         "kind": "resolution",
@@ -12570,7 +12644,7 @@
       {
         "kind": "resolution",
         "number": "2024-944",
-        "title": "Reappoints Brian Mills to Board of Assessment Review",
+        "title": "Reappoints Brian Mills to the Board of Assessment Review",
         "outcome": "adopted",
         "votes": [
           {
@@ -12601,7 +12675,7 @@
       {
         "kind": "resolution",
         "number": "2024-945",
-        "title": "Ratifies Appointment of GIS Technician III",
+        "title": "Ratifies Appointment of a Geographic Information Systems Technician III",
         "outcome": "adopted",
         "votes": [
           {
@@ -12626,13 +12700,13 @@
           }
         ],
         "unanimous": true,
-        "confidence": "high",
+        "confidence": "low",
         "timestamp_s": 5163
       },
       {
         "kind": "motion",
         "number": null,
-        "title": "Take DMS Apex Holdings addendum resolution off the floor",
+        "title": "Motion to Take DMS Apex Holdings Addendum Off the Floor",
         "outcome": "adopted",
         "votes": [
           {
@@ -12663,7 +12737,7 @@
       {
         "kind": "resolution",
         "number": null,
-        "title": "Addendum to License Agreement with DMS Apex Holdings LLC",
+        "title": "Authorizes Addendum to License Agreement with DMS Apex Holdings LLC",
         "outcome": "adopted",
         "votes": [
           {
@@ -12694,15 +12768,11 @@
       {
         "kind": "motion",
         "number": null,
-        "title": "Close CDA meeting and reopen Town Board meeting",
+        "title": "Motion to Close CDA Meeting and Reopen Town Board Meeting",
         "outcome": "adopted",
         "votes": [
           {
             "member": "Joann Waski",
-            "vote": "yes"
-          },
-          {
-            "member": "Denise Merrifield",
             "vote": "yes"
           }
         ],

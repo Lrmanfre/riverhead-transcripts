@@ -23882,13 +23882,13 @@
     "truncated": false,
     "model": "claude-sonnet-5",
     "prompt_version": "1",
-    "generated_at": "2026-08-25T20:51:00+00:00",
+    "generated_at": "2026-08-26T02:06:14+00:00",
     "grounded_in": "Minutes",
     "items": [
       {
         "kind": "hearing_action",
         "number": null,
-        "title": "Amendment Chapter 301, Art.XLV, drive-through queuing",
+        "title": "Amendment Chapter 301, Art.XLV - drive-through queuing",
         "outcome": "held",
         "votes": [],
         "unanimous": false,
@@ -23898,7 +23898,7 @@
       {
         "kind": "hearing_action",
         "number": null,
-        "title": "Moratorium on Cannabis Establishments (Chapter 304)",
+        "title": "Moratorium on Cannabis Establishments",
         "outcome": "held",
         "votes": [],
         "unanimous": false,
@@ -23908,7 +23908,7 @@
       {
         "kind": "hearing_action",
         "number": null,
-        "title": "Amendment Chapter 301, Business Center zoning district",
+        "title": "Amendment Chapter 301, Art.XVIII, Business Center",
         "outcome": "held",
         "votes": [],
         "unanimous": false,
@@ -23938,18 +23938,18 @@
             "vote": "yes"
           },
           {
-            "member": "Halpin",
+            "member": "Tim Hubbard",
             "vote": "yes"
           }
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 10819
+        "timestamp_s": 10810
       },
       {
         "kind": "resolution",
         "number": "2025-700",
-        "title": "Ratifies Authorization of Police Employee to Attend DRE Interview",
+        "title": "Ratifies Authorization of Police Employee to Attend Governors Traffic Safety DRE Interview",
         "outcome": "adopted",
         "votes": [
           {
@@ -23969,18 +23969,18 @@
             "vote": "yes"
           },
           {
-            "member": "Halpin",
+            "member": "Tim Hubbard",
             "vote": "yes"
           }
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 10866
+        "timestamp_s": 10857
       },
       {
         "kind": "resolution",
         "number": "2025-701",
-        "title": "Approves Attendance of Police Employee at DCJS Symposium",
+        "title": "Approves Attendance of Police Employee at DCJS Public Safety Symposium",
         "outcome": "adopted",
         "votes": [
           {
@@ -24000,13 +24000,13 @@
             "vote": "yes"
           },
           {
-            "member": "Halpin",
+            "member": "Tim Hubbard",
             "vote": "yes"
           }
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 10892
+        "timestamp_s": 10881
       },
       {
         "kind": "resolution",
@@ -24031,7 +24031,7 @@
             "vote": "yes"
           },
           {
-            "member": "Halpin",
+            "member": "Tim Hubbard",
             "vote": "yes"
           }
         ],
@@ -24062,7 +24062,7 @@
             "vote": "yes"
           },
           {
-            "member": "Halpin",
+            "member": "Tim Hubbard",
             "vote": "yes"
           }
         ],
@@ -24073,7 +24073,7 @@
       {
         "kind": "resolution",
         "number": "2025-704",
-        "title": "Accepts Donation from Joseph C. DiBenedetto for Recreation Dept",
+        "title": "Accepts Donation from Joseph C. DiBenedetto for Recreation Department",
         "outcome": "adopted",
         "votes": [
           {
@@ -24093,12 +24093,12 @@
             "vote": "yes"
           },
           {
-            "member": "Halpin",
+            "member": "Tim Hubbard",
             "vote": "yes"
           }
         ],
         "unanimous": true,
-        "confidence": "high",
+        "confidence": "low",
         "timestamp_s": 10967
       },
       {
@@ -24124,7 +24124,7 @@
             "vote": "yes"
           },
           {
-            "member": "Halpin",
+            "member": "Tim Hubbard",
             "vote": "yes"
           }
         ],
@@ -24155,7 +24155,7 @@
             "vote": "yes"
           },
           {
-            "member": "Halpin",
+            "member": "Tim Hubbard",
             "vote": "yes"
           }
         ],
@@ -24186,7 +24186,7 @@
             "vote": "yes"
           },
           {
-            "member": "Halpin",
+            "member": "Tim Hubbard",
             "vote": "yes"
           }
         ],
@@ -24217,7 +24217,7 @@
             "vote": "yes"
           },
           {
-            "member": "Halpin",
+            "member": "Tim Hubbard",
             "vote": "yes"
           }
         ],
@@ -24248,7 +24248,7 @@
             "vote": "yes"
           },
           {
-            "member": "Halpin",
+            "member": "Tim Hubbard",
             "vote": "yes"
           }
         ],
@@ -24279,7 +24279,7 @@
             "vote": "yes"
           },
           {
-            "member": "Halpin",
+            "member": "Tim Hubbard",
             "vote": "yes"
           }
         ],
@@ -24310,13 +24310,13 @@
             "vote": "yes"
           },
           {
-            "member": "Halpin",
+            "member": "Tim Hubbard",
             "vote": "yes"
           }
         ],
         "unanimous": true,
-        "confidence": "high",
-        "timestamp_s": null
+        "confidence": "low",
+        "timestamp_s": 11139
       },
       {
         "kind": "resolution",
@@ -24341,7 +24341,7 @@
             "vote": "yes"
           },
           {
-            "member": "Halpin",
+            "member": "Tim Hubbard",
             "vote": "yes"
           }
         ],
@@ -24372,7 +24372,7 @@
             "vote": "yes"
           },
           {
-            "member": "Halpin",
+            "member": "Tim Hubbard",
             "vote": "yes"
           }
         ],
@@ -24403,7 +24403,7 @@
             "vote": "yes"
           },
           {
-            "member": "Halpin",
+            "member": "Tim Hubbard",
             "vote": "yes"
           }
         ],
@@ -24434,7 +24434,7 @@
             "vote": "yes"
           },
           {
-            "member": "Halpin",
+            "member": "Tim Hubbard",
             "vote": "yes"
           }
         ],
@@ -24445,7 +24445,7 @@
       {
         "kind": "resolution",
         "number": "2025-716",
-        "title": "Accepts Resignation of Chief Building Inspector",
+        "title": "Accepts the Resignation of the Chief Building Inspector",
         "outcome": "adopted",
         "votes": [
           {
@@ -24465,7 +24465,7 @@
             "vote": "yes"
           },
           {
-            "member": "Halpin",
+            "member": "Tim Hubbard",
             "vote": "yes"
           }
         ],
@@ -24476,7 +24476,7 @@
       {
         "kind": "resolution",
         "number": "2025-717",
-        "title": "Ratifies Resignation of Public Safety Dispatcher I",
+        "title": "Ratifies the Resignation of a Public Safety Dispatcher I",
         "outcome": "adopted",
         "votes": [
           {
@@ -24496,7 +24496,7 @@
             "vote": "yes"
           },
           {
-            "member": "Halpin",
+            "member": "Tim Hubbard",
             "vote": "yes"
           }
         ],
@@ -24507,7 +24507,7 @@
       {
         "kind": "resolution",
         "number": "2025-718",
-        "title": "Accepts Resignation of Maintenance Mechanic II",
+        "title": "Accepts the Resignation of a Maintenance Mechanic II",
         "outcome": "adopted",
         "votes": [
           {
@@ -24527,7 +24527,7 @@
             "vote": "yes"
           },
           {
-            "member": "Halpin",
+            "member": "Tim Hubbard",
             "vote": "yes"
           }
         ],
@@ -24558,18 +24558,18 @@
             "vote": "yes"
           },
           {
-            "member": "Halpin",
+            "member": "Tim Hubbard",
             "vote": "yes"
           }
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 11354
+        "timestamp_s": 11352
       },
       {
         "kind": "resolution",
         "number": "2025-720",
-        "title": "Ratifies Authorization to Execute Stipulation with CSEA Local 1000",
+        "title": "Ratifies Authorization for Supervisor to Execute CSEA Stipulation",
         "outcome": "adopted",
         "votes": [
           {
@@ -24589,7 +24589,7 @@
             "vote": "yes"
           },
           {
-            "member": "Halpin",
+            "member": "Tim Hubbard",
             "vote": "yes"
           }
         ],
@@ -24600,7 +24600,7 @@
       {
         "kind": "resolution",
         "number": "2025-721",
-        "title": "Authorizes License Agreement with Riverhead Volunteer Ambulance Corps",
+        "title": "Authorizes License Agreement with Riverhead Volunteer Ambulance Corps for EMT Course",
         "outcome": "adopted",
         "votes": [
           {
@@ -24620,18 +24620,18 @@
             "vote": "yes"
           },
           {
-            "member": "Halpin",
+            "member": "Tim Hubbard",
             "vote": "yes"
           }
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 11404
+        "timestamp_s": 11399
       },
       {
         "kind": "resolution",
         "number": "2025-722",
-        "title": "Authorizes Agreement with Riverhead Youth Sports for Referee Services",
+        "title": "Authorizes Agreement with Riverhead Youth Sports for PAL Football Referees",
         "outcome": "adopted",
         "votes": [
           {
@@ -24651,18 +24651,18 @@
             "vote": "yes"
           },
           {
-            "member": "Halpin",
+            "member": "Tim Hubbard",
             "vote": "yes"
           }
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 11427
+        "timestamp_s": 11422
       },
       {
         "kind": "resolution",
         "number": "2025-723",
-        "title": "Authorizes Agreement with Environmental Professional Jeffrey Seaman",
+        "title": "Authorizes Town Attorney to Execute Agreement with Jeffrey Seaman",
         "outcome": "adopted",
         "votes": [
           {
@@ -24682,7 +24682,7 @@
             "vote": "yes"
           },
           {
-            "member": "Halpin",
+            "member": "Tim Hubbard",
             "vote": "yes"
           }
         ],
@@ -24713,7 +24713,7 @@
             "vote": "yes"
           },
           {
-            "member": "Halpin",
+            "member": "Tim Hubbard",
             "vote": "yes"
           }
         ],
@@ -24724,7 +24724,7 @@
       {
         "kind": "resolution",
         "number": "2025-725",
-        "title": "Authorizes Nunc Pro Tunc Action Against 1099 Royal, LLC",
+        "title": "Authorizes Nunc Pro Tunc Town Attorney to Commence Action Against 1099 Royal, LLC",
         "outcome": "adopted",
         "votes": [
           {
@@ -24744,7 +24744,7 @@
             "vote": "yes"
           },
           {
-            "member": "Halpin",
+            "member": "Tim Hubbard",
             "vote": "yes"
           }
         ],
@@ -24775,7 +24775,7 @@
             "vote": "yes"
           },
           {
-            "member": "Halpin",
+            "member": "Tim Hubbard",
             "vote": "yes"
           }
         ],
@@ -24786,7 +24786,7 @@
       {
         "kind": "resolution",
         "number": "2025-727",
-        "title": "Publish Notice to Amend Chapter 289 Article IV Parking",
+        "title": "Publish Notice to Amend Chapter 289 Article IV Parking, Standing and Stopping",
         "outcome": "adopted",
         "votes": [
           {
@@ -24806,13 +24806,13 @@
             "vote": "yes"
           },
           {
-            "member": "Halpin",
+            "member": "Tim Hubbard",
             "vote": "yes"
           }
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 11540
+        "timestamp_s": 11531
       },
       {
         "kind": "resolution",
@@ -24837,13 +24837,13 @@
             "vote": "yes"
           },
           {
-            "member": "Halpin",
+            "member": "Tim Hubbard",
             "vote": "yes"
           }
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 11569
+        "timestamp_s": 11560
       },
       {
         "kind": "resolution",
@@ -24868,23 +24868,13 @@
             "vote": "yes"
           },
           {
-            "member": "Halpin",
+            "member": "Tim Hubbard",
             "vote": "yes"
           }
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 11593
-      },
-      {
-        "kind": "hearing_action",
-        "number": null,
-        "title": "Amendment Chapter 301, Art.XXII, Shopping Center",
-        "outcome": "held",
-        "votes": [],
-        "unanimous": false,
-        "confidence": "low",
-        "timestamp_s": 4738
+        "timestamp_s": 11590
       },
       {
         "kind": "hearing_action",
@@ -24894,17 +24884,17 @@
         "votes": [],
         "unanimous": false,
         "confidence": "low",
-        "timestamp_s": null
+        "timestamp_s": 10343
       },
       {
         "kind": "hearing_action",
         "number": null,
-        "title": "Monroe Balancing Test - Suffolk County Water Ext",
+        "title": "Monroe Balancing Test - Suffolk County Water Extension",
         "outcome": "held",
         "votes": [],
         "unanimous": false,
         "confidence": "low",
-        "timestamp_s": 4411
+        "timestamp_s": 10332
       },
       {
         "kind": "hearing_action",
@@ -24914,7 +24904,7 @@
         "votes": [],
         "unanimous": false,
         "confidence": "low",
-        "timestamp_s": 4515
+        "timestamp_s": 10458
       },
       {
         "kind": "hearing_action",
@@ -24924,7 +24914,7 @@
         "votes": [],
         "unanimous": false,
         "confidence": "low",
-        "timestamp_s": 4515
+        "timestamp_s": 10532
       },
       {
         "kind": "hearing_action",
@@ -24934,7 +24924,7 @@
         "votes": [],
         "unanimous": false,
         "confidence": "low",
-        "timestamp_s": 4756
+        "timestamp_s": 10674
       },
       {
         "kind": "resolution",
@@ -24959,13 +24949,13 @@
             "vote": "yes"
           },
           {
-            "member": "Halpin",
+            "member": "Tim Hubbard",
             "vote": "yes"
           }
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 11617
+        "timestamp_s": 11616
       },
       {
         "kind": "resolution",
@@ -24990,7 +24980,7 @@
             "vote": "yes"
           },
           {
-            "member": "Halpin",
+            "member": "Tim Hubbard",
             "vote": "yes"
           }
         ],
@@ -25001,7 +24991,7 @@
       {
         "kind": "resolution",
         "number": "2025-732",
-        "title": "Notice to Bidders for Large Meter Replacement, Water District",
+        "title": "Notice to Bidders for Replacement of Large Meters, Riverhead Water District",
         "outcome": "adopted",
         "votes": [
           {
@@ -25021,7 +25011,7 @@
             "vote": "yes"
           },
           {
-            "member": "Halpin",
+            "member": "Tim Hubbard",
             "vote": "yes"
           }
         ],
@@ -25032,7 +25022,7 @@
       {
         "kind": "resolution",
         "number": "2025-733",
-        "title": "Notice to Bidders for Riverhead Landfill Water Main Extension",
+        "title": "Notice to Bidders for CVE-US NY Riverhead Landfill Water Main Extension",
         "outcome": "adopted",
         "votes": [
           {
@@ -25052,18 +25042,18 @@
             "vote": "yes"
           },
           {
-            "member": "Halpin",
+            "member": "Tim Hubbard",
             "vote": "yes"
           }
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 11670
+        "timestamp_s": 11669
       },
       {
         "kind": "resolution",
         "number": "2025-734",
-        "title": "Notice to Bidders for Disposal of Construction and Demolition Materials",
+        "title": "Notice to Bidders for Disposal of Town-Generated Construction and Demolition Materials",
         "outcome": "adopted",
         "votes": [
           {
@@ -25083,7 +25073,7 @@
             "vote": "yes"
           },
           {
-            "member": "Halpin",
+            "member": "Tim Hubbard",
             "vote": "yes"
           }
         ],
@@ -25114,7 +25104,7 @@
             "vote": "yes"
           },
           {
-            "member": "Halpin",
+            "member": "Tim Hubbard",
             "vote": "yes"
           }
         ],
@@ -25145,7 +25135,7 @@
             "vote": "yes"
           },
           {
-            "member": "Halpin",
+            "member": "Tim Hubbard",
             "vote": "yes"
           }
         ],
@@ -25176,7 +25166,7 @@
             "vote": "yes"
           },
           {
-            "member": "Halpin",
+            "member": "Tim Hubbard",
             "vote": "yes"
           }
         ],
@@ -25207,7 +25197,7 @@
             "vote": "yes"
           },
           {
-            "member": "Halpin",
+            "member": "Tim Hubbard",
             "vote": "yes"
           }
         ],
@@ -25238,7 +25228,7 @@
             "vote": "yes"
           },
           {
-            "member": "Halpin",
+            "member": "Tim Hubbard",
             "vote": "yes"
           }
         ],
@@ -25249,7 +25239,7 @@
       {
         "kind": "resolution",
         "number": "2025-743",
-        "title": "Ratifies Extension of Bid for Large Meter Replacement",
+        "title": "Ratifies Extension of Bid for Replacement of Large Meters",
         "outcome": "adopted",
         "votes": [
           {
@@ -25269,7 +25259,7 @@
             "vote": "yes"
           },
           {
-            "member": "Halpin",
+            "member": "Tim Hubbard",
             "vote": "yes"
           }
         ],
@@ -25280,7 +25270,7 @@
       {
         "kind": "resolution",
         "number": "2025-744",
-        "title": "Ratifies Alcohol Service Vendors for Polish Hall Festival 2025",
+        "title": "Ratifies Designation of Alcohol Service Vendors for Polish Hall Festival 2025",
         "outcome": "adopted",
         "votes": [
           {
@@ -25300,7 +25290,7 @@
             "vote": "yes"
           },
           {
-            "member": "Halpin",
+            "member": "Tim Hubbard",
             "vote": "yes"
           }
         ],
@@ -25331,18 +25321,18 @@
             "vote": "yes"
           },
           {
-            "member": "Halpin",
+            "member": "Tim Hubbard",
             "vote": "yes"
           }
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 11969
+        "timestamp_s": 11970
       },
       {
         "kind": "resolution",
         "number": "2025-748",
-        "title": "Authorizes Stipulation with Riverhead Town Superior Officers Association",
+        "title": "Authorizes Supervisor to Execute Stipulation with Riverhead Town Superior Officers Association",
         "outcome": "adopted",
         "votes": [
           {
@@ -25362,7 +25352,7 @@
             "vote": "yes"
           },
           {
-            "member": "Halpin",
+            "member": "Tim Hubbard",
             "vote": "yes"
           }
         ],
@@ -25383,7 +25373,7 @@
       {
         "kind": "motion",
         "number": null,
-        "title": "Close CDA Meeting",
+        "title": "Close CDA meeting",
         "outcome": "adopted",
         "votes": [
           {
@@ -25403,13 +25393,13 @@
             "vote": "yes"
           },
           {
-            "member": "Halpin",
+            "member": "Tim Hubbard",
             "vote": "yes"
           }
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 13704
+        "timestamp_s": 11795
       }
     ]
   }

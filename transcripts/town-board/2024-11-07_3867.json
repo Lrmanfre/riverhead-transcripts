@@ -21627,13 +21627,13 @@
     "truncated": false,
     "model": "claude-sonnet-5",
     "prompt_version": "1",
-    "generated_at": "2026-08-25T21:18:49+00:00",
+    "generated_at": "2026-08-26T01:29:41+00:00",
     "grounded_in": "Minutes",
     "items": [
       {
         "kind": "resolution",
         "number": "2024-904",
-        "title": "Promotes Police Officer Karli Conyers to Sergeant",
+        "title": "Promotes Police Officer Carly Conyers to Sergeant",
         "outcome": "adopted",
         "votes": [
           {
@@ -21645,31 +21645,27 @@
             "vote": "yes"
           },
           {
-            "member": "Bob Kern",
-            "vote": "yes"
-          },
-          {
             "member": "Ken Rothwell",
             "vote": "yes"
           },
           {
-            "member": "Halpin",
+            "member": "Tim Hubbard",
             "vote": "yes"
           }
         ],
         "unanimous": true,
-        "confidence": "low",
-        "timestamp_s": 518
+        "confidence": "high",
+        "timestamp_s": 510
       },
       {
         "kind": "hearing_action",
         "number": null,
-        "title": "Public Hearing - Elite Towers WRFD Monroe Balancing Test",
+        "title": "Public Hearing - Elite Towers/WRFD Monroe Balancing Test",
         "outcome": "held",
         "votes": [],
         "unanimous": false,
         "confidence": "low",
-        "timestamp_s": null
+        "timestamp_s": 7044
       },
       {
         "kind": "hearing_action",
@@ -21679,7 +21675,7 @@
         "votes": [],
         "unanimous": false,
         "confidence": "low",
-        "timestamp_s": null
+        "timestamp_s": 11173
       },
       {
         "kind": "hearing_action",
@@ -21689,7 +21685,7 @@
         "votes": [],
         "unanimous": false,
         "confidence": "low",
-        "timestamp_s": null
+        "timestamp_s": 11386
       },
       {
         "kind": "hearing_action",
@@ -21699,7 +21695,7 @@
         "votes": [],
         "unanimous": false,
         "confidence": "low",
-        "timestamp_s": null
+        "timestamp_s": 11515
       },
       {
         "kind": "hearing_action",
@@ -21709,12 +21705,12 @@
         "votes": [],
         "unanimous": false,
         "confidence": "low",
-        "timestamp_s": null
+        "timestamp_s": 12128
       },
       {
         "kind": "resolution",
         "number": "2024-882",
-        "title": "Notice to amend Transfer of Development Rights Map",
+        "title": "Publish notice - amend TDR map, Article XLII",
         "outcome": "adopted",
         "votes": [
           {
@@ -21734,18 +21730,18 @@
             "vote": "yes"
           },
           {
-            "member": "Halpin",
+            "member": "Tim Hubbard",
             "vote": "yes"
           }
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": null
+        "timestamp_s": 12660
       },
       {
         "kind": "resolution",
         "number": "2024-883",
-        "title": "Notice to amend zoning map to Calverton Industrial (CI) District",
+        "title": "Publish notice - amend zoning map to Calverton Industrial (CI) district",
         "outcome": "adopted",
         "votes": [
           {
@@ -21776,7 +21772,7 @@
       {
         "kind": "resolution",
         "number": "2024-884",
-        "title": "Notice to amend zoning map to Hamlet Center (HC) District",
+        "title": "Publish notice - amend zoning map to Hamlet Center (HC) district",
         "outcome": "adopted",
         "votes": [
           {
@@ -21807,7 +21803,7 @@
       {
         "kind": "resolution",
         "number": "2024-885",
-        "title": "Notice to amend zoning map to Open Space Conservation (OSC) District",
+        "title": "Publish notice - amend zoning map to Open Space Conservation (OSC) district",
         "outcome": "adopted",
         "votes": [
           {
@@ -21838,7 +21834,7 @@
       {
         "kind": "resolution",
         "number": "2024-886",
-        "title": "Notice to amend zoning map to Residence B-40 (RB40) District",
+        "title": "Publish notice - amend zoning map to Residence B-40 (RB40) district",
         "outcome": "adopted",
         "votes": [
           {
@@ -21852,24 +21848,16 @@
           {
             "member": "Bob Kern",
             "vote": "yes"
-          },
-          {
-            "member": "Ken Rothwell",
-            "vote": "yes"
-          },
-          {
-            "member": "Tim Hubbard",
-            "vote": "yes"
           }
         ],
         "unanimous": true,
-        "confidence": "high",
+        "confidence": "low",
         "timestamp_s": 12803
       },
       {
         "kind": "resolution",
         "number": "2024-887",
-        "title": "Notice to amend zoning map to Light Industrial (LI) District",
+        "title": "Publish notice - amend zoning map to Light Industrial (LI) district",
         "outcome": "adopted",
         "votes": [
           {
@@ -21900,7 +21888,7 @@
       {
         "kind": "resolution",
         "number": "2024-888",
-        "title": "Notice to amend Chapter 301 Article II Classes of Districts",
+        "title": "Publish notice - amend Article II Classes of Districts §301-5A",
         "outcome": "adopted",
         "votes": [
           {
@@ -21929,9 +21917,40 @@
         "timestamp_s": 12883
       },
       {
+        "kind": "motion",
+        "number": null,
+        "title": "Amendment to add recycling/upcycling SIC code to Attachment 4B use table",
+        "outcome": "defeated",
+        "votes": [
+          {
+            "member": "Joann Waski",
+            "vote": "no"
+          },
+          {
+            "member": "Denise Merrifield",
+            "vote": "no"
+          },
+          {
+            "member": "Bob Kern",
+            "vote": "yes"
+          },
+          {
+            "member": "Ken Rothwell",
+            "vote": "yes"
+          },
+          {
+            "member": "Tim Hubbard",
+            "vote": "no"
+          }
+        ],
+        "unanimous": false,
+        "confidence": "high",
+        "timestamp_s": 13163
+      },
+      {
         "kind": "resolution",
         "number": "2024-889",
-        "title": "Notice to amend Chapter 301 Attachment 4B Industrial Districts Table of Use Regulations",
+        "title": "Publish notice - Attachment 4B Industrial Districts Table of Use Regulations",
         "outcome": "adopted",
         "votes": [
           {
@@ -21957,12 +21976,43 @@
         ],
         "unanimous": false,
         "confidence": "high",
-        "timestamp_s": 13210
+        "timestamp_s": 13211
+      },
+      {
+        "kind": "motion",
+        "number": null,
+        "title": "Amend resolution 890 height from 35 to 30 feet in CI district",
+        "outcome": "defeated",
+        "votes": [
+          {
+            "member": "Joann Waski",
+            "vote": "no"
+          },
+          {
+            "member": "Denise Merrifield",
+            "vote": "no"
+          },
+          {
+            "member": "Bob Kern",
+            "vote": "yes"
+          },
+          {
+            "member": "Ken Rothwell",
+            "vote": "yes"
+          },
+          {
+            "member": "Tim Hubbard",
+            "vote": "no"
+          }
+        ],
+        "unanimous": false,
+        "confidence": "high",
+        "timestamp_s": 13766
       },
       {
         "kind": "resolution",
         "number": "2024-890",
-        "title": "Notice to amend Ch. 301 LI District Schedule of Dimensional Regulations",
+        "title": "Amend Ch. 301 Attachment 4 Light Industrial Dimensional Regulations",
         "outcome": "adopted",
         "votes": [
           {
@@ -21988,12 +22038,12 @@
         ],
         "unanimous": false,
         "confidence": "high",
-        "timestamp_s": null
+        "timestamp_s": 13779
       },
       {
         "kind": "resolution",
         "number": "2024-891",
-        "title": "Notice to amend Ch. 301 Commercial Districts Table of Dimensional Regulations",
+        "title": "Amend Ch. 301 Attachment 3 Commercial Districts Dimensional Regulations",
         "outcome": "adopted",
         "votes": [
           {
@@ -22019,66 +22069,32 @@
         ],
         "unanimous": false,
         "confidence": "high",
-        "timestamp_s": 13837
+        "timestamp_s": 13824
       },
       {
         "kind": "resolution",
         "number": "2024-892",
-        "title": "Notice to remove Industrial B Zoning District",
+        "title": "Remove Industrial B Zoning Use District, Reserve Article 24",
         "outcome": "adopted",
-        "votes": [
-          {
-            "member": "Joann Waski",
-            "vote": "yes"
-          },
-          {
-            "member": "Denise Merrifield",
-            "vote": "yes"
-          },
-          {
-            "member": "Bob Kern",
-            "vote": "yes"
-          },
-          {
-            "member": "Ken Rothwell",
-            "vote": "yes"
-          }
-        ],
-        "unanimous": true,
-        "confidence": "high",
-        "timestamp_s": null
+        "votes": [],
+        "unanimous": false,
+        "confidence": "low",
+        "timestamp_s": 13867
       },
       {
         "kind": "resolution",
         "number": "2024-893",
-        "title": "Notice to remove Industrial A Zoning District",
+        "title": "Remove Industrial A Zoning Use District, Reserve Article 23",
         "outcome": "adopted",
-        "votes": [
-          {
-            "member": "Joann Waski",
-            "vote": "yes"
-          },
-          {
-            "member": "Denise Merrifield",
-            "vote": "yes"
-          },
-          {
-            "member": "Bob Kern",
-            "vote": "yes"
-          },
-          {
-            "member": "Ken Rothwell",
-            "vote": "yes"
-          }
-        ],
-        "unanimous": true,
-        "confidence": "high",
-        "timestamp_s": null
+        "votes": [],
+        "unanimous": false,
+        "confidence": "low",
+        "timestamp_s": 13898
       },
       {
         "kind": "resolution",
         "number": "2024-894",
-        "title": "Notice to amend Ch. 301 Planned Industrial Park District permitted uses",
+        "title": "Amend Planned Industrial Park (PIP) District Permitted Uses",
         "outcome": "adopted",
         "votes": [
           {
@@ -22104,12 +22120,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 13935
+        "timestamp_s": 13927
       },
       {
         "kind": "resolution",
         "number": "2024-895",
-        "title": "Notice to amend Ch. 301 Light Industrial District",
+        "title": "Amend Light Industrial (LI) Zoning Use District",
         "outcome": "adopted",
         "votes": [
           {
@@ -22135,12 +22151,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 13971
+        "timestamp_s": 13966
       },
       {
         "kind": "resolution",
         "number": "2024-896",
-        "title": "Notice to amend Ch. 301 Industrial C District",
+        "title": "Amend Industrial C Zoning Use District",
         "outcome": "adopted",
         "votes": [
           {
@@ -22171,96 +22187,17 @@
       {
         "kind": "resolution",
         "number": "2024-897",
-        "title": "Notice to amend Transfer of Development Rights sections",
+        "title": "Amend Transfer of Development Rights §301-204 through 301-208",
         "outcome": "adopted",
-        "votes": [
-          {
-            "member": "Joann Waski",
-            "vote": "yes"
-          },
-          {
-            "member": "Denise Merrifield",
-            "vote": "yes"
-          },
-          {
-            "member": "Bob Kern",
-            "vote": "yes"
-          },
-          {
-            "member": "Ken Rothwell",
-            "vote": "yes"
-          }
-        ],
-        "unanimous": true,
-        "confidence": "high",
-        "timestamp_s": null
-      },
-      {
-        "kind": "motion",
-        "number": null,
-        "title": "Amendment to add recycling/upcycling SIC code to industrial use table",
-        "outcome": "defeated",
-        "votes": [
-          {
-            "member": "Joann Waski",
-            "vote": "no"
-          },
-          {
-            "member": "Denise Merrifield",
-            "vote": "no"
-          },
-          {
-            "member": "Bob Kern",
-            "vote": "yes"
-          },
-          {
-            "member": "Ken Rothwell",
-            "vote": "yes"
-          },
-          {
-            "member": "Tim Hubbard",
-            "vote": "no"
-          }
-        ],
+        "votes": [],
         "unanimous": false,
-        "confidence": "high",
-        "timestamp_s": 13189
-      },
-      {
-        "kind": "motion",
-        "number": null,
-        "title": "Amendment to change LI District dimensional height from 35 to 30 feet (CI district)",
-        "outcome": "amended",
-        "votes": [
-          {
-            "member": "Joann Waski",
-            "vote": "no"
-          },
-          {
-            "member": "Denise Merrifield",
-            "vote": "no"
-          },
-          {
-            "member": "Bob Kern",
-            "vote": "no"
-          },
-          {
-            "member": "Ken Rothwell",
-            "vote": "yes"
-          },
-          {
-            "member": "Tim Hubbard",
-            "vote": "no"
-          }
-        ],
-        "unanimous": false,
-        "confidence": "high",
-        "timestamp_s": 13766
+        "confidence": "low",
+        "timestamp_s": 14037
       },
       {
         "kind": "resolution",
         "number": "2024-898",
-        "title": "Notice to amend Ch. 301 definitions and word usage",
+        "title": "Amend Ch. 301 General Provisions - Definitions Word Usage",
         "outcome": "adopted",
         "votes": [
           {
@@ -22278,43 +22215,26 @@
           {
             "member": "Ken Rothwell",
             "vote": "yes"
-          },
-          {
-            "member": "Tim Hubbard",
-            "vote": "yes"
           }
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": null
+        "timestamp_s": 14067
       },
       {
         "kind": "resolution",
         "number": "2024-899",
-        "title": "Notice to consider local law amending Ch. 103 term limits",
+        "title": "Amend Ch. 103 Town Offices and Employees Term Limits",
         "outcome": "adopted",
-        "votes": [
-          {
-            "member": "Joann Waski",
-            "vote": "yes"
-          },
-          {
-            "member": "Denise Merrifield",
-            "vote": "yes"
-          },
-          {
-            "member": "Bob Kern",
-            "vote": "yes"
-          }
-        ],
-        "unanimous": true,
+        "votes": [],
+        "unanimous": false,
         "confidence": "low",
-        "timestamp_s": 13871
+        "timestamp_s": 13867
       },
       {
         "kind": "resolution",
-        "number": "2024-901",
-        "title": "Local law amending Ch. 237 permit procedures",
+        "number": null,
+        "title": "Amend Ch. 237 §4 Permit Procedures",
         "outcome": "adopted",
         "votes": [
           {
@@ -22345,7 +22265,7 @@
       {
         "kind": "resolution",
         "number": "2024-902",
-        "title": "Local law amending Ch. 231 fire prevention",
+        "title": "Adopt Local Law Amending Ch. 231 Fire Prevention",
         "outcome": "adopted",
         "votes": [
           {
@@ -22366,78 +22286,23 @@
           }
         ],
         "unanimous": true,
-        "confidence": "low",
-        "timestamp_s": 14159
+        "confidence": "high",
+        "timestamp_s": 14155
       },
       {
         "kind": "resolution",
         "number": "2024-903",
-        "title": "Awards bid for class A biosolids improvements",
+        "title": "Awards Bid for Class A Biosolids Improvements",
         "outcome": "adopted",
-        "votes": [
-          {
-            "member": "Joann Waski",
-            "vote": "yes"
-          },
-          {
-            "member": "Denise Merrifield",
-            "vote": "yes"
-          },
-          {
-            "member": "Bob Kern",
-            "vote": "yes"
-          }
-        ],
-        "unanimous": true,
+        "votes": [],
+        "unanimous": false,
         "confidence": "low",
-        "timestamp_s": 14159
+        "timestamp_s": 14170
       },
       {
         "kind": "resolution",
         "number": "2024-905",
-        "title": "Appoints maintenance mechanic",
-        "outcome": "adopted",
-        "votes": [
-          {
-            "member": "Joann Waski",
-            "vote": "yes"
-          },
-          {
-            "member": "Denise Merrifield",
-            "vote": "yes"
-          },
-          {
-            "member": "Bob Kern",
-            "vote": "yes"
-          }
-        ],
-        "unanimous": true,
-        "confidence": "low",
-        "timestamp_s": 14189
-      },
-      {
-        "kind": "resolution",
-        "number": "2024-906",
-        "title": "Appoints part-time traffic control specialists",
-        "outcome": "adopted",
-        "votes": [
-          {
-            "member": "Joann Waski",
-            "vote": "yes"
-          },
-          {
-            "member": "Denise Merrifield",
-            "vote": "yes"
-          }
-        ],
-        "unanimous": true,
-        "confidence": "low",
-        "timestamp_s": 14189
-      },
-      {
-        "kind": "resolution",
-        "number": "2024-907",
-        "title": "Appoints code enforcement officers",
+        "title": "Appoints Maintenance Mechanic",
         "outcome": "adopted",
         "votes": [],
         "unanimous": false,
@@ -22446,8 +22311,28 @@
       },
       {
         "kind": "resolution",
+        "number": "2024-906",
+        "title": "Appoints Part-Time Traffic Control Specialists",
+        "outcome": "adopted",
+        "votes": [],
+        "unanimous": false,
+        "confidence": "low",
+        "timestamp_s": 14197
+      },
+      {
+        "kind": "resolution",
+        "number": "2024-907",
+        "title": "Appoints Code Enforcement Officers",
+        "outcome": "adopted",
+        "votes": [],
+        "unanimous": false,
+        "confidence": "low",
+        "timestamp_s": 14211
+      },
+      {
+        "kind": "resolution",
         "number": "2024-909",
-        "title": "Assesses cost for remedial actions at 271 Hubbard Avenue",
+        "title": "Assesses Cost of Remedial Actions - 271 Hubbard Avenue",
         "outcome": "adopted",
         "votes": [
           {
@@ -22473,12 +22358,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 14280
+        "timestamp_s": 14277
       },
       {
         "kind": "resolution",
         "number": "2024-910",
-        "title": "Ratifies license agreement with Ademco for runway use at EPCAL",
+        "title": "Ratifies License Agreement with Ademco for Runway at EPCAL",
         "outcome": "adopted",
         "votes": [
           {
@@ -22504,12 +22389,43 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 14280
+        "timestamp_s": 14296
+      },
+      {
+        "kind": "resolution",
+        "number": "2024-911",
+        "title": "Authorizes Submission of CDBG Grant Application for Program Year 2025",
+        "outcome": "adopted",
+        "votes": [
+          {
+            "member": "Joann Waski",
+            "vote": "yes"
+          },
+          {
+            "member": "Denise Merrifield",
+            "vote": "yes"
+          },
+          {
+            "member": "Bob Kern",
+            "vote": "yes"
+          },
+          {
+            "member": "Ken Rothwell",
+            "vote": "yes"
+          },
+          {
+            "member": "Tim Hubbard",
+            "vote": "yes"
+          }
+        ],
+        "unanimous": true,
+        "confidence": "high",
+        "timestamp_s": 14277
       },
       {
         "kind": "resolution",
         "number": "2024-912",
-        "title": "Authorizes CDBG grant application for program year 2025",
+        "title": "Authorizes Police Chief to Execute NYS Title Settlement with State Farm",
         "outcome": "adopted",
         "votes": [
           {
@@ -22535,43 +22451,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 14280
-      },
-      {
-        "kind": "resolution",
-        "number": "2024-912b",
-        "title": "Authorizes Police Chief to execute NYS title settlement with State Farm",
-        "outcome": "adopted",
-        "votes": [
-          {
-            "member": "Joann Waski",
-            "vote": "yes"
-          },
-          {
-            "member": "Denise Merrifield",
-            "vote": "yes"
-          },
-          {
-            "member": "Bob Kern",
-            "vote": "yes"
-          },
-          {
-            "member": "Ken Rothwell",
-            "vote": "yes"
-          },
-          {
-            "member": "Tim Hubbard",
-            "vote": "yes"
-          }
-        ],
-        "unanimous": true,
-        "confidence": "high",
-        "timestamp_s": 14280
+        "timestamp_s": 14296
       },
       {
         "kind": "resolution",
         "number": "2024-913",
-        "title": "Authorizes HUD home funds application to Suffolk County",
+        "title": "Authorizes Application to Suffolk County for HUD Home Funds",
         "outcome": "adopted",
         "votes": [
           {
@@ -22597,12 +22482,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 14280
+        "timestamp_s": 14296
       },
       {
         "kind": "resolution",
         "number": "2024-914",
-        "title": "Authorizes removal of fixed assets",
+        "title": "Authorizes Removal of Fixed Assets",
         "outcome": "adopted",
         "votes": [
           {
@@ -22628,12 +22513,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 14417
+        "timestamp_s": 14393
       },
       {
         "kind": "resolution",
         "number": "2024-917",
-        "title": "Provisionally appoints senior accountant",
+        "title": "Provisionally Appoints Senior Accountant",
         "outcome": "adopted",
         "votes": [
           {
@@ -22659,12 +22544,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 14439
+        "timestamp_s": 14426
       },
       {
         "kind": "resolution",
         "number": "2024-918",
-        "title": "Amends preliminary 2025 budget reducing town board salary expenditures",
+        "title": "Amend Preliminary Budget 2025 - Reduce Supervisor and Town Board Salary",
         "outcome": "adopted",
         "votes": [
           {
@@ -22690,12 +22575,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 14471
+        "timestamp_s": 14465
       },
       {
         "kind": "motion",
         "number": null,
-        "title": "Motion to close the town board meeting",
+        "title": "Motion to close the Town Board meeting",
         "outcome": "adopted",
         "votes": [],
         "unanimous": false,

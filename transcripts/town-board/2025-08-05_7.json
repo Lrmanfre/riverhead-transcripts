@@ -18196,23 +18196,23 @@
     "truncated": false,
     "model": "claude-sonnet-5",
     "prompt_version": "1",
-    "generated_at": "2026-08-25T20:52:42+00:00",
+    "generated_at": "2026-08-26T01:22:13+00:00",
     "grounded_in": "Minutes",
     "items": [
       {
         "kind": "hearing_action",
         "number": null,
-        "title": "Public Hearing - Unsafe Structure, 40 17th Street, Wading River",
+        "title": "Public Hearing - Unsafe Structure at 40 17th Street, Wading River",
         "outcome": "held",
         "votes": [],
         "unanimous": false,
         "confidence": "low",
-        "timestamp_s": null
+        "timestamp_s": 2919
       },
       {
-        "kind": "motion",
+        "kind": "hearing_action",
         "number": null,
-        "title": "Close public hearing on Chapter 301 CBD zoning, keep open for written comment till 8/15/2025",
+        "title": "Public Hearing - Amend Chapter 301 Community Benefit Zoning Use District",
         "outcome": "held",
         "votes": [],
         "unanimous": false,
@@ -18222,7 +18222,7 @@
       {
         "kind": "resolution",
         "number": "2025-644",
-        "title": "Accepts Donation to Riverhead PD for PAL Jerseys",
+        "title": "Accepts Donation to RPD for Jerseys for Police Athletic League",
         "outcome": "adopted",
         "votes": [
           {
@@ -18248,7 +18248,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": null
+        "timestamp_s": 5743
       },
       {
         "kind": "resolution",
@@ -18279,12 +18279,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": null
+        "timestamp_s": 5766
       },
       {
         "kind": "resolution",
         "number": "2025-646",
-        "title": "Budget Amendment Capital Project #72306 Veteran's Memorial Park Bike Path",
+        "title": "Budget Amendment for Veteran's Memorial Park Bike Path Restoration",
         "outcome": "adopted",
         "votes": [
           {
@@ -18302,20 +18302,17 @@
           {
             "member": "Ken Rothwell",
             "vote": "yes"
-          },
-          {
-            "member": "Tim Hubbard",
-            "vote": "yes"
           }
         ],
         "unanimous": true,
-        "confidence": "high",
-        "timestamp_s": null
+        "confidence": "low",
+        "timestamp_s": null,
+        "anchor_quote_unmatched": ""
       },
       {
         "kind": "resolution",
         "number": "2025-647",
-        "title": "Budget Adjustment for Settlement Offer to Tenant at 127 East Main Street",
+        "title": "Authorize Budget Adjustment for Settlement Offer - 127 East Main Street Tenant",
         "outcome": "adopted",
         "votes": [
           {
@@ -18333,15 +18330,12 @@
           {
             "member": "Ken Rothwell",
             "vote": "yes"
-          },
-          {
-            "member": "Tim Hubbard",
-            "vote": "yes"
           }
         ],
         "unanimous": true,
-        "confidence": "high",
-        "timestamp_s": null
+        "confidence": "low",
+        "timestamp_s": null,
+        "anchor_quote_unmatched": ""
       },
       {
         "kind": "resolution",
@@ -18372,12 +18366,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": null
+        "timestamp_s": 5824
       },
       {
         "kind": "resolution",
         "number": "2025-649",
-        "title": "Authorizes Removal of Fixed Assets",
+        "title": "Authorizes the Removal of Fixed Assets",
         "outcome": "adopted",
         "votes": [
           {
@@ -18403,12 +18397,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": null
+        "timestamp_s": 5846
       },
       {
         "kind": "resolution",
         "number": "2025-650",
-        "title": "Declares Fire Marshal Vehicle Surplus and Authorizes Disposal",
+        "title": "Declares Fire Marshal Vehicle Surplus Property and Authorizes Disposal",
         "outcome": "adopted",
         "votes": [
           {
@@ -18434,7 +18428,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": null
+        "timestamp_s": 5846
       },
       {
         "kind": "resolution",
@@ -18465,7 +18459,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": null
+        "timestamp_s": 5846
       },
       {
         "kind": "resolution",
@@ -18496,7 +18490,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": null
+        "timestamp_s": 5846
       },
       {
         "kind": "resolution",
@@ -18527,7 +18521,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": null
+        "timestamp_s": 5913
       },
       {
         "kind": "resolution",
@@ -18558,7 +18552,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": null
+        "timestamp_s": 5936
       },
       {
         "kind": "resolution",
@@ -18589,7 +18583,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": null
+        "timestamp_s": 5936
       },
       {
         "kind": "resolution",
@@ -18620,7 +18614,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": null
+        "timestamp_s": 5824
       },
       {
         "kind": "resolution",
@@ -18651,12 +18645,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": null
+        "timestamp_s": 5846
       },
       {
         "kind": "resolution",
         "number": "2025-658",
-        "title": "Ratifies Resignation of Traffic Control Specialist",
+        "title": "Ratifies Resignation of a Traffic Control Specialist",
         "outcome": "adopted",
         "votes": [
           {
@@ -18682,12 +18676,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": null
+        "timestamp_s": 5846
       },
       {
         "kind": "resolution",
         "number": "2025-659",
-        "title": "Ratifies Resignation of Traffic Control Specialist",
+        "title": "Ratifies and Accepts Resignation of Traffic Control Specialist",
         "outcome": "adopted",
         "votes": [
           {
@@ -18705,20 +18699,17 @@
           {
             "member": "Ken Rothwell",
             "vote": "yes"
-          },
-          {
-            "member": "Tim Hubbard",
-            "vote": "yes"
           }
         ],
         "unanimous": true,
-        "confidence": "high",
-        "timestamp_s": null
+        "confidence": "low",
+        "timestamp_s": null,
+        "anchor_quote_unmatched": ""
       },
       {
         "kind": "resolution",
         "number": "2025-660",
-        "title": "Ratifies Termination of Maintenance Mechanic II",
+        "title": "Ratifies Termination of a Maintenance Mechanic II",
         "outcome": "adopted",
         "votes": [
           {
@@ -18736,15 +18727,12 @@
           {
             "member": "Ken Rothwell",
             "vote": "yes"
-          },
-          {
-            "member": "Tim Hubbard",
-            "vote": "yes"
           }
         ],
         "unanimous": true,
-        "confidence": "high",
-        "timestamp_s": null
+        "confidence": "low",
+        "timestamp_s": null,
+        "anchor_quote_unmatched": ""
       },
       {
         "kind": "resolution",
@@ -18775,12 +18763,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": null
+        "timestamp_s": 6121
       },
       {
         "kind": "resolution",
         "number": "2025-662",
-        "title": "Extends Blighted Property Registration Fee for 330 Baywood Drive",
+        "title": "Extending Blighted Property Registration Fee for 330 Baywood Drive",
         "outcome": "adopted",
         "votes": [
           {
@@ -18806,7 +18794,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": null
+        "timestamp_s": 6164
       },
       {
         "kind": "resolution",
@@ -18829,20 +18817,17 @@
           {
             "member": "Ken Rothwell",
             "vote": "yes"
-          },
-          {
-            "member": "Tim Hubbard",
-            "vote": "yes"
           }
         ],
         "unanimous": true,
-        "confidence": "high",
-        "timestamp_s": null
+        "confidence": "low",
+        "timestamp_s": null,
+        "anchor_quote_unmatched": ""
       },
       {
         "kind": "resolution",
         "number": "2025-664",
-        "title": "Authorizes DASNY Funding Application for George Young Community Center",
+        "title": "Authorizes Funding Application to Dormitory Authority for George Young Community Center",
         "outcome": "adopted",
         "votes": [
           {
@@ -18868,7 +18853,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": null
+        "timestamp_s": 6164
       },
       {
         "kind": "resolution",
@@ -18891,15 +18876,12 @@
           {
             "member": "Ken Rothwell",
             "vote": "yes"
-          },
-          {
-            "member": "Tim Hubbard",
-            "vote": "yes"
           }
         ],
         "unanimous": true,
-        "confidence": "high",
-        "timestamp_s": null
+        "confidence": "low",
+        "timestamp_s": null,
+        "anchor_quote_unmatched": ""
       },
       {
         "kind": "resolution",
@@ -18922,15 +18904,12 @@
           {
             "member": "Ken Rothwell",
             "vote": "yes"
-          },
-          {
-            "member": "Tim Hubbard",
-            "vote": "yes"
           }
         ],
         "unanimous": true,
-        "confidence": "high",
-        "timestamp_s": null
+        "confidence": "low",
+        "timestamp_s": null,
+        "anchor_quote_unmatched": ""
       },
       {
         "kind": "resolution",
@@ -18953,15 +18932,12 @@
           {
             "member": "Ken Rothwell",
             "vote": "yes"
-          },
-          {
-            "member": "Tim Hubbard",
-            "vote": "yes"
           }
         ],
         "unanimous": true,
-        "confidence": "high",
-        "timestamp_s": null
+        "confidence": "low",
+        "timestamp_s": null,
+        "anchor_quote_unmatched": ""
       },
       {
         "kind": "resolution",
@@ -18984,20 +18960,17 @@
           {
             "member": "Ken Rothwell",
             "vote": "yes"
-          },
-          {
-            "member": "Tim Hubbard",
-            "vote": "yes"
           }
         ],
         "unanimous": true,
-        "confidence": "high",
-        "timestamp_s": null
+        "confidence": "low",
+        "timestamp_s": null,
+        "anchor_quote_unmatched": ""
       },
       {
         "kind": "resolution",
         "number": "2025-669",
-        "title": "Approves Special Event Application for Rothwell Concert Event",
+        "title": "Approves Special Event Application for Friends of Ken Rothwell Concert",
         "outcome": "adopted",
         "votes": [
           {
@@ -19022,13 +18995,13 @@
           }
         ],
         "unanimous": false,
-        "confidence": "low",
-        "timestamp_s": null
+        "confidence": "high",
+        "timestamp_s": 6315
       },
       {
         "kind": "motion",
         "number": null,
-        "title": "Close public hearing record on unsafe structure at 40 17th St",
+        "title": "Motion to close public hearing record on 40 17th Street structure",
         "outcome": "adopted",
         "votes": [],
         "unanimous": false,
@@ -19069,7 +19042,7 @@
       {
         "kind": "resolution",
         "number": "2025-671",
-        "title": "Approves Special Event Application for Riverhead Polish Hall Festival",
+        "title": "Approves Special Event Application for Riverhead Polish Hall Polish Festival",
         "outcome": "adopted",
         "votes": [
           {
@@ -19118,14 +19091,10 @@
           {
             "member": "Ken Rothwell",
             "vote": "yes"
-          },
-          {
-            "member": "Tim Hubbard",
-            "vote": "yes"
           }
         ],
         "unanimous": true,
-        "confidence": "high",
+        "confidence": "low",
         "timestamp_s": 6380
       },
       {
@@ -19162,7 +19131,7 @@
       {
         "kind": "resolution",
         "number": "2025-674",
-        "title": "Ratifies Agreement Between Town and PBA/SOA",
+        "title": "Ratifies Agreement with PBA and Superior Officers Association",
         "outcome": "adopted",
         "votes": [
           {
@@ -19188,12 +19157,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 6429
+        "timestamp_s": 6355
       },
       {
         "kind": "resolution",
         "number": "2025-675",
-        "title": "Authorizes Runway Use Agreement Summer Motorsports Racing Series",
+        "title": "Authorizes Runway Use Agreement for Summer Motorsports Racing Series",
         "outcome": "adopted",
         "votes": [
           {
@@ -19224,7 +19193,7 @@
       {
         "kind": "resolution",
         "number": "2025-676",
-        "title": "Authorizes Runway Use Agreement Fall Motorsports Racing Series",
+        "title": "Authorizes Runway Use Agreement for Fall Motorsports Racing Series",
         "outcome": "adopted",
         "votes": [
           {
@@ -19250,12 +19219,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": null
+        "timestamp_s": 5824
       },
       {
         "kind": "resolution",
         "number": "2025-677",
-        "title": "Authorizes Agreement with QS Enforcement Inc",
+        "title": "Authorizes Agreement with QS Enforcement Inc.",
         "outcome": "adopted",
         "votes": [
           {
@@ -19281,12 +19250,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": null
+        "timestamp_s": 5846
       },
       {
         "kind": "resolution",
         "number": "2025-678",
-        "title": "Notice to Amend Chapter 301 Site Plan Review",
+        "title": "Publish Notice to Amend Chapter 301 Site Plan Review",
         "outcome": "adopted",
         "votes": [
           {
@@ -19312,7 +19281,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": null
+        "timestamp_s": 5846
       },
       {
         "kind": "resolution",
@@ -19343,12 +19312,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": null
+        "timestamp_s": 5846
       },
       {
         "kind": "resolution",
         "number": "2025-680",
-        "title": "Adopts Local Law Amending Chapter 217 Buildings",
+        "title": "Adopts Local Law Amending Chapter 217 Building Construction Standards",
         "outcome": "adopted",
         "votes": [
           {
@@ -19374,12 +19343,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 6531
+        "timestamp_s": 5846
       },
       {
         "kind": "resolution",
         "number": "2025-682",
-        "title": "Notice to Consider Amending Chapter 289 Vehicles Traffic Penalties",
+        "title": "Publish Notice to Amend Chapter 289 Vehicles, Traffic and Parking",
         "outcome": "adopted",
         "votes": [
           {
@@ -19405,12 +19374,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": null
+        "timestamp_s": 5846
       },
       {
         "kind": "resolution",
         "number": "2025-683",
-        "title": "Notice to Consider Amending Chapter 231 Fire Prevention Penalties",
+        "title": "Publish Notice to Amend Chapter 231 Fire Prevention Penalties",
         "outcome": "adopted",
         "votes": [
           {
@@ -19436,7 +19405,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": null
+        "timestamp_s": 5846
       },
       {
         "kind": "resolution",
@@ -19467,12 +19436,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": null
+        "timestamp_s": 5824
       },
       {
         "kind": "resolution",
         "number": "2025-685",
-        "title": "Notice to Bidders for Street Lighting Materials Riverfront",
+        "title": "Publish Notice to Bidders for Street Lighting Materials for Riverfront",
         "outcome": "adopted",
         "votes": [
           {
@@ -19486,24 +19455,16 @@
           {
             "member": "Bob Kern",
             "vote": "yes"
-          },
-          {
-            "member": "Ken Rothwell",
-            "vote": "yes"
-          },
-          {
-            "member": "Tim Hubbard",
-            "vote": "yes"
           }
         ],
         "unanimous": true,
-        "confidence": "high",
-        "timestamp_s": null
+        "confidence": "low",
+        "timestamp_s": 6694
       },
       {
         "kind": "resolution",
         "number": "2025-686",
-        "title": "Notice of Public Hearing to Amend Chapter 301 Article 45 Supplementary Use",
+        "title": "Publish Notice of Hearing to Amend Chapter 301 Article 45 Supplementary Use Regulation",
         "outcome": "adopted",
         "votes": [
           {
@@ -19529,12 +19490,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": null
+        "timestamp_s": 6717
       },
       {
         "kind": "resolution",
         "number": "2025-687",
-        "title": "Notice to Consider Local Law Amending Chapter 251 Noise",
+        "title": "Publish Notice to Amend Chapter 251 Noise Ordinance",
         "outcome": "adopted",
         "votes": [
           {
@@ -19560,12 +19521,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": null
+        "timestamp_s": 6717
       },
       {
         "kind": "resolution",
         "number": "2025-688",
-        "title": "Notice of Public Hearing on Cannabis Retail Moratorium Chapter 304",
+        "title": "Publish Notice of Hearing on Cannabis Retail Moratorium Local Law",
         "outcome": "adopted",
         "votes": [
           {
@@ -19591,12 +19552,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": null
+        "timestamp_s": 6717
       },
       {
         "kind": "resolution",
         "number": "2025-689",
-        "title": "Notice of Public Hearing to Amend Chapter 301 Article 18 Business Center Zoning",
+        "title": "Publish Notice of Hearing to Amend Chapter 301 Article 18 Business Center Zoning",
         "outcome": "adopted",
         "votes": [
           {
@@ -19622,12 +19583,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 6785
+        "timestamp_s": 5846
       },
       {
         "kind": "resolution",
         "number": "2025-690",
-        "title": "Ratifies Public Hearing for Munroe Balancing Test SCWA North Fork Water Main",
+        "title": "Ratifies Public Hearing for Monroe Balancing Test for SCWA North Fork Water Main",
         "outcome": "adopted",
         "votes": [
           {
@@ -19653,12 +19614,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": null
+        "timestamp_s": 5846
       },
       {
         "kind": "resolution",
         "number": "2025-691",
-        "title": "Awards Rebid for Water Main Installation, 205 Osborne Avenue",
+        "title": "Awards Rebid for Water Main Installation at 205 Osborn Avenue",
         "outcome": "adopted",
         "votes": [
           {
@@ -19684,7 +19645,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": null
+        "timestamp_s": 5846
       },
       {
         "kind": "resolution",
@@ -19715,12 +19676,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 6917
+        "timestamp_s": 6928
       },
       {
         "kind": "resolution",
         "number": "2025-696",
-        "title": "Designates Petrucelli Riverhead Town Square LLC as Qualified and Eligible Sponsor",
+        "title": "Designates J. Petrucelli Riverhead Town Square LLC as Qualified and Eligible Sponsor",
         "outcome": "adopted",
         "votes": [
           {
@@ -19736,18 +19697,22 @@
             "vote": "yes"
           },
           {
+            "member": "Ken Rothwell",
+            "vote": "yes"
+          },
+          {
             "member": "Tim Hubbard",
             "vote": "yes"
           }
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 6988
+        "timestamp_s": 6981
       },
       {
         "kind": "resolution",
         "number": "2025-697",
-        "title": "Authorizes Conveyance of Property Portion to Town from Parking District 1",
+        "title": "Authorizes Conveyance of Portion of Property to Town of Riverhead",
         "outcome": "adopted",
         "votes": [
           {
@@ -19773,12 +19738,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": null
+        "timestamp_s": 5846
       },
       {
         "kind": "resolution",
         "number": "2025-698",
-        "title": "Budget for Removal of Weeds/Yard Waste at 262 Hulse Avenue",
+        "title": "Removal of Weeds, Yard Waste, Litter at 262 Hulse Avenue, Wading River",
         "outcome": "adopted",
         "votes": [
           {
@@ -19804,47 +19769,17 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 7218
-      },
-      {
-        "kind": "hearing_action",
-        "number": null,
-        "title": "Public Hearing on Unsafe Structure Chapter 217-38 held",
-        "outcome": "held",
-        "votes": [],
-        "unanimous": false,
-        "confidence": "low",
-        "timestamp_s": null
-      },
-      {
-        "kind": "hearing_action",
-        "number": null,
-        "title": "Public Hearing on Community Benefit Zoning District, continued to 8/15/2025",
-        "outcome": "tabled",
-        "votes": [],
-        "unanimous": false,
-        "confidence": "low",
-        "timestamp_s": null
-      },
-      {
-        "kind": "hearing_action",
-        "number": null,
-        "title": "Public Hearing - Amend Chapter 301 Community Benefit Zoning Use District",
-        "outcome": "tabled",
-        "votes": [],
-        "unanimous": false,
-        "confidence": "low",
-        "timestamp_s": null
+        "timestamp_s": 5846
       },
       {
         "kind": "motion",
         "number": null,
-        "title": "Close Town Board Meeting and Open CDA Meeting",
+        "title": "Close Town Board meeting and open CDA meeting",
         "outcome": "adopted",
         "votes": [],
         "unanimous": false,
         "confidence": "low",
-        "timestamp_s": 9706
+        "timestamp_s": 9697
       }
     ]
   }

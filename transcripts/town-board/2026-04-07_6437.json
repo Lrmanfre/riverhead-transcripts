@@ -16896,13 +16896,13 @@
     "truncated": false,
     "model": "claude-sonnet-5",
     "prompt_version": "1",
-    "generated_at": "2026-08-25T20:26:10+00:00",
+    "generated_at": "2026-08-26T01:36:42+00:00",
     "grounded_in": "Minutes",
     "items": [
       {
         "kind": "resolution",
         "number": "2026-268",
-        "title": "Water District Capital Project 82605 National Grid Hydrant Relocation Budget Adoption",
+        "title": "Water District Capital Project 82605 National Grid Hydrant Relocation Mill Rd. Budget Adoption",
         "outcome": "adopted",
         "votes": [
           {
@@ -16933,7 +16933,7 @@
       {
         "kind": "resolution",
         "number": "2026-269",
-        "title": "Water District Capital Project 82303 Budget Adjustment",
+        "title": "Water District Capital Project #82303 Budget Adjustment",
         "outcome": "adopted",
         "votes": [
           {
@@ -16959,12 +16959,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 2588
+        "timestamp_s": 2579
       },
       {
         "kind": "resolution",
         "number": "2026-270",
-        "title": "Capital Project 44038 Downtown Alleyway Lighting Enhancements Closure",
+        "title": "Capital Project #44038 Downtown Alleyway Lighting Enhancements Closure",
         "outcome": "adopted",
         "votes": [
           {
@@ -16990,12 +16990,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 2603
+        "timestamp_s": 2600
       },
       {
         "kind": "resolution",
         "number": "2026-271",
-        "title": "Budget Adjustment for Town Hall Capital Project 62204",
+        "title": "Adopts Budget Adjustment for Town Hall Capital Project #62204",
         "outcome": "adopted",
         "votes": [
           {
@@ -17021,12 +17021,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 2622
+        "timestamp_s": 2618
       },
       {
         "kind": "resolution",
         "number": "2026-272",
-        "title": "Budget Adoption for Capital Project 72606 River and Roots Playground Rehabilitation",
+        "title": "Budget Adoption for Capital Project #72606 River and Roots Playground Rehabilitation",
         "outcome": "adopted",
         "votes": [
           {
@@ -17052,7 +17052,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 2639
+        "timestamp_s": 2634
       },
       {
         "kind": "resolution",
@@ -17083,7 +17083,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 2655
+        "timestamp_s": 2651
       },
       {
         "kind": "resolution",
@@ -17114,12 +17114,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 2673
+        "timestamp_s": 2669
       },
       {
         "kind": "resolution",
         "number": "2026-275",
-        "title": "Ratifies Budget Adjustment for 2025 Audit of CDA (EPCAL) by PKF O'Connor Davies",
+        "title": "Ratifies Budget Adjustment for 2025 Audit of CDA (EPCAL) by PKF O'Connor Davies, LLP",
         "outcome": "adopted",
         "votes": [
           {
@@ -17145,7 +17145,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 2693
+        "timestamp_s": 2687
       },
       {
         "kind": "resolution",
@@ -17305,7 +17305,7 @@
       {
         "kind": "resolution",
         "number": "2026-281",
-        "title": "Amends Resolution 2026-69",
+        "title": "Amends Resolution #2026-69",
         "outcome": "adopted",
         "votes": [
           {
@@ -17336,7 +17336,7 @@
       {
         "kind": "resolution",
         "number": "2026-282",
-        "title": "Authorizes Police Department to Apply for Funding",
+        "title": "Authorizes the Police Department to Apply for Funding",
         "outcome": "adopted",
         "votes": [
           {
@@ -17367,7 +17367,7 @@
       {
         "kind": "resolution",
         "number": "2026-283",
-        "title": "Sets Fees for 2026 Spring-Summer Brochure",
+        "title": "Sets the Fees for the 2026 Spring/Summer Brochure",
         "outcome": "adopted",
         "votes": [
           {
@@ -17455,12 +17455,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 2863
+        "timestamp_s": 2831
       },
       {
         "kind": "resolution",
         "number": "2026-286",
-        "title": "Authorizes Purchase of Freightliner Chassis with Mounted Sander",
+        "title": "Authorizes Purchase of Freightliner Chassis with Mounted Sander for Highway Department",
         "outcome": "adopted",
         "votes": [
           {
@@ -17486,7 +17486,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 2879
+        "timestamp_s": 2831
       },
       {
         "kind": "resolution",
@@ -17517,12 +17517,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 2863
+        "timestamp_s": 2831
       },
       {
         "kind": "resolution",
         "number": "2026-288",
-        "title": "Ratifies Salary Adjustment of a Senior Assessment Clerk",
+        "title": "Ratifies the Salary Adjustment of a Senior Assessment Clerk",
         "outcome": "adopted",
         "votes": [
           {
@@ -17548,7 +17548,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": null
+        "timestamp_s": 2914
       },
       {
         "kind": "resolution",
@@ -17579,12 +17579,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 2863
+        "timestamp_s": 2831
       },
       {
         "kind": "resolution",
         "number": "2026-290",
-        "title": "Appoints a Call-In Park Attendant to the Recreation Department",
+        "title": "Appoints Call-In Park Attendant to Recreation Department",
         "outcome": "adopted",
         "votes": [
           {
@@ -17609,13 +17609,14 @@
           }
         ],
         "unanimous": true,
-        "confidence": "high",
-        "timestamp_s": null
+        "confidence": "low",
+        "timestamp_s": null,
+        "anchor_quote_unmatched": ""
       },
       {
         "kind": "resolution",
         "number": "2026-291",
-        "title": "Appoints a Call-In Park Attendant to the Recreation Department",
+        "title": "Appoints Call-In Park Attendant to Recreation Department",
         "outcome": "adopted",
         "votes": [
           {
@@ -17640,13 +17641,14 @@
           }
         ],
         "unanimous": true,
-        "confidence": "high",
-        "timestamp_s": null
+        "confidence": "low",
+        "timestamp_s": null,
+        "anchor_quote_unmatched": ""
       },
       {
         "kind": "resolution",
         "number": "2026-292",
-        "title": "Appoints a Call-In Assistant Recreation Leader to the Recreation Department",
+        "title": "Appoints Call-In Assistant Recreation Leader",
         "outcome": "adopted",
         "votes": [
           {
@@ -17671,8 +17673,9 @@
           }
         ],
         "unanimous": true,
-        "confidence": "high",
-        "timestamp_s": null
+        "confidence": "low",
+        "timestamp_s": null,
+        "anchor_quote_unmatched": ""
       },
       {
         "kind": "resolution",
@@ -17703,7 +17706,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 2979
+        "timestamp_s": 2847
       },
       {
         "kind": "resolution",
@@ -17734,7 +17737,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 3012
+        "timestamp_s": 3001
       },
       {
         "kind": "resolution",
@@ -17765,7 +17768,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 3030
+        "timestamp_s": 3001
       },
       {
         "kind": "resolution",
@@ -17796,7 +17799,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 3030
+        "timestamp_s": 3001
       },
       {
         "kind": "resolution",
@@ -17827,7 +17830,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 3030
+        "timestamp_s": 3001
       },
       {
         "kind": "resolution",
@@ -17858,7 +17861,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 3088
+        "timestamp_s": 3001
       },
       {
         "kind": "resolution",
@@ -17889,38 +17892,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 3030
-      },
-      {
-        "kind": "resolution",
-        "number": "2026-300",
-        "title": "Reappoints Tom Najdzion to the Anti-Bias Task Force",
-        "outcome": "adopted",
-        "votes": [
-          {
-            "member": "Joann Waski",
-            "vote": "yes"
-          },
-          {
-            "member": "Denise Merrifield",
-            "vote": "yes"
-          },
-          {
-            "member": "Bob Kern",
-            "vote": "yes"
-          },
-          {
-            "member": "Ken Rothwell",
-            "vote": "yes"
-          },
-          {
-            "member": "Jerry Halpin",
-            "vote": "yes"
-          }
-        ],
-        "unanimous": true,
-        "confidence": "high",
-        "timestamp_s": null
+        "timestamp_s": 3001
       },
       {
         "kind": "resolution",
@@ -17951,7 +17923,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 3152
+        "timestamp_s": 3147
       },
       {
         "kind": "resolution",
@@ -17982,12 +17954,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 3152
+        "timestamp_s": 3147
       },
       {
         "kind": "resolution",
         "number": "2026-304",
-        "title": "Ratifies Name Change to Town of Riverhead Disability Advisory Committee",
+        "title": "Ratifies Name Change of Inclusion Task Force Advisory Committee to Disability Advisory Committee",
         "outcome": "adopted",
         "votes": [
           {
@@ -18013,7 +17985,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 3187
+        "timestamp_s": 3179
       },
       {
         "kind": "resolution",
@@ -18044,7 +18016,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 3187
+        "timestamp_s": 3147
       },
       {
         "kind": "resolution",
@@ -18075,7 +18047,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 3152
+        "timestamp_s": 3147
       },
       {
         "kind": "resolution",
@@ -18106,7 +18078,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 3187
+        "timestamp_s": 3147
       },
       {
         "kind": "resolution",
@@ -18137,7 +18109,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 3187
+        "timestamp_s": 3179
       },
       {
         "kind": "resolution",
@@ -18168,7 +18140,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 3268
+        "timestamp_s": 3264
       },
       {
         "kind": "resolution",
@@ -18199,7 +18171,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 3285
+        "timestamp_s": 3264
       },
       {
         "kind": "resolution",
@@ -18230,7 +18202,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 3301
+        "timestamp_s": 3264
       },
       {
         "kind": "resolution",
@@ -18261,12 +18233,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 3316
+        "timestamp_s": 3314
       },
       {
         "kind": "resolution",
         "number": "2026-313",
-        "title": "Ratifies Resignation of an Automotive Equipment Operator",
+        "title": "Ratifies the Resignation of an Automotive Equipment Operator",
         "outcome": "adopted",
         "votes": [
           {
@@ -18292,12 +18264,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 3332
+        "timestamp_s": 3264
       },
       {
         "kind": "resolution",
         "number": "2026-314",
-        "title": "Ratifies Resignation of a Part-Time Bilingual Office Assistant",
+        "title": "Ratifies the Resignation of a Part-Time Bilingual Office Assistant",
         "outcome": "adopted",
         "votes": [
           {
@@ -18323,12 +18295,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 3348
+        "timestamp_s": 3264
       },
       {
         "kind": "resolution",
         "number": "2026-317",
-        "title": "Ratifies Appointment of a Hearing Officer and Suspension of an Employee",
+        "title": "Ratifies Appointment of Hearing Officer and Suspension of an Employee",
         "outcome": "adopted",
         "votes": [
           {
@@ -18354,7 +18326,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 3398
+        "timestamp_s": 3391
       },
       {
         "kind": "resolution",
@@ -18385,7 +18357,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 3417
+        "timestamp_s": 3410
       },
       {
         "kind": "resolution",
@@ -18416,12 +18388,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 3442
+        "timestamp_s": 3434
       },
       {
         "kind": "resolution",
         "number": "2026-320",
-        "title": "Authorizes Release of Performance Bond for Birchwood Major Subdivision Section 3",
+        "title": "Authorizes Release of a Performance Bond for Birchwood Major Subdivision Section 3",
         "outcome": "adopted",
         "votes": [
           {
@@ -18447,7 +18419,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 3459
+        "timestamp_s": 3452
       },
       {
         "kind": "resolution",
@@ -18478,7 +18450,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 3482
+        "timestamp_s": 3476
       },
       {
         "kind": "resolution",
@@ -18509,7 +18481,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 3497
+        "timestamp_s": 3488
       },
       {
         "kind": "resolution",
@@ -18540,12 +18512,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 3515
+        "timestamp_s": 3509
       },
       {
         "kind": "resolution",
         "number": "2026-326",
-        "title": "Amends Resolution 2026-185, Brentwood Legion Ambulance Pine Barrens Credits",
+        "title": "Amends Resolution 2026-185, Brentwood Legion Ambulance Services Pine Barrens Credits",
         "outcome": "adopted",
         "votes": [
           {
@@ -18571,7 +18543,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 3568
+        "timestamp_s": 3264
       },
       {
         "kind": "resolution",
@@ -18602,12 +18574,12 @@
         ],
         "unanimous": false,
         "confidence": "high",
-        "timestamp_s": 4171
+        "timestamp_s": 4487
       },
       {
         "kind": "resolution",
         "number": "2026-328",
-        "title": "SEQRA Lead Agency Negative Declaration, Funding for Wading River Highway Garage",
+        "title": "SEQRA Negative Declaration and Funding Approval for Wading River Highway Garage",
         "outcome": "adopted",
         "votes": [
           {
@@ -18633,12 +18605,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 4625
+        "timestamp_s": 4619
       },
       {
         "kind": "resolution",
         "number": "2026-330",
-        "title": "Calls Public Hearing on Riverhead Water District Summer Wind Farm Subdivision Extension",
+        "title": "Calling for Public Hearing on Riverhead Water District Summer Wind Farm Water Main Extension",
         "outcome": "adopted",
         "votes": [
           {
@@ -18656,12 +18628,12 @@
         ],
         "unanimous": true,
         "confidence": "low",
-        "timestamp_s": null
+        "timestamp_s": 2536
       },
       {
         "kind": "resolution",
         "number": "2026-331",
-        "title": "Authorizes Notice for Local Law Amending Chapter 273 Solid Waste",
+        "title": "Authorizes Publication of Notice for Local Law Amending Chapter 273 Solid Waste",
         "outcome": "adopted",
         "votes": [
           {
@@ -18687,12 +18659,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 4709
+        "timestamp_s": 4619
       },
       {
         "kind": "resolution",
         "number": "2026-332",
-        "title": "Authorizes Notice for Local Law Amending Chapter 279 Volunteer Firefighter Exemption",
+        "title": "Authorizes Publication of Notice for Local Law Amending Chapter 279 Taxation Exemptions",
         "outcome": "adopted",
         "votes": [],
         "unanimous": false,
@@ -18702,7 +18674,7 @@
       {
         "kind": "resolution",
         "number": "2026-333",
-        "title": "Adopts Local Law Amending Chapter 217 Building Construction and Housing Standards",
+        "title": "Adopts Local Law Amending Chapter 217 Buildings, Building Construction and Improvements",
         "outcome": "adopted",
         "votes": [
           {
@@ -18728,7 +18700,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 4765
+        "timestamp_s": 4762
       },
       {
         "kind": "resolution",
@@ -18759,12 +18731,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 4765
+        "timestamp_s": 4762
       },
       {
         "kind": "resolution",
         "number": "2026-336",
-        "title": "Adopts Local Law Amending Chapter 231 Fire Prevention Tenancy Permits",
+        "title": "Adopts Local Law Amending Chapter 231 Fire Prevention, Tenancy Permits",
         "outcome": "adopted",
         "votes": [
           {
@@ -18790,12 +18762,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 4625
+        "timestamp_s": 4762
       },
       {
         "kind": "resolution",
         "number": "2026-337",
-        "title": "Authorizes License Agreement with Celtic Quest Inc. 2026",
+        "title": "Authorizes Supervisor to Execute License Agreement with Celtic Quest Inc. 2026",
         "outcome": "adopted",
         "votes": [
           {
@@ -18821,12 +18793,76 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 4850
+        "timestamp_s": 4841
+      },
+      {
+        "kind": "resolution",
+        "number": "2026-300",
+        "title": "Reappoints Tom Najdzion to Anti-Bias Task Force",
+        "outcome": "adopted",
+        "votes": [
+          {
+            "member": "Joann Waski",
+            "vote": "yes"
+          },
+          {
+            "member": "Denise Merrifield",
+            "vote": "yes"
+          },
+          {
+            "member": "Bob Kern",
+            "vote": "yes"
+          },
+          {
+            "member": "Ken Rothwell",
+            "vote": "yes"
+          },
+          {
+            "member": "Jerry Halpin",
+            "vote": "yes"
+          }
+        ],
+        "unanimous": true,
+        "confidence": "low",
+        "timestamp_s": null,
+        "anchor_quote_unmatched": ""
+      },
+      {
+        "kind": "resolution",
+        "number": "2026-301",
+        "title": "Reappoints Connie Lassandro to Anti-Bias Task Force",
+        "outcome": "adopted",
+        "votes": [
+          {
+            "member": "Joann Waski",
+            "vote": "yes"
+          },
+          {
+            "member": "Denise Merrifield",
+            "vote": "yes"
+          },
+          {
+            "member": "Bob Kern",
+            "vote": "yes"
+          },
+          {
+            "member": "Ken Rothwell",
+            "vote": "yes"
+          },
+          {
+            "member": "Jerry Halpin",
+            "vote": "yes"
+          }
+        ],
+        "unanimous": true,
+        "confidence": "low",
+        "timestamp_s": null,
+        "anchor_quote_unmatched": ""
       },
       {
         "kind": "resolution",
         "number": "2026-338",
-        "title": "Authorizes Agreement with Seed Clam Administrator",
+        "title": "Authorizes agreement with seed clam administrator",
         "outcome": "adopted",
         "votes": [
           {
@@ -18857,7 +18893,7 @@
       {
         "kind": "resolution",
         "number": "2026-339",
-        "title": "Authorizes Early Voting Polling Place Agreement with Suffolk County Board of Elections",
+        "title": "Early voting polling place agreement with Suffolk County Board of Elections",
         "outcome": "adopted",
         "votes": [
           {
@@ -18888,7 +18924,7 @@
       {
         "kind": "resolution",
         "number": "2026-340",
-        "title": "Authorizes Agreement with H2M for Town Square Splash Pad Sanitary Improvements",
+        "title": "Professional services agreement with H2M for Town Square splash pad sanitary improvements",
         "outcome": "adopted",
         "votes": [
           {
@@ -18918,39 +18954,8 @@
       },
       {
         "kind": "resolution",
-        "number": "2026-301",
-        "title": "Reappoints Connie Lassandro to the Anti-Bias Task Force",
-        "outcome": "adopted",
-        "votes": [
-          {
-            "member": "Joann Waski",
-            "vote": "yes"
-          },
-          {
-            "member": "Denise Merrifield",
-            "vote": "yes"
-          },
-          {
-            "member": "Bob Kern",
-            "vote": "yes"
-          },
-          {
-            "member": "Ken Rothwell",
-            "vote": "yes"
-          },
-          {
-            "member": "Jerry Halpin",
-            "vote": "yes"
-          }
-        ],
-        "unanimous": true,
-        "confidence": "high",
-        "timestamp_s": null
-      },
-      {
-        "kind": "resolution",
         "number": "2026-341",
-        "title": "Authorizes agreement with Suffolk Office for the Aging AAA Transportation Program",
+        "title": "Agreement with Suffolk Office for the Aging AAA Transportation Program 2026",
         "outcome": "adopted",
         "votes": [
           {
@@ -18981,7 +18986,7 @@
       {
         "kind": "resolution",
         "number": "2026-342",
-        "title": "Authorizes short-term runway use agreement for Spring Fling at EPCAL",
+        "title": "Short-term runway use agreement, Racetrack Not Street 2026 Spring Fling at EPCAL",
         "outcome": "adopted",
         "votes": [
           {
@@ -19012,7 +19017,7 @@
       {
         "kind": "resolution",
         "number": "2026-343",
-        "title": "Authorizes professional service agreement with Smalley Engineering PC",
+        "title": "Professional service agreement with Smalley Engineering PC",
         "outcome": "adopted",
         "votes": [
           {
@@ -19043,7 +19048,7 @@
       {
         "kind": "resolution",
         "number": "2026-344",
-        "title": "Authorizes professional service agreement with Smalley Engineering PC",
+        "title": "Professional service agreement with Smalley Engineering PC",
         "outcome": "adopted",
         "votes": [
           {
@@ -19074,7 +19079,7 @@
       {
         "kind": "resolution",
         "number": "2026-345",
-        "title": "Ratifies addendum to consultant professional services agreement",
+        "title": "Ratifies addendum to consultant professional services agreement with Joan Modern",
         "outcome": "adopted",
         "votes": [
           {
@@ -19131,12 +19136,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 4990
+        "timestamp_s": 5080
       },
       {
         "kind": "resolution",
         "number": "2026-347",
-        "title": "Ratifies special event application for Clifton Park tractor supply season sale",
+        "title": "Ratifies special event chapter 255 application, Clifton Park Tractor Supply Season Sale",
         "outcome": "adopted",
         "votes": [
           {
@@ -19162,12 +19167,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 4990
+        "timestamp_s": 5080
       },
       {
         "kind": "resolution",
         "number": "2026-348",
-        "title": "Approves special event application Hallockville Museum Farm Fleece and Fiber Festival",
+        "title": "Special event application, Hallockville Museum Farm Fleece and Fiber Festival",
         "outcome": "adopted",
         "votes": [
           {
@@ -19198,7 +19203,7 @@
       {
         "kind": "resolution",
         "number": "2026-349",
-        "title": "Approves special event application Wading River Shore Chamber Fall Festival",
+        "title": "Special event application, Wading River Shoreham Chamber of Commerce Fall Festival",
         "outcome": "adopted",
         "votes": [
           {
@@ -19224,12 +19229,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 5143
+        "timestamp_s": 5142
       },
       {
         "kind": "resolution",
         "number": "2026-350",
-        "title": "Approves special event application Duck Pond Society Duck Pond Day",
+        "title": "Special event application, Duck Pond Society Duck Pond Day",
         "outcome": "adopted",
         "votes": [
           {
@@ -19255,12 +19260,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 5170
+        "timestamp_s": 5167
       },
       {
         "kind": "resolution",
         "number": "2026-351",
-        "title": "Approves special event application Long Island Antique Power Association",
+        "title": "Special event application, Long Island Antique Power Association tractor pulls and shows",
         "outcome": "adopted",
         "votes": [
           {
@@ -19286,12 +19291,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 5196
+        "timestamp_s": 5195
       },
       {
         "kind": "resolution",
         "number": "2026-354",
-        "title": "Approves special event application New York Marine Rescue Center Paddle Battle",
+        "title": "Special event application, New York Marine Rescue Center Paddle Battle",
         "outcome": "adopted",
         "votes": [
           {
@@ -19322,7 +19327,7 @@
       {
         "kind": "resolution",
         "number": "2026-355",
-        "title": "Approves special event application Foodie Fest",
+        "title": "Special event application, Foodie Fest Reduction LLC",
         "outcome": "adopted",
         "votes": [
           {
@@ -19348,7 +19353,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 5253
+        "timestamp_s": 5274
       },
       {
         "kind": "resolution",
@@ -19402,16 +19407,20 @@
           {
             "member": "Ken Rothwell",
             "vote": "yes"
+          },
+          {
+            "member": "Jerry Halpin",
+            "vote": "yes"
           }
         ],
         "unanimous": true,
-        "confidence": "low",
-        "timestamp_s": 3268
+        "confidence": "high",
+        "timestamp_s": 3264
       },
       {
         "kind": "motion",
         "number": null,
-        "title": "Motion to untable Resolution 2026-227 rehires and salaries for recreation personnel",
+        "title": "Untable Resolution 2026-227 rehires/salaries recreation personnel",
         "outcome": "adopted",
         "votes": [
           {
@@ -19442,7 +19451,7 @@
       {
         "kind": "resolution",
         "number": "2026-227",
-        "title": "Rehires and sets salaries for various call-in recreation personnel for 2026",
+        "title": "Rehires and sets salaries for various call-in recreation personnel 2026",
         "outcome": "adopted",
         "votes": [
           {
@@ -19473,7 +19482,7 @@
       {
         "kind": "motion",
         "number": null,
-        "title": "Motion to untable Resolution 2026-254 PSEG project scope letter for Perkins Building",
+        "title": "Untable Resolution 2026-254 non-binding project scope letter to PSE&G for Perkins building",
         "outcome": "adopted",
         "votes": [
           {
@@ -19491,31 +19500,51 @@
           {
             "member": "Ken Rothwell",
             "vote": "yes"
+          },
+          {
+            "member": "Jerry Halpin",
+            "vote": "yes"
           }
         ],
         "unanimous": true,
-        "confidence": "low",
+        "confidence": "high",
         "timestamp_s": 5475
       },
       {
         "kind": "resolution",
         "number": "2026-254",
-        "title": "Authorizes non-binding project scope letter to PSEG for Perkins Building redevelopment",
+        "title": "Non-binding project scope letter to PSE&G, redevelopment of Perkins Building",
         "outcome": "adopted",
         "votes": [
+          {
+            "member": "Joann Waski",
+            "vote": "yes"
+          },
+          {
+            "member": "Denise Merrifield",
+            "vote": "yes"
+          },
+          {
+            "member": "Bob Kern",
+            "vote": "yes"
+          },
+          {
+            "member": "Ken Rothwell",
+            "vote": "yes"
+          },
           {
             "member": "Jerry Halpin",
             "vote": "yes"
           }
         ],
         "unanimous": true,
-        "confidence": "low",
+        "confidence": "high",
         "timestamp_s": 5531
       },
       {
         "kind": "resolution",
         "number": "2026-358",
-        "title": "Supports Suffolk County grant application under NYS Environmental Bond Act for Venezia Square open space",
+        "title": "Support Suffolk County grant application, NYS Environmental Bond Act, Venezia Square preservation",
         "outcome": "adopted",
         "votes": [
           {
@@ -19541,16 +19570,20 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 5958
+        "timestamp_s": 5959
       },
       {
         "kind": "motion",
         "number": null,
-        "title": "Motion to take Resolution 359 off the floor",
+        "title": "Take Resolution 359 off the floor",
         "outcome": "adopted",
         "votes": [
           {
             "member": "Joann Waski",
+            "vote": "yes"
+          },
+          {
+            "member": "Denise Merrifield",
             "vote": "yes"
           },
           {
@@ -19567,13 +19600,13 @@
           }
         ],
         "unanimous": true,
-        "confidence": "low",
+        "confidence": "high",
         "timestamp_s": 5990
       },
       {
         "kind": "resolution",
         "number": "2026-359",
-        "title": "Authorizes professional services agreement with Honorable Lori M. Holtz",
+        "title": "Professional services agreement with Honorable Lori M. Holtz",
         "outcome": "adopted",
         "votes": [
           {
@@ -19599,7 +19632,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 6066
+        "timestamp_s": 6077
       },
       {
         "kind": "motion",
@@ -19609,7 +19642,7 @@
         "votes": [],
         "unanimous": false,
         "confidence": "low",
-        "timestamp_s": 9098
+        "timestamp_s": 9094
       }
     ]
   }

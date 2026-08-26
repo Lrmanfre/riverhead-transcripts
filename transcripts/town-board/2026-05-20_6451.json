@@ -26137,9 +26137,649 @@
     "truncated": false,
     "model": "claude-sonnet-5",
     "prompt_version": "1",
-    "generated_at": "2026-08-25T20:21:03+00:00",
+    "generated_at": "2026-08-26T01:30:08+00:00",
     "grounded_in": "Minutes",
     "items": [
+      {
+        "kind": "resolution",
+        "number": "2026-470",
+        "title": "Ambulance District Budget Adjustment to Fund RVAC 2026 Budget",
+        "outcome": "adopted",
+        "votes": [
+          {
+            "member": "Joann Waski",
+            "vote": "yes"
+          },
+          {
+            "member": "Denise Merrifield",
+            "vote": "yes"
+          },
+          {
+            "member": "Bob Kern",
+            "vote": "yes"
+          },
+          {
+            "member": "Ken Rothwell",
+            "vote": "yes"
+          },
+          {
+            "member": "Jerry Halpin",
+            "vote": "yes"
+          }
+        ],
+        "unanimous": true,
+        "confidence": "low",
+        "timestamp_s": null,
+        "anchor_quote_unmatched": ""
+      },
+      {
+        "kind": "resolution",
+        "number": "2026-471",
+        "title": "Budget Adjustment for Removal of Weeds, Yard Waste, Litter at 219 Hubbard Ave",
+        "outcome": "adopted",
+        "votes": [
+          {
+            "member": "Joann Waski",
+            "vote": "yes"
+          },
+          {
+            "member": "Denise Merrifield",
+            "vote": "yes"
+          },
+          {
+            "member": "Bob Kern",
+            "vote": "yes"
+          },
+          {
+            "member": "Ken Rothwell",
+            "vote": "yes"
+          },
+          {
+            "member": "Jerry Halpin",
+            "vote": "yes"
+          }
+        ],
+        "unanimous": true,
+        "confidence": "low",
+        "timestamp_s": null,
+        "anchor_quote_unmatched": ""
+      },
+      {
+        "kind": "resolution",
+        "number": "2026-472",
+        "title": "Town of Riverhead 202-b Biosolids Project Bond Authorization",
+        "outcome": "adopted",
+        "votes": [
+          {
+            "member": "Joann Waski",
+            "vote": "yes"
+          },
+          {
+            "member": "Denise Merrifield",
+            "vote": "yes"
+          },
+          {
+            "member": "Bob Kern",
+            "vote": "yes"
+          },
+          {
+            "member": "Ken Rothwell",
+            "vote": "yes"
+          },
+          {
+            "member": "Jerry Halpin",
+            "vote": "yes"
+          }
+        ],
+        "unanimous": true,
+        "confidence": "low",
+        "timestamp_s": null,
+        "anchor_quote_unmatched": ""
+      },
+      {
+        "kind": "resolution",
+        "number": "2026-473",
+        "title": "Sewer District Capital Project #82210 Budget Adjustment for Biosolids Facility",
+        "outcome": "adopted",
+        "votes": [
+          {
+            "member": "Joann Waski",
+            "vote": "yes"
+          },
+          {
+            "member": "Denise Merrifield",
+            "vote": "yes"
+          },
+          {
+            "member": "Bob Kern",
+            "vote": "yes"
+          },
+          {
+            "member": "Ken Rothwell",
+            "vote": "yes"
+          },
+          {
+            "member": "Jerry Halpin",
+            "vote": "yes"
+          }
+        ],
+        "unanimous": true,
+        "confidence": "low",
+        "timestamp_s": null,
+        "anchor_quote_unmatched": ""
+      },
+      {
+        "kind": "resolution",
+        "number": "2026-474",
+        "title": "Sewer District Capital Project #82611 1575 Old Country Road Budget Adoption",
+        "outcome": "adopted",
+        "votes": [
+          {
+            "member": "Joann Waski",
+            "vote": "yes"
+          },
+          {
+            "member": "Denise Merrifield",
+            "vote": "yes"
+          },
+          {
+            "member": "Bob Kern",
+            "vote": "yes"
+          },
+          {
+            "member": "Ken Rothwell",
+            "vote": "yes"
+          },
+          {
+            "member": "Jerry Halpin",
+            "vote": "yes"
+          }
+        ],
+        "unanimous": true,
+        "confidence": "low",
+        "timestamp_s": null,
+        "anchor_quote_unmatched": ""
+      },
+      {
+        "kind": "resolution",
+        "number": "2026-475",
+        "title": "Ratifies Removal and Auction Sale of Fixed Assets",
+        "outcome": "adopted",
+        "votes": [
+          {
+            "member": "Joann Waski",
+            "vote": "yes"
+          },
+          {
+            "member": "Denise Merrifield",
+            "vote": "yes"
+          },
+          {
+            "member": "Bob Kern",
+            "vote": "yes"
+          },
+          {
+            "member": "Ken Rothwell",
+            "vote": "yes"
+          },
+          {
+            "member": "Jerry Halpin",
+            "vote": "yes"
+          }
+        ],
+        "unanimous": true,
+        "confidence": "low",
+        "timestamp_s": null,
+        "anchor_quote_unmatched": ""
+      },
+      {
+        "kind": "resolution",
+        "number": "2026-476",
+        "title": "Authorizes Removal of Fixed Assets",
+        "outcome": "adopted",
+        "votes": [
+          {
+            "member": "Joann Waski",
+            "vote": "yes"
+          },
+          {
+            "member": "Denise Merrifield",
+            "vote": "yes"
+          },
+          {
+            "member": "Bob Kern",
+            "vote": "yes"
+          },
+          {
+            "member": "Ken Rothwell",
+            "vote": "yes"
+          },
+          {
+            "member": "Jerry Halpin",
+            "vote": "yes"
+          }
+        ],
+        "unanimous": true,
+        "confidence": "low",
+        "timestamp_s": null,
+        "anchor_quote_unmatched": ""
+      },
+      {
+        "kind": "resolution",
+        "number": "2026-477",
+        "title": "Authorizes Purchase of Massey Ferguson Tractor for Highway Department",
+        "outcome": "adopted",
+        "votes": [
+          {
+            "member": "Joann Waski",
+            "vote": "yes"
+          },
+          {
+            "member": "Denise Merrifield",
+            "vote": "yes"
+          },
+          {
+            "member": "Bob Kern",
+            "vote": "yes"
+          },
+          {
+            "member": "Ken Rothwell",
+            "vote": "yes"
+          },
+          {
+            "member": "Jerry Halpin",
+            "vote": "yes"
+          }
+        ],
+        "unanimous": true,
+        "confidence": "low",
+        "timestamp_s": null,
+        "anchor_quote_unmatched": ""
+      },
+      {
+        "kind": "resolution",
+        "number": "2026-478",
+        "title": "Approves Attendance of One Police Department Employee to Attend a Seminar",
+        "outcome": "adopted",
+        "votes": [
+          {
+            "member": "Joann Waski",
+            "vote": "yes"
+          },
+          {
+            "member": "Denise Merrifield",
+            "vote": "yes"
+          },
+          {
+            "member": "Bob Kern",
+            "vote": "yes"
+          },
+          {
+            "member": "Ken Rothwell",
+            "vote": "yes"
+          },
+          {
+            "member": "Jerry Halpin",
+            "vote": "yes"
+          }
+        ],
+        "unanimous": true,
+        "confidence": "low",
+        "timestamp_s": null,
+        "anchor_quote_unmatched": ""
+      },
+      {
+        "kind": "resolution",
+        "number": "2026-479",
+        "title": "Authorizes Personnel Employees to Attend a Seminar",
+        "outcome": "adopted",
+        "votes": [
+          {
+            "member": "Joann Waski",
+            "vote": "yes"
+          },
+          {
+            "member": "Denise Merrifield",
+            "vote": "yes"
+          },
+          {
+            "member": "Bob Kern",
+            "vote": "yes"
+          },
+          {
+            "member": "Ken Rothwell",
+            "vote": "yes"
+          },
+          {
+            "member": "Jerry Halpin",
+            "vote": "yes"
+          }
+        ],
+        "unanimous": true,
+        "confidence": "low",
+        "timestamp_s": null,
+        "anchor_quote_unmatched": ""
+      },
+      {
+        "kind": "resolution",
+        "number": "2026-480",
+        "title": "Appoints Seasonal Personnel to the Recreation Department",
+        "outcome": "adopted",
+        "votes": [
+          {
+            "member": "Joann Waski",
+            "vote": "yes"
+          },
+          {
+            "member": "Denise Merrifield",
+            "vote": "yes"
+          },
+          {
+            "member": "Bob Kern",
+            "vote": "yes"
+          },
+          {
+            "member": "Ken Rothwell",
+            "vote": "yes"
+          },
+          {
+            "member": "Jerry Halpin",
+            "vote": "yes"
+          }
+        ],
+        "unanimous": true,
+        "confidence": "low",
+        "timestamp_s": null,
+        "anchor_quote_unmatched": ""
+      },
+      {
+        "kind": "resolution",
+        "number": "2026-481",
+        "title": "Ratifies Reappointment of a Seasonal Pump Out Boat Operator",
+        "outcome": "adopted",
+        "votes": [
+          {
+            "member": "Joann Waski",
+            "vote": "yes"
+          },
+          {
+            "member": "Denise Merrifield",
+            "vote": "yes"
+          },
+          {
+            "member": "Bob Kern",
+            "vote": "yes"
+          },
+          {
+            "member": "Ken Rothwell",
+            "vote": "yes"
+          },
+          {
+            "member": "Jerry Halpin",
+            "vote": "yes"
+          }
+        ],
+        "unanimous": true,
+        "confidence": "low",
+        "timestamp_s": null,
+        "anchor_quote_unmatched": ""
+      },
+      {
+        "kind": "resolution",
+        "number": "2026-482",
+        "title": "Ratifies Appointment of a Call-In Bus Driver to Recreation Department",
+        "outcome": "adopted",
+        "votes": [
+          {
+            "member": "Joann Waski",
+            "vote": "yes"
+          },
+          {
+            "member": "Denise Merrifield",
+            "vote": "yes"
+          },
+          {
+            "member": "Bob Kern",
+            "vote": "yes"
+          },
+          {
+            "member": "Ken Rothwell",
+            "vote": "yes"
+          },
+          {
+            "member": "Jerry Halpin",
+            "vote": "yes"
+          }
+        ],
+        "unanimous": true,
+        "confidence": "low",
+        "timestamp_s": null,
+        "anchor_quote_unmatched": ""
+      },
+      {
+        "kind": "resolution",
+        "number": "2026-483",
+        "title": "Approves a Temporary Part-time Account Clerk",
+        "outcome": "adopted",
+        "votes": [
+          {
+            "member": "Joann Waski",
+            "vote": "yes"
+          },
+          {
+            "member": "Denise Merrifield",
+            "vote": "yes"
+          },
+          {
+            "member": "Bob Kern",
+            "vote": "yes"
+          },
+          {
+            "member": "Ken Rothwell",
+            "vote": "yes"
+          },
+          {
+            "member": "Jerry Halpin",
+            "vote": "yes"
+          }
+        ],
+        "unanimous": true,
+        "confidence": "low",
+        "timestamp_s": null,
+        "anchor_quote_unmatched": ""
+      },
+      {
+        "kind": "resolution",
+        "number": "2026-484",
+        "title": "Appoints Public Safety Dispatchers to the Police Department",
+        "outcome": "adopted",
+        "votes": [
+          {
+            "member": "Joann Waski",
+            "vote": "yes"
+          },
+          {
+            "member": "Denise Merrifield",
+            "vote": "yes"
+          },
+          {
+            "member": "Bob Kern",
+            "vote": "yes"
+          },
+          {
+            "member": "Ken Rothwell",
+            "vote": "yes"
+          },
+          {
+            "member": "Jerry Halpin",
+            "vote": "yes"
+          }
+        ],
+        "unanimous": true,
+        "confidence": "low",
+        "timestamp_s": null,
+        "anchor_quote_unmatched": ""
+      },
+      {
+        "kind": "resolution",
+        "number": "2026-485",
+        "title": "Appoints a Maintenance Mechanic II to the Water District",
+        "outcome": "adopted",
+        "votes": [
+          {
+            "member": "Joann Waski",
+            "vote": "yes"
+          },
+          {
+            "member": "Denise Merrifield",
+            "vote": "yes"
+          },
+          {
+            "member": "Bob Kern",
+            "vote": "yes"
+          },
+          {
+            "member": "Ken Rothwell",
+            "vote": "yes"
+          },
+          {
+            "member": "Jerry Halpin",
+            "vote": "yes"
+          }
+        ],
+        "unanimous": true,
+        "confidence": "low",
+        "timestamp_s": null,
+        "anchor_quote_unmatched": ""
+      },
+      {
+        "kind": "resolution",
+        "number": "2026-486",
+        "title": "Appoints a Student Intern II to the Town Attorney's Office",
+        "outcome": "adopted",
+        "votes": [
+          {
+            "member": "Joann Waski",
+            "vote": "yes"
+          },
+          {
+            "member": "Denise Merrifield",
+            "vote": "yes"
+          },
+          {
+            "member": "Bob Kern",
+            "vote": "yes"
+          },
+          {
+            "member": "Ken Rothwell",
+            "vote": "yes"
+          },
+          {
+            "member": "Jerry Halpin",
+            "vote": "yes"
+          }
+        ],
+        "unanimous": true,
+        "confidence": "low",
+        "timestamp_s": null,
+        "anchor_quote_unmatched": ""
+      },
+      {
+        "kind": "resolution",
+        "number": "2026-487",
+        "title": "Provisionally Appoints a Youth Counselor",
+        "outcome": "adopted",
+        "votes": [
+          {
+            "member": "Joann Waski",
+            "vote": "yes"
+          },
+          {
+            "member": "Denise Merrifield",
+            "vote": "yes"
+          },
+          {
+            "member": "Bob Kern",
+            "vote": "yes"
+          },
+          {
+            "member": "Ken Rothwell",
+            "vote": "yes"
+          },
+          {
+            "member": "Jerry Halpin",
+            "vote": "yes"
+          }
+        ],
+        "unanimous": true,
+        "confidence": "low",
+        "timestamp_s": null,
+        "anchor_quote_unmatched": ""
+      },
+      {
+        "kind": "resolution",
+        "number": "2026-488",
+        "title": "Ratifies Termination of an Employee",
+        "outcome": "adopted",
+        "votes": [
+          {
+            "member": "Joann Waski",
+            "vote": "yes"
+          },
+          {
+            "member": "Denise Merrifield",
+            "vote": "yes"
+          },
+          {
+            "member": "Bob Kern",
+            "vote": "yes"
+          },
+          {
+            "member": "Ken Rothwell",
+            "vote": "yes"
+          },
+          {
+            "member": "Jerry Halpin",
+            "vote": "yes"
+          }
+        ],
+        "unanimous": true,
+        "confidence": "low",
+        "timestamp_s": null,
+        "anchor_quote_unmatched": ""
+      },
+      {
+        "kind": "resolution",
+        "number": "2026-489",
+        "title": "Accepts Resignation of a Maintenance Mechanic II",
+        "outcome": "adopted",
+        "votes": [
+          {
+            "member": "Joann Waski",
+            "vote": "yes"
+          },
+          {
+            "member": "Denise Merrifield",
+            "vote": "yes"
+          },
+          {
+            "member": "Bob Kern",
+            "vote": "yes"
+          },
+          {
+            "member": "Ken Rothwell",
+            "vote": "yes"
+          },
+          {
+            "member": "Jerry Halpin",
+            "vote": "yes"
+          }
+        ],
+        "unanimous": true,
+        "confidence": "low",
+        "timestamp_s": null,
+        "anchor_quote_unmatched": ""
+      },
       {
         "kind": "hearing_action",
         "number": null,
@@ -26174,7 +26814,17 @@
       {
         "kind": "hearing_action",
         "number": null,
-        "title": "Amend Chapter 301, Art XVII, Business F",
+        "title": "Public Hearing - Amend Chapter 301, Art XVII, Business F",
+        "outcome": "held",
+        "votes": [],
+        "unanimous": false,
+        "confidence": "low",
+        "timestamp_s": 9734
+      },
+      {
+        "kind": "hearing_action",
+        "number": null,
+        "title": "Public Hearing - Amend Chapter 301, Part 3, Supplementary Regulations",
         "outcome": "held",
         "votes": [],
         "unanimous": false,
@@ -26184,662 +26834,22 @@
       {
         "kind": "hearing_action",
         "number": null,
-        "title": "Amend Chapter 301, Part 3, Supplementary Regulations",
+        "title": "Public Hearing - Amend Chapter 293 - Shellfish and Finfish",
         "outcome": "held",
         "votes": [],
         "unanimous": false,
         "confidence": "low",
-        "timestamp_s": null
+        "timestamp_s": 9762
       },
       {
         "kind": "hearing_action",
         "number": null,
-        "title": "Amend Chapter 293 Shellfish and Finfish permit fees",
+        "title": "Public Hearing - Amend Chapter 231, Art IV - Fire Prevention",
         "outcome": "held",
         "votes": [],
         "unanimous": false,
         "confidence": "low",
-        "timestamp_s": 11752
-      },
-      {
-        "kind": "hearing_action",
-        "number": null,
-        "title": "Amend Chapter 231, Art IV Fire Prevention hazmat fee",
-        "outcome": "held",
-        "votes": [],
-        "unanimous": false,
-        "confidence": "low",
-        "timestamp_s": 11877
-      },
-      {
-        "kind": "motion",
-        "number": null,
-        "title": "Recess for five minutes",
-        "outcome": "adopted",
-        "votes": [],
-        "unanimous": false,
-        "confidence": "low",
-        "timestamp_s": 12970
-      },
-      {
-        "kind": "resolution",
-        "number": "2026-470",
-        "title": "Ambulance District Budget Adjustment to Fund RVAC 2026 Budget",
-        "outcome": "adopted",
-        "votes": [
-          {
-            "member": "Joann Waski",
-            "vote": "yes"
-          },
-          {
-            "member": "Denise Merrifield",
-            "vote": "yes"
-          },
-          {
-            "member": "Bob Kern",
-            "vote": "yes"
-          },
-          {
-            "member": "Ken Rothwell",
-            "vote": "yes"
-          },
-          {
-            "member": "Jerry Halpin",
-            "vote": "yes"
-          }
-        ],
-        "unanimous": true,
-        "confidence": "high",
-        "timestamp_s": 13176
-      },
-      {
-        "kind": "resolution",
-        "number": "2026-471",
-        "title": "Budget Adjustment for Removal of Weeds at 219 Hubbard Ave",
-        "outcome": "adopted",
-        "votes": [
-          {
-            "member": "Jerry Halpin",
-            "vote": "yes"
-          },
-          {
-            "member": "Ken Rothwell",
-            "vote": "yes"
-          },
-          {
-            "member": "Bob Kern",
-            "vote": "yes"
-          },
-          {
-            "member": "Denise Merrifield",
-            "vote": "yes"
-          },
-          {
-            "member": "Joann Waski",
-            "vote": "yes"
-          }
-        ],
-        "unanimous": true,
-        "confidence": "high",
-        "timestamp_s": null
-      },
-      {
-        "kind": "resolution",
-        "number": "2026-472",
-        "title": "Town of Riverhead 202-b Biosolids Project Bond Authorization",
-        "outcome": "adopted",
-        "votes": [
-          {
-            "member": "Jerry Halpin",
-            "vote": "yes"
-          },
-          {
-            "member": "Ken Rothwell",
-            "vote": "yes"
-          },
-          {
-            "member": "Bob Kern",
-            "vote": "yes"
-          },
-          {
-            "member": "Denise Merrifield",
-            "vote": "yes"
-          },
-          {
-            "member": "Joann Waski",
-            "vote": "yes"
-          }
-        ],
-        "unanimous": true,
-        "confidence": "high",
-        "timestamp_s": null
-      },
-      {
-        "kind": "resolution",
-        "number": "2026-473",
-        "title": "Sewer District Capital Project #82210 Budget Adjustment for Biosolids Facility",
-        "outcome": "adopted",
-        "votes": [
-          {
-            "member": "Jerry Halpin",
-            "vote": "yes"
-          },
-          {
-            "member": "Ken Rothwell",
-            "vote": "yes"
-          },
-          {
-            "member": "Bob Kern",
-            "vote": "yes"
-          },
-          {
-            "member": "Denise Merrifield",
-            "vote": "yes"
-          },
-          {
-            "member": "Joann Waski",
-            "vote": "yes"
-          }
-        ],
-        "unanimous": true,
-        "confidence": "high",
-        "timestamp_s": null
-      },
-      {
-        "kind": "resolution",
-        "number": "2026-474",
-        "title": "Sewer District Capital Project #82611 1575 Old Country Road Budget Adoption",
-        "outcome": "adopted",
-        "votes": [
-          {
-            "member": "Jerry Halpin",
-            "vote": "yes"
-          },
-          {
-            "member": "Ken Rothwell",
-            "vote": "yes"
-          },
-          {
-            "member": "Bob Kern",
-            "vote": "yes"
-          },
-          {
-            "member": "Denise Merrifield",
-            "vote": "yes"
-          },
-          {
-            "member": "Joann Waski",
-            "vote": "yes"
-          }
-        ],
-        "unanimous": true,
-        "confidence": "high",
-        "timestamp_s": null
-      },
-      {
-        "kind": "resolution",
-        "number": "2026-475",
-        "title": "Ratifies Removal and Auction Sale of Fixed Assets",
-        "outcome": "adopted",
-        "votes": [
-          {
-            "member": "Jerry Halpin",
-            "vote": "yes"
-          },
-          {
-            "member": "Ken Rothwell",
-            "vote": "yes"
-          },
-          {
-            "member": "Bob Kern",
-            "vote": "yes"
-          },
-          {
-            "member": "Denise Merrifield",
-            "vote": "yes"
-          },
-          {
-            "member": "Joann Waski",
-            "vote": "yes"
-          }
-        ],
-        "unanimous": true,
-        "confidence": "high",
-        "timestamp_s": null
-      },
-      {
-        "kind": "resolution",
-        "number": "2026-476",
-        "title": "Authorizes Removal of Fixed Assets",
-        "outcome": "adopted",
-        "votes": [
-          {
-            "member": "Jerry Halpin",
-            "vote": "yes"
-          },
-          {
-            "member": "Ken Rothwell",
-            "vote": "yes"
-          },
-          {
-            "member": "Bob Kern",
-            "vote": "yes"
-          },
-          {
-            "member": "Denise Merrifield",
-            "vote": "yes"
-          },
-          {
-            "member": "Joann Waski",
-            "vote": "yes"
-          }
-        ],
-        "unanimous": true,
-        "confidence": "high",
-        "timestamp_s": null
-      },
-      {
-        "kind": "resolution",
-        "number": "2026-477",
-        "title": "Authorizes Purchase of Massey Ferguson Tractor for Highway Department",
-        "outcome": "adopted",
-        "votes": [
-          {
-            "member": "Jerry Halpin",
-            "vote": "yes"
-          },
-          {
-            "member": "Ken Rothwell",
-            "vote": "yes"
-          },
-          {
-            "member": "Bob Kern",
-            "vote": "yes"
-          },
-          {
-            "member": "Denise Merrifield",
-            "vote": "yes"
-          },
-          {
-            "member": "Joann Waski",
-            "vote": "yes"
-          }
-        ],
-        "unanimous": true,
-        "confidence": "high",
-        "timestamp_s": null
-      },
-      {
-        "kind": "resolution",
-        "number": "2026-478",
-        "title": "Approves Attendance of Police Department Employee at Seminar",
-        "outcome": "adopted",
-        "votes": [
-          {
-            "member": "Jerry Halpin",
-            "vote": "yes"
-          },
-          {
-            "member": "Ken Rothwell",
-            "vote": "yes"
-          },
-          {
-            "member": "Bob Kern",
-            "vote": "yes"
-          },
-          {
-            "member": "Denise Merrifield",
-            "vote": "yes"
-          },
-          {
-            "member": "Joann Waski",
-            "vote": "yes"
-          }
-        ],
-        "unanimous": true,
-        "confidence": "high",
-        "timestamp_s": null
-      },
-      {
-        "kind": "resolution",
-        "number": "2026-479",
-        "title": "Authorizes Personnel Employees to Attend a Seminar",
-        "outcome": "adopted",
-        "votes": [
-          {
-            "member": "Jerry Halpin",
-            "vote": "yes"
-          },
-          {
-            "member": "Ken Rothwell",
-            "vote": "yes"
-          },
-          {
-            "member": "Bob Kern",
-            "vote": "yes"
-          },
-          {
-            "member": "Denise Merrifield",
-            "vote": "yes"
-          },
-          {
-            "member": "Joann Waski",
-            "vote": "yes"
-          }
-        ],
-        "unanimous": true,
-        "confidence": "high",
-        "timestamp_s": null
-      },
-      {
-        "kind": "resolution",
-        "number": "2026-480",
-        "title": "Appoints Seasonal Personnel to the Recreation Department",
-        "outcome": "adopted",
-        "votes": [
-          {
-            "member": "Jerry Halpin",
-            "vote": "yes"
-          },
-          {
-            "member": "Ken Rothwell",
-            "vote": "yes"
-          },
-          {
-            "member": "Bob Kern",
-            "vote": "yes"
-          },
-          {
-            "member": "Denise Merrifield",
-            "vote": "yes"
-          },
-          {
-            "member": "Joann Waski",
-            "vote": "yes"
-          }
-        ],
-        "unanimous": true,
-        "confidence": "high",
-        "timestamp_s": null
-      },
-      {
-        "kind": "resolution",
-        "number": "2026-481",
-        "title": "Ratifies Reappointment of Seasonal Pump Out Boat Operator",
-        "outcome": "adopted",
-        "votes": [
-          {
-            "member": "Jerry Halpin",
-            "vote": "yes"
-          },
-          {
-            "member": "Ken Rothwell",
-            "vote": "yes"
-          },
-          {
-            "member": "Bob Kern",
-            "vote": "yes"
-          },
-          {
-            "member": "Denise Merrifield",
-            "vote": "yes"
-          },
-          {
-            "member": "Joann Waski",
-            "vote": "yes"
-          }
-        ],
-        "unanimous": true,
-        "confidence": "high",
-        "timestamp_s": null
-      },
-      {
-        "kind": "resolution",
-        "number": "2026-482",
-        "title": "Ratifies Appointment of Call-In Bus Driver to Recreation Department",
-        "outcome": "adopted",
-        "votes": [
-          {
-            "member": "Jerry Halpin",
-            "vote": "yes"
-          },
-          {
-            "member": "Ken Rothwell",
-            "vote": "yes"
-          },
-          {
-            "member": "Bob Kern",
-            "vote": "yes"
-          },
-          {
-            "member": "Denise Merrifield",
-            "vote": "yes"
-          },
-          {
-            "member": "Joann Waski",
-            "vote": "yes"
-          }
-        ],
-        "unanimous": true,
-        "confidence": "high",
-        "timestamp_s": null
-      },
-      {
-        "kind": "resolution",
-        "number": "2026-483",
-        "title": "Approves a Temporary Part-time Account Clerk",
-        "outcome": "adopted",
-        "votes": [
-          {
-            "member": "Jerry Halpin",
-            "vote": "yes"
-          },
-          {
-            "member": "Ken Rothwell",
-            "vote": "yes"
-          },
-          {
-            "member": "Bob Kern",
-            "vote": "yes"
-          },
-          {
-            "member": "Denise Merrifield",
-            "vote": "yes"
-          },
-          {
-            "member": "Joann Waski",
-            "vote": "yes"
-          }
-        ],
-        "unanimous": true,
-        "confidence": "high",
-        "timestamp_s": null
-      },
-      {
-        "kind": "resolution",
-        "number": "2026-484",
-        "title": "Appoints Public Safety Dispatchers to the Police Department",
-        "outcome": "adopted",
-        "votes": [
-          {
-            "member": "Jerry Halpin",
-            "vote": "yes"
-          },
-          {
-            "member": "Ken Rothwell",
-            "vote": "yes"
-          },
-          {
-            "member": "Bob Kern",
-            "vote": "yes"
-          },
-          {
-            "member": "Denise Merrifield",
-            "vote": "yes"
-          },
-          {
-            "member": "Joann Waski",
-            "vote": "yes"
-          }
-        ],
-        "unanimous": true,
-        "confidence": "high",
-        "timestamp_s": null
-      },
-      {
-        "kind": "resolution",
-        "number": "2026-485",
-        "title": "Appoints Maintenance Mechanic II to the Water District",
-        "outcome": "adopted",
-        "votes": [
-          {
-            "member": "Jerry Halpin",
-            "vote": "yes"
-          },
-          {
-            "member": "Ken Rothwell",
-            "vote": "yes"
-          },
-          {
-            "member": "Bob Kern",
-            "vote": "yes"
-          },
-          {
-            "member": "Denise Merrifield",
-            "vote": "yes"
-          },
-          {
-            "member": "Joann Waski",
-            "vote": "yes"
-          }
-        ],
-        "unanimous": true,
-        "confidence": "high",
-        "timestamp_s": null
-      },
-      {
-        "kind": "resolution",
-        "number": "2026-486",
-        "title": "Appoints Student Intern II to the Town Attorney's Office",
-        "outcome": "adopted",
-        "votes": [
-          {
-            "member": "Jerry Halpin",
-            "vote": "yes"
-          },
-          {
-            "member": "Ken Rothwell",
-            "vote": "yes"
-          },
-          {
-            "member": "Bob Kern",
-            "vote": "yes"
-          },
-          {
-            "member": "Denise Merrifield",
-            "vote": "yes"
-          },
-          {
-            "member": "Joann Waski",
-            "vote": "yes"
-          }
-        ],
-        "unanimous": true,
-        "confidence": "high",
-        "timestamp_s": null
-      },
-      {
-        "kind": "resolution",
-        "number": "2026-487",
-        "title": "Provisionally Appoints a Youth Counselor",
-        "outcome": "adopted",
-        "votes": [
-          {
-            "member": "Jerry Halpin",
-            "vote": "yes"
-          },
-          {
-            "member": "Ken Rothwell",
-            "vote": "yes"
-          },
-          {
-            "member": "Bob Kern",
-            "vote": "yes"
-          },
-          {
-            "member": "Denise Merrifield",
-            "vote": "yes"
-          },
-          {
-            "member": "Joann Waski",
-            "vote": "yes"
-          }
-        ],
-        "unanimous": true,
-        "confidence": "high",
-        "timestamp_s": null
-      },
-      {
-        "kind": "resolution",
-        "number": "2026-488",
-        "title": "Ratifies the Termination of an Employee",
-        "outcome": "adopted",
-        "votes": [
-          {
-            "member": "Jerry Halpin",
-            "vote": "yes"
-          },
-          {
-            "member": "Ken Rothwell",
-            "vote": "yes"
-          },
-          {
-            "member": "Bob Kern",
-            "vote": "yes"
-          },
-          {
-            "member": "Denise Merrifield",
-            "vote": "yes"
-          },
-          {
-            "member": "Joann Waski",
-            "vote": "yes"
-          }
-        ],
-        "unanimous": true,
-        "confidence": "high",
-        "timestamp_s": null
-      },
-      {
-        "kind": "resolution",
-        "number": "2026-489",
-        "title": "Accepts the Resignation of a Maintenance Mechanic II",
-        "outcome": "adopted",
-        "votes": [
-          {
-            "member": "Joann Waski",
-            "vote": "yes"
-          },
-          {
-            "member": "Denise Merrifield",
-            "vote": "yes"
-          },
-          {
-            "member": "Bob Kern",
-            "vote": "yes"
-          },
-          {
-            "member": "Ken Rothwell",
-            "vote": "yes"
-          },
-          {
-            "member": "Jerry Halpin",
-            "vote": "yes"
-          }
-        ],
-        "unanimous": true,
-        "confidence": "high",
-        "timestamp_s": 13501
+        "timestamp_s": 9762
       },
       {
         "kind": "resolution",
@@ -26875,7 +26885,7 @@
       {
         "kind": "resolution",
         "number": "2026-491",
-        "title": "Reappoints Frank Petitregani to Recreation Advisory Committee",
+        "title": "Reappoints Frank Petitregani to the Recreation Advisory Committee",
         "outcome": "adopted",
         "votes": [
           {
@@ -26901,12 +26911,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 13539
+        "timestamp_s": 13535
       },
       {
         "kind": "resolution",
         "number": "2026-494",
-        "title": "Reappoints Monique Parsons to Recreation Advisory Committee",
+        "title": "Reappoints Monique Parsons to the Recreation Advisory Committee",
         "outcome": "adopted",
         "votes": [
           {
@@ -26937,7 +26947,7 @@
       {
         "kind": "resolution",
         "number": "2026-495",
-        "title": "Reappoints Shannon Reese to Recreation Advisory Committee",
+        "title": "Reappoint Shannon Reese to the Recreation Advisory Committee",
         "outcome": "adopted",
         "votes": [
           {
@@ -26963,12 +26973,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 13607
+        "timestamp_s": 13604
       },
       {
         "kind": "resolution",
         "number": "2026-496",
-        "title": "Reappoints Marjorie Acevedo to Recreation Advisory Committee",
+        "title": "Reappoints Marjorie Acevedo to the Recreation Advisory Committee",
         "outcome": "adopted",
         "votes": [
           {
@@ -26994,12 +27004,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 13622
+        "timestamp_s": 13620
       },
       {
         "kind": "resolution",
         "number": "2026-497",
-        "title": "Reappoints Dwayne Eliezer to Recreation Advisory Committee",
+        "title": "Reappoints Dwayne Eliezer to the Recreation Advisory Committee",
         "outcome": "adopted",
         "votes": [
           {
@@ -27025,12 +27035,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 13637
+        "timestamp_s": 13634
       },
       {
         "kind": "resolution",
-        "number": "2026-498",
-        "title": "Amends Resolution 2026-305 Appointing Joe Oliver to Parking District Advisory Committee",
+        "number": "2026-305",
+        "title": "Appointing Joe Oliver to the Parking District Advisory Committee",
         "outcome": "adopted",
         "votes": [
           {
@@ -27087,12 +27097,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 13684
+        "timestamp_s": 13682
       },
       {
         "kind": "resolution",
         "number": "2026-500",
-        "title": "Authorizes RFQ for Engineering Services for Water Main Boundary Extensions 95-97",
+        "title": "Authorizes RFQ for Engineering Services for Water Mains Boundary Extensions",
         "outcome": "adopted",
         "votes": [
           {
@@ -27123,7 +27133,7 @@
       {
         "kind": "resolution",
         "number": "2026-501",
-        "title": "Authorizes Publication of Public Hearing Notice for Special Permit and Site Plan",
+        "title": "Authorizes Publish/Post Notice for Public Hearing - Special Permit and Site Plan Application",
         "outcome": "adopted",
         "votes": [
           {
@@ -27144,13 +27154,13 @@
           }
         ],
         "unanimous": true,
-        "confidence": "low",
+        "confidence": "high",
         "timestamp_s": 13734
       },
       {
         "kind": "resolution",
         "number": "2026-502",
-        "title": "Adopts Local Law Amending Chapter 279 - Volunteer Firefighter/Ambulance Exemption",
+        "title": "Local Law Amending Chapter 279 - Volunteer Firefighters and Ambulance Workers Exemption",
         "outcome": "adopted",
         "votes": [
           {
@@ -27176,12 +27186,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 13781
+        "timestamp_s": 13779
       },
       {
         "kind": "resolution",
         "number": "2026-503",
-        "title": "Adopts Local Law Amending Chapter 273 - Solid Waste Provisions",
+        "title": "Local Law Amending Chapter 273 - Solid Waste Article 5",
         "outcome": "adopted",
         "votes": [
           {
@@ -27207,7 +27217,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 13807
+        "timestamp_s": 13803
       },
       {
         "kind": "resolution",
@@ -27238,12 +27248,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 13822
+        "timestamp_s": 13820
       },
       {
         "kind": "resolution",
         "number": "2026-505",
-        "title": "Grants Extension of Final Site Plan Approval - Zenith Building",
+        "title": "Grants Extension of Final Site Plan Approval - Zenith Building 12 McDermott Avenue",
         "outcome": "adopted",
         "votes": [
           {
@@ -27260,13 +27270,13 @@
           }
         ],
         "unanimous": true,
-        "confidence": "low",
+        "confidence": "high",
         "timestamp_s": 13844
       },
       {
         "kind": "resolution",
         "number": "2026-507",
-        "title": "Approve Special Event Application - Racetrack 2027 Summer Classic",
+        "title": "Approve Special Event Application - Racetrack Not Street 2027 Summer Classic",
         "outcome": "adopted",
         "votes": [
           {
@@ -27292,7 +27302,34 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 13894
+        "timestamp_s": 13890
+      },
+      {
+        "kind": "resolution",
+        "number": "2026-508",
+        "title": "Approve Special Event Application - Railroad Museum of Long Island Riverhead Railroad Festival 2026",
+        "outcome": "adopted",
+        "votes": [
+          {
+            "member": "Joann Waski",
+            "vote": "yes"
+          },
+          {
+            "member": "Bob Kern",
+            "vote": "yes"
+          },
+          {
+            "member": "Ken Rothwell",
+            "vote": "yes"
+          },
+          {
+            "member": "Jerry Halpin",
+            "vote": "yes"
+          }
+        ],
+        "unanimous": true,
+        "confidence": "high",
+        "timestamp_s": 13912
       },
       {
         "kind": "resolution",
@@ -27323,7 +27360,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 13975
+        "timestamp_s": 13971
       },
       {
         "kind": "resolution",
@@ -27359,7 +27396,7 @@
       {
         "kind": "resolution",
         "number": "2026-513",
-        "title": "Approve Special Event Application - Jamesport Firemen's Association Carnival Bazaar",
+        "title": "Approve Special Event Application - Jamesport Firemen's Association Annual Carnival Bazaar",
         "outcome": "adopted",
         "votes": [
           {
@@ -27390,7 +27427,7 @@
       {
         "kind": "resolution",
         "number": "2026-514",
-        "title": "Authorizes Co-Sponsorship of Duck Pond Day 2026",
+        "title": "Authorizes Co-sponsorship of Duck Pond Day",
         "outcome": "adopted",
         "votes": [
           {
@@ -27421,7 +27458,7 @@
       {
         "kind": "resolution",
         "number": "2026-515",
-        "title": "Authorizes Alcohol Service Vendors - Mosaic Street Painting Festival 2026",
+        "title": "Authorizes Designated Alcohol Service Vendors - Community Mosaic Street Painting Festival 2026",
         "outcome": "adopted",
         "votes": [
           {
@@ -27447,12 +27484,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 14055
+        "timestamp_s": 14053
       },
       {
         "kind": "resolution",
         "number": "2026-516",
-        "title": "Authorizes Alcohol Service Vendors - 2026 Duck Pond Day Street Festival",
+        "title": "Authorizes Designated Alcohol Service Vendors - 2026 Duck Pond Day Street Festival",
         "outcome": "adopted",
         "votes": [
           {
@@ -27478,12 +27515,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 14077
+        "timestamp_s": 14075
       },
       {
         "kind": "resolution",
         "number": "2026-517",
-        "title": "Authorizes Chief of Police to Execute Student Intern Agreement",
+        "title": "Authorizes Chief of Police to Execute a Student Intern Agreement",
         "outcome": "adopted",
         "votes": [
           {
@@ -27514,7 +27551,7 @@
       {
         "kind": "resolution",
         "number": "2026-519",
-        "title": "Authorizes Supervisor to Sign LIPA PILOT Agreement 2025-2026",
+        "title": "Authorizes Supervisor to Sign Payment in Lieu of Taxes Agreement with LIPA 2025-2026",
         "outcome": "adopted",
         "votes": [
           {
@@ -27545,7 +27582,7 @@
       {
         "kind": "resolution",
         "number": "2026-520",
-        "title": "Authorizes Letter of Intent with YMCA for Former NYS Armory Redevelopment",
+        "title": "Authorizes Supervisor to Execute Letter of Intent with YMCA for Former Armory Redevelopment",
         "outcome": "adopted",
         "votes": [
           {
@@ -27571,7 +27608,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 14190
+        "timestamp_s": 14185
       },
       {
         "kind": "resolution",
@@ -27620,13 +27657,13 @@
           }
         ],
         "unanimous": true,
-        "confidence": "low",
+        "confidence": "high",
         "timestamp_s": 14223
       },
       {
         "kind": "resolution",
         "number": "2026-523",
-        "title": "Authorize Settlement of Legal Action - Patrick Gulatta v. Town of Riverhead",
+        "title": "Authorize Settlement of Legal Action by Patrick Gulatta Against the Town",
         "outcome": "adopted",
         "votes": [
           {
@@ -27683,12 +27720,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 14258
+        "timestamp_s": 14256
       },
       {
         "kind": "resolution",
         "number": "2026-525",
-        "title": "Authorizes Amendment/Extension Agreement with Parking and Mobility Consultants",
+        "title": "Authorizes Supervisor to Execute Amendment/Extension Agreement with Parking and Mobility Consultants",
         "outcome": "adopted",
         "votes": [
           {
@@ -27719,7 +27756,7 @@
       {
         "kind": "resolution",
         "number": "2026-526",
-        "title": "Authorizes Agreement with Riverhead Business Improvement District Management Assoc.",
+        "title": "Authorizes Supervisor to Execute Agreement with Riverhead Business Improvement District Management Association",
         "outcome": "adopted",
         "votes": [
           {

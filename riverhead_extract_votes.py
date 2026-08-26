@@ -56,7 +56,7 @@ CATEGORY        = "Town Board"
 PROMPT_VERSION  = "1"                      # bump to invalidate old extractions
 MIN_WORDS       = 300                      # below this, nothing to extract
 
-MAX_TOKENS_OUT  = 16000                    # raised for the Sonnet 5 tokenizer (~30% more)
+MAX_TOKENS_OUT  = 24000                    # Sonnet 5 tokenizer + repeated block-vote anchors
 
 # USD per 1M tokens (input, output). Longest matching prefix wins.
 MODEL_PRICING = {
@@ -149,9 +149,28 @@ SYSTEM = (
     "describe generically if unsure.\n"
     "- outcome must be one of: adopted, defeated, tabled, amended, withdrawn, "
     "held (public hearing held/closed), unknown.\n"
-    "- anchor_quote: 8 to 12 words copied VERBATIM from the transcript at the "
-    "moment of the vote or action (used to locate the video timestamp). Copy "
-    "exactly, including any transcription errors.\n"
+    "- anchor_quote: 8 to 12 words of SPOKEN WORDS copied VERBATIM from the "
+    "TRANSCRIPT section at the moment of the vote or action. Copy exactly, "
+    "including any transcription errors. This is used to find the moment in "
+    "the video recording, so it MUST be words a person actually said.\n"
+    "- anchor_quote must NEVER be copied from the OFFICIAL DOCUMENT. That "
+    "document is printed minutes, not speech, and none of its text exists in "
+    "the recording. Never emit document boilerplate such as 'RESULT: ADOPTED "
+    "[UNANIMOUS]', 'MOVER: Councilman ...', 'SECONDER: ...', 'AYES:', or "
+    "'APPROVE ADOPTED'. A quote like that is worse than no quote.\n"
+    "- Prefer each item's OWN spoken moment. Riverhead usually reads each "
+    "resolution number aloud and takes its own vote, so most items have a "
+    "distinct quote a few seconds apart. Use it.\n"
+    "- ONLY when the board truly adopts a block on ONE motion and ONE roll "
+    "call, with no individual reading, give every item in that block the "
+    "same anchor_quote: the spoken words of that single motion. Consecutive "
+    "resolution numbers alone do NOT make a block.\n"
+    "- Only if the moment is genuinely absent from the transcript, set "
+    "anchor_quote to null. Null is correct for a vote that was never "
+    "spoken on the recording, and a fabricated or document-sourced quote "
+    "corrupts the public record. But do NOT default to null: search the "
+    "transcript for the item first. Nearby speech that clearly accompanies "
+    "the action is better than nothing.\n"
     "- Be terse: titles under 15 words, no commentary fields. Meetings can "
     "have 50+ items; compactness keeps the full list intact.\n"
     "- Output MUST be a single valid JSON object and nothing else. votes is an "

@@ -7556,18 +7556,18 @@
     "truncated": false,
     "model": "claude-sonnet-5",
     "prompt_version": "1",
-    "generated_at": "2026-08-25T20:26:47+00:00",
+    "generated_at": "2026-08-26T02:20:45+00:00",
     "grounded_in": "Minutes",
     "items": [
       {
         "kind": "hearing_action",
         "number": null,
-        "title": "Amend Chapter 189 - No Parking Certain Hours (Northern Parkway)",
+        "title": "Amend Chapter 189 - No Parking Certain Hours",
         "outcome": "held",
         "votes": [],
         "unanimous": false,
         "confidence": "low",
-        "timestamp_s": null
+        "timestamp_s": 1022
       },
       {
         "kind": "resolution",
@@ -7644,7 +7644,7 @@
       {
         "kind": "resolution",
         "number": "2026-198",
-        "title": "Authorizes Purchasing Director to Attend NYS Municipal Purchasing Officials Conference",
+        "title": "Authorizes Purchasing Director to Attend Annual NYS Municipal Purchasing Officials Conference",
         "outcome": "adopted",
         "votes": [
           {
@@ -7772,6 +7772,10 @@
         "outcome": "adopted",
         "votes": [
           {
+            "member": "Joann Waski",
+            "vote": "yes"
+          },
+          {
             "member": "Denise Merrifield",
             "vote": "yes"
           },
@@ -7789,7 +7793,7 @@
           }
         ],
         "unanimous": true,
-        "confidence": "low",
+        "confidence": "high",
         "timestamp_s": 1226
       },
       {
@@ -7831,7 +7835,7 @@
         "votes": [],
         "unanimous": false,
         "confidence": "low",
-        "timestamp_s": 1264
+        "timestamp_s": 1310
       },
       {
         "kind": "resolution",
@@ -7992,12 +7996,12 @@
         "votes": [],
         "unanimous": false,
         "confidence": "low",
-        "timestamp_s": 1307
+        "timestamp_s": 1263
       },
       {
-        "kind": "resolution",
-        "number": "2026-211",
-        "title": "Amend Community Project Funding Application for Water District Extensions 96/97",
+        "kind": "motion",
+        "number": null,
+        "title": "Amend Resolution 211 funding amount to $4,092,000",
         "outcome": "amended",
         "votes": [
           {
@@ -8023,12 +8027,43 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 1456
+        "timestamp_s": 1451
+      },
+      {
+        "kind": "resolution",
+        "number": "2026-211",
+        "title": "Authorizes Community Development to Apply for Congressionally Directed Spending, RWD EXT 96/97 and Police Equipment",
+        "outcome": "adopted",
+        "votes": [
+          {
+            "member": "Joann Waski",
+            "vote": "yes"
+          },
+          {
+            "member": "Denise Merrifield",
+            "vote": "yes"
+          },
+          {
+            "member": "Bob Kern",
+            "vote": "yes"
+          },
+          {
+            "member": "Ken Rothwell",
+            "vote": "yes"
+          },
+          {
+            "member": "Jerry Halpin",
+            "vote": "yes"
+          }
+        ],
+        "unanimous": true,
+        "confidence": "high",
+        "timestamp_s": 1490
       },
       {
         "kind": "resolution",
         "number": "2026-212",
-        "title": "Special Event Application for East End Arts & Humanities Council Mosaic Festival",
+        "title": "Special Event Application - East End Arts & Humanities Council Mosaic Street Painting",
         "outcome": "adopted",
         "votes": [
           {
@@ -8059,7 +8094,7 @@
       {
         "kind": "resolution",
         "number": "2026-213",
-        "title": "Special Event Application for Jamesport Farm Brewery Food Truck Rodeo",
+        "title": "Special Event Application - Jamesport Farm Brewery Food Truck Rodeo",
         "outcome": "adopted",
         "votes": [
           {
@@ -8090,7 +8125,7 @@
       {
         "kind": "resolution",
         "number": "2026-214",
-        "title": "Special Event Application for Jamesport Farm Brewery Car Show",
+        "title": "Special Event Application - Jamesport Farm Brewery Car Show",
         "outcome": "adopted",
         "votes": [
           {
@@ -8121,7 +8156,7 @@
       {
         "kind": "resolution",
         "number": "2026-215",
-        "title": "Special Event Application for Jamesport Farm Brewery Fresh Hop Festival",
+        "title": "Special Event Application - Jamesport Farm Brewery Fresh Hop Festival",
         "outcome": "adopted",
         "votes": [
           {
@@ -8152,7 +8187,7 @@
       {
         "kind": "resolution",
         "number": "2026-216",
-        "title": "Special Event Application for Rise Life Services Car Show 2026",
+        "title": "Special Event Application - Rise Life Services Car Show 2026",
         "outcome": "adopted",
         "votes": [
           {
@@ -8181,9 +8216,9 @@
         "timestamp_s": 1165
       },
       {
-        "kind": "resolution",
-        "number": "2026-217",
-        "title": "Amend Public Notice Date for Use Tenancy Permit Fire Marshal Review",
+        "kind": "motion",
+        "number": null,
+        "title": "Amend public notice date on Resolution 217 to March 3, 2026",
         "outcome": "amended",
         "votes": [
           {
@@ -8209,13 +8244,75 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 1647
+        "timestamp_s": 1644
+      },
+      {
+        "kind": "resolution",
+        "number": "2026-217",
+        "title": "Notice to Consider Amendment to Chapter 231 Use Tenancy Permit - Fire Marshal Review",
+        "outcome": "adopted",
+        "votes": [
+          {
+            "member": "Joann Waski",
+            "vote": "yes"
+          },
+          {
+            "member": "Denise Merrifield",
+            "vote": "yes"
+          },
+          {
+            "member": "Bob Kern",
+            "vote": "yes"
+          },
+          {
+            "member": "Ken Rothwell",
+            "vote": "yes"
+          },
+          {
+            "member": "Jerry Halpin",
+            "vote": "yes"
+          }
+        ],
+        "unanimous": true,
+        "confidence": "high",
+        "timestamp_s": 1675
+      },
+      {
+        "kind": "motion",
+        "number": null,
+        "title": "Amend Resolution 218 article and section numbers",
+        "outcome": "amended",
+        "votes": [
+          {
+            "member": "Joann Waski",
+            "vote": "yes"
+          },
+          {
+            "member": "Denise Merrifield",
+            "vote": "yes"
+          },
+          {
+            "member": "Bob Kern",
+            "vote": "yes"
+          },
+          {
+            "member": "Ken Rothwell",
+            "vote": "yes"
+          },
+          {
+            "member": "Jerry Halpin",
+            "vote": "yes"
+          }
+        ],
+        "unanimous": true,
+        "confidence": "high",
+        "timestamp_s": 1784
       },
       {
         "kind": "resolution",
         "number": "2026-218",
-        "title": "Amend Article/Section References for Chapter 217 Change of Tenancy Notice",
-        "outcome": "amended",
+        "title": "Notice to Consider Amendment to Chapter 217 Change of Tenancy",
+        "outcome": "adopted",
         "votes": [
           {
             "member": "Joann Waski",
@@ -8240,12 +8337,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 1791
+        "timestamp_s": 1827
       },
       {
         "kind": "resolution",
         "number": "2026-219",
-        "title": "Authorizes Notice to Consider Local Law Amending Chapter 231 Fire Prevention",
+        "title": "Notice to Consider Local Law Amending Chapter 231 Fire Prevention, Article III",
         "outcome": "adopted",
         "votes": [
           {

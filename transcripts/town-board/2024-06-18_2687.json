@@ -11261,19 +11261,9 @@
     "truncated": false,
     "model": "claude-sonnet-5",
     "prompt_version": "1",
-    "generated_at": "2026-08-25T21:28:47+00:00",
+    "generated_at": "2026-08-26T02:08:51+00:00",
     "grounded_in": null,
     "items": [
-      {
-        "kind": "hearing_action",
-        "number": null,
-        "title": "Local law amending Chapter 221 (CPF water quality subcommittee)",
-        "outcome": "held",
-        "votes": [],
-        "unanimous": false,
-        "confidence": "low",
-        "timestamp_s": 773
-      },
       {
         "kind": "resolution",
         "number": "2024-563",
@@ -11303,7 +11293,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 1483
+        "timestamp_s": 915
       },
       {
         "kind": "resolution",
@@ -11334,7 +11324,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 1504
+        "timestamp_s": 915
       },
       {
         "kind": "resolution",
@@ -11365,12 +11355,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 1534
+        "timestamp_s": 1519
       },
       {
         "kind": "resolution",
         "number": "2024-566",
-        "title": "Approves Affordable Cesspool Sewer and Drain Service Inc as drain layer",
+        "title": "Approves affordable cesspool sewer and drain service as a drain layer",
         "outcome": "adopted",
         "votes": [
           {
@@ -11396,27 +11386,17 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 954
+        "timestamp_s": 918
       },
       {
-        "kind": "motion",
-        "number": null,
-        "title": "Appoints seasonal recreation leader (points of seasonal recreation)",
-        "outcome": "adopted",
-        "votes": [],
-        "unanimous": false,
-        "confidence": "low",
-        "timestamp_s": 1108
-      },
-      {
-        "kind": "motion",
+        "kind": "resolution",
         "number": "2024-567",
-        "title": "Table resolution establishing CPF preservation committee",
+        "title": "Committee formation related to Peconic Bay preservation fund subcommittee",
         "outcome": "tabled",
         "votes": [],
         "unanimous": false,
         "confidence": "low",
-        "timestamp_s": 1617
+        "timestamp_s": 1584
       },
       {
         "kind": "resolution",
@@ -11426,6 +11406,10 @@
         "votes": [
           {
             "member": "Joann Waski",
+            "vote": "yes"
+          },
+          {
+            "member": "Denise Merrifield",
             "vote": "yes"
           },
           {
@@ -11443,7 +11427,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 1644
+        "timestamp_s": 1659
       },
       {
         "kind": "resolution",
@@ -11479,7 +11463,7 @@
       {
         "kind": "resolution",
         "number": "2024-570",
-        "title": "Authorizes publish/post notice to extend Calverton industrial moratorium",
+        "title": "Authorizes publication and posting of notice to extend Calverton industrial moratorium",
         "outcome": "adopted",
         "votes": [
           {
@@ -11510,7 +11494,7 @@
       {
         "kind": "resolution",
         "number": "2024-572",
-        "title": "Assumes lead agency, issues negative declaration for Hildreth Real Estate site plan",
+        "title": "Assumes lead agency and issues negative declaration for Hildreth Real Estate site plan, Scott Avenue",
         "outcome": "adopted",
         "votes": [
           {
@@ -11536,12 +11520,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 1740
+        "timestamp_s": 1665
       },
       {
         "kind": "resolution",
         "number": "2024-573",
-        "title": "Authorizes publish/post notice of public hearing for Hildreth Real Estate site plan",
+        "title": "Authorizes publish and post notice of public hearing for Hildreth Real Estate site plan",
         "outcome": "adopted",
         "votes": [
           {
@@ -11567,20 +11551,15 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 1777
+        "timestamp_s": 1665
       },
       {
         "kind": "resolution",
         "number": "2024-574",
-        "title": "Personnel appointment (committee/Gabelson)",
+        "title": "Appointment related to committee (Gabelson)",
         "outcome": "adopted",
-        "votes": [
-          {
-            "member": "Joann Waski",
-            "vote": "yes"
-          }
-        ],
-        "unanimous": true,
+        "votes": [],
+        "unanimous": false,
         "confidence": "low",
         "timestamp_s": 1808
       },
@@ -11589,13 +11568,8 @@
         "number": "2024-575",
         "title": "Appoints a maintenance mechanic",
         "outcome": "adopted",
-        "votes": [
-          {
-            "member": "Joann Waski",
-            "vote": "yes"
-          }
-        ],
-        "unanimous": true,
+        "votes": [],
+        "unanimous": false,
         "confidence": "low",
         "timestamp_s": 1829
       },
@@ -11604,13 +11578,8 @@
         "number": "2024-576",
         "title": "Appoints a seasonal recreation leader to the recreation department",
         "outcome": "adopted",
-        "votes": [
-          {
-            "member": "Joann Waski",
-            "vote": "yes"
-          }
-        ],
-        "unanimous": true,
+        "votes": [],
+        "unanimous": false,
         "confidence": "low",
         "timestamp_s": 1842
       },
@@ -11643,12 +11612,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 1858
+        "timestamp_s": 1864
       },
       {
         "kind": "resolution",
         "number": "2024-578",
-        "title": "Appoints a justice court clerk, Spanish speaking",
+        "title": "Appoints a Spanish-speaking justice court clerk",
         "outcome": "adopted",
         "votes": [
           {
@@ -11674,14 +11643,18 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 1871
+        "timestamp_s": 1864
       },
       {
         "kind": "resolution",
         "number": "2024-579",
-        "title": "Amends terms and conditions of employment of a deputy fire marshal",
+        "title": "Amends terms and conditions of employment of a deputy fire marshal (retirement)",
         "outcome": "adopted",
         "votes": [
+          {
+            "member": "Joann Waski",
+            "vote": "yes"
+          },
           {
             "member": "Denise Merrifield",
             "vote": "yes"
@@ -11700,8 +11673,8 @@
           }
         ],
         "unanimous": true,
-        "confidence": "low",
-        "timestamp_s": null
+        "confidence": "high",
+        "timestamp_s": 1924
       },
       {
         "kind": "resolution",
@@ -11732,12 +11705,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 1955
+        "timestamp_s": 1968
       },
       {
         "kind": "resolution",
         "number": "2024-582",
-        "title": "Amends terms and conditions of employment for William Rothaar",
+        "title": "Ratifies authorization to amend terms and conditions of employment for William Rothaar",
         "outcome": "adopted",
         "votes": [
           {
@@ -11763,7 +11736,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 1984
+        "timestamp_s": 1958
       },
       {
         "kind": "resolution",
@@ -11794,12 +11767,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 2007
+        "timestamp_s": 2021
       },
       {
         "kind": "resolution",
         "number": "2024-584",
-        "title": "Ratifies the appointment of a senior citizen aide",
+        "title": "Ratifies appointment of a senior citizen aide",
         "outcome": "adopted",
         "votes": [
           {
@@ -11825,12 +11798,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 2028
+        "timestamp_s": 1958
       },
       {
         "kind": "resolution",
         "number": "2024-586",
-        "title": "Ratifies alcohol service vendor for Reflections in the Park event",
+        "title": "Ratifies authorization to designate alcohol service vendor for Reflections at the Park event",
         "outcome": "adopted",
         "votes": [
           {
@@ -11856,7 +11829,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 2044
+        "timestamp_s": 1959
       },
       {
         "kind": "resolution",
@@ -11879,11 +11852,15 @@
           {
             "member": "Ken Rothwell",
             "vote": "yes"
+          },
+          {
+            "member": "Tim Hubbard",
+            "vote": "yes"
           }
         ],
         "unanimous": true,
-        "confidence": "low",
-        "timestamp_s": 2087
+        "confidence": "high",
+        "timestamp_s": 2011
       },
       {
         "kind": "resolution",
@@ -11914,7 +11891,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 2135
+        "timestamp_s": 1519
       },
       {
         "kind": "resolution",
@@ -11937,12 +11914,12 @@
         ],
         "unanimous": true,
         "confidence": "low",
-        "timestamp_s": 2155
+        "timestamp_s": 1519
       },
       {
         "kind": "resolution",
         "number": "2024-591",
-        "title": "Authorizes contract with NYS OPRHP for $500,000 grant for riverfront playground",
+        "title": "Authorizes contract with NYS Parks Recreation for playground grant up to $500,000",
         "outcome": "adopted",
         "votes": [
           {
@@ -11955,7 +11932,7 @@
           },
           {
             "member": "Bob Kern",
-            "vote": "yes"
+            "vote": "abstain"
           },
           {
             "member": "Ken Rothwell",
@@ -11966,14 +11943,14 @@
             "vote": "yes"
           }
         ],
-        "unanimous": true,
+        "unanimous": false,
         "confidence": "high",
-        "timestamp_s": 2172
+        "timestamp_s": 2195
       },
       {
         "kind": "resolution",
         "number": "2024-592",
-        "title": "Authorizes town attorney to execute agreement with Municipal Valuation Services Inc",
+        "title": "Authorizes town attorney to execute agreement with Municipal Valuation Services, Inc.",
         "outcome": "adopted",
         "votes": [
           {
@@ -11999,7 +11976,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 2205
+        "timestamp_s": 1519
       },
       {
         "kind": "resolution",
@@ -12030,7 +12007,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 2229
+        "timestamp_s": 1519
       },
       {
         "kind": "resolution",
@@ -12061,12 +12038,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 2247
+        "timestamp_s": 1519
       },
       {
         "kind": "resolution",
         "number": "2024-595",
-        "title": "Approves special event application for Iglesia Familia de Dios",
+        "title": "Approves special event application for Iglesia Familia de Deas",
         "outcome": "adopted",
         "votes": [
           {
@@ -12092,7 +12069,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 2264
+        "timestamp_s": 1519
       },
       {
         "kind": "resolution",
@@ -12123,12 +12100,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 2290
+        "timestamp_s": 1519
       },
       {
         "kind": "resolution",
         "number": "2024-597",
-        "title": "Approves special event application for Wattendorf Farm Garlic Fest",
+        "title": "Approves special event application for Water Drinker Farm Garlic Fest",
         "outcome": "adopted",
         "votes": [
           {
@@ -12154,7 +12131,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 2307
+        "timestamp_s": 2323
       },
       {
         "kind": "resolution",
@@ -12185,12 +12162,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 2326
+        "timestamp_s": 1519
       },
       {
         "kind": "resolution",
         "number": "2024-599",
-        "title": "Town Hall LED lighting conversion project",
+        "title": "Town hall LED lighting conversion project",
         "outcome": "adopted",
         "votes": [
           {
@@ -12216,12 +12193,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 2360
+        "timestamp_s": 1489
       },
       {
-        "kind": "motion",
+        "kind": "resolution",
         "number": "2024-571",
-        "title": "Amend public notice/dates for moratorium extension hearing",
+        "title": "Amends moratorium extension resolution to correct hearing date and publication date",
         "outcome": "amended",
         "votes": [
           {
@@ -12242,13 +12219,13 @@
           }
         ],
         "unanimous": true,
-        "confidence": "low",
+        "confidence": "high",
         "timestamp_s": 2429
       },
       {
         "kind": "motion",
         "number": null,
-        "title": "Close CDA meeting and return to Town Board meeting",
+        "title": "CDA: close CDA meeting and return to town board meeting",
         "outcome": "adopted",
         "votes": [
           {
@@ -12277,9 +12254,19 @@
         "timestamp_s": 2628
       },
       {
+        "kind": "hearing_action",
+        "number": null,
+        "title": "Public hearing on local law amending chapter 221 (CPF committees)",
+        "outcome": "held",
+        "votes": [],
+        "unanimous": false,
+        "confidence": "low",
+        "timestamp_s": 773
+      },
+      {
         "kind": "motion",
         "number": null,
-        "title": "Motion to adjourn",
+        "title": "Motion to adjourn the meeting",
         "outcome": "adopted",
         "votes": [],
         "unanimous": false,

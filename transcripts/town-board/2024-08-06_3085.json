@@ -7301,7 +7301,7 @@
     "truncated": false,
     "model": "claude-sonnet-5",
     "prompt_version": "1",
-    "generated_at": "2026-08-25T21:24:52+00:00",
+    "generated_at": "2026-08-26T02:10:51+00:00",
     "grounded_in": null,
     "items": [
       {
@@ -7327,7 +7327,7 @@
       {
         "kind": "hearing_action",
         "number": null,
-        "title": "Chapter 251 Noise and Public Nuisances amendment",
+        "title": "Chapter 251 Noise and public nuisances amendment",
         "outcome": "held",
         "votes": [],
         "unanimous": false,
@@ -7337,7 +7337,7 @@
       {
         "kind": "hearing_action",
         "number": null,
-        "title": "Chapter 217 Front Yard Parking Restrictions amendment",
+        "title": "Chapter 217 front yard parking restrictions amendment",
         "outcome": "held",
         "votes": [],
         "unanimous": false,
@@ -7347,7 +7347,7 @@
       {
         "kind": "resolution",
         "number": "2024-680",
-        "title": "Ratifies change order four for Town Hall renovation",
+        "title": "Ratifies change order 4 for Town Hall renovation",
         "outcome": "adopted",
         "votes": [
           {
@@ -7373,12 +7373,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 2343
+        "timestamp_s": 2329
       },
       {
         "kind": "resolution",
         "number": "2024-681",
-        "title": "Vehicle purchase/replacement resolution",
+        "title": "Vehicle replacement resolution",
         "outcome": "adopted",
         "votes": [
           {
@@ -7404,7 +7404,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 2357
+        "timestamp_s": 2358
       },
       {
         "kind": "resolution",
@@ -7440,7 +7440,7 @@
       {
         "kind": "resolution",
         "number": "2024-683",
-        "title": "Budget transfer for Veterans Memorial Park parking lot",
+        "title": "Budget transfers for Veterans Memorial Park parking lot",
         "outcome": "adopted",
         "votes": [
           {
@@ -7471,7 +7471,7 @@
       {
         "kind": "resolution",
         "number": "2024-684",
-        "title": "Expenditure/budget transfer of community benefit funds",
+        "title": "Approves expenditure and budget transfer of community benefit funds",
         "outcome": "adopted",
         "votes": [
           {
@@ -7493,7 +7493,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": null
+        "timestamp_s": 2404
       },
       {
         "kind": "resolution",
@@ -7795,6 +7795,10 @@
           {
             "member": "Ken Rothwell",
             "vote": "yes"
+          },
+          {
+            "member": "Tim Hubbard",
+            "vote": "yes"
           }
         ],
         "unanimous": true,
@@ -7804,7 +7808,7 @@
       {
         "kind": "resolution",
         "number": "2024-697",
-        "title": "Preliminary approval with conditions, site plan Tomcat Realty Holdings LLC",
+        "title": "Preliminary site plan approval, Tomcat Realty Holdings LLC",
         "outcome": "adopted",
         "votes": [
           {
@@ -7831,7 +7835,7 @@
       {
         "kind": "resolution",
         "number": "2024-700",
-        "title": "License agreement with Adenko Inc. for EPCAL runway use",
+        "title": "Authorizes license agreement with Adenko Inc. for EPCAL runway",
         "outcome": "adopted",
         "votes": [
           {
@@ -7848,6 +7852,10 @@
           },
           {
             "member": "Ken Rothwell",
+            "vote": "yes"
+          },
+          {
+            "member": "Tim Hubbard",
             "vote": "yes"
           }
         ],
@@ -7858,7 +7866,7 @@
       {
         "kind": "resolution",
         "number": "2024-702",
-        "title": "Sets public hearing for special permit, Riverhead Charter School portable trailers",
+        "title": "Sets public hearing for Riverhead Charter School portable trailers",
         "outcome": "adopted",
         "votes": [
           {
@@ -7876,16 +7884,20 @@
           {
             "member": "Ken Rothwell",
             "vote": "yes"
+          },
+          {
+            "member": "Tim Hubbard",
+            "vote": "yes"
           }
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 2783
+        "timestamp_s": 2806
       },
       {
         "kind": "resolution",
         "number": "2024-703",
-        "title": "Adopts local law amending Chapter 301 Prohibited Signs",
+        "title": "Adopts local law amending Chapter 301 prohibited signs",
         "outcome": "adopted",
         "votes": [
           {
@@ -7947,7 +7959,7 @@
       {
         "kind": "resolution",
         "number": "2024-706",
-        "title": "Adopts local law amending Chapter 301 Wireless Communication Towers",
+        "title": "Adopts local law amending wireless communication towers regulations",
         "outcome": "adopted",
         "votes": [
           {
@@ -8035,12 +8047,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 2955
+        "timestamp_s": 2949
       },
       {
         "kind": "resolution",
         "number": "2024-709",
-        "title": "Alcohol service vendor rain-date approval",
+        "title": "Resolution related to Alive on 25 rain date",
         "outcome": "adopted",
         "votes": [
           {
@@ -8066,12 +8078,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 2971
+        "timestamp_s": 2975
       },
       {
         "kind": "resolution",
         "number": "2024-710",
-        "title": "Amends Resolution 734-2023, Racetrack Go-Kart/Drifting Event",
+        "title": "Amends Resolution 734-2023 Racetrack Not Street go-kart event",
         "outcome": "adopted",
         "votes": [
           {
@@ -8102,7 +8114,7 @@
       {
         "kind": "resolution",
         "number": "2024-711",
-        "title": "Amends Resolution 735-2023, Racetrack Summer Classic Go-Kart/Drifting Event",
+        "title": "Amends Resolution 735-2023 Racetrack Not Street summer classic",
         "outcome": "adopted",
         "votes": [
           {
@@ -8164,7 +8176,7 @@
       {
         "kind": "resolution",
         "number": "2024-713",
-        "title": "Approves special event application for Jamesport Fire Dept 5K & 10K",
+        "title": "Approves special event application Jamesport Fire Dept 5K & 10K runs",
         "outcome": "adopted",
         "votes": [
           {
@@ -8190,7 +8202,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 3068
+        "timestamp_s": 3074
       },
       {
         "kind": "resolution",
@@ -8257,7 +8269,7 @@
       {
         "kind": "resolution",
         "number": "2024-716",
-        "title": "Ratifies award of rebid for residential solid waste collection",
+        "title": "Ratifies rebid award for residential solid waste collection",
         "outcome": "adopted",
         "votes": [
           {
@@ -8381,7 +8393,7 @@
       {
         "kind": "resolution",
         "number": "2024-722",
-        "title": "Authorizes legal action re 330 Baywood Drive, Calverton",
+        "title": "Authorizes legal action re 330 Baywood Drive premises",
         "outcome": "adopted",
         "votes": [
           {
@@ -8407,7 +8419,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 3212
+        "timestamp_s": 3210
       },
       {
         "kind": "resolution",
@@ -8474,7 +8486,7 @@
       {
         "kind": "motion",
         "number": null,
-        "title": "Motion to close the Town Board meeting",
+        "title": "Motion to close town board meeting",
         "outcome": "adopted",
         "votes": [],
         "unanimous": false,

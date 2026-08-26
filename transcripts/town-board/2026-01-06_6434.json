@@ -10871,7 +10871,7 @@
     "truncated": false,
     "model": "claude-sonnet-5",
     "prompt_version": "1",
-    "generated_at": "2026-08-25T20:34:53+00:00",
+    "generated_at": "2026-08-26T01:46:34+00:00",
     "grounded_in": "Minutes",
     "items": [
       {
@@ -10903,12 +10903,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 1244
+        "timestamp_s": 1236
       },
       {
         "kind": "motion",
         "number": null,
-        "title": "Amend salary resolution for general town employees",
+        "title": "Amend salaries in general town employees resolution",
         "outcome": "amended",
         "votes": [
           {
@@ -10940,7 +10940,7 @@
         "kind": "resolution",
         "number": "2026-2",
         "title": "Sets Salaries of General Town Employees for 2026, as amended",
-        "outcome": "adopted",
+        "outcome": "amended",
         "votes": [
           {
             "member": "Joann Waski",
@@ -11154,7 +11154,7 @@
         "timestamp_s": 1650
       },
       {
-        "kind": "resolution",
+        "kind": "motion",
         "number": "2026-9",
         "title": "Sets Salaries for 2026 Call-In and Seasonal Recreation Personnel",
         "outcome": "tabled",
@@ -11182,12 +11182,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 1720
+        "timestamp_s": 1712
       },
       {
-        "kind": "resolution",
+        "kind": "motion",
         "number": "2026-10",
-        "title": "Rehires and Sets Salaries for Various Call-In Recreation Personnel",
+        "title": "Rehires and Sets Salaries for Various Call-In Recreation Personnel for 2026",
         "outcome": "tabled",
         "votes": [
           {
@@ -11213,7 +11213,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": null
+        "timestamp_s": 1738
       },
       {
         "kind": "resolution",
@@ -11244,7 +11244,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 1793
+        "timestamp_s": 1774
       },
       {
         "kind": "resolution",
@@ -11279,8 +11279,39 @@
       },
       {
         "kind": "resolution",
+        "number": "2026-13",
+        "title": "Appoints a Wastewater Treatment Plant Operator 4A",
+        "outcome": "adopted",
+        "votes": [
+          {
+            "member": "Joann Waski",
+            "vote": "yes"
+          },
+          {
+            "member": "Denise Merrifield",
+            "vote": "yes"
+          },
+          {
+            "member": "Bob Kern",
+            "vote": "yes"
+          },
+          {
+            "member": "Ken Rothwell",
+            "vote": "yes"
+          },
+          {
+            "member": "Jerry Halpin",
+            "vote": "yes"
+          }
+        ],
+        "unanimous": true,
+        "confidence": "high",
+        "timestamp_s": 1825
+      },
+      {
+        "kind": "resolution",
         "number": "2026-14",
-        "title": "Ratifies the Appointment of a Wastewater Treatment Plant Operator",
+        "title": "Ratifies the Appointment of a Wastewater Treatment Plant Operator 2A",
         "outcome": "adopted",
         "votes": [
           {
@@ -11404,7 +11435,7 @@
       {
         "kind": "resolution",
         "number": "2026-21",
-        "title": "Approves Sewer District Change Order No. 2 for Class A Biosolids Upgrade Project",
+        "title": "Approves Sewer District Change Order No. 2 - Class A Biosolids Upgrade",
         "outcome": "adopted",
         "votes": [
           {
@@ -11528,7 +11559,7 @@
       {
         "kind": "resolution",
         "number": "2026-25",
-        "title": "Authorizes Attendance at 2026 Association of Towns Meeting",
+        "title": "Authorizes Attendance at 2026 Association of Towns Meeting & Training",
         "outcome": "adopted",
         "votes": [
           {
@@ -11559,7 +11590,7 @@
       {
         "kind": "resolution",
         "number": "2026-26",
-        "title": "Authorization for One Police Department Employee to Attend Training",
+        "title": "Authorization for One Police Department Employee to Attend a Training",
         "outcome": "adopted",
         "votes": [
           {
@@ -11652,7 +11683,7 @@
       {
         "kind": "resolution",
         "number": "2026-29",
-        "title": "Reappoints John M. Porchia to Zoning Board of Appeals",
+        "title": "Reappoints John M. Porchia as Member to the Zoning Board of Appeals",
         "outcome": "adopted",
         "votes": [
           {
@@ -11683,7 +11714,7 @@
       {
         "kind": "resolution",
         "number": "2026-30",
-        "title": "Reappoints Ralph Gazzillo as Vice-Chairman of Zoning Board of Appeals",
+        "title": "Reappoints Ralph Gazzillo as Vice-Chairman of the ZBA",
         "outcome": "adopted",
         "votes": [
           {
@@ -11714,7 +11745,7 @@
       {
         "kind": "resolution",
         "number": "2026-31",
-        "title": "Reappoints Otto Wittmeier as Chairman of Zoning Board of Appeals",
+        "title": "Reappoints Otto Wittmeier as Chairman of the ZBA",
         "outcome": "adopted",
         "votes": [
           {
@@ -11745,7 +11776,7 @@
       {
         "kind": "resolution",
         "number": "2026-32",
-        "title": "Reappoints Edward Densieski as Chairman of Planning Board",
+        "title": "Reappoints Edward Densieski as Chairman of the Planning Board",
         "outcome": "adopted",
         "votes": [
           {
@@ -11776,7 +11807,7 @@
       {
         "kind": "resolution",
         "number": "2026-33",
-        "title": "Reappoints John Hogan as Vice-Chairman of Planning Board",
+        "title": "Reappoints John Hogan as Vice-Chairman of the Planning Board",
         "outcome": "adopted",
         "votes": [
           {
@@ -11807,7 +11838,7 @@
       {
         "kind": "resolution",
         "number": "2026-34",
-        "title": "Reappoints Daniel Zaweski to Zoning Board of Appeals",
+        "title": "Reappoints Daniel Zaweski as Member to the ZBA",
         "outcome": "adopted",
         "votes": [
           {
@@ -11838,7 +11869,7 @@
       {
         "kind": "resolution",
         "number": "2026-35",
-        "title": "Reappoints Joseph Baier to Planning Board",
+        "title": "Reappoints Joseph Baier as Member to the Planning Board",
         "outcome": "adopted",
         "votes": [
           {
@@ -12117,7 +12148,7 @@
       {
         "kind": "resolution",
         "number": "2026-44",
-        "title": "Authorizes MOU with Suffolk County/Sheriff re: Flock Safety Cameras",
+        "title": "Authorizes MOU with Suffolk County and Sheriff re: Flock Safety Cameras",
         "outcome": "adopted",
         "votes": [
           {
@@ -12148,7 +12179,7 @@
       {
         "kind": "motion",
         "number": null,
-        "title": "Amend agreement resolution for assistant recreation superintendent salary figures",
+        "title": "Amend salary figure in Resolution 46 agreement",
         "outcome": "amended",
         "votes": [
           {
@@ -12174,13 +12205,13 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 2664
+        "timestamp_s": 2637
       },
       {
         "kind": "resolution",
         "number": "2026-46",
         "title": "Authorizes Agreement with Assistant Recreation Superintendent 1, as amended",
-        "outcome": "adopted",
+        "outcome": "amended",
         "votes": [
           {
             "member": "Joann Waski",
@@ -12205,7 +12236,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 2699
+        "timestamp_s": 2626
       },
       {
         "kind": "resolution",
@@ -12241,7 +12272,7 @@
       {
         "kind": "resolution",
         "number": "2026-48",
-        "title": "Authorizes NYS Household Hazardous Waste Assistance Application",
+        "title": "Authorizes Filing of Household Hazardous Waste State Assistance Application",
         "outcome": "adopted",
         "votes": [
           {
@@ -12272,7 +12303,7 @@
       {
         "kind": "resolution",
         "number": "2026-49",
-        "title": "Authorizes Notice of Public Hearing to Amend Town Code Ch. 301 Art. 1",
+        "title": "Public Hearing Notice - Amend Town Code Chapter 301 Article 1",
         "outcome": "adopted",
         "votes": [
           {
@@ -12298,26 +12329,14 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 2759
+        "timestamp_s": 2754
       },
       {
         "kind": "resolution",
         "number": "2026-50",
-        "title": "Authorizes Notice of Public Hearing to Amend Town Code Ch. 301 Art. 42, Transfer of Development Rights",
+        "title": "Public Hearing Notice - Amend Town Code Chapter 301 Article 42 (Transfer of Development Rights)",
         "outcome": "adopted",
         "votes": [
-          {
-            "member": "Joann Waski",
-            "vote": "yes"
-          },
-          {
-            "member": "Denise Merrifield",
-            "vote": "yes"
-          },
-          {
-            "member": "Bob Kern",
-            "vote": "yes"
-          },
           {
             "member": "Ken Rothwell",
             "vote": "yes"
@@ -12328,7 +12347,7 @@
           }
         ],
         "unanimous": true,
-        "confidence": "high",
+        "confidence": "low",
         "timestamp_s": 2821
       },
       {
@@ -12453,12 +12472,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 2920
+        "timestamp_s": 2922
       },
       {
         "kind": "resolution",
         "number": "2026-56",
-        "title": "Ratifies Appointment of a Part-Time Code Enforcement Officer",
+        "title": "Ratifies the Appointment of a Part-Time Code Enforcement Officer",
         "outcome": "adopted",
         "votes": [
           {
@@ -12520,7 +12539,7 @@
       {
         "kind": "resolution",
         "number": "2026-58",
-        "title": "Acknowledges Appointment of David Cote, Legislative Aide to Supervisor",
+        "title": "Acknowledges Appointment of Legislative Aide David Cote",
         "outcome": "adopted",
         "votes": [
           {
@@ -12581,8 +12600,8 @@
       },
       {
         "kind": "resolution",
-        "number": "2026-13",
-        "title": "Appoints Wastewater Treatment Plant Operator 4A / Deputy Sewer Superintendent",
+        "number": "2026-60",
+        "title": "Acknowledges Appointment of Deputy - David Cote Terms and Conditions",
         "outcome": "adopted",
         "votes": [
           {
@@ -12592,116 +12611,44 @@
           {
             "member": "Denise Merrifield",
             "vote": "yes"
-          },
-          {
-            "member": "Bob Kern",
-            "vote": "yes"
-          },
-          {
-            "member": "Ken Rothwell",
-            "vote": "yes"
-          },
-          {
-            "member": "Jerry Halpin",
-            "vote": "yes"
           }
         ],
         "unanimous": true,
-        "confidence": "high",
-        "timestamp_s": null
+        "confidence": "low",
+        "timestamp_s": 3100
       },
       {
         "kind": "resolution",
         "number": "2026-16",
-        "title": "Ratifies Reclassification of Maintenance Mechanic III to IV",
+        "title": "Ratifies Reclassification of Maintenance Mechanic III to IV (Berry)",
         "outcome": "adopted",
-        "votes": [
-          {
-            "member": "Joann Waski",
-            "vote": "yes"
-          },
-          {
-            "member": "Denise Merrifield",
-            "vote": "yes"
-          },
-          {
-            "member": "Bob Kern",
-            "vote": "yes"
-          },
-          {
-            "member": "Ken Rothwell",
-            "vote": "yes"
-          },
-          {
-            "member": "Jerry Halpin",
-            "vote": "yes"
-          }
-        ],
-        "unanimous": true,
-        "confidence": "high",
-        "timestamp_s": null
+        "votes": [],
+        "unanimous": false,
+        "confidence": "low",
+        "timestamp_s": null,
+        "anchor_quote_unmatched": ""
       },
       {
         "kind": "resolution",
         "number": "2026-17",
-        "title": "Water District Capital Project 82520 Zenith Group Budget Adoption",
+        "title": "Water District Capital Project 82520 The Zenith Group Budget Adoption",
         "outcome": "adopted",
-        "votes": [
-          {
-            "member": "Joann Waski",
-            "vote": "yes"
-          },
-          {
-            "member": "Denise Merrifield",
-            "vote": "yes"
-          },
-          {
-            "member": "Bob Kern",
-            "vote": "yes"
-          },
-          {
-            "member": "Ken Rothwell",
-            "vote": "yes"
-          },
-          {
-            "member": "Jerry Halpin",
-            "vote": "yes"
-          }
-        ],
-        "unanimous": true,
-        "confidence": "high",
-        "timestamp_s": null
+        "votes": [],
+        "unanimous": false,
+        "confidence": "low",
+        "timestamp_s": null,
+        "anchor_quote_unmatched": ""
       },
       {
         "kind": "resolution",
         "number": "2026-20",
-        "title": "Approves Sewer District Change Order No. 1, Biosolids Upgrade Project",
+        "title": "Approves Sewer District Change Order No. 1 for Class A Biosolids Upgrade",
         "outcome": "adopted",
-        "votes": [
-          {
-            "member": "Joann Waski",
-            "vote": "yes"
-          },
-          {
-            "member": "Denise Merrifield",
-            "vote": "yes"
-          },
-          {
-            "member": "Bob Kern",
-            "vote": "yes"
-          },
-          {
-            "member": "Ken Rothwell",
-            "vote": "yes"
-          },
-          {
-            "member": "Jerry Halpin",
-            "vote": "yes"
-          }
-        ],
-        "unanimous": true,
-        "confidence": "high",
-        "timestamp_s": null
+        "votes": [],
+        "unanimous": false,
+        "confidence": "low",
+        "timestamp_s": null,
+        "anchor_quote_unmatched": ""
       },
       {
         "kind": "motion",
@@ -12727,7 +12674,7 @@
           }
         ],
         "unanimous": true,
-        "confidence": "low",
+        "confidence": "high",
         "timestamp_s": 5726
       }
     ]

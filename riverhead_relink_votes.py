@@ -56,6 +56,18 @@ def scan():
         unlinked = [it for it in items if it.get("timestamp_s") is None]
         if not unlinked:
             continue
+        # An empty quote means the model looked and honestly found nothing in the
+        # transcript. A non-empty one means it produced a quote that did not
+        # match. Only the second is a defect worth spending money to retry.
+        # Three states, not two. Items extracted before anchor_quote_unmatched
+        # existed carry no key at all: that is UNKNOWN, not an honest null, and
+        # conflating them overstates how well the new prompt is doing.
+        declined = sum(1 for it in unlinked
+                       if "anchor_quote_unmatched" in it
+                       and not (it["anchor_quote_unmatched"] or "").strip())
+        mismatched = sum(1 for it in unlinked
+                         if (it.get("anchor_quote_unmatched") or "").strip())
+        unknown = len(unlinked) - declined - mismatched
         contested = []
         for it in unlinked:
             dissent = [v for v in (it.get("votes") or []) if v.get("vote") != "yes"]
@@ -67,7 +79,8 @@ def scan():
                                 for v in dissent],
                 })
         out[path] = {"total": len(items), "unlinked": len(unlinked),
-                     "contested": contested}
+                     "declined": declined, "mismatched": mismatched,
+                     "unknown": unknown, "contested": contested}
     return out
 
 
@@ -83,10 +96,19 @@ def print_report(report, header):
     print("  unlinked items    : {}".format(unlinked))
     if not report:
         return
-    print("\n  {:<26} {:>7} {:>9}  {}".format("meeting", "items", "unlinked", "contested"))
-    for path, v in sorted(report.items(), key=lambda kv: -kv[1]["unlinked"]):
-        print("  {:<26} {:>7} {:>9}  {}".format(
+    declined = sum(v.get("declined", 0) for v in report.values())
+    mismatched = sum(v.get("mismatched", 0) for v in report.values())
+    unknown = sum(v.get("unknown", 0) for v in report.values())
+    print("    model declined, honest null   : {:>4}   (re-running buys the same null)".format(declined))
+    print("    quote produced but no match   : {:>4}   (a real defect)".format(mismatched))
+    print("    unknown, extracted pre-fix    : {:>4}   (never re-run; worth one pass)".format(unknown))
+    print("\n  {:<26} {:>6} {:>9} {:>9} {:>7} {:>8}  {}".format(
+        "meeting", "items", "unlinked", "declined", "mismat", "unknown", "contested"))
+    for path, v in sorted(report.items(),
+                          key=lambda kv: (-kv[1].get("mismatched", 0), -kv[1].get("unknown", 0))):
+        print("  {:<26} {:>6} {:>9} {:>9} {:>7} {:>8}  {}".format(
             os.path.basename(path), v["total"], v["unlinked"],
+            v.get("declined", 0), v.get("mismatched", 0), v.get("unknown", 0),
             len(v["contested"]) or ""))
     contested = [(os.path.basename(p), c)
                  for p, v in report.items() for c in v["contested"]]
@@ -106,6 +128,10 @@ def main():
                     help="Re-extract at most N meetings (most unlinked first).")
     ap.add_argument("--min-unlinked", type=int, default=1,
                     help="Only touch meetings with at least N unlinked items.")
+    ap.add_argument("--mismatched-only", action="store_true",
+                    help="Only meetings where a quote was produced but did not "
+                         "match. Skips meetings where the model honestly declined, "
+                         "since re-running those just buys the same null again.")
     ap.add_argument("--contested-only", action="store_true",
                     help="Only meetings holding an unlinked non-unanimous vote.")
     ap.add_argument("--workers", type=int, default=2)
@@ -123,6 +149,9 @@ def main():
     targets = [p for p, v in before.items() if v["unlinked"] >= args.min_unlinked]
     if args.contested_only:
         targets = [p for p in targets if before[p]["contested"]]
+    if args.mismatched_only:
+        targets = [p for p in targets
+                   if before[p].get("mismatched", 0) > 0 or before[p].get("unknown", 0) > 0]
     targets.sort(key=lambda p: -before[p]["unlinked"])
     if args.limit:
         targets = targets[:args.limit]

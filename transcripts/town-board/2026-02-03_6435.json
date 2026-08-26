@@ -8046,13 +8046,13 @@
     "truncated": false,
     "model": "claude-sonnet-5",
     "prompt_version": "1",
-    "generated_at": "2026-08-25T20:29:07+00:00",
+    "generated_at": "2026-08-26T02:20:10+00:00",
     "grounded_in": "Minutes",
     "items": [
       {
         "kind": "resolution",
-        "number": "2026-51",
-        "title": "Promotes Police Officer Suprina to Sergeant",
+        "number": "2026-151",
+        "title": "Promotes Police Officer Suprina to Rank of Sergeant",
         "outcome": "adopted",
         "votes": [
           {
@@ -8083,7 +8083,7 @@
       {
         "kind": "hearing_action",
         "number": null,
-        "title": "Amend Chapter 279 Taxation Exemption Volunteers",
+        "title": "Amend Chapter 279 Taxation Exemption for Volunteers",
         "outcome": "held",
         "votes": [],
         "unanimous": false,
@@ -8186,7 +8186,7 @@
       {
         "kind": "resolution",
         "number": "2026-104",
-        "title": "Water District Capital Project 82602 1419 Old Country Rd Budget Adoption",
+        "title": "Water District Capital Project 82602 Riverhead Mazda 1419 Old Country Rd Budget Adoption",
         "outcome": "adopted",
         "votes": [
           {
@@ -8222,7 +8222,8 @@
         "votes": [],
         "unanimous": false,
         "confidence": "low",
-        "timestamp_s": null
+        "timestamp_s": null,
+        "anchor_quote_unmatched": ""
       },
       {
         "kind": "resolution",
@@ -8258,7 +8259,7 @@
       {
         "kind": "resolution",
         "number": "2026-107",
-        "title": "Sets Fees for Riverhead Sewer District, Calverton Sewer District, Scavenger Waste",
+        "title": "Sets Fees for Riverhead Sewer District, Calverton Sewer District and Scavenger Waste",
         "outcome": "adopted",
         "votes": [
           {
@@ -8289,7 +8290,7 @@
       {
         "kind": "resolution",
         "number": "2026-108",
-        "title": "Authorization for Police Department Employees to Attend Training",
+        "title": "Authorization for Police Department Employees to Attend a Training",
         "outcome": "adopted",
         "votes": [
           {
@@ -8320,7 +8321,7 @@
       {
         "kind": "resolution",
         "number": "2026-109",
-        "title": "Authorizes One Police Department Employee to Attend Training Conference",
+        "title": "Authorizes One Police Department Employee to Attend a Training Conference",
         "outcome": "adopted",
         "votes": [
           {
@@ -8351,7 +8352,7 @@
       {
         "kind": "resolution",
         "number": "2026-110",
-        "title": "Establishes Standard Work Day for Elected Officials",
+        "title": "Establishes Standard Work Day for Elected Official",
         "outcome": "adopted",
         "votes": [
           {
@@ -8382,7 +8383,7 @@
       {
         "kind": "resolution",
         "number": "2026-111",
-        "title": "Amends Resolution 2026-2 Sets Salaries of General Town Employees",
+        "title": "Amends Resolution 2026-2 Sets Salaries of General Town Employees for 2026",
         "outcome": "adopted",
         "votes": [
           {
@@ -8413,7 +8414,7 @@
       {
         "kind": "resolution",
         "number": "2026-112",
-        "title": "Ratifies Appointment of a Maintenance Mechanic II",
+        "title": "Ratifies the Appointment of a Maintenance Mechanic II",
         "outcome": "adopted",
         "votes": [
           {
@@ -8537,7 +8538,7 @@
       {
         "kind": "resolution",
         "number": "2026-116",
-        "title": "Appoints Jeffrey Seeman to Climate Smart Community Task Force",
+        "title": "Appoints Jeffrey Seeman as Member to Climate Smart Community Task Force",
         "outcome": "adopted",
         "votes": [
           {
@@ -8568,8 +8569,8 @@
       {
         "kind": "motion",
         "number": null,
-        "title": "Amend Resolution 117 whereas clause name to Joseph Rutt",
-        "outcome": "adopted",
+        "title": "Amend resolution 117 whereas clause from Jason Blizzard to Joseph Rutt",
+        "outcome": "amended",
         "votes": [],
         "unanimous": false,
         "confidence": "low",
@@ -8578,7 +8579,7 @@
       {
         "kind": "resolution",
         "number": "2026-117",
-        "title": "Appoints Joseph Rutt as Coordinator for Climate Smart Community Task Force",
+        "title": "Appoints Joseph Rutt as Coordinator for the Climate Smart Community Task Force",
         "outcome": "adopted",
         "votes": [
           {
@@ -8599,13 +8600,13 @@
           }
         ],
         "unanimous": true,
-        "confidence": "high",
+        "confidence": "low",
         "timestamp_s": 1670
       },
       {
         "kind": "resolution",
         "number": "2026-118",
-        "title": "Reappoints and Appoints Members of Internal Green Team of Climate Smart Task Force",
+        "title": "Reappoints and Appoints Members of the Internal Green Team of Climate Smart Community Task Force",
         "outcome": "adopted",
         "votes": [
           {
@@ -8636,7 +8637,7 @@
       {
         "kind": "resolution",
         "number": "2026-119",
-        "title": "Reappoints George Bartunek to Climate Smart Community Task Force",
+        "title": "Reappoints George Bartunek as Member of Climate Smart Community Task Force",
         "outcome": "adopted",
         "votes": [
           {
@@ -8667,7 +8668,7 @@
       {
         "kind": "resolution",
         "number": "2026-120",
-        "title": "Reappoints Mark Haubner to Climate Smart Community Task Force",
+        "title": "Reappoints Mark Haubner as Member of Climate Smart Community Task Force",
         "outcome": "adopted",
         "votes": [
           {
@@ -8698,7 +8699,7 @@
       {
         "kind": "resolution",
         "number": "2026-121",
-        "title": "Reappoints Angela DeVito to Climate Smart Community Task Force",
+        "title": "Reappoints Angela DeVito as Member of Climate Smart Community Task Force",
         "outcome": "adopted",
         "votes": [
           {
@@ -8729,8 +8730,8 @@
       {
         "kind": "motion",
         "number": null,
-        "title": "Amend Resolution 122 to reflect Kenneth R. Rothwell",
-        "outcome": "adopted",
+        "title": "Amend resolution 122 to reflect Kenneth R. Rothwell",
+        "outcome": "amended",
         "votes": [
           {
             "member": "Joann Waski",
@@ -8760,15 +8761,11 @@
       {
         "kind": "resolution",
         "number": "2026-122",
-        "title": "Reappoints Kenneth R. Rothwell to Climate Smart Community Task Force",
+        "title": "Reappoints Kenneth R. Rothwell as Member of Climate Smart Community Task Force",
         "outcome": "adopted",
         "votes": [
           {
             "member": "Joann Waski",
-            "vote": "yes"
-          },
-          {
-            "member": "Bob Kern",
             "vote": "yes"
           },
           {
@@ -8781,19 +8778,15 @@
           }
         ],
         "unanimous": false,
-        "confidence": "high",
-        "timestamp_s": 1847
+        "confidence": "low",
+        "timestamp_s": 1844
       },
       {
         "kind": "resolution",
         "number": "2026-123",
-        "title": "Reappoints Barbara Blass to Climate Smart Community Task Force",
+        "title": "Reappoints Barbara Blass as Member of Climate Smart Community Task Force",
         "outcome": "adopted",
         "votes": [
-          {
-            "member": "Joann Waski",
-            "vote": "yes"
-          },
           {
             "member": "Denise Merrifield",
             "vote": "yes"
@@ -8812,13 +8805,24 @@
           }
         ],
         "unanimous": true,
-        "confidence": "high",
+        "confidence": "low",
         "timestamp_s": 1855
       },
       {
         "kind": "resolution",
+        "number": "2026-124",
+        "title": "Reappoints Megan Carrick to Architectural Review Board",
+        "outcome": "adopted",
+        "votes": [],
+        "unanimous": false,
+        "confidence": "low",
+        "timestamp_s": null,
+        "anchor_quote_unmatched": ""
+      },
+      {
+        "kind": "resolution",
         "number": "2026-125",
-        "title": "Reappoints Sean McCabe Sr. to Conservation Advisory Council",
+        "title": "Reappoints Sean McCabe Sr. as Member of Conservation Advisory Council",
         "outcome": "adopted",
         "votes": [
           {
@@ -8849,7 +8853,7 @@
       {
         "kind": "resolution",
         "number": "2026-126",
-        "title": "Reappoints Robert Fox to Conservation Advisory Council",
+        "title": "Reappoints Robert Fox as Member of Conservation Advisory Council",
         "outcome": "adopted",
         "votes": [
           {
@@ -8880,7 +8884,7 @@
       {
         "kind": "resolution",
         "number": "2026-127",
-        "title": "Reappoints Charles Thomas to Conservation Advisory Council",
+        "title": "Reappoints Charles Thomas as Member of Conservation Advisory Council",
         "outcome": "adopted",
         "votes": [
           {
@@ -8911,7 +8915,7 @@
       {
         "kind": "resolution",
         "number": "2026-128",
-        "title": "Reappoints Duane Lewin to Conservation Advisory Council",
+        "title": "Reappoints Duane Lewin as Member of Conservation Advisory Council",
         "outcome": "adopted",
         "votes": [
           {
@@ -8942,7 +8946,7 @@
       {
         "kind": "resolution",
         "number": "2026-129",
-        "title": "Reappoints George Woodhull to Conservation Advisory Council",
+        "title": "Reappoints George Woodhull as Member of Conservation Advisory Council",
         "outcome": "adopted",
         "votes": [
           {
@@ -8973,7 +8977,7 @@
       {
         "kind": "resolution",
         "number": "2026-130",
-        "title": "Reappoints Robert Kujawski to Conservation Advisory Council",
+        "title": "Reappoints Robert Kujawski as Member of Conservation Advisory Council",
         "outcome": "adopted",
         "votes": [
           {
@@ -9004,7 +9008,7 @@
       {
         "kind": "resolution",
         "number": "2026-131",
-        "title": "Renews Stipend for Pine Barrens Designee",
+        "title": "Renews a Stipend for Pine Barrens Designee",
         "outcome": "adopted",
         "votes": [
           {
@@ -9035,7 +9039,7 @@
       {
         "kind": "resolution",
         "number": "2026-132",
-        "title": "Authorizes Supervisor to Sign Agreement with Court Reporter (Galante)",
+        "title": "Authorizes Supervisor to Sign an Agreement with Court Reporter (Galante)",
         "outcome": "adopted",
         "votes": [
           {
@@ -9066,7 +9070,7 @@
       {
         "kind": "resolution",
         "number": "2026-133",
-        "title": "Authorizes Letter to Suffolk County DHS on Pine Barrens Credits (Krasnow)",
+        "title": "Authorizes Letter to SC DHS Authorizing Use of Pine Barrens Credits (Irwin Krasnow)",
         "outcome": "adopted",
         "votes": [
           {
@@ -9123,12 +9127,12 @@
         ],
         "unanimous": false,
         "confidence": "high",
-        "timestamp_s": 2110
+        "timestamp_s": 2099
       },
       {
         "kind": "resolution",
         "number": "2026-135",
-        "title": "Professional Services Agreement with Land Use Ecological Services for Bulkhead Project",
+        "title": "Agreement with Land Use Ecological Services for Meetinghouse Creek Road Bulkhead Reconstruction",
         "outcome": "adopted",
         "votes": [
           {
@@ -9185,12 +9189,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 2179
+        "timestamp_s": 2178
       },
       {
         "kind": "resolution",
         "number": "2026-137",
-        "title": "Releases Performance Bond for NF Golf Resorts Subdivision (Highlands at Reeves)",
+        "title": "Releases Performance Bond for Major Subdivision of NF Golf Resorts, LLC",
         "outcome": "adopted",
         "votes": [
           {
@@ -9221,7 +9225,7 @@
       {
         "kind": "resolution",
         "number": "2026-138",
-        "title": "Publish Notice for Local Law Amending Chapter 265 Sewers",
+        "title": "Authorizes Public Notice to Amend Chapter 265 Sewers",
         "outcome": "adopted",
         "votes": [
           {
@@ -9252,7 +9256,7 @@
       {
         "kind": "resolution",
         "number": "2026-139",
-        "title": "Publish Notice to Bidders for Charter Buses",
+        "title": "Authorizes Notice to Bidders for Charter Buses",
         "outcome": "adopted",
         "votes": [
           {
@@ -9283,7 +9287,7 @@
       {
         "kind": "resolution",
         "number": "2026-140",
-        "title": "RFP for Administrative Law Judge for Stop-Arm Bus Camera Violations",
+        "title": "Authorizes RFP for Administrative Law Judge for Stop-Arm Camera Violations",
         "outcome": "adopted",
         "votes": [
           {
@@ -9314,7 +9318,7 @@
       {
         "kind": "resolution",
         "number": "2026-141",
-        "title": "Extends Bid for Census Water Meters and Equipment",
+        "title": "Extends Bid for Census Water Meter and Accessory Equipment",
         "outcome": "adopted",
         "votes": [
           {
@@ -9345,7 +9349,7 @@
       {
         "kind": "resolution",
         "number": "2026-142",
-        "title": "Awards Bid for Construction of Well 2A Contracts E, G, P",
+        "title": "Awards Bid for Construction of Well Number 2A, Contracts E, G, P",
         "outcome": "adopted",
         "votes": [
           {
@@ -9371,7 +9375,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 2301
+        "timestamp_s": 2306
       },
       {
         "kind": "resolution",
@@ -9407,7 +9411,7 @@
       {
         "kind": "resolution",
         "number": "2026-145",
-        "title": "Application to Parks Grant Program for Stotsky Park Lighting",
+        "title": "Authorizes Application for Parks and Recreation Grant for Stotzky Park Lighting",
         "outcome": "adopted",
         "votes": [
           {
@@ -9428,13 +9432,13 @@
           }
         ],
         "unanimous": true,
-        "confidence": "high",
-        "timestamp_s": 2391
+        "confidence": "low",
+        "timestamp_s": 2387
       },
       {
         "kind": "resolution",
         "number": "2026-146",
-        "title": "Authorizes CDA to Apply for Municipal Parks and Recreation Grant",
+        "title": "Authorizes CDA to Apply for a Municipal Parks and Recreation Grant",
         "outcome": "adopted",
         "votes": [
           {
@@ -9465,8 +9469,8 @@
       {
         "kind": "motion",
         "number": null,
-        "title": "Amend Resolution 147 to waive $175 fee",
-        "outcome": "adopted",
+        "title": "Amend resolution 147 to waive $175 fee",
+        "outcome": "amended",
         "votes": [
           {
             "member": "Joann Waski",
@@ -9496,7 +9500,7 @@
       {
         "kind": "resolution",
         "number": "2026-147",
-        "title": "Approves Special Event Application for Andrew's Top Gun Run 5K",
+        "title": "Approves Special Event Application for Andrew McMorris Foundation Top Gun Run 5K",
         "outcome": "adopted",
         "votes": [
           {
@@ -9522,12 +9526,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 2427
+        "timestamp_s": 2502
       },
       {
         "kind": "resolution",
         "number": "2026-148",
-        "title": "Pay Bills",
+        "title": "Pays Bills",
         "outcome": "adopted",
         "votes": [
           {
@@ -9553,12 +9557,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 2530
+        "timestamp_s": 2532
       },
       {
         "kind": "resolution",
         "number": "2026-149",
-        "title": "Authorizes Attendance at 2026 Associations of Towns Annual Meeting",
+        "title": "Authorizes Attendance at 2026 Association of Towns Annual Meeting",
         "outcome": "adopted",
         "votes": [
           {
@@ -9579,13 +9583,13 @@
           }
         ],
         "unanimous": false,
-        "confidence": "high",
+        "confidence": "low",
         "timestamp_s": 2569
       },
       {
         "kind": "resolution",
         "number": "2026-150",
-        "title": "Letter to Suffolk County DHS on Pine Barrens Credits (K&C Builders)",
+        "title": "Authorizes Letter to SC DHS for Pine Barrens Credits (K&C Builders, Inc.)",
         "outcome": "adopted",
         "votes": [
           {
@@ -9611,7 +9615,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 2590
+        "timestamp_s": 2587
       },
       {
         "kind": "resolution",
@@ -9642,12 +9646,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 2610
+        "timestamp_s": 2607
       },
       {
         "kind": "resolution",
         "number": "2026-153",
-        "title": "Notice of Public Hearing on Local Law Repealing Article of Chapter 105",
+        "title": "Authorizes Public Hearing Notice to Repeal Article 1 of Chapter 105",
         "outcome": "adopted",
         "votes": [
           {
@@ -9673,42 +9677,32 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 2639
+        "timestamp_s": 2638
       },
       {
         "kind": "motion",
         "number": null,
-        "title": "Pull surviving spouses tax exemption resolution off the floor",
+        "title": "Motion to pull surviving spouses exemption resolution off the floor",
         "outcome": "adopted",
-        "votes": [
-          {
-            "member": "Joann Waski",
-            "vote": "yes"
-          }
-        ],
-        "unanimous": true,
+        "votes": [],
+        "unanimous": false,
         "confidence": "low",
-        "timestamp_s": 2789
+        "timestamp_s": 2726
       },
       {
         "kind": "resolution",
-        "number": null,
-        "title": "Publish Notice for Local Law Amending Ch 279 Exemption for Surviving Spouses of Police Officers",
+        "number": "2026-154",
+        "title": "Authorizes Notice to Amend Chapter 279 Exemption for Surviving Spouses of Police Officers Killed in Line of Duty",
         "outcome": "adopted",
-        "votes": [
-          {
-            "member": "Joann Waski",
-            "vote": "yes"
-          }
-        ],
-        "unanimous": true,
+        "votes": [],
+        "unanimous": false,
         "confidence": "low",
-        "timestamp_s": 2737
+        "timestamp_s": 2859
       },
       {
         "kind": "motion",
         "number": null,
-        "title": "Motion to Close Meeting",
+        "title": "Motion to close meeting",
         "outcome": "adopted",
         "votes": [],
         "unanimous": false,

@@ -9532,33 +9532,23 @@
     "truncated": false,
     "model": "claude-sonnet-5",
     "prompt_version": "1",
-    "generated_at": "2026-08-25T20:11:14+00:00",
+    "generated_at": "2026-08-26T02:04:14+00:00",
     "grounded_in": "Minutes",
     "items": [
       {
         "kind": "hearing_action",
         "number": null,
-        "title": "Public Hearing - Peconic River Hotel Special Permit/Site Plan",
+        "title": "Public Hearing - Peconic River Hotel site plan",
         "outcome": "held",
         "votes": [],
         "unanimous": false,
         "confidence": "low",
-        "timestamp_s": null
-      },
-      {
-        "kind": "hearing_action",
-        "number": null,
-        "title": "Public Hearing - Peconic River Hotel site plan/special permit",
-        "outcome": "held",
-        "votes": [],
-        "unanimous": false,
-        "confidence": "low",
-        "timestamp_s": null
+        "timestamp_s": 9501
       },
       {
         "kind": "motion",
         "number": null,
-        "title": "Motion to close the meeting",
+        "title": "Motion to close meeting",
         "outcome": "adopted",
         "votes": [],
         "unanimous": false,

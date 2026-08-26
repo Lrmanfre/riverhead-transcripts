@@ -7961,7 +7961,7 @@
     "truncated": false,
     "model": "claude-sonnet-5",
     "prompt_version": "1",
-    "generated_at": "2026-08-25T21:00:53+00:00",
+    "generated_at": "2026-08-26T02:14:52+00:00",
     "grounded_in": null,
     "items": [
       {
@@ -7982,12 +7982,12 @@
         "votes": [],
         "unanimous": false,
         "confidence": "low",
-        "timestamp_s": null
+        "timestamp_s": 558
       },
       {
         "kind": "hearing_action",
         "number": null,
-        "title": "Chapter 231-14 Reimbursement (hazardous materials/lithium-ion)",
+        "title": "Chapter 231-14 Reimbursement (hazardous material/lithium-ion battery)",
         "outcome": "held",
         "votes": [],
         "unanimous": false,
@@ -8017,7 +8017,7 @@
       {
         "kind": "hearing_action",
         "number": null,
-        "title": "Chapter 231-66 code amendment (violation classification)",
+        "title": "Chapter 231-66 violation classification amendment",
         "outcome": "held",
         "votes": [],
         "unanimous": false,
@@ -8047,18 +8047,18 @@
             "vote": "yes"
           },
           {
-            "member": "Halpin",
+            "member": "Tim Hubbard",
             "vote": "yes"
           }
         ],
         "unanimous": true,
-        "confidence": "low",
+        "confidence": "high",
         "timestamp_s": 2104
       },
       {
         "kind": "resolution",
         "number": "2025-377",
-        "title": "Capital project A2504 Nuggles Barn Hallock bill",
+        "title": "Capital project A2504 Nugent Barn/Hallock Bill",
         "outcome": "adopted",
         "votes": [
           {
@@ -8078,12 +8078,12 @@
             "vote": "yes"
           },
           {
-            "member": "Halpin",
+            "member": "Tim Hubbard",
             "vote": "yes"
           }
         ],
         "unanimous": true,
-        "confidence": "low",
+        "confidence": "high",
         "timestamp_s": 2125
       },
       {
@@ -8109,12 +8109,12 @@
             "vote": "yes"
           },
           {
-            "member": "Halpin",
+            "member": "Tim Hubbard",
             "vote": "yes"
           }
         ],
         "unanimous": true,
-        "confidence": "low",
+        "confidence": "high",
         "timestamp_s": 2140
       },
       {
@@ -8140,12 +8140,12 @@
             "vote": "yes"
           },
           {
-            "member": "Halpin",
+            "member": "Tim Hubbard",
             "vote": "yes"
           }
         ],
         "unanimous": true,
-        "confidence": "low",
+        "confidence": "high",
         "timestamp_s": 2163
       },
       {
@@ -8155,29 +8155,17 @@
         "outcome": "adopted",
         "votes": [
           {
-            "member": "Joann Waski",
-            "vote": "yes"
-          },
-          {
-            "member": "Denise Merrifield",
-            "vote": "yes"
-          },
-          {
-            "member": "Bob Kern",
-            "vote": "yes"
-          },
-          {
             "member": "Ken Rothwell",
             "vote": "yes"
           },
           {
-            "member": "Halpin",
+            "member": "Tim Hubbard",
             "vote": "yes"
           }
         ],
         "unanimous": true,
         "confidence": "low",
-        "timestamp_s": 2180
+        "timestamp_s": 2181
       },
       {
         "kind": "resolution",
@@ -8200,14 +8188,10 @@
           {
             "member": "Ken Rothwell",
             "vote": "yes"
-          },
-          {
-            "member": "Halpin",
-            "vote": "yes"
           }
         ],
         "unanimous": true,
-        "confidence": "low",
+        "confidence": "high",
         "timestamp_s": 2277
       },
       {
@@ -8217,23 +8201,7 @@
         "outcome": "adopted",
         "votes": [
           {
-            "member": "Joann Waski",
-            "vote": "yes"
-          },
-          {
-            "member": "Denise Merrifield",
-            "vote": "yes"
-          },
-          {
-            "member": "Bob Kern",
-            "vote": "yes"
-          },
-          {
             "member": "Ken Rothwell",
-            "vote": "yes"
-          },
-          {
-            "member": "Halpin",
             "vote": "yes"
           }
         ],
@@ -8244,7 +8212,7 @@
       {
         "kind": "resolution",
         "number": "2025-388",
-        "title": "Resolution 388 (unspecified personnel action)",
+        "title": "Unspecified appointment/authorization",
         "outcome": "adopted",
         "votes": [
           {
@@ -8264,7 +8232,7 @@
             "vote": "yes"
           },
           {
-            "member": "Halpin",
+            "member": "Tim Hubbard",
             "vote": "yes"
           }
         ],
@@ -8275,7 +8243,7 @@
       {
         "kind": "resolution",
         "number": "2025-389",
-        "title": "Terminates an inactive employee from police department",
+        "title": "Terminates an inactive employee from the police department",
         "outcome": "adopted",
         "votes": [
           {
@@ -8295,18 +8263,18 @@
             "vote": "yes"
           },
           {
-            "member": "Halpin",
+            "member": "Tim Hubbard",
             "vote": "yes"
           }
         ],
         "unanimous": true,
-        "confidence": "low",
+        "confidence": "high",
         "timestamp_s": 2327
       },
       {
         "kind": "resolution",
         "number": "2025-390",
-        "title": "SEQRA lead agency/neg dec Calverton Satellite Earth Station",
+        "title": "SEQRA negative declaration, Calverton Satellite Earth Station site plan/special permit",
         "outcome": "amended",
         "votes": [
           {
@@ -8326,7 +8294,38 @@
             "vote": "yes"
           },
           {
-            "member": "Halpin",
+            "member": "Tim Hubbard",
+            "vote": "yes"
+          }
+        ],
+        "unanimous": true,
+        "confidence": "high",
+        "timestamp_s": 2396
+      },
+      {
+        "kind": "motion",
+        "number": null,
+        "title": "Amend Resolution 390 address from 319 to 391 Berman Boulevard",
+        "outcome": "amended",
+        "votes": [
+          {
+            "member": "Joann Waski",
+            "vote": "yes"
+          },
+          {
+            "member": "Denise Merrifield",
+            "vote": "yes"
+          },
+          {
+            "member": "Bob Kern",
+            "vote": "yes"
+          },
+          {
+            "member": "Ken Rothwell",
+            "vote": "yes"
+          },
+          {
+            "member": "Tim Hubbard",
             "vote": "yes"
           }
         ],
@@ -8337,7 +8336,7 @@
       {
         "kind": "resolution",
         "number": "2025-391",
-        "title": "Six month extension preliminary site plan 38 McDermott Avenue",
+        "title": "Six-month extension for preliminary site plan approval, 38 McDermott Avenue",
         "outcome": "adopted",
         "votes": [
           {
@@ -8357,18 +8356,18 @@
             "vote": "yes"
           },
           {
-            "member": "Halpin",
+            "member": "Tim Hubbard",
             "vote": "yes"
           }
         ],
         "unanimous": true,
-        "confidence": "low",
+        "confidence": "high",
         "timestamp_s": 2454
       },
       {
         "kind": "resolution",
         "number": "2025-392",
-        "title": "Amends resolution 392",
+        "title": "Amends resolution 392 (details unclear)",
         "outcome": "adopted",
         "votes": [
           {
@@ -8388,18 +8387,18 @@
             "vote": "yes"
           },
           {
-            "member": "Halpin",
+            "member": "Tim Hubbard",
             "vote": "yes"
           }
         ],
         "unanimous": true,
         "confidence": "low",
-        "timestamp_s": 2488
+        "timestamp_s": 2489
       },
       {
         "kind": "resolution",
         "number": "2025-393",
-        "title": "Pursue Suffolk County downtown revitalization funding for 3rd Street lots",
+        "title": "Pursue Suffolk County downtown revitalization funding for 3rd Street parking lots",
         "outcome": "adopted",
         "votes": [
           {
@@ -8419,13 +8418,13 @@
             "vote": "yes"
           },
           {
-            "member": "Halpin",
+            "member": "Tim Hubbard",
             "vote": "yes"
           }
         ],
         "unanimous": true,
-        "confidence": "low",
-        "timestamp_s": 2519
+        "confidence": "high",
+        "timestamp_s": 2525
       },
       {
         "kind": "resolution",
@@ -8450,13 +8449,13 @@
             "vote": "yes"
           },
           {
-            "member": "Halpin",
+            "member": "Tim Hubbard",
             "vote": "yes"
           }
         ],
         "unanimous": true,
-        "confidence": "low",
-        "timestamp_s": 2547
+        "confidence": "high",
+        "timestamp_s": 2549
       },
       {
         "kind": "resolution",
@@ -8481,18 +8480,18 @@
             "vote": "yes"
           },
           {
-            "member": "Halpin",
+            "member": "Tim Hubbard",
             "vote": "yes"
           }
         ],
         "unanimous": true,
-        "confidence": "low",
+        "confidence": "high",
         "timestamp_s": 2573
       },
       {
         "kind": "resolution",
         "number": "2025-396",
-        "title": "Publish/post RFP for sale of 214 Griffin Avenue",
+        "title": "Publish RFP for sale of 214 Griffin Avenue",
         "outcome": "adopted",
         "votes": [
           {
@@ -8512,18 +8511,18 @@
             "vote": "yes"
           },
           {
-            "member": "Halpin",
+            "member": "Tim Hubbard",
             "vote": "yes"
           }
         ],
         "unanimous": true,
-        "confidence": "low",
+        "confidence": "high",
         "timestamp_s": 2593
       },
       {
         "kind": "resolution",
         "number": "2025-397",
-        "title": "Publish/post bid for street light and traffic signal repair parts",
+        "title": "Publish bid for annual street light and traffic signal repair parts",
         "outcome": "adopted",
         "votes": [
           {
@@ -8543,18 +8542,18 @@
             "vote": "yes"
           },
           {
-            "member": "Halpin",
+            "member": "Tim Hubbard",
             "vote": "yes"
           }
         ],
         "unanimous": true,
-        "confidence": "low",
+        "confidence": "high",
         "timestamp_s": 2609
       },
       {
         "kind": "resolution",
         "number": "2025-398",
-        "title": "Publish/post bid for fire and security alarm contracts",
+        "title": "Publish bid for annual fire and security alarm contracts",
         "outcome": "adopted",
         "votes": [
           {
@@ -8574,18 +8573,18 @@
             "vote": "yes"
           },
           {
-            "member": "Halpin",
+            "member": "Tim Hubbard",
             "vote": "yes"
           }
         ],
         "unanimous": true,
-        "confidence": "low",
+        "confidence": "high",
         "timestamp_s": 2628
       },
       {
         "kind": "resolution",
         "number": "2025-399",
-        "title": "Publish/post notice to bidders for lubricants",
+        "title": "Publish notice to bidders for lubricants",
         "outcome": "adopted",
         "votes": [
           {
@@ -8605,49 +8604,28 @@
             "vote": "yes"
           },
           {
-            "member": "Halpin",
+            "member": "Tim Hubbard",
             "vote": "yes"
           }
         ],
         "unanimous": true,
-        "confidence": "low",
+        "confidence": "high",
         "timestamp_s": 2646
       },
       {
         "kind": "resolution",
         "number": "2025-400",
-        "title": "Notice for hearing on open space designation 48 Willow Street/CPF funds",
+        "title": "Public hearing notice: 48 Willow Street open space/CPF designation",
         "outcome": "adopted",
-        "votes": [
-          {
-            "member": "Joann Waski",
-            "vote": "yes"
-          },
-          {
-            "member": "Denise Merrifield",
-            "vote": "yes"
-          },
-          {
-            "member": "Bob Kern",
-            "vote": "yes"
-          },
-          {
-            "member": "Ken Rothwell",
-            "vote": "yes"
-          },
-          {
-            "member": "Halpin",
-            "vote": "yes"
-          }
-        ],
-        "unanimous": true,
+        "votes": [],
+        "unanimous": false,
         "confidence": "low",
-        "timestamp_s": 2674
+        "timestamp_s": 2661
       },
       {
         "kind": "resolution",
         "number": "2025-401",
-        "title": "Notice of hearing Calverton Satellite Earth Station site plan/special permit",
+        "title": "Public hearing notice: Calverton Satellite Earth Station site plan/special permit",
         "outcome": "amended",
         "votes": [
           {
@@ -8665,10 +8643,6 @@
           {
             "member": "Ken Rothwell",
             "vote": "yes"
-          },
-          {
-            "member": "Halpin",
-            "vote": "yes"
           }
         ],
         "unanimous": true,
@@ -8678,7 +8652,7 @@
       {
         "kind": "resolution",
         "number": "2025-402",
-        "title": "Notice to consider local law amending Chapter 301 zoning definitions",
+        "title": "Publish notice to consider local law amending Chapter 301 Zoning definitions",
         "outcome": "adopted",
         "votes": [
           {
@@ -8698,12 +8672,12 @@
             "vote": "yes"
           },
           {
-            "member": "Halpin",
+            "member": "Tim Hubbard",
             "vote": "yes"
           }
         ],
         "unanimous": true,
-        "confidence": "low",
+        "confidence": "high",
         "timestamp_s": 2785
       },
       {
@@ -8729,18 +8703,18 @@
             "vote": "yes"
           },
           {
-            "member": "Halpin",
+            "member": "Tim Hubbard",
             "vote": "yes"
           }
         ],
         "unanimous": true,
-        "confidence": "low",
+        "confidence": "high",
         "timestamp_s": 2805
       },
       {
         "kind": "resolution",
         "number": "2025-404",
-        "title": "Consultant services agreement with Kathleen Schroeder",
+        "title": "Consultant professional services agreement with Kathleen Schroeder",
         "outcome": "adopted",
         "votes": [
           {
@@ -8760,18 +8734,18 @@
             "vote": "yes"
           },
           {
-            "member": "Halpin",
+            "member": "Tim Hubbard",
             "vote": "yes"
           }
         ],
         "unanimous": true,
-        "confidence": "low",
+        "confidence": "high",
         "timestamp_s": 2832
       },
       {
         "kind": "resolution",
         "number": "2025-405",
-        "title": "Agreement with Winship Media for Jazz in the Vines",
+        "title": "Agreement with Winship Media LLC for Jazz in the Vines",
         "outcome": "adopted",
         "votes": [
           {
@@ -8791,13 +8765,13 @@
             "vote": "yes"
           },
           {
-            "member": "Halpin",
+            "member": "Tim Hubbard",
             "vote": "yes"
           }
         ],
         "unanimous": true,
-        "confidence": "low",
-        "timestamp_s": 2855
+        "confidence": "high",
+        "timestamp_s": 2862
       },
       {
         "kind": "resolution",
@@ -8822,18 +8796,18 @@
             "vote": "yes"
           },
           {
-            "member": "Halpin",
+            "member": "Tim Hubbard",
             "vote": "yes"
           }
         ],
         "unanimous": true,
-        "confidence": "low",
+        "confidence": "high",
         "timestamp_s": 2881
       },
       {
         "kind": "resolution",
         "number": "2025-407",
-        "title": "Special event application for Duck Pond Day",
+        "title": "Special event application: Duck Pond Day",
         "outcome": "adopted",
         "votes": [
           {
@@ -8853,18 +8827,18 @@
             "vote": "yes"
           },
           {
-            "member": "Halpin",
+            "member": "Tim Hubbard",
             "vote": "yes"
           }
         ],
         "unanimous": true,
-        "confidence": "low",
+        "confidence": "high",
         "timestamp_s": 2902
       },
       {
         "kind": "resolution",
         "number": "2025-408",
-        "title": "Special event application for Riverhead Country Fair",
+        "title": "Special event application: Riverhead Country Fair",
         "outcome": "adopted",
         "votes": [
           {
@@ -8884,18 +8858,18 @@
             "vote": "yes"
           },
           {
-            "member": "Halpin",
+            "member": "Tim Hubbard",
             "vote": "yes"
           }
         ],
         "unanimous": true,
-        "confidence": "low",
+        "confidence": "high",
         "timestamp_s": 2919
       },
       {
         "kind": "resolution",
         "number": "2025-409",
-        "title": "Special event application for Iglesia Familia de Dios",
+        "title": "Special event application: Iglesia Familia de Dios Riverhead for Christ",
         "outcome": "adopted",
         "votes": [
           {
@@ -8915,18 +8889,18 @@
             "vote": "yes"
           },
           {
-            "member": "Halpin",
+            "member": "Tim Hubbard",
             "vote": "yes"
           }
         ],
         "unanimous": true,
-        "confidence": "low",
+        "confidence": "high",
         "timestamp_s": 2935
       },
       {
         "kind": "resolution",
         "number": "2025-410",
-        "title": "Special event application for Dreamland Amusements East End Fair",
+        "title": "Special event application: Dreamland Amusements East End Fair",
         "outcome": "adopted",
         "votes": [
           {
@@ -8946,18 +8920,18 @@
             "vote": "yes"
           },
           {
-            "member": "Halpin",
+            "member": "Tim Hubbard",
             "vote": "yes"
           }
         ],
         "unanimous": true,
-        "confidence": "low",
+        "confidence": "high",
         "timestamp_s": 2957
       },
       {
         "kind": "resolution",
         "number": "2025-411",
-        "title": "Special event application Long Island Antique Power Association",
+        "title": "Special event application: Long Island Antique Power Association shows",
         "outcome": "adopted",
         "votes": [
           {
@@ -8977,12 +8951,12 @@
             "vote": "yes"
           },
           {
-            "member": "Halpin",
+            "member": "Tim Hubbard",
             "vote": "yes"
           }
         ],
         "unanimous": true,
-        "confidence": "low",
+        "confidence": "high",
         "timestamp_s": 2976
       },
       {
@@ -9008,12 +8982,12 @@
             "vote": "yes"
           },
           {
-            "member": "Halpin",
+            "member": "Tim Hubbard",
             "vote": "yes"
           }
         ],
         "unanimous": true,
-        "confidence": "low",
+        "confidence": "high",
         "timestamp_s": 2998
       },
       {
@@ -9039,18 +9013,18 @@
             "vote": "yes"
           },
           {
-            "member": "Halpin",
+            "member": "Tim Hubbard",
             "vote": "yes"
           }
         ],
         "unanimous": true,
-        "confidence": "low",
-        "timestamp_s": 3018
+        "confidence": "high",
+        "timestamp_s": 3019
       },
       {
-        "kind": "resolution",
-        "number": "2025-414",
-        "title": "Appoints office assistant (amended title)",
+        "kind": "motion",
+        "number": null,
+        "title": "Amend Resolution 414 title from accountant to office assistant",
         "outcome": "amended",
         "votes": [
           {
@@ -9070,7 +9044,7 @@
             "vote": "yes"
           },
           {
-            "member": "Halpin",
+            "member": "Tim Hubbard",
             "vote": "yes"
           }
         ],
@@ -9080,8 +9054,8 @@
       },
       {
         "kind": "resolution",
-        "number": "2025-416",
-        "title": "Notice to consider local law amending Chapter 251 Public Nuisances",
+        "number": "2025-414",
+        "title": "Appoints an office assistant (as amended)",
         "outcome": "adopted",
         "votes": [
           {
@@ -9101,12 +9075,43 @@
             "vote": "yes"
           },
           {
-            "member": "Halpin",
+            "member": "Tim Hubbard",
             "vote": "yes"
           }
         ],
         "unanimous": true,
-        "confidence": "low",
+        "confidence": "high",
+        "timestamp_s": 3082
+      },
+      {
+        "kind": "resolution",
+        "number": "2025-416",
+        "title": "Publish notice to consider local law amending Chapter 251 Public Nuisances",
+        "outcome": "adopted",
+        "votes": [
+          {
+            "member": "Joann Waski",
+            "vote": "yes"
+          },
+          {
+            "member": "Denise Merrifield",
+            "vote": "yes"
+          },
+          {
+            "member": "Bob Kern",
+            "vote": "yes"
+          },
+          {
+            "member": "Ken Rothwell",
+            "vote": "yes"
+          },
+          {
+            "member": "Tim Hubbard",
+            "vote": "yes"
+          }
+        ],
+        "unanimous": true,
+        "confidence": "high",
         "timestamp_s": 3106
       },
       {

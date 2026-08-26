@@ -12561,23 +12561,23 @@
     "truncated": false,
     "model": "claude-sonnet-5",
     "prompt_version": "1",
-    "generated_at": "2026-08-25T20:39:39+00:00",
+    "generated_at": "2026-08-26T01:22:38+00:00",
     "grounded_in": "Minutes",
     "items": [
       {
         "kind": "hearing_action",
         "number": null,
-        "title": "CDBG Public Hearing held open for written comments to Nov 14",
+        "title": "Public Hearing - CDBG Funds",
         "outcome": "held",
         "votes": [],
         "unanimous": false,
         "confidence": "low",
-        "timestamp_s": null
+        "timestamp_s": 3829
       },
       {
-        "kind": "motion",
+        "kind": "hearing_action",
         "number": null,
-        "title": "Close public hearing on tax levy override and 2026 budget",
+        "title": "Public Hearing - Override Tax Levy Limit and 2026 Preliminary Budget",
         "outcome": "held",
         "votes": [],
         "unanimous": false,
@@ -12601,11 +12601,16 @@
           {
             "member": "Ken Rothwell",
             "vote": "yes"
+          },
+          {
+            "member": "Tim Hubbard",
+            "vote": "yes"
           }
         ],
         "unanimous": true,
         "confidence": "low",
-        "timestamp_s": null
+        "timestamp_s": null,
+        "anchor_quote_unmatched": ""
       },
       {
         "kind": "resolution",
@@ -12624,16 +12629,21 @@
           {
             "member": "Ken Rothwell",
             "vote": "yes"
+          },
+          {
+            "member": "Tim Hubbard",
+            "vote": "yes"
           }
         ],
         "unanimous": true,
         "confidence": "low",
-        "timestamp_s": null
+        "timestamp_s": null,
+        "anchor_quote_unmatched": ""
       },
       {
         "kind": "resolution",
         "number": "2025-897",
-        "title": "Capital Project #72515 Budget Adjustment for Two Bears Park Improvements",
+        "title": "Capital Project #72515 Budget Adjustment - Two Bears Park Improvements",
         "outcome": "adopted",
         "votes": [
           {
@@ -12647,11 +12657,16 @@
           {
             "member": "Ken Rothwell",
             "vote": "yes"
+          },
+          {
+            "member": "Tim Hubbard",
+            "vote": "yes"
           }
         ],
         "unanimous": true,
         "confidence": "low",
-        "timestamp_s": null
+        "timestamp_s": null,
+        "anchor_quote_unmatched": ""
       },
       {
         "kind": "resolution",
@@ -12670,16 +12685,21 @@
           {
             "member": "Ken Rothwell",
             "vote": "yes"
+          },
+          {
+            "member": "Tim Hubbard",
+            "vote": "yes"
           }
         ],
         "unanimous": true,
         "confidence": "low",
-        "timestamp_s": null
+        "timestamp_s": null,
+        "anchor_quote_unmatched": ""
       },
       {
         "kind": "resolution",
         "number": "2025-899",
-        "title": "Water District Capital Project #82335 Landfill Solar Project Budget Adjustment",
+        "title": "Water District Capital Project #82335 Youngs Ave Landfill Solar Project Budget Adjustment",
         "outcome": "adopted",
         "votes": [
           {
@@ -12693,16 +12713,21 @@
           {
             "member": "Ken Rothwell",
             "vote": "yes"
+          },
+          {
+            "member": "Tim Hubbard",
+            "vote": "yes"
           }
         ],
         "unanimous": true,
         "confidence": "low",
-        "timestamp_s": null
+        "timestamp_s": null,
+        "anchor_quote_unmatched": ""
       },
       {
         "kind": "resolution",
         "number": "2025-900",
-        "title": "Ratifies Appointment of a Call-In Mini Bus Driver",
+        "title": "Ratifies Appointment of Call-In Mini Bus Driver",
         "outcome": "adopted",
         "votes": [
           {
@@ -12716,16 +12741,21 @@
           {
             "member": "Ken Rothwell",
             "vote": "yes"
+          },
+          {
+            "member": "Tim Hubbard",
+            "vote": "yes"
           }
         ],
         "unanimous": true,
         "confidence": "low",
-        "timestamp_s": null
+        "timestamp_s": null,
+        "anchor_quote_unmatched": ""
       },
       {
         "kind": "resolution",
         "number": "2025-901",
-        "title": "Ratifies Provisional Appointment of an Account Clerk",
+        "title": "Ratifies Provisional Appointment of Account Clerk",
         "outcome": "adopted",
         "votes": [
           {
@@ -12739,16 +12769,21 @@
           {
             "member": "Ken Rothwell",
             "vote": "yes"
+          },
+          {
+            "member": "Tim Hubbard",
+            "vote": "yes"
           }
         ],
         "unanimous": true,
         "confidence": "low",
-        "timestamp_s": null
+        "timestamp_s": null,
+        "anchor_quote_unmatched": ""
       },
       {
         "kind": "resolution",
         "number": "2025-902",
-        "title": "Ratifies Acceptance of Resignation from a Public Safety Dispatcher",
+        "title": "Ratifies Acceptance of Resignation from Public Safety Dispatcher",
         "outcome": "adopted",
         "votes": [
           {
@@ -12762,16 +12797,21 @@
           {
             "member": "Ken Rothwell",
             "vote": "yes"
+          },
+          {
+            "member": "Tim Hubbard",
+            "vote": "yes"
           }
         ],
         "unanimous": true,
         "confidence": "low",
-        "timestamp_s": null
+        "timestamp_s": null,
+        "anchor_quote_unmatched": ""
       },
       {
         "kind": "resolution",
         "number": "2025-903",
-        "title": "Accepts Resignation of a Maintenance Mechanic II",
+        "title": "Accepts Resignation of Maintenance Mechanic II",
         "outcome": "adopted",
         "votes": [
           {
@@ -12785,11 +12825,16 @@
           {
             "member": "Ken Rothwell",
             "vote": "yes"
+          },
+          {
+            "member": "Tim Hubbard",
+            "vote": "yes"
           }
         ],
         "unanimous": true,
         "confidence": "low",
-        "timestamp_s": null
+        "timestamp_s": null,
+        "anchor_quote_unmatched": ""
       },
       {
         "kind": "resolution",
@@ -12808,11 +12853,16 @@
           {
             "member": "Ken Rothwell",
             "vote": "yes"
+          },
+          {
+            "member": "Tim Hubbard",
+            "vote": "yes"
           }
         ],
         "unanimous": true,
         "confidence": "low",
-        "timestamp_s": null
+        "timestamp_s": null,
+        "anchor_quote_unmatched": ""
       },
       {
         "kind": "resolution",
@@ -12831,16 +12881,21 @@
           {
             "member": "Ken Rothwell",
             "vote": "yes"
+          },
+          {
+            "member": "Tim Hubbard",
+            "vote": "yes"
           }
         ],
         "unanimous": true,
         "confidence": "low",
-        "timestamp_s": null
+        "timestamp_s": null,
+        "anchor_quote_unmatched": ""
       },
       {
         "kind": "resolution",
         "number": "2025-906",
-        "title": "Authorizes Hiring of Administrative Law Judge for Stop-Arm Camera Hearings",
+        "title": "Authorizing Hiring of Administrative Law Judge for Stop-Arm Camera Hearings",
         "outcome": "adopted",
         "votes": [
           {
@@ -12854,16 +12909,21 @@
           {
             "member": "Ken Rothwell",
             "vote": "yes"
+          },
+          {
+            "member": "Tim Hubbard",
+            "vote": "yes"
           }
         ],
         "unanimous": true,
         "confidence": "low",
-        "timestamp_s": null
+        "timestamp_s": null,
+        "anchor_quote_unmatched": ""
       },
       {
         "kind": "resolution",
         "number": "2025-907",
-        "title": "Authorizes Notice to Amend Chapter 289 Traffic Regulations",
+        "title": "Authorizes Public Notice to Amend Chapter 289 Traffic Regulations",
         "outcome": "adopted",
         "votes": [
           {
@@ -12877,16 +12937,21 @@
           {
             "member": "Ken Rothwell",
             "vote": "yes"
+          },
+          {
+            "member": "Tim Hubbard",
+            "vote": "yes"
           }
         ],
         "unanimous": true,
         "confidence": "low",
-        "timestamp_s": null
+        "timestamp_s": null,
+        "anchor_quote_unmatched": ""
       },
       {
         "kind": "resolution",
         "number": "2025-908",
-        "title": "Authorizes Notice to Amend Chapter 231 Fire Prevention",
+        "title": "Authorizes Public Notice to Amend Chapter 231 Fire Prevention",
         "outcome": "adopted",
         "votes": [
           {
@@ -12900,16 +12965,21 @@
           {
             "member": "Ken Rothwell",
             "vote": "yes"
+          },
+          {
+            "member": "Tim Hubbard",
+            "vote": "yes"
           }
         ],
         "unanimous": true,
         "confidence": "low",
-        "timestamp_s": null
+        "timestamp_s": null,
+        "anchor_quote_unmatched": ""
       },
       {
         "kind": "resolution",
         "number": "2025-909",
-        "title": "Authorizes Notice to Bidders for Well No. 2A Construction",
+        "title": "Authorizes Notice to Bidders for Well No. 2A Construction Contracts",
         "outcome": "adopted",
         "votes": [
           {
@@ -12923,11 +12993,16 @@
           {
             "member": "Ken Rothwell",
             "vote": "yes"
+          },
+          {
+            "member": "Tim Hubbard",
+            "vote": "yes"
           }
         ],
         "unanimous": true,
         "confidence": "low",
-        "timestamp_s": null
+        "timestamp_s": null,
+        "anchor_quote_unmatched": ""
       },
       {
         "kind": "resolution",
@@ -12946,11 +13021,16 @@
           {
             "member": "Ken Rothwell",
             "vote": "yes"
+          },
+          {
+            "member": "Tim Hubbard",
+            "vote": "yes"
           }
         ],
         "unanimous": true,
         "confidence": "low",
-        "timestamp_s": null
+        "timestamp_s": null,
+        "anchor_quote_unmatched": ""
       },
       {
         "kind": "resolution",
@@ -12969,11 +13049,16 @@
           {
             "member": "Ken Rothwell",
             "vote": "yes"
+          },
+          {
+            "member": "Tim Hubbard",
+            "vote": "yes"
           }
         ],
         "unanimous": true,
         "confidence": "low",
-        "timestamp_s": null
+        "timestamp_s": null,
+        "anchor_quote_unmatched": ""
       },
       {
         "kind": "resolution",
@@ -12992,11 +13077,16 @@
           {
             "member": "Ken Rothwell",
             "vote": "yes"
+          },
+          {
+            "member": "Tim Hubbard",
+            "vote": "yes"
           }
         ],
         "unanimous": true,
         "confidence": "low",
-        "timestamp_s": null
+        "timestamp_s": null,
+        "anchor_quote_unmatched": ""
       },
       {
         "kind": "resolution",
@@ -13015,11 +13105,16 @@
           {
             "member": "Ken Rothwell",
             "vote": "yes"
+          },
+          {
+            "member": "Tim Hubbard",
+            "vote": "yes"
           }
         ],
         "unanimous": true,
         "confidence": "low",
-        "timestamp_s": null
+        "timestamp_s": null,
+        "anchor_quote_unmatched": ""
       },
       {
         "kind": "resolution",
@@ -13038,11 +13133,16 @@
           {
             "member": "Ken Rothwell",
             "vote": "yes"
+          },
+          {
+            "member": "Tim Hubbard",
+            "vote": "yes"
           }
         ],
         "unanimous": true,
         "confidence": "low",
-        "timestamp_s": null
+        "timestamp_s": null,
+        "anchor_quote_unmatched": ""
       },
       {
         "kind": "resolution",
@@ -13061,11 +13161,16 @@
           {
             "member": "Ken Rothwell",
             "vote": "yes"
+          },
+          {
+            "member": "Tim Hubbard",
+            "vote": "yes"
           }
         ],
         "unanimous": true,
         "confidence": "low",
-        "timestamp_s": null
+        "timestamp_s": null,
+        "anchor_quote_unmatched": ""
       },
       {
         "kind": "resolution",
@@ -13084,16 +13189,21 @@
           {
             "member": "Ken Rothwell",
             "vote": "yes"
+          },
+          {
+            "member": "Tim Hubbard",
+            "vote": "yes"
           }
         ],
         "unanimous": true,
         "confidence": "low",
-        "timestamp_s": null
+        "timestamp_s": null,
+        "anchor_quote_unmatched": ""
       },
       {
         "kind": "resolution",
         "number": "2025-917",
-        "title": "Ratifies Agreement with Inter-Fluve Engineering for Meetinghouse Creek Restoration",
+        "title": "Ratifies Agreement with Inter-Fluve Engineering for Meetinghouse Creek Project",
         "outcome": "adopted",
         "votes": [
           {
@@ -13107,11 +13217,16 @@
           {
             "member": "Ken Rothwell",
             "vote": "yes"
+          },
+          {
+            "member": "Tim Hubbard",
+            "vote": "yes"
           }
         ],
         "unanimous": true,
         "confidence": "low",
-        "timestamp_s": null
+        "timestamp_s": null,
+        "anchor_quote_unmatched": ""
       },
       {
         "kind": "resolution",
@@ -13130,11 +13245,16 @@
           {
             "member": "Ken Rothwell",
             "vote": "yes"
+          },
+          {
+            "member": "Tim Hubbard",
+            "vote": "yes"
           }
         ],
         "unanimous": true,
         "confidence": "low",
-        "timestamp_s": null
+        "timestamp_s": null,
+        "anchor_quote_unmatched": ""
       },
       {
         "kind": "resolution",
@@ -13153,11 +13273,16 @@
           {
             "member": "Ken Rothwell",
             "vote": "yes"
+          },
+          {
+            "member": "Tim Hubbard",
+            "vote": "yes"
           }
         ],
         "unanimous": true,
         "confidence": "low",
-        "timestamp_s": null
+        "timestamp_s": null,
+        "anchor_quote_unmatched": ""
       },
       {
         "kind": "resolution",
@@ -13176,31 +13301,16 @@
           {
             "member": "Ken Rothwell",
             "vote": "yes"
+          },
+          {
+            "member": "Tim Hubbard",
+            "vote": "yes"
           }
         ],
         "unanimous": true,
         "confidence": "low",
-        "timestamp_s": null
-      },
-      {
-        "kind": "hearing_action",
-        "number": null,
-        "title": "CDBG Funds Public Hearing",
-        "outcome": "held",
-        "votes": [],
-        "unanimous": false,
-        "confidence": "low",
-        "timestamp_s": 4583
-      },
-      {
-        "kind": "hearing_action",
-        "number": null,
-        "title": "Override Tax Levy Limit and 2026 Preliminary Budget Hearing",
-        "outcome": "held",
-        "votes": [],
-        "unanimous": false,
-        "confidence": "low",
-        "timestamp_s": null
+        "timestamp_s": null,
+        "anchor_quote_unmatched": ""
       },
       {
         "kind": "motion",

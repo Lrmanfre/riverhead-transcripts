@@ -4542,13 +4542,13 @@
     "truncated": false,
     "model": "claude-sonnet-5",
     "prompt_version": "1",
-    "generated_at": "2026-08-25T21:04:38+00:00",
+    "generated_at": "2026-08-26T01:59:41+00:00",
     "grounded_in": null,
     "items": [
       {
         "kind": "hearing_action",
         "number": null,
-        "title": "Public hearing on Forge Road water main extension",
+        "title": "Public hearing: water main extension on Forge Road (Ext. 97)",
         "outcome": "held",
         "votes": [],
         "unanimous": false,
@@ -4579,6 +4579,10 @@
           {
             "member": "Joann Waski",
             "vote": "yes"
+          },
+          {
+            "member": "Bob Kern",
+            "vote": "yes"
           }
         ],
         "unanimous": true,
@@ -4598,7 +4602,7 @@
         ],
         "unanimous": true,
         "confidence": "low",
-        "timestamp_s": 1255
+        "timestamp_s": 1246
       },
       {
         "kind": "resolution",
@@ -4618,11 +4622,15 @@
       {
         "kind": "resolution",
         "number": "2025-138",
-        "title": "Appoints call-in park attendant to recreation department",
+        "title": "Appoints a call-in park attendant to recreation department",
         "outcome": "adopted",
         "votes": [
           {
             "member": "Joann Waski",
+            "vote": "yes"
+          },
+          {
+            "member": "Ken Rothwell",
             "vote": "yes"
           }
         ],
@@ -4633,7 +4641,7 @@
       {
         "kind": "resolution",
         "number": "2025-139",
-        "title": "Appoints call-in assistant recreation leader",
+        "title": "Appoints a call-in assistant recreation leader",
         "outcome": "adopted",
         "votes": [
           {
@@ -4652,7 +4660,7 @@
       {
         "kind": "resolution",
         "number": "2025-140",
-        "title": "Appoints call-in park attendant to recreation department",
+        "title": "Appoints a call-in park attendant to recreation department",
         "outcome": "adopted",
         "votes": [
           {
@@ -4690,7 +4698,7 @@
       {
         "kind": "resolution",
         "number": "2025-142",
-        "title": "Appoints part-time office assistant to recreation department",
+        "title": "Appoints a part-time office assistant to recreation department",
         "outcome": "adopted",
         "votes": [
           {
@@ -4700,7 +4708,7 @@
         ],
         "unanimous": true,
         "confidence": "low",
-        "timestamp_s": 1345
+        "timestamp_s": 1351
       },
       {
         "kind": "resolution",
@@ -4715,6 +4723,10 @@
           {
             "member": "Denise Merrifield",
             "vote": "yes"
+          },
+          {
+            "member": "Bob Kern",
+            "vote": "yes"
           }
         ],
         "unanimous": true,
@@ -4724,7 +4736,7 @@
       {
         "kind": "resolution",
         "number": "2025-144",
-        "title": "Terminates inactive employees from police department",
+        "title": "Terminates inactive employees from the police department",
         "outcome": "adopted",
         "votes": [
           {
@@ -4743,7 +4755,7 @@
       {
         "kind": "resolution",
         "number": "2025-145",
-        "title": "Accepts retirement of construction equipment operator",
+        "title": "Accepts retirement of a construction equipment operator",
         "outcome": "adopted",
         "votes": [
           {
@@ -4764,13 +4776,13 @@
           }
         ],
         "unanimous": true,
-        "confidence": "low",
-        "timestamp_s": 1383
+        "confidence": "high",
+        "timestamp_s": 1398
       },
       {
         "kind": "resolution",
         "number": "2025-146",
-        "title": "Accepts retirement of principal accountant clerk",
+        "title": "Accepts retirement of a principal accountant clerk",
         "outcome": "adopted",
         "votes": [
           {
@@ -4791,13 +4803,13 @@
           }
         ],
         "unanimous": true,
-        "confidence": "low",
+        "confidence": "high",
         "timestamp_s": 1439
       },
       {
         "kind": "resolution",
         "number": "2025-147",
-        "title": "Authorizes contract for EFC operation and maintenance grant program",
+        "title": "Authorizes O&M grant contract with NY State Environmental Facilities Corp",
         "outcome": "adopted",
         "votes": [
           {
@@ -4815,22 +4827,22 @@
         ],
         "unanimous": true,
         "confidence": "low",
-        "timestamp_s": 1482
+        "timestamp_s": 1469
       },
       {
         "kind": "resolution",
         "number": "2025-148",
-        "title": "Extends bid nunc pro tunc for two years",
+        "title": "Extends bid nunc pro tunc for two and a half years",
         "outcome": "adopted",
         "votes": [],
         "unanimous": false,
         "confidence": "low",
-        "timestamp_s": 1499
+        "timestamp_s": 1497
       },
       {
         "kind": "resolution",
         "number": "2025-149",
-        "title": "Resolution 149",
+        "title": "Resolution (unspecified subject)",
         "outcome": "adopted",
         "votes": [
           {
@@ -4844,12 +4856,12 @@
         ],
         "unanimous": true,
         "confidence": "low",
-        "timestamp_s": null
+        "timestamp_s": 1504
       },
       {
         "kind": "resolution",
         "number": "2025-150",
-        "title": "Awards bid for census water meters and accessory equipment",
+        "title": "Awards bid for census water meters and repair equipment",
         "outcome": "adopted",
         "votes": [
           {
@@ -4863,12 +4875,12 @@
         ],
         "unanimous": true,
         "confidence": "low",
-        "timestamp_s": null
+        "timestamp_s": 1557
       },
       {
         "kind": "resolution",
         "number": "2025-151",
-        "title": "Calls public hearing for electrical upgrades at plant number seven",
+        "title": "Calls public hearing on electrical upgrades at Plant No. 7, project 16",
         "outcome": "adopted",
         "votes": [
           {
@@ -4885,13 +4897,13 @@
           }
         ],
         "unanimous": true,
-        "confidence": "low",
-        "timestamp_s": 1593
+        "confidence": "high",
+        "timestamp_s": 1585
       },
       {
         "kind": "resolution",
         "number": "2025-152",
-        "title": "Authorizes public notice to amend excavation and grading code fees",
+        "title": "Authorizes notice for local law amending excavation and grading fees",
         "outcome": "adopted",
         "votes": [
           {
@@ -4905,12 +4917,12 @@
         ],
         "unanimous": true,
         "confidence": "low",
-        "timestamp_s": 1626
+        "timestamp_s": 1615
       },
       {
         "kind": "resolution",
         "number": "2025-153",
-        "title": "Authorizes supervisor to execute application for Home Depot plant cells",
+        "title": "Authorizes supervisor to execute application for Home Depot solar cells",
         "outcome": "adopted",
         "votes": [
           {
@@ -4931,8 +4943,8 @@
           }
         ],
         "unanimous": true,
-        "confidence": "low",
-        "timestamp_s": 1673
+        "confidence": "high",
+        "timestamp_s": 1637
       },
       {
         "kind": "resolution",
@@ -4958,13 +4970,13 @@
           }
         ],
         "unanimous": true,
-        "confidence": "low",
+        "confidence": "high",
         "timestamp_s": 1686
       },
       {
         "kind": "resolution",
         "number": "2025-156",
-        "title": "Authorizes continued service with municipal CMS LLC for website maintenance",
+        "title": "Authorizes continued service with Municipal CMS LLC for website maintenance",
         "outcome": "adopted",
         "votes": [
           {
@@ -4978,12 +4990,12 @@
         ],
         "unanimous": true,
         "confidence": "low",
-        "timestamp_s": 1712
+        "timestamp_s": 1701
       },
       {
         "kind": "resolution",
         "number": "2025-157",
-        "title": "Authorizes continued service with municipal CMS LLC for website maintenance",
+        "title": "Authorizes continued service with Municipal CMS LLC for website maintenance",
         "outcome": "adopted",
         "votes": [
           {
@@ -5009,12 +5021,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 1712
+        "timestamp_s": 1721
       },
       {
         "kind": "resolution",
         "number": "2025-158",
-        "title": "Grants excavation exportation permit for Cauliflower Square LLC",
+        "title": "Grants excavation/exportation permit for Cauliflower Square LLC",
         "outcome": "adopted",
         "votes": [
           {
@@ -5031,13 +5043,13 @@
           }
         ],
         "unanimous": true,
-        "confidence": "low",
+        "confidence": "high",
         "timestamp_s": 1744
       },
       {
         "kind": "resolution",
         "number": "2025-159",
-        "title": "Ratifies donation of temporary freezer trailer for senior center",
+        "title": "Ratifies acceptance of donation of freezer trailer for senior center",
         "outcome": "adopted",
         "votes": [
           {
@@ -5058,13 +5070,13 @@
           }
         ],
         "unanimous": true,
-        "confidence": "low",
+        "confidence": "high",
         "timestamp_s": 1769
       },
       {
         "kind": "resolution",
         "number": "2025-160",
-        "title": "Ratifies settlement of legal action against Canal House LLC/Victor Ortiz",
+        "title": "Ratifies settlement of legal action against Canal House LLC / Victor Ortiz",
         "outcome": "adopted",
         "votes": [
           {
@@ -5090,12 +5102,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 1807
+        "timestamp_s": 1800
       },
       {
         "kind": "resolution",
         "number": "2025-161",
-        "title": "Authorizes agreement with interpreter for Justice Court",
+        "title": "Authorizes agreement with interpreter for Justice Court - Avalar Gonzalez",
         "outcome": "adopted",
         "votes": [
           {
@@ -5116,13 +5128,13 @@
           }
         ],
         "unanimous": true,
-        "confidence": "low",
+        "confidence": "high",
         "timestamp_s": 1823
       },
       {
         "kind": "resolution",
         "number": "2025-162",
-        "title": "Authorizes agreement with interpreter for Justice Court",
+        "title": "Authorizes agreement with interpreter for Justice Court - Rosalia",
         "outcome": "adopted",
         "votes": [
           {
@@ -5145,7 +5157,7 @@
       {
         "kind": "resolution",
         "number": "2025-163",
-        "title": "Authorizes agreement with interpreter for Justice Court",
+        "title": "Authorizes agreement with interpreter for Justice Court - Castro",
         "outcome": "adopted",
         "votes": [
           {
@@ -5171,7 +5183,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 1853
+        "timestamp_s": 1868
       },
       {
         "kind": "motion",
@@ -5202,12 +5214,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 2034
+        "timestamp_s": 2053
       },
       {
         "kind": "resolution",
         "number": "2025-169",
-        "title": "Establishes Hispanic Development Empowerment and Education Committee",
+        "title": "Establishes Hispanic Development Empowerment and Education Committee, appoints members",
         "outcome": "adopted",
         "votes": [
           {
@@ -5233,12 +5245,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 2042
+        "timestamp_s": 2113
       },
       {
         "kind": "motion",
         "number": null,
-        "title": "Motion to close town board meeting",
+        "title": "Motion to close the town board meeting",
         "outcome": "adopted",
         "votes": [],
         "unanimous": false,

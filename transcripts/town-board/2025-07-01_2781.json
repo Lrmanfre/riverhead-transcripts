@@ -14036,13 +14036,13 @@
     "truncated": false,
     "model": "claude-sonnet-5",
     "prompt_version": "1",
-    "generated_at": "2026-08-25T20:57:14+00:00",
+    "generated_at": "2026-08-26T02:17:14+00:00",
     "grounded_in": null,
     "items": [
       {
         "kind": "hearing_action",
         "number": null,
-        "title": "Chapter 269 shopping carts amendment public hearing",
+        "title": "Chapter 269 shopping carts amendment",
         "outcome": "held",
         "votes": [],
         "unanimous": false,
@@ -14052,7 +14052,7 @@
       {
         "kind": "hearing_action",
         "number": null,
-        "title": "Chapter 217 demolition permits amendment public hearing",
+        "title": "Chapter 217 demolition permits amendment",
         "outcome": "held",
         "votes": [],
         "unanimous": false,
@@ -14062,7 +14062,7 @@
       {
         "kind": "hearing_action",
         "number": null,
-        "title": "Chapter 105 school bus stop-arm administrative law judge program hearing",
+        "title": "Chapter 105 failure to stop for school buses",
         "outcome": "held",
         "votes": [],
         "unanimous": false,
@@ -14073,7 +14073,7 @@
         "kind": "motion",
         "number": null,
         "title": "Close public hearing on Chapter 289 parking prohibited, no written comment period",
-        "outcome": "held",
+        "outcome": "adopted",
         "votes": [
           {
             "member": "Joann Waski",
@@ -14092,7 +14092,7 @@
             "vote": "yes"
           },
           {
-            "member": "Halpin",
+            "member": "Tim Hubbard",
             "vote": "yes"
           }
         ],
@@ -14123,18 +14123,18 @@
             "vote": "yes"
           },
           {
-            "member": "Halpin",
+            "member": "Tim Hubbard",
             "vote": "yes"
           }
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 4769
+        "timestamp_s": 4759
       },
       {
         "kind": "resolution",
         "number": "2025-579",
-        "title": "Approves foreheads beach permit/matter",
+        "title": "Approves for Head Beach",
         "outcome": "adopted",
         "votes": [
           {
@@ -14154,13 +14154,13 @@
             "vote": "yes"
           },
           {
-            "member": "Halpin",
+            "member": "Tim Hubbard",
             "vote": "yes"
           }
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 4770
+        "timestamp_s": 4759
       },
       {
         "kind": "resolution",
@@ -14185,18 +14185,18 @@
             "vote": "yes"
           },
           {
-            "member": "Halpin",
+            "member": "Tim Hubbard",
             "vote": "yes"
           }
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 4789
+        "timestamp_s": 4759
       },
       {
         "kind": "resolution",
         "number": "2025-581",
-        "title": "Appoints seasonal park attendant to recreation department",
+        "title": "Appoints a seasonal park attendant to the recreation department",
         "outcome": "adopted",
         "votes": [
           {
@@ -14216,18 +14216,18 @@
             "vote": "yes"
           },
           {
-            "member": "Halpin",
+            "member": "Tim Hubbard",
             "vote": "yes"
           }
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 4820
+        "timestamp_s": 4759
       },
       {
         "kind": "resolution",
         "number": "2025-583",
-        "title": "Ratifies appointment of seasonal recreation aide to recreation department",
+        "title": "Ratifies appointment of a seasonal recreation aide to the recreation department",
         "outcome": "adopted",
         "votes": [
           {
@@ -14247,18 +14247,18 @@
             "vote": "yes"
           },
           {
-            "member": "Halpin",
+            "member": "Tim Hubbard",
             "vote": "yes"
           }
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 4836
+        "timestamp_s": 4759
       },
       {
         "kind": "resolution",
         "number": "2025-584",
-        "title": "Ratifies appointment of camp chaperone to recreation department",
+        "title": "Ratifies appointment of a camp chaperone to the recreation department",
         "outcome": "adopted",
         "votes": [
           {
@@ -14278,18 +14278,18 @@
             "vote": "yes"
           },
           {
-            "member": "Halpin",
+            "member": "Tim Hubbard",
             "vote": "yes"
           }
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 4854
+        "timestamp_s": 4759
       },
       {
         "kind": "resolution",
         "number": "2025-585",
-        "title": "Accepts retirement of water treatment plant operator",
+        "title": "Accepts retirement of a water treatment plant operator",
         "outcome": "adopted",
         "votes": [
           {
@@ -14309,18 +14309,18 @@
             "vote": "yes"
           },
           {
-            "member": "Halpin",
+            "member": "Tim Hubbard",
             "vote": "yes"
           }
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 4869
+        "timestamp_s": 4875
       },
       {
         "kind": "resolution",
         "number": "2025-586",
-        "title": "Authorizes chief of police to execute agreement with Riverhead Community Awareness Program Inc.",
+        "title": "Authorizes chief of police to execute agreement with Riverhead Community Awareness Program Inc",
         "outcome": "adopted",
         "votes": [
           {
@@ -14340,13 +14340,13 @@
             "vote": "yes"
           },
           {
-            "member": "Halpin",
+            "member": "Tim Hubbard",
             "vote": "yes"
           }
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 4884
+        "timestamp_s": 4875
       },
       {
         "kind": "resolution",
@@ -14371,18 +14371,18 @@
             "vote": "yes"
           },
           {
-            "member": "Halpin",
+            "member": "Tim Hubbard",
             "vote": "yes"
           }
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 4906
+        "timestamp_s": 4875
       },
       {
         "kind": "resolution",
         "number": "2025-588",
-        "title": "Authorizes ATM license agreement at Riverhead Justice Court lobby",
+        "title": "Authorizes license agreement with M&T Bank for ATM at Justice Court",
         "outcome": "adopted",
         "votes": [
           {
@@ -14402,13 +14402,13 @@
             "vote": "yes"
           },
           {
-            "member": "Halpin",
+            "member": "Tim Hubbard",
             "vote": "yes"
           }
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 4932
+        "timestamp_s": 4875
       },
       {
         "kind": "resolution",
@@ -14433,18 +14433,18 @@
             "vote": "yes"
           },
           {
-            "member": "Halpin",
+            "member": "Tim Hubbard",
             "vote": "yes"
           }
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 4951
+        "timestamp_s": 4875
       },
       {
         "kind": "resolution",
         "number": "2025-590",
-        "title": "Ratifies authorization for Community Development Department to apply for a grant",
+        "title": "Ratifies authorization for community development department to apply for a grant",
         "outcome": "adopted",
         "votes": [
           {
@@ -14464,18 +14464,18 @@
             "vote": "yes"
           },
           {
-            "member": "Halpin",
+            "member": "Tim Hubbard",
             "vote": "yes"
           }
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 4964
+        "timestamp_s": 4875
       },
       {
         "kind": "resolution",
         "number": "2025-591",
-        "title": "Accepts $1.4M NYS ESD CFA grant for Town Square Riverfront Amphitheater",
+        "title": "Acceptance of $1.4 million NY ESD CFA grant for Town Square Riverfront Amphitheater",
         "outcome": "adopted",
         "votes": [
           {
@@ -14495,13 +14495,13 @@
             "vote": "yes"
           },
           {
-            "member": "Halpin",
+            "member": "Tim Hubbard",
             "vote": "yes"
           }
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 4985
+        "timestamp_s": 4875
       },
       {
         "kind": "resolution",
@@ -14526,18 +14526,18 @@
             "vote": "yes"
           },
           {
-            "member": "Halpin",
+            "member": "Tim Hubbard",
             "vote": "yes"
           }
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 5010
+        "timestamp_s": 4875
       },
       {
         "kind": "resolution",
         "number": "2025-593",
-        "title": "Authorizes notice to bidders for Ford auto parts",
+        "title": "Authorizes Town Clerk to publish notice to bidders for Ford auto parts",
         "outcome": "adopted",
         "votes": [
           {
@@ -14557,18 +14557,18 @@
             "vote": "yes"
           },
           {
-            "member": "Halpin",
+            "member": "Tim Hubbard",
             "vote": "yes"
           }
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 5035
+        "timestamp_s": 4875
       },
       {
         "kind": "resolution",
         "number": "2025-594",
-        "title": "Authorizes notice to bidders for auto parts",
+        "title": "Authorizes Town Clerk to publish notice to bidders for auto parts",
         "outcome": "adopted",
         "votes": [
           {
@@ -14588,18 +14588,18 @@
             "vote": "yes"
           },
           {
-            "member": "Halpin",
+            "member": "Tim Hubbard",
             "vote": "yes"
           }
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 5055
+        "timestamp_s": 4875
       },
       {
         "kind": "resolution",
         "number": "2025-595",
-        "title": "Authorizes notice to bidders for truck parts",
+        "title": "Authorizes Town Clerk to publish notice to bidders for truck parts",
         "outcome": "adopted",
         "votes": [
           {
@@ -14619,18 +14619,18 @@
             "vote": "yes"
           },
           {
-            "member": "Halpin",
+            "member": "Tim Hubbard",
             "vote": "yes"
           }
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 5071
+        "timestamp_s": 4875
       },
       {
         "kind": "resolution",
         "number": "2025-596",
-        "title": "Authorizes notice for RFP No. 2 for sale of 214 Griffin Avenue",
+        "title": "Authorizes publication of RFP number 2 for sale of 214 Griffin Avenue",
         "outcome": "adopted",
         "votes": [
           {
@@ -14650,13 +14650,13 @@
             "vote": "yes"
           },
           {
-            "member": "Halpin",
+            "member": "Tim Hubbard",
             "vote": "yes"
           }
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 5088
+        "timestamp_s": 4875
       },
       {
         "kind": "resolution",
@@ -14681,18 +14681,18 @@
             "vote": "yes"
           },
           {
-            "member": "Halpin",
+            "member": "Tim Hubbard",
             "vote": "yes"
           }
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 5107
+        "timestamp_s": 4875
       },
       {
         "kind": "resolution",
         "number": "2025-598",
-        "title": "Approves fireworks application for Jamesport Fire Department",
+        "title": "Approves fireworks application for Jamesport Fire Department 7/19/2025",
         "outcome": "adopted",
         "votes": [
           {
@@ -14712,18 +14712,18 @@
             "vote": "yes"
           },
           {
-            "member": "Halpin",
+            "member": "Tim Hubbard",
             "vote": "yes"
           }
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 5124
+        "timestamp_s": 4875
       },
       {
         "kind": "resolution",
         "number": "2025-599",
-        "title": "Calls public hearing on qualified/eligible sponsor designation for Town Square project",
+        "title": "Calls public hearing on qualified/eligible sponsor designation, J. Petrucelli Town Square LLC",
         "outcome": "adopted",
         "votes": [
           {
@@ -14743,13 +14743,13 @@
             "vote": "yes"
           },
           {
-            "member": "Halpin",
+            "member": "Tim Hubbard",
             "vote": "yes"
           }
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 5160
+        "timestamp_s": 5225
       },
       {
         "kind": "resolution",
@@ -14774,13 +14774,13 @@
             "vote": "yes"
           },
           {
-            "member": "Halpin",
+            "member": "Tim Hubbard",
             "vote": "yes"
           }
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 5239
+        "timestamp_s": 5225
       },
       {
         "kind": "resolution",
@@ -14805,18 +14805,18 @@
             "vote": "yes"
           },
           {
-            "member": "Halpin",
+            "member": "Tim Hubbard",
             "vote": "yes"
           }
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": null
+        "timestamp_s": 5225
       },
       {
         "kind": "resolution",
         "number": "2025-603",
-        "title": "Approves fireworks application publication (late filing)",
+        "title": "Approves fireworks application, late filing fine",
         "outcome": "adopted",
         "votes": [
           {
@@ -14836,18 +14836,18 @@
             "vote": "yes"
           },
           {
-            "member": "Halpin",
+            "member": "Tim Hubbard",
             "vote": "yes"
           }
         ],
         "unanimous": false,
         "confidence": "high",
-        "timestamp_s": 5349
+        "timestamp_s": 5325
       },
       {
         "kind": "resolution",
         "number": "2025-604",
-        "title": "Authorizes professional service agreement with Glass and Signs Inc.",
+        "title": "Authorizes professional service agreement with Glass and Signs Inc",
         "outcome": "adopted",
         "votes": [
           {
@@ -14867,18 +14867,18 @@
             "vote": "yes"
           },
           {
-            "member": "Halpin",
+            "member": "Tim Hubbard",
             "vote": "yes"
           }
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 5353
+        "timestamp_s": 5367
       },
       {
         "kind": "resolution",
         "number": "2025-605",
-        "title": "Adopts local law amending cannabis retail location and number regulations",
+        "title": "Adopts local law amending Chapter 301 cannabis retail location regulations",
         "outcome": "adopted",
         "votes": [
           {
@@ -14898,13 +14898,13 @@
             "vote": "yes"
           },
           {
-            "member": "Halpin",
+            "member": "Tim Hubbard",
             "vote": "yes"
           }
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 5394
+        "timestamp_s": 5448
       },
       {
         "kind": "resolution",
@@ -14929,18 +14929,18 @@
             "vote": "yes"
           },
           {
-            "member": "Halpin",
+            "member": "Tim Hubbard",
             "vote": "yes"
           }
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 5458
+        "timestamp_s": 5448
       },
       {
         "kind": "resolution",
         "number": "2025-607",
-        "title": "Approves fireworks application for Main Street Agency",
+        "title": "Approves fireworks application for Main Street Agency, July 18, 2025",
         "outcome": "adopted",
         "votes": [
           {
@@ -14960,18 +14960,18 @@
             "vote": "yes"
           },
           {
-            "member": "Halpin",
+            "member": "Tim Hubbard",
             "vote": "yes"
           }
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 5474
+        "timestamp_s": 5484
       },
       {
         "kind": "resolution",
         "number": "2025-608",
-        "title": "DEXIS skate park land partnership consent resolution",
+        "title": "Amends resolution 407 re: DEXIS project skate park/Suffolk County parcel",
         "outcome": "tabled",
         "votes": [
           {
@@ -14991,7 +14991,7 @@
             "vote": "yes"
           },
           {
-            "member": "Halpin",
+            "member": "Tim Hubbard",
             "vote": "yes"
           }
         ],
@@ -15022,18 +15022,18 @@
             "vote": "yes"
           },
           {
-            "member": "Halpin",
+            "member": "Tim Hubbard",
             "vote": "yes"
           }
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 5532
+        "timestamp_s": 5448
       },
       {
         "kind": "motion",
         "number": null,
-        "title": "Close the Town Board meeting",
+        "title": "Close/adjourn Town Board meeting",
         "outcome": "adopted",
         "votes": [],
         "unanimous": false,

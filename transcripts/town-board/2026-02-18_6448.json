@@ -20347,58 +20347,28 @@
     "truncated": false,
     "model": "claude-sonnet-5",
     "prompt_version": "1",
-    "generated_at": "2026-08-25T20:32:46+00:00",
+    "generated_at": "2026-08-26T01:19:16+00:00",
     "grounded_in": "Minutes",
     "items": [
       {
         "kind": "hearing_action",
         "number": null,
-        "title": "Special Permit/Site Plan - 221 Scott Ave Energy Storage System",
+        "title": "Public Hearing - 221 Scott Ave Energy Storage System",
         "outcome": "held",
         "votes": [],
         "unanimous": false,
         "confidence": "low",
-        "timestamp_s": null
+        "timestamp_s": 5965
       },
       {
         "kind": "hearing_action",
         "number": null,
-        "title": "Special Permit - Hampton Jitney Battery Energy Storage System",
+        "title": "Public Hearing - Hampton Jitney Battery Energy Storage System",
         "outcome": "held",
         "votes": [],
         "unanimous": false,
         "confidence": "low",
-        "timestamp_s": null
-      },
-      {
-        "kind": "hearing_action",
-        "number": null,
-        "title": "Repeal Ch.105 Accessory Apartments; Enact Part 7 Accessory Dwelling Units",
-        "outcome": "held",
-        "votes": [],
-        "unanimous": false,
-        "confidence": "low",
-        "timestamp_s": null
-      },
-      {
-        "kind": "hearing_action",
-        "number": null,
-        "title": "Amend Chapter 265 - Sewers",
-        "outcome": "held",
-        "votes": [],
-        "unanimous": false,
-        "confidence": "low",
-        "timestamp_s": null
-      },
-      {
-        "kind": "hearing_action",
-        "number": null,
-        "title": "Amend Chapter 279 - Taxation",
-        "outcome": "held",
-        "votes": [],
-        "unanimous": false,
-        "confidence": "low",
-        "timestamp_s": null
+        "timestamp_s": 6891
       },
       {
         "kind": "resolution",
@@ -20428,8 +20398,9 @@
           }
         ],
         "unanimous": true,
-        "confidence": "high",
-        "timestamp_s": null
+        "confidence": "low",
+        "timestamp_s": null,
+        "anchor_quote_unmatched": ""
       },
       {
         "kind": "resolution",
@@ -20459,8 +20430,9 @@
           }
         ],
         "unanimous": true,
-        "confidence": "high",
-        "timestamp_s": null
+        "confidence": "low",
+        "timestamp_s": null,
+        "anchor_quote_unmatched": ""
       },
       {
         "kind": "resolution",
@@ -20490,8 +20462,9 @@
           }
         ],
         "unanimous": true,
-        "confidence": "high",
-        "timestamp_s": null
+        "confidence": "low",
+        "timestamp_s": null,
+        "anchor_quote_unmatched": ""
       },
       {
         "kind": "resolution",
@@ -20521,8 +20494,9 @@
           }
         ],
         "unanimous": true,
-        "confidence": "high",
-        "timestamp_s": null
+        "confidence": "low",
+        "timestamp_s": null,
+        "anchor_quote_unmatched": ""
       },
       {
         "kind": "resolution",
@@ -20552,8 +20526,9 @@
           }
         ],
         "unanimous": true,
-        "confidence": "high",
-        "timestamp_s": null
+        "confidence": "low",
+        "timestamp_s": null,
+        "anchor_quote_unmatched": ""
       },
       {
         "kind": "resolution",
@@ -20583,8 +20558,9 @@
           }
         ],
         "unanimous": true,
-        "confidence": "high",
-        "timestamp_s": null
+        "confidence": "low",
+        "timestamp_s": null,
+        "anchor_quote_unmatched": ""
       },
       {
         "kind": "resolution",
@@ -20614,8 +20590,9 @@
           }
         ],
         "unanimous": true,
-        "confidence": "high",
-        "timestamp_s": null
+        "confidence": "low",
+        "timestamp_s": null,
+        "anchor_quote_unmatched": ""
       },
       {
         "kind": "resolution",
@@ -20645,13 +20622,14 @@
           }
         ],
         "unanimous": true,
-        "confidence": "high",
-        "timestamp_s": null
+        "confidence": "low",
+        "timestamp_s": null,
+        "anchor_quote_unmatched": ""
       },
       {
         "kind": "resolution",
         "number": "2026-163",
-        "title": "Ratifies Reclassification of Senior Account Clerk to Principal Account Clerk",
+        "title": "Ratifies Reclassification of a Senior Account Clerk to Principal Account Clerk",
         "outcome": "adopted",
         "votes": [
           {
@@ -20676,8 +20654,9 @@
           }
         ],
         "unanimous": true,
-        "confidence": "high",
-        "timestamp_s": null
+        "confidence": "low",
+        "timestamp_s": null,
+        "anchor_quote_unmatched": ""
       },
       {
         "kind": "resolution",
@@ -20707,8 +20686,9 @@
           }
         ],
         "unanimous": true,
-        "confidence": "high",
-        "timestamp_s": null
+        "confidence": "low",
+        "timestamp_s": null,
+        "anchor_quote_unmatched": ""
       },
       {
         "kind": "resolution",
@@ -20738,8 +20718,9 @@
           }
         ],
         "unanimous": true,
-        "confidence": "high",
-        "timestamp_s": null
+        "confidence": "low",
+        "timestamp_s": null,
+        "anchor_quote_unmatched": ""
       },
       {
         "kind": "resolution",
@@ -20769,8 +20750,9 @@
           }
         ],
         "unanimous": true,
-        "confidence": "high",
-        "timestamp_s": null
+        "confidence": "low",
+        "timestamp_s": null,
+        "anchor_quote_unmatched": ""
       },
       {
         "kind": "resolution",
@@ -20800,8 +20782,9 @@
           }
         ],
         "unanimous": true,
-        "confidence": "high",
-        "timestamp_s": null
+        "confidence": "low",
+        "timestamp_s": null,
+        "anchor_quote_unmatched": ""
       },
       {
         "kind": "resolution",
@@ -20831,8 +20814,9 @@
           }
         ],
         "unanimous": true,
-        "confidence": "high",
-        "timestamp_s": null
+        "confidence": "low",
+        "timestamp_s": null,
+        "anchor_quote_unmatched": ""
       },
       {
         "kind": "resolution",
@@ -20862,8 +20846,9 @@
           }
         ],
         "unanimous": true,
-        "confidence": "high",
-        "timestamp_s": null
+        "confidence": "low",
+        "timestamp_s": null,
+        "anchor_quote_unmatched": ""
       },
       {
         "kind": "resolution",
@@ -20893,8 +20878,9 @@
           }
         ],
         "unanimous": true,
-        "confidence": "high",
-        "timestamp_s": null
+        "confidence": "low",
+        "timestamp_s": null,
+        "anchor_quote_unmatched": ""
       },
       {
         "kind": "resolution",
@@ -20924,8 +20910,9 @@
           }
         ],
         "unanimous": true,
-        "confidence": "high",
-        "timestamp_s": null
+        "confidence": "low",
+        "timestamp_s": null,
+        "anchor_quote_unmatched": ""
       },
       {
         "kind": "resolution",
@@ -20955,13 +20942,14 @@
           }
         ],
         "unanimous": true,
-        "confidence": "high",
-        "timestamp_s": null
+        "confidence": "low",
+        "timestamp_s": null,
+        "anchor_quote_unmatched": ""
       },
       {
         "kind": "resolution",
         "number": "2026-173",
-        "title": "Local Law Amend Ch.279 Taxation - Volunteer Firefighter/Ambulance Exemption",
+        "title": "Adopts Local Law Amending Chapter 279 Taxation - Volunteer Firefighter/Ambulance Exemption",
         "outcome": "adopted",
         "votes": [
           {
@@ -20986,13 +20974,14 @@
           }
         ],
         "unanimous": true,
-        "confidence": "high",
-        "timestamp_s": null
+        "confidence": "low",
+        "timestamp_s": null,
+        "anchor_quote_unmatched": ""
       },
       {
         "kind": "resolution",
         "number": "2026-174",
-        "title": "Local Law Amend Ch.279 Taxation - Surviving Spouses of Police Officers Exemption",
+        "title": "Adopts Local Law Amending Chapter 279 Taxation - Exemption for Surviving Spouses of Police Officers",
         "outcome": "adopted",
         "votes": [
           {
@@ -21017,13 +21006,14 @@
           }
         ],
         "unanimous": true,
-        "confidence": "high",
-        "timestamp_s": null
+        "confidence": "low",
+        "timestamp_s": null,
+        "anchor_quote_unmatched": ""
       },
       {
         "kind": "resolution",
         "number": "2026-175",
-        "title": "Authorizes Notice to Consider Amendment to Ch.289 No Parking Certain Hours",
+        "title": "Authorizes Public Notice to Amend Chapter 289 No Parking Certain Hours",
         "outcome": "adopted",
         "votes": [
           {
@@ -21048,8 +21038,9 @@
           }
         ],
         "unanimous": true,
-        "confidence": "high",
-        "timestamp_s": null
+        "confidence": "low",
+        "timestamp_s": null,
+        "anchor_quote_unmatched": ""
       },
       {
         "kind": "resolution",
@@ -21079,13 +21070,14 @@
           }
         ],
         "unanimous": true,
-        "confidence": "high",
-        "timestamp_s": null
+        "confidence": "low",
+        "timestamp_s": null,
+        "anchor_quote_unmatched": ""
       },
       {
         "kind": "resolution",
         "number": "2026-177",
-        "title": "Rejects PFAS Treatment Bids at Well 5-2A and Authorizes Rebid",
+        "title": "Rejects Bids and Authorizes Rebid - PFAS Treatment at Well No. 5-2A",
         "outcome": "adopted",
         "votes": [
           {
@@ -21110,8 +21102,9 @@
           }
         ],
         "unanimous": true,
-        "confidence": "high",
-        "timestamp_s": null
+        "confidence": "low",
+        "timestamp_s": null,
+        "anchor_quote_unmatched": ""
       },
       {
         "kind": "resolution",
@@ -21141,13 +21134,14 @@
           }
         ],
         "unanimous": true,
-        "confidence": "high",
-        "timestamp_s": null
+        "confidence": "low",
+        "timestamp_s": null,
+        "anchor_quote_unmatched": ""
       },
       {
         "kind": "resolution",
         "number": "2026-179",
-        "title": "Agreement with Nassau County PAL Lacrosse for PAL Boys Lacrosse Program",
+        "title": "Authorizes Agreement with Nassau County PAL Lacrosse Unit",
         "outcome": "adopted",
         "votes": [
           {
@@ -21172,13 +21166,14 @@
           }
         ],
         "unanimous": true,
-        "confidence": "high",
-        "timestamp_s": null
+        "confidence": "low",
+        "timestamp_s": null,
+        "anchor_quote_unmatched": ""
       },
       {
         "kind": "resolution",
         "number": "2026-180",
-        "title": "Agreement with P.W. Grosser for Meetinghouse Creek Wetland Restoration Project",
+        "title": "Authorizes Agreement with P.W. Grosser Consulting for Meetinghouse Creek Restoration",
         "outcome": "adopted",
         "votes": [
           {
@@ -21203,13 +21198,14 @@
           }
         ],
         "unanimous": true,
-        "confidence": "high",
-        "timestamp_s": null
+        "confidence": "low",
+        "timestamp_s": null,
+        "anchor_quote_unmatched": ""
       },
       {
         "kind": "resolution",
         "number": "2026-181",
-        "title": "Agreement with The Raynor Group, P.E. & L.S., PLLC",
+        "title": "Authorizes Agreement with The Raynor Group, P.E. & L.S., PLLC",
         "outcome": "adopted",
         "votes": [
           {
@@ -21234,13 +21230,14 @@
           }
         ],
         "unanimous": true,
-        "confidence": "high",
-        "timestamp_s": null
+        "confidence": "low",
+        "timestamp_s": null,
+        "anchor_quote_unmatched": ""
       },
       {
         "kind": "resolution",
         "number": "2026-182",
-        "title": "License Agreement with DMS Apex Holdings (Skip Barber Racing School) at EPCAL",
+        "title": "License Agreement with DMS Apex Holdings LLC (Skip Barber Racing School) at EPCAL",
         "outcome": "adopted",
         "votes": [
           {
@@ -21269,9 +21266,39 @@
         "timestamp_s": 9681
       },
       {
+        "kind": "hearing_action",
+        "number": null,
+        "title": "Public Hearing - Repeal/Enact Accessory Dwelling Units law",
+        "outcome": "held",
+        "votes": [],
+        "unanimous": false,
+        "confidence": "low",
+        "timestamp_s": 8799
+      },
+      {
+        "kind": "hearing_action",
+        "number": null,
+        "title": "Public Hearing - Amend Chapter 265 Sewers",
+        "outcome": "held",
+        "votes": [],
+        "unanimous": false,
+        "confidence": "low",
+        "timestamp_s": 8952
+      },
+      {
+        "kind": "hearing_action",
+        "number": null,
+        "title": "Public Hearing - Amend Chapter 279 Taxation (surviving spouses)",
+        "outcome": "held",
+        "votes": [],
+        "unanimous": false,
+        "confidence": "low",
+        "timestamp_s": 9206
+      },
+      {
         "kind": "resolution",
         "number": "2026-184",
-        "title": "Retainer Agreement with Sertilman Law Services",
+        "title": "Ratifies Authorization of Retainer Agreement with Sertilman Law Services",
         "outcome": "adopted",
         "votes": [
           {
@@ -21302,7 +21329,7 @@
       {
         "kind": "resolution",
         "number": "2026-186",
-        "title": "Special Event Ch.255 Application - Riverhead Home Depot Plant Event",
+        "title": "Special Event Chapter 255 Application - Riverhead Home Depot Plant Event",
         "outcome": "adopted",
         "votes": [
           {
@@ -21333,7 +21360,7 @@
       {
         "kind": "resolution",
         "number": "2026-187",
-        "title": "Special Event Ch.255 Application - NY Marine Rescue Center Ridley 5k",
+        "title": "Special Event Chapter 255 Application - NY Marine Rescue Center Run/5k",
         "outcome": "adopted",
         "votes": [
           {
@@ -21364,7 +21391,7 @@
       {
         "kind": "resolution",
         "number": "2026-188",
-        "title": "Special Event Ch.255 Application - Slow Food East End and Earth Day",
+        "title": "Special Event Chapter 255 Application - Slow Food East and Earth Day",
         "outcome": "adopted",
         "votes": [
           {
@@ -21395,7 +21422,7 @@
       {
         "kind": "resolution",
         "number": "2026-189",
-        "title": "Special Event Ch.255 Application - St. John Baptist Ukrainian Church Car Show",
+        "title": "Special Event Chapter 255 Application - St. John Baptist Ukrainian Church Blessing of the Cars",
         "outcome": "adopted",
         "votes": [
           {
@@ -21426,7 +21453,7 @@
       {
         "kind": "resolution",
         "number": "2026-190",
-        "title": "Ratifies Amendment of Resolution 2026-148 for Stotsky Park Lighting Grant",
+        "title": "Ratifies Amendment of Resolution 2026-148 - Stotzky Park Lighting Grant Application",
         "outcome": "adopted",
         "votes": [
           {
@@ -21457,7 +21484,7 @@
       {
         "kind": "resolution",
         "number": "2026-191",
-        "title": "Payment of Bills",
+        "title": "Approves the Bills",
         "outcome": "adopted",
         "votes": [
           {
@@ -21488,7 +21515,7 @@
       {
         "kind": "resolution",
         "number": "2026-192",
-        "title": "Authorizes Lawrence Indamine Consulting Corp. Appraisal for RPTL Article 7",
+        "title": "Authorizes Lawrence Indamine Consulting Corp. for Article 7 Tax Appraisal",
         "outcome": "adopted",
         "votes": [
           {
@@ -21519,7 +21546,7 @@
       {
         "kind": "resolution",
         "number": "2026-193",
-        "title": "Retainer Agreement with Timothy James Hopkins d/b/a Hopkins Law Services",
+        "title": "Retainer Agreement with Timothy James Hopkins Esquire (Hopkins Law Services)",
         "outcome": "adopted",
         "votes": [
           {
@@ -21579,6 +21606,17 @@
         "timestamp_s": 9429
       },
       {
+        "kind": "hearing_action",
+        "number": null,
+        "title": "Repeal Chapter 105 Accessory Apartments; Enact Accessory Dwelling Units",
+        "outcome": "held",
+        "votes": [],
+        "unanimous": false,
+        "confidence": "low",
+        "timestamp_s": null,
+        "anchor_quote_unmatched": ""
+      },
+      {
         "kind": "motion",
         "number": null,
         "title": "Close Town Board meeting and move into CDA meeting",
@@ -21586,7 +21624,7 @@
         "votes": [],
         "unanimous": false,
         "confidence": "low",
-        "timestamp_s": 12624
+        "timestamp_s": 12617
       },
       {
         "kind": "motion",

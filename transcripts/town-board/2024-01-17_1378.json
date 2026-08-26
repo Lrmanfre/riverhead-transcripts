@@ -18086,39 +18086,18 @@
     "truncated": false,
     "model": "claude-sonnet-5",
     "prompt_version": "1",
-    "generated_at": "2026-08-25T21:45:45+00:00",
+    "generated_at": "2026-08-26T01:43:31+00:00",
     "grounded_in": "Minutes",
     "items": [
       {
         "kind": "motion",
         "number": null,
-        "title": "Approval of Jan 3, 2024 Town Board Minutes",
+        "title": "Accept minutes of January 3, 2024 meeting",
         "outcome": "adopted",
-        "votes": [
-          {
-            "member": "Joann Waski",
-            "vote": "yes"
-          },
-          {
-            "member": "Denise Merrifield",
-            "vote": "yes"
-          },
-          {
-            "member": "Bob Kern",
-            "vote": "yes"
-          },
-          {
-            "member": "Ken Rothwell",
-            "vote": "yes"
-          },
-          {
-            "member": "Halpin",
-            "vote": "yes"
-          }
-        ],
-        "unanimous": true,
+        "votes": [],
+        "unanimous": false,
         "confidence": "low",
-        "timestamp_s": null
+        "timestamp_s": 611
       },
       {
         "kind": "motion",
@@ -18150,7 +18129,7 @@
       {
         "kind": "motion",
         "number": "2024-1",
-        "title": "CDA appoints members and officers to the Community Development Agency",
+        "title": "CDA: Appoint members and officers to the Community Development Agency",
         "outcome": "adopted",
         "votes": [
           {
@@ -18177,7 +18156,7 @@
       {
         "kind": "motion",
         "number": "2024-2",
-        "title": "CDA omnibus resolution on policies and Public Authorities Accountability Act",
+        "title": "CDA: Omnibus resolution on policies and Public Authorities Accountability Act",
         "outcome": "adopted",
         "votes": [
           {
@@ -18204,7 +18183,7 @@
       {
         "kind": "hearing_action",
         "number": null,
-        "title": "Adjourn unsafe structure hearing at 29 E 2nd Street to Feb 21",
+        "title": "Public hearing on unsafe structure at 29 East 2nd Street adjourned",
         "outcome": "tabled",
         "votes": [],
         "unanimous": false,
@@ -18214,7 +18193,7 @@
       {
         "kind": "hearing_action",
         "number": null,
-        "title": "Close public hearing on Waterways and Water-Related Activities amendment",
+        "title": "Public hearing to amend waterways and water-related activities closed",
         "outcome": "held",
         "votes": [
           {
@@ -18236,12 +18215,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 2097
+        "timestamp_s": 2090
       },
       {
         "kind": "hearing_action",
         "number": null,
-        "title": "Keep solid waste code hearing open until Jan 26 for written comment",
+        "title": "Public hearing on solid waste kept open for written comment",
         "outcome": "tabled",
         "votes": [],
         "unanimous": false,
@@ -18249,9 +18228,29 @@
         "timestamp_s": 2372
       },
       {
+        "kind": "hearing_action",
+        "number": null,
+        "title": "Public hearing on Manufacturers Outlet Center Overlay Zone / Tanger",
+        "outcome": "held",
+        "votes": [],
+        "unanimous": false,
+        "confidence": "low",
+        "timestamp_s": 5273
+      },
+      {
+        "kind": "hearing_action",
+        "number": null,
+        "title": "Public hearing on Site Plan Review/Park Fees/Condominium Maps amendments",
+        "outcome": "held",
+        "votes": [],
+        "unanimous": false,
+        "confidence": "low",
+        "timestamp_s": 6634
+      },
+      {
         "kind": "resolution",
         "number": "2024-74",
-        "title": "2023 Budget Transfers for End of Year",
+        "title": "2023 Budget transfers for end of year",
         "outcome": "adopted",
         "votes": [
           {
@@ -18277,12 +18276,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 7237
+        "timestamp_s": 7229
       },
       {
         "kind": "resolution",
-        "number": "2024-75",
-        "title": "Water District Capital Project #82401 901-923 Burman Blvd",
+        "number": "2024-76",
+        "title": "Authorizes free beach stickers to veterans and volunteer fire/ambulance",
         "outcome": "adopted",
         "votes": [
           {
@@ -18313,7 +18312,7 @@
       {
         "kind": "resolution",
         "number": "2024-77",
-        "title": "Sets Fees for Usage of Recreation and Other Town Facilities",
+        "title": "Sets fees for usage of recreation and other town facilities",
         "outcome": "adopted",
         "votes": [
           {
@@ -18344,7 +18343,7 @@
       {
         "kind": "resolution",
         "number": "2024-78",
-        "title": "Appoints a Call-In Recreation Specialist to the Recreation Department",
+        "title": "Appoints a call-in recreation specialist to the recreation department",
         "outcome": "adopted",
         "votes": [
           {
@@ -18375,7 +18374,7 @@
       {
         "kind": "resolution",
         "number": "2024-79",
-        "title": "Sets Salaries for 2024 Call-In Recreation Personnel",
+        "title": "Sets salaries for 2024 call-in recreation personnel",
         "outcome": "adopted",
         "votes": [
           {
@@ -18406,7 +18405,7 @@
       {
         "kind": "resolution",
         "number": "2024-81",
-        "title": "Approves a Salary Increase for a Paralegal",
+        "title": "Approves a salary increase for a paralegal",
         "outcome": "adopted",
         "votes": [
           {
@@ -18437,7 +18436,7 @@
       {
         "kind": "resolution",
         "number": "2024-82",
-        "title": "Ratifies the Promotion of an Assessment Clerk",
+        "title": "Ratifies the promotion of an assessment clerk",
         "outcome": "adopted",
         "votes": [
           {
@@ -18468,7 +18467,7 @@
       {
         "kind": "resolution",
         "number": "2024-83",
-        "title": "Accepts the Retirement of a Legislative Secretary",
+        "title": "Accepts the retirement of a legislative secretary",
         "outcome": "adopted",
         "votes": [
           {
@@ -18530,7 +18529,7 @@
       {
         "kind": "resolution",
         "number": "2024-85",
-        "title": "Setting Terms and Conditions of Employment for Town Board Coordinator Diane Tucci",
+        "title": "Sets terms and conditions of employment for Town Board Coordinator Diane Tucci",
         "outcome": "adopted",
         "votes": [
           {
@@ -18561,7 +18560,7 @@
       {
         "kind": "resolution",
         "number": "2024-86",
-        "title": "Authorizes Professional Services Agreement with Lawrence M. Levy DBA On-Site Productions",
+        "title": "Authorizes agreement with Lawrence M. Levy/On-Site Productions, nunc pro tunc",
         "outcome": "adopted",
         "votes": [
           {
@@ -18587,12 +18586,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 7557
+        "timestamp_s": 7579
       },
       {
         "kind": "resolution",
         "number": "2024-87",
-        "title": "Ratifies Provisional Appointment of a Wastewater Treatment Plant Operator Trainee",
+        "title": "Ratifies provisional appointment of a wastewater treatment plant operator trainee",
         "outcome": "adopted",
         "votes": [
           {
@@ -18623,7 +18622,7 @@
       {
         "kind": "resolution",
         "number": "2024-88",
-        "title": "Ratifies Salaries of Current Police Academy Officers for 2024",
+        "title": "Ratifies salaries of current police academy officers for 2024",
         "outcome": "adopted",
         "votes": [
           {
@@ -18654,7 +18653,7 @@
       {
         "kind": "resolution",
         "number": "2024-89",
-        "title": "Ratifies a Stipend for Network and Systems Specialist II",
+        "title": "Ratifies a stipend for Network and Systems Specialist II",
         "outcome": "adopted",
         "votes": [
           {
@@ -18685,7 +18684,7 @@
       {
         "kind": "resolution",
         "number": "2024-90",
-        "title": "Ratifies the Reclassification of a Maintenance Mechanic III",
+        "title": "Ratifies reclassification of a maintenance mechanic III",
         "outcome": "adopted",
         "votes": [
           {
@@ -18716,7 +18715,7 @@
       {
         "kind": "resolution",
         "number": "2024-91",
-        "title": "Amends Adjustments for Named Highway Employees",
+        "title": "Amends adjustments for named highway employees",
         "outcome": "adopted",
         "votes": [
           {
@@ -18747,7 +18746,7 @@
       {
         "kind": "resolution",
         "number": "2024-92",
-        "title": "Authorizes Professional Services Agreement with Jason Hodge",
+        "title": "Authorizes agreement with Jason Hodge",
         "outcome": "adopted",
         "votes": [
           {
@@ -18778,7 +18777,7 @@
       {
         "kind": "resolution",
         "number": "2024-93",
-        "title": "Authorizes Stipulation Agreement with a Police Officer",
+        "title": "Authorizes stipulation agreement with a police officer",
         "outcome": "adopted",
         "votes": [
           {
@@ -18809,7 +18808,7 @@
       {
         "kind": "resolution",
         "number": "2024-94",
-        "title": "Adopts Local Law Amending Chapter 293 Waterways and Water-Related Activities",
+        "title": "Adopts local law amending Chapter 293 Waterways and Water-Related Activities",
         "outcome": "adopted",
         "votes": [
           {
@@ -18835,12 +18834,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 7721
+        "timestamp_s": 7740
       },
       {
         "kind": "resolution",
         "number": "2024-95",
-        "title": "Authorizes 2024 Conditional Shellfish Harvesting Program Agreement with NYSDEC",
+        "title": "Authorizes 2024 conditional shellfish harvesting program agreement with NYSDEC",
         "outcome": "adopted",
         "votes": [
           {
@@ -18871,7 +18870,7 @@
       {
         "kind": "resolution",
         "number": "2024-96",
-        "title": "Ratifies License Agreement with Race Track Not Street LLC to Utilize Runway at EPCAL",
+        "title": "Ratifies license agreement with Race Track Not Street LLC for EPCAL runway",
         "outcome": "adopted",
         "votes": [
           {
@@ -18902,7 +18901,7 @@
       {
         "kind": "resolution",
         "number": "2024-97",
-        "title": "Authorizes Professional Service Agreement with Charles Leja, as amended",
+        "title": "Authorizes professional service agreement with Charles Leja",
         "outcome": "amended",
         "votes": [
           {
@@ -18933,7 +18932,7 @@
       {
         "kind": "resolution",
         "number": "2024-98",
-        "title": "Authorizes License Agreement with Stein Seafoods LLC for FLUPSY in East Creek",
+        "title": "Authorizes license agreement with Stein Seafoods LLC for FLUPSY in East Creek",
         "outcome": "adopted",
         "votes": [
           {
@@ -18964,7 +18963,7 @@
       {
         "kind": "resolution",
         "number": "2024-99",
-        "title": "Authorizes Settlement Agreement and Mutual Release with Gershow Recycling",
+        "title": "Authorizes settlement agreement and mutual release with Gershow Recycling",
         "outcome": "adopted",
         "votes": [
           {
@@ -18990,12 +18989,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 7883
+        "timestamp_s": 7893
       },
       {
         "kind": "resolution",
         "number": "2024-100",
-        "title": "Ratifies Authorization to Execute Agreement with CSC Holdings LLC",
+        "title": "Ratifies authorization to execute agreement with CSC Holdings LLC",
         "outcome": "adopted",
         "votes": [
           {
@@ -19052,7 +19051,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 7935
+        "timestamp_s": 7956
       },
       {
         "kind": "resolution",
@@ -19083,12 +19082,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": null
+        "timestamp_s": 7991
       },
       {
         "kind": "resolution",
         "number": "2024-103",
-        "title": "Authorizes Town Clerk to Publish Notice to Bidders for Generator Maintenance",
+        "title": "Authorizes town clerk to publish notice to bidders for generator maintenance",
         "outcome": "adopted",
         "votes": [
           {
@@ -19119,7 +19118,7 @@
       {
         "kind": "resolution",
         "number": "2024-104",
-        "title": "Authorizes RFP for Information Technology Managed Service Provider",
+        "title": "Authorizes RFP for IT managed service provider",
         "outcome": "adopted",
         "votes": [
           {
@@ -19150,7 +19149,7 @@
       {
         "kind": "resolution",
         "number": "2024-105",
-        "title": "Extends Bid Contract for Water Meters and Accessory Equipment",
+        "title": "Extends bid contract for water meters and accessory equipment",
         "outcome": "adopted",
         "votes": [
           {
@@ -19181,7 +19180,7 @@
       {
         "kind": "resolution",
         "number": "2024-106",
-        "title": "Adopts Final Scope for Comprehensive Plan Update, as amended",
+        "title": "Adopts final scope for Town of Riverhead Comprehensive Plan Update",
         "outcome": "amended",
         "votes": [
           {
@@ -19212,7 +19211,7 @@
       {
         "kind": "resolution",
         "number": "2024-107",
-        "title": "Publish Notice to Amend Chapter 289 Vehicles, Traffic and Parking Regulations",
+        "title": "Authorizes notice to consider local law amending Chapter 289 vehicles, traffic and parking",
         "outcome": "adopted",
         "votes": [
           {
@@ -19238,12 +19237,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": null
+        "timestamp_s": 8257
       },
       {
         "kind": "resolution",
         "number": "2024-108",
-        "title": "Publish Notice to Amend Procurement Policy Pursuant to General Municipal Law",
+        "title": "Authorizes notice to consider local law amending procurement policy",
         "outcome": "adopted",
         "votes": [
           {
@@ -19274,7 +19273,7 @@
       {
         "kind": "resolution",
         "number": "2024-109",
-        "title": "Publish Notice to Amend Chapter 301 Zoning and Land Development",
+        "title": "Authorizes notice to amend Chapter 301 zoning and land development (agritourism)",
         "outcome": "adopted",
         "votes": [
           {
@@ -19305,7 +19304,7 @@
       {
         "kind": "resolution",
         "number": "2024-110",
-        "title": "Resolution 110 (title unclear from transcript)",
+        "title": "Resolution 110",
         "outcome": "adopted",
         "votes": [
           {
@@ -19336,7 +19335,7 @@
       {
         "kind": "resolution",
         "number": "2024-111",
-        "title": "Pay Bills",
+        "title": "Pay bills",
         "outcome": "adopted",
         "votes": [
           {
@@ -19367,7 +19366,7 @@
       {
         "kind": "resolution",
         "number": "2024-112",
-        "title": "Ratifies the Promotion of a Senior Justice Court Clerk",
+        "title": "Ratifies the promotion of a senior justice court clerk",
         "outcome": "adopted",
         "votes": [
           {
@@ -19396,29 +19395,9 @@
         "timestamp_s": 8441
       },
       {
-        "kind": "hearing_action",
+        "kind": "motion",
         "number": null,
-        "title": "Public Hearing: Manufacturers Outlet Center Overlay Zone (Tanger Mall)",
-        "outcome": "held",
-        "votes": [],
-        "unanimous": false,
-        "confidence": "low",
-        "timestamp_s": 5273
-      },
-      {
-        "kind": "hearing_action",
-        "number": null,
-        "title": "Public Hearing: Site Plan, Park/Rec Fees, and Condominium Maps (combined)",
-        "outcome": "held",
-        "votes": [],
-        "unanimous": false,
-        "confidence": "low",
-        "timestamp_s": 6634
-      },
-      {
-        "kind": "resolution",
-        "number": "2024-76",
-        "title": "Authorizes Free Beach Stickers to Veterans and Volunteer Fire and Ambulance Departments",
+        "title": "Approval of Jan 3, 2024 Town Board minutes",
         "outcome": "adopted",
         "votes": [
           {
@@ -19444,38 +19423,30 @@
         ],
         "unanimous": true,
         "confidence": "low",
-        "timestamp_s": null
+        "timestamp_s": null,
+        "anchor_quote_unmatched": ""
+      },
+      {
+        "kind": "resolution",
+        "number": "2024-75",
+        "title": "Water District Capital Project #82401 901-923 Burman Blvd.",
+        "outcome": "adopted",
+        "votes": [],
+        "unanimous": false,
+        "confidence": "low",
+        "timestamp_s": null,
+        "anchor_quote_unmatched": ""
       },
       {
         "kind": "resolution",
         "number": "2024-80",
         "title": "Sets Salaries of Various Recreation Employees for the Year 2024",
         "outcome": "adopted",
-        "votes": [
-          {
-            "member": "Joann Waski",
-            "vote": "yes"
-          },
-          {
-            "member": "Denise Merrifield",
-            "vote": "yes"
-          },
-          {
-            "member": "Bob Kern",
-            "vote": "yes"
-          },
-          {
-            "member": "Ken Rothwell",
-            "vote": "yes"
-          },
-          {
-            "member": "Halpin",
-            "vote": "yes"
-          }
-        ],
-        "unanimous": true,
+        "votes": [],
+        "unanimous": false,
         "confidence": "low",
-        "timestamp_s": null
+        "timestamp_s": null,
+        "anchor_quote_unmatched": ""
       },
       {
         "kind": "motion",

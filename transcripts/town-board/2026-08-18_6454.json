@@ -13897,13 +13897,13 @@
     "truncated": false,
     "model": "claude-sonnet-5",
     "prompt_version": "1",
-    "generated_at": "2026-08-25T20:03:08+00:00",
+    "generated_at": "2026-08-26T01:57:16+00:00",
     "grounded_in": "Minutes",
     "items": [
       {
         "kind": "hearing_action",
         "number": null,
-        "title": "Amend Chapter 301 Art.XVI Business PB Zoning Use District",
+        "title": "Amend Chapter 301, Art. XVI Business PB Zoning Use District",
         "outcome": "held",
         "votes": [],
         "unanimous": false,
@@ -13970,12 +13970,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": null
+        "timestamp_s": 2383
       },
       {
         "kind": "resolution",
         "number": "2026-767",
-        "title": "Authorizes Budget Transfer for Sewer District VACTOR Truck",
+        "title": "Authorizes Budget Transfer For Sewer District VACTOR Truck",
         "outcome": "adopted",
         "votes": [
           {
@@ -14125,7 +14125,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 2441
+        "timestamp_s": 2480
       },
       {
         "kind": "resolution",
@@ -14161,7 +14161,7 @@
       {
         "kind": "resolution",
         "number": "2026-773",
-        "title": "Ratifies the Authorization for the Police Department to apply for a Grant",
+        "title": "Ratifies the Authorization for the Police Department to Apply for a Grant",
         "outcome": "adopted",
         "votes": [
           {
@@ -14192,7 +14192,7 @@
       {
         "kind": "resolution",
         "number": "2026-774",
-        "title": "Authorizes Community Development Department Assistance to First-Time Homebuyers",
+        "title": "Authorizes The Community Development Department to Offer Assistance to Eligible First-Time Homebuyers",
         "outcome": "adopted",
         "votes": [
           {
@@ -14218,7 +14218,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 2441
+        "timestamp_s": 2535
       },
       {
         "kind": "resolution",
@@ -14481,7 +14481,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 2690
+        "timestamp_s": 2696
       },
       {
         "kind": "resolution",
@@ -14574,7 +14574,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 2758
+        "timestamp_s": 2762
       },
       {
         "kind": "resolution",
@@ -14667,7 +14667,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 2441
+        "timestamp_s": 2511
       },
       {
         "kind": "resolution",
@@ -14698,7 +14698,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 2832
+        "timestamp_s": 2824
       },
       {
         "kind": "resolution",
@@ -14729,12 +14729,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 2441
+        "timestamp_s": 2511
       },
       {
         "kind": "resolution",
         "number": "2026-792",
-        "title": "Establishing Hazardous Materials Response Team and Emergency Response Plan",
+        "title": "Establishing Town Hazardous Materials Response Team and Response Plan",
         "outcome": "adopted",
         "votes": [
           {
@@ -14791,12 +14791,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 2896
+        "timestamp_s": 2900
       },
       {
         "kind": "resolution",
         "number": "2026-794",
-        "title": "Ratifies Retainer Agreement with Siegel & Sitler, PLLC",
+        "title": "Ratifies Authorization for Town Attorney Retainer Agreement with Siegel & Sitler, PLLC",
         "outcome": "adopted",
         "votes": [
           {
@@ -14827,7 +14827,7 @@
       {
         "kind": "resolution",
         "number": "2026-795",
-        "title": "License Agreement with Riverhead Volunteer Ambulance Corps for Town Hall Basement EMT Course",
+        "title": "License Agreement with Riverhead Volunteer Ambulance Corps for Town Hall Basement",
         "outcome": "adopted",
         "votes": [
           {
@@ -14853,7 +14853,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 2939
+        "timestamp_s": 2943
       },
       {
         "kind": "resolution",
@@ -14887,9 +14887,9 @@
         "timestamp_s": 2967
       },
       {
-        "kind": "resolution",
-        "number": "2026-797",
-        "title": "License Agreement for Armory Building Use for Ambulance Storage",
+        "kind": "motion",
+        "number": null,
+        "title": "Amend fiscal impact statement for Armory Building license agreement resolution",
         "outcome": "amended",
         "votes": [
           {
@@ -14915,7 +14915,38 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 3070
+        "timestamp_s": 3048
+      },
+      {
+        "kind": "resolution",
+        "number": "2026-797",
+        "title": "License Agreement for Armory Building Vehicle Bays for Ambulance Storage (Amended)",
+        "outcome": "adopted",
+        "votes": [
+          {
+            "member": "Joann Waski",
+            "vote": "yes"
+          },
+          {
+            "member": "Denise Merrifield",
+            "vote": "yes"
+          },
+          {
+            "member": "Bob Kern",
+            "vote": "yes"
+          },
+          {
+            "member": "Ken Rothwell",
+            "vote": "yes"
+          },
+          {
+            "member": "Jerry Halpin",
+            "vote": "yes"
+          }
+        ],
+        "unanimous": true,
+        "confidence": "high",
+        "timestamp_s": 3103
       },
       {
         "kind": "resolution",
@@ -14951,7 +14982,7 @@
       {
         "kind": "resolution",
         "number": "2026-799",
-        "title": "Agreement with Riverhead Youth Sports for PAL Football Referee Services 2026",
+        "title": "Agreement with Riverhead Youth Sports for Referee/Umpire Services",
         "outcome": "adopted",
         "votes": [
           {
@@ -14982,7 +15013,7 @@
       {
         "kind": "resolution",
         "number": "2026-800",
-        "title": "Amends 289-2(A) to Memorialize Stop Intersection at Doctors Path and Northville Tpke",
+        "title": "Amends Chapter 289 to Memorialize Stop Intersection at Doctors Path and Northville Tpke",
         "outcome": "adopted",
         "votes": [
           {
@@ -15013,7 +15044,7 @@
       {
         "kind": "resolution",
         "number": "2026-801",
-        "title": "Authorizes Public Hearing for Monroe Balancing Test on SCWA North Fork Water Main Extension",
+        "title": "Authorizes Public Hearing for Monroe Balancing Test - SCWA North Fork Water Main Extension",
         "outcome": "adopted",
         "votes": [
           {
@@ -15044,7 +15075,7 @@
       {
         "kind": "resolution",
         "number": "2026-802",
-        "title": "Calling Public Hearing on Sewer District Extension to 840 Old Country Road",
+        "title": "Calling Public Hearing for Sewer District Extension to 840 Old Country Road",
         "outcome": "adopted",
         "votes": [
           {
@@ -15075,7 +15106,7 @@
       {
         "kind": "resolution",
         "number": "2026-803",
-        "title": "Publish Notice to Amend Chapter 255 Parades, Assemblies, and Block Parties",
+        "title": "Publish Notice for Local Law Amending Chapter 255 Special Events",
         "outcome": "adopted",
         "votes": [
           {
@@ -15106,7 +15137,7 @@
       {
         "kind": "resolution",
         "number": "2026-804",
-        "title": "Publish Notice to Amend Chapter 231 Fire Prevention, Fireworks and Pyrotechnics",
+        "title": "Publish Notice for Local Law Amending Chapter 231 Fireworks and Pyrotechnics",
         "outcome": "adopted",
         "votes": [
           {
@@ -15137,7 +15168,7 @@
       {
         "kind": "resolution",
         "number": "2026-805",
-        "title": "Adopts Local Law Amending Chapter 207 Animals, Prohibition on Sales of Commercially Bred Pets",
+        "title": "Adopts Local Law Amending Chapter 207 Animals - Ban on Sale of Commercially Bred Pets",
         "outcome": "adopted",
         "votes": [
           {
@@ -15163,12 +15194,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 3316
+        "timestamp_s": 3334
       },
       {
         "kind": "resolution",
         "number": "2026-806",
-        "title": "Notice to Bidders for New Altec AT40G Aerial Device on 2028 Ford F550 Chassis",
+        "title": "Publish Notice to Bidders for Altec AT40G Aerial Device",
         "outcome": "adopted",
         "votes": [
           {
@@ -15194,12 +15225,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 3367
+        "timestamp_s": 3375
       },
       {
         "kind": "resolution",
         "number": "2026-807",
-        "title": "Awards Bid for CUES Flexitrax C550C Portable Video Pipe Inspection Camera",
+        "title": "Awards Bid for CUES Flexitrax C550C Video Pipe Inspection Camera",
         "outcome": "adopted",
         "votes": [
           {
@@ -15292,7 +15323,7 @@
       {
         "kind": "resolution",
         "number": "2026-810",
-        "title": "Approves Special Event Application for Cutchogue Lions Club Blues by the River",
+        "title": "Approves Special Event Application for Cutchogue Lions Club (Blues by the River)",
         "outcome": "adopted",
         "votes": [
           {
@@ -15318,12 +15349,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": null
+        "timestamp_s": 3453
       },
       {
         "kind": "resolution",
         "number": "2026-811",
-        "title": "Ratifies Alcohol Service Vendor for Polish Independence Hall Festival 2026",
+        "title": "Ratifies Alcohol Service Vendor for Polish Independent Hall Festival 2026",
         "outcome": "adopted",
         "votes": [
           {
@@ -15354,7 +15385,7 @@
       {
         "kind": "resolution",
         "number": "2026-812",
-        "title": "Authorizes Alcohol Service Vendor for Blues by the Bay in Grangebel Park",
+        "title": "Authorizes Alcohol Service Vendor for Blues by the Bay Event in Grangebel Park",
         "outcome": "adopted",
         "votes": [
           {
@@ -15416,27 +15447,18 @@
       {
         "kind": "motion",
         "number": null,
-        "title": "Motion to Adjourn Meeting",
+        "title": "Motion to adjourn the meeting",
         "outcome": "adopted",
         "votes": [],
         "unanimous": false,
         "confidence": "low",
-        "timestamp_s": null
+        "timestamp_s": null,
+        "anchor_quote_unmatched": "Kern motioned to adjourn the meeting, seconded by Merrifield"
       },
       {
         "kind": "motion",
         "number": null,
-        "title": "Adjourn Town Board meeting",
-        "outcome": "adopted",
-        "votes": [],
-        "unanimous": false,
-        "confidence": "low",
-        "timestamp_s": 9921
-      },
-      {
-        "kind": "motion",
-        "number": null,
-        "title": "Open Community Development Agency meeting",
+        "title": "Motion to open CDA meeting",
         "outcome": "adopted",
         "votes": [
           {

@@ -13720,7 +13720,7 @@
     "truncated": false,
     "model": "claude-sonnet-5",
     "prompt_version": "1",
-    "generated_at": "2026-08-25T20:53:14+00:00",
+    "generated_at": "2026-08-26T02:19:14+00:00",
     "grounded_in": "Minutes",
     "items": [
       {
@@ -13731,17 +13731,17 @@
         "votes": [],
         "unanimous": false,
         "confidence": "low",
-        "timestamp_s": null
+        "timestamp_s": 7920
       },
       {
         "kind": "hearing_action",
         "number": null,
-        "title": "Master Developer Agreement Qualified and Eligible Hearing",
+        "title": "Public Hearing - Master Developer Agreement Qualified and Eligible",
         "outcome": "held",
         "votes": [],
         "unanimous": false,
         "confidence": "low",
-        "timestamp_s": 7920
+        "timestamp_s": 7923
       }
     ]
   }

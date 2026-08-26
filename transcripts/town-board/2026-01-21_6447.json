@@ -18421,23 +18421,23 @@
     "truncated": false,
     "model": "claude-sonnet-5",
     "prompt_version": "1",
-    "generated_at": "2026-08-25T20:33:46+00:00",
+    "generated_at": "2026-08-26T01:17:34+00:00",
     "grounded_in": "Minutes",
     "items": [
       {
         "kind": "hearing_action",
         "number": null,
-        "title": "Amend Chapter 301 Art 1 - Definitions (golf cottages)",
+        "title": "Amend Chapter 301, Art 1 - Definitions (golf cottages)",
         "outcome": "held",
         "votes": [],
         "unanimous": false,
         "confidence": "low",
-        "timestamp_s": null
+        "timestamp_s": 5657
       },
       {
         "kind": "resolution",
         "number": "2026-61",
-        "title": "Water District Capital Project 82601 Q'Doba Restaurant Budget Adoption",
+        "title": "Water District Capital Project 82601 Q'Doba Budget Adoption",
         "outcome": "adopted",
         "votes": [
           {
@@ -18462,13 +18462,14 @@
           }
         ],
         "unanimous": true,
-        "confidence": "high",
-        "timestamp_s": null
+        "confidence": "low",
+        "timestamp_s": null,
+        "anchor_quote_unmatched": ""
       },
       {
         "kind": "resolution",
         "number": "2026-62",
-        "title": "Water District Capital Project 82424 Budget Adjustment Electrical Upgrade Plant 7",
+        "title": "Water District Capital Project #82424 Budget Adjustment Plant No. 7",
         "outcome": "adopted",
         "votes": [
           {
@@ -18493,8 +18494,9 @@
           }
         ],
         "unanimous": true,
-        "confidence": "high",
-        "timestamp_s": null
+        "confidence": "low",
+        "timestamp_s": null,
+        "anchor_quote_unmatched": ""
       },
       {
         "kind": "resolution",
@@ -18524,8 +18526,9 @@
           }
         ],
         "unanimous": true,
-        "confidence": "high",
-        "timestamp_s": null
+        "confidence": "low",
+        "timestamp_s": null,
+        "anchor_quote_unmatched": ""
       },
       {
         "kind": "resolution",
@@ -18555,13 +18558,14 @@
           }
         ],
         "unanimous": true,
-        "confidence": "high",
-        "timestamp_s": null
+        "confidence": "low",
+        "timestamp_s": null,
+        "anchor_quote_unmatched": ""
       },
       {
         "kind": "resolution",
         "number": "2026-65",
-        "title": "Approves Sewer District Change Order No. 2 Contract E Electrical Biosolids Upgrade",
+        "title": "Approves Sewer District Change Order No. 2 Contract E Biosolids Upgrade",
         "outcome": "adopted",
         "votes": [
           {
@@ -18586,13 +18590,14 @@
           }
         ],
         "unanimous": true,
-        "confidence": "high",
-        "timestamp_s": null
+        "confidence": "low",
+        "timestamp_s": null,
+        "anchor_quote_unmatched": ""
       },
       {
         "kind": "resolution",
         "number": "2026-66",
-        "title": "Authorizes Sewer District Employees to Attend NYWEA Meeting and Training",
+        "title": "Authorizes Sewer District Employees to Attend NYWEA Conference",
         "outcome": "adopted",
         "votes": [
           {
@@ -18617,8 +18622,9 @@
           }
         ],
         "unanimous": true,
-        "confidence": "high",
-        "timestamp_s": null
+        "confidence": "low",
+        "timestamp_s": null,
+        "anchor_quote_unmatched": ""
       },
       {
         "kind": "resolution",
@@ -18648,13 +18654,14 @@
           }
         ],
         "unanimous": true,
-        "confidence": "high",
-        "timestamp_s": null
+        "confidence": "low",
+        "timestamp_s": null,
+        "anchor_quote_unmatched": ""
       },
       {
         "kind": "resolution",
         "number": "2026-68",
-        "title": "Ratifies Fees for 2026 Winter Brochure",
+        "title": "Ratifies the Fees for the 2026 Winter Brochure",
         "outcome": "adopted",
         "votes": [
           {
@@ -18679,13 +18686,14 @@
           }
         ],
         "unanimous": true,
-        "confidence": "high",
-        "timestamp_s": null
+        "confidence": "low",
+        "timestamp_s": null,
+        "anchor_quote_unmatched": ""
       },
       {
         "kind": "resolution",
         "number": "2026-69",
-        "title": "Sets 2026 Recreation Fee Schedule",
+        "title": "Sets the 2026 Recreation Fee Schedule",
         "outcome": "adopted",
         "votes": [
           {
@@ -18710,8 +18718,9 @@
           }
         ],
         "unanimous": true,
-        "confidence": "high",
-        "timestamp_s": null
+        "confidence": "low",
+        "timestamp_s": null,
+        "anchor_quote_unmatched": ""
       },
       {
         "kind": "resolution",
@@ -18741,8 +18750,9 @@
           }
         ],
         "unanimous": true,
-        "confidence": "high",
-        "timestamp_s": null
+        "confidence": "low",
+        "timestamp_s": null,
+        "anchor_quote_unmatched": ""
       },
       {
         "kind": "resolution",
@@ -18772,8 +18782,9 @@
           }
         ],
         "unanimous": true,
-        "confidence": "high",
-        "timestamp_s": null
+        "confidence": "low",
+        "timestamp_s": null,
+        "anchor_quote_unmatched": ""
       },
       {
         "kind": "resolution",
@@ -18803,13 +18814,14 @@
           }
         ],
         "unanimous": true,
-        "confidence": "high",
-        "timestamp_s": null
+        "confidence": "low",
+        "timestamp_s": null,
+        "anchor_quote_unmatched": ""
       },
       {
         "kind": "resolution",
         "number": "2026-73",
-        "title": "Ratifies Appointment of Part-Time Code Enforcement Officer",
+        "title": "Ratifies Appointment of a Part-Time Code Enforcement Officer",
         "outcome": "adopted",
         "votes": [
           {
@@ -18834,13 +18846,14 @@
           }
         ],
         "unanimous": true,
-        "confidence": "high",
-        "timestamp_s": null
+        "confidence": "low",
+        "timestamp_s": null,
+        "anchor_quote_unmatched": ""
       },
       {
         "kind": "resolution",
         "number": "2026-74",
-        "title": "Ratifies Reappointment of Farmland Preservation Committee Member Matt Schmitt",
+        "title": "Ratifies Reappointment to Farmland Preservation Committee - Matt Schmitt",
         "outcome": "adopted",
         "votes": [
           {
@@ -18865,8 +18878,9 @@
           }
         ],
         "unanimous": true,
-        "confidence": "high",
-        "timestamp_s": null
+        "confidence": "low",
+        "timestamp_s": null,
+        "anchor_quote_unmatched": ""
       },
       {
         "kind": "resolution",
@@ -18896,8 +18910,9 @@
           }
         ],
         "unanimous": true,
-        "confidence": "high",
-        "timestamp_s": null
+        "confidence": "low",
+        "timestamp_s": null,
+        "anchor_quote_unmatched": ""
       },
       {
         "kind": "resolution",
@@ -18927,13 +18942,14 @@
           }
         ],
         "unanimous": true,
-        "confidence": "high",
-        "timestamp_s": null
+        "confidence": "low",
+        "timestamp_s": null,
+        "anchor_quote_unmatched": ""
       },
       {
         "kind": "resolution",
         "number": "2026-77",
-        "title": "Memorandum of Agreement and Waiver & Release for BOCES Interns",
+        "title": "Memorandum of Agreement and Waiver for Eastern Suffolk BOCES Interns",
         "outcome": "adopted",
         "votes": [
           {
@@ -18958,8 +18974,9 @@
           }
         ],
         "unanimous": true,
-        "confidence": "high",
-        "timestamp_s": null
+        "confidence": "low",
+        "timestamp_s": null,
+        "anchor_quote_unmatched": ""
       },
       {
         "kind": "resolution",
@@ -18989,13 +19006,14 @@
           }
         ],
         "unanimous": true,
-        "confidence": "high",
-        "timestamp_s": null
+        "confidence": "low",
+        "timestamp_s": null,
+        "anchor_quote_unmatched": ""
       },
       {
         "kind": "resolution",
         "number": "2026-79",
-        "title": "License Agreement with USGA, SEQRA Lead Agency and Negative Declaration",
+        "title": "License Agreement with USGA, SEQRA Classification and Negative Declaration",
         "outcome": "adopted",
         "votes": [
           {
@@ -19020,8 +19038,9 @@
           }
         ],
         "unanimous": true,
-        "confidence": "high",
-        "timestamp_s": null
+        "confidence": "low",
+        "timestamp_s": null,
+        "anchor_quote_unmatched": ""
       },
       {
         "kind": "resolution",
@@ -19051,8 +19070,9 @@
           }
         ],
         "unanimous": true,
-        "confidence": "high",
-        "timestamp_s": null
+        "confidence": "low",
+        "timestamp_s": null,
+        "anchor_quote_unmatched": ""
       },
       {
         "kind": "resolution",
@@ -19082,13 +19102,14 @@
           }
         ],
         "unanimous": true,
-        "confidence": "high",
-        "timestamp_s": null
+        "confidence": "low",
+        "timestamp_s": null,
+        "anchor_quote_unmatched": ""
       },
       {
         "kind": "resolution",
         "number": "2026-82",
-        "title": "Publish Notice on Local Law Amending Taxation Exemption for Volunteer Firefighters",
+        "title": "Public Notice for Local Law Amending Chapter 279 Taxation Exemption for Volunteer Firefighters",
         "outcome": "adopted",
         "votes": [
           {
@@ -19113,13 +19134,14 @@
           }
         ],
         "unanimous": true,
-        "confidence": "high",
-        "timestamp_s": null
+        "confidence": "low",
+        "timestamp_s": null,
+        "anchor_quote_unmatched": ""
       },
       {
         "kind": "resolution",
         "number": "2026-83",
-        "title": "Classifies Hampton Jitney BESS as Unlisted Action, Negative Declaration, Edwards Ave",
+        "title": "Classifies Hampton Jitney Battery Storage as Unlisted Action, Negative Declaration",
         "outcome": "adopted",
         "votes": [
           {
@@ -19144,13 +19166,14 @@
           }
         ],
         "unanimous": true,
-        "confidence": "high",
-        "timestamp_s": null
+        "confidence": "low",
+        "timestamp_s": null,
+        "anchor_quote_unmatched": ""
       },
       {
         "kind": "resolution",
         "number": "2026-84",
-        "title": "Publish Notice for Public Hearing Hampton Jitney BESS Special Permit",
+        "title": "Public Notice for Hearing on Hampton Jitney Battery Storage Special Permit",
         "outcome": "adopted",
         "votes": [
           {
@@ -19175,13 +19198,14 @@
           }
         ],
         "unanimous": true,
-        "confidence": "high",
-        "timestamp_s": null
+        "confidence": "low",
+        "timestamp_s": null,
+        "anchor_quote_unmatched": ""
       },
       {
         "kind": "resolution",
         "number": "2026-85",
-        "title": "Classifies 221 Scott Ave Energy Storage as Unlisted, Lead Agency, Negative Declaration",
+        "title": "Classifies 221 Scott Avenue Energy Storage as Unlisted, Lead Agency, Negative Declaration",
         "outcome": "adopted",
         "votes": [
           {
@@ -19206,13 +19230,14 @@
           }
         ],
         "unanimous": true,
-        "confidence": "high",
-        "timestamp_s": null
+        "confidence": "low",
+        "timestamp_s": null,
+        "anchor_quote_unmatched": ""
       },
       {
         "kind": "resolution",
         "number": "2026-86",
-        "title": "Publish Notice of Public Hearing for 221 Scott Avenue Energy Storage System",
+        "title": "Public Notice for Hearing on 221 Scott Avenue Energy Storage System",
         "outcome": "adopted",
         "votes": [
           {
@@ -19237,13 +19262,14 @@
           }
         ],
         "unanimous": true,
-        "confidence": "high",
-        "timestamp_s": null
+        "confidence": "low",
+        "timestamp_s": null,
+        "anchor_quote_unmatched": ""
       },
       {
         "kind": "resolution",
         "number": "2026-87",
-        "title": "Publish Notice to Bidders for Meetinghouse Creek Road Bulkhead Renovation",
+        "title": "Notice to Bidders for Meetinghouse Creek Road Bulkhead Renovation",
         "outcome": "adopted",
         "votes": [
           {
@@ -19268,13 +19294,14 @@
           }
         ],
         "unanimous": true,
-        "confidence": "high",
-        "timestamp_s": null
+        "confidence": "low",
+        "timestamp_s": null,
+        "anchor_quote_unmatched": ""
       },
       {
         "kind": "resolution",
         "number": "2026-88",
-        "title": "Publish Bid for Propane Fuel and Equipment Maintenance",
+        "title": "Bid for Propane Fuel and Equipment Maintenance",
         "outcome": "adopted",
         "votes": [
           {
@@ -19299,8 +19326,9 @@
           }
         ],
         "unanimous": true,
-        "confidence": "high",
-        "timestamp_s": null
+        "confidence": "low",
+        "timestamp_s": null,
+        "anchor_quote_unmatched": ""
       },
       {
         "kind": "resolution",
@@ -19330,23 +19358,24 @@
           }
         ],
         "unanimous": true,
-        "confidence": "high",
-        "timestamp_s": null
+        "confidence": "low",
+        "timestamp_s": null,
+        "anchor_quote_unmatched": ""
       },
       {
         "kind": "hearing_action",
         "number": null,
-        "title": "Golf cottages code amendment public hearing (Def-1)",
+        "title": "Golf cottages/TDR code amendment (Ch. 301 Art I Definitions)",
         "outcome": "held",
         "votes": [],
         "unanimous": false,
         "confidence": "low",
-        "timestamp_s": null
+        "timestamp_s": 5960
       },
       {
         "kind": "motion",
         "number": null,
-        "title": "Amend 2026 Recreation Fee Schedule senior fees back to $10",
+        "title": "Amend 2026 Recreation Fee Schedule senior rates",
         "outcome": "amended",
         "votes": [
           {
@@ -19372,12 +19401,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 6705
+        "timestamp_s": 6695
       },
       {
         "kind": "resolution",
         "number": "2026-90",
-        "title": "Awards Bid for Rehabilitation of Plant 7 Electrical Upgrades",
+        "title": "Awards Bid for Rehabilitation of Plant No. 7 Electrical Upgrades",
         "outcome": "adopted",
         "votes": [
           {
@@ -19439,7 +19468,7 @@
       {
         "kind": "resolution",
         "number": "2026-92",
-        "title": "Home Rule Request Supporting Senate Bill S8378B / Assembly A883",
+        "title": "Home Rule Request in Support of Senate Bill S.8378B / A-883",
         "outcome": "adopted",
         "votes": [],
         "unanimous": false,
@@ -19449,7 +19478,7 @@
       {
         "kind": "resolution",
         "number": "2026-93",
-        "title": "Grant Application to NY Sea Grant for Creek Road/Sound Road Flooding Study",
+        "title": "Letter of Intent/Grant Application to NY Sea Grant for Flooding Study",
         "outcome": "adopted",
         "votes": [
           {
@@ -19475,12 +19504,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 7349
+        "timestamp_s": 7353
       },
       {
         "kind": "resolution",
         "number": "2026-94",
-        "title": "Special Event Chapter 255 Application for Chicken Kids LLC Consignment Event",
+        "title": "Special Event Chapter 255 Application for Chicken Kids LLC",
         "outcome": "adopted",
         "votes": [
           {
@@ -19542,7 +19571,7 @@
       {
         "kind": "resolution",
         "number": "2026-96",
-        "title": "Appoints a Network and System Specialist",
+        "title": "Appoints Network and System Specialist",
         "outcome": "adopted",
         "votes": [
           {
@@ -19604,38 +19633,7 @@
       {
         "kind": "motion",
         "number": null,
-        "title": "Take Resolution 2026-98 off the floor (retirement of administrative assistant)",
-        "outcome": "adopted",
-        "votes": [
-          {
-            "member": "Joann Waski",
-            "vote": "yes"
-          },
-          {
-            "member": "Denise Merrifield",
-            "vote": "yes"
-          },
-          {
-            "member": "Bob Kern",
-            "vote": "yes"
-          },
-          {
-            "member": "Ken Rothwell",
-            "vote": "yes"
-          },
-          {
-            "member": "Jerry Halpin",
-            "vote": "yes"
-          }
-        ],
-        "unanimous": true,
-        "confidence": "high",
-        "timestamp_s": null
-      },
-      {
-        "kind": "motion",
-        "number": null,
-        "title": "Take Resolution 2026-99 off the floor (consultant agreement with Joan Modern)",
+        "title": "Take Resolution 2026-99 off the floor",
         "outcome": "adopted",
         "votes": [
           {
@@ -19662,37 +19660,6 @@
         "unanimous": true,
         "confidence": "high",
         "timestamp_s": 7650
-      },
-      {
-        "kind": "motion",
-        "number": null,
-        "title": "Take Resolution 2026-100 off the floor (CSEA agreement)",
-        "outcome": "adopted",
-        "votes": [
-          {
-            "member": "Joann Waski",
-            "vote": "yes"
-          },
-          {
-            "member": "Denise Merrifield",
-            "vote": "yes"
-          },
-          {
-            "member": "Bob Kern",
-            "vote": "yes"
-          },
-          {
-            "member": "Ken Rothwell",
-            "vote": "yes"
-          },
-          {
-            "member": "Jerry Halpin",
-            "vote": "yes"
-          }
-        ],
-        "unanimous": true,
-        "confidence": "high",
-        "timestamp_s": 7683
       },
       {
         "kind": "resolution",
@@ -19723,12 +19690,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 7876
+        "timestamp_s": 7884
       },
       {
         "kind": "resolution",
         "number": "2026-99",
-        "title": "Authorize Consultant Professional Services Agreement with Joan Modern",
+        "title": "Consultant Professional Services Agreement with Joan Modern",
         "outcome": "adopted",
         "votes": [
           {
@@ -19759,7 +19726,7 @@
       {
         "kind": "resolution",
         "number": "2026-100",
-        "title": "Authorize Agreement with CSEA Local 1000 AFSCME AFL-CIO Riverhead Unit",
+        "title": "Agreement with CSEA Local 1000 AFSCME AFL-CIO Riverhead Unit",
         "outcome": "adopted",
         "votes": [
           {
@@ -19795,7 +19762,7 @@
         "votes": [],
         "unanimous": false,
         "confidence": "low",
-        "timestamp_s": 8858
+        "timestamp_s": 8857
       },
       {
         "kind": "motion",
@@ -19805,12 +19772,12 @@
         "votes": [],
         "unanimous": false,
         "confidence": "low",
-        "timestamp_s": 8882
+        "timestamp_s": 8879
       },
       {
         "kind": "motion",
-        "number": "2026-CDA-01",
-        "title": "CDA amends procurement and investment policy, adopts donation policy",
+        "number": "2026-1 (CDA)",
+        "title": "CDA amends procurement/investment policy, adopts donation policy",
         "outcome": "adopted",
         "votes": [
           {
@@ -19836,13 +19803,13 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 9266
+        "timestamp_s": 9263
       },
       {
         "kind": "motion",
-        "number": "2026-CDA-02",
-        "title": "CDA Omnibus Resolution Ratifying Committee Charters and Policies, as Amended",
-        "outcome": "amended",
+        "number": "2026-2 (CDA)",
+        "title": "CDA Omnibus Resolution re: Public Authorities Accountability Act, as amended",
+        "outcome": "adopted",
         "votes": [
           {
             "member": "Joann Waski",
@@ -19863,12 +19830,12 @@
         ],
         "unanimous": true,
         "confidence": "low",
-        "timestamp_s": 9292
+        "timestamp_s": 9289
       },
       {
         "kind": "motion",
-        "number": "2026-CDA-03",
-        "title": "Authorize CDA Director to Execute License Agreement with Town of Riverhead, as Amended",
+        "number": "2026-3 (CDA)",
+        "title": "Authorize CDA Director to execute license agreement with Town of Riverhead",
         "outcome": "amended",
         "votes": [
           {
@@ -19897,35 +19864,14 @@
         "timestamp_s": 9380
       },
       {
-        "kind": "motion",
-        "number": "2026-03",
-        "title": "CDA authorizes CDA director to execute license agreement with Town of Riverhead",
-        "outcome": "amended",
-        "votes": [
-          {
-            "member": "Joann Waski",
-            "vote": "yes"
-          },
-          {
-            "member": "Denise Merrifield",
-            "vote": "yes"
-          },
-          {
-            "member": "Bob Kern",
-            "vote": "yes"
-          },
-          {
-            "member": "Ken Rothwell",
-            "vote": "yes"
-          },
-          {
-            "member": "Jerry Halpin",
-            "vote": "yes"
-          }
-        ],
-        "unanimous": true,
-        "confidence": "high",
-        "timestamp_s": 9380
+        "kind": "hearing_action",
+        "number": null,
+        "title": "Public hearing on golf cottage code amendment (definitions)",
+        "outcome": "held",
+        "votes": [],
+        "unanimous": false,
+        "confidence": "low",
+        "timestamp_s": 5657
       },
       {
         "kind": "motion",

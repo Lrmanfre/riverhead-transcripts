@@ -10941,44 +10941,13 @@
     "truncated": false,
     "model": "claude-sonnet-5",
     "prompt_version": "1",
-    "generated_at": "2026-08-25T21:11:50+00:00",
+    "generated_at": "2026-08-26T01:32:50+00:00",
     "grounded_in": "Minutes",
     "items": [
       {
         "kind": "resolution",
         "number": "2024-947",
-        "title": "Budget Adjustment for Settlement with State Farm Insurance Company",
-        "outcome": "adopted",
-        "votes": [
-          {
-            "member": "Joann Waski",
-            "vote": "yes"
-          },
-          {
-            "member": "Denise Merrifield",
-            "vote": "yes"
-          },
-          {
-            "member": "Bob Kern",
-            "vote": "yes"
-          },
-          {
-            "member": "Ken Rothwell",
-            "vote": "yes"
-          },
-          {
-            "member": "Halpin",
-            "vote": "yes"
-          }
-        ],
-        "unanimous": true,
-        "confidence": "low",
-        "timestamp_s": null
-      },
-      {
-        "kind": "resolution",
-        "number": "2024-948",
-        "title": "Authorizes Finance to Establish Budget for CDBG Final Contract",
+        "title": "Appoints police officers to the police department",
         "outcome": "adopted",
         "votes": [
           {
@@ -11004,7 +10973,48 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 4643
+        "timestamp_s": 264
+      },
+      {
+        "kind": "hearing_action",
+        "number": null,
+        "title": "Public hearing - Establish Fair and Reasonable Sewer Rent",
+        "outcome": "held",
+        "votes": [],
+        "unanimous": false,
+        "confidence": "low",
+        "timestamp_s": 1064
+      },
+      {
+        "kind": "resolution",
+        "number": "2024-948",
+        "title": "Authorizes Finance to Establish Budget for 2024 CDBG Final Contract",
+        "outcome": "adopted",
+        "votes": [
+          {
+            "member": "Joann Waski",
+            "vote": "yes"
+          },
+          {
+            "member": "Denise Merrifield",
+            "vote": "yes"
+          },
+          {
+            "member": "Bob Kern",
+            "vote": "yes"
+          },
+          {
+            "member": "Ken Rothwell",
+            "vote": "yes"
+          },
+          {
+            "member": "Tim Hubbard",
+            "vote": "yes"
+          }
+        ],
+        "unanimous": true,
+        "confidence": "high",
+        "timestamp_s": 4660
       },
       {
         "kind": "resolution",
@@ -11035,12 +11045,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 4643
+        "timestamp_s": 4680
       },
       {
         "kind": "resolution",
         "number": "2024-950",
-        "title": "Waives Fee for Use of Showmobile for Tree Lighting",
+        "title": "Waives Fee for Use of Showmobile for Tree Lighting at Town Square",
         "outcome": "adopted",
         "votes": [
           {
@@ -11066,7 +11076,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 4643
+        "timestamp_s": 4696
       },
       {
         "kind": "resolution",
@@ -11097,17 +11107,17 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 4643
+        "timestamp_s": 4712
       },
       {
         "kind": "resolution",
         "number": "2024-952",
-        "title": "Authorizes Shot Gun Hunting for Deer on Town Property",
+        "title": "Authorizes Shotgun Hunting for Deer on Town Property at Enterprise Park at Calverton",
         "outcome": "adopted",
         "votes": [],
         "unanimous": false,
         "confidence": "low",
-        "timestamp_s": null
+        "timestamp_s": 4728
       },
       {
         "kind": "resolution",
@@ -11117,17 +11127,38 @@
         "votes": [],
         "unanimous": false,
         "confidence": "low",
-        "timestamp_s": null
+        "timestamp_s": 4767
       },
       {
         "kind": "resolution",
         "number": "2024-954",
         "title": "Re-Appoints Brian Mills to Board of Assessment Review",
         "outcome": "adopted",
-        "votes": [],
-        "unanimous": false,
-        "confidence": "low",
-        "timestamp_s": null
+        "votes": [
+          {
+            "member": "Joann Waski",
+            "vote": "yes"
+          },
+          {
+            "member": "Denise Merrifield",
+            "vote": "yes"
+          },
+          {
+            "member": "Bob Kern",
+            "vote": "yes"
+          },
+          {
+            "member": "Ken Rothwell",
+            "vote": "yes"
+          },
+          {
+            "member": "Tim Hubbard",
+            "vote": "yes"
+          }
+        ],
+        "unanimous": true,
+        "confidence": "high",
+        "timestamp_s": 4790
       },
       {
         "kind": "resolution",
@@ -11137,12 +11168,12 @@
         "votes": [],
         "unanimous": false,
         "confidence": "low",
-        "timestamp_s": null
+        "timestamp_s": 4801
       },
       {
         "kind": "resolution",
         "number": "2024-956",
-        "title": "Ratifies Appointments of Two Water Treatment Plant Operator IIB",
+        "title": "Ratifies the Appointments of Two Water Treatment Plant Operator IIB",
         "outcome": "adopted",
         "votes": [
           {
@@ -11168,12 +11199,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 4826
+        "timestamp_s": 4812
       },
       {
         "kind": "resolution",
         "number": "2024-957",
-        "title": "Ratifies Appointment of a Temporary Part-Time Office Assistant",
+        "title": "Ratifies the Appointment of a Temporary Part-Time Office Assistant",
         "outcome": "adopted",
         "votes": [
           {
@@ -11199,12 +11230,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 4826
+        "timestamp_s": 4837
       },
       {
         "kind": "resolution",
         "number": "2024-958",
-        "title": "Ratifies Appointment of a Part-Time Bilingual Clerk",
+        "title": "Ratifies the Appointment of a Part-Time Bilingual Clerk",
         "outcome": "adopted",
         "votes": [
           {
@@ -11230,12 +11261,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 4826
+        "timestamp_s": 4851
       },
       {
         "kind": "resolution",
         "number": "2024-959",
-        "title": "Ratifies Appointment of an Automotive Equipment Operator",
+        "title": "Ratifies the Appointment of an Automotive Equipment Operator",
         "outcome": "adopted",
         "votes": [
           {
@@ -11261,12 +11292,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 4826
+        "timestamp_s": 4867
       },
       {
         "kind": "resolution",
         "number": "2024-960",
-        "title": "Ratifies and Accepts Resignation of a Crossing Guard",
+        "title": "Ratifies and Accepts the Resignation of a Crossing Guard",
         "outcome": "adopted",
         "votes": [
           {
@@ -11292,7 +11323,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 4893
+        "timestamp_s": 4884
       },
       {
         "kind": "resolution",
@@ -11323,7 +11354,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 4826
+        "timestamp_s": 4910
       },
       {
         "kind": "resolution",
@@ -11354,12 +11385,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 4931
+        "timestamp_s": 4933
       },
       {
         "kind": "resolution",
         "number": "2024-963",
-        "title": "Ratifies Authorization for Supervisor to Execute Stipulation with Employee",
+        "title": "Ratifies Authorization for the Supervisor to Execute a Stipulation with an Employee",
         "outcome": "adopted",
         "votes": [
           {
@@ -11385,7 +11416,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 4826
+        "timestamp_s": 4944
       },
       {
         "kind": "resolution",
@@ -11416,12 +11447,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 4826
+        "timestamp_s": 4960
       },
       {
         "kind": "resolution",
         "number": "2024-965",
-        "title": "Authorizes Supervisor to Sign Agreement with Townscape for Tree Lighting",
+        "title": "Authorizes the Supervisor to Sign Agreement with Townscape for Tree Lighting at Town Square 2024",
         "outcome": "adopted",
         "votes": [
           {
@@ -11447,32 +11478,22 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 4826
+        "timestamp_s": 4978
       },
       {
         "kind": "resolution",
         "number": "2024-966",
-        "title": "Extends Agreement with PKF O'Connor Davies for Audit Services",
+        "title": "Extends Agreement with PKF O'Connor Davies, LLP for Audit Services",
         "outcome": "adopted",
         "votes": [],
         "unanimous": false,
         "confidence": "low",
-        "timestamp_s": null
-      },
-      {
-        "kind": "resolution",
-        "number": "2024-967",
-        "title": "Authorizes Affiliation Agreement with Keuka College",
-        "outcome": "adopted",
-        "votes": [],
-        "unanimous": false,
-        "confidence": "low",
-        "timestamp_s": null
+        "timestamp_s": 4993
       },
       {
         "kind": "resolution",
         "number": "2024-968",
-        "title": "Approves Special Event Application for Andrew's Top Gun Run 2025",
+        "title": "Approves Special Event Chapter 255 Application for Andrew's Top Gun Run 2025",
         "outcome": "adopted",
         "votes": [
           {
@@ -11498,12 +11519,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 5042
+        "timestamp_s": 5033
       },
       {
         "kind": "resolution",
         "number": "2024-969",
-        "title": "Approves Special Event Application for East End Arts Mosaic Festival",
+        "title": "Approves Special Event Chapter 255 Application for East End Arts Annual Mosaic Festival",
         "outcome": "adopted",
         "votes": [
           {
@@ -11529,7 +11550,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 5042
+        "timestamp_s": 5050
       },
       {
         "kind": "resolution",
@@ -11560,7 +11581,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 5042
+        "timestamp_s": 5070
       },
       {
         "kind": "resolution",
@@ -11591,52 +11612,84 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 5042
+        "timestamp_s": 5088
       },
       {
         "kind": "resolution",
         "number": "2024-972",
-        "title": "Authorizes Notice to Bidders for East Main Street Sewer Design",
+        "title": "Authorizes Town Clerk to Publish Notice to Bidders for 203-213 East Main Street Sewer Design",
         "outcome": "adopted",
-        "votes": [],
-        "unanimous": false,
+        "votes": [
+          {
+            "member": "Joann Waski",
+            "vote": "yes"
+          },
+          {
+            "member": "Bob Kern",
+            "vote": "yes"
+          },
+          {
+            "member": "Ken Rothwell",
+            "vote": "yes"
+          }
+        ],
+        "unanimous": true,
         "confidence": "low",
-        "timestamp_s": null
+        "timestamp_s": 5104
       },
       {
         "kind": "resolution",
         "number": "2024-973",
-        "title": "Authorizes Notice to Bidders for Yard Waste Grinding",
+        "title": "Authorizes Town Clerk to Publish Notice to Bidders for Highway Dept Grinding of Yard Waste",
         "outcome": "adopted",
-        "votes": [],
-        "unanimous": false,
+        "votes": [
+          {
+            "member": "Joann Waski",
+            "vote": "yes"
+          },
+          {
+            "member": "Bob Kern",
+            "vote": "yes"
+          }
+        ],
+        "unanimous": true,
         "confidence": "low",
-        "timestamp_s": null
+        "timestamp_s": 5122
       },
       {
         "kind": "resolution",
         "number": "2024-974",
-        "title": "Authorizes Notice to Bidders for Janitorial and Kitchen Supplies",
+        "title": "Authorizes Town Clerk to Publish Notice to Bidders for Janitorial and Kitchen Supplies",
         "outcome": "adopted",
-        "votes": [],
-        "unanimous": false,
+        "votes": [
+          {
+            "member": "Joann Waski",
+            "vote": "yes"
+          }
+        ],
+        "unanimous": true,
         "confidence": "low",
-        "timestamp_s": null
+        "timestamp_s": 5147
       },
       {
         "kind": "resolution",
         "number": "2024-975",
-        "title": "Adopts Local Law Amending Chapter 263 Penalties for Offenses",
+        "title": "Adopts Local Law Amending Chapter 263 - Penalties for Offenses",
         "outcome": "adopted",
-        "votes": [],
-        "unanimous": false,
+        "votes": [
+          {
+            "member": "Joann Waski",
+            "vote": "yes"
+          }
+        ],
+        "unanimous": true,
         "confidence": "low",
-        "timestamp_s": null
+        "timestamp_s": 5176
       },
       {
         "kind": "resolution",
         "number": "2024-976",
-        "title": "Adopts Local Law Amending Chapter 217 Penalties for Offenses",
+        "title": "Adopts Local Law Amending Chapter 217 - Penalties for Offenses",
         "outcome": "adopted",
         "votes": [
           {
@@ -11667,7 +11720,7 @@
       {
         "kind": "resolution",
         "number": "2024-977",
-        "title": "Assumes Lead Agency, Negative Declaration for Elite Towers Wading River",
+        "title": "Assumes Lead Agency, Issues Negative Declaration for Elite Towers Wading River Fire District Application",
         "outcome": "adopted",
         "votes": [
           {
@@ -11677,12 +11730,12 @@
         ],
         "unanimous": true,
         "confidence": "low",
-        "timestamp_s": 5411
+        "timestamp_s": 5458
       },
       {
         "kind": "resolution",
         "number": "2024-978",
-        "title": "Authorizes Community Development Dept to Apply for NYS DJS Funding",
+        "title": "Authorizes Community Development Dept to Apply for Funding through NYS DJS",
         "outcome": "adopted",
         "votes": [
           {
@@ -11708,7 +11761,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 5484
+        "timestamp_s": 5472
       },
       {
         "kind": "resolution",
@@ -11739,40 +11792,7 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 5484
-      },
-      {
-        "kind": "resolution",
-        "number": null,
-        "title": "Appoints five police officers to the Police Department",
-        "outcome": "adopted",
-        "votes": [
-          {
-            "member": "Joann Waski",
-            "vote": "yes"
-          },
-          {
-            "member": "Bob Kern",
-            "vote": "yes"
-          },
-          {
-            "member": "Ken Rothwell",
-            "vote": "yes"
-          }
-        ],
-        "unanimous": true,
-        "confidence": "high",
-        "timestamp_s": null
-      },
-      {
-        "kind": "hearing_action",
-        "number": null,
-        "title": "Public Hearing to Establish Fair and Reasonable Sewer Rent",
-        "outcome": "held",
-        "votes": [],
-        "unanimous": false,
-        "confidence": "low",
-        "timestamp_s": null
+        "timestamp_s": 5493
       },
       {
         "kind": "motion",
@@ -11803,12 +11823,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 5526
+        "timestamp_s": 5517
       },
       {
         "kind": "resolution",
-        "number": "2024-981",
-        "title": "Classifies Town Square Project as Type One Action Under SEQRA",
+        "number": "2024-982",
+        "title": "Classifies Town Square Development as Type One Action Pursuant to SEQRA",
         "outcome": "adopted",
         "votes": [
           {
@@ -11834,12 +11854,12 @@
         ],
         "unanimous": true,
         "confidence": "high",
-        "timestamp_s": 5567
+        "timestamp_s": 5552
       },
       {
         "kind": "motion",
         "number": null,
-        "title": "Table Resolution 982",
+        "title": "Tables next resolution, no action taken",
         "outcome": "tabled",
         "votes": [],
         "unanimous": false,
@@ -11849,7 +11869,7 @@
       {
         "kind": "resolution",
         "number": "2024-984",
-        "title": "Authorizes Supervisor to Execute Professional Services Agreement with Civic Plus LLC",
+        "title": "Authorizes the Supervisor to Execute Professional Services Agreement with CivicPlus LLC",
         "outcome": "adopted",
         "votes": [
           {
@@ -11867,20 +11887,16 @@
           {
             "member": "Ken Rothwell",
             "vote": "yes"
-          },
-          {
-            "member": "Tim Hubbard",
-            "vote": "yes"
           }
         ],
         "unanimous": true,
-        "confidence": "high",
-        "timestamp_s": 5598
+        "confidence": "low",
+        "timestamp_s": 5589
       },
       {
         "kind": "resolution",
         "number": "2024-985",
-        "title": "Ratifies Appointment of a Temporary Part-Time Office Assistant",
+        "title": "Ratifies the Appointment of a Temporary Part-Time Office Assistant",
         "outcome": "adopted",
         "votes": [
           {
@@ -11898,20 +11914,16 @@
           {
             "member": "Ken Rothwell",
             "vote": "yes"
-          },
-          {
-            "member": "Tim Hubbard",
-            "vote": "yes"
           }
         ],
         "unanimous": true,
-        "confidence": "high",
-        "timestamp_s": 5648
+        "confidence": "low",
+        "timestamp_s": 4837
       },
       {
         "kind": "motion",
         "number": null,
-        "title": "Close the Town Board Meeting",
+        "title": "Motion to Close the Town Board Meeting",
         "outcome": "adopted",
         "votes": [],
         "unanimous": false,
