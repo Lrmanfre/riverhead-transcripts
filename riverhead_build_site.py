@@ -552,11 +552,10 @@ a.badge-link:hover { background: #1a5c8a; color: #fff; text-decoration: none; }
 .support-faq dt { font-weight: bold; margin-top: 1.2rem; }
 .support-faq dd { margin-left: 0; color: #444; }
 
-/* End-of-transcript contribute ask. Wrapper matches .container so the box
-   lines up with the transcript column above it. */
-.support-cta-wrap { max-width: 860px; margin: 0 auto; padding: 0 1.5rem 2.5rem; }
+/* Contribute ask, placed between the meeting summary and the full transcript.
+   It renders inside .container, so it needs no width wrapper of its own. */
 .support-cta { background: #f7f9fc; border: 1px solid #d6e2ef; border-radius: 6px;
-  padding: 1.4rem 1.6rem; }
+  padding: 1.4rem 1.6rem; margin: 2rem 0 2.5rem; }
 .support-cta h2 { font-size: 1.05rem; margin: 0 0 .6rem; }
 .support-cta p { margin: 0 0 .85rem; color: #444; font-size: .95rem; line-height: 1.55; }
 .support-cta p:last-child { margin-bottom: 0; }
@@ -578,8 +577,7 @@ a.badge-link:hover { background: #1a5c8a; color: #fff; text-decoration: none; }
     flex: 1 1 100%; }
   .support-btn { flex: 0 0 auto; }
   .amount-btn { flex: 1 1 100%; }
-  .support-cta-wrap { padding: 0 1.25rem 2rem; }
-  .support-cta { padding: 1.2rem 1.1rem; }
+  .support-cta { padding: 1.2rem 1.1rem; margin: 1.5rem 0 2rem; }
   .cta-btn { display: block; text-align: center; }
 
   /* Stack each timestamp above its line instead of hiding it: the
@@ -707,30 +705,33 @@ function showFreq(btn, key) {
 # End-of-transcript contribute ask
 # ---------------------------------------------------------------------------
 
-# The header button is the only ask on the site, and it sits above the fold
-# before the reader has gotten anything out of the page. This block runs after
-# the transcript, at the moment the site has just done the thing it exists to do.
+# The header button sits above the fold, before the reader has gotten anything.
+# The other natural moment is the break between the meeting summary and the full
+# transcript: the summary is what most readers came for and where most of them
+# stop, and almost nobody reaches the end of a 170-minute transcript. So this
+# block renders after the timestamped-view toggle and before the transcript body.
 #
-# It deliberately lives OUTSIDE <main>: meeting pages put data-pagefind-body on
-# <main>, so anything inside it would be indexed into every meeting's search
-# excerpt. data-pagefind-ignore is belt and braces on top of that.
+# It sits INSIDE <main>, which carries data-pagefind-body, so data-pagefind-ignore
+# is load-bearing here, not decorative: without it this copy would be indexed into
+# every meeting's search excerpt.
+#
+# No running-cost figure by design. Naming a small annual number invites the reader
+# to anchor on it and undercuts the recurring ask.
 
 def support_cta(depth=0):
-    """Contribute ask for the bottom of a content page. "" when support is off."""
+    """Contribute ask for a content page. "" when support is off."""
     if not SUPPORT_ENABLED:
         return ""
     rel = "../" * depth
-    return """<div class="support-cta-wrap" data-pagefind-ignore>
-  <aside class="support-cta">
-    <h2>Was this useful?</h2>
-    <p>The Town does not publish searchable transcripts of its meetings, so this site
-    does. Every meeting here was transcribed, summarized, and posted by one person, and
-    nobody is paid for any of it. Hosting and the AI summaries run about $25 a year.</p>
-    <p>If this saved you an hour of scrubbing through meeting video, chipping in keeps
-    it going.</p>
-    <p><a class="cta-btn" href="{rel}{page}">Contribute</a></p>
-  </aside>
-</div>""".format(rel=rel, page=SUPPORT_PAGE)
+    return """<aside class="support-cta" data-pagefind-ignore>
+  <h2>Was this useful?</h2>
+  <p>The Town does not publish searchable transcripts of its meetings, so this site does.
+  Every meeting here is transcribed, summarized, and posted by one person, and nobody is
+  paid for any of it.</p>
+  <p>If this saved you an hour of scrubbing through meeting video, chipping in keeps it
+  going.</p>
+  <p><a class="cta-btn" href="{rel}{page}">Contribute</a></p>
+</aside>""".format(rel=rel, page=SUPPORT_PAGE)
 
 
 # ---------------------------------------------------------------------------
@@ -1377,9 +1378,9 @@ def build_meeting_page(record, output_path, depth=2):
   {decisions}
   {video}
   {timestamped}
+  {cta}
   {readable}
 </main>
-{cta}
 {footer}
 {js}
 </body>
