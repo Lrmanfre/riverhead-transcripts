@@ -67,9 +67,33 @@ CONTACT_EMAIL       = "riverheadtranscripts@gmail.com"
 THANKS_PAGE     = "thanks.html"
 
 PRIVACY_PAGE    = "privacy.html"
-# Bump this by hand whenever the privacy policy text changes. It is deliberately
-# NOT tied to BUILD_TIME, which would make the date churn on every nightly build.
-PRIVACY_UPDATED = "August 16, 2026"
+# Bump these by hand whenever the privacy policy text changes. Deliberately NOT
+# tied to BUILD_TIME, which would make the date churn on every nightly build.
+# Two dates because the policy text itself depends on CF_ANALYTICS_TOKEN below.
+# With no token the page says exactly what it has said since launch, so it keeps
+# the launch date instead of claiming a change that did not happen.
+PRIVACY_UPDATED_BASE      = "August 16, 2026"
+PRIVACY_UPDATED_ANALYTICS = "August 29, 2026"
+
+# --- Analytics -------------------------------------------------------------
+# Cloudflare Web Analytics. Cookieless, sets no identifiers, needs no consent
+# banner. GitHub Pages exposes no server logs, so without this the site has zero
+# visibility into real traffic. (GitHub's Insights > Traffic graph counts views
+# of the repository page on github.com, NOT visits to riverheadtranscripts.org.)
+#
+# To switch on: Cloudflare dashboard > Analytics & Logs > Web Analytics > Add a
+# site > riverheadtranscripts.org, then paste the token out of the snippet it
+# hands you between the quotes below and rebuild. The token is public by design;
+# it ships in the HTML of every page, so it does not belong in riverhead.env.
+#
+# Empty string = no beacon on any page AND a privacy policy that says the site
+# runs no analytics. Emptying it again cleanly reverses both.
+CF_ANALYTICS_TOKEN = ""
+
+
+def analytics_on():
+    """True when a Cloudflare beacon token is configured."""
+    return bool(CF_ANALYTICS_TOKEN.strip())
 
 # Set by main() once, then read by html_header() on every page.
 SUPPORT_ENABLED = False
@@ -528,6 +552,18 @@ a.badge-link:hover { background: #1a5c8a; color: #fff; text-decoration: none; }
 .support-faq dt { font-weight: bold; margin-top: 1.2rem; }
 .support-faq dd { margin-left: 0; color: #444; }
 
+/* End-of-transcript contribute ask. Wrapper matches .container so the box
+   lines up with the transcript column above it. */
+.support-cta-wrap { max-width: 860px; margin: 0 auto; padding: 0 1.5rem 2.5rem; }
+.support-cta { background: #f7f9fc; border: 1px solid #d6e2ef; border-radius: 6px;
+  padding: 1.4rem 1.6rem; }
+.support-cta h2 { font-size: 1.05rem; margin: 0 0 .6rem; }
+.support-cta p { margin: 0 0 .85rem; color: #444; font-size: .95rem; line-height: 1.55; }
+.support-cta p:last-child { margin-bottom: 0; }
+.cta-btn { display: inline-block; padding: .55rem 1.3rem; background: #c62828;
+  color: #fff; border-radius: 4px; font-weight: bold; font-size: .95rem; }
+.cta-btn:hover { background: #d1342b; color: #fff; text-decoration: none; }
+
 @media (max-width: 600px) {
   body { font-size: 16px; }
   .site-header { padding: 1.2rem 1.25rem; flex-direction: column;
@@ -542,6 +578,9 @@ a.badge-link:hover { background: #1a5c8a; color: #fff; text-decoration: none; }
     flex: 1 1 100%; }
   .support-btn { flex: 0 0 auto; }
   .amount-btn { flex: 1 1 100%; }
+  .support-cta-wrap { padding: 0 1.25rem 2rem; }
+  .support-cta { padding: 1.2rem 1.1rem; }
+  .cta-btn { display: block; text-align: center; }
 
   /* Stack each timestamp above its line instead of hiding it: the
      timestamped view is useless without the timestamps, and a 3.5rem
@@ -557,6 +596,20 @@ a.badge-link:hover { background: #1a5c8a; color: #fff; text-decoration: none; }
 # HTML helpers
 # ---------------------------------------------------------------------------
 
+def analytics_beacon():
+    """Cloudflare's beacon snippet, or "" when no token is configured.
+
+    Cloudflare's docs suggest placing this just before </body>. It is deferred,
+    so it executes after the document is parsed wherever it sits, and <head> is
+    the one hook every page on this site shares.
+    """
+    if not analytics_on():
+        return ""
+    return ('\n  <!-- Cloudflare Web Analytics (cookieless, no personal data) -->'
+            '\n  <script defer src="https://static.cloudflareinsights.com/beacon.min.js"'
+            ' data-cf-beacon=\'{"token": "' + CF_ANALYTICS_TOKEN.strip() + '"}\'></script>')
+
+
 def html_head(title, depth=0):
     rel = "../" * depth
     return """<!DOCTYPE html>
@@ -567,8 +620,8 @@ def html_head(title, depth=0):
   <title>{t} — {s}</title>
   <link rel="stylesheet" href="{rel}assets/style.css">
   <link href="{rel}_pagefind/pagefind-ui.css" rel="stylesheet">
-  <script src="{rel}_pagefind/pagefind-ui.js"></script>
-</head>""".format(t=title, s=SITE_TITLE, rel=rel)
+  <script src="{rel}_pagefind/pagefind-ui.js"></script>{beacon}
+</head>""".format(t=title, s=SITE_TITLE, rel=rel, beacon=analytics_beacon())
 
 def html_header(depth=0, show_support=True):
     rel = "../" * depth
@@ -649,6 +702,36 @@ function showFreq(btn, key) {
   if (target) { target.classList.add('active'); }
 }
 </script>"""
+
+# ---------------------------------------------------------------------------
+# End-of-transcript contribute ask
+# ---------------------------------------------------------------------------
+
+# The header button is the only ask on the site, and it sits above the fold
+# before the reader has gotten anything out of the page. This block runs after
+# the transcript, at the moment the site has just done the thing it exists to do.
+#
+# It deliberately lives OUTSIDE <main>: meeting pages put data-pagefind-body on
+# <main>, so anything inside it would be indexed into every meeting's search
+# excerpt. data-pagefind-ignore is belt and braces on top of that.
+
+def support_cta(depth=0):
+    """Contribute ask for the bottom of a content page. "" when support is off."""
+    if not SUPPORT_ENABLED:
+        return ""
+    rel = "../" * depth
+    return """<div class="support-cta-wrap" data-pagefind-ignore>
+  <aside class="support-cta">
+    <h2>Was this useful?</h2>
+    <p>The Town does not publish searchable transcripts of its meetings, so this site
+    does. Every meeting here was transcribed, summarized, and posted by one person, and
+    nobody is paid for any of it. Hosting and the AI summaries run about $25 a year.</p>
+    <p>If this saved you an hour of scrubbing through meeting video, chipping in keeps
+    it going.</p>
+    <p><a class="cta-btn" href="{rel}{page}">Contribute</a></p>
+  </aside>
+</div>""".format(rel=rel, page=SUPPORT_PAGE)
+
 
 # ---------------------------------------------------------------------------
 # Support page
@@ -871,26 +954,63 @@ def build_thanks_page(portal_url, output_path):
 # ---------------------------------------------------------------------------
 
 def build_privacy_page(output_path):
+    # The policy has to describe the site that actually shipped, so this text is
+    # driven by CF_ANALYTICS_TOKEN rather than hand-maintained. Turning the token
+    # off restores the original "no analytics at all" wording automatically.
+    if analytics_on():
+        updated = PRIVACY_UPDATED_ANALYTICS
+        lede = ("Short version: this site does not identify you. There are no accounts, "
+                "no cookies, and no advertising. Page views are counted in aggregate, "
+                "without cookies and without anything that singles out a person.")
+        collects = ("Nothing that identifies you. Reading transcripts on "
+                    "riverheadtranscripts.org requires no account and sets no cookies. "
+                    "There are no advertising networks and no cross-site tracking pixels "
+                    "anywhere on the site. The one measurement script is described under "
+                    "Analytics below.")
+        analytics_section = """
+  <h2>Analytics</h2>
+  <p>This site uses Cloudflare Web Analytics to count page views. It is here for one
+  reason: GitHub Pages gives me no server logs at all, so without it I have no way to
+  know whether anyone is using the site.</p>
+
+  <p>It sets no cookies, stores nothing on your device, and does not fingerprint your
+  browser. It does not follow you to other sites, does not link one visit to another,
+  and does not build a profile of you. What I see is aggregate counts: how many times a
+  page was loaded, the general region a visit came from, and which site linked here. I
+  cannot tell who you are and I cannot pick an individual visitor out of it. Cloudflare
+  processes this as my service provider under its own privacy policy.</p>
+"""
+        no_ads_bullet = ("<li>I do not run ads or embed advertising code, and I use no "
+                         "cross-site tracking beyond the cookieless page counting "
+                         "described above.</li>")
+    else:
+        updated = PRIVACY_UPDATED_BASE
+        lede = ("Short version: this site does not track you. There are no accounts, "
+                "no cookies set by this site, no analytics, and no advertising.")
+        collects = ("Nothing. Reading transcripts on riverheadtranscripts.org requires no "
+                    "account and sets no cookies. There are no analytics scripts, no "
+                    "tracking pixels, and no advertising networks anywhere on the site.")
+        analytics_section = ""
+        no_ads_bullet = ("<li>I do not run ads or embed third-party advertising or "
+                         "tracking code.</li>")
+
     body = """<main class="container text-page" data-pagefind-ignore>
   <nav class="breadcrumb"><a href="index.html">Home</a> &rsaquo; Privacy</nav>
 
   <h1>Privacy policy</h1>
   <p class="updated">Last updated: {updated}</p>
 
-  <p class="lede">Short version: this site does not track you. There are no accounts,
-  no cookies set by this site, no analytics, and no advertising.</p>
+  <p class="lede">{lede}</p>
 
   <h2>What this site collects</h2>
-  <p>Nothing. Reading transcripts on riverheadtranscripts.org requires no account and
-  sets no cookies. There are no analytics scripts, no tracking pixels, and no
-  advertising networks anywhere on the site.</p>
+  <p>{collects}</p>
 
   <h2>Hosting</h2>
   <p>The site is served by GitHub Pages. Like any web host, GitHub receives standard
   request information, including your IP address and browser type, in order to deliver
   the page. That data is handled under GitHub's privacy statement, not by me. I have no
   access to server logs and cannot see who visits.</p>
-
+{analytics}
   <h2>Search</h2>
   <p>Search runs entirely inside your browser using Pagefind. The search index is
   downloaded to your device and queried locally. What you type into the search box is
@@ -930,7 +1050,7 @@ def build_privacy_page(output_path):
   <h2>What I do not do</h2>
   <ul>
     <li>I do not sell, rent, or share personal information.</li>
-    <li>I do not run ads or embed third-party advertising or tracking code.</li>
+    {no_ads}
     <li>I do not build profiles of visitors or maintain a mailing list.</li>
     <li>I do not use cookies to identify or follow you.</li>
   </ul>
@@ -941,7 +1061,9 @@ def build_privacy_page(output_path):
 
   <h2>Contact</h2>
   <p>Questions about any of this: <a href="mailto:{email}">{email}</a></p>
-</main>""".format(updated=PRIVACY_UPDATED, email=CONTACT_EMAIL)
+</main>""".format(updated=updated, email=CONTACT_EMAIL, lede=lede,
+                  collects=collects, analytics=analytics_section,
+                  no_ads=no_ads_bullet)
 
     html = """{head}
 <body>
@@ -1257,12 +1379,14 @@ def build_meeting_page(record, output_path, depth=2):
   {timestamped}
   {readable}
 </main>
+{cta}
 {footer}
 {js}
 </body>
 </html>""".format(
         head       = html_head(page_title, depth=depth),
         header     = html_header(depth=depth),
+        cta        = support_cta(depth=depth),
         footer     = html_footer(depth=depth),
         js         = ((VIDEO_JS if video_url else "")
                       + (SUMMARY_JS if summary_html else "")
