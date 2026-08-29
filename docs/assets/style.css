@@ -225,6 +225,18 @@ a.badge-link:hover { background: #1a5c8a; color: #fff; text-decoration: none; }
 .support-faq dt { font-weight: bold; margin-top: 1.2rem; }
 .support-faq dd { margin-left: 0; color: #444; }
 
+/* End-of-transcript contribute ask. Wrapper matches .container so the box
+   lines up with the transcript column above it. */
+.support-cta-wrap { max-width: 860px; margin: 0 auto; padding: 0 1.5rem 2.5rem; }
+.support-cta { background: #f7f9fc; border: 1px solid #d6e2ef; border-radius: 6px;
+  padding: 1.4rem 1.6rem; }
+.support-cta h2 { font-size: 1.05rem; margin: 0 0 .6rem; }
+.support-cta p { margin: 0 0 .85rem; color: #444; font-size: .95rem; line-height: 1.55; }
+.support-cta p:last-child { margin-bottom: 0; }
+.cta-btn { display: inline-block; padding: .55rem 1.3rem; background: #c62828;
+  color: #fff; border-radius: 4px; font-weight: bold; font-size: .95rem; }
+.cta-btn:hover { background: #d1342b; color: #fff; text-decoration: none; }
+
 @media (max-width: 600px) {
   body { font-size: 16px; }
   .site-header { padding: 1.2rem 1.25rem; flex-direction: column;
@@ -239,6 +251,9 @@ a.badge-link:hover { background: #1a5c8a; color: #fff; text-decoration: none; }
     flex: 1 1 100%; }
   .support-btn { flex: 0 0 auto; }
   .amount-btn { flex: 1 1 100%; }
+  .support-cta-wrap { padding: 0 1.25rem 2rem; }
+  .support-cta { padding: 1.2rem 1.1rem; }
+  .cta-btn { display: block; text-align: center; }
 
   /* Stack each timestamp above its line instead of hiding it: the
      timestamped view is useless without the timestamps, and a 3.5rem
