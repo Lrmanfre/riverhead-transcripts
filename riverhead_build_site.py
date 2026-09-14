@@ -69,31 +69,40 @@ THANKS_PAGE     = "thanks.html"
 PRIVACY_PAGE    = "privacy.html"
 # Bump these by hand whenever the privacy policy text changes. Deliberately NOT
 # tied to BUILD_TIME, which would make the date churn on every nightly build.
-# Two dates because the policy text itself depends on CF_ANALYTICS_TOKEN below.
+# Two dates because the policy text itself depends on UMAMI_WEBSITE_ID below.
 # With no token the page says exactly what it has said since launch, so it keeps
 # the launch date instead of claiming a change that did not happen.
 PRIVACY_UPDATED_BASE      = "August 16, 2026"
 PRIVACY_UPDATED_ANALYTICS = "August 29, 2026"
 
 # --- Analytics -------------------------------------------------------------
-# Cloudflare Web Analytics. Cookieless, sets no identifiers, needs no consent
-# banner. GitHub Pages exposes no server logs, so without this the site has zero
-# visibility into real traffic. (GitHub's Insights > Traffic graph counts views
-# of the repository page on github.com, NOT visits to riverheadtranscripts.org.)
+# Umami. Cookieless, stores no IP address, needs no consent banner. GitHub Pages
+# exposes no server logs, so without this the site has zero visibility into real
+# traffic. (GitHub's Insights > Traffic graph counts views of the repository page
+# on github.com, NOT visits to riverheadtranscripts.org.)
 #
-# To switch on: Cloudflare dashboard > Analytics & Logs > Web Analytics > Add a
-# site > riverheadtranscripts.org, then paste the token out of the snippet it
-# hands you between the quotes below and rebuild. The token is public by design;
-# it ships in the HTML of every page, so it does not belong in riverhead.env.
+# Chosen after Cloudflare Web Analytics proved unusable: its site-creation call
+# returns 401 on this account, no API token permission exists that can work
+# around it, and Free-plan accounts cannot open a support ticket to ask why.
+# Read riverhead_analytics_and_cta.md before reaching for Cloudflare again.
+#
+# To switch on: umami.is > add website riverheadtranscripts.org, then paste the
+# data-website-id it hands you between the quotes below and rebuild. The ID is
+# public by design; it ships in the HTML of every page, so it does not belong in
+# riverhead.env.
+#
+# UMAMI_SCRIPT_URL points at Umami Cloud. Repoint it at your own host if this
+# ever moves to a self-hosted instance; nothing else needs to change.
 #
 # Empty string = no beacon on any page AND a privacy policy that says the site
 # runs no analytics. Emptying it again cleanly reverses both.
-CF_ANALYTICS_TOKEN = ""
+UMAMI_WEBSITE_ID = ""
+UMAMI_SCRIPT_URL = "https://cloud.umami.is/script.js"
 
 
 def analytics_on():
-    """True when a Cloudflare beacon token is configured."""
-    return bool(CF_ANALYTICS_TOKEN.strip())
+    """True when a Umami website ID is configured."""
+    return bool(UMAMI_WEBSITE_ID.strip())
 
 # Set by main() once, then read by html_header() on every page.
 SUPPORT_ENABLED = False
@@ -595,17 +604,17 @@ a.badge-link:hover { background: #1a5c8a; color: #fff; text-decoration: none; }
 # ---------------------------------------------------------------------------
 
 def analytics_beacon():
-    """Cloudflare's beacon snippet, or "" when no token is configured.
+    """Umami's tracker tag, or "" when no website ID is configured.
 
-    Cloudflare's docs suggest placing this just before </body>. It is deferred,
-    so it executes after the document is parsed wherever it sits, and <head> is
-    the one hook every page on this site shares.
+    Umami's docs put this in <head>. It is deferred, so it executes after the
+    document is parsed wherever it sits, and <head> is the one hook every page
+    on this site shares.
     """
     if not analytics_on():
         return ""
-    return ('\n  <!-- Cloudflare Web Analytics (cookieless, no personal data) -->'
-            '\n  <script defer src="https://static.cloudflareinsights.com/beacon.min.js"'
-            ' data-cf-beacon=\'{"token": "' + CF_ANALYTICS_TOKEN.strip() + '"}\'></script>')
+    return ('\n  <!-- Umami analytics (cookieless, no IP address stored) -->'
+            '\n  <script defer src="' + UMAMI_SCRIPT_URL + '"'
+            ' data-website-id="' + UMAMI_WEBSITE_ID.strip() + '"></script>')
 
 
 def html_head(title, depth=0):
@@ -956,13 +965,14 @@ def build_thanks_page(portal_url, output_path):
 
 def build_privacy_page(output_path):
     # The policy has to describe the site that actually shipped, so this text is
-    # driven by CF_ANALYTICS_TOKEN rather than hand-maintained. Turning the token
-    # off restores the original "no analytics at all" wording automatically.
+    # driven by UMAMI_WEBSITE_ID rather than hand-maintained. Clearing the ID
+    # restores the original "no analytics at all" wording automatically.
     if analytics_on():
         updated = PRIVACY_UPDATED_ANALYTICS
         lede = ("Short version: this site does not identify you. There are no accounts, "
                 "no cookies, and no advertising. Page views are counted in aggregate, "
-                "without cookies and without anything that singles out a person.")
+                "without cookies and without storing your IP address or building a "
+                "profile of you.")
         collects = ("Nothing that identifies you. Reading transcripts on "
                     "riverheadtranscripts.org requires no account and sets no cookies. "
                     "There are no advertising networks and no cross-site tracking pixels "
@@ -970,16 +980,18 @@ def build_privacy_page(output_path):
                     "Analytics below.")
         analytics_section = """
   <h2>Analytics</h2>
-  <p>This site uses Cloudflare Web Analytics to count page views. It is here for one
-  reason: GitHub Pages gives me no server logs at all, so without it I have no way to
-  know whether anyone is using the site.</p>
+  <p>This site uses Umami to count page views. It is here for one reason: GitHub Pages
+  gives me no server logs at all, so without it I have no way to know whether anyone is
+  using the site.</p>
 
-  <p>It sets no cookies, stores nothing on your device, and does not fingerprint your
-  browser. It does not follow you to other sites, does not link one visit to another,
-  and does not build a profile of you. What I see is aggregate counts: how many times a
-  page was loaded, the general region a visit came from, and which site linked here. I
-  cannot tell who you are and I cannot pick an individual visitor out of it. Cloudflare
-  processes this as my service provider under its own privacy policy.</p>
+  <p>It sets no cookies and stores nothing on your device. It does not follow you to
+  other sites and does not build a profile of you. Your IP address is not stored. What I
+  see is aggregate counts: how many times a page was loaded, the general region a visit
+  came from, the kind of browser and device used, and which site linked here. So that the
+  several pages of one visit are counted as one visit, Umami derives a temporary
+  identifier from your IP address and browser that is discarded and regenerated every
+  day, which means visits cannot be connected from one day to the next. I cannot tell who
+  you are. Umami processes this as my service provider under its own privacy policy.</p>
 """
         no_ads_bullet = ("<li>I do not run ads or embed advertising code, and I use no "
                          "cross-site tracking beyond the cookieless page counting "
