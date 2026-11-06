@@ -1,4 +1,6 @@
 event_id,event_date,category,title,agenda_name,status,has_video,video_url,duration_minutes,has_agenda,agenda_pdf_url,minutes_pdf_url,location
+6523,2026-11-05,Planning Board,Planning Board Meeting,"November 5, 2026",Published,False,,,True,https://riverheadny.portal.civicclerk.com/event/6523/files/agenda/6045,,"Riverhead Town Hall, 4 West Second Street, Riverhead, NY"
+6444,2026-11-05,Town Board,Town Board Meeting,Agenda for Town Board Meeting 11/5/2026,Published,True,https://cpmedia.azureedge.net/riverheadny/0fb4df60f4.mp4,86,True,https://riverheadny.portal.civicclerk.com/event/6444/files/agenda/6069,,"Riverhead Town Hall, 4 West Second Street, Riverhead, NY"
 6723,2026-11-03,Pre-Submission Conferences,Pre-Submission Conferences,11.03.2026 No Pre Submission Meeting - ELECTION DAY,Published,False,,,True,https://riverheadny.portal.civicclerk.com/event/6723/files/agenda/6092,,
 6503,2026-10-29,Town Board Work Session,Town Board Work Session,Work Session Agenda 10-29-26,Published,False,,,True,https://riverheadny.portal.civicclerk.com/event/6503/files/agenda/6091,,"Riverhead Town Hall, 4 West Second Street, Riverhead, NY"
 6431,2026-10-28,Architectural Review Board,Architectural Review Board,"October 28, 2026",Published,False,,,True,https://riverheadny.portal.civicclerk.com/event/6431/files/agenda/6086,,"4 W Second Street, Riverhead, NY"
