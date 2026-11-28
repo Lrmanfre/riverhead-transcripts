@@ -73,7 +73,7 @@ PRIVACY_PAGE    = "privacy.html"
 # With no token the page says exactly what it has said since launch, so it keeps
 # the launch date instead of claiming a change that did not happen.
 PRIVACY_UPDATED_BASE      = "August 16, 2026"
-PRIVACY_UPDATED_ANALYTICS = "August 29, 2026"
+PRIVACY_UPDATED_ANALYTICS = "November 28, 2026"
 
 # --- Analytics -------------------------------------------------------------
 # Umami. Cookieless, stores no IP address, needs no consent banner. GitHub Pages
@@ -96,7 +96,7 @@ PRIVACY_UPDATED_ANALYTICS = "August 29, 2026"
 #
 # Empty string = no beacon on any page AND a privacy policy that says the site
 # runs no analytics. Emptying it again cleanly reverses both.
-UMAMI_WEBSITE_ID = ""
+UMAMI_WEBSITE_ID = "e3bce6b0-bc10-4d17-b759-81c649a6ecbc"
 UMAMI_SCRIPT_URL = "https://cloud.umami.is/script.js"
 
 
@@ -970,9 +970,8 @@ def build_privacy_page(output_path):
     if analytics_on():
         updated = PRIVACY_UPDATED_ANALYTICS
         lede = ("Short version: this site does not identify you. There are no accounts, "
-                "no cookies, and no advertising. Page views are counted in aggregate, "
-                "without cookies and without storing your IP address or building a "
-                "profile of you.")
+                "no cookies, and no advertising. Page views are counted without "
+                "cookies and without storing your IP address.")
         collects = ("Nothing that identifies you. Reading transcripts on "
                     "riverheadtranscripts.org requires no account and sets no cookies. "
                     "There are no advertising networks and no cross-site tracking pixels "
@@ -985,12 +984,14 @@ def build_privacy_page(output_path):
   using the site.</p>
 
   <p>It sets no cookies and stores nothing on your device. It does not follow you to
-  other sites and does not build a profile of you. Your IP address is not stored. What I
-  see is aggregate counts: how many times a page was loaded, the general region a visit
-  came from, the kind of browser and device used, and which site linked here. So that the
-  several pages of one visit are counted as one visit, Umami derives a temporary
-  identifier from your IP address and browser that is discarded and regenerated every
-  day, which means visits cannot be connected from one day to the next. I cannot tell who
+  other sites, and your IP address is not stored. What I see is counts: how many times a
+  page was loaded, the general region a visit came from, the kind of browser and device
+  used, and which site linked here. To count unique visitors, Umami combines your IP
+  address and browser details with a secret value that changes every month and turns them
+  into an anonymous identifier. Page views that share that identifier within the same
+  month are grouped together. When the value changes at the start of each month, the old
+  identifier stops matching, so activity cannot be connected from one month to the next.
+  The identifier is not tied to your name, email, or any account, and I cannot tell who
   you are. Umami processes this as my service provider under its own privacy policy.</p>
 """
         no_ads_bullet = ("<li>I do not run ads or embed advertising code, and I use no "
